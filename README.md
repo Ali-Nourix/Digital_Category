@@ -1,24 +1,28 @@
 # Behkooshan Digital Catalogue
 
 Bilingual (Persian and English) digital catalogue for Behkooshan stone
-processing. Plain static HTML and CSS, no build step, no dependencies.
+processing. Plain static HTML and CSS, no runtime dependencies.
 
-Design rules live in **[docs/DESIGN.md](docs/DESIGN.md)**. Read that before
-changing anything visual.
+The visual rules come from the Behkooshan Design Guide.
+**[docs/DESIGN.md](docs/DESIGN.md)** records how that guide is implemented
+here and where it was silent. Read it before changing anything visual.
 
 ## Structure
 
 ```
 index.html                    Persian home, RTL. The site root.
 en/index.html                 English home, LTR.
-products/                     Persian product index and page template
-en/products/                  English product index and page template
+products/                     Persian catalogue, generated
+en/products/                  English catalogue, generated
 404.html                      Self contained error page
+data/products.json            Single source of truth for products
+tools/build-catalogue.mjs     Generates the catalogue pages
+tools/build-shape-css.py      Generates assets/css/shapes.css
 assets/css/                   fonts, tokens, site, shapes, product
-assets/fonts/                 Rokh (7 static weights) and TT Firs Neue (variable)
-assets/logos/                 4 lockups, each in green and bone
-assets/shapes/                21 abstract brand shapes
-docs/DESIGN.md                Design guide
+assets/fonts/                 Rokh (7 static weights), TT Firs Neue (variable)
+assets/logos/                 4 lockups, currentColor
+assets/shapes/                21 abstract brand shapes, currentColor
+docs/DESIGN.md                Implementation notes for the design guide
 ```
 
 Persian sits at the root because the domain is `.ir` and the primary audience
@@ -35,40 +39,53 @@ python3 -m http.server 8000
 ```
 
 Then open <http://localhost:8000>. Opening the files directly with `file://`
-will not work, because the font and shape URLs are resolved relative to the
+will not work, because the font and shape URLs resolve relative to the
 document.
+
+## Adding or editing a product
+
+Product pages are generated, so never edit `products/*.html` by hand. Those
+edits are lost on the next build.
+
+1. Add or change the entry in `data/products.json`. Each product carries a
+   `slug`, a `category`, and a `name`, `lede` and six `specs` per language.
+2. Run the generator:
+
+   ```bash
+   node tools/build-catalogue.mjs
+   ```
+
+   It writes the index and one detail page per product, in both languages.
+3. Commit the JSON and the generated HTML together.
+
+Replacing a placeholder with a real photograph means swapping the whole
+`media-slot` div for an `<img>`. Each slot's label states the size it needs.
+
+The specification grid is laid out for the six fields the design guide
+defines. If that count changes, update `grid-template-columns` in
+`assets/css/product.css` so the grid never ends on a half empty row.
+
+After adding, removing or re-exporting a logo or shape, run
+`python3 tools/build-shape-css.py` to refresh the generated stylesheet.
 
 ## Deployment
 
 `.github/workflows/deploy-pages.yml` publishes the `Behkooshan` branch to
-GitHub Pages on every push. There is no build step; the repository root is
-uploaded as is.
+GitHub Pages on every push. The generators run locally and their output is
+committed, so deployment itself is a plain file upload with no build step.
 
 One manual step is needed the first time: in the repository, go to
 **Settings > Pages** and set **Source** to **GitHub Actions**. Until that is
 set, the workflow runs and then fails at the deploy step.
 
-After that, pushing to `Behkooshan` publishes. The workflow can also be run
-by hand from the Actions tab.
-
-## Adding a product
-
-1. Copy `products/template.html` and `en/products/template.html` to the new
-   product slug in both languages.
-2. Replace each `SLOT` comment with the real content. The image slots take an
-   `<img>` in place of the whole `media-slot` div.
-3. Point the two pages at each other with `hreflang`, and set the language
-   switch links.
-4. Add a card to `products/index.html` and `en/products/index.html`.
-5. Delete the `notice` block, which exists only to mark the page as a template.
-
-The specification grid is laid out for six specifications. If that count
-changes, update `grid-template-columns` in `assets/css/product.css` so the
-grid never ends on a half empty row.
-
 ## Before going live
 
-TT Firs Neue is currently the **Trial** file, which is not licensed for
-public deployment. A commercial web licence has to be bought from TypeType
-and the file in `assets/fonts/tt-firs-neue/` replaced before the site is
-published on the production domain.
+- **Font licence.** TT Firs Neue is currently the Trial file, which is not
+  licensed for public deployment. Buy a commercial web licence from TypeType
+  and replace the file in `assets/fonts/tt-firs-neue/`.
+- **Product data.** Everything in `data/products.json` is sample data. The
+  stone names and quarries are real; the finishes, slab sizes, grades and
+  product codes are placeholders.
+- **Photography.** Every image on the site is still a labelled placeholder.
+- **Dark mode.** The design guide defines no dark palette. The values in
+  `tokens.css` are derived from its light palette and need sign off.

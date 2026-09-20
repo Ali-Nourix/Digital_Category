@@ -1,38 +1,47 @@
 /* ==========================================================================
    Behkooshan design tokens
-   Every value the catalog is allowed to use lives here. Components read
+   Every value the catalogue is allowed to use lives here. Components read
    tokens, never raw hex. Changing the brand means changing this file.
-   Source of truth: the Behkooshan stationery system (A4 design house, 2023).
+
+   Source of truth: the Behkooshan Design Guide. Values below are taken from
+   it literally. Where the guide is silent the gap is marked in a comment.
    ========================================================================== */
 
 :root {
-  /* --- Brand constants -------------------------------------------------
-     These three do not change between light and dark. They are the brand. */
-  --brand-green: #14754d;  /* primary. Logo, headings, links, primary action */
-  --brand-forest: #005038; /* deep ground. Full bleed surfaces, shape fills  */
-  --brand-bone: #d3d3c9;   /* warm neutral. Type on green, secondary surface */
+  /* --- Palette ---------------------------------------------------------
+     Two brand colours. Everything else is ink, paper and one hairline.
+     One accent per page, and it is the green. */
+  --green: #14754d;      /* the brand. Links, buttons, eyebrow, shapes      */
+  --green-deep: #0f5a3b; /* hover and pressed states of the green only      */
+  --green-tint: #e9f0ec; /* a quiet green ground for a full width band      */
+  --bone: #d3d3c9;       /* second brand colour. Calm surfaces, shapes      */
+  --bone-soft: #e6e6de;  /* panel ground and placeholder stripe             */
+  --ink: #101412;        /* all body copy and headings on light             */
+  --ink-muted: #4a544e;  /* secondary copy, captions, spec labels           */
+  --paper: #ffffff;      /* default page ground                            */
 
-  /* Tints derived from the brand greens. Used for states and dark mode,
-     never introduced as new hues. */
-  --green-bright: #2fa574; /* lifted green, readable on a dark ground       */
-  --green-deep: #0f5a3b;   /* pressed and hover state of the primary green  */
-  --ink-900: #111a16;      /* green cast near black. Never pure #000        */
-  --ink-600: #4a5a52;
-  --ink-300: #8fa39a;
-  --paper: #fafaf7;        /* warm near white. Never pure #fff              */
-  --night: #04231a;        /* darkest green cast ground                     */
+  /* The shape SVGs were exported with #005038 in them. The guide's palette
+     does not carry that colour, so the files are normalised to currentColor
+     and tinted green or bone at use. Do not reintroduce it as a UI colour. */
 
   /* --- Semantic surface and text (light is the default mode) ----------- */
   --bg: var(--paper);
-  --bg-sunken: var(--brand-bone);
-  --surface: #ffffff;
-  --text: var(--ink-900);
-  --text-muted: var(--ink-600);
-  --accent: var(--brand-green);
+  --bg-sunken: var(--bone-soft);
+  --bg-band: var(--green-tint);
+  --text: var(--ink);
+  --text-muted: var(--ink-muted);
+  --accent: var(--green);
   --accent-hover: var(--green-deep);
-  --on-accent: #ffffff;
-  --rule: color-mix(in srgb, var(--brand-forest) 18%, transparent);
-  --focus: var(--brand-green);
+  --on-accent: var(--paper);
+  --rule: rgba(16, 20, 18, 0.14);
+  --focus: var(--green);
+
+  /* Placeholder stripe, straight from the guide's component sheet. */
+  --placeholder-stripe: repeating-linear-gradient(
+    135deg,
+    var(--bone-soft) 0 14px,
+    var(--paper) 14px 28px
+  );
 
   /* --- Type ------------------------------------------------------------
      Persian pages lead with Rokh, which also carries Latin glyphs.
@@ -42,18 +51,23 @@
   --font-en: "TT Firs Neue", "Rokh", system-ui, sans-serif;
 
   /* Minor third (1.2) fluid scale, 320px to 1400px viewport. */
-  --step--1: clamp(0.833rem, 0.805rem + 0.14vw, 0.9rem);
-  --step-0: clamp(1rem, 0.948rem + 0.26vw, 1.125rem);
-  --step-1: clamp(1.2rem, 1.116rem + 0.42vw, 1.406rem);
-  --step-2: clamp(1.44rem, 1.312rem + 0.64vw, 1.758rem);
-  --step-3: clamp(1.728rem, 1.539rem + 0.95vw, 2.197rem);
-  --step-4: clamp(2.074rem, 1.801rem + 1.36vw, 2.747rem);
-  --step-5: clamp(2.488rem, 2.104rem + 1.92vw, 3.433rem);
+  --step--2: clamp(0.6875rem, 0.67rem + 0.09vw, 0.75rem);
+  --step--1: clamp(0.8125rem, 0.79rem + 0.13vw, 0.875rem);
+  --step-0: clamp(1rem, 0.98rem + 0.1vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.14rem + 0.3vw, 1.375rem);
+  --step-2: clamp(1.44rem, 1.35rem + 0.44vw, 1.6875rem);
+  --step-3: clamp(1.728rem, 1.58rem + 0.74vw, 2.125rem);
+  --step-4: clamp(2.074rem, 1.84rem + 1.17vw, 2.6875rem);
+  --step-5: clamp(2.5rem, 2.11rem + 1.95vw, 3.25rem);
 
-  --leading-tight: 1.15;
-  --leading-snug: 1.35;
-  --leading-body: 1.7;   /* Persian needs more room than Latin */
-  --measure: 68ch;
+  /* The guide sets these separately per script. Persian needs the extra
+     leading; Latin display is tighter and tracked in. */
+  --leading-display: 1.2;
+  --leading-body-fa: 1.85;
+  --leading-body-en: 1.6;
+  --tracking-display: -0.035em;
+  --tracking-label: 0.16em;
+  --measure: 62ch;
 
   /* --- Space. 4px base. ------------------------------------------------ */
   --space-1: 0.25rem;
@@ -67,22 +81,25 @@
   --space-24: 6rem;
   --space-32: 8rem;
 
+  /* Section rhythm, from the guide's own page. */
+  --section-gap: clamp(3rem, 7vw, 5.5rem);
+
   /* --- Shape -----------------------------------------------------------
-     The identity is built from straight cuts. Corners stay square, and the
-     only permitted softening is the angled corner taken from the letterhead
-     and the folder. Radius is zero everywhere, on purpose. */
+     Everything is square: the radius token is zero. The stationery also
+     carries an angled corner on the letterhead and folder, but the guide
+     does not document it for screen, so nothing on the site uses it. */
   --radius: 0;
-  --cut: 1.5rem;            /* depth of the angled corner */
   --hairline: 1px;
   --border-strong: 2px;
 
   /* --- Layout ---------------------------------------------------------- */
-  --shell: 78rem;           /* 1248px content container */
-  --gutter: clamp(1rem, 0.5rem + 2.5vw, 3rem);
-  --header-h: 4.5rem;       /* 72px, inside the 80px cap */
+  --shell: 77.5rem;         /* 1240px, matching the guide's own container */
+  --gutter: clamp(20px, 5vw, 72px);
+  --header-h: 4.5rem;       /* 72px, inside the guide's 80px cap */
+  --control-h: 3rem;        /* 48px minimum for any interactive target */
 
   /* --- Motion ----------------------------------------------------------
-     Restrained by design read. State feedback only, no ambient animation. */
+     State feedback only. No ambient animation. */
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --dur-fast: 120ms;
   --dur: 220ms;
@@ -96,35 +113,47 @@
 }
 
 /* --- Dark mode -------------------------------------------------------
-   The stationery already contains the dark expression: bone type on a deep
-   green ground. The page ground drops below #005038 so that green can stay
-   an accent rather than becoming the whole field. */
+   The guide specifies no dark palette, but its shipping checklist requires
+   body text to pass 4.5:1 "in light and in dark". These values are derived
+   from the guide's own colours rather than invented: ink and paper swap
+   roles, bone becomes the text, and the green is lifted just far enough to
+   stay legible on a dark ground. Confirm with the brand owner. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: var(--night);
-    --bg-sunken: #031a13;
-    --surface: #06301f;
-    --text: var(--brand-bone);
-    --text-muted: var(--ink-300);
-    --accent: var(--green-bright);
-    --accent-hover: #46bd8b;
-    --on-accent: var(--night);
-    --rule: color-mix(in srgb, var(--brand-bone) 22%, transparent);
-    --focus: var(--green-bright);
+    --bg: #0b100e;
+    --bg-sunken: #141a17;
+    --bg-band: #12251c;
+    --text: var(--bone);
+    --text-muted: #9aa49e;
+    --accent: #3fb083;
+    --accent-hover: #5cc79b;
+    --on-accent: #0b100e;
+    --rule: rgba(211, 211, 201, 0.2);
+    --focus: #3fb083;
+    --placeholder-stripe: repeating-linear-gradient(
+      135deg,
+      #1a211d 0 14px,
+      #141a17 14px 28px
+    );
   }
 }
 
-/* Manual override hook. Set data-theme="dark" on <html> to pin dark mode
+/* Manual override. Set data-theme="dark" on <html> to pin dark mode
    regardless of the system setting. */
 :root[data-theme="dark"] {
-  --bg: var(--night);
-  --bg-sunken: #031a13;
-  --surface: #06301f;
-  --text: var(--brand-bone);
-  --text-muted: var(--ink-300);
-  --accent: var(--green-bright);
-  --accent-hover: #46bd8b;
-  --on-accent: var(--night);
-  --rule: color-mix(in srgb, var(--brand-bone) 22%, transparent);
-  --focus: var(--green-bright);
+  --bg: #0b100e;
+  --bg-sunken: #141a17;
+  --bg-band: #12251c;
+  --text: var(--bone);
+  --text-muted: #9aa49e;
+  --accent: #3fb083;
+  --accent-hover: #5cc79b;
+  --on-accent: #0b100e;
+  --rule: rgba(211, 211, 201, 0.2);
+  --focus: #3fb083;
+  --placeholder-stripe: repeating-linear-gradient(
+    135deg,
+    #1a211d 0 14px,
+    #141a17 14px 28px
+  );
 }

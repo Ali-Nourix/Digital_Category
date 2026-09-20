@@ -1,0 +1,193 @@
+{
+  "_note": "Single source of truth for the catalogue. Run `node tools/build-catalogue.mjs` after editing. These entries are sample data for layout review: the stone names and quarries are real, but finishes, slab sizes, grades and product codes are placeholders and have to be replaced with Behkooshan's own figures. The six specification fields follow the component sheet in the design guide.",
+
+  "specOrder": ["finish", "thickness", "slab", "grade", "code", "origin"],
+
+  "specLabels": {
+    "finish": { "fa": "پرداخت", "en": "Finish" },
+    "thickness": { "fa": "ضخامت", "en": "Thickness" },
+    "slab": { "fa": "ابعاد اسلب", "en": "Slab size" },
+    "grade": { "fa": "گرید", "en": "Grade" },
+    "code": { "fa": "کد محصول", "en": "Product code" },
+    "origin": { "fa": "خاستگاه", "en": "Origin" }
+  },
+
+  "categories": {
+    "marble": { "fa": "مرمریت", "en": "Marble" },
+    "travertine": { "fa": "تراورتن", "en": "Travertine" },
+    "granite": { "fa": "گرانیت", "en": "Granite" },
+    "crystal": { "fa": "چینی", "en": "Crystal" },
+    "onyx": { "fa": "اونیکس", "en": "Onyx" }
+  },
+
+  "products": [
+    {
+      "slug": "dehbid-marble",
+      "category": "marble",
+      "fa": {
+        "name": "مرمریت دهبید",
+        "lede": "کرم یکدست با رگه‌های محو و بافت ریز. از معدن دهبید فارس، شناخته‌شده‌ترین مرمریت صادراتی ایران که رنگش را در سطوح بزرگ حفظ می‌کند.",
+        "specs": {
+          "finish": "صیقلی",
+          "thickness": "۲ سانتی‌متر",
+          "slab": "۳۰۰ × ۱۸۰ سانتی‌متر",
+          "grade": "۷۷۳",
+          "code": "۳۱۷۰",
+          "origin": "دهبید، فارس"
+        }
+      },
+      "en": {
+        "name": "Dehbid Marble",
+        "lede": "An even cream ground with faint veining and a fine grain. From the Dehbid quarry in Fars, Iran's best known export marble, and it holds its colour across large runs.",
+        "specs": {
+          "finish": "Polished",
+          "thickness": "2 cm",
+          "slab": "300 × 180 cm",
+          "grade": "773",
+          "code": "3170",
+          "origin": "Dehbid, Fars"
+        }
+      }
+    },
+    {
+      "slug": "abbasabad-travertine",
+      "category": "travertine",
+      "fa": {
+        "name": "تراورتن عباس‌آباد",
+        "lede": "تراورتن گردویی با لایه‌بندی افقی روشن و تیره. برای نمای بیرونی و کف محوطه، جایی که سنگ باید سرما و رطوبت را تحمل کند.",
+        "specs": {
+          "finish": "صیقلی",
+          "thickness": "۲ سانتی‌متر",
+          "slab": "۲۸۰ × ۱۷۰ سانتی‌متر",
+          "grade": "۶۴۱",
+          "code": "۲۴۰۸",
+          "origin": "عباس‌آباد، محلات"
+        }
+      },
+      "en": {
+        "name": "Abbasabad Travertine",
+        "lede": "Walnut travertine with horizontal light and dark banding. Built for facades and paving, where the stone has to take frost and damp.",
+        "specs": {
+          "finish": "Polished",
+          "thickness": "2 cm",
+          "slab": "280 × 170 cm",
+          "grade": "641",
+          "code": "2408",
+          "origin": "Abbasabad, Mahallat"
+        }
+      }
+    },
+    {
+      "slug": "mahallat-silver-travertine",
+      "category": "travertine",
+      "fa": {
+        "name": "تراورتن سیلور محلات",
+        "lede": "تراورتن طوسی با رگه‌های موازی نقره‌ای. انتخاب رایج نمای ساختمان‌های اداری، چون رنگش در تیراژ بالا یکدست می‌ماند.",
+        "specs": {
+          "finish": "ساب‌خورده",
+          "thickness": "۲ سانتی‌متر",
+          "slab": "۳۰۰ × ۱۸۰ سانتی‌متر",
+          "grade": "۶۵۲",
+          "code": "۲۴۱۵",
+          "origin": "محلات، مرکزی"
+        }
+      },
+      "en": {
+        "name": "Mahallat Silver Travertine",
+        "lede": "Grey travertine with parallel silver veining. A common office facade choice, because the colour stays consistent across large orders.",
+        "specs": {
+          "finish": "Honed",
+          "thickness": "2 cm",
+          "slab": "300 × 180 cm",
+          "grade": "652",
+          "code": "2415",
+          "origin": "Mahallat, Markazi"
+        }
+      }
+    },
+    {
+      "slug": "nehbandan-granite",
+      "category": "granite",
+      "fa": {
+        "name": "گرانیت نهبندان",
+        "lede": "گرانیت مشکی با دانه‌بندی ریز و نقاط روشن پراکنده. سخت و کم‌جذب، مناسب پله، کف پرتردد و صفحه کابینت.",
+        "specs": {
+          "finish": "صیقلی",
+          "thickness": "۳ سانتی‌متر",
+          "slab": "۲۹۰ × ۱۷۰ سانتی‌متر",
+          "grade": "۹۱۴",
+          "code": "۵۰۳۲",
+          "origin": "نهبندان، خراسان جنوبی"
+        }
+      },
+      "en": {
+        "name": "Nehbandan Granite",
+        "lede": "Fine grained black granite flecked with lighter grains. Hard and low absorption, so it suits stairs, high traffic floors and worktops.",
+        "specs": {
+          "finish": "Polished",
+          "thickness": "3 cm",
+          "slab": "290 × 170 cm",
+          "grade": "914",
+          "code": "5032",
+          "origin": "Nehbandan, South Khorasan"
+        }
+      }
+    },
+    {
+      "slug": "neyriz-crystal",
+      "category": "crystal",
+      "fa": {
+        "name": "چینی نی‌ریز",
+        "lede": "سنگ چینی سفید با شفافیت بالا و رگه کم. برای سرویس بهداشتی، دیوار داخلی و جاهایی که روشنایی فضا اهمیت دارد.",
+        "specs": {
+          "finish": "صیقلی",
+          "thickness": "۲ سانتی‌متر",
+          "slab": "۲۷۰ × ۱۶۰ سانتی‌متر",
+          "grade": "۸۰۵",
+          "code": "۴۱۲۷",
+          "origin": "نی‌ریز، فارس"
+        }
+      },
+      "en": {
+        "name": "Neyriz Crystal",
+        "lede": "White crystal stone with high translucency and little veining. Used in bathrooms, interior walls, and anywhere the room needs to hold light.",
+        "specs": {
+          "finish": "Polished",
+          "thickness": "2 cm",
+          "slab": "270 × 160 cm",
+          "grade": "805",
+          "code": "4127",
+          "origin": "Neyriz, Fars"
+        }
+      }
+    },
+    {
+      "slug": "azarshahr-honey-onyx",
+      "category": "onyx",
+      "fa": {
+        "name": "اونیکس عسلی آذرشهر",
+        "lede": "اونیکس عسلی نیمه‌شفاف با رگه‌های کهربایی. با نور پشت کار می‌شود و بیشتر به عنوان سنگ تزئینی در لابی و بار کاربرد دارد.",
+        "specs": {
+          "finish": "صیقلی",
+          "thickness": "۲ سانتی‌متر",
+          "slab": "۲۴۰ × ۱۵۰ سانتی‌متر",
+          "grade": "۹۳۶",
+          "code": "۶۲۱۹",
+          "origin": "آذرشهر، آذربایجان شرقی"
+        }
+      },
+      "en": {
+        "name": "Azarshahr Honey Onyx",
+        "lede": "Translucent honey onyx with amber veining. Backlit in most installations, and used as a decorative stone in lobbies and bars.",
+        "specs": {
+          "finish": "Polished",
+          "thickness": "2 cm",
+          "slab": "240 × 150 cm",
+          "grade": "936",
+          "code": "6219",
+          "origin": "Azarshahr, East Azerbaijan"
+        }
+      }
+    }
+  ]
+}

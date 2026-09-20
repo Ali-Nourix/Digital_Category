@@ -29,10 +29,9 @@ body {
   background-color: var(--bg);
   color: var(--text);
   font-size: var(--step-0);
-  line-height: var(--leading-body);
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-wrap: pretty;
 }
 
 img,
@@ -43,14 +42,17 @@ picture {
   block-size: auto;
 }
 
-/* --- Language driven type ------------------------------------------------- */
+/* --- Language driven type -------------------------------------------------
+   The guide sets leading per script: 1.85 for Persian body, 1.6 for Latin. */
 
 html[lang="fa"] body {
   font-family: var(--font-fa);
+  line-height: var(--leading-body-fa);
 }
 
 html[lang="en"] body {
   font-family: var(--font-en);
+  line-height: var(--leading-body-en);
 }
 
 /* A Latin run inside a Persian page still belongs to TT Firs Neue. Mark it
@@ -61,59 +63,82 @@ html[lang="fa"] [lang="en"] {
   unicode-bidi: isolate;
 }
 
-/* --- Headings ------------------------------------------------------------- */
+/* --- Headings -------------------------------------------------------------
+   Latin display is 600 tracked in by 0.035em. Persian titles are Rokh Bold
+   at 700 and are never tracked, because negative tracking breaks the joins
+   between Persian letterforms. */
 
 h1,
 h2,
 h3 {
-  line-height: var(--leading-tight);
+  line-height: var(--leading-display);
   text-wrap: balance;
-  font-weight: 700;
 }
 
-html[lang="fa"] h1,
-html[lang="fa"] h2,
-html[lang="fa"] h3 {
-  /* Rokh Bold is the brand's Persian display weight. */
+html[lang="en"] :is(h1, h2, h3) {
+  font-weight: 600;
+  letter-spacing: var(--tracking-display);
+}
+
+html[lang="fa"] :is(h1, h2, h3) {
   font-weight: 700;
-  line-height: var(--leading-snug);
+  letter-spacing: 0;
+  line-height: 1.5;
 }
 
 h1 {
   font-size: var(--step-5);
-  letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: var(--step-3);
-  letter-spacing: -0.01em;
 }
 
 h3 {
   font-size: var(--step-1);
 }
 
-html[lang="fa"] h1,
-html[lang="fa"] h2 {
-  /* Persian letterforms lose their joins under tight tracking. */
-  letter-spacing: 0;
-}
-
 p {
   max-inline-size: var(--measure);
+}
+
+/* Small caps label above a section heading. The guide rations these: at most
+   one per three sections, hero included. Data labels inside a component are
+   not eyebrows and carry their own class. */
+.eyebrow,
+.label {
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Persian letterforms join to each other. Tracking pulls those joins apart,
+   so tracked labels reset to zero on Persian text. Uppercase does nothing in
+   Persian either, and leaving it on would still hit any Latin inside. */
+html[lang="fa"] :is(.eyebrow, .label) {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* The tagline stays Latin on Persian pages, so it keeps its tracking. */
+html[lang="fa"] .tagline[lang="en"] {
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
 }
 
 /* --- Links and focus ------------------------------------------------------ */
 
 a {
   color: var(--accent);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-  transition: color var(--dur-fast) var(--ease);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
 }
 
 :focus-visible {
@@ -158,11 +183,11 @@ a:hover {
 
 .page {
   flex: 1;
-  padding-block: var(--space-24) var(--space-32);
+  padding-block: var(--section-gap) var(--space-24);
 }
 
-/* --- Header --------------------------------------------------------------- */
-/* One line at every width, 72px tall, inside the 80px cap. */
+/* --- Header ---------------------------------------------------------------
+   One line at every width, 72px tall, inside the guide's 80px cap. */
 
 .site-header {
   border-block-end: var(--hairline) solid var(--rule);
@@ -173,61 +198,89 @@ a:hover {
   block-size: var(--header-h);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-4);
+  gap: var(--space-6);
 }
 
 .site-header__logo {
-  display: block;
   flex-shrink: 0;
+  color: var(--accent);
 }
 
-.site-header__logo img {
-  block-size: 1.75rem;
+/* The guide's minimum heights: 16px mark, 20px lockup, 24px Persian lockup.
+   These sit comfortably above them. */
+.site-header__logo .bk-logo {
+  block-size: 1.375rem;
   inline-size: auto;
 }
 
-/* The Persian lockup is a wider, shorter drawing than the Latin one, so it
-   is set from its own optical height rather than a shared value. */
-html[lang="fa"] .site-header__logo img {
-  block-size: 1.5rem;
+html[lang="fa"] .site-header__logo .bk-logo {
+  block-size: 1.625rem;
 }
 
-/* --- Language switch ------------------------------------------------------ */
-
-.lang-switch {
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
+/* Everything after the logo is pushed to the far end of the bar. */
+.site-nav {
+  margin-inline-start: auto;
   font-size: var(--step--1);
   font-weight: 500;
 }
 
-.lang-switch a {
-  color: var(--text-muted);
-  text-decoration: none;
-  padding-block: var(--space-1);
+.site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  color: var(--text);
 }
 
-.lang-switch a:hover {
+.site-nav a:hover,
+.site-nav [aria-current] {
   color: var(--accent);
 }
 
-.lang-switch [aria-current="true"] {
+/* --- Language switch ------------------------------------------------------
+   A bordered chip naming the language you can switch to, per the guide's
+   component sheet. One control, not a pair of links. */
+
+.lang-switch {
+  position: relative;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2rem;
+  padding: 0.4375rem 0.75rem;
+  border: var(--hairline) solid var(--rule);
   color: var(--text);
-  font-weight: 700;
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
-.lang-switch__sep {
-  color: var(--rule);
-  user-select: none;
+/* The chip keeps the compact box the guide draws. The hit area is grown to
+   the 44px minimum with a pseudo element instead, so the target is thumb
+   sized on a phone without making the chip look heavier. */
+.lang-switch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max(100%, 2.75rem);
+  height: max(100%, 2.75rem);
+}
+
+.lang-switch:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
 }
 
 /* --- Footer --------------------------------------------------------------- */
 
 .site-footer {
   border-block-start: var(--hairline) solid var(--rule);
-  padding-block: var(--space-8);
+  padding-block: var(--space-6);
   font-size: var(--step--1);
   color: var(--text-muted);
 }
@@ -237,7 +290,7 @@ html[lang="fa"] .site-header__logo img {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: var(--space-2) var(--space-6);
+  gap: var(--space-3) var(--space-8);
 }
 
 .site-footer p {
@@ -252,49 +305,25 @@ html[lang="fa"] .site-header__logo img {
   color: var(--accent);
 }
 
-/* The brand signs off with the tagline set in two weights. */
+/* The brand signs off with the tagline set as a tracked label. */
 .tagline {
   color: var(--accent);
-  font-weight: 300;
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
-.tagline strong {
-  font-weight: 700;
-}
-
-/* --- Brand shape utilities ------------------------------------------------ */
-/* Every corner is square. The one permitted softening is the angled cut
-   carried over from the letterhead and the folder, and it follows reading
-   direction: trailing top corner in both scripts. */
-
-.cut {
-  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
-}
-
-[dir="rtl"] .cut {
-  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
-}
-
-/* The abstract shapes ship with a currentColor fill, so drawing one through
-   a mask lets it take the colour of whatever context it sits in.
-   Usage: <span class="shape" style="--shape: url(...); --shape-ratio: 4/3">  */
-.shape {
-  display: block;
-  aspect-ratio: var(--shape-ratio, 1);
-  background-color: currentColor;
-  -webkit-mask: var(--shape) no-repeat center / contain;
-  mask: var(--shape) no-repeat center / contain;
-}
-
-/* --- Buttons -------------------------------------------------------------- */
+/* --- Buttons --------------------------------------------------------------
+   48px minimum height, label on one line, weight 500. */
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: var(--space-2);
-  min-block-size: 2.75rem;
+  min-block-size: var(--control-h);
   padding-inline: var(--space-6);
   border: var(--hairline) solid transparent;
   border-radius: var(--radius);
@@ -302,9 +331,8 @@ html[lang="fa"] .site-header__logo img {
   color: var(--on-accent);
   font: inherit;
   font-size: var(--step--1);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
-  text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   transition: background-color var(--dur-fast) var(--ease),
@@ -314,10 +342,20 @@ html[lang="fa"] .site-header__logo img {
 .button:hover {
   background-color: var(--accent-hover);
   color: var(--on-accent);
+  text-decoration: none;
 }
 
 .button:active {
   transform: translateY(1px);
+}
+
+.button__arrow {
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+[dir="rtl"] .button__arrow {
+  transform: scaleX(-1);
 }
 
 .button--quiet {
