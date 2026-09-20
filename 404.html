@@ -21,21 +21,11 @@
   <style>
     :root {
       --green: #14754d;
-      --bone: #d3d3c9;
+      --tint: #e9f0ec;
       --muted: #4a544e;
       --ink: #101412;
       --paper: #ffffff;
-      --night: #0b100e;
-      color-scheme: light dark;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --green: #3fb083;
-        --ink: var(--bone);
-        --muted: #9aa49e;
-        --paper: var(--night);
-      }
+      color-scheme: light;
     }
 
     * { box-sizing: border-box; margin: 0; }
@@ -46,7 +36,7 @@
       place-content: center;
       gap: 1rem;
       padding: 2rem;
-      background-color: var(--paper);
+      background-color: var(--tint);
       color: var(--ink);
       font-family: system-ui, sans-serif;
       line-height: 1.7;

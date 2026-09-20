@@ -1,6 +1,7 @@
 /* ==========================================================================
    Behkooshan About page
-   Layered on top of site.css.
+   Layered on top of site.css. Section order and layout families are
+   documented at the top of tools/build-site.mjs's aboutPage().
    ========================================================================== */
 
 /* --- Header block --------------------------------------------------------- */
@@ -16,7 +17,7 @@
   color: var(--text-muted);
 }
 
-/* --- Full bleed media -----------------------------------------------------
+/* --- Full bleed utility ----------------------------------------------------
    Breaks out of the shell to the full viewport width. The stationery is
    built from edge to edge panels, and a quarry face earns the same. */
 
@@ -25,6 +26,29 @@
   inline-size: 100vw;
   max-inline-size: 100vw;
 }
+
+/* --- Fade to page ----------------------------------------------------------
+   A photograph that meets the page ground fades into it rather than
+   stopping on a hard edge, so the transition from image to type feels
+   continuous. The gradient's end colour is --bg, so it keeps matching the
+   page even if the page ground token changes. */
+
+.fade-b {
+  position: relative;
+  overflow: hidden;
+}
+
+.fade-b::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  block-size: 38%;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+}
+
+/* --- Cover ------------------------------------------------------------- */
 
 .about__cover {
   margin-block-start: var(--section-gap);
@@ -43,19 +67,7 @@
   }
 }
 
-.about__caption {
-  margin-block-start: var(--space-3);
-  font-size: var(--step--1);
-  color: var(--text-muted);
-}
-
-/* The cover bleeds to the viewport edge, so its caption pulls back into the
-   text column rather than sitting under the gutter. */
-.about__cover .about__caption {
-  display: block;
-}
-
-/* --- Prose sections -------------------------------------------------------
+/* --- Prose sections ---------------------------------------------------
    Heading on the start edge, body held to the measure beside it. Below
    1000px the heading stacks above its text. */
 
@@ -86,10 +98,7 @@
    The stationery's signature: a full bleed green field carrying one large
    abstract shape tone on tone, with type sitting over it. The shape is
    decorative, so it is hidden from assistive technology and its contrast
-   against the band is deliberately low, exactly as it is in print.
-
-   The guide allows one shape per view, so this band is the only place on
-   the page a shape appears. */
+   against the band is deliberately low, exactly as it is in print. */
 
 .band {
   margin-block-start: var(--section-gap);
@@ -113,13 +122,8 @@
 }
 
 /* The deeper green disappears against the deeper green band in dark mode,
-   so the tone on tone pair flips to the brighter green. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .band__shape {
-    color: var(--green);
-  }
-}
-
+   so the tone on tone pair flips to the brighter green. Dark mode is opt in
+   only (see tokens.css), so this only matters behind data-theme="dark". */
 :root[data-theme="dark"] .band__shape {
   color: var(--green);
 }
@@ -147,53 +151,179 @@ html[lang="en"] .band p {
   }
 }
 
-/* --- Application shot -----------------------------------------------------
-   A different layout family from the prose sections above: image and text
-   side by side, image leading. */
+/* --- History: photograph paired with the text, image leading ---------------
+   The client asked for the image on top and the text below it, always
+   stacked, never side by side.
 
-.about__application {
+   The photo's trailing corner is cut at an angle, exactly the way the ID
+   card's portrait is cut in the stationery: the material behind the photo,
+   here the brand green, shows through where the corner is missing. The cut
+   corner is the one screen use the design guide left undocumented; this
+   photo is the deliberate exception, matching a treatment the client
+   pointed to directly. */
+
+.about__history {
   margin-block-start: var(--section-gap);
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: var(--space-6);
-  align-items: center;
 }
 
-@media (min-width: 900px) {
-  .about__application {
-    grid-template-columns: 7fr 5fr;
-    column-gap: var(--space-16);
-  }
+.about__history-media {
+  position: relative;
+  background-color: var(--accent);
 }
 
-.about__application figure {
-  margin: 0;
+.about__history-frame {
+  display: block;
+  --cut: clamp(2rem, 5vw, 4rem);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%);
 }
 
-.about__application img {
+[dir="rtl"] .about__history-frame {
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 calc(100% - var(--cut)));
+}
+
+.about__history-media img {
   inline-size: 100%;
   block-size: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
 
-/* Four uses, one hairline between each. The guide bans a rule above and
-   below every row, so this takes the bottom edge only and stops at the
-   last item. */
-.uses {
-  margin-block-start: var(--space-6);
-  list-style: none;
-  padding: 0;
-  border-block-start: var(--hairline) solid var(--rule);
+@media (min-width: 900px) {
+  .about__history-media img {
+    aspect-ratio: 16 / 9;
+  }
 }
 
-.uses li {
-  padding-block: var(--space-4);
-  border-block-end: var(--hairline) solid var(--rule);
+/* The heading and prose sit directly under the image, not a full section
+   gap away, since the image belongs to this section rather than standing
+   on its own. */
+.about__history .about__section {
+  margin-block-start: var(--space-8);
+}
+
+/* --- Advantages -------------------------------------------------------
+   Six short statements. A plain marked list, deliberately without the
+   hairline grid used below for the stone properties, so the two lists on
+   this page do not read as the same component repeated. */
+
+.advantages {
+  margin-block-start: var(--section-gap);
+}
+
+.advantages h2 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.advantages__mark {
+  flex-shrink: 0;
+  inline-size: 1.375rem;
+  color: var(--accent);
+}
+
+.advantages__list {
+  margin-block-start: var(--space-6);
+  padding: 0;
+  list-style: none;
+  columns: 1;
+  column-gap: var(--space-16);
+}
+
+@media (min-width: 700px) {
+  .advantages__list {
+    columns: 2;
+  }
+}
+
+.advantages__list li {
+  position: relative;
+  break-inside: avoid;
+  padding-inline-start: var(--space-6);
+  padding-block: var(--space-3);
   font-size: var(--step-1);
   font-weight: 500;
 }
 
-html[lang="en"] .uses li {
+html[lang="en"] .advantages__list li {
   letter-spacing: -0.02em;
+}
+
+.advantages__list li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 0.75em;
+  inline-size: 0.375rem;
+  block-size: 0.375rem;
+  background-color: var(--accent);
+}
+
+[dir="rtl"] .advantages__list li::before {
+  inset-inline-start: 0;
+}
+
+/* --- Why this stone -----------------------------------------------------
+   Term and description on a hairline grid, the same construction as the
+   product spec grid but sized for prose rather than a single figure. */
+
+.features {
+  margin-block-start: var(--section-gap);
+}
+
+.features__grid {
+  margin-block-start: var(--space-6);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--hairline);
+  background-color: var(--rule);
+  border: var(--hairline) solid var(--rule);
+}
+
+@media (min-width: 640px) {
+  .features__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.feature {
+  background-color: var(--bg-raised);
+  padding: var(--space-6);
+}
+
+.feature__term {
+  margin: 0;
+  font-size: var(--step-1);
+  font-weight: 600;
+  color: var(--link);
+}
+
+html[lang="en"] .feature__term {
+  letter-spacing: -0.02em;
+}
+
+.feature__desc {
+  margin: 0;
+  margin-block-start: var(--space-2);
+  color: var(--text-muted);
+}
+
+.features__prose {
+  margin-block-start: var(--space-8);
+  display: grid;
+  gap: var(--space-6);
+}
+
+/* --- Closing statement ------------------------------------------------
+   A single full width paragraph, not the heading-beside-prose pattern used
+   above, so the page does not end on a third repeat of that family. */
+
+.about__closing {
+  margin-block-start: var(--section-gap);
+}
+
+.about__closing p {
+  margin-block-start: var(--space-4);
+  font-size: var(--step-1);
+  color: var(--text-muted);
 }

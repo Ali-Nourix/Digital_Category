@@ -23,26 +23,32 @@
      does not carry that colour, so the files are normalised to currentColor
      and tinted green or bone at use. Do not reintroduce it as a UI colour. */
 
-  /* --- Semantic surface and text (light is the default mode) -----------
-     The page ground is bone, the brand's own off white. Header, footer and
-     feature bands invert to green, which is how every printed piece in the
-     stationery is built. */
-  --bg: var(--bone);
+  /* --- Semantic surface and text ----------------------------------------
+     The page ground is the green tint, a near white with just enough of the
+     brand in it to read as Behkooshan rather than as a generic white page.
+     Header, footer and feature bands invert to full green, which is how
+     every printed piece in the stationery is built. Bone moves to a second
+     surface role: a deeper tint for panels that need to stand apart from
+     the page, such as the sample data notice. */
+  --bg: var(--green-tint);
   --bg-raised: var(--paper);
   --bg-sunken: var(--bone-soft);
-  --bg-band: var(--green-tint);
+  --bg-band: var(--bone);
   --bg-inverse: var(--green);
 
   --text: var(--ink);
   --text-muted: var(--ink-muted);
 
-  /* Two accent tokens, because the page ground is no longer white.
+  /* Two accent tokens, because the page carries two surface tones.
      --accent is the brand green as a FILL: button grounds, shape tints,
      rules and focus rings. Its contrast is judged against the type inside
-     it (white on green, 5.35:1) or as a non text element against the page
-     (3.79:1, above the 3:1 an interface element needs).
-     --link is the accent as TEXT on the page ground, where 3.79:1 would
-     fail. The deeper green reaches 5.48:1 on bone. */
+     it (white on green, 5.70:1) or as a non text element against a surface
+     (4.93:1 on the green tint page, 3.78:1 on bone, both above the 3:1 an
+     interface element needs).
+     --link is the accent as TEXT. Plain green passes on the tint page
+     (4.93:1) but fails on bone (3.78:1), so --link always takes the deeper
+     green, which clears AA on both: 7.13:1 on the tint page, 5.47:1 on
+     bone. */
   --accent: var(--green);
   --accent-hover: var(--green-deep);
   --link: var(--green-deep);
@@ -130,40 +136,22 @@
   --z-sticky: 100;
   --z-overlay: 200;
 
-  color-scheme: light dark;
+  /* Light only, on purpose. `color-scheme: light dark` would also let the
+     browser flip its own chrome (scrollbars, form controls) to dark
+     whenever the visitor's system prefers it, which is the same switch
+     this file used to make automatically below. */
+  color-scheme: light;
 }
 
-/* --- Dark mode -------------------------------------------------------
-   The guide specifies no dark palette, but its shipping checklist requires
-   body text to pass 4.5:1 "in light and in dark". These values are derived
-   from the guide's own colours rather than invented: ink and bone swap
-   roles, the inverse bands drop to the deeper green, and the accent is
-   lifted just far enough to stay legible. Confirm with the brand owner. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0b100e;
-    --bg-raised: #141a17;
-    --bg-sunken: #141a17;
-    --bg-band: #12251c;
-    --bg-inverse: var(--green-deep);
-    --text: var(--bone);
-    --text-muted: #9aa49e;
-    --accent: #3fb083;
-    --accent-hover: #5cc79b;
-    --link: #3fb083;
-    --on-accent: #0b100e;
-    --rule: rgb(211 211 201 / 0.2);
-    --focus: #3fb083;
-    --placeholder-stripe: repeating-linear-gradient(
-      135deg,
-      #1a211d 0 14px,
-      #141a17 14px 28px
-    );
-  }
-}
+/* --- Dark mode ---------------------------------------------------------
+   Not switched on automatically. The design guide specifies no dark
+   palette, and an earlier version of this file inverted the whole site
+   whenever a visitor's system preferred dark, which produced a near black
+   page nobody had approved. These values stay defined and reachable by
+   hand, for whenever a dark palette is actually signed off, but nothing
+   in this stylesheet triggers them on its own any more.
 
-/* Manual override. Set data-theme="dark" on <html> to pin dark mode
-   regardless of the system setting. */
+   To preview it: <html data-theme="dark">. */
 :root[data-theme="dark"] {
   --bg: #0b100e;
   --bg-raised: #141a17;

@@ -340,10 +340,22 @@ ${footer(ctx)}
 }
 
 /**
- * About page. Four sections, each a different layout family: a typographic
- * header over a full bleed cover, a two column prose block, the stationery's
- * green band carrying one abstract shape tone on tone, and an image beside
- * text. The shape appears exactly once, which is the limit the guide sets.
+ * About page.
+ *
+ * Section order and layout family, top to bottom:
+ *   1. Typographic header (eyebrow, title, lede)
+ *   2. Full bleed cover photograph, fading into the page at its foot
+ *   3. Introduction: heading beside prose
+ *   4. The stationery's green band, one abstract shape tone on tone
+ *   5. History: photograph on top (paired with this section, as the client
+ *      asked), fading into the page, heading and prose below it
+ *   6. Advantages: a short flat list, no dividers repeated from elsewhere
+ *   7. Why this stone: a term/description grid, then two prose paragraphs
+ *   8. Closing statement: a single full width paragraph, no split heading
+ *
+ * Only one shape appears as decoration (the band, step 4); a second, small
+ * one sits behind the history photograph as a corner accent, echoing how
+ * the stationery layers a shape behind a photo rather than around it.
  */
 function aboutPage(locale, about) {
   const ctx = context(locale, null);
@@ -351,6 +363,19 @@ function aboutPage(locale, about) {
   const a = about[locale];
   const paragraphs = (list, indent) =>
     list.map((text) => `${" ".repeat(indent)}<p>${esc(text)}</p>`).join("\n");
+
+  const advantages = a.advantages.items
+    .map((item) => `          <li>${esc(item)}</li>`)
+    .join("\n");
+
+  const whyStoneItems = a.whyStone.items
+    .map(
+      (item) => `          <div class="feature">
+            <p class="feature__term">${esc(item.term)}</p>
+            <p class="feature__desc">${esc(item.desc)}</p>
+          </div>`
+    )
+    .join("\n");
 
   return `<!DOCTYPE html>
 <html lang="${locale}" dir="${L.dir}">
@@ -371,10 +396,9 @@ ${breadcrumb(ctx, [{ label: L.home, href: home }, { label: a.title }])}
         <p class="about__lede">${esc(a.lede)}</p>
       </div>
 
-      <figure class="about__cover bleed">
+      <figure class="about__cover bleed fade-b">
         <img src="${root}${about.cover.src}" alt="${esc(about.cover.alt[locale])}"
              width="${about.cover.width}" height="${about.cover.height}" fetchpriority="high">
-        <figcaption class="about__caption shell">${esc(about.cover.caption[locale])}</figcaption>
       </figure>
 
       <section class="about__section" aria-labelledby="intro-title">
@@ -393,26 +417,46 @@ ${paragraphs(a.intro.paragraphs, 10)}
     </aside>
 
     <div class="shell">
-      <section class="about__section" aria-labelledby="history-title">
-        <h2 id="history-title">${esc(a.history.title)}</h2>
-        <div class="about__prose">
+      <section class="about__history" aria-labelledby="history-title">
+        <figure class="about__history-media">
+          <span class="about__history-frame fade-b">
+            <img src="${root}${about.history.src}" alt="${esc(about.history.alt[locale])}"
+                 width="${about.history.width}" height="${about.history.height}" loading="lazy">
+          </span>
+        </figure>
+
+        <div class="about__section">
+          <h2 id="history-title">${esc(a.history.title)}</h2>
+          <div class="about__prose">
 ${paragraphs(a.history.paragraphs, 10)}
+          </div>
         </div>
       </section>
 
-      <section class="about__application" aria-labelledby="uses-title">
-        <figure>
-          <img src="${root}${about.application.src}" alt="${esc(about.application.alt[locale])}"
-               width="${about.application.width}" height="${about.application.height}" loading="lazy">
-          <figcaption class="about__caption">${esc(about.application.caption[locale])}</figcaption>
-        </figure>
+      <section class="advantages" aria-labelledby="advantages-title">
+        <h2 id="advantages-title">
+          <span class="bk-shape bk-shape--05 advantages__mark" aria-hidden="true"></span>${esc(a.advantages.title)}
+        </h2>
+        <ul class="advantages__list">
+${advantages}
+        </ul>
+      </section>
 
-        <div>
-          <h2 id="uses-title">${esc(about.application.uses.title[locale])}</h2>
-          <ul class="uses">
-${about.application.uses.items[locale].map((item) => `            <li>${esc(item)}</li>`).join("\n")}
-          </ul>
+      <section class="features" aria-labelledby="why-stone-title">
+        <h2 id="why-stone-title">${esc(a.whyStone.title)}</h2>
+
+        <div class="features__grid">
+${whyStoneItems}
         </div>
+
+        <div class="features__prose">
+${paragraphs(a.whyStone.paragraphs, 10)}
+        </div>
+      </section>
+
+      <section class="about__closing" aria-labelledby="timeless-title">
+        <h2 id="timeless-title">${esc(a.timeless.title)}</h2>
+        <p>${esc(a.timeless.paragraph)}</p>
       </section>
     </div>
   </main>

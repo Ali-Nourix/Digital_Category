@@ -1,5 +1,5 @@
 {
-  "_note": "Single source of truth for the catalogue. Run `node tools/build-catalogue.mjs` after editing. These entries are sample data for layout review: the stone names and quarries are real, but finishes, slab sizes, grades and product codes are placeholders and have to be replaced with Behkooshan's own figures. The six specification fields follow the component sheet in the design guide.",
+  "_note": "Single source of truth for the catalogue. Run `node tools/build-site.mjs` after editing. These entries are sample data for layout review: the stone names and quarries are real, but finishes, slab sizes, grades and product codes are placeholders and have to be replaced with Behkooshan's own figures. The six specification fields follow the component sheet in the design guide.",
 
   "specOrder": ["finish", "thickness", "slab", "grade", "code", "origin"],
 
