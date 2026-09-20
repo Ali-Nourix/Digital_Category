@@ -6,7 +6,8 @@
   <title>Behkooshan | Digital Catalogue</title>
   <meta name="description" content="Digital catalogue of Behkooshan stone processing.">
 
-  <link rel="icon" href="../assets/logos/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0f5a3b">
   <link rel="alternate" hreflang="fa" href="../">
   <link rel="alternate" hreflang="en" href="./">
   <link rel="alternate" hreflang="x-default" href="../">
@@ -17,6 +18,10 @@
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/shapes.css">
+
+  <!-- Marks the document as scripted before anything paints, so the reveal's
+       hidden starting state only ever applies where the script can undo it. -->
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -45,11 +50,14 @@
   </main>
 
   <footer class="site-footer">
+    <span class="bk-shape bk-shape--03 site-footer__shape" aria-hidden="true"></span>
     <div class="shell site-footer__inner">
       <p>No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran</p>
       <p class="tagline">Beautifully Strong</p>
       <p><a href="https://behkooshan.ir">behkooshan.ir</a></p>
     </div>
   </footer>
+
+  <script src="../assets/js/reveal.js" defer></script>
 </body>
 </html>

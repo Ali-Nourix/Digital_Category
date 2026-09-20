@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>اونیکس عسلی آذرشهر | بهکوشان</title>
+  <title>اونیکس عسلی آذرشهر | به‌کوشان</title>
   <meta name="description" content="اونیکس عسلی نیمه‌شفاف با رگه‌های کهربایی. با نور پشت کار می‌شود و بیشتر به عنوان سنگ تزئینی در لابی و بار کاربرد دارد.">
 
-  <link rel="icon" href="../assets/logos/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0f5a3b">
   <link rel="alternate" hreflang="fa" href="./azarshahr-honey-onyx.html">
   <link rel="alternate" hreflang="en" href="../en/products/azarshahr-honey-onyx.html">
 
@@ -18,13 +19,17 @@
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/shapes.css">
   <link rel="stylesheet" href="../assets/css/product.css">
+
+  <!-- Marks the document as scripted before anything paints, so the reveal's
+       hidden starting state only ever applies where the script can undo it. -->
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
   <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
 
   <header class="site-header">
     <div class="shell site-header__inner">
-      <a class="site-header__logo" href="../" aria-label="بهکوشان، صفحه نخست">
+      <a class="site-header__logo" href="../" aria-label="به‌کوشان، صفحه نخست">
         <span class="bk-logo bk-logo--mark site-header__mark"></span>
         <span class="bk-logo bk-logo--lockup-fa site-header__lockup"></span>
       </a>
@@ -92,7 +97,7 @@
 
       </div>
 
-      <section class="specs" aria-labelledby="specs-title">
+      <section class="specs reveal" aria-labelledby="specs-title">
         <h2 class="specs__title" id="specs-title">مشخصات فنی</h2>
 
         <div class="spec-grid">
@@ -123,11 +128,11 @@
         </div>
       </section>
 
-      <section class="related" aria-labelledby="related-title">
+      <section class="related reveal" aria-labelledby="related-title">
         <h2 id="related-title">سنگ‌های دیگر</h2>
 
         <ul class="card-grid">
-        <li class="card">
+        <li class="card reveal">
           <a href="./dehbid-marble.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -136,7 +141,7 @@
             <p class="card__type label">مرمریت</p>
           </a>
         </li>
-        <li class="card">
+        <li class="card reveal">
           <a href="./abbasabad-travertine.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -145,7 +150,7 @@
             <p class="card__type label">تراورتن</p>
           </a>
         </li>
-        <li class="card">
+        <li class="card reveal">
           <a href="./mahallat-silver-travertine.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -161,11 +166,14 @@
   </main>
 
   <footer class="site-footer">
+    <span class="bk-shape bk-shape--03 site-footer__shape" aria-hidden="true"></span>
     <div class="shell site-footer__inner">
       <p>تهران، شهرک صنعتی شمس‌آباد، کوچه سنبل ۵، پلاک ۲۸۶</p>
       <p class="tagline" lang="en">Beautifully Strong</p>
       <p><a href="https://behkooshan.ir" lang="en">behkooshan.ir</a></p>
     </div>
   </footer>
+
+  <script src="../assets/js/reveal.js" defer></script>
 </body>
 </html>

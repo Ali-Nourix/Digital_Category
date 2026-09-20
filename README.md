@@ -20,9 +20,10 @@ data/about.json               Single source of truth for the About copy
 tools/build-site.mjs          Generates every data driven page
 tools/build-shape-css.py      Generates assets/css/shapes.css
 assets/css/                   fonts, tokens, site, shapes, product, about
+assets/js/reveal.js           The only script. Reveals blocks on scroll.
 assets/fonts/                 Rokh (7 static weights), TT Firs Neue (variable)
 assets/images/                Photography, named for where it is used
-assets/logos/                 4 lockups, currentColor
+assets/logos/                 4 lockups in currentColor, plus favicon.svg
 assets/shapes/                21 abstract brand shapes, currentColor
 docs/DESIGN.md                Implementation notes for the design guide
 ```
@@ -33,6 +34,18 @@ folders and updating the `hreflang` links.
 
 Every path in the HTML is relative, so the site works both at a domain root
 and under a project sub-path such as `/Digital_Category/`.
+
+## Scripting
+
+There is one script, `assets/js/reveal.js`, and the site is fully readable
+without it. It fades blocks marked `.reveal` into place as they scroll in.
+The hidden starting state is applied by CSS only under `html.js`, a class set
+by one inline line in the head, so if the script never loads nothing was ever
+hidden. Under `prefers-reduced-motion: reduce` nothing is hidden or moved.
+
+When adding a `.reveal`, scroll the page to the very bottom and check the
+block actually reaches full opacity. Anything that can end up below the last
+scroll position is the case worth testing.
 
 ## Local preview
 
@@ -92,8 +105,10 @@ set, the workflow runs and then fails at the deploy step.
   product codes are placeholders.
 - **Photography.** The About page carries two real photographs. Every image
   in the catalogue is still a labelled placeholder.
-- **Dark mode.** The design guide defines no dark palette. The values in
-  `tokens.css` are derived from its light palette and need sign off.
+- **Dark mode.** The design guide defines no dark palette, so the site ships
+  light only. The values in `tokens.css` are derived from its light palette
+  and stay behind `[data-theme="dark"]` until they are signed off; nothing
+  switches them on automatically.
 - **Two company names.** The About copy describes Rijen Kashan Cobblestone
   Production Company and the Natanz quarry in Isfahan, while the rest of the
   site is Behkooshan in Shams Abad, Tehran. Confirm how the two relate before

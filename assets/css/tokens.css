@@ -34,23 +34,22 @@
   --bg-raised: var(--paper);
   --bg-sunken: var(--bone-soft);
   --bg-band: var(--bone);
-  --bg-inverse: var(--green);
+  --bg-inverse: var(--green-deep);
 
   --text: var(--ink);
   --text-muted: var(--ink-muted);
 
-  /* Two accent tokens, because the page carries two surface tones.
-     --accent is the brand green as a FILL: button grounds, shape tints,
-     rules and focus rings. Its contrast is judged against the type inside
-     it (white on green, 5.70:1) or as a non text element against a surface
-     (4.93:1 on the green tint page, 3.78:1 on bone, both above the 3:1 an
-     interface element needs).
-     --link is the accent as TEXT. Plain green passes on the tint page
-     (4.93:1) but fails on bone (3.78:1), so --link always takes the deeper
-     green, which clears AA on both: 7.13:1 on the tint page, 5.47:1 on
-     bone. */
-  --accent: var(--green);
-  --accent-hover: var(--green-deep);
+  /* The deeper green carries the interface. It is the one green that clears
+     AA as text on both page surfaces, and white on it reaches 8.25:1 rather
+     than 5.70:1, so buttons and bands hold their type more comfortably. The
+     brighter green is kept for hover, where a lift reads as a response, and
+     for the shapes, which are meant to sit quietly against a green ground.
+
+     --accent is the accent as a FILL: button grounds, rules, focus rings.
+     --link is the accent as TEXT, on either surface: 7.13:1 on the tint
+     page, 5.47:1 on bone. */
+  --accent: var(--green-deep);
+  --accent-hover: var(--green);
   --link: var(--green-deep);
   --on-accent: var(--paper);
 
@@ -126,10 +125,15 @@
   --control-h: 3rem;        /* 48px minimum for any interactive target */
 
   /* --- Motion ----------------------------------------------------------
-     State feedback only. No ambient animation. */
+     Small and quiet. State feedback on anything you can touch, and one
+     scroll reveal that carries a block up into place as it enters. Nothing
+     loops, nothing moves on its own. Everything here collapses under
+     prefers-reduced-motion, in site.css. */
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --dur-fast: 120ms;
   --dur: 220ms;
+  --dur-slow: 620ms;
+  --reveal-shift: 1.25rem;
 
   /* --- Layer scale. Use these names, never a bare z-index. ------------- */
   --z-base: 0;

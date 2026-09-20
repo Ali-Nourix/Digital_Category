@@ -6,7 +6,8 @@
   <title>Azarshahr Honey Onyx | Behkooshan</title>
   <meta name="description" content="Translucent honey onyx with amber veining. Backlit in most installations, and used as a decorative stone in lobbies and bars.">
 
-  <link rel="icon" href="../../assets/logos/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0f5a3b">
   <link rel="alternate" hreflang="fa" href="../../products/azarshahr-honey-onyx.html">
   <link rel="alternate" hreflang="en" href="./azarshahr-honey-onyx.html">
 
@@ -17,6 +18,10 @@
   <link rel="stylesheet" href="../../assets/css/site.css">
   <link rel="stylesheet" href="../../assets/css/shapes.css">
   <link rel="stylesheet" href="../../assets/css/product.css">
+
+  <!-- Marks the document as scripted before anything paints, so the reveal's
+       hidden starting state only ever applies where the script can undo it. -->
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -91,7 +96,7 @@
 
       </div>
 
-      <section class="specs" aria-labelledby="specs-title">
+      <section class="specs reveal" aria-labelledby="specs-title">
         <h2 class="specs__title" id="specs-title">Specifications</h2>
 
         <div class="spec-grid">
@@ -122,11 +127,11 @@
         </div>
       </section>
 
-      <section class="related" aria-labelledby="related-title">
+      <section class="related reveal" aria-labelledby="related-title">
         <h2 id="related-title">Other stone</h2>
 
         <ul class="card-grid">
-        <li class="card">
+        <li class="card reveal">
           <a href="./dehbid-marble.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -135,7 +140,7 @@
             <p class="card__type label">Marble</p>
           </a>
         </li>
-        <li class="card">
+        <li class="card reveal">
           <a href="./abbasabad-travertine.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -144,7 +149,7 @@
             <p class="card__type label">Travertine</p>
           </a>
         </li>
-        <li class="card">
+        <li class="card reveal">
           <a href="./mahallat-silver-travertine.html">
             <div class="media-slot" style="--slot-ratio: 4 / 3">
               <span class="media-slot__label">slab photograph · 2000 × 1500</span>
@@ -160,11 +165,14 @@
   </main>
 
   <footer class="site-footer">
+    <span class="bk-shape bk-shape--03 site-footer__shape" aria-hidden="true"></span>
     <div class="shell site-footer__inner">
       <p>No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran</p>
       <p class="tagline">Beautifully Strong</p>
       <p><a href="https://behkooshan.ir">behkooshan.ir</a></p>
     </div>
   </footer>
+
+  <script src="../../assets/js/reveal.js" defer></script>
 </body>
 </html>

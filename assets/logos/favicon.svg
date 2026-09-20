@@ -1,0 +1,18 @@
+<!--
+  Tab icon. Not the same file as logo-mark.svg, on purpose.
+
+  logo-mark.svg is drawn in currentColor so the header and footer can tint it.
+  A favicon has no inherited colour to pick up, so currentColor resolves to
+  black and the mark disappears into a dark tab strip.
+
+  This one carries its own green ground with the mark knocked out in paper,
+  which is how every printed piece in the stationery is built, and means the
+  icon reads the same whether the browser's tab bar is light or dark. The
+  mark is set at 62% of the tile so the counter survives at 16px.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Behkooshan">
+  <rect width="64" height="64" fill="#14754d"/>
+  <g transform="translate(13 12) scale(0.774)" fill="#e9f0ec">
+    <path d="M41.12,0L0,5.58v46.11h49.15L41.12,0ZM6.33,46.12L10.55,8.37h17.36l1.52,13.55-15.42,3.8,23.3,4.6,1.77,15.79H6.33Z"/>
+  </g>
+</svg>

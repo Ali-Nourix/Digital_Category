@@ -22,19 +22,19 @@ const LOCALES = {
     logo: "lockup-fa",
     preload: ["fonts/rokh/Rokh-Regular.woff2", "fonts/rokh/Rokh-Bold.woff2"],
     switchTo: { code: "en", chip: "EN", name: "English" },
-    brand: "بهکوشان",
+    brand: "به‌کوشان",
     address: "تهران، شهرک صنعتی شمس‌آباد، کوچه سنبل ۵، پلاک ۲۸۶",
     home: "خانه",
     products: "محصولات",
     about: "درباره ما",
     skip: "رفتن به محتوای اصلی",
-    homeAria: "بهکوشان، صفحه نخست",
+    homeAria: "به‌کوشان، صفحه نخست",
     navAria: "ناوبری اصلی",
     crumbAria: "مسیر صفحه",
     indexTitle: "محصولات",
     indexLede: "سنگ ساختمانی بریده و پرداخت‌شده در کارخانه شمس‌آباد. برای قیمت و موجودی تماس بگیرید.",
     sampleNotice:
-      "این فهرست نمونه است. نام سنگ‌ها و معادن واقعی‌اند، اما پرداخت، ابعاد، گرید و کد محصول جای‌نگهدارند و باید با ارقام خود بهکوشان جایگزین شوند.",
+      "این فهرست نمونه است. نام سنگ‌ها و معادن واقعی‌اند، اما پرداخت، ابعاد، گرید و کد محصول جای‌نگهدارند و باید با ارقام خود به‌کوشان جایگزین شوند.",
     specsTitle: "مشخصات فنی",
     relatedTitle: "سنگ‌های دیگر",
     quote: "درخواست قیمت",
@@ -112,7 +112,8 @@ function head(ctx, { title, description, file, css }) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
 
-  <link rel="icon" href="${root}assets/logos/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="${root}assets/logos/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0f5a3b">
   <link rel="alternate" hreflang="fa" href="${faHref}">
   <link rel="alternate" hreflang="en" href="${enHref}">
 
@@ -121,8 +122,18 @@ ${L.preload.map((f) => `  <link rel="preload" href="${root}assets/${f}" as="font
 ${["fonts", "tokens", "site", "shapes", ...css]
   .map((n) => `  <link rel="stylesheet" href="${root}assets/css/${n}.css">`)
   .join("\n")}
+
+  <!-- Marks the document as scripted before anything paints, so the reveal's
+       hidden starting state only ever applies where the script can undo it. -->
+  <script>document.documentElement.classList.add("js")</script>
 </head>`;
 }
+
+/**
+ * The one script on the site. Deferred, so it never blocks the paint, and
+ * nothing on the page depends on it having run.
+ */
+const scripts = (ctx) => `  <script src="${ctx.root}assets/js/reveal.js" defer></script>`;
 
 /**
  * The lockup drops to the bare mark below 640px, where two nav labels and the
@@ -151,10 +162,16 @@ function header(ctx, { file, current }) {
   </header>`;
 }
 
+/**
+ * The footer is the site's green panel, and a green panel carrying one large
+ * shape tone on tone is the only way the stationery ever uses a shape. So
+ * that is where the one shape on any page lives.
+ */
 function footer(ctx) {
   const latin = ctx.locale === "fa" ? ' lang="en"' : "";
 
   return `  <footer class="site-footer">
+    <span class="bk-shape bk-shape--03 site-footer__shape" aria-hidden="true"></span>
     <div class="shell site-footer__inner">
       <p>${esc(ctx.L.address)}</p>
       <p class="tagline"${latin}>Beautifully Strong</p>
@@ -195,7 +212,7 @@ function card(ctx, product, categories, { href, indent }) {
   const pad = " ".repeat(indent);
   const p = product[ctx.locale];
 
-  return `${pad}<li class="card">
+  return `${pad}<li class="card reveal">
 ${pad}  <a href="${href}">
 ${mediaSlot({ ratio: "4 / 3", label: SLOT_MAIN, indent: indent + 4 })}
 ${pad}    <p class="card__name">${esc(p.name)}</p>
@@ -239,6 +256,8 @@ ${cards}
   </main>
 
 ${footer(ctx)}
+
+${scripts(ctx)}
 </body>
 </html>
 `;
@@ -314,7 +333,7 @@ ${thumbs}
 
       </div>
 
-      <section class="specs" aria-labelledby="specs-title">
+      <section class="specs reveal" aria-labelledby="specs-title">
         <h2 class="specs__title" id="specs-title">${esc(L.specsTitle)}</h2>
 
         <div class="spec-grid">
@@ -322,7 +341,7 @@ ${specs}
         </div>
       </section>
 
-      <section class="related" aria-labelledby="related-title">
+      <section class="related reveal" aria-labelledby="related-title">
         <h2 id="related-title">${esc(L.relatedTitle)}</h2>
 
         <ul class="card-grid">
@@ -334,6 +353,8 @@ ${related}
   </main>
 
 ${footer(ctx)}
+
+${scripts(ctx)}
 </body>
 </html>
 `;
@@ -342,20 +363,15 @@ ${footer(ctx)}
 /**
  * About page.
  *
- * Section order and layout family, top to bottom:
- *   1. Typographic header (eyebrow, title, lede)
- *   2. Full bleed cover photograph, fading into the page at its foot
- *   3. Introduction: heading beside prose
- *   4. The stationery's green band, one abstract shape tone on tone
- *   5. History: photograph on top (paired with this section, as the client
- *      asked), fading into the page, heading and prose below it
- *   6. Advantages: a short flat list, no dividers repeated from elsewhere
- *   7. Why this stone: a term/description grid, then two prose paragraphs
- *   8. Closing statement: a single full width paragraph, no split heading
+ * The cover photograph sits flush under the header, before anything else on
+ * the page. Everything after it is one repeating unit: a hairline, a heading
+ * on the start edge, and its content in the wider column beside it. Five
+ * sections use that same unit, so the page reads as one grid rather than as
+ * a stack of differently shaped blocks. The history photograph spans both
+ * columns at the top of its own section.
  *
- * Only one shape appears as decoration (the band, step 4); a second, small
- * one sits behind the history photograph as a corner accent, echoing how
- * the stationery layers a shape behind a photo rather than around it.
+ * No decorative shape appears here. The stationery only ever places a shape
+ * on a green panel, and the one green panel on this page is the footer.
  */
 function aboutPage(locale, about) {
   const ctx = context(locale, null);
@@ -370,98 +386,86 @@ function aboutPage(locale, about) {
 
   const whyStoneItems = a.whyStone.items
     .map(
-      (item) => `          <div class="feature">
-            <p class="feature__term">${esc(item.term)}</p>
-            <p class="feature__desc">${esc(item.desc)}</p>
-          </div>`
+      (item) => `            <div class="feature">
+              <p class="feature__term">${esc(item.term)}</p>
+              <p class="feature__desc">${esc(item.desc)}</p>
+            </div>`
     )
     .join("\n");
 
   return `<!DOCTYPE html>
 <html lang="${locale}" dir="${L.dir}">
-${head(ctx, { title: `${a.title} | ${L.brand}`, description: a.lede, file: "about.html", css: ["product", "about"] })}
+${head(ctx, { title: `${a.title} | ${L.brand}`, description: a.description, file: "about.html", css: ["product", "about"] })}
 <body>
   <a class="skip-link" href="#main">${esc(L.skip)}</a>
 
 ${header(ctx, { file: "about.html", current: "about" })}
 
-  <main class="page" id="main">
+  <main class="page page--flush" id="main">
+
+    <figure class="about__cover bleed fade-b">
+      <img src="${root}${about.cover.src}" alt="${esc(about.cover.alt[locale])}"
+           width="${about.cover.width}" height="${about.cover.height}" fetchpriority="high">
+    </figure>
+
     <div class="shell">
 
 ${breadcrumb(ctx, [{ label: L.home, href: home }, { label: a.title }])}
 
-      <div class="about__head">
-        <span class="about__eyebrow eyebrow">${esc(a.eyebrow)}</span>
+      <div class="about__head reveal">
+        <span class="about__eyebrow">${esc(a.eyebrow)}</span>
         <h1>${esc(a.title)}</h1>
-        <p class="about__lede">${esc(a.lede)}</p>
       </div>
 
-      <figure class="about__cover bleed fade-b">
-        <img src="${root}${about.cover.src}" alt="${esc(about.cover.alt[locale])}"
-             width="${about.cover.width}" height="${about.cover.height}" fetchpriority="high">
-      </figure>
-
-      <section class="about__section" aria-labelledby="intro-title">
+      <section class="about__section reveal" aria-labelledby="intro-title">
         <h2 id="intro-title">${esc(a.intro.title)}</h2>
         <div class="about__prose">
 ${paragraphs(a.intro.paragraphs, 10)}
         </div>
       </section>
-    </div>
 
-    <aside class="band bleed">
-      <div class="shell">
-        <span class="bk-shape bk-shape--03 band__shape" aria-hidden="true"></span>
-        <p>${esc(a.pull)}</p>
-      </div>
-    </aside>
-
-    <div class="shell">
-      <section class="about__history" aria-labelledby="history-title">
-        <figure class="about__history-media">
-          <span class="about__history-frame fade-b">
-            <img src="${root}${about.history.src}" alt="${esc(about.history.alt[locale])}"
-                 width="${about.history.width}" height="${about.history.height}" loading="lazy">
-          </span>
+      <section class="about__section reveal" aria-labelledby="history-title">
+        <figure class="about__figure fade-b">
+          <img src="${root}${about.history.src}" alt="${esc(about.history.alt[locale])}"
+               width="${about.history.width}" height="${about.history.height}" loading="lazy">
         </figure>
 
-        <div class="about__section">
-          <h2 id="history-title">${esc(a.history.title)}</h2>
-          <div class="about__prose">
+        <h2 id="history-title">${esc(a.history.title)}</h2>
+        <div class="about__prose">
 ${paragraphs(a.history.paragraphs, 10)}
-          </div>
         </div>
       </section>
 
-      <section class="advantages" aria-labelledby="advantages-title">
-        <h2 id="advantages-title">
-          <span class="bk-shape bk-shape--05 advantages__mark" aria-hidden="true"></span>${esc(a.advantages.title)}
-        </h2>
+      <section class="about__section reveal" aria-labelledby="advantages-title">
+        <h2 id="advantages-title">${esc(a.advantages.title)}</h2>
         <ul class="advantages__list">
 ${advantages}
         </ul>
       </section>
 
-      <section class="features" aria-labelledby="why-stone-title">
+      <section class="about__section reveal" aria-labelledby="why-stone-title">
         <h2 id="why-stone-title">${esc(a.whyStone.title)}</h2>
-
-        <div class="features__grid">
+        <div class="about__prose">
+          <div class="features__grid">
 ${whyStoneItems}
-        </div>
-
-        <div class="features__prose">
+          </div>
 ${paragraphs(a.whyStone.paragraphs, 10)}
         </div>
       </section>
 
-      <section class="about__closing" aria-labelledby="timeless-title">
+      <section class="about__section reveal" aria-labelledby="timeless-title">
         <h2 id="timeless-title">${esc(a.timeless.title)}</h2>
-        <p>${esc(a.timeless.paragraph)}</p>
+        <div class="about__prose">
+          <p>${esc(a.timeless.paragraph)}</p>
+        </div>
       </section>
+
     </div>
   </main>
 
 ${footer(ctx)}
+
+${scripts(ctx)}
 </body>
 </html>
 `;

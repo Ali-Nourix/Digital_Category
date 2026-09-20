@@ -187,6 +187,42 @@ a:hover {
   padding-block: var(--section-gap) var(--space-24);
 }
 
+/* A page whose first element is a full bleed image, which sits straight
+   under the header with nothing above it. */
+.page--flush {
+  padding-block-start: 0;
+}
+
+/* --- Scroll reveal --------------------------------------------------------
+   A block lifts a little into place as it comes into view. Every guard here
+   exists so that the content is never the thing that fails:
+
+   - The hidden state applies only under `html.js`, set by one inline line in
+     the head. No script, no hiding.
+   - `.is-visible` is added by assets/js/reveal.js through an
+     IntersectionObserver. If that file never loads, nothing was hidden.
+   - Under prefers-reduced-motion nothing is hidden or moved at all.
+
+   An earlier version used a scroll driven animation (animation-timeline:
+   view()). It needed no script, but a block near the end of the document can
+   run out of scroll before its range completes and then stays at opacity 0
+   for good, which is exactly what happened to the last section on the about
+   page. Firefox has no support for it either. */
+
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(var(--reveal-shift));
+    transition: opacity var(--dur-slow) var(--ease),
+      transform var(--dur-slow) var(--ease);
+  }
+
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* --- Header ---------------------------------------------------------------
    Green ground with paper type, the way every printed piece in the
    stationery is built. One line at every width, 72px tall, inside the
@@ -204,8 +240,16 @@ a:hover {
   gap: var(--space-6);
 }
 
+/* The drawn lockup is 22px tall, which is under the 24px WCAG 2.5.8 floor and
+   well under a thumb. The link grows to 44px in both axes while the artwork
+   inside keeps the guide's size; the 72px bar has the room. */
 .site-header__logo {
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
+  min-inline-size: 2.75rem;
   color: var(--on-inverse);
 }
 
@@ -328,11 +372,64 @@ html[lang="fa"] .site-header__logo .bk-logo {
 
 /* --- Footer --------------------------------------------------------------- */
 
+/* The footer is the site's green panel, so it is where a shape belongs: one
+   large silhouette, tone on tone, bleeding off the edge, exactly the way the
+   folder cover and the ID card back are built. It is decorative and its low
+   contrast against the panel is the point.
+
+   The footer is one row of text at every width, so there is no column the
+   shape could keep clear of. It is allowed to pass behind type instead, and
+   the palette makes that safe: the shape is --green and the panel is
+   --green-deep, so paper type reads at 5.70:1 over the shape and 8.25:1 over
+   the panel. Both clear AA. Retint the shape and that stops being true.
+
+   The panel's top edge is cut on the stationery's angle rather than left
+   square. It is the one place the site uses that cut: on a panel edge, at
+   full width, where it reads as the shape of the brand's paper. Not on a
+   photograph, where a clipped corner just looks like a mistake.
+
+   clip-path takes no logical keywords, so the angle is mirrored by hand for
+   RTL below. --cut is the drop across the full width; the padding above the
+   content has to clear it, or the first line sits inside the wedge. */
 .site-footer {
+  --cut: 2.5rem;
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   background-color: var(--bg-inverse);
   color: var(--on-inverse-muted);
-  padding-block: var(--space-6);
+  padding-block: calc(var(--space-6) + var(--cut)) var(--space-6);
   font-size: var(--step--1);
+  clip-path: polygon(0 var(--cut), 100% 0, 100% 100%, 0 100%);
+}
+
+[dir="rtl"] .site-footer {
+  clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+/* Below the phone breakpoint the angle eats most of the panel's height and
+   the drop reads as a mistake rather than a cut, so the edge goes square. */
+@media (max-width: 40rem) {
+  .site-footer {
+    --cut: 0px;
+  }
+}
+
+.site-footer__shape {
+  position: absolute;
+  inset-block-start: -35%;
+  inset-inline-end: 6%;
+  z-index: -1;
+  inline-size: min(22vw, 14rem);
+  color: var(--green);
+  pointer-events: none;
+}
+
+@media (max-width: 43.75rem) {
+  .site-footer__shape {
+    display: none;
+  }
 }
 
 .site-footer__inner {

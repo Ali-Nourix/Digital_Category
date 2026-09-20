@@ -1,6 +1,5 @@
 {
-  "_note": "Copy for the About page, supplied by the client verbatim; do not paraphrase or add to it. Note that the intro/history block names Rijen Kashan Cobblestone Production Company and the Natanz quarry in Isfahan, while the rest of the site is Behkooshan in Shams Abad, Tehran, and the later sections (advantages, whyStone, timeless) speak in Behkooshan's own voice. Confirm how the two names relate before this page goes public.",
-
+  "_note": "Copy for the About page, supplied by the client verbatim; do not paraphrase, reorder or lift sentences out of it. `description` is the only line written here rather than supplied, and it is used for the meta description only, never rendered on the page. Note that the intro/history block names Rijen Kashan Cobblestone Production Company and the Natanz quarry in Isfahan, while the rest of the site is Behkooshan in Shams Abad, Tehran, and the later sections speak in Behkooshan's own voice. Confirm how the two names relate before this page goes public.",
   "cover": {
     "src": "assets/images/about-cover-quarry.webp",
     "width": 2000,
@@ -10,7 +9,6 @@
       "en": "Cut blocks of white granite at the working face of the Natanz quarry"
     }
   },
-
   "history": {
     "src": "assets/images/about-application-kitchen.webp",
     "width": 2000,
@@ -20,19 +18,18 @@
       "en": "A kitchen worktop and splashback in Natanz white granite, fine grained in grey and white"
     }
   },
-
   "fa": {
     "title": "درباره ما",
     "eyebrow": "شرکت تولید سنگ‌فرش ریجِن",
-    "lede": "معدن گرانیت سفید نطنز ریجِن، در منطقه نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران است.",
+    "description": "معدن گرانیت سفید نطنز ریجِن، از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران.",
     "intro": {
       "title": "معرفی",
       "paragraphs": [
         "معدن گرانیت سفید نطنز ریجِن، تحت بهره‌برداری شرکت تولید سنگ‌فرش ریجِن واقع در منطقۀ نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های باکیفیت توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد.",
-        "محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و دارای بافتی یکنواخت، در صنایع مختلف عمرانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های زیرساختی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجِن است که باعث شده است محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند."
+        "محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و دارای بافتی یکنواخت، در صنایع مختلف عمرانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های زیرساختی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجِن است که باعث شده است محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند.",
+        "همچنین این سنگ، به دلیل تراکم بالا و بافت یکنواخت، برای کاربردهای گوناگون در فرآوری‌های سنگ خام مناسب است و در این زمینه بسیار موفق عمل کرده است."
       ]
     },
-    "pull": "این سنگ، به دلیل تراکم بالا و بافت یکنواخت، برای کاربردهای گوناگون در فرآوری‌های سنگ خام مناسب است و در این زمینه بسیار موفق عمل کرده است.",
     "history": {
       "title": "تاریخچه",
       "paragraphs": [
@@ -54,10 +51,22 @@
     "whyStone": {
       "title": "چرا گرانیت و کوارتزیت به‌کوشان؟",
       "items": [
-        { "term": "استحکام بالا", "desc": "مقاومت عالی در برابر سایش، فشار و حرارت" },
-        { "term": "زیبایی طبیعی", "desc": "الگوها و رنگ‌های منحصربه‌فرد برای فضاهای لوکس" },
-        { "term": "دوام و پایداری", "desc": "انتخابی ماندگار و سازگار با محیط‌زیست" },
-        { "term": "کاربرد گسترده", "desc": "مناسب برای کانترتاپ، کف، دیوار، نما و پروژه‌های مسکونی، تجاری و شهری" }
+        {
+          "term": "استحکام بالا",
+          "desc": "مقاومت عالی در برابر سایش، فشار و حرارت"
+        },
+        {
+          "term": "زیبایی طبیعی",
+          "desc": "الگوها و رنگ‌های منحصربه‌فرد برای فضاهای لوکس"
+        },
+        {
+          "term": "دوام و پایداری",
+          "desc": "انتخابی ماندگار و سازگار با محیط‌زیست"
+        },
+        {
+          "term": "کاربرد گسترده",
+          "desc": "مناسب برای کانترتاپ، کف، دیوار، نما و پروژه‌های مسکونی، تجاری و شهری"
+        }
       ],
       "paragraphs": [
         "در به‌کوشان، دقت در فرآوری، مهارت فنی و تمرکز بر رضایت مشتری در کنار هم قرار گرفته‌اند تا سنگ‌هایی الهام‌بخش و ماندگار خلق شوند.",
@@ -69,19 +78,18 @@
       "paragraph": "سنگ‌های طبیعی همواره نمادی از شکوه، اصالت و ماندگاری بوده‌اند. مجموعه‌ای از مرمر، گرانیت، اونیکس، تراورتن و سنگ آهک با رنگ‌های روشن یا ملایم و طیف‌های هماهنگ، فضایی لوکس و چشم‌نواز خلق می‌کنند. تنوع این سنگ‌ها، حاصل فرآوری دقیق با فناوری‌های نوین است و برای دکوراسیون‌های خاص و پروژه‌های شاخص معماری انتخابی ایده‌آل به شمار می‌رود."
     }
   },
-
   "en": {
     "title": "About us",
     "eyebrow": "Rijen Kashan Cobblestone Production Company",
-    "lede": "The Natanz White Granite Quarry, in the Natanz region of Isfahan Province, is one of the largest and most reputable sources of white granite extraction in Iran.",
+    "description": "The Natanz White Granite Quarry, one of the largest and most reputable sources of white granite extraction in Iran.",
     "intro": {
       "title": "Introduction",
       "paragraphs": [
         "The Natanz White Granite Quarry, operated by Rijen Kashan Cobblestone Production Company and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry.",
-        "The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets."
+        "The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets.",
+        "Furthermore, due to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field."
       ]
     },
-    "pull": "Due to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field.",
     "history": {
       "title": "History",
       "paragraphs": [
@@ -103,10 +111,22 @@
     "whyStone": {
       "title": "Why Behkooshan Granite and Quartzite?",
       "items": [
-        { "term": "Exceptional Strength", "desc": "Both granite and quartzite are known for their resistance to wear, heat, and pressure, making them ideal for high-traffic and high-performance areas." },
-        { "term": "Natural Elegance", "desc": "The striking patterns and colors of our stones add sophistication and depth to any interior or exterior space." },
-        { "term": "Sustainable Choice", "desc": "Sourced responsibly from premium Iranian quarries, our stones represent a long-lasting and eco-friendly solution." },
-        { "term": "Versatile Applications", "desc": "From countertops and flooring to cladding and facades, our stones are suitable for residential, commercial, and urban projects." }
+        {
+          "term": "Exceptional Strength",
+          "desc": "Both granite and quartzite are known for their resistance to wear, heat, and pressure, making them ideal for high-traffic and high-performance areas."
+        },
+        {
+          "term": "Natural Elegance",
+          "desc": "The striking patterns and colors of our stones add sophistication and depth to any interior or exterior space."
+        },
+        {
+          "term": "Sustainable Choice",
+          "desc": "Sourced responsibly from premium Iranian quarries, our stones represent a long-lasting and eco-friendly solution."
+        },
+        {
+          "term": "Versatile Applications",
+          "desc": "From countertops and flooring to cladding and facades, our stones are suitable for residential, commercial, and urban projects."
+        }
       ],
       "paragraphs": [
         "At Behkooshan, precision processing, expert craftsmanship, and customer focus come together to deliver natural stone solutions that inspire and endure. Whether you’re building a luxury residence, a modern commercial space, or a large-scale architectural project, our granite and quartzite offer the quality and character you need."
