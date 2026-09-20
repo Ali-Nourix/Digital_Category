@@ -86,6 +86,13 @@
 .lightbox__stage {
   overflow: hidden;
   padding: var(--space-4);
+
+  /* The stage holds one photograph and no text, so it has no reading
+     direction to preserve, and being LTR makes scrollLeft behave the one way
+     everywhere: 0 at the left edge, positive going right. Under `rtl` it runs
+     0 to negative instead, and the panning arithmetic would clamp to zero on
+     the Persian pages while working on the English ones. */
+  direction: ltr;
 }
 
 .lightbox__img {
@@ -96,10 +103,25 @@
 }
 
 /* Zoomed, the image goes to its natural size and the stage becomes the scroll
-   port you pan it around in. */
+   port you pan it around in, by dragging or by scrolling.
+
+   `touch-action` stays at its default so a touch screen keeps the browser's
+   own panning, which has momentum; the drag handler in lightbox.js only takes
+   over for a mouse or a pen. */
 .lightbox__stage.is-zoomed {
   overflow: auto;
   cursor: grab;
+}
+
+.lightbox__stage.is-dragging {
+  cursor: grabbing;
+  /* Stop the pointer picking up the photograph as a text selection while it
+     is being dragged across. */
+  user-select: none;
+}
+
+.lightbox__stage.is-dragging .lightbox__img {
+  cursor: grabbing;
 }
 
 .lightbox__stage.is-zoomed .lightbox__img {

@@ -120,12 +120,15 @@ html[lang="en"] .about__eyebrow {
    version set the title full width and left the prose alone in a narrow
    column with half the page empty next to it.
 
-   The company name is the page's h1 and is longer than a section heading, so
-   it steps down one size to sit in the narrow column without wrapping into a
-   stack of single words. */
+   The company name is longer than a section heading, so this one unit gives
+   its heading column a little more width. An earlier attempt shrank the title
+   instead, which left the home page with a smaller h1 than every other page
+   on the site and read as a mistake rather than a decision. */
 
-.home__intro h1 {
-  font-size: var(--step-4);
+@media (min-width: 1000px) {
+  .home__intro {
+    grid-template-columns: 5fr 7fr;
+  }
 }
 
 /* The product list is here, not only behind a link, so that scrolling the

@@ -70,7 +70,8 @@ in document order. It is built on `<dialog>.showModal()`, so the focus trap,
 the inert background and Escape come from the browser rather than from script
 that has to reimplement them. The caption is the image's own alt text: one
 description, not two, so the printed line and the one a screen reader gets can
-never drift apart. Without the script every photograph is still a plain `<img>`
+never drift apart. Zoomed, the photograph is dragged to pan, not just
+scrolled. Without the script every photograph is still a plain `<img>`
 in the page, and the `zoom-in` cursor and the button role are only applied once
 the script has actually run.
 

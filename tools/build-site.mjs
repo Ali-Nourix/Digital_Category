@@ -610,6 +610,10 @@ function galleryPage(locale, data) {
   // the grid has to be able to clamp a four column cell down to two, and then
   // to one, as it narrows. An inline custom property outranks every
   // stylesheet rule, so a media query could never reach it.
+  // Shape panels alternate which corner the silhouette runs off, so two of
+  // them on one page do not read as the same stamp twice.
+  let shapeCount = 0;
+
   const cells = data.cells
     .map((cell) => {
       const [cols, rows] = cell.span.split("x");
@@ -619,7 +623,8 @@ function galleryPage(locale, data) {
       ].join("");
 
       if (cell.type === "shape") {
-        return `        <li class="gallery__cell gallery__cell--shape${span}" aria-hidden="true">
+        const lean = shapeCount++ % 2 ? " gallery__cell--shape-end" : "";
+        return `        <li class="gallery__cell gallery__cell--shape${lean}${span}" aria-hidden="true">
           <span class="bk-shape bk-shape--${cell.shape}"></span>
         </li>`;
       }
@@ -650,7 +655,6 @@ ${breadcrumb(ctx, [{ label: L.home, href: home }, { label: g.title }])}
 
       <div class="gallery__head">
         <h1>${esc(g.title)}</h1>
-        <p>${esc(g.lede)}</p>
       </div>
 
       <ul class="gallery__grid reveal">

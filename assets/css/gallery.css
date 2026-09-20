@@ -4,13 +4,6 @@
    loads alongside it.
    ========================================================================== */
 
-/* --- Page head ------------------------------------------------------------ */
-
-.gallery__head p {
-  margin-block-start: var(--space-3);
-  color: var(--text-muted);
-}
-
 /* --- Bento grid -----------------------------------------------------------
    These photographs are not equals. A quarry face earns the full width, a
    powder room reads better standing tall, and a uniform grid would flatten
@@ -112,9 +105,11 @@
   color: var(--green);
 }
 
-/* The second shape panel leans the other way, so the two do not read as a
-   repeated stamp. */
-.gallery__cell--shape:nth-of-type(even) .bk-shape {
+/* Every other shape panel leans the opposite way, so two of them on a page do
+   not read as the same stamp twice. The alternation is a class from the
+   generator rather than :nth-of-type, which counts every li in the grid and
+   would land on photographs as readily as on shape panels. */
+.gallery__cell--shape-end .bk-shape {
   inset-block-start: auto;
   inset-block-end: -18%;
   inset-inline-start: auto;
