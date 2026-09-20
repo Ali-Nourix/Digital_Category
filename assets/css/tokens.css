@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Behkooshan design tokens
+   Every value the catalog is allowed to use lives here. Components read
+   tokens, never raw hex. Changing the brand means changing this file.
+   Source of truth: the Behkooshan stationery system (A4 design house, 2023).
+   ========================================================================== */
+
+:root {
+  /* --- Brand constants -------------------------------------------------
+     These three do not change between light and dark. They are the brand. */
+  --brand-green: #14754d;  /* primary. Logo, headings, links, primary action */
+  --brand-forest: #005038; /* deep ground. Full bleed surfaces, shape fills  */
+  --brand-bone: #d3d3c9;   /* warm neutral. Type on green, secondary surface */
+
+  /* Tints derived from the brand greens. Used for states and dark mode,
+     never introduced as new hues. */
+  --green-bright: #2fa574; /* lifted green, readable on a dark ground       */
+  --green-deep: #0f5a3b;   /* pressed and hover state of the primary green  */
+  --ink-900: #111a16;      /* green cast near black. Never pure #000        */
+  --ink-600: #4a5a52;
+  --ink-300: #8fa39a;
+  --paper: #fafaf7;        /* warm near white. Never pure #fff              */
+  --night: #04231a;        /* darkest green cast ground                     */
+
+  /* --- Semantic surface and text (light is the default mode) ----------- */
+  --bg: var(--paper);
+  --bg-sunken: var(--brand-bone);
+  --surface: #ffffff;
+  --text: var(--ink-900);
+  --text-muted: var(--ink-600);
+  --accent: var(--brand-green);
+  --accent-hover: var(--green-deep);
+  --on-accent: #ffffff;
+  --rule: color-mix(in srgb, var(--brand-forest) 18%, transparent);
+  --focus: var(--brand-green);
+
+  /* --- Type ------------------------------------------------------------
+     Persian pages lead with Rokh, which also carries Latin glyphs.
+     English pages lead with TT Firs Neue and fall back to Rokh for any
+     Persian run, because TT Firs Neue has no Arabic coverage at all. */
+  --font-fa: "Rokh", "TT Firs Neue", system-ui, sans-serif;
+  --font-en: "TT Firs Neue", "Rokh", system-ui, sans-serif;
+
+  /* Minor third (1.2) fluid scale, 320px to 1400px viewport. */
+  --step--1: clamp(0.833rem, 0.805rem + 0.14vw, 0.9rem);
+  --step-0: clamp(1rem, 0.948rem + 0.26vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.116rem + 0.42vw, 1.406rem);
+  --step-2: clamp(1.44rem, 1.312rem + 0.64vw, 1.758rem);
+  --step-3: clamp(1.728rem, 1.539rem + 0.95vw, 2.197rem);
+  --step-4: clamp(2.074rem, 1.801rem + 1.36vw, 2.747rem);
+  --step-5: clamp(2.488rem, 2.104rem + 1.92vw, 3.433rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-body: 1.7;   /* Persian needs more room than Latin */
+  --measure: 68ch;
+
+  /* --- Space. 4px base. ------------------------------------------------ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* --- Shape -----------------------------------------------------------
+     The identity is built from straight cuts. Corners stay square, and the
+     only permitted softening is the angled corner taken from the letterhead
+     and the folder. Radius is zero everywhere, on purpose. */
+  --radius: 0;
+  --cut: 1.5rem;            /* depth of the angled corner */
+  --hairline: 1px;
+  --border-strong: 2px;
+
+  /* --- Layout ---------------------------------------------------------- */
+  --shell: 78rem;           /* 1248px content container */
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 3rem);
+  --header-h: 4.5rem;       /* 72px, inside the 80px cap */
+
+  /* --- Motion ----------------------------------------------------------
+     Restrained by design read. State feedback only, no ambient animation. */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+
+  /* --- Layer scale. Use these names, never a bare z-index. ------------- */
+  --z-base: 0;
+  --z-sticky: 100;
+  --z-overlay: 200;
+
+  color-scheme: light dark;
+}
+
+/* --- Dark mode -------------------------------------------------------
+   The stationery already contains the dark expression: bone type on a deep
+   green ground. The page ground drops below #005038 so that green can stay
+   an accent rather than becoming the whole field. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: var(--night);
+    --bg-sunken: #031a13;
+    --surface: #06301f;
+    --text: var(--brand-bone);
+    --text-muted: var(--ink-300);
+    --accent: var(--green-bright);
+    --accent-hover: #46bd8b;
+    --on-accent: var(--night);
+    --rule: color-mix(in srgb, var(--brand-bone) 22%, transparent);
+    --focus: var(--green-bright);
+  }
+}
+
+/* Manual override hook. Set data-theme="dark" on <html> to pin dark mode
+   regardless of the system setting. */
+:root[data-theme="dark"] {
+  --bg: var(--night);
+  --bg-sunken: #031a13;
+  --surface: #06301f;
+  --text: var(--brand-bone);
+  --text-muted: var(--ink-300);
+  --accent: var(--green-bright);
+  --accent-hover: #46bd8b;
+  --on-accent: var(--night);
+  --rule: color-mix(in srgb, var(--brand-bone) 22%, transparent);
+  --focus: var(--green-bright);
+}

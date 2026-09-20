@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Behkooshan abstract shape library
+   Generated from assets/shapes/*.svg. Each shape ships with a currentColor
+   fill and is drawn through a mask, so it takes the colour of its context.
+
+   Usage:  <span class="shape shape--05" aria-hidden="true"></span>
+   Size it with inline-size on the element; the ratio comes from the class.
+
+   The url() has to live in this stylesheet rather than in a style attribute:
+   a url() inside a custom property resolves against the stylesheet that uses
+   it, not the document, so declaring it here keeps every deploy path correct.
+   ========================================================================== */
+
+.shape--01 {
+  --shape: url("../shapes/shape-01.svg");
+  --shape-ratio: 533.52 / 252.08;
+}
+
+.shape--02 {
+  --shape: url("../shapes/shape-02.svg");
+  --shape-ratio: 352.84 / 530.46;
+}
+
+.shape--03 {
+  --shape: url("../shapes/shape-03.svg");
+  --shape-ratio: 181.89 / 143.77;
+}
+
+.shape--04 {
+  --shape: url("../shapes/shape-04.svg");
+  --shape-ratio: 187.28 / 143.77;
+}
+
+.shape--05 {
+  --shape: url("../shapes/shape-05.svg");
+  --shape-ratio: 133.76 / 143.96;
+}
+
+.shape--06 {
+  --shape: url("../shapes/shape-06.svg");
+  --shape-ratio: 181.89 / 143.77;
+}
+
+.shape--07 {
+  --shape: url("../shapes/shape-07.svg");
+  --shape-ratio: 279.79 / 143.96;
+}
+
+.shape--08 {
+  --shape: url("../shapes/shape-08.svg");
+  --shape-ratio: 279.79 / 143.96;
+}
+
+.shape--09 {
+  --shape: url("../shapes/shape-09.svg");
+  --shape-ratio: 180.25 / 143.96;
+}
+
+.shape--10 {
+  --shape: url("../shapes/shape-10.svg");
+  --shape-ratio: 196.85 / 366.79;
+}
+
+.shape--11 {
+  --shape: url("../shapes/shape-11.svg");
+  --shape-ratio: 420.94 / 325.48;
+}
+
+.shape--12 {
+  --shape: url("../shapes/shape-12.svg");
+  --shape-ratio: 130.07 / 171.44;
+}
+
+.shape--13 {
+  --shape: url("../shapes/shape-13.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--14 {
+  --shape: url("../shapes/shape-14.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--15 {
+  --shape: url("../shapes/shape-15.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--16 {
+  --shape: url("../shapes/shape-16.svg");
+  --shape-ratio: 130.07 / 171.44;
+}
+
+.shape--17 {
+  --shape: url("../shapes/shape-17.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--18 {
+  --shape: url("../shapes/shape-18.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--19 {
+  --shape: url("../shapes/shape-19.svg");
+  --shape-ratio: 130.07 / 171.43;
+}
+
+.shape--20 {
+  --shape: url("../shapes/shape-20.svg");
+  --shape-ratio: 456.91 / 646.13;
+}
+
+.shape--21 {
+  --shape: url("../shapes/shape-21.svg");
+  --shape-ratio: 133.34 / 324.21;
+}
