@@ -14,56 +14,138 @@
     "here, so adding origin, finish or colour later is a data edit, not a code change.",
     "A product only declares a facet when the client's text supports it; it is better",
     "for a product to be absent from a filter than to be listed under a claim nobody",
-    "made. That is why quartzite currently declares only `type`."
+    "made."
   ],
-
   "facets": [
     {
       "key": "type",
-      "label": { "fa": "نوع سنگ", "en": "Stone type" },
+      "label": {
+        "fa": "نوع سنگ",
+        "en": "Stone type"
+      },
       "options": [
-        { "value": "granite", "label": { "fa": "گرانیت", "en": "Granite" } },
-        { "value": "quartzite", "label": { "fa": "کوارتزیت", "en": "Quartzite" } }
+        {
+          "value": "granite",
+          "label": {
+            "fa": "گرانیت",
+            "en": "Granite"
+          }
+        },
+        {
+          "value": "quartzite",
+          "label": {
+            "fa": "کوارتزیت",
+            "en": "Quartzite"
+          }
+        }
       ]
     },
     {
       "key": "application",
-      "label": { "fa": "کاربرد", "en": "Application" },
+      "label": {
+        "fa": "کاربرد",
+        "en": "Application"
+      },
       "options": [
-        { "value": "interior", "label": { "fa": "داخلی", "en": "Interior" } },
-        { "value": "exterior", "label": { "fa": "خارجی", "en": "Exterior" } }
+        {
+          "value": "interior",
+          "label": {
+            "fa": "داخلی",
+            "en": "Interior"
+          }
+        },
+        {
+          "value": "exterior",
+          "label": {
+            "fa": "خارجی",
+            "en": "Exterior"
+          }
+        }
       ]
     },
     {
       "key": "pattern",
-      "label": { "fa": "طرح", "en": "Pattern" },
+      "label": {
+        "fa": "طرح",
+        "en": "Pattern"
+      },
       "options": [
-        { "value": "uniform", "label": { "fa": "یکنواخت", "en": "Uniform" } },
-        { "value": "veined", "label": { "fa": "رگه‌دار", "en": "Veined" } }
+        {
+          "value": "uniform",
+          "label": {
+            "fa": "یکنواخت",
+            "en": "Uniform"
+          }
+        },
+        {
+          "value": "veined",
+          "label": {
+            "fa": "رگه‌دار",
+            "en": "Veined"
+          }
+        }
       ]
     }
   ],
-
-  "specOrder": ["class", "composition", "properties", "pattern", "weather", "application", "thickness", "cutting"],
-
+  "specOrder": [
+    "class",
+    "composition",
+    "properties",
+    "pattern",
+    "weather",
+    "application",
+    "thickness",
+    "cutting"
+  ],
   "specLabels": {
-    "class":       { "fa": "رده سنگ",        "en": "Rock class" },
-    "composition": { "fa": "ترکیب",          "en": "Composition" },
-    "properties":  { "fa": "ویژگی‌های فنی",  "en": "Technical properties" },
-    "pattern":     { "fa": "رنگ و طرح",      "en": "Colour and pattern" },
-    "weather":     { "fa": "مقاومت جوی",     "en": "Weather resistance" },
-    "application": { "fa": "کاربرد",         "en": "Application" },
-    "thickness":   { "fa": "ضخامت اسلب",     "en": "Slab thickness" },
-    "cutting":     { "fa": "روش برش",        "en": "Cutting method" }
+    "class": {
+      "fa": "رده سنگ",
+      "en": "Rock class"
+    },
+    "composition": {
+      "fa": "ترکیب",
+      "en": "Composition"
+    },
+    "properties": {
+      "fa": "ویژگی‌های فنی",
+      "en": "Technical properties"
+    },
+    "pattern": {
+      "fa": "رنگ و طرح",
+      "en": "Colour and pattern"
+    },
+    "weather": {
+      "fa": "مقاومت جوی",
+      "en": "Weather resistance"
+    },
+    "application": {
+      "fa": "کاربرد",
+      "en": "Application"
+    },
+    "thickness": {
+      "fa": "ضخامت اسلب",
+      "en": "Slab thickness"
+    },
+    "cutting": {
+      "fa": "روش برش",
+      "en": "Cutting method"
+    }
   },
-
   "products": [
     {
       "slug": "granite",
       "facets": {
-        "type": ["granite"],
-        "application": ["interior", "exterior"],
-        "pattern": ["uniform", "veined"]
+        "type": [
+          "granite"
+        ],
+        "application": [
+          "interior",
+          "exterior"
+        ],
+        "pattern": [
+          "uniform",
+          "veined"
+        ]
       },
       "images": {
         "main": {
@@ -139,12 +221,15 @@
         "cutting": "home.json: \"three Italian Multiwire machines\""
       }
     },
-
     {
       "slug": "quartzite",
-      "awaitingCopy": true,
       "facets": {
-        "type": ["quartzite"]
+        "type": [
+          "quartzite"
+        ],
+        "application": [
+          "exterior"
+        ]
       },
       "images": {
         "main": {
@@ -179,23 +264,37 @@
       },
       "fa": {
         "name": "کوارتزیت",
-        "body": [],
+        "body": [
+          "کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد."
+        ],
         "specs": {
+          "class": "شبیه به گرانیت در ویژگی‌های فیزیکی و مکانیکی",
+          "properties": "سختی و دوام بالا",
+          "weather": "بالا، برای پروژه‌هایی که مقاومت بالا می‌خواهند",
+          "application": "فضاهای خارجی",
           "thickness": "از ۱۲ میلی‌متر به بالا",
           "cutting": "مولتی‌وایر"
-        },
-        "pending": "متن معرفی کوارتزیت هنوز از طرف کارفرما ارسال نشده است. به محض دریافت، همین‌جا و بدون هیچ تغییری قرار می‌گیرد و مشخصات فنی هم از روی آن استخراج می‌شود."
+        }
       },
       "en": {
         "name": "Quartzite",
-        "body": [],
+        "body": [
+          "Quartzite is very similar to granite in terms of physical and mechanical features and is highly durable and hard. Depending on its type and structure, this stone is widely used in outdoor spaces and projects that require high resistance, and it gives the space a modern and distinctive aspect."
+        ],
         "specs": {
+          "class": "Similar to granite in physical and mechanical features",
+          "properties": "Highly durable and hard",
+          "weather": "High, for projects that require high resistance",
+          "application": "Outdoor spaces",
           "thickness": "From 12 mm upwards",
           "cutting": "Multiwire"
-        },
-        "pending": "The quartzite description has not been supplied yet. It goes here verbatim as soon as it arrives, and the technical specifications are derived from it."
+        }
       },
       "specSources": {
+        "class": "\"very similar to granite in terms of physical and mechanical features\"",
+        "properties": "\"is highly durable and hard\"",
+        "weather": "\"projects that require high resistance\"",
+        "application": "\"widely used in outdoor spaces\"",
         "thickness": "home.json: \"slabs with different thicknesses from 12 millimeters upwards\"",
         "cutting": "home.json: \"three Italian Multiwire machines\""
       }

@@ -96,20 +96,15 @@ html[lang="en"] .about__eyebrow {
   }
 }
 
-/* A section whose heading is the page title itself, so there is nothing to put
-   in the narrow column. The prose takes the full width of the unit and keeps
-   its own measure, rather than sitting in an 8-column slot beside a gap. */
-.about__section--single {
-  grid-template-columns: minmax(0, 1fr);
+/* The first unit on a page has nothing above it to be separated from, so it
+   drops the hairline and the space that goes with it. */
+.about__section--open {
+  margin-block-start: var(--space-12);
+  padding-block-start: 0;
+  border-block-start: 0;
 }
 
-@media (min-width: 1000px) {
-  .about__section--single {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-
-.about__section h2 {
+.about__section :is(h1, h2) {
   margin: 0;
   align-self: start;
 }
@@ -119,10 +114,51 @@ html[lang="en"] .about__eyebrow {
   gap: var(--space-6);
 }
 
-/* The one call to action on the home page, sitting under the introduction. */
-.home__cta {
-  margin-block-start: var(--space-4);
+/* --- Home page ------------------------------------------------------------
+   The home page is built from the same unit as the About page: the heading on
+   the start edge, its content in the wider column beside it. An earlier
+   version set the title full width and left the prose alone in a narrow
+   column with half the page empty next to it.
+
+   The company name is the page's h1 and is longer than a section heading, so
+   it steps down one size to sit in the narrow column without wrapping into a
+   stack of single words. */
+
+.home__intro h1 {
+  font-size: var(--step-4);
+}
+
+/* The product list is here, not only behind a link, so that scrolling the
+   home page reaches the stone.
+
+   It keeps the unit's hairline but not its two columns. Prose belongs in the
+   narrow measure beside a heading; a grid of tiles does not, and squeezing it
+   into the 8fr column left the tiles too narrow to sit side by side. Heading
+   above, grid across the full width below, which is how the catalogue page
+   is built too. */
+.home__products {
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-2);
+}
+
+@media (min-width: 1000px) {
+  .home__products {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.home__more {
+  margin-block-start: var(--space-8);
+  font-size: var(--step--1);
+  font-weight: 500;
   max-inline-size: none;
+}
+
+.home__more a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-block-size: 2.75rem;
 }
 
 /* A photograph belonging to a section spans the whole grid and leads it. */

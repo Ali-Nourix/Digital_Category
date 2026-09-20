@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/shapes.css">
   <link rel="stylesheet" href="../assets/css/about.css">
+  <link rel="stylesheet" href="../assets/css/product.css">
 
   <!-- Marks the document as scripted before anything paints, so the reveal's
        hidden starting state only ever applies where the script can undo it. -->
@@ -35,6 +36,7 @@
 
       <nav class="site-nav" aria-label="Main">
         <a href="./products/">Products</a>
+        <a href="./gallery.html">Gallery</a>
         <a href="./about.html">About</a>
       </nav>
 
@@ -52,18 +54,49 @@
 
     <div class="shell">
 
-      <div class="about__head reveal">
-        <h1>Behkooshan Stone Processing Company</h1>
-      </div>
+      <section class="about__section about__section--open home__intro reveal" aria-labelledby="intro-title">
+        <h1 id="intro-title">Behkooshan Stone Processing Company</h1>
 
-      <section class="about__section about__section--single reveal" aria-label="Behkooshan Stone Processing Company">
         <div class="about__prose">
           <p>Behkooshan Stone Processing Company, established in 2017, is the largest producer of granite and quartzite slabs in Iran using advanced Multiwire technology. We utilize the latest stone processing technology and the most skilled staff to ensure the best quality and high diversity in our products.</p>
           <p>Our production line is equipped with three Italian Multiwire machines which can cut stone blocks into slabs with different thicknesses from 12 millimeters upwards. Raw materials are selected with the utmost care and meticulousness from reputable mines around the world, including Iran, Brazil, Ukraine, India, and African countries.</p>
           <p>Our mission is to provide our customers with a wide variety of high-quality and strong material to suit their taste and needs while pushing the boundaries of the construction industry.</p>
+        </div>
+      </section>
 
-          <p class="home__cta">
-            <a class="button" href="./products/">View products <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
+      <section class="about__section home__products reveal" aria-labelledby="products-title">
+        <h2 id="products-title">Products</h2>
+
+        <div>
+          <ul class="card-grid">
+          <li class="card reveal" data-name="granite" data-type="granite" data-application="interior exterior" data-pattern="uniform veined">
+            <a class="card__link" href="./products/granite.html">
+              <span class="card__media">
+                <img class="card__img" src="../assets/images/granite-slab-display.webp"
+                     alt="A granite slab with a green ground and rust veining, standing on a black rock"
+                     width="562" height="1000" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" loading="lazy" decoding="async">
+              </span>
+              <span class="card__body">
+                <span class="card__name">Granite</span>
+              </span>
+            </a>
+          </li>
+          <li class="card reveal" data-name="quartzite" data-type="quartzite" data-application="exterior">
+            <a class="card__link" href="./products/quartzite.html">
+              <span class="card__media">
+                <img class="card__img" src="../assets/images/quartzite-block-display.webp"
+                     alt="A white quartzite block on a cube plinth, lit from the side"
+                     width="1080" height="1350" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" loading="lazy" decoding="async">
+              </span>
+              <span class="card__body">
+                <span class="card__name">Quartzite</span>
+              </span>
+            </a>
+          </li>
+          </ul>
+
+          <p class="home__more">
+            <a href="./products/">All products <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </section>

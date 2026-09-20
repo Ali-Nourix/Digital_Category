@@ -12,17 +12,21 @@ here and where it was silent. Read it before changing anything visual.
 ```
 index.html                    Persian home, RTL. The site root. Generated.
 about.html                    Persian About, generated
+gallery.html                  Persian gallery, generated
 products/                     Persian catalogue, generated
-en/                           The same three, in English
+en/                           The same four, in English
 404.html                      Self contained error page
 data/home.json                Single source of truth for the home page copy
 data/products.json            Single source of truth for products
 data/about.json               Single source of truth for the About copy
+data/gallery.json             Single source of truth for the gallery
 tools/build-site.mjs          Generates every data driven page
 tools/build-shape-css.py      Generates assets/css/shapes.css
-assets/css/                   fonts, tokens, site, shapes, product, about
+assets/css/                   fonts, tokens, site, shapes, product, about,
+                              gallery, lightbox
 assets/js/reveal.js           Reveals blocks on scroll
 assets/js/catalogue.js        Catalogue search and filtering
+assets/js/lightbox.js         Opens a photograph large, with zoom
 assets/fonts/                 Rokh (7 static weights), TT Firs Neue (variable)
 assets/images/                Photography, named for where it is used
 assets/logos/                 4 lockups in currentColor, plus favicon.svg
@@ -59,6 +63,16 @@ script holds no product list of its own and adding a facet to
 `data/products.json` needs no change to it. The whole filter bar is hidden by
 CSS unless `html.js` is set, because a search box that cannot search is worse
 than no search box; without scripting the catalogue is the full list.
+
+`assets/js/lightbox.js` opens a photograph full screen with its description,
+and lets you zoom. Mark an image `data-zoom` and it joins the set on that page,
+in document order. It is built on `<dialog>.showModal()`, so the focus trap,
+the inert background and Escape come from the browser rather than from script
+that has to reimplement them. The caption is the image's own alt text: one
+description, not two, so the printed line and the one a screen reader gets can
+never drift apart. Without the script every photograph is still a plain `<img>`
+in the page, and the `zoom-in` cursor and the button role are only applied once
+the script has actually run.
 
 ## Local preview
 
@@ -120,11 +134,8 @@ set, the workflow runs and then fails at the deploy step.
 - **Font licence.** TT Firs Neue is currently the Trial file, which is not
   licensed for public deployment. Buy a commercial web licence from TypeType
   and replace the file in `assets/fonts/tt-firs-neue/`.
-- **Quartzite copy.** `data/products.json` marks the quartzite
-  `"awaitingCopy": true`. Its name, photographs and the two specifications
-  that come from the company introduction are in place; the description and
-  the specifications derived from it are still owed by the client. Until they
-  arrive the product page says so.
+- **Contact.** There is no contact page yet, which is why there is no call to
+  action on a product. Add the page, then the button.
 - **Dark mode.** The design guide defines no dark palette, so the site ships
   light only. The values in `tokens.css` are derived from its light palette
   and stay behind `[data-theme="dark"]` until they are signed off; nothing

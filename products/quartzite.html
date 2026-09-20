@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>کوارتزیت | به‌کوشان</title>
-  <meta name="description" content="اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.">
+  <meta name="description" content="کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد.">
 
   <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0f5a3b">
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/shapes.css">
   <link rel="stylesheet" href="../assets/css/product.css">
+  <link rel="stylesheet" href="../assets/css/lightbox.css">
 
   <!-- Marks the document as scripted before anything paints, so the reveal's
        hidden starting state only ever applies where the script can undo it. -->
@@ -36,6 +37,7 @@
 
       <nav class="site-nav" aria-label="ناوبری اصلی">
         <a href="../products/" aria-current="page">محصولات</a>
+        <a href="../gallery.html">تصاویر</a>
         <a href="../about.html">درباره ما</a>
       </nav>
 
@@ -60,19 +62,15 @@
         <figure class="product__hero">
           <img class="product__img" src="../assets/images/quartzite-block-display.webp"
                alt="بلوک کوارتزیت سفید روی یک پایۀ مکعبی، در نور کناری"
-               width="1080" height="1350" sizes="(min-width: 62rem) 32rem, 92vw" fetchpriority="high">
+               width="1080" height="1350" sizes="(min-width: 62rem) 32rem, 92vw" data-zoom fetchpriority="high">
         </figure>
 
         <div class="product__head">
           <h1>کوارتزیت</h1>
 
-          <div class="notice">
-            <p>متن معرفی کوارتزیت هنوز از طرف کارفرما ارسال نشده است. به محض دریافت، همین‌جا و بدون هیچ تغییری قرار می‌گیرد و مشخصات فنی هم از روی آن استخراج می‌شود.</p>
+          <div class="product__prose">
+            <p>کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد.</p>
           </div>
-
-          <p class="product__actions">
-            <a class="button" href="../about.html">درخواست قیمت <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
-          </p>
         </div>
 
       </div>
@@ -81,6 +79,22 @@
         <h2 class="specs__title" id="specs-title">مشخصات فنی</h2>
 
         <dl class="spec-grid">
+          <div class="spec">
+            <dt>رده سنگ</dt>
+            <dd>شبیه به گرانیت در ویژگی‌های فیزیکی و مکانیکی</dd>
+          </div>
+          <div class="spec">
+            <dt>ویژگی‌های فنی</dt>
+            <dd>سختی و دوام بالا</dd>
+          </div>
+          <div class="spec">
+            <dt>مقاومت جوی</dt>
+            <dd>بالا، برای پروژه‌هایی که مقاومت بالا می‌خواهند</dd>
+          </div>
+          <div class="spec">
+            <dt>کاربرد</dt>
+            <dd>فضاهای خارجی</dd>
+          </div>
           <div class="spec">
             <dt>ضخامت اسلب</dt>
             <dd>از ۱۲ میلی‌متر به بالا</dd>
@@ -92,19 +106,19 @@
         </dl>
       </section>
 
-      <section class="gallery reveal" aria-labelledby="gallery-title">
-        <h2 class="gallery__title" id="gallery-title">تصاویر</h2>
+      <section class="product-gallery reveal" aria-labelledby="gallery-title">
+        <h2 class="product-gallery__title" id="gallery-title">تصاویر</h2>
 
-        <div class="gallery__grid">
-          <figure class="gallery__item">
-            <img class="gallery__img" src="../assets/images/quartzite-raw-blocks.webp"
+        <div class="product-gallery__grid">
+          <figure class="product-gallery__item">
+            <img class="product-gallery__img" src="../assets/images/quartzite-raw-blocks.webp"
                  alt="دو قطعه کوارتزیت خام با سطح شکستۀ بلورین، کنار هم"
-                 width="800" height="1000" sizes="(min-width: 62rem) 28rem, 88vw" loading="lazy" decoding="async">
+                 width="800" height="1000" sizes="(min-width: 62rem) 28rem, 88vw" data-zoom loading="lazy" decoding="async">
           </figure>
-          <figure class="gallery__item">
-            <img class="gallery__img" src="../assets/images/quartzite-countertop-edge.webp"
+          <figure class="product-gallery__item">
+            <img class="product-gallery__img" src="../assets/images/quartzite-countertop-edge.webp"
                  alt="لبۀ یک صفحۀ کابینت از کوارتزیت سفید، با بافت بلورین ریز"
-                 width="800" height="1000" sizes="(min-width: 62rem) 28rem, 88vw" loading="lazy" decoding="async">
+                 width="800" height="1000" sizes="(min-width: 62rem) 28rem, 88vw" data-zoom loading="lazy" decoding="async">
           </figure>
         </div>
       </section>
@@ -140,6 +154,40 @@
     </div>
   </footer>
 
+  <dialog class="lightbox" id="lightbox" aria-label="تصاویر">
+    <div class="lightbox__bar">
+      <p class="lightbox__counter" id="lightbox-counter" data-template="% از %"></p>
+
+      <div class="lightbox__tools">
+        <button type="button" class="lightbox__button" data-lightbox="zoom"
+                aria-pressed="false" data-in="بزرگ‌نمایی" data-out="کوچک‌نمایی">
+          <span class="lightbox__glyph" aria-hidden="true">+</span>
+          <span class="visually-hidden" id="lightbox-zoom-label">بزرگ‌نمایی</span>
+        </button>
+        <button type="button" class="lightbox__button" data-lightbox="close" aria-label="بستن">
+          <span class="lightbox__glyph" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="lightbox__stage" id="lightbox-stage">
+      <img class="lightbox__img" id="lightbox-img" alt="">
+    </div>
+
+    <div class="lightbox__foot">
+      <button type="button" class="lightbox__button" data-lightbox="prev" aria-label="تصویر قبلی">
+        <span class="lightbox__glyph lightbox__glyph--prev" aria-hidden="true">&larr;</span>
+      </button>
+
+      <p class="lightbox__caption" id="lightbox-caption"></p>
+
+      <button type="button" class="lightbox__button" data-lightbox="next" aria-label="تصویر بعدی">
+        <span class="lightbox__glyph lightbox__glyph--next" aria-hidden="true">&rarr;</span>
+      </button>
+    </div>
+  </dialog>
+
   <script src="../assets/js/reveal.js" defer></script>
+  <script src="../assets/js/lightbox.js" defer></script>
 </body>
 </html>

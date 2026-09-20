@@ -223,6 +223,41 @@ a:hover {
   }
 }
 
+/* --- Breadcrumb ----------------------------------------------------------- */
+
+.breadcrumb {
+  font-size: var(--step--1);
+  color: var(--text-muted);
+  margin-block-end: var(--space-8);
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+}
+
+/* A breadcrumb link is inline text, which WCAG exempts from the target size
+   rule, but it is still something people tap on a phone. Padding grows the
+   hit box to 24px without pushing the line apart. */
+.breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 1.5rem;
+  min-inline-size: 1.5rem;
+  color: inherit;
+}
+
+.breadcrumb li + li::before {
+  content: "/";
+  margin-inline-end: var(--space-2);
+  color: var(--rule);
+}
+
 /* --- Header ---------------------------------------------------------------
    Green ground with paper type, the way every printed piece in the
    stationery is built. One line at every width, 72px tall, inside the

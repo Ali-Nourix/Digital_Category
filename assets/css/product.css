@@ -4,41 +4,6 @@
    product page.
    ========================================================================== */
 
-/* --- Breadcrumb ----------------------------------------------------------- */
-
-.breadcrumb {
-  font-size: var(--step--1);
-  color: var(--text-muted);
-  margin-block-end: var(--space-8);
-}
-
-.breadcrumb ol {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-2);
-  list-style: none;
-  padding: 0;
-}
-
-/* A breadcrumb link is inline text, which WCAG exempts from the target size
-   rule, but it is still something people tap on a phone. Padding grows the
-   hit box to 24px without pushing the line apart. */
-.breadcrumb a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-block-size: 1.5rem;
-  min-inline-size: 1.5rem;
-  color: inherit;
-}
-
-.breadcrumb li + li::before {
-  content: "/";
-  margin-inline-end: var(--space-2);
-  color: var(--rule);
-}
-
 /* --- Catalogue head ------------------------------------------------------- */
 
 .catalogue__head p {
@@ -398,18 +363,13 @@ html[lang="en"] .card__name {
   margin-block-start: var(--space-6);
 }
 
-.product__actions {
-  margin-block-start: var(--space-8);
-  max-inline-size: none;
-}
-
 /* --- Specifications -------------------------------------------------------
    A grid of small panels on a hairline, not a table with a rule under every
    row. Each cell is a label and one value, and the grid holds exactly as many
    cells as the product has specifications. */
 
 .specs,
-.gallery,
+.product-gallery,
 .related {
   margin-block-start: var(--section-gap);
   padding-block-start: var(--space-12);
@@ -417,7 +377,7 @@ html[lang="en"] .card__name {
 }
 
 .specs__title,
-.gallery__title,
+.product-gallery__title,
 .related__title {
   margin-block-end: var(--space-8);
 }
@@ -474,21 +434,21 @@ html[lang="fa"] .spec dt {
    The stone in place. Two photographs sit side by side on a wide screen and
    stack on a phone; the grid takes however many the product has. */
 
-.gallery__grid {
+.product-gallery__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 22rem));
   justify-content: start;
   gap: var(--space-6);
 }
 
-.gallery__item {
+.product-gallery__item {
   margin: 0;
   background-color: var(--bg-sunken);
 }
 
 /* Square. These are near square photographs of the stone in place, and a
    portrait crop of them stood taller than the section needed. */
-.gallery__img {
+.product-gallery__img {
   inline-size: 100%;
   block-size: auto;
   aspect-ratio: 1 / 1;
@@ -505,7 +465,11 @@ html[lang="fa"] .spec dt {
 
 /* --- Notice ---------------------------------------------------------------
    A standing caveat: something the client still owes us, said plainly rather
-   than papered over with invented copy. */
+   than papered over with invented copy.
+
+   No page carries one right now, because every product has its description.
+   The generator still falls back to it for a product whose copy has not
+   arrived, so this is a live path, not dead style. */
 
 .notice {
   margin-block-start: var(--space-6);

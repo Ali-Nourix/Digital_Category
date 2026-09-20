@@ -1,0 +1,134 @@
+{
+  "_note": [
+    "Gallery page. Behkooshan stone in finished projects, and the quarries.",
+    "",
+    "Each image's `alt` is a plain description of what the photograph shows, and the",
+    "lightbox prints that same line as its caption. One description per image, not",
+    "two: an alt honest enough for a screen reader is honest enough to print, and a",
+    "second marketing line under the photograph would be exactly the invented copy",
+    "the client has twice asked us not to add.",
+    "",
+    "`cells` is the bento grid in reading order, and auto placement lays it out from",
+    "the spans. `span` is columns by rows at the four column width; gallery.css",
+    "clamps both down as the grid narrows. The spans below fill four columns exactly,",
+    "with no hole, so check that still holds before changing one.",
+    "",
+    "A `shape` cell is a green panel carrying one brand silhouette bleeding off its",
+    "edge, which is the only way the stationery ever uses a shape. They carry no text",
+    "and are hidden from screen readers. Two of them break up a run of seven",
+    "photographs; more would turn punctuation into pattern."
+  ],
+  "fa": {
+    "title": "تصاویر",
+    "lede": "سنگ به‌کوشان در پروژه‌های اجراشده، و معادنی که از آن‌ها می‌آید.",
+    "description": "گالری تصاویر شرکت فرآورسنگ به‌کوشان: سنگ اجراشده در پروژه‌ها و معادن.",
+    "zoomIn": "بزرگ‌نمایی",
+    "zoomOut": "کوچک‌نمایی",
+    "close": "بستن",
+    "next": "تصویر بعدی",
+    "prev": "تصویر قبلی",
+    "openHint": "برای دیدن در اندازۀ بزرگ کلیک کنید",
+    "counter": "% از %"
+  },
+  "en": {
+    "title": "Gallery",
+    "lede": "Behkooshan stone in finished projects, and the quarries it comes from.",
+    "description": "Behkooshan Stone Processing Company gallery: the stone in finished projects, and the quarries.",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "close": "Close",
+    "next": "Next image",
+    "prev": "Previous image",
+    "openHint": "Click to view larger",
+    "counter": "% of %"
+  },
+  "cells": [
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-island-silver-vein.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "آشپزخانه‌ای با جزیره و دیوارۀ پشتی از سنگ سیاه با رگه‌های نقره‌ای، در میان کابینت‌های روشن",
+        "en": "A kitchen with the island and splashback in a black stone with silver veining, set among pale cabinetry"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-powder-room-grey-stone.webp",
+      "width": 1333,
+      "height": 2000,
+      "span": "1x2",
+      "alt": {
+        "fa": "سرویس بهداشتی کوچکی که دیوارها و روشویی یکپارچه‌اش از یک سنگ خاکستری با بافت باریک بریده شده",
+        "en": "A small powder room whose walls and pedestal basin are cut from one grey stone with a fine grain"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-island-black-white.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "1x1",
+      "alt": {
+        "fa": "جزیرۀ آشپزخانه از سنگی با رگه‌های پهن سیاه و سفید، مقابل کابینت‌های چوب تیره",
+        "en": "A kitchen island in a stone of broad black and white banding, against dark timber cabinetry"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-black-terrazzo.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "آشپزخانه‌ای با دیوار و صفحۀ کار از سنگ سیاه با قلوه‌های روشن درشت، کنار چوب گردویی",
+        "en": "A kitchen with the wall and worktops in a black stone carrying large pale pebble inclusions, beside walnut"
+      }
+    },
+    {
+      "type": "shape",
+      "shape": "09",
+      "span": "1x1"
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-island-sink-dark-green.webp",
+      "width": 2000,
+      "height": 1440,
+      "span": "1x1",
+      "alt": {
+        "fa": "نمای از بالا به جزیره‌ای از سنگ سبز تیره، با سینک یکپارچه که از همان اسلب درآمده",
+        "en": "Looking down on a dark green stone island, its sink cut from the same slab"
+      }
+    },
+    {
+      "type": "shape",
+      "shape": "15",
+      "span": "1x1"
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-quarry-benches.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "جبهۀ معدن با پله‌های برش‌خوردۀ سنگ روشن و یک بیل مکانیکی زرد در پای دیواره",
+        "en": "A quarry face of cut benches in pale stone, a yellow excavator at the foot of the wall"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-quarry-valley.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "4x1",
+      "alt": {
+        "fa": "معدن در دل دره، با دیوارۀ برش‌خورده در سمت چپ و کوه‌های دوردست، سیاه و سفید",
+        "en": "The quarry in its valley, the cut wall on the left and the mountains beyond, in black and white"
+      }
+    }
+  ]
+}

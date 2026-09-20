@@ -26,6 +26,7 @@ const LOCALES = {
     address: "تهران، شهرک صنعتی شمس‌آباد، کوچه سنبل ۵، پلاک ۲۸۶",
     home: "خانه",
     products: "محصولات",
+    gallery: "تصاویر",
     about: "درباره ما",
     skip: "رفتن به محتوای اصلی",
     homeAria: "به‌کوشان، صفحه نخست",
@@ -35,8 +36,8 @@ const LOCALES = {
     indexLede: "اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.",
     specsTitle: "مشخصات فنی",
     relatedTitle: "سنگ‌های دیگر",
-    quote: "درخواست قیمت",
     galleryTitle: "تصاویر",
+    allProducts: "همۀ محصولات",
     searchLabel: "جست‌وجوی نام سنگ",
     searchPlaceholder: "مثلاً گرانیت",
     filterAria: "فیلتر محصولات",
@@ -57,6 +58,7 @@ const LOCALES = {
     address: "No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran",
     home: "Home",
     products: "Products",
+    gallery: "Gallery",
     about: "About",
     skip: "Skip to main content",
     homeAria: "Behkooshan, home",
@@ -66,8 +68,8 @@ const LOCALES = {
     indexLede: "Granite and quartzite slabs, Multiwire cut at the Shams Abad works.",
     specsTitle: "Specifications",
     relatedTitle: "Other stone",
-    quote: "Request a quote",
     galleryTitle: "Gallery",
+    allProducts: "All products",
     searchLabel: "Search by stone name",
     searchPlaceholder: "Granite, for example",
     filterAria: "Filter products",
@@ -193,6 +195,7 @@ function header(ctx, { file, current }) {
 
       <nav class="site-nav" aria-label="${esc(L.navAria)}">
         <a href="${home}products/"${mark("products")}>${esc(L.products)}</a>
+        <a href="${home}gallery.html"${mark("gallery")}>${esc(L.gallery)}</a>
         <a href="${home}about.html"${mark("about")}>${esc(L.about)}</a>
       </nav>
 
@@ -237,16 +240,23 @@ ${items}
 }
 
 /**
- * One product image. Width and height are always written out so the browser
+ * One photograph. Width and height are always written out so the browser
  * reserves the box before the file arrives and the page never jumps.
+ *
+ * `zoom` marks it as openable in the lightbox. That is all the marking takes:
+ * lightbox.js collects every [data-zoom] on the page in document order and
+ * reads the caption off the alt text, so a photograph never carries its
+ * description twice.
  */
-function picture(ctx, image, { className, sizes, eager = false, indent }) {
+function picture(ctx, image, { className, sizes, eager = false, zoom = false, indent }) {
   const pad = " ".repeat(indent);
   const loading = eager ? ' fetchpriority="high"' : ' loading="lazy" decoding="async"';
 
   return `${pad}<img class="${className}" src="${ctx.root}${image.src}"
 ${pad}     alt="${esc(image.alt[ctx.locale])}"
-${pad}     width="${image.width}" height="${image.height}" sizes="${sizes}"${loading}>`;
+${pad}     width="${image.width}" height="${image.height}" sizes="${sizes}"${
+    zoom ? ' data-zoom' : ""
+  }${loading}>`;
 }
 
 /**
@@ -407,14 +417,20 @@ function productPage(locale, product, data) {
 
   const gallery = product.images.gallery
     .map(
-      (image) => `          <figure class="gallery__item">
-${picture(ctx, image, { className: "gallery__img", sizes: "(min-width: 62rem) 28rem, 88vw", indent: 12 })}
+      (image) => `          <figure class="product-gallery__item">
+${picture(ctx, image, { className: "product-gallery__img", sizes: "(min-width: 62rem) 28rem, 88vw", zoom: true, indent: 12 })}
           </figure>`
     )
     .join("\n");
 
   // A product whose copy has not arrived yet says so, in the same panel the
-  // site uses for any other standing caveat. It never gets invented prose.
+  // site uses for any other standing caveat. It never gets invented prose, and
+  // it never silently prints "undefined" either: a product with no body and no
+  // `pending` line is a data mistake, and the build stops on it.
+  if (!p.body.length && !p.pending) {
+    throw new Error(`${product.slug} (${locale}) has no body and no pending note`);
+  }
+
   const body = p.body.length
     ? `          <div class="product__prose">
 ${p.body.map((t) => `            <p>${esc(t)}</p>`).join("\n")}
@@ -430,7 +446,7 @@ ${p.body.map((t) => `            <p>${esc(t)}</p>`).join("\n")}
 
   return `<!DOCTYPE html>
 <html lang="${locale}" dir="${L.dir}">
-${head(ctx, { title: `${p.name} | ${L.brand}`, description: p.body[0] || L.indexLede, file, css: ["product"] })}
+${head(ctx, { title: `${p.name} | ${L.brand}`, description: p.body[0] || L.indexLede, file, css: ["product", "lightbox"] })}
 <body>
   <a class="skip-link" href="#main">${esc(L.skip)}</a>
 
@@ -448,6 +464,7 @@ ${picture(ctx, product.images.main, {
   className: "product__img",
   sizes: "(min-width: 62rem) 32rem, 92vw",
   eager: true,
+  zoom: true,
   indent: 10,
 })}
         </figure>
@@ -456,10 +473,6 @@ ${picture(ctx, product.images.main, {
           <h1>${esc(p.name)}</h1>
 
 ${body}
-
-          <p class="product__actions">
-            <a class="button" href="${home}about.html">${esc(L.quote)} <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
-          </p>
         </div>
 
       </div>
@@ -472,10 +485,10 @@ ${specs}
         </dl>
       </section>
 
-      <section class="gallery reveal" aria-labelledby="gallery-title">
-        <h2 class="gallery__title" id="gallery-title">${esc(L.galleryTitle)}</h2>
+      <section class="product-gallery reveal" aria-labelledby="gallery-title">
+        <h2 class="product-gallery__title" id="gallery-title">${esc(L.galleryTitle)}</h2>
 
-        <div class="gallery__grid">
+        <div class="product-gallery__grid">
 ${gallery}
         </div>
       </section>
@@ -492,29 +505,42 @@ ${related}
   </main>
 
 ${footer(ctx)}
+${lightbox(ctx, galleryStrings[locale])}
 
-${scripts(ctx)}
+${scripts(ctx, ["lightbox"])}
 </body>
 </html>
 `;
 }
 
 /**
- * Home page: the works photographed, then the company's own introduction.
+ * Home page: the works photographed, the company's own introduction, then
+ * the products themselves.
  *
  * The introduction is three full paragraphs, far more than a hero can carry,
- * so the page does not pretend otherwise. The cover and the company name take
- * the top and the prose sits below in the same grid unit the About page uses,
- * so the two read as one system rather than two designs.
+ * so the page does not pretend otherwise. It sits on the same two column unit
+ * the About page is built from, with the company name in the narrow column
+ * and the prose in the wide one, so the text fills the page instead of hugging
+ * one edge with half the width left empty beside it.
+ *
+ * The product list is on this page rather than only behind a link, so someone
+ * who lands here and scrolls reaches the stone without having to go looking
+ * for it.
  */
-function homePage(locale, data) {
-  const ctx = context(locale, null);
+function homePage(locale, data, products) {
+  const ctx = context(locale, null, products);
   const { L, root, home } = ctx;
   const h = data[locale];
 
+  const cards = products.products
+    .map((product, i) =>
+      card(ctx, product, { href: `${home}products/${product.slug}.html`, indent: 10, eager: false })
+    )
+    .join("\n");
+
   return `<!DOCTYPE html>
 <html lang="${locale}" dir="${L.dir}">
-${head(ctx, { title: `${L.brand} | ${h.title}`, description: h.description, file: "index.html", css: ["about"] })}
+${head(ctx, { title: `${L.brand} | ${h.title}`, description: h.description, file: "index.html", css: ["about", "product"] })}
 <body>
   <a class="skip-link" href="#main">${esc(L.skip)}</a>
 
@@ -529,16 +555,24 @@ ${header(ctx, { file: "index.html", current: "home" })}
 
     <div class="shell">
 
-      <div class="about__head reveal">
-        <h1>${esc(h.title)}</h1>
-      </div>
+      <section class="about__section about__section--open home__intro reveal" aria-labelledby="intro-title">
+        <h1 id="intro-title">${esc(h.title)}</h1>
 
-      <section class="about__section about__section--single reveal" aria-label="${esc(h.title)}">
         <div class="about__prose">
 ${paragraphs(h.intro, 10)}
+        </div>
+      </section>
 
-          <p class="home__cta">
-            <a class="button" href="${home}products/">${esc(h.cta)} <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
+      <section class="about__section home__products reveal" aria-labelledby="products-title">
+        <h2 id="products-title">${esc(L.products)}</h2>
+
+        <div>
+          <ul class="card-grid">
+${cards}
+          </ul>
+
+          <p class="home__more">
+            <a href="${home}products/">${esc(L.allProducts)} <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </section>
@@ -552,6 +586,131 @@ ${scripts(ctx)}
 </body>
 </html>
 `;
+}
+
+/**
+ * Gallery: the stone in place, and the quarries.
+ *
+ * A bento grid rather than a uniform one, because these photographs are not
+ * equals: a quarry face earns the full width, a powder room reads better
+ * standing tall. Spans come from the data and auto placement does the rest.
+ *
+ * Two cells are not photographs at all but green panels carrying a brand
+ * silhouette off their edge. That is the only way the stationery ever uses a
+ * shape, and here it also does the job a run of seven photographs needs: it
+ * breaks the rhythm so the grid reads as a composition rather than a contact
+ * sheet.
+ */
+function galleryPage(locale, data) {
+  const ctx = context(locale, null);
+  const { L, home } = ctx;
+  const g = data[locale];
+
+  // The footprint is a class rather than an inline custom property, because
+  // the grid has to be able to clamp a four column cell down to two, and then
+  // to one, as it narrows. An inline custom property outranks every
+  // stylesheet rule, so a media query could never reach it.
+  const cells = data.cells
+    .map((cell) => {
+      const [cols, rows] = cell.span.split("x");
+      const span = [
+        cols > 1 ? ` gallery__cell--c${cols}` : "",
+        rows > 1 ? ` gallery__cell--r${rows}` : "",
+      ].join("");
+
+      if (cell.type === "shape") {
+        return `        <li class="gallery__cell gallery__cell--shape${span}" aria-hidden="true">
+          <span class="bk-shape bk-shape--${cell.shape}"></span>
+        </li>`;
+      }
+
+      return `        <li class="gallery__cell${span}">
+${picture(ctx, cell, {
+  className: "gallery__img",
+  sizes: "(min-width: 62rem) 40vw, (min-width: 34rem) 50vw, 92vw",
+  zoom: true,
+  indent: 10,
+})}
+        </li>`;
+    })
+    .join("\n");
+
+  return `<!DOCTYPE html>
+<html lang="${locale}" dir="${L.dir}">
+${head(ctx, { title: `${g.title} | ${L.brand}`, description: g.description, file: "gallery.html", css: ["gallery", "lightbox"] })}
+<body>
+  <a class="skip-link" href="#main">${esc(L.skip)}</a>
+
+${header(ctx, { file: "gallery.html", current: "gallery" })}
+
+  <main class="page" id="main">
+    <div class="shell">
+
+${breadcrumb(ctx, [{ label: L.home, href: home }, { label: g.title }])}
+
+      <div class="gallery__head">
+        <h1>${esc(g.title)}</h1>
+        <p>${esc(g.lede)}</p>
+      </div>
+
+      <ul class="gallery__grid reveal">
+${cells}
+      </ul>
+
+    </div>
+  </main>
+
+${footer(ctx)}
+${lightbox(ctx, g)}
+
+${scripts(ctx, ["lightbox"])}
+</body>
+</html>
+`;
+}
+
+/**
+ * The lightbox dialog, shared by every page that carries a zoomable image.
+ *
+ * A native <dialog> rather than a div: showModal() gives the focus trap, the
+ * inert background and Escape to close for free, and all of it is behaviour a
+ * hand rolled overlay gets wrong. It ships empty and hidden; lightbox.js fills
+ * it from whichever image was clicked.
+ */
+function lightbox(ctx, strings) {
+  return `
+  <dialog class="lightbox" id="lightbox" aria-label="${esc(strings.title)}">
+    <div class="lightbox__bar">
+      <p class="lightbox__counter" id="lightbox-counter" data-template="${esc(strings.counter)}"></p>
+
+      <div class="lightbox__tools">
+        <button type="button" class="lightbox__button" data-lightbox="zoom"
+                aria-pressed="false" data-in="${esc(strings.zoomIn)}" data-out="${esc(strings.zoomOut)}">
+          <span class="lightbox__glyph" aria-hidden="true">+</span>
+          <span class="visually-hidden" id="lightbox-zoom-label">${esc(strings.zoomIn)}</span>
+        </button>
+        <button type="button" class="lightbox__button" data-lightbox="close" aria-label="${esc(strings.close)}">
+          <span class="lightbox__glyph" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="lightbox__stage" id="lightbox-stage">
+      <img class="lightbox__img" id="lightbox-img" alt="">
+    </div>
+
+    <div class="lightbox__foot">
+      <button type="button" class="lightbox__button" data-lightbox="prev" aria-label="${esc(strings.prev)}">
+        <span class="lightbox__glyph lightbox__glyph--prev" aria-hidden="true">&larr;</span>
+      </button>
+
+      <p class="lightbox__caption" id="lightbox-caption"></p>
+
+      <button type="button" class="lightbox__button" data-lightbox="next" aria-label="${esc(strings.next)}">
+        <span class="lightbox__glyph lightbox__glyph--next" aria-hidden="true">&rarr;</span>
+      </button>
+    </div>
+  </dialog>`;
 }
 
 /**
@@ -587,7 +746,7 @@ function aboutPage(locale, about) {
 
   return `<!DOCTYPE html>
 <html lang="${locale}" dir="${L.dir}">
-${head(ctx, { title: `${a.title} | ${L.brand}`, description: a.description, file: "about.html", css: ["product", "about"] })}
+${head(ctx, { title: `${a.title} | ${L.brand}`, description: a.description, file: "about.html", css: ["about"] })}
 <body>
   <a class="skip-link" href="#main">${esc(L.skip)}</a>
 
@@ -665,11 +824,15 @@ ${scripts(ctx)}
 
 const read = async (name) => JSON.parse(await readFile(join(ROOT, "data", name), "utf8"));
 
-const [products, about, home] = await Promise.all([
+const [products, about, home, gallery] = await Promise.all([
   read("products.json"),
   read("about.json"),
   read("home.json"),
+  read("gallery.json"),
 ]);
+
+/** The lightbox chrome is worded once, in gallery.json, for every page using it. */
+const galleryStrings = { fa: gallery.fa, en: gallery.en };
 
 let written = 0;
 
@@ -678,7 +841,10 @@ for (const locale of Object.keys(LOCALES)) {
   const catalogue = join(base, "products");
   await mkdir(catalogue, { recursive: true });
 
-  await writeFile(join(base, "index.html"), homePage(locale, home));
+  await writeFile(join(base, "index.html"), homePage(locale, home, products));
+  written++;
+
+  await writeFile(join(base, "gallery.html"), galleryPage(locale, gallery));
   written++;
 
   await writeFile(join(catalogue, "index.html"), catalogueIndex(locale, products));

@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="stylesheet" href="assets/css/shapes.css">
   <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="stylesheet" href="assets/css/product.css">
 
   <!-- Marks the document as scripted before anything paints, so the reveal's
        hidden starting state only ever applies where the script can undo it. -->
@@ -36,6 +37,7 @@
 
       <nav class="site-nav" aria-label="ناوبری اصلی">
         <a href="./products/">محصولات</a>
+        <a href="./gallery.html">تصاویر</a>
         <a href="./about.html">درباره ما</a>
       </nav>
 
@@ -53,18 +55,49 @@
 
     <div class="shell">
 
-      <div class="about__head reveal">
-        <h1>شرکت فرآورسنگ به‌کوشان</h1>
-      </div>
+      <section class="about__section about__section--open home__intro reveal" aria-labelledby="intro-title">
+        <h1 id="intro-title">شرکت فرآورسنگ به‌کوشان</h1>
 
-      <section class="about__section about__section--single reveal" aria-label="شرکت فرآورسنگ به‌کوشان">
         <div class="about__prose">
           <p>شرکت فرآورسنگ به‌کوشان، که در سال ۱۳۹۶ تأسیس شده است، بزرگ‌ترین تولیدکنندهٔ اسلب‌های گرانیت و کوارتزیت در ایران با بهره‌گیری از فناوری پیشرفتهٔ مولتی‌وایر است. مجموعۀ ما با استفاده از به‌روزترین تکنولوژی‌های فرآوری سنگ و تکیه بر نیروی انسانی متخصص، محصولاتی با کیفیت ممتاز و تنوع بالا به بازارهای داخلی و بین‌المللی عرضه می‌کند.</p>
           <p>خط تولید ما مجهز به سه دستگاه مولتی‌وایر ایتالیایی است که امکان برش دقیق بلوک‌های سنگی به اسلب‌هایی با ضخامت‌های متنوع، از ۱۲ میلی‌متر به بالا، را فراهم می‌سازد. مواد اولیه با نهایت دقت و وسواس از معادن معتبر سراسر جهان، از جمله ایران، برزیل، اوکراین، هند و کشورهای آفریقایی انتخاب می‌شود.</p>
           <p>مأموریت ما ارائـۀ سنگ‌هایی مستحکم، زیبا و ماندگار است که پاسخگوی سلایق متنوع مشتریان بوده و هم‌زمان استانداردهای صنـعت ساخت‌وساز را ارتقا دهد.</p>
+        </div>
+      </section>
 
-          <p class="home__cta">
-            <a class="button" href="./products/">دیدن محصولات <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
+      <section class="about__section home__products reveal" aria-labelledby="products-title">
+        <h2 id="products-title">محصولات</h2>
+
+        <div>
+          <ul class="card-grid">
+          <li class="card reveal" data-name="گرانیت" data-type="granite" data-application="interior exterior" data-pattern="uniform veined">
+            <a class="card__link" href="./products/granite.html">
+              <span class="card__media">
+                <img class="card__img" src="assets/images/granite-slab-display.webp"
+                     alt="اسلب گرانیت با زمینه سبز و رگه‌های زنگاری، ایستاده روی یک تخته‌سنگ سیاه"
+                     width="562" height="1000" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" loading="lazy" decoding="async">
+              </span>
+              <span class="card__body">
+                <span class="card__name">گرانیت</span>
+              </span>
+            </a>
+          </li>
+          <li class="card reveal" data-name="کوارتزیت" data-type="quartzite" data-application="exterior">
+            <a class="card__link" href="./products/quartzite.html">
+              <span class="card__media">
+                <img class="card__img" src="assets/images/quartzite-block-display.webp"
+                     alt="بلوک کوارتزیت سفید روی یک پایۀ مکعبی، در نور کناری"
+                     width="1080" height="1350" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" loading="lazy" decoding="async">
+              </span>
+              <span class="card__body">
+                <span class="card__name">کوارتزیت</span>
+              </span>
+            </a>
+          </li>
+          </ul>
+
+          <p class="home__more">
+            <a href="./products/">همۀ محصولات <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
           </p>
         </div>
       </section>
