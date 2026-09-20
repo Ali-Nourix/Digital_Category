@@ -9,34 +9,56 @@
 
 :root {
   /* --- Palette ---------------------------------------------------------
-     Two brand colours. Everything else is ink, paper and one hairline.
-     One accent per page, and it is the green. */
-  --green: #14754d;      /* the brand. Links, buttons, eyebrow, shapes      */
-  --green-deep: #0f5a3b; /* hover and pressed states of the green only      */
-  --green-tint: #e9f0ec; /* a quiet green ground for a full width band      */
-  --bone: #d3d3c9;       /* second brand colour. Calm surfaces, shapes      */
-  --bone-soft: #e6e6de;  /* panel ground and placeholder stripe             */
-  --ink: #101412;        /* all body copy and headings on light             */
-  --ink-muted: #4a544e;  /* secondary copy, captions, spec labels           */
-  --paper: #ffffff;      /* default page ground                            */
+     Two brand colours. Everything else is ink, paper and one hairline. */
+  --green: #14754d;      /* the brand. Buttons, shapes, bands              */
+  --green-deep: #0f5a3b; /* hover and pressed states, and accent as text   */
+  --green-tint: #e9f0ec; /* a quiet green ground for a full width band     */
+  --bone: #d3d3c9;       /* second brand colour. The page ground           */
+  --bone-soft: #e6e6de;  /* panel ground and placeholder stripe            */
+  --ink: #101412;        /* all body copy and headings on light            */
+  --ink-muted: #4a544e;  /* secondary copy, captions, spec labels          */
+  --paper: #ffffff;      /* raised panels, and type on green               */
 
   /* The shape SVGs were exported with #005038 in them. The guide's palette
      does not carry that colour, so the files are normalised to currentColor
      and tinted green or bone at use. Do not reintroduce it as a UI colour. */
 
-  /* --- Semantic surface and text (light is the default mode) ----------- */
-  --bg: var(--paper);
+  /* --- Semantic surface and text (light is the default mode) -----------
+     The page ground is bone, the brand's own off white. Header, footer and
+     feature bands invert to green, which is how every printed piece in the
+     stationery is built. */
+  --bg: var(--bone);
+  --bg-raised: var(--paper);
   --bg-sunken: var(--bone-soft);
   --bg-band: var(--green-tint);
+  --bg-inverse: var(--green);
+
   --text: var(--ink);
   --text-muted: var(--ink-muted);
+
+  /* Two accent tokens, because the page ground is no longer white.
+     --accent is the brand green as a FILL: button grounds, shape tints,
+     rules and focus rings. Its contrast is judged against the type inside
+     it (white on green, 5.35:1) or as a non text element against the page
+     (3.79:1, above the 3:1 an interface element needs).
+     --link is the accent as TEXT on the page ground, where 3.79:1 would
+     fail. The deeper green reaches 5.48:1 on bone. */
   --accent: var(--green);
   --accent-hover: var(--green-deep);
+  --link: var(--green-deep);
   --on-accent: var(--paper);
-  --rule: rgba(16, 20, 18, 0.14);
-  --focus: var(--green);
 
-  /* Placeholder stripe, straight from the guide's component sheet. */
+  /* Type and rules on a green ground. */
+  --on-inverse: var(--paper);              /* 5.35:1 on green */
+  --on-inverse-muted: rgb(255 255 255 / 0.88); /* 4.81:1 on green */
+  --rule-inverse: rgb(255 255 255 / 0.24);
+
+  --rule: rgb(16 20 18 / 0.18);
+  --focus: var(--green-deep);
+
+  /* Placeholder stripe, from the guide's component sheet. It reads as a
+     light panel against the bone ground, so an empty slot still looks like
+     a frame waiting to be filled. */
   --placeholder-stripe: repeating-linear-gradient(
     135deg,
     var(--bone-soft) 0 14px,
@@ -81,7 +103,6 @@
   --space-24: 6rem;
   --space-32: 8rem;
 
-  /* Section rhythm, from the guide's own page. */
   --section-gap: clamp(3rem, 7vw, 5.5rem);
 
   /* --- Shape -----------------------------------------------------------
@@ -115,20 +136,23 @@
 /* --- Dark mode -------------------------------------------------------
    The guide specifies no dark palette, but its shipping checklist requires
    body text to pass 4.5:1 "in light and in dark". These values are derived
-   from the guide's own colours rather than invented: ink and paper swap
-   roles, bone becomes the text, and the green is lifted just far enough to
-   stay legible on a dark ground. Confirm with the brand owner. */
+   from the guide's own colours rather than invented: ink and bone swap
+   roles, the inverse bands drop to the deeper green, and the accent is
+   lifted just far enough to stay legible. Confirm with the brand owner. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0b100e;
+    --bg-raised: #141a17;
     --bg-sunken: #141a17;
     --bg-band: #12251c;
+    --bg-inverse: var(--green-deep);
     --text: var(--bone);
     --text-muted: #9aa49e;
     --accent: #3fb083;
     --accent-hover: #5cc79b;
+    --link: #3fb083;
     --on-accent: #0b100e;
-    --rule: rgba(211, 211, 201, 0.2);
+    --rule: rgb(211 211 201 / 0.2);
     --focus: #3fb083;
     --placeholder-stripe: repeating-linear-gradient(
       135deg,
@@ -142,14 +166,17 @@
    regardless of the system setting. */
 :root[data-theme="dark"] {
   --bg: #0b100e;
+  --bg-raised: #141a17;
   --bg-sunken: #141a17;
   --bg-band: #12251c;
+  --bg-inverse: var(--green-deep);
   --text: var(--bone);
   --text-muted: #9aa49e;
   --accent: #3fb083;
   --accent-hover: #5cc79b;
+  --link: #3fb083;
   --on-accent: #0b100e;
-  --rule: rgba(211, 211, 201, 0.2);
+  --rule: rgb(211 211 201 / 0.2);
   --focus: #3fb083;
   --placeholder-stripe: repeating-linear-gradient(
     135deg,

@@ -1,0 +1,89 @@
+{
+  "_note": "Copy for the About page, supplied by the client verbatim. Note that this text names Rijen Kashan Cobblestone Production Company and the Natanz quarry in Isfahan, while the rest of the site is Behkooshan in Shams Abad, Tehran. Confirm how the two names relate before this page goes public.",
+  "cover": {
+    "src": "assets/images/about-cover-quarry.webp",
+    "width": 2000,
+    "height": 1333,
+    "alt": {
+      "fa": "بلوک‌های گرانیت سفید برش‌خورده در جبهه کاری معدن نطنز",
+      "en": "Cut blocks of white granite at the working face of the Natanz quarry"
+    },
+    "caption": {
+      "fa": "جبهه کاری معدن گرانیت سفید نطنز.",
+      "en": "The working face of the Natanz white granite quarry."
+    }
+  },
+  "application": {
+    "src": "assets/images/about-application-kitchen.webp",
+    "width": 2000,
+    "height": 1378,
+    "alt": {
+      "fa": "صفحه و دیوارپوش آشپزخانه از گرانیت سفید نطنز با بافت دانه‌ریز خاکستری و سفید",
+      "en": "A kitchen worktop and splashback in Natanz white granite, fine grained in grey and white"
+    },
+    "caption": {
+      "fa": "گرانیت سفید نطنز، اجراشده به صورت صفحه کار و دیوارپوش آشپزخانه.",
+      "en": "Natanz white granite, installed as a kitchen worktop and splashback."
+    },
+    "uses": {
+      "title": {
+        "fa": "کاربردها",
+        "en": "Applications"
+      },
+      "items": {
+        "fa": [
+          "صنایع عمرانی",
+          "دکوراسیون داخلی",
+          "طراحی فضاهای شهری",
+          "پروژه‌های زیرساختی"
+        ],
+        "en": [
+          "Construction",
+          "Interior decoration",
+          "Urban space design",
+          "Infrastructure projects"
+        ]
+      }
+    }
+  },
+  "fa": {
+    "title": "درباره ما",
+    "eyebrow": "شرکت تولید سنگ‌فرش ریجِن",
+    "lede": "معدن گرانیت سفید نطنز ریجِن، در منطقه نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران است.",
+    "intro": {
+      "title": "معرفی",
+      "paragraphs": [
+        "معدن گرانیت سفید نطنز ریجِن، تحت بهره‌برداری شرکت تولید سنگ‌فرش ریجِن واقع در منطقۀ نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های باکیفیت توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد.",
+        "محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و دارای بافتی یکنواخت، در صنایع مختلف عمرانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های زیرساختی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجِن است که باعث شده است محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند."
+      ]
+    },
+    "pull": "این سنگ، به دلیل تراکم بالا و بافت یکنواخت، برای کاربردهای گوناگون در فرآوری‌های سنگ خام مناسب است و در این زمینه بسیار موفق عمل کرده است.",
+    "history": {
+      "title": "تاریخچه",
+      "paragraphs": [
+        "فعالیت معدن گرانیت سفید نطنز ریجِن از دهه‌های گذشته آغاز شده و تاکنون پیوسته ادامه داشته است. این معدن با گذشت زمان، همگام با پیشرفت‌های فنی و تکنولوژیکی، زیرساخت‌های خود را به‌طور چشمگیری توسعه داده است. استفاده از ماشین‌آلات پیشرفتۀ استخراج و فرآوری، به‌کارگیری فناوری‌های نوین در فرآوری سنگ و همچنین حضور گروهی متخصص و مجرب در زمینۀ معدن‌کاری و مهندسی سنگ، باعث شده‌اند معدن ریجِن به یکی از پیشروهای صنعت سنگ گرانیت در ایران تبدیل شود.",
+        "سنگ‌های استخراجی این معدن به دلیل کیفیت بالای رنگ، مقاومت مکانیکی مطلوب و بافت پنبه‌ای و یکنواخت، همواره مورد توجه معماران، طراحان داخلی، پیمانکاران و صادرکنندگان بوده است و نقش مهمی در پروژه‌های ملی و بین‌المللی ایفا کرده است."
+      ]
+    }
+  },
+  "en": {
+    "title": "About us",
+    "eyebrow": "Rijen Kashan Cobblestone Production Company",
+    "lede": "The Natanz White Granite Quarry, in the Natanz region of Isfahan Province, is one of the largest and most reputable sources of white granite extraction in Iran.",
+    "intro": {
+      "title": "Introduction",
+      "paragraphs": [
+        "The Natanz White Granite Quarry, operated by Rijen Kashan Cobblestone Production Company and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry.",
+        "The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets."
+      ]
+    },
+    "pull": "Due to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field.",
+    "history": {
+      "title": "History",
+      "paragraphs": [
+        "The operation of the Rijen Natanz White Granite Quarry began decades ago and has continued steadily ever since. Over time, in line with technical and technological advancements, the quarry has significantly developed its infrastructure. The use of advanced extraction and processing machinery, the implementation of modern stone processing technologies, and the employment of a specialized and experienced team in mining and stone engineering have made the Rijen quarry one of the leaders in the granite stone industry in Iran.",
+        "The extracted stones from this quarry, due to their excellent color quality, desirable mechanical strength, and soft, uniform cotton-like texture, have always been of great interest to architects, interior designers, contractors, and exporters, playing an important role in both national and international projects."
+      ]
+    }
+  }
+}

@@ -131,12 +131,13 @@ html[lang="fa"] .tagline[lang="en"] {
 /* --- Links and focus ------------------------------------------------------ */
 
 a {
-  color: var(--accent);
+  color: var(--link);
   text-decoration: none;
 }
 
+/* The colour already sits at its most legible on bone, so hover signals
+   with the underline rather than by shifting darker again. */
 a:hover {
-  color: var(--accent-hover);
   text-decoration: underline;
   text-underline-offset: 0.22em;
 }
@@ -187,11 +188,13 @@ a:hover {
 }
 
 /* --- Header ---------------------------------------------------------------
-   One line at every width, 72px tall, inside the guide's 80px cap. */
+   Green ground with paper type, the way every printed piece in the
+   stationery is built. One line at every width, 72px tall, inside the
+   guide's 80px cap. */
 
 .site-header {
-  border-block-end: var(--hairline) solid var(--rule);
-  background-color: var(--bg);
+  background-color: var(--bg-inverse);
+  color: var(--on-inverse);
 }
 
 .site-header__inner {
@@ -203,7 +206,7 @@ a:hover {
 
 .site-header__logo {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--on-inverse);
 }
 
 /* The guide's minimum heights: 16px mark, 20px lockup, 24px Persian lockup.
@@ -217,23 +220,70 @@ html[lang="fa"] .site-header__logo .bk-logo {
   block-size: 1.625rem;
 }
 
+/* shapes.css sets `.bk-logo { display: block }` and loads after this file,
+   so the toggle below is scoped through the link to outrank it. */
+.site-header__logo .site-header__mark {
+  display: none;
+}
+
+/* Below 640px the lockup, two nav labels and the language chip stop fitting
+   on one line, and shrinking the lockup would break the guide's 20px and
+   24px minimums. The bare mark is what the guide reserves for small spaces,
+   so the header swaps to it rather than wrapping to a second line. */
+@media (max-width: 40rem) {
+  .site-header__inner {
+    gap: var(--space-3);
+  }
+
+  .site-header__logo .site-header__mark {
+    display: block;
+    block-size: 1.5rem;
+  }
+
+  .site-header__logo .site-header__lockup {
+    display: none;
+  }
+}
+
 /* Everything after the logo is pushed to the far end of the bar. */
 .site-nav {
   margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
   font-size: var(--step--1);
   font-weight: 500;
+}
+
+@media (max-width: 40rem) {
+  .site-nav {
+    gap: var(--space-4);
+  }
 }
 
 .site-nav a {
   display: inline-flex;
   align-items: center;
   min-block-size: 2.75rem;
-  color: var(--text);
+  color: var(--on-inverse);
 }
 
-.site-nav a:hover,
+.site-nav a:hover {
+  color: var(--on-inverse);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
 .site-nav [aria-current] {
-  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 2px;
+}
+
+/* Focus rings need to clear the green ground, not the page ground. */
+.site-header :focus-visible,
+.site-footer :focus-visible {
+  outline-color: var(--on-inverse);
 }
 
 /* --- Language switch ------------------------------------------------------
@@ -248,13 +298,19 @@ html[lang="fa"] .site-header__logo .bk-logo {
   justify-content: center;
   min-block-size: 2rem;
   padding: 0.4375rem 0.75rem;
-  border: var(--hairline) solid var(--rule);
-  color: var(--text);
+  border: var(--hairline) solid var(--rule-inverse);
+  color: var(--on-inverse);
   font-size: var(--step--2);
   font-weight: 500;
   letter-spacing: 0.14em;
   line-height: 1;
   text-transform: uppercase;
+}
+
+.lang-switch:hover {
+  border-color: var(--on-inverse);
+  color: var(--on-inverse);
+  text-decoration: none;
 }
 
 /* The chip keeps the compact box the guide draws. The hit area is grown to
@@ -270,19 +326,13 @@ html[lang="fa"] .site-header__logo .bk-logo {
   height: max(100%, 2.75rem);
 }
 
-.lang-switch:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  text-decoration: none;
-}
-
 /* --- Footer --------------------------------------------------------------- */
 
 .site-footer {
-  border-block-start: var(--hairline) solid var(--rule);
+  background-color: var(--bg-inverse);
+  color: var(--on-inverse-muted);
   padding-block: var(--space-6);
   font-size: var(--step--1);
-  color: var(--text-muted);
 }
 
 .site-footer__inner {
@@ -298,21 +348,29 @@ html[lang="fa"] .site-header__logo .bk-logo {
 }
 
 .site-footer a {
-  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 1.5rem;
+  color: var(--on-inverse);
 }
 
 .site-footer a:hover {
-  color: var(--accent);
+  color: var(--on-inverse);
 }
 
-/* The brand signs off with the tagline set as a tracked label. */
+/* The brand signs off with the tagline set as a tracked label. On the green
+   footer it is paper; anywhere on the page ground it is the deeper green. */
 .tagline {
-  color: var(--accent);
+  color: var(--link);
   font-size: var(--step--2);
   font-weight: 500;
   letter-spacing: var(--tracking-label);
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.site-footer .tagline {
+  color: var(--on-inverse);
 }
 
 /* --- Buttons --------------------------------------------------------------
@@ -359,15 +417,15 @@ html[lang="fa"] .site-header__logo .bk-logo {
 }
 
 .button--quiet {
-  background-color: transparent;
+  background-color: var(--bg-raised);
   border-color: var(--rule);
   color: var(--text);
 }
 
 .button--quiet:hover {
   background-color: transparent;
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--link);
+  color: var(--link);
 }
 
 /* --- Reduced motion ------------------------------------------------------- */

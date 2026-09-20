@@ -1,0 +1,199 @@
+/* ==========================================================================
+   Behkooshan About page
+   Layered on top of site.css.
+   ========================================================================== */
+
+/* --- Header block --------------------------------------------------------- */
+
+.about__eyebrow {
+  display: block;
+  margin-block-end: var(--space-3);
+}
+
+.about__lede {
+  margin-block-start: var(--space-6);
+  font-size: var(--step-1);
+  color: var(--text-muted);
+}
+
+/* --- Full bleed media -----------------------------------------------------
+   Breaks out of the shell to the full viewport width. The stationery is
+   built from edge to edge panels, and a quarry face earns the same. */
+
+.bleed {
+  margin-inline: calc(50% - 50vw);
+  inline-size: 100vw;
+  max-inline-size: 100vw;
+}
+
+.about__cover {
+  margin-block-start: var(--section-gap);
+}
+
+.about__cover img {
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .about__cover img {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+.about__caption {
+  margin-block-start: var(--space-3);
+  font-size: var(--step--1);
+  color: var(--text-muted);
+}
+
+/* The cover bleeds to the viewport edge, so its caption pulls back into the
+   text column rather than sitting under the gutter. */
+.about__cover .about__caption {
+  display: block;
+}
+
+/* --- Prose sections -------------------------------------------------------
+   Heading on the start edge, body held to the measure beside it. Below
+   1000px the heading stacks above its text. */
+
+.about__section {
+  margin-block-start: var(--section-gap);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+}
+
+@media (min-width: 1000px) {
+  .about__section {
+    grid-template-columns: 4fr 8fr;
+    column-gap: var(--space-16);
+  }
+}
+
+.about__section h2 {
+  margin: 0;
+}
+
+.about__prose {
+  display: grid;
+  gap: var(--space-6);
+}
+
+/* --- Green band -----------------------------------------------------------
+   The stationery's signature: a full bleed green field carrying one large
+   abstract shape tone on tone, with type sitting over it. The shape is
+   decorative, so it is hidden from assistive technology and its contrast
+   against the band is deliberately low, exactly as it is in print.
+
+   The guide allows one shape per view, so this band is the only place on
+   the page a shape appears. */
+
+.band {
+  margin-block-start: var(--section-gap);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: var(--bg-inverse);
+  color: var(--on-inverse);
+  padding-block: var(--space-24);
+}
+
+.band__shape {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-end: 4%;
+  translate: 0 -50%;
+  z-index: -1;
+  inline-size: min(34vw, 22rem);
+  color: var(--green-deep);
+  pointer-events: none;
+}
+
+/* The deeper green disappears against the deeper green band in dark mode,
+   so the tone on tone pair flips to the brighter green. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .band__shape {
+    color: var(--green);
+  }
+}
+
+:root[data-theme="dark"] .band__shape {
+  color: var(--green);
+}
+
+.band p {
+  max-inline-size: 42ch;
+  font-size: var(--step-2);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+html[lang="en"] .band p {
+  letter-spacing: -0.02em;
+}
+
+/* Under 700px the shape would sit behind the text and muddy it, so it
+   moves out of the way and the band becomes plain green. */
+@media (max-width: 43.75rem) {
+  .band {
+    padding-block: var(--space-16);
+  }
+
+  .band__shape {
+    display: none;
+  }
+}
+
+/* --- Application shot -----------------------------------------------------
+   A different layout family from the prose sections above: image and text
+   side by side, image leading. */
+
+.about__application {
+  margin-block-start: var(--section-gap);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .about__application {
+    grid-template-columns: 7fr 5fr;
+    column-gap: var(--space-16);
+  }
+}
+
+.about__application figure {
+  margin: 0;
+}
+
+.about__application img {
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Four uses, one hairline between each. The guide bans a rule above and
+   below every row, so this takes the bottom edge only and stops at the
+   last item. */
+.uses {
+  margin-block-start: var(--space-6);
+  list-style: none;
+  padding: 0;
+  border-block-start: var(--hairline) solid var(--rule);
+}
+
+.uses li {
+  padding-block: var(--space-4);
+  border-block-end: var(--hairline) solid var(--rule);
+  font-size: var(--step-1);
+  font-weight: 500;
+}
+
+html[lang="en"] .uses li {
+  letter-spacing: -0.02em;
+}

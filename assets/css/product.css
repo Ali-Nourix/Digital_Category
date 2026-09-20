@@ -21,7 +21,15 @@
   padding: 0;
 }
 
+/* A breadcrumb link is inline text, which WCAG exempts from the target size
+   rule, but it is still something people tap on a phone. Padding grows the
+   hit box to 24px without pushing the line apart. */
 .breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 1.5rem;
+  min-inline-size: 1.5rem;
   color: inherit;
 }
 
@@ -174,7 +182,7 @@
 }
 
 .spec {
-  background-color: var(--bg);
+  background-color: var(--bg-raised);
   padding: var(--space-6) var(--space-4);
   margin: 0;
 }
@@ -235,7 +243,7 @@ html[lang="en"] .spec dd {
 }
 
 .card a:hover .card__name {
-  color: var(--accent);
+  color: var(--link);
 }
 
 .card__name {
