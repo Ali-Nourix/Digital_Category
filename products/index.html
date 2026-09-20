@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محصولات | به‌کوشان</title>
+  <meta name="description" content="اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.">
+
+  <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0f5a3b">
+  <link rel="alternate" hreflang="fa" href="./index.html">
+  <link rel="alternate" hreflang="en" href="../en/products/index.html">
+
+  <link rel="preload" href="../assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="../assets/css/fonts.css">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="stylesheet" href="../assets/css/shapes.css">
+  <link rel="stylesheet" href="../assets/css/product.css">
+
+  <!-- Marks the document as scripted before anything paints, so the reveal's
+       hidden starting state only ever applies where the script can undo it. -->
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="site-header__logo" href="../" aria-label="به‌کوشان، صفحه نخست">
+        <span class="bk-logo bk-logo--mark site-header__mark"></span>
+        <span class="bk-logo bk-logo--lockup-fa site-header__lockup"></span>
+      </a>
+
+      <nav class="site-nav" aria-label="ناوبری اصلی">
+        <a href="../products/" aria-current="page">محصولات</a>
+        <a href="../gallery.html">تصاویر</a>
+        <a href="../about.html">درباره ما</a>
+      </nav>
+
+      <a class="lang-switch" href="../en/products/index.html" lang="en"
+         aria-label="English">EN</a>
+    </div>
+  </header>
+
+  <main class="page" id="main">
+    <div class="shell">
+
+      <nav class="breadcrumb" aria-label="مسیر صفحه">
+        <ol>
+        <li><a href="../">خانه</a></li>
+        <li aria-current="page">محصولات</li>
+        </ol>
+      </nav>
+
+      <div class="catalogue__head">
+        <h1>محصولات</h1>
+        <p>اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.</p>
+      </div>
+
+      <form class="filter" id="catalogue-filter" aria-label="فیلتر محصولات">
+        <div class="filter__search">
+          <label class="filter__legend" for="catalogue-search">جست‌وجوی نام سنگ</label>
+          <input class="filter__input" type="search" id="catalogue-search" name="q"
+                 autocomplete="off" placeholder="مثلاً گرانیت">
+        </div>
+
+        <fieldset class="filter__group">
+          <legend class="filter__legend">نوع سنگ</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-type-all" name="type" value="" checked>
+              <label for="f-type-all">همه</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-granite" name="type" value="granite">
+              <label for="f-type-granite">گرانیت</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-quartzite" name="type" value="quartzite">
+              <label for="f-type-quartzite">کوارتزیت</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">کاربرد</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-application-all" name="application" value="" checked>
+              <label for="f-application-all">همه</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-interior" name="application" value="interior">
+              <label for="f-application-interior">داخلی</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-exterior" name="application" value="exterior">
+              <label for="f-application-exterior">خارجی</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">طرح</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-all" name="pattern" value="" checked>
+              <label for="f-pattern-all">همه</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-uniform" name="pattern" value="uniform">
+              <label for="f-pattern-uniform">یکنواخت</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-veined" name="pattern" value="veined">
+              <label for="f-pattern-veined">رگه‌دار</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="reset" class="filter__clear" hidden>پاک کردن فیلترها</button>
+      </form>
+
+      <div class="catalogue__status" role="status">
+        <p class="catalogue__count" id="catalogue-count" data-one="۱ محصول">۲ محصول</p>
+
+        <div class="catalogue__empty" id="catalogue-empty" hidden>
+          <p class="catalogue__empty-title">هیچ سنگی با این جست‌وجو پیدا نشد.</p>
+          <p>نام دیگری بزنید یا فیلترها را پاک کنید.</p>
+        </div>
+      </div>
+
+      <ul class="card-grid" id="catalogue-grid">
+        <li class="card reveal" data-name="گرانیت" data-type="granite" data-application="interior exterior" data-pattern="uniform veined">
+          <a class="card__link" href="./granite.html">
+            <span class="card__media">
+              <img class="card__img" src="../assets/images/granite-slab-display.webp"
+                   alt="اسلب گرانیت، زمینۀ سبز با رگه‌های زنگاری"
+                   width="562" height="1000" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">گرانیت</span>
+            </span>
+          </a>
+        </li>
+        <li class="card reveal" data-name="کوارتزیت" data-type="quartzite" data-application="exterior">
+          <a class="card__link" href="./quartzite.html">
+            <span class="card__media">
+              <img class="card__img" src="../assets/images/quartzite-block-display.webp"
+                   alt="بلوک کوارتزیت سفید"
+                   width="1080" height="1350" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">کوارتزیت</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span class="bk-shape bk-shape--03 site-footer__shape" aria-hidden="true"></span>
+    <div class="shell site-footer__inner">
+      <p>تهران، شهرک صنعتی شمس‌آباد، کوچه سنبل ۵، پلاک ۲۸۶</p>
+      <p class="tagline" lang="en">Beautifully Strong</p>
+      <p><a href="https://behkooshan.ir" lang="en">behkooshan.ir</a></p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/reveal.js" defer></script>
+  <script src="../assets/js/catalogue.js" defer></script>
+</body>
+</html>

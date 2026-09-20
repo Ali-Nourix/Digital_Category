@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Behkooshan gallery
+   The bento grid, and the lightbox that any page with a zoomable photograph
+   loads alongside it.
+   ========================================================================== */
+
+/* --- Bento grid -----------------------------------------------------------
+   These photographs are not equals. A quarry face earns the full width, a
+   powder room reads better standing tall, and a uniform grid would flatten
+   both into the same tile. Each cell states its own footprint in --cols and
+   --rows and auto placement does the rest.
+
+   `dense` matters here: without it a cell that cannot fit the remaining
+   columns leaves a hole and drops to the next row. The spans in gallery.json
+   are chosen to fill four columns exactly, so dense is the safety net rather
+   than the mechanism, and it keeps working if a span is edited later. */
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: clamp(9rem, 16vw, 14rem);
+  grid-auto-flow: row dense;
+  gap: var(--space-4);
+  margin-block-start: var(--space-12);
+  padding: 0;
+  list-style: none;
+}
+
+.gallery__cell {
+  overflow: hidden;
+  background-color: var(--bg-sunken);
+}
+
+.gallery__cell--c2 { grid-column: span 2; }
+.gallery__cell--c4 { grid-column: span 4; }
+.gallery__cell--r2 { grid-row: span 2; }
+
+/* Two columns, and every span clamped to them. A cell still asking for four
+   would otherwise push the grid off the page. */
+@media (max-width: 61.99rem) {
+  .gallery__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: clamp(8rem, 20vw, 12rem);
+  }
+
+  .gallery__cell--c4 { grid-column: span 2; }
+}
+
+/* One column on a phone, and nothing spans rows either: a tile two rows tall
+   in a single column is just a very long photograph. */
+@media (max-width: 33.99rem) {
+  .gallery__grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: auto;
+    gap: var(--space-3);
+  }
+
+  .gallery__cell--c2,
+  .gallery__cell--c4 { grid-column: span 1; }
+  .gallery__cell--r2 { grid-row: span 1; }
+}
+
+.gallery__img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease);
+}
+
+/* A phone cell has no fixed height to fill, so the photograph keeps its own
+   proportions instead of being cropped to a box that is not there. */
+@media (max-width: 33.99rem) {
+  .gallery__img {
+    block-size: auto;
+    aspect-ratio: 3 / 2;
+  }
+}
+
+/* The photograph pushes in a little under the pointer, but only once the
+   lightbox is running and the tile is actually something you can open. */
+@media (prefers-reduced-motion: no-preference) {
+  .has-lightbox .gallery__cell:hover .gallery__img {
+    transform: scale(1.03);
+  }
+}
+
+/* --- Shape cell -----------------------------------------------------------
+   Not a photograph: a green panel with one brand silhouette running off its
+   edge, tone on tone. That is the only way the stationery ever uses a shape,
+   and among seven photographs it does the second job the grid needs, which is
+   to break the run so the page reads as a composition and not a contact sheet.
+
+   Decorative, so it carries no text and is hidden from screen readers. */
+
+.gallery__cell--shape {
+  position: relative;
+  background-color: var(--bg-inverse);
+}
+
+.gallery__cell--shape .bk-shape {
+  position: absolute;
+  inset-block-start: -18%;
+  inset-inline-start: -14%;
+  inline-size: 92%;
+  color: var(--green);
+}
+
+/* Every other shape panel leans the opposite way, so two of them on a page do
+   not read as the same stamp twice. The alternation is a class from the
+   generator rather than :nth-of-type, which counts every li in the grid and
+   would land on photographs as readily as on shape panels. */
+.gallery__cell--shape-end .bk-shape {
+  inset-block-start: auto;
+  inset-block-end: -18%;
+  inset-inline-start: auto;
+  inset-inline-end: -14%;
+}

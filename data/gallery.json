@@ -1,0 +1,132 @@
+{
+  "_note": [
+    "Gallery page. Behkooshan stone in finished projects, and the quarries.",
+    "",
+    "Each image's `alt` is its caption: the lightbox prints the same line it hands a",
+    "screen reader. One line per photograph, in the register of a catalogue plate,",
+    "naming what the stone is doing and then what the stone is. Two texts would be",
+    "two things to keep in step, and the second one always drifts into marketing.",
+    "",
+    "",
+    "`cells` is the bento grid in reading order, and auto placement lays it out from",
+    "the spans. `span` is columns by rows at the four column width; gallery.css",
+    "clamps both down as the grid narrows. The spans below fill four columns exactly,",
+    "with no hole, so check that still holds before changing one.",
+    "",
+    "A `shape` cell is a green panel carrying one brand silhouette bleeding off its",
+    "edge, which is the only way the stationery ever uses a shape. They carry no text",
+    "and are hidden from screen readers. Two of them break up a run of seven",
+    "photographs; more would turn punctuation into pattern."
+  ],
+  "fa": {
+    "title": "تصاویر",
+    "description": "گالری تصاویر شرکت فرآورسنگ به‌کوشان: سنگ اجراشده در پروژه‌ها و معادن.",
+    "zoomIn": "بزرگ‌نمایی",
+    "zoomOut": "کوچک‌نمایی",
+    "close": "بستن",
+    "next": "تصویر بعدی",
+    "prev": "تصویر قبلی",
+    "openHint": "برای دیدن در اندازۀ بزرگ کلیک کنید",
+    "counter": "% از %"
+  },
+  "en": {
+    "title": "Gallery",
+    "description": "Behkooshan Stone Processing Company gallery: the stone in finished projects, and the quarries.",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "close": "Close",
+    "next": "Next image",
+    "prev": "Previous image",
+    "openHint": "Click to view larger",
+    "counter": "% of %"
+  },
+  "cells": [
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-island-silver-vein.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "جزیره و دیوارۀ پشتی، سنگ سیاه با رگه‌های نقره‌ای",
+        "en": "Island and splashback, black stone with silver veining"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-powder-room-grey-stone.webp",
+      "width": 1333,
+      "height": 2000,
+      "span": "1x2",
+      "alt": {
+        "fa": "دیوار و روشویی یکپارچه، سنگ خاکستری با بافت ریز",
+        "en": "Wall and integrated basin, grey stone with a fine grain"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-island-black-white.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "1x1",
+      "alt": {
+        "fa": "جزیرۀ آشپزخانه، سنگ با رگه‌های پهن سیاه و سفید",
+        "en": "Kitchen island, stone in broad black and white banding"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-kitchen-black-terrazzo.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "دیوار و صفحۀ کار، سنگ سیاه با قلوه‌های روشن",
+        "en": "Wall and worktops, black stone with pale pebble inclusions"
+      }
+    },
+    {
+      "type": "shape",
+      "shape": "09",
+      "span": "1x1"
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-island-sink-dark-green.webp",
+      "width": 2000,
+      "height": 1440,
+      "span": "1x1",
+      "alt": {
+        "fa": "جزیره و سینک، بریده از یک اسلب",
+        "en": "Island and sink, cut from a single slab"
+      }
+    },
+    {
+      "type": "shape",
+      "shape": "15",
+      "span": "1x1"
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-quarry-benches.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "2x1",
+      "alt": {
+        "fa": "جبهۀ معدن، پله‌های برش‌خوردۀ سنگ روشن",
+        "en": "Quarry face, cut benches in pale stone"
+      }
+    },
+    {
+      "type": "image",
+      "src": "assets/images/gallery-quarry-valley.webp",
+      "width": 2000,
+      "height": 1333,
+      "span": "4x1",
+      "alt": {
+        "fa": "معدن در دل دره",
+        "en": "The quarry in its valley"
+      }
+    }
+  ]
+}

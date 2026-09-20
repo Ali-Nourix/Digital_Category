@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Behkooshan / self-hosted brand faces
+   Rokh        Persian and Arabic script. Static instances, 300 to 900.
+   TT Firs Neue  Latin. One variable file covering the full 100 to 900 axis.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rokh";
+  src: url("../fonts/rokh/Rokh-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Variable: request any weight in 100..900 and the axis interpolates. */
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

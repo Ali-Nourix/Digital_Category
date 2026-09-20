@@ -1,0 +1,303 @@
+{
+  "_note": [
+    "Product catalogue, both languages, single source of truth.",
+    "",
+    "The prose in `body` is the client's own text, verbatim. Do not rewrite it and do",
+    "not add paragraphs, captions or headings the client did not supply.",
+    "",
+    "Everything in `specs` is DERIVED from that same text, not invented. Each entry",
+    "carries a `from` note naming the sentence it came from, so any figure on the site",
+    "can be traced back to something the client actually wrote. The two specs shared by",
+    "every product (thickness, cutting) come from the company introduction in home.json.",
+    "",
+    "`facets` drives the catalogue filter bar. The bar renders whatever facets appear",
+    "here, so adding origin, finish or colour later is a data edit, not a code change.",
+    "A product only declares a facet when the client's text supports it; it is better",
+    "for a product to be absent from a filter than to be listed under a claim nobody",
+    "made."
+  ],
+  "facets": [
+    {
+      "key": "type",
+      "label": {
+        "fa": "نوع سنگ",
+        "en": "Stone type"
+      },
+      "options": [
+        {
+          "value": "granite",
+          "label": {
+            "fa": "گرانیت",
+            "en": "Granite"
+          }
+        },
+        {
+          "value": "quartzite",
+          "label": {
+            "fa": "کوارتزیت",
+            "en": "Quartzite"
+          }
+        }
+      ]
+    },
+    {
+      "key": "application",
+      "label": {
+        "fa": "کاربرد",
+        "en": "Application"
+      },
+      "options": [
+        {
+          "value": "interior",
+          "label": {
+            "fa": "داخلی",
+            "en": "Interior"
+          }
+        },
+        {
+          "value": "exterior",
+          "label": {
+            "fa": "خارجی",
+            "en": "Exterior"
+          }
+        }
+      ]
+    },
+    {
+      "key": "pattern",
+      "label": {
+        "fa": "طرح",
+        "en": "Pattern"
+      },
+      "options": [
+        {
+          "value": "uniform",
+          "label": {
+            "fa": "یکنواخت",
+            "en": "Uniform"
+          }
+        },
+        {
+          "value": "veined",
+          "label": {
+            "fa": "رگه‌دار",
+            "en": "Veined"
+          }
+        }
+      ]
+    }
+  ],
+  "specOrder": [
+    "class",
+    "composition",
+    "properties",
+    "pattern",
+    "weather",
+    "application",
+    "thickness",
+    "cutting"
+  ],
+  "specLabels": {
+    "class": {
+      "fa": "رده سنگ",
+      "en": "Rock class"
+    },
+    "composition": {
+      "fa": "ترکیب",
+      "en": "Composition"
+    },
+    "properties": {
+      "fa": "ویژگی‌های فنی",
+      "en": "Technical properties"
+    },
+    "pattern": {
+      "fa": "رنگ و طرح",
+      "en": "Colour and pattern"
+    },
+    "weather": {
+      "fa": "مقاومت جوی",
+      "en": "Weather resistance"
+    },
+    "application": {
+      "fa": "کاربرد",
+      "en": "Application"
+    },
+    "thickness": {
+      "fa": "ضخامت اسلب",
+      "en": "Slab thickness"
+    },
+    "cutting": {
+      "fa": "روش برش",
+      "en": "Cutting method"
+    }
+  },
+  "products": [
+    {
+      "slug": "granite",
+      "facets": {
+        "type": [
+          "granite"
+        ],
+        "application": [
+          "interior",
+          "exterior"
+        ],
+        "pattern": [
+          "uniform",
+          "veined"
+        ]
+      },
+      "images": {
+        "main": {
+          "src": "assets/images/granite-slab-display.webp",
+          "width": 562,
+          "height": 1000,
+          "alt": {
+            "fa": "اسلب گرانیت، زمینۀ سبز با رگه‌های زنگاری",
+            "en": "Granite slab, green ground with rust veining"
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/images/granite-bathroom-vanity.webp",
+            "width": 1287,
+            "height": 1400,
+            "alt": {
+              "fa": "روشویی، کف و دیوار، گرانیت سبز رگه‌دار",
+              "en": "Vanity, floor and wall, veined green granite"
+            }
+          },
+          {
+            "src": "assets/images/granite-shower-wall.webp",
+            "width": 1287,
+            "height": 1400,
+            "alt": {
+              "fa": "دیوار دوش، گرانیت سبز با رگه‌های پیوسته",
+              "en": "Shower wall, green granite with continuous veining"
+            }
+          }
+        ]
+      },
+      "fa": {
+        "name": "گرانیت",
+        "body": [
+          "گرانیت سنگی آذرین با منشأ آتشفشانی است که حدود ۳۰٪ کوارتز و ۶۰٪ فلدسپات در ترکیب خود دارد. این ساختار باعث سختی، مقاومت سایشی بالا و استحکام فشاریِ فوق‌العادۀ آن می‌شود. گرانیت در طیف گسترده‌ای از رنگ‌ها و طرح‌های یکنواخت تا رگه‌دار عرضه شده و به دلیل مقاومت بالا در برابر شرایط مختلف آب‌وهوایی، گزینه‌ای ایده‌آل برای کاربردهای داخلی و خارجی ساختمان است."
+        ],
+        "specs": {
+          "class": "آذرین، با منشأ آتشفشانی",
+          "composition": "حدود ۳۰٪ کوارتز و ۶۰٪ فلدسپات",
+          "properties": "سختی، مقاومت سایشی بالا، استحکام فشاری فوق‌العاده",
+          "pattern": "طیف گسترده‌ای از رنگ‌ها، از یکنواخت تا رگه‌دار",
+          "weather": "بالا، در برابر شرایط مختلف آب‌وهوایی",
+          "application": "داخلی و خارجی ساختمان",
+          "thickness": "از ۱۲ میلی‌متر به بالا",
+          "cutting": "مولتی‌وایر"
+        }
+      },
+      "en": {
+        "name": "Granite",
+        "body": [
+          "Granite is an igneous rock of volcanic origin that is composed of about 30% quartz and 60% feldspar. This structure gives it exceptional hardness, high abrasion resistance and compressive strength. Granite comes in a wide range of colors and designs, from uniform to veined, and is an ideal choice for interior and exterior building applications due to its high resistance to various weather conditions."
+        ],
+        "specs": {
+          "class": "Igneous, of volcanic origin",
+          "composition": "About 30% quartz and 60% feldspar",
+          "properties": "Hardness, high abrasion resistance, compressive strength",
+          "pattern": "A wide range of colours, from uniform to veined",
+          "weather": "High, across various weather conditions",
+          "application": "Interior and exterior building",
+          "thickness": "From 12 mm upwards",
+          "cutting": "Multiwire"
+        }
+      },
+      "specSources": {
+        "class": "\"an igneous rock of volcanic origin\"",
+        "composition": "\"composed of about 30% quartz and 60% feldspar\"",
+        "properties": "\"exceptional hardness, high abrasion resistance and compressive strength\"",
+        "pattern": "\"a wide range of colors and designs, from uniform to veined\"",
+        "weather": "\"high resistance to various weather conditions\"",
+        "application": "\"ideal choice for interior and exterior building applications\"",
+        "thickness": "home.json: \"slabs with different thicknesses from 12 millimeters upwards\"",
+        "cutting": "home.json: \"three Italian Multiwire machines\""
+      }
+    },
+    {
+      "slug": "quartzite",
+      "facets": {
+        "type": [
+          "quartzite"
+        ],
+        "application": [
+          "exterior"
+        ]
+      },
+      "images": {
+        "main": {
+          "src": "assets/images/quartzite-block-display.webp",
+          "width": 1080,
+          "height": 1350,
+          "alt": {
+            "fa": "بلوک کوارتزیت سفید",
+            "en": "White quartzite block"
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/images/quartzite-raw-blocks.webp",
+            "width": 800,
+            "height": 1000,
+            "alt": {
+              "fa": "کوارتزیت خام، سطح شکستۀ بلورین",
+              "en": "Raw quartzite, broken crystalline face"
+            }
+          },
+          {
+            "src": "assets/images/quartzite-countertop-edge.webp",
+            "width": 800,
+            "height": 1000,
+            "alt": {
+              "fa": "لبۀ صفحۀ کابینت، کوارتزیت سفید",
+              "en": "Countertop edge, white quartzite"
+            }
+          }
+        ]
+      },
+      "fa": {
+        "name": "کوارتزیت",
+        "body": [
+          "کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد."
+        ],
+        "specs": {
+          "class": "شبیه به گرانیت در ویژگی‌های فیزیکی و مکانیکی",
+          "properties": "سختی و دوام بالا",
+          "weather": "بالا، برای پروژه‌هایی که مقاومت بالا می‌خواهند",
+          "application": "فضاهای خارجی",
+          "thickness": "از ۱۲ میلی‌متر به بالا",
+          "cutting": "مولتی‌وایر"
+        }
+      },
+      "en": {
+        "name": "Quartzite",
+        "body": [
+          "Quartzite is very similar to granite in terms of physical and mechanical features and is highly durable and hard. Depending on its type and structure, this stone is widely used in outdoor spaces and projects that require high resistance, and it gives the space a modern and distinctive aspect."
+        ],
+        "specs": {
+          "class": "Similar to granite in physical and mechanical features",
+          "properties": "Highly durable and hard",
+          "weather": "High, for projects that require high resistance",
+          "application": "Outdoor spaces",
+          "thickness": "From 12 mm upwards",
+          "cutting": "Multiwire"
+        }
+      },
+      "specSources": {
+        "class": "\"very similar to granite in terms of physical and mechanical features\"",
+        "properties": "\"is highly durable and hard\"",
+        "weather": "\"projects that require high resistance\"",
+        "application": "\"widely used in outdoor spaces\"",
+        "thickness": "home.json: \"slabs with different thicknesses from 12 millimeters upwards\"",
+        "cutting": "home.json: \"three Italian Multiwire machines\""
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_note": "Home page copy. The prose is the client's own text, used verbatim. Do not rewrite it, do not add captions or headings the client did not supply.",
+
+  "cover": {
+    "src": "assets/images/home-cover-factory-line.webp",
+    "width": 2000,
+    "height": 1333,
+    "alt": {
+      "fa": "خط تولید به‌کوشان، ردیف دستگاه‌های ساب پدرینی و اسلب‌های آماده در کنار آن",
+      "en": "The Behkooshan production line, a row of Pedrini polishing heads with finished slabs stacked alongside"
+    }
+  },
+
+  "fa": {
+    "title": "شرکت فرآورسنگ به‌کوشان",
+    "intro": [
+      "شرکت فرآورسنگ به‌کوشان، که در سال ۱۳۹۶ تأسیس شده است، بزرگ‌ترین تولیدکنندهٔ اسلب‌های گرانیت و کوارتزیت در ایران با بهره‌گیری از فناوری پیشرفتهٔ مولتی‌وایر است. مجموعۀ ما با استفاده از به‌روزترین تکنولوژی‌های فرآوری سنگ و تکیه بر نیروی انسانی متخصص، محصولاتی با کیفیت ممتاز و تنوع بالا به بازارهای داخلی و بین‌المللی عرضه می‌کند.",
+      "خط تولید ما مجهز به سه دستگاه مولتی‌وایر ایتالیایی است که امکان برش دقیق بلوک‌های سنگی به اسلب‌هایی با ضخامت‌های متنوع، از ۱۲ میلی‌متر به بالا، را فراهم می‌سازد. مواد اولیه با نهایت دقت و وسواس از معادن معتبر سراسر جهان، از جمله ایران، برزیل، اوکراین، هند و کشورهای آفریقایی انتخاب می‌شود.",
+      "مأموریت ما ارائـۀ سنگ‌هایی مستحکم، زیبا و ماندگار است که پاسخگوی سلایق متنوع مشتریان بوده و هم‌زمان استانداردهای صنـعت ساخت‌وساز را ارتقا دهد."
+    ],
+    "cta": "دیدن محصولات",
+    "description": "شرکت فرآورسنگ به‌کوشان، بزرگ‌ترین تولیدکنندهٔ اسلب‌های گرانیت و کوارتزیت در ایران با فناوری مولتی‌وایر."
+  },
+
+  "en": {
+    "title": "Behkooshan Stone Processing Company",
+    "intro": [
+      "Behkooshan Stone Processing Company, established in 2017, is the largest producer of granite and quartzite slabs in Iran using advanced Multiwire technology. We utilize the latest stone processing technology and the most skilled staff to ensure the best quality and high diversity in our products.",
+      "Our production line is equipped with three Italian Multiwire machines which can cut stone blocks into slabs with different thicknesses from 12 millimeters upwards. Raw materials are selected with the utmost care and meticulousness from reputable mines around the world, including Iran, Brazil, Ukraine, India, and African countries.",
+      "Our mission is to provide our customers with a wide variety of high-quality and strong material to suit their taste and needs while pushing the boundaries of the construction industry."
+    ],
+    "cta": "View products",
+    "description": "Behkooshan Stone Processing Company, the largest producer of granite and quartzite slabs in Iran using Multiwire technology."
+  }
+}

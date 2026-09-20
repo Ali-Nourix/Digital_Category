@@ -1,0 +1,577 @@
+/* ==========================================================================
+   Behkooshan site layer
+   Reset, element defaults, page shell, header, footer, shared utilities.
+   Written with logical properties throughout so the same rules serve the
+   Persian RTL pages and the English LTR pages without a mirrored stylesheet.
+   ========================================================================== */
+
+/* --- Reset ---------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-block-size: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: var(--step-0);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* --- Language driven type -------------------------------------------------
+   The guide sets leading per script: 1.85 for Persian body, 1.6 for Latin. */
+
+html[lang="fa"] body {
+  font-family: var(--font-fa);
+  line-height: var(--leading-body-fa);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-en);
+  line-height: var(--leading-body-en);
+}
+
+/* A Latin run inside a Persian page still belongs to TT Firs Neue. Mark it
+   with lang="en" and it picks up the Latin face and LTR direction. */
+html[lang="fa"] [lang="en"] {
+  font-family: var(--font-en);
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* --- Headings -------------------------------------------------------------
+   Latin display is 600 tracked in by 0.035em. Persian titles are Rokh Bold
+   at 700 and are never tracked, because negative tracking breaks the joins
+   between Persian letterforms. */
+
+h1,
+h2,
+h3 {
+  line-height: var(--leading-display);
+  text-wrap: balance;
+}
+
+html[lang="en"] :is(h1, h2, h3) {
+  font-weight: 600;
+  letter-spacing: var(--tracking-display);
+}
+
+html[lang="fa"] :is(h1, h2, h3) {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+
+h2 {
+  font-size: var(--step-3);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+p {
+  max-inline-size: var(--measure);
+}
+
+/* Small caps label above a section heading. The guide rations these: at most
+   one per three sections, hero included. Data labels inside a component are
+   not eyebrows and carry their own class. */
+.eyebrow,
+.label {
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Persian letterforms join to each other. Tracking pulls those joins apart,
+   so tracked labels reset to zero on Persian text. Uppercase does nothing in
+   Persian either, and leaving it on would still hit any Latin inside. */
+html[lang="fa"] :is(.eyebrow, .label) {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* The tagline stays Latin on Persian pages, so it keeps its tracking. */
+html[lang="fa"] .tagline[lang="en"] {
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+
+/* --- Links and focus ------------------------------------------------------ */
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+/* The colour already sits at its most legible on bone, so hover signals
+   with the underline rather than by shifting darker again. */
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+:focus-visible {
+  outline: var(--border-strong) solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  inset-block-start: var(--space-2);
+  inset-inline-start: var(--space-2);
+  z-index: var(--z-overlay);
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--accent);
+  color: var(--on-accent);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* --- Page shell ----------------------------------------------------------- */
+
+.shell {
+  inline-size: 100%;
+  max-inline-size: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.page {
+  flex: 1;
+  padding-block: var(--section-gap) var(--space-24);
+}
+
+/* A page whose first element is a full bleed image, which sits straight
+   under the header with nothing above it. */
+.page--flush {
+  padding-block-start: 0;
+}
+
+/* --- Scroll reveal --------------------------------------------------------
+   A block lifts a little into place as it comes into view. Every guard here
+   exists so that the content is never the thing that fails:
+
+   - The hidden state applies only under `html.js`, set by one inline line in
+     the head. No script, no hiding.
+   - `.is-visible` is added by assets/js/reveal.js through an
+     IntersectionObserver. If that file never loads, nothing was hidden.
+   - Under prefers-reduced-motion nothing is hidden or moved at all.
+
+   An earlier version used a scroll driven animation (animation-timeline:
+   view()). It needed no script, but a block near the end of the document can
+   run out of scroll before its range completes and then stays at opacity 0
+   for good, which is exactly what happened to the last section on the about
+   page. Firefox has no support for it either. */
+
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(var(--reveal-shift));
+    transition: opacity var(--dur-slow) var(--ease),
+      transform var(--dur-slow) var(--ease);
+  }
+
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --- Breadcrumb ----------------------------------------------------------- */
+
+.breadcrumb {
+  font-size: var(--step--1);
+  color: var(--text-muted);
+  margin-block-end: var(--space-8);
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+}
+
+/* A breadcrumb link is inline text, which WCAG exempts from the target size
+   rule, but it is still something people tap on a phone. Padding grows the
+   hit box to 24px without pushing the line apart. */
+.breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 1.5rem;
+  min-inline-size: 1.5rem;
+  color: inherit;
+}
+
+.breadcrumb li + li::before {
+  content: "/";
+  margin-inline-end: var(--space-2);
+  color: var(--rule);
+}
+
+/* --- Header ---------------------------------------------------------------
+   Green ground with paper type, the way every printed piece in the
+   stationery is built. One line at every width, 72px tall, inside the
+   guide's 80px cap. */
+
+.site-header {
+  background-color: var(--bg-inverse);
+  color: var(--on-inverse);
+}
+
+.site-header__inner {
+  block-size: var(--header-h);
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+/* The drawn lockup is 22px tall, which is under the 24px WCAG 2.5.8 floor and
+   well under a thumb. The link grows to 44px in both axes while the artwork
+   inside keeps the guide's size; the 72px bar has the room. */
+.site-header__logo {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
+  min-inline-size: 2.75rem;
+  color: var(--on-inverse);
+}
+
+/* The guide's minimum heights: 16px mark, 20px lockup, 24px Persian lockup.
+   These sit comfortably above them. */
+.site-header__logo .bk-logo {
+  block-size: 1.375rem;
+  inline-size: auto;
+}
+
+html[lang="fa"] .site-header__logo .bk-logo {
+  block-size: 1.625rem;
+}
+
+/* shapes.css sets `.bk-logo { display: block }` and loads after this file,
+   so the toggle below is scoped through the link to outrank it. */
+.site-header__logo .site-header__mark {
+  display: none;
+}
+
+/* Below 640px the lockup, two nav labels and the language chip stop fitting
+   on one line, and shrinking the lockup would break the guide's 20px and
+   24px minimums. The bare mark is what the guide reserves for small spaces,
+   so the header swaps to it rather than wrapping to a second line. */
+@media (max-width: 40rem) {
+  .site-header__inner {
+    gap: var(--space-3);
+  }
+
+  .site-header__logo .site-header__mark {
+    display: block;
+    block-size: 1.5rem;
+  }
+
+  .site-header__logo .site-header__lockup {
+    display: none;
+  }
+}
+
+/* Everything after the logo is pushed to the far end of the bar. */
+.site-nav {
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  font-size: var(--step--1);
+  font-weight: 500;
+}
+
+@media (max-width: 40rem) {
+  .site-nav {
+    gap: var(--space-4);
+  }
+}
+
+.site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  color: var(--on-inverse);
+}
+
+.site-nav a:hover {
+  color: var(--on-inverse);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+.site-nav [aria-current] {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 2px;
+}
+
+/* Focus rings need to clear the green ground, not the page ground. */
+.site-header :focus-visible,
+.site-footer :focus-visible {
+  outline-color: var(--on-inverse);
+}
+
+/* --- Language switch ------------------------------------------------------
+   A bordered chip naming the language you can switch to, per the guide's
+   component sheet. One control, not a pair of links. */
+
+.lang-switch {
+  position: relative;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2rem;
+  padding: 0.4375rem 0.75rem;
+  border: var(--hairline) solid var(--rule-inverse);
+  color: var(--on-inverse);
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.lang-switch:hover {
+  border-color: var(--on-inverse);
+  color: var(--on-inverse);
+  text-decoration: none;
+}
+
+/* The chip keeps the compact box the guide draws. The hit area is grown to
+   the 44px minimum with a pseudo element instead, so the target is thumb
+   sized on a phone without making the chip look heavier. */
+.lang-switch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max(100%, 2.75rem);
+  height: max(100%, 2.75rem);
+}
+
+/* --- Footer --------------------------------------------------------------- */
+
+/* The footer is the site's green panel, so it is where a shape belongs: one
+   large silhouette, tone on tone, bleeding off the edge, exactly the way the
+   folder cover and the ID card back are built. It is decorative and its low
+   contrast against the panel is the point.
+
+   The footer is one row of text at every width, so there is no column the
+   shape could keep clear of. It is allowed to pass behind type instead, and
+   the palette makes that safe: the shape is --green and the panel is
+   --green-deep, so paper type reads at 5.70:1 over the shape and 8.25:1 over
+   the panel. Both clear AA. Retint the shape and that stops being true.
+
+   The panel's top edge is cut on the stationery's angle rather than left
+   square. It is the one place the site uses that cut: on a panel edge, at
+   full width, where it reads as the shape of the brand's paper. Not on a
+   photograph, where a clipped corner just looks like a mistake.
+
+   clip-path takes no logical keywords, so the angle is mirrored by hand for
+   RTL below. --cut is the drop across the full width; the padding above the
+   content has to clear it, or the first line sits inside the wedge. */
+.site-footer {
+  --cut: 2.5rem;
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: var(--bg-inverse);
+  color: var(--on-inverse-muted);
+  padding-block: calc(var(--space-6) + var(--cut)) var(--space-6);
+  font-size: var(--step--1);
+  clip-path: polygon(0 var(--cut), 100% 0, 100% 100%, 0 100%);
+}
+
+[dir="rtl"] .site-footer {
+  clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+/* Below the phone breakpoint the angle eats most of the panel's height and
+   the drop reads as a mistake rather than a cut, so the edge goes square. */
+@media (max-width: 40rem) {
+  .site-footer {
+    --cut: 0px;
+  }
+}
+
+.site-footer__shape {
+  position: absolute;
+  inset-block-start: -35%;
+  inset-inline-end: 6%;
+  z-index: -1;
+  inline-size: min(22vw, 14rem);
+  color: var(--green);
+  pointer-events: none;
+}
+
+@media (max-width: 43.75rem) {
+  .site-footer__shape {
+    display: none;
+  }
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-8);
+}
+
+.site-footer p {
+  max-inline-size: none;
+}
+
+.site-footer a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 1.5rem;
+  color: var(--on-inverse);
+}
+
+.site-footer a:hover {
+  color: var(--on-inverse);
+}
+
+/* The brand signs off with the tagline set as a tracked label. On the green
+   footer it is paper; anywhere on the page ground it is the deeper green. */
+.tagline {
+  color: var(--link);
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.site-footer .tagline {
+  color: var(--on-inverse);
+}
+
+/* --- Buttons --------------------------------------------------------------
+   48px minimum height, label on one line, weight 500. */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-block-size: var(--control-h);
+  padding-inline: var(--space-6);
+  border: var(--hairline) solid transparent;
+  border-radius: var(--radius);
+  background-color: var(--accent);
+  color: var(--on-accent);
+  font: inherit;
+  font-size: var(--step--1);
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.button:hover {
+  background-color: var(--accent-hover);
+  color: var(--on-accent);
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button__arrow {
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+[dir="rtl"] .button__arrow {
+  transform: scaleX(-1);
+}
+
+.button--quiet {
+  background-color: var(--bg-raised);
+  border-color: var(--rule);
+  color: var(--text);
+}
+
+.button--quiet:hover {
+  background-color: transparent;
+  border-color: var(--link);
+  color: var(--link);
+}
+
+/* --- Reduced motion ------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
