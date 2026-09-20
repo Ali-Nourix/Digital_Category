@@ -59,6 +59,14 @@
   --rule-inverse: rgb(255 255 255 / 0.24);
 
   --rule: rgb(16 20 18 / 0.18);
+
+  /* The hairline that separates content is deliberately faint, at 1.47:1. A
+     form control's border is not decoration though: WCAG 1.4.11 asks a control
+     boundary to clear 3:1 against its surroundings, or the field is invisible
+     to anyone with low contrast sensitivity. This one measures 3.50:1 on the
+     white panel and 3.38:1 on the page tint. Do not reuse it for rules. */
+  --rule-strong: rgb(16 20 18 / 0.5);
+
   --focus: var(--green-deep);
 
   /* Placeholder stripe, from the guide's component sheet. It reads as a
@@ -101,6 +109,7 @@
   --space-2: 0.5rem;
   --space-3: 0.75rem;
   --space-4: 1rem;
+  --space-5: 1.25rem;
   --space-6: 1.5rem;
   --space-8: 2rem;
   --space-12: 3rem;

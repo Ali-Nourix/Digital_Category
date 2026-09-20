@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>محصولات | به‌کوشان</title>
-  <meta name="description" content="سنگ ساختمانی بریده و پرداخت‌شده در کارخانه شمس‌آباد. برای قیمت و موجودی تماس بگیرید.">
+  <meta name="description" content="اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.">
 
   <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0f5a3b">
@@ -54,66 +54,105 @@
         </ol>
       </nav>
 
-      <h1>محصولات</h1>
-      <p>سنگ ساختمانی بریده و پرداخت‌شده در کارخانه شمس‌آباد. برای قیمت و موجودی تماس بگیرید.</p>
-
-      <div class="notice">
-        <p>این فهرست نمونه است. نام سنگ‌ها و معادن واقعی‌اند، اما پرداخت، ابعاد، گرید و کد محصول جای‌نگهدارند و باید با ارقام خود به‌کوشان جایگزین شوند.</p>
+      <div class="catalogue__head">
+        <h1>محصولات</h1>
+        <p>اسلب گرانیت و کوارتزیت، بریده با مولتی‌وایر در کارخانه شمس‌آباد.</p>
       </div>
 
-      <ul class="card-grid">
-        <li class="card reveal">
-          <a href="./dehbid-marble.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
+      <form class="filter" id="catalogue-filter" aria-label="فیلتر محصولات">
+        <div class="filter__search">
+          <label class="filter__legend" for="catalogue-search">جست‌وجوی نام سنگ</label>
+          <input class="filter__input" type="search" id="catalogue-search" name="q"
+                 autocomplete="off" placeholder="مثلاً گرانیت">
+        </div>
+
+        <fieldset class="filter__group">
+          <legend class="filter__legend">نوع سنگ</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-type-all" name="type" value="" checked>
+              <label for="f-type-all">همه</label>
             </div>
-            <p class="card__name">مرمریت دهبید</p>
-            <p class="card__type label">مرمریت</p>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-granite" name="type" value="granite">
+              <label for="f-type-granite">گرانیت</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-quartzite" name="type" value="quartzite">
+              <label for="f-type-quartzite">کوارتزیت</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">کاربرد</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-application-all" name="application" value="" checked>
+              <label for="f-application-all">همه</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-interior" name="application" value="interior">
+              <label for="f-application-interior">داخلی</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-exterior" name="application" value="exterior">
+              <label for="f-application-exterior">خارجی</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">طرح</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-all" name="pattern" value="" checked>
+              <label for="f-pattern-all">همه</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-uniform" name="pattern" value="uniform">
+              <label for="f-pattern-uniform">یکنواخت</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-veined" name="pattern" value="veined">
+              <label for="f-pattern-veined">رگه‌دار</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="reset" class="filter__clear" hidden>پاک کردن فیلترها</button>
+      </form>
+
+      <div class="catalogue__status" role="status">
+        <p class="catalogue__count" id="catalogue-count" data-one="۱ محصول">۲ محصول</p>
+
+        <div class="catalogue__empty" id="catalogue-empty" hidden>
+          <p class="catalogue__empty-title">هیچ سنگی با این جست‌وجو پیدا نشد.</p>
+          <p>نام دیگری بزنید یا فیلترها را پاک کنید.</p>
+        </div>
+      </div>
+
+      <ul class="card-grid" id="catalogue-grid">
+        <li class="card reveal" data-name="گرانیت" data-type="granite" data-application="interior exterior" data-pattern="uniform veined">
+          <a class="card__link" href="./granite.html">
+            <span class="card__media">
+              <img class="card__img" src="../assets/images/granite-slab-display.webp"
+                   alt="اسلب گرانیت با زمینه سبز و رگه‌های زنگاری، ایستاده روی یک تخته‌سنگ سیاه"
+                   width="562" height="1000" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">گرانیت</span>
+            </span>
           </a>
         </li>
-        <li class="card reveal">
-          <a href="./abbasabad-travertine.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">تراورتن عباس‌آباد</p>
-            <p class="card__type label">تراورتن</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./mahallat-silver-travertine.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">تراورتن سیلور محلات</p>
-            <p class="card__type label">تراورتن</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./nehbandan-granite.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">گرانیت نهبندان</p>
-            <p class="card__type label">گرانیت</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./neyriz-crystal.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">چینی نی‌ریز</p>
-            <p class="card__type label">چینی</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./azarshahr-honey-onyx.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">اونیکس عسلی آذرشهر</p>
-            <p class="card__type label">اونیکس</p>
+        <li class="card reveal" data-name="کوارتزیت" data-type="quartzite">
+          <a class="card__link" href="./quartzite.html">
+            <span class="card__media">
+              <img class="card__img" src="../assets/images/quartzite-block-display.webp"
+                   alt="بلوک کوارتزیت سفید روی یک پایۀ مکعبی، در نور کناری"
+                   width="1080" height="1350" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">کوارتزیت</span>
+            </span>
           </a>
         </li>
       </ul>
@@ -131,5 +170,6 @@
   </footer>
 
   <script src="../assets/js/reveal.js" defer></script>
+  <script src="../assets/js/catalogue.js" defer></script>
 </body>
 </html>

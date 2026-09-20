@@ -3,14 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>به‌کوشان | کاتالوگ دیجیتال</title>
-  <meta name="description" content="کاتالوگ دیجیتال شرکت فرآورسنگ به‌کوشان.">
+  <title>به‌کوشان | شرکت فرآورسنگ به‌کوشان</title>
+  <meta name="description" content="شرکت فرآورسنگ به‌کوشان، بزرگ‌ترین تولیدکنندهٔ اسلب‌های گرانیت و کوارتزیت در ایران با فناوری مولتی‌وایر.">
 
   <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0f5a3b">
-  <link rel="alternate" hreflang="fa" href="./">
-  <link rel="alternate" hreflang="en" href="en/">
-  <link rel="alternate" hreflang="x-default" href="./">
+  <link rel="alternate" hreflang="fa" href="./index.html">
+  <link rel="alternate" hreflang="en" href="en/index.html">
 
   <link rel="preload" href="assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
@@ -19,6 +18,7 @@
   <link rel="stylesheet" href="assets/css/tokens.css">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="stylesheet" href="assets/css/shapes.css">
+  <link rel="stylesheet" href="assets/css/about.css">
 
   <!-- Marks the document as scripted before anything paints, so the reveal's
        hidden starting state only ever applies where the script can undo it. -->
@@ -29,24 +29,46 @@
 
   <header class="site-header">
     <div class="shell site-header__inner">
-      <a class="site-header__logo" href="./" aria-label="به‌کوشان، صفحه نخست">
+      <a class="site-header__logo" href="./" aria-label="به‌کوشان، صفحه نخست" aria-current="page">
         <span class="bk-logo bk-logo--mark site-header__mark"></span>
         <span class="bk-logo bk-logo--lockup-fa site-header__lockup"></span>
       </a>
 
       <nav class="site-nav" aria-label="ناوبری اصلی">
-        <a href="products/">محصولات</a>
-        <a href="about.html">درباره ما</a>
+        <a href="./products/">محصولات</a>
+        <a href="./about.html">درباره ما</a>
       </nav>
 
-      <a class="lang-switch" href="en/" lang="en" aria-label="English">EN</a>
+      <a class="lang-switch" href="en/index.html" lang="en"
+         aria-label="English">EN</a>
     </div>
   </header>
 
-  <main class="page" id="main">
+  <main class="page page--flush" id="main">
+
+    <figure class="about__cover bleed fade-b">
+      <img src="assets/images/home-cover-factory-line.webp" alt="خط تولید به‌کوشان، ردیف دستگاه‌های ساب پدرینی و اسلب‌های آماده در کنار آن"
+           width="2000" height="1333" fetchpriority="high">
+    </figure>
+
     <div class="shell">
-      <h1>سلام دنیا</h1>
-      <p>ساختار پایه کاتالوگ دیجیتال به‌کوشان. رنگ‌ها، فونت‌ها و شبکه صفحه آماده است.</p>
+
+      <div class="about__head reveal">
+        <h1>شرکت فرآورسنگ به‌کوشان</h1>
+      </div>
+
+      <section class="about__section about__section--single reveal" aria-label="شرکت فرآورسنگ به‌کوشان">
+        <div class="about__prose">
+          <p>شرکت فرآورسنگ به‌کوشان، که در سال ۱۳۹۶ تأسیس شده است، بزرگ‌ترین تولیدکنندهٔ اسلب‌های گرانیت و کوارتزیت در ایران با بهره‌گیری از فناوری پیشرفتهٔ مولتی‌وایر است. مجموعۀ ما با استفاده از به‌روزترین تکنولوژی‌های فرآوری سنگ و تکیه بر نیروی انسانی متخصص، محصولاتی با کیفیت ممتاز و تنوع بالا به بازارهای داخلی و بین‌المللی عرضه می‌کند.</p>
+          <p>خط تولید ما مجهز به سه دستگاه مولتی‌وایر ایتالیایی است که امکان برش دقیق بلوک‌های سنگی به اسلب‌هایی با ضخامت‌های متنوع، از ۱۲ میلی‌متر به بالا، را فراهم می‌سازد. مواد اولیه با نهایت دقت و وسواس از معادن معتبر سراسر جهان، از جمله ایران، برزیل، اوکراین، هند و کشورهای آفریقایی انتخاب می‌شود.</p>
+          <p>مأموریت ما ارائـۀ سنگ‌هایی مستحکم، زیبا و ماندگار است که پاسخگوی سلایق متنوع مشتریان بوده و هم‌زمان استانداردهای صنـعت ساخت‌وساز را ارتقا دهد.</p>
+
+          <p class="home__cta">
+            <a class="button" href="./products/">دیدن محصولات <span class="button__arrow" aria-hidden="true">&rarr;</span></a>
+          </p>
+        </div>
+      </section>
+
     </div>
   </main>
 

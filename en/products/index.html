@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Products | Behkooshan</title>
-  <meta name="description" content="Building stone cut and finished at the Shams Abad works. Get in touch for pricing and availability.">
+  <meta name="description" content="Granite and quartzite slabs, Multiwire cut at the Shams Abad works.">
 
   <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0f5a3b">
@@ -53,66 +53,105 @@
         </ol>
       </nav>
 
-      <h1>Products</h1>
-      <p>Building stone cut and finished at the Shams Abad works. Get in touch for pricing and availability.</p>
-
-      <div class="notice">
-        <p>This listing is sample data. The stone names and quarries are real, but finishes, slab sizes, grades and product codes are placeholders and have to be replaced with Behkooshan's own figures.</p>
+      <div class="catalogue__head">
+        <h1>Products</h1>
+        <p>Granite and quartzite slabs, Multiwire cut at the Shams Abad works.</p>
       </div>
 
-      <ul class="card-grid">
-        <li class="card reveal">
-          <a href="./dehbid-marble.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
+      <form class="filter" id="catalogue-filter" aria-label="Filter products">
+        <div class="filter__search">
+          <label class="filter__legend" for="catalogue-search">Search by stone name</label>
+          <input class="filter__input" type="search" id="catalogue-search" name="q"
+                 autocomplete="off" placeholder="Granite, for example">
+        </div>
+
+        <fieldset class="filter__group">
+          <legend class="filter__legend">Stone type</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-type-all" name="type" value="" checked>
+              <label for="f-type-all">All</label>
             </div>
-            <p class="card__name">Dehbid Marble</p>
-            <p class="card__type label">Marble</p>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-granite" name="type" value="granite">
+              <label for="f-type-granite">Granite</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-type-quartzite" name="type" value="quartzite">
+              <label for="f-type-quartzite">Quartzite</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">Application</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-application-all" name="application" value="" checked>
+              <label for="f-application-all">All</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-interior" name="application" value="interior">
+              <label for="f-application-interior">Interior</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-application-exterior" name="application" value="exterior">
+              <label for="f-application-exterior">Exterior</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__legend">Pattern</legend>
+          <div class="filter__choices">
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-all" name="pattern" value="" checked>
+              <label for="f-pattern-all">All</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-uniform" name="pattern" value="uniform">
+              <label for="f-pattern-uniform">Uniform</label>
+            </div>
+            <div class="filter__choice">
+              <input type="radio" id="f-pattern-veined" name="pattern" value="veined">
+              <label for="f-pattern-veined">Veined</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="reset" class="filter__clear" hidden>Clear filters</button>
+      </form>
+
+      <div class="catalogue__status" role="status">
+        <p class="catalogue__count" id="catalogue-count" data-one="1 product">2 products</p>
+
+        <div class="catalogue__empty" id="catalogue-empty" hidden>
+          <p class="catalogue__empty-title">No stone matches that search.</p>
+          <p>Try another name, or clear the filters.</p>
+        </div>
+      </div>
+
+      <ul class="card-grid" id="catalogue-grid">
+        <li class="card reveal" data-name="granite" data-type="granite" data-application="interior exterior" data-pattern="uniform veined">
+          <a class="card__link" href="./granite.html">
+            <span class="card__media">
+              <img class="card__img" src="../../assets/images/granite-slab-display.webp"
+                   alt="A granite slab with a green ground and rust veining, standing on a black rock"
+                   width="562" height="1000" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">Granite</span>
+            </span>
           </a>
         </li>
-        <li class="card reveal">
-          <a href="./abbasabad-travertine.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">Abbasabad Travertine</p>
-            <p class="card__type label">Travertine</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./mahallat-silver-travertine.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">Mahallat Silver Travertine</p>
-            <p class="card__type label">Travertine</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./nehbandan-granite.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">Nehbandan Granite</p>
-            <p class="card__type label">Granite</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./neyriz-crystal.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">Neyriz Crystal</p>
-            <p class="card__type label">Crystal</p>
-          </a>
-        </li>
-        <li class="card reveal">
-          <a href="./azarshahr-honey-onyx.html">
-            <div class="media-slot" style="--slot-ratio: 4 / 3">
-              <span class="media-slot__label">slab photograph · 2000 × 1500</span>
-            </div>
-            <p class="card__name">Azarshahr Honey Onyx</p>
-            <p class="card__type label">Onyx</p>
+        <li class="card reveal" data-name="quartzite" data-type="quartzite">
+          <a class="card__link" href="./quartzite.html">
+            <span class="card__media">
+              <img class="card__img" src="../../assets/images/quartzite-block-display.webp"
+                   alt="A white quartzite block on a cube plinth, lit from the side"
+                   width="1080" height="1350" sizes="(min-width: 62rem) 22rem, (min-width: 34rem) 44vw, 88vw" fetchpriority="high">
+            </span>
+            <span class="card__body">
+              <span class="card__name">Quartzite</span>
+            </span>
           </a>
         </li>
       </ul>
@@ -130,5 +169,6 @@
   </footer>
 
   <script src="../../assets/js/reveal.js" defer></script>
+  <script src="../../assets/js/catalogue.js" defer></script>
 </body>
 </html>

@@ -96,6 +96,19 @@ html[lang="en"] .about__eyebrow {
   }
 }
 
+/* A section whose heading is the page title itself, so there is nothing to put
+   in the narrow column. The prose takes the full width of the unit and keeps
+   its own measure, rather than sitting in an 8-column slot beside a gap. */
+.about__section--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 1000px) {
+  .about__section--single {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 .about__section h2 {
   margin: 0;
   align-self: start;
@@ -104,6 +117,12 @@ html[lang="en"] .about__eyebrow {
 .about__prose {
   display: grid;
   gap: var(--space-6);
+}
+
+/* The one call to action on the home page, sitting under the introduction. */
+.home__cta {
+  margin-block-start: var(--space-4);
+  max-inline-size: none;
 }
 
 /* A photograph belonging to a section spans the whole grid and leads it. */
@@ -168,12 +187,17 @@ html[lang="en"] .about__eyebrow {
    Term and description on a hairline grid, the same construction as the
    product spec grid. */
 
+/* Each cell draws its own hairline as a spread shadow, for the reason set out
+   over .spec-grid in product.css: a container colour showing through the gaps
+   paints any track the cells do not fill. */
 .features__grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: var(--hairline);
-  background-color: var(--rule);
-  border: var(--hairline) solid var(--rule);
+}
+
+.features__grid > * {
+  box-shadow: 0 0 0 var(--hairline) var(--rule);
 }
 
 @media (min-width: 640px) {
