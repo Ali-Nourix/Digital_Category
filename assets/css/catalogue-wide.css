@@ -12,10 +12,13 @@
    removes the version completely. See docs/WIDE.md.
 
    The whole file sits inside one media query. A sideways catalogue needs a
-   landscape window: below it the page is the upright one, unchanged.
+   landscape window with room in it: every panel is a whole spread cut to the
+   height of the window, and under about six hundred pixels of that there is
+   no height left to cut one to. Below the query the page is the upright one,
+   unchanged, and the switch in the bar is not offered.
    ========================================================================== */
 
-@media (min-width: 60rem) and (min-height: 30rem) {
+@media (min-width: 60rem) and (min-height: 38rem) {
   /* --- The track ----------------------------------------------------------
      The document itself is the scroller. Its flex row follows `dir`, so the
      Persian build scrolls right to left with no extra work, and the browser
@@ -33,20 +36,36 @@
        nothing and lets a figure grow past the panel. */
     --panel-h: calc(100dvh - var(--bar-h));
 
+    /* The air above and below the type on every panel that carries any. One
+       value, used everywhere, so a reader travelling along the track finds
+       each panel beginning and ending on the same two lines. */
+    --panel-pad: clamp(2rem, 4.5vh, 3.5rem);
+
+    /* The gutter between columns of type, and between a column of type and
+       the photographs beside it. Also one value, for the same reason. */
+    --panel-gap: clamp(2rem, 3.2vw, 3.5rem);
+
     display: flex;
     align-items: stretch;
     block-size: 100dvh;
     overflow-x: auto;
     overflow-y: hidden;
     overscroll-behavior-x: contain;
-    /* Proximity, not mandatory: several panels are wider than the window and
-       have to be scrollable through rather than snapped past. */
-    scroll-snap-type: x proximity;
     scroll-padding-inline-start: 0;
+
+    /* No scroll snapping. The track is scrolled freely and panels are
+       aligned on purpose instead, by the contents and by Page Up and Page
+       Down: snapping spends its time tugging at a reader who is part way
+       between two panels and has not asked to be anywhere in particular. */
   }
 
-  /* A section is a panel: full height, a width of its own, and no vertical
-     padding, because the height it gets is all the height there is. */
+  /* A section is a panel: one window wide, one window tall, and no padding
+     of its own, because the height it gets is all the height there is.
+
+     One window is the rule and not an approximation. A panel wider than the
+     window is never seen whole, so it stops being a composition and becomes
+     a stretch of scroll; everything below is laid out to fit the window it
+     is given rather than to ask for more. */
   .sec {
     --panel: 100vw;
 
@@ -61,7 +80,6 @@
     padding-block: 0;
     padding-inline: 0;
     overflow: hidden;
-    scroll-snap-align: start;
   }
 
   .sec > * {
@@ -75,6 +93,16 @@
     max-inline-size: none;
     block-size: 100%;
     margin-inline: 0;
+  }
+
+  /* Every panel that carries type is framed the same way. The ones that are
+     a photograph edge to edge, or a title on a field of green, are not: they
+     are meant to run to the trim. */
+  .sec--columns > .shell,
+  .sec--slabs > .shell,
+  .sec--people > .shell,
+  .sec--stone > .shell {
+    padding-block: var(--panel-pad);
   }
 
   /* The page turn between two panels, which the upright version draws as a
@@ -92,23 +120,10 @@
     content: none;
   }
 
-  /* Panels wider than one window: the two spreads the print sets dense, and
-     the biographies, which want room for two people and their lede. Given
-     one window each they would have to be set too small to read. */
-  .sec--columns {
-    --panel: 178vw;
-  }
-
-  .sec--slabs {
-    --panel: 152vw;
-  }
-
-  .sec--people {
-    --panel: 124vw;
-  }
-
   /* Just under one window keeps the edge of the next panel in view, which is
-     what tells a reader the document goes sideways. */
+     what tells a reader the document goes sideways. The plates are the right
+     place for it: a photograph is legible from any part of itself, so the
+     one panel that can afford not to start at the window edge is this one. */
   .sec--plate {
     --panel: 88vw;
   }
@@ -142,6 +157,15 @@
     align-content: center;
   }
 
+  /* The one panel that keeps the shell. Everywhere else the panel is the
+     column and its width is the measure; a title page is a composition, and
+     held against the edge of a window twice the width of a printed page its
+     mark reads as having slipped off rather than as having been placed. */
+  .sec--cover > .shell {
+    max-inline-size: var(--shell);
+    margin-inline: auto;
+  }
+
   /* --- Divider ------------------------------------------------------------
      The green half and the title half, side by side, filling the panel. */
 
@@ -168,6 +192,10 @@
   .feature {
     block-size: 100%;
     grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+    /* Declared, as on every other panel. Left to size itself the row grows
+       to the taller of the photograph and the type, and the photograph,
+       asked to fill it, grows past the bottom of the panel with it. */
+    grid-template-rows: minmax(0, 1fr);
     align-items: stretch;
   }
 
@@ -180,11 +208,22 @@
   .feature__text {
     display: grid;
     align-content: center;
+    justify-items: center;
+    padding-block: var(--panel-pad);
     padding-inline: clamp(2rem, 4vw, 4rem);
   }
 
+  /* The measure, once, on every feature. The type is centred against a
+     photograph that runs the full height, so what makes these panels agree
+     with each other is the width of the column rather than where it starts.
+
+     Centred in its half rather than pushed against the photograph. Upright,
+     the type sits against the outer margin of the page and the photograph
+     bleeds off the other edge; sideways both edges of the half are margins,
+     and a block of type held against one of them leaves the panel lopsided. */
   .feature__inner {
-    max-inline-size: 38rem;
+    inline-size: 100%;
+    max-inline-size: 34rem;
   }
 
   .feature--flip {
@@ -195,10 +234,17 @@
     margin-inline-end: 0;
   }
 
+  /* The same frame either way round. Upright the flipped composition pads
+     its type against the outer margin of the page, which sideways is the
+     edge of the panel and no longer a margin at all. */
+  .feature--flip .feature__text {
+    padding-inline: clamp(2rem, 4vw, 4rem);
+  }
+
   /* The lead composition put the photograph above a short block of type.
      Inside a panel that is all height and no spare room it becomes the same
-     side by side split as the others, with the type on a narrower measure
-     because there is less of it. */
+     side by side split as the others, with the photograph given the larger
+     share because there is less type to carry. */
   .feature--lead {
     grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
     gap: 0;
@@ -214,8 +260,9 @@
 
   .feature--lead .feature__inner {
     display: block;
-    max-inline-size: 32rem;
-    margin-inline: 0;
+    inline-size: 100%;
+    max-inline-size: 30rem;
+    margin-inline: auto;
   }
 
   .feature--lead .feature__inner > * {
@@ -223,31 +270,65 @@
   }
 
   /* --- Columns ------------------------------------------------------------
-     Three blocks of type across the panel, and the eight photographs as a
-     band of four by two beside them, which is the shape the print gives them
-     down the gutter of the spread. */
+     The advantages spread. Three columns of type across the top of the
+     panel, and the eight photographs beneath them as a band that takes
+     whatever height the type leaves.
+
+     Upright, the print runs these eight down the gutter between two columns
+     of text. Sideways there is no gutter to run down, and a band along the
+     foot of the panel is the same idea turned on its side: the type is the
+     spread and the photographs are the strip under it. */
 
   .sec--columns > .shell {
     display: grid;
-    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-    gap: clamp(2rem, 4vw, 4rem);
-    align-items: center;
+    grid-template-rows: auto minmax(0, 1fr);
+    row-gap: clamp(1.75rem, 3.5vh, 2.75rem);
   }
 
+  /* Three columns of text, set the way the slabs are: a run of writing
+     poured across them and balanced, rather than a grid with one block to a
+     column. The three blocks here are very different lengths, and a grid
+     makes all three as deep as the longest, which on this panel is the
+     difference between the type fitting the window and not. */
   .columns__text {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: clamp(1.75rem, 2.4vw, 3rem);
-    align-items: start;
+    display: block;
+    /* A width rather than a count, so the measure stays where it is set and
+       the number of columns is whatever the panel can hold at it. Three on a
+       window of ordinary width; four on a very wide one, or on the wider
+       panel a short window is given, where three would set the line half as
+       long again as it should be. */
+    column-width: 29rem;
+    column-gap: var(--panel-gap);
+    column-fill: balance;
   }
 
-  .columns__block:nth-child(2) {
-    grid-row: auto;
+  .columns__block + .columns__block {
+    margin-block-start: var(--space-8);
   }
 
+  /* A heading never ends a column and a bullet never straddles one. */
+  .columns__block .title {
+    break-after: avoid;
+  }
+
+  .columns__text li {
+    break-inside: avoid;
+  }
+
+  /* Four across and two down, filling the row rather than asking for a
+     height of their own. The row is what is left of the panel, so the band
+     closes the composition on the bottom frame line whatever the type does
+     above it and the panel is never part empty. */
   .band {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: minmax(0, 1fr);
+    block-size: 100%;
     margin-block-start: 0;
-    align-self: center;
+  }
+
+  .band figure {
+    aspect-ratio: auto;
+    block-size: 100%;
   }
 
   /* --- Plate -------------------------------------------------------------- */
@@ -257,19 +338,23 @@
   }
 
   /* --- People -------------------------------------------------------------
-     The tag and its lede lead the panel, the two biographies follow. */
+     The tag and its lede hold the leading column; the two biographies stack
+     beside it, a half panel each, portrait to the outer edge and the name
+     and the life beside it. That is the composition the print uses, given
+     the height of a window instead of the height of a page: the portraits
+     come out about twice the size they are upright. */
 
   .sec--people > .shell {
     display: grid;
-    grid-template-columns: minmax(15rem, 4fr) minmax(0, 9fr);
-    column-gap: clamp(2.5rem, 4vw, 4.5rem);
-    align-content: center;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    column-gap: var(--panel-gap);
+    grid-template-rows: auto minmax(0, 1fr);
+    align-content: start;
   }
 
   .sec--people .tag {
     grid-column: 1;
     grid-row: 1;
-    align-self: end;
     justify-self: start;
   }
 
@@ -283,33 +368,108 @@
   .sec--people .people__list {
     grid-column: 2;
     grid-row: 1 / span 2;
-    align-self: center;
+    /* One above the other, a half panel each. Side by side they would each
+       get a quarter of the width and the portraits would come out smaller
+       than they are in the upright version, which is the opposite of what a
+       panel this size is for. */
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    row-gap: clamp(1.75rem, 3.5vh, 2.75rem);
     margin-block-start: 0;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    block-size: 100%;
   }
 
-  .person:nth-child(-n + 2) {
+  /* A biography is half the panel: the portrait fills that half, the name
+     and the life sit beside it on the reading line. */
+  .sec--people .person {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: var(--panel-gap);
+    align-items: stretch;
+    block-size: 100%;
     padding-block-start: 0;
     border-block-start: 0;
   }
 
+  .sec--people .person__portrait {
+    inline-size: 100%;
+    block-size: 100%;
+    aspect-ratio: auto;
+  }
+
+  .sec--people .person__body {
+    align-self: center;
+  }
+
   /* --- Slabs --------------------------------------------------------------
-     Four columns rather than two, because the height of a window is about
-     half the height this text had in the upright version. The two column
-     wrappers step out of the way so every block is a grid item of its own
-     and the browser can balance them across four tracks. */
+     The twelve millimetre spread, which is the longest piece of writing in
+     the catalogue. Upright it runs as two columns down a page; here the page
+     is a window on its side, so it is set the way a newspaper sets a story
+     that has to fit a fixed depth: three columns off the top frame line,
+     ending level with each other.
+
+     Multiple columns rather than a grid. A grid gives every block a row, and
+     a row is as tall as its tallest block, so a short paragraph beside a
+     long one leaves a hole under it. Text in columns has no rows to leave
+     holes in: it simply runs on. */
 
   .slabs {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    column-gap: clamp(1.75rem, 2.4vw, 3rem);
-    row-gap: var(--space-5);
-    align-items: start;
-    align-content: center;
+    display: block;
+    /* A width rather than a count, as on the advantages spread: the measure
+       is set here and the panel takes as many columns of it as it can hold. */
+    column-width: 29rem;
+    column-gap: var(--panel-gap);
+    /* Balanced rather than poured. Poured, the text fills the first column
+       to the bottom frame line, then the second, and stops wherever it
+       stops: in Persian that leaves a short third column and in English,
+       which sets tighter, an empty one. Balanced, the three always end on
+       the same line and the space left over is a margin along the foot of
+       the panel rather than a hole in the corner of it.
+
+       Balanced across the panel's own height, so the three columns run from
+       the top frame line to the bottom one rather than stopping where the
+       words happen to end. The cost of that is the failure: text that will
+       not fit three columns of this height pours into a fourth, off the
+       inline edge, where the panel's overflow rule eats it, and a paragraph
+       disappears with nothing on the page to say so. The widths at the foot
+       of this file are what keep it from arising, and they are measured
+       against exactly that. */
     block-size: 100%;
   }
 
+  /* The two halves of the printed spread stop being columns of their own and
+     become two runs of the same text, one after the other. Their grid gaps
+     go with them, so the spacing is restored as margins. */
   .slabs__col {
-    display: contents;
+    display: block;
+  }
+
+  .slabs__col > * + *,
+  .slabs__benefits > * + * {
+    margin-block-start: var(--space-6);
+  }
+
+  .slabs__col + .slabs__col {
+    margin-block-start: var(--space-6);
+  }
+
+  .slabs__benefits {
+    display: block;
+    margin-block-start: var(--space-6);
+  }
+
+  /* What may not be broken between two columns: a named advantage and its
+     sentence, a list, the pull quote. Paragraphs may break, which is what
+     lets the columns fill evenly. A heading never ends a column. */
+  .slabs .benefit,
+  .slabs .list,
+  .slabs .pull {
+    break-inside: avoid;
+  }
+
+  .slabs .title,
+  .slabs .benefit__title {
+    break-after: avoid;
   }
 
   /* --- Stone --------------------------------------------------------------
@@ -317,31 +477,52 @@
      nothing to stick to here, and the figures take the panel's height. */
 
   .stone {
-    grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
-    align-items: center;
+    /* A narrower column of type than the upright version gives it. There are
+       four sentences here and a panel's worth of photographs, so the type is
+       a caption to them rather than the other way round. */
+    grid-template-columns: minmax(0, 3fr) minmax(0, 8fr);
+    /* Declared, not left to size itself. The figures beside the type ask for
+       the height of the row, and a row the browser is sizing from its
+       content cannot answer that. */
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: var(--panel-gap);
+    align-items: stretch;
     block-size: 100%;
+  }
+
+  /* Flipped, the photographs lead and the type follows, as in the print. */
+  .stone--flip {
+    grid-template-columns: minmax(0, 8fr) minmax(0, 3fr);
   }
 
   .stone__text {
     position: static;
+    align-self: start;
   }
 
-  /* Three tall figures in a row rather than one beside a stack. Stacked,
-     two squares do not fit a panel's height beside a figure that already
-     fills it, and a catalogue running sideways would rather read across
-     anyway. */
+  /* The arrangement the print uses on pages 30 and 31: one tall photograph
+     with two squarer ones stacked beside it. Upright it is built out of
+     aspect ratios, which is what pushed it past the bottom of a panel here;
+     given a fixed height the rows are declared instead and every frame is
+     whatever the panel leaves it, so the block fills the height exactly and
+     each photograph still lands close to the proportion it was cropped to. */
   .stone__figures {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: minmax(0, 1fr);
-    block-size: min(calc(var(--panel-h) - 4rem), 42rem);
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: clamp(0.75rem, 1.2vw, 1.25rem);
+    block-size: 100%;
   }
 
-  .stone__figures figure,
-  .stone__figures figure:first-child {
+  .stone__figures figure {
     grid-column: auto;
     grid-row: auto;
     aspect-ratio: auto;
     block-size: 100%;
+  }
+
+  .stone__figures figure:first-child {
+    grid-column: 1;
+    grid-row: 1 / span 2;
   }
 
   /* --- Footer -------------------------------------------------------------
@@ -359,7 +540,6 @@
     margin-inline-start: calc(var(--cut) * -1);
     padding-block: 0;
     padding-inline: 0;
-    scroll-snap-align: start;
     clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%);
   }
 
@@ -379,6 +559,160 @@
     align-items: flex-start;
     justify-content: center;
     gap: clamp(2rem, 4vh, 3rem);
+  }
+
+  /* --- Panels on a smaller window -----------------------------------------
+     Every panel above is laid out to hold a printed spread inside one
+     window, which it does on any ordinary desktop. A smaller window takes
+     width and height away at once: fewer columns of type fit across it, and
+     each of them is shorter. Past the sizes here the words stop fitting.
+
+     Last in the file on purpose. A media query adds no weight of its own, so
+     a rule inside one only wins where the rule it overrides came earlier.
+
+     What a panel of type needs is area: a column of a certain width, for a
+     certain depth. Its width here is the window's, so the shorter the
+     window, the wider the panel has to be to hold the same words, and the
+     widths below are that curve in steps. They are written as a floor in
+     rem rather than as a multiple of the window, so the step depends on the
+     window's height alone: `max()` gives a wide window its own width, which
+     is already more than the floor, and gives a narrow one the floor.
+
+     The twelve millimetre spread asks most, being the longest piece of
+     writing in the catalogue; the advantages spread and the biographies ask
+     less and are stepped together. Every figure here was measured, in both
+     languages, at the shortest window its step has to cover, and these are
+     load bearing rather than tidying: a spread of type in columns that is
+     given too little room loses a column off the inline edge without
+     showing it, so changing the words means measuring again.
+
+     There are five steps rather than the dozen an earlier draft wanted
+     because the columns are set by width and not by count: a wider panel
+     takes another column at the same measure instead of stretching the
+     three it had, which both keeps the line the length it should be and
+     flattens most of the curve these steps are following. */
+
+  .sec--slabs {
+    --panel: max(100vw, 100rem);
+  }
+
+  .sec--columns,
+  .sec--people {
+    --panel: max(100vw, 78rem);
+  }
+
+  @media (max-height: 68rem) {
+    .sec--slabs {
+      --panel: max(100vw, 108rem);
+    }
+  }
+
+  @media (max-height: 54rem) {
+    .sec--slabs {
+      --panel: max(100vw, 136rem);
+    }
+
+    .sec--columns,
+    .sec--people {
+      --panel: max(100vw, 86rem);
+    }
+  }
+
+  @media (max-height: 49rem) {
+    .sec--slabs {
+      --panel: max(100vw, 142rem);
+    }
+
+    .sec--columns,
+    .sec--people {
+      --panel: max(100vw, 96rem);
+    }
+  }
+
+  @media (max-height: 43rem) {
+    .sec--slabs {
+      --panel: max(100vw, 152rem);
+    }
+
+    .sec--columns,
+    .sec--people {
+      --panel: max(100vw, 110rem);
+    }
+  }
+
+  /* A photograph beside a column of type gains nothing from a wider panel:
+     the measure is capped, so the extra width goes to the margins rather
+     than to the line. What a short window needs from these is the other way
+     round, a little less photograph and a line allowed to run longer. */
+  @media (max-height: 50rem) {
+    /* A section opener is a whole page carrying four words, and it is set at
+       the size that makes that true. On a panel this shallow the longest of
+       the three would take eight lines of it. */
+    .divider__title {
+      font-size: clamp(2rem, 1rem + 2.6vw, 3.25rem);
+    }
+
+    .feature {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+
+    .feature--flip {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+
+    .feature__inner {
+      max-inline-size: 44rem;
+    }
+
+    .feature--lead .feature__inner {
+      max-inline-size: 38rem;
+    }
+  }
+
+  /* A narrow window shortens the line whatever its height, and there the
+     photograph gives up a third of the panel rather than a quarter. */
+  @media (max-width: 70rem) {
+    .feature {
+      grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    }
+
+    .feature--flip {
+      grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+    }
+
+    .feature__inner,
+    .feature--lead .feature__inner {
+      max-inline-size: 50rem;
+    }
+  }
+
+  /* The shortest window the sideways version is offered on. The frame comes
+     in to the width of a line of type, and the longest of the introductions
+     gets a quarter panel of photograph beside it rather than a third. */
+  @media (max-height: 44rem) {
+    .doc {
+      --panel-pad: 1rem;
+    }
+
+    .feature,
+    .feature--lead {
+      grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
+    }
+
+    .feature--flip {
+      grid-template-columns: minmax(0, 9fr) minmax(0, 3fr);
+    }
+
+    .feature__inner,
+    .feature--lead .feature__inner {
+      max-inline-size: 50rem;
+    }
+
+    /* A display size set for a page is too large for a panel this shallow,
+       where a title of six words takes three of the lines there are. */
+    .feature .title {
+      font-size: var(--step-1);
+    }
   }
 
   /* --- Motion -------------------------------------------------------------

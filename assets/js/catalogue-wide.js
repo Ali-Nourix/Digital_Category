@@ -19,7 +19,7 @@
   var track = document.getElementById("doc");
   if (!track || document.documentElement.dataset.axis !== "inline") return;
 
-  var wide = window.matchMedia("(min-width: 60rem) and (min-height: 30rem)");
+  var wide = window.matchMedia("(min-width: 60rem) and (min-height: 38rem)");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   /** The stylesheet only lays the track out sideways above this breakpoint. */
@@ -31,18 +31,53 @@
 
   /* A notch of the wheel is worth rather more here than it would be down a
      page: a panel is a whole window wide. */
-  var REACH = 1.8;
+  var REACH = 2.2;
+
+  /* How much of the remaining distance the track covers each frame. High
+     enough that the first frame has visibly moved, low enough that a long
+     throw still glides. */
+  var FOLLOW = 0.24;
 
   /* Where the reader has asked to get to, as opposed to where the track has
-     animated to so far. Kept between notches so that spinning the wheel
+     caught up to. Kept between notches so that spinning the wheel
      accumulates into one glide instead of restarting from wherever the
-     animation happens to be. Forgotten once the wheel goes quiet, so that a
-     drag of the scrollbar or a touch swipe starts a fresh reckoning. */
+     animation happens to be. */
   var target = null;
-  var settle;
+  var frame = null;
+
+  /* Where the glide left the track on its last frame. Read back after the
+     assignment rather than remembered from before it, so that finding a
+     different number here next frame means something else moved the track. */
+  var last = null;
 
   function clamp(value, low, high) {
     return Math.min(high, Math.max(low, value));
+  }
+
+  function stop() {
+    if (frame !== null) cancelAnimationFrame(frame);
+    frame = null;
+    target = null;
+    last = null;
+  }
+
+  function step() {
+    /* Anything else that moves the track wins, and the glide gets out of the
+       way: a jump from the contents, a panel turned with the keyboard, a
+       hand on the scrollbar. Without this the two take a frame each and
+       neither ever arrives. */
+    if (last !== null && Math.abs(track.scrollLeft - last) > 1) return stop();
+
+    var gap = target - track.scrollLeft;
+
+    if (Math.abs(gap) < 0.5) {
+      track.scrollLeft = target;
+      return stop();
+    }
+
+    track.scrollLeft += gap * FOLLOW;
+    last = track.scrollLeft;
+    frame = requestAnimationFrame(step);
   }
 
   function travel(delta) {
@@ -54,15 +89,17 @@
     if (target === null) target = track.scrollLeft;
     target = clamp(target + delta * forward, forward > 0 ? 0 : -limit, forward > 0 ? limit : 0);
 
-    // scrollTo rather than assigning scrollLeft: an assignment counts as a
-    // finished scroll, and the track's proximity snapping pulls anything
-    // short of the next panel straight back to the last one.
-    track.scrollTo({ left: target, behavior: reduced.matches ? "auto" : "smooth" });
+    if (reduced.matches) {
+      track.scrollLeft = target;
+      stop();
+      return;
+    }
 
-    clearTimeout(settle);
-    settle = setTimeout(function () {
-      target = null;
-    }, 280);
+    // Followed frame by frame rather than handed to scrollTo with a smooth
+    // behaviour. That runs the browser's own easing from scratch on every
+    // notch, which lands a good third of a second behind the wheel and
+    // reads as lag; this has moved by the next frame.
+    if (frame === null) frame = requestAnimationFrame(step);
   }
 
   track.addEventListener(
@@ -73,7 +110,10 @@
       // A trackpad swiped sideways already reports deltaX and the browser
       // has already scrolled the track with it. Only the vertical part of
       // the gesture needs translating, and only when it is the larger one.
-      if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+      if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
+        stop();
+        return;
+      }
       if (!event.deltaY) return;
 
       // deltaMode 1 is lines rather than pixels, which some mice always
@@ -87,6 +127,12 @@
     },
     { passive: false }
   );
+
+  // A hand on the track abandons the wheel's destination straight away,
+  // rather than waiting for the next frame to notice it has moved.
+  ["pointerdown", "touchstart"].forEach(function (kind) {
+    track.addEventListener(kind, stop, { passive: true });
+  });
 
   /* ------------------------------------------------------------- keyboard */
 
@@ -109,6 +155,11 @@
   }
 
   function go(step) {
+    // A glide still in flight is handing the track a new position every
+    // frame, and a smooth jump started underneath it would spend the whole
+    // journey being pulled back.
+    stop();
+
     var panel = PANELS[Math.min(PANELS.length - 1, Math.max(0, currentPanel() + step))];
     if (!panel) return;
     panel.scrollIntoView({

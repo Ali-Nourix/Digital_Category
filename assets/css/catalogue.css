@@ -282,7 +282,7 @@ html[lang="fa"] .bar__logo .bk-logo {
   display: none;
 }
 
-@media (min-width: 60rem) and (min-height: 30rem) {
+@media (min-width: 60rem) and (min-height: 38rem) {
   .chip[data-view-swap] {
     display: inline-flex;
   }
