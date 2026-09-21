@@ -1092,7 +1092,12 @@ html[lang="en"] .person__name {
   gap: clamp(2.5rem, 5vw, 4rem);
 }
 
-.slabs__col {
+/* The spread is written in three parts. Here the second and the third stand
+   one above the other, which makes them the right hand column, so the element
+   that wraps them is that column and is set like one. Sideways each part has a
+   column of its own and the wrapper is dissolved. */
+.slabs__col,
+.slabs__side {
   display: grid;
   align-content: start;
   gap: var(--space-6);

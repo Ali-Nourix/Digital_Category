@@ -295,6 +295,15 @@ ${people}
       </div>`;
   },
 
+  /* Three parts, in the order the print sets them: the product and its four
+     named advantages; the environmental case with the uses and the project it
+     names; the yield of the thinner stone. Upright, the second and the third
+     stand one above the other in the right hand column, which is how the
+     printed spread reads, so they are wrapped in one element that is that
+     column. Sideways each part is a column of its own and the wrapper
+     dissolves. They are three elements rather than two so the boundary the eye
+     is meant to see is in the markup, and neither layout has to find it by
+     breaking a block in half. */
   slabs(ctx, sec, copy) {
     const left = stagger();
     const right = stagger();
@@ -343,6 +352,9 @@ ${people}
         `          </ul>`,
       ].join("\n"),
       `          <p${right("pull")}>${rich(copy.quote)}</p>`,
+    ].join("\n");
+
+    const third = [
       `          <h2 class="title headline">${words(copy.extra.title)}</h2>`,
       `          <div class="prose">`,
       copy.extra.body.map((p) => `            <p${right()}>${rich(p)}</p>`).join("\n"),
@@ -354,8 +366,13 @@ ${people}
           <div class="slabs__col">
 ${first}
           </div>
-          <div class="slabs__col">
+          <div class="slabs__side">
+            <div class="slabs__col">
 ${second}
+            </div>
+            <div class="slabs__col">
+${third}
+            </div>
           </div>
         </div>
       </div>`;

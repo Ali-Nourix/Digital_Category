@@ -105,6 +105,16 @@
     padding-block: var(--panel-pad);
   }
 
+  /* Except the twelve millimetre spread, which takes a narrower frame. It is
+     the one panel whose three parts have each to stand in a column of their
+     own, and the first of them has a depth it will not go under; measured,
+     the frame is worth about thirty five pixels of that and the panel has no
+     other thirty five to give. Print does the same thing: the spread with
+     the most words on it gets the tighter margin. */
+  .sec--slabs > .shell {
+    padding-block: clamp(1.25rem, 2.5vh, 2rem);
+  }
+
   /* The page turn between two panels, which the upright version draws as a
      hairline across the top of a section. */
   .sec + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
@@ -175,13 +185,40 @@
     grid-template-columns: 5fr 7fr;
   }
 
-  /* Centred in what is left of the panel rather than pushed against the
-     green. Upright, the title sat at the top of a page and the space below
-     it was the page; sideways there is no below, only a field either side. */
+  /* Set where the reading starts, not in the middle of the field. A panel is
+     met all at once, and the eye goes first to the corner the language begins
+     in: the top right in Persian, the top left in English. A title standing
+     there is read before anything else on the panel; the same title in the
+     middle of the white is found rather than met, and the field around it
+     reads as a margin the type has drifted off the edge of.
+
+     Both of those are the start edge and the start of the block axis, so the
+     rule is one rule and each language mirrors it without being told to. The
+     white it leaves is under the title and away from the green, which is the
+     field a section opener is supposed to have: a printed one is four words
+     at the head of a page and the rest of the page is the pause after them.
+
+     The offset from the top is a share of the panel rather than a fixed
+     figure, so on a short window the title comes up with it. */
   .divider__face {
-    padding-block: 0;
-    justify-content: center;
+    padding-block: clamp(2.5rem, 13vh, 7rem) 0;
+    align-content: start;
+    justify-content: start;
+    justify-items: start;
     max-inline-size: none;
+  }
+
+  /* The measure the title wraps on. Left to size itself against a panel this
+     wide, "دو نسل، یک میراث" comes out on one long line and stops being the
+     two line block the printed opener sets. The line under it is one short
+     phrase and takes no measure: given the title's, in its own smaller type,
+     it would break where the title breaks and read as a second title. */
+  .divider__title {
+    max-inline-size: 14ch;
+  }
+
+  html[lang="en"] .divider__title {
+    max-inline-size: 16ch;
   }
 
   /* --- Feature ------------------------------------------------------------
@@ -381,97 +418,174 @@
      The twelve millimetre spread, which is the longest piece of writing in
      the catalogue. Upright it runs as two columns down a page; here the page
      is a window on its side, so it is set the way a newspaper sets a story
-     that has to fit a fixed depth: balanced columns off the top frame line,
-     ending level with each other.
+     that has to fit a fixed depth: three columns off the top frame line, a
+     hairline down each gutter, the whole argument in view at once. */
 
-     Multiple columns rather than a grid. A grid gives every block a row, and
-     a row is as tall as its tallest block, so a short paragraph beside a
-     long one leaves a hole under it. Text in columns has no rows to leave
-     holes in: it simply runs on. */
+  .sec--slabs {
+    /* The one panel whose type is set to the window rather than to the page.
+       Everywhere else a shorter window is answered with a wider panel, which
+       is why the ladder at the foot of this file exists. That answer does
+       not work here: the first of the three parts is nine blocks deep, and
+       nine blocks are nine blocks however long the line is, so past a
+       certain width it stops getting shorter and no amount of panel will
+       make it fit. What it is made of is lines, so the lines are what give.
+
+       At the top of the scale these are the figures the rest of the
+       catalogue uses, to a hundredth of a pixel: a full height window sets
+       this spread exactly as the page sets it. Below that the size comes
+       down with the window until it reaches the smallest this text should
+       ever be read at, which is the point the sideways reading of this one
+       panel stops being offered. */
+    --step-0: clamp(0.9375rem, 0.3rem + 1.18vh, 1.25rem);
+    --step-1: clamp(1.125rem, 0.42rem + 1.3vh, 1.55rem);
+    --step-2: clamp(1.3125rem, 0.36rem + 1.75vh, 1.95rem);
+    /* The two headings come down with the rest. They are set for a page, and
+       the third column is the narrowest on the panel: at the page's size the
+       heading over it breaks into three lines of two words. */
+    --step-4: clamp(1.6rem, 0.5rem + 2.45vh, 2.6875rem);
+    --slabs-gap: clamp(0.5rem, 0.1rem + 0.85vh, 1.3rem);
+  }
+
+  /* The line the Persian is set on comes in with it. At full size it is the
+     1.85 the rest of the catalogue uses; on a short panel it closes to 1.7,
+     which is still open for an Arabic script and is twelve lines of the
+     first part's depth. */
+  html[lang="fa"] .sec--slabs .prose p,
+  html[lang="fa"] .sec--slabs .list {
+    line-height: clamp(1.7, 1.2 + 0.055vh, 1.85);
+  }
 
   .slabs {
-    display: block;
-    /* A width rather than a count: the measure is set here and the panel
-       takes as many columns of it as it can hold. */
-    column-width: 29rem;
-    column-gap: var(--panel-gap);
-    /* A hairline down each gutter, the rule the print uses between columns
-       of a spread. Poured type has no other edge, and three columns of it
-       without one read as one wide block that happens to have gaps in it. */
-    column-rule: var(--hairline) solid var(--rule);
-    /* Balanced rather than poured. Poured, the text fills the first column
-       to the bottom frame line, then the second, and stops wherever it
-       stops: in Persian that leaves a short third column and in English,
-       which sets tighter, an empty one. Balanced, the columns always end on
-       the same line and the space left over is a margin along the foot of
-       the panel rather than a hole in the corner of it.
+    display: grid;
+    /* Three, and three exactly, one to each part of the spread: the product
+       and its four named advantages; the environmental case, the uses and
+       the project it names; the yield of the thinner stone. A title of this
+       size means the start of something, and on a panel like this a column
+       of its own is the only way it can say so.
 
-       Balanced across the panel's own height, so the columns run from the
-       top frame line to the bottom one rather than stopping where the words
-       happen to end. The cost of that is the failure: text that will not fit
-       the columns of this height pours into one more, off the inline edge,
-       where the panel's overflow rule eats it, and a paragraph disappears
-       with nothing on the page to say so. The widths at the foot of this
-       file are what keep it from arising, and they are measured against
-       exactly that. */
-    column-fill: balance;
+       Asked to pour the text instead and let the parts open columns where
+       they fall, the browser has to be given a height to pour into, and it
+       answers a part that will not fit by making one more column past the
+       inline edge, where the panel's own overflow eats it: a paragraph goes
+       missing and nothing says so. Told the columns instead of asked for
+       them, there is nothing to guess and nothing to lose.
+
+       The three are not the same width, because the three parts are not the
+       same length: the first is nine blocks and the last is three. Set
+       equal, the last would end halfway up the panel and leave a quarter of
+       the spread white. Weighted, all three come down to about the same
+       line, which is what a spread set to a fixed depth is supposed to do. */
+    grid-template-columns:
+      minmax(0, var(--slabs-first, 1.35fr))
+      minmax(0, var(--slabs-second, 1.1fr))
+      minmax(0, var(--slabs-third, 0.68fr));
+    /* A line has a length past which it stops being read and starts being
+       scanned. A very wide window gives this panel more width than three
+       lines of that length, so the spread is capped and centred and the rest
+       goes to the margins, where a printed spread puts it. The cap lifts as
+       the window gets shorter, because there the panel is wide for a reason:
+       it is the width the words need, and it is the ladder at the foot of
+       this file that asked for it. */
+    max-inline-size: max(108rem, 172rem - 80vh, 62vw);
+    margin-inline: auto;
+    /* Declared, not left to size itself: the columns ask for the height of
+       the row, and a row the browser is sizing from its content cannot
+       answer that. */
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: var(--panel-gap);
+    /* Upright the three parts hang from the top of the page and stop where
+       they stop. Here they are columns, and a column runs the depth of the
+       spread whether or not its words reach the bottom: it is the rule
+       between them that says so, and a rule that ends with the last line
+       says instead that the spread ended there. */
+    align-items: stretch;
     block-size: 100%;
   }
 
-  /* The two halves of the printed spread stop being columns of their own and
-     become two runs of the same text, one after the other. Their grid gaps
-     go with them, so the spacing is restored as margins. */
+  /* The wrapper that makes parts two and three the right hand column of the
+     printed spread. Sideways each of them is a column, so it dissolves. */
+  .slabs__side {
+    display: contents;
+  }
+
   .slabs__col {
-    display: block;
-  }
-
-  .slabs__col > * + *,
-  .slabs__benefits > * + * {
-    margin-block-start: var(--space-6);
-  }
-
-  .slabs__col + .slabs__col {
-    margin-block-start: var(--space-6);
+    align-content: start;
+    /* Closer set than the page sets them, and closing further as the panel
+       gets shallower. What decides whether the first part stands in one
+       column is as much the eleven gaps inside it as the words. */
+    gap: var(--slabs-gap);
   }
 
   .slabs__benefits {
-    display: block;
-    margin-block-start: var(--space-6);
+    gap: var(--slabs-gap);
+    margin-block-start: 0;
   }
 
-  /* What may not be broken between two columns: a named advantage and its
-     sentence, a list, the pull quote. Paragraphs may break, which is what
-     lets the columns fill evenly. A heading never ends a column. */
-  .slabs .benefit,
+  /* Everything inside a column is spaced off the same figure, so the whole
+     spread tightens and opens as one thing rather than nine. The quote and
+     the list carry their own air on a page, where there is a page's worth to
+     spare; here the gap between blocks is the air. */
+  .slabs .pull,
   .slabs .list,
+  .slabs__uses-intro {
+    margin-block-start: 0;
+  }
+
   .slabs .pull {
-    break-inside: avoid;
+    margin-block-end: 0;
   }
 
-  .slabs .title,
-  .slabs .benefit__title {
-    break-after: avoid;
+  .slabs .prose p + p {
+    margin-block-start: var(--slabs-gap);
   }
 
-  /* A rule over each of the two section titles. Down a page a title of this
-     size opens a column and is plainly the start of something; poured across
-     three, it lands halfway down one of them, and without a line above it
-     the words under it read as a continuation of the paragraph over it
-     rather than as the beginning of a new part of the spread. */
-  .slabs .title {
-    padding-block-start: var(--space-5);
-    border-block-start: var(--hairline) solid var(--rule-strong);
+  .slabs .list li + li,
+  .slabs .benefit p {
+    margin-block-start: calc(var(--slabs-gap) * 0.55);
+  }
+
+  /* The measure is the column here. */
+  .slabs .list {
+    max-inline-size: none;
+  }
+
+  /* A justified line needs words enough to absorb the space between them.
+     The third column is the narrowest on the panel and the English sets long
+     words in it, so there the line is ranged from the start and the space
+     goes to the rag instead of into the middle of the sentence. */
+  html[lang="en"] .slabs__side > .slabs__col + .slabs__col .prose p {
+    text-align: start;
+  }
+
+  /* A hairline down each gutter, the rule the print uses between the columns
+     of a spread. Three columns of type without one read as a single wide
+     block that happens to have gaps in it. The rule is drawn on the leading
+     edge of the column and then pulled back half a gutter, so it stands in
+     the middle of the white rather than against the first word of a line. */
+  .slabs__side > .slabs__col {
+    border-inline-start: var(--hairline) solid var(--rule);
+    margin-inline-start: calc(var(--panel-gap) / -2);
+    padding-inline-start: calc(var(--panel-gap) / 2);
   }
 
   /* --- Stone --------------------------------------------------------------
      Already a text column beside a block of figures. The sticky column has
      nothing to stick to here, and the figures take the panel's height. */
 
+  /* The photographs lead and the type follows, on both of these panels. The
+     print alternates them, which is what a run of pages wants: turn the page
+     and the composition is the other way round. A panel is not turned to, it
+     is travelled to, and the two sections arrive one after the other along
+     the same line, so alternating them here only makes the stone jump the
+     width of the panel between one section and the next. Led by the
+     photographs, both say the same thing in the same order: here is the
+     stone, and here is what it is.
+
+     A narrower column of type than the upright version gives it. There are
+     four sentences and a panel's worth of photographs, so the type is a
+     caption to them rather than the other way round. */
   .stone {
-    /* A narrower column of type than the upright version gives it. There are
-       four sentences here and a panel's worth of photographs, so the type is
-       a caption to them rather than the other way round. */
-    grid-template-columns: minmax(0, 3fr) minmax(0, 8fr);
+    grid-template-columns: minmax(0, 8fr) minmax(0, 3fr);
     /* Declared, not left to size itself. The figures beside the type ask for
        the height of the row, and a row the browser is sizing from its
        content cannot answer that. */
@@ -481,9 +595,9 @@
     block-size: 100%;
   }
 
-  /* Flipped, the photographs lead and the type follows, as in the print. */
-  .stone--flip {
-    grid-template-columns: minmax(0, 8fr) minmax(0, 3fr);
+  /* The type second, where the flipped section already had it. */
+  .stone .stone__text {
+    order: 1;
   }
 
   .stone__text {
@@ -569,23 +683,19 @@
      window's height alone: `max()` gives a wide window its own width, which
      is already more than the floor, and gives a narrow one the floor.
 
-     The twelve millimetre spread asks most, being the longest piece of
-     writing in the catalogue; the advantages spread and the biographies ask
-     less and are stepped together. Every figure here was measured, in both
-     languages, at the shortest window its step has to cover, and these are
-     load bearing rather than tidying: a spread of type in columns that is
-     given too little room loses a column off the inline edge without
-     showing it, so changing the words means measuring again.
+     The advantages spread and the biographies are stepped together here. The
+     twelve millimetre spread has a ladder of its own at the foot of the
+     file, because what it is up against is not the same thing. Every figure
+     was measured, in both languages, at the shortest window its step has to
+     cover, and these are load bearing rather than tidying: a spread of type
+     in columns that is given too little room loses a column off the inline
+     edge without showing it, so changing the words means measuring again.
 
      There are five steps rather than the dozen an earlier draft wanted
      because the columns are set by width and not by count: a wider panel
      takes another column at the same measure instead of stretching the
      three it had, which both keeps the line the length it should be and
      flattens most of the curve these steps are following. */
-
-  .sec--slabs {
-    --panel: max(100vw, 100rem);
-  }
 
   .sec--columns {
     --panel: max(100vw, 78rem);
@@ -596,10 +706,6 @@
   }
 
   @media (max-height: 68rem) {
-    .sec--slabs {
-      --panel: max(100vw, 106rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 78rem);
     }
@@ -610,10 +716,6 @@
   }
 
   @media (max-height: 62rem) {
-    .sec--slabs {
-      --panel: max(100vw, 106rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 78rem);
     }
@@ -624,10 +726,6 @@
   }
 
   @media (max-height: 54rem) {
-    .sec--slabs {
-      --panel: max(100vw, 138rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 86rem);
     }
@@ -638,10 +736,6 @@
   }
 
   @media (max-height: 49rem) {
-    .sec--slabs {
-      --panel: max(100vw, 140rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 96rem);
     }
@@ -652,10 +746,6 @@
   }
 
   @media (max-height: 46rem) {
-    .sec--slabs {
-      --panel: max(100vw, 150rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 96rem);
     }
@@ -666,10 +756,6 @@
   }
 
   @media (max-height: 42rem) {
-    .sec--slabs {
-      --panel: max(100vw, 170rem);
-    }
-
     .sec--columns {
       --panel: max(100vw, 110rem);
     }
@@ -794,6 +880,124 @@
       html[dir="rtl"] .feature__figure img {
         animation-name: drift-inline-rtl;
       }
+    }
+  }
+
+  /* --- The twelve millimetre panel on a smaller window ---------------------
+     A ladder of its own, because what this panel is up against is not what
+     the others are. Elsewhere a shorter window is answered with a wider one,
+     and the words that would have fallen off the bottom go along the extra
+     width instead. Here the first of the three parts is nine blocks deep and
+     has to stand in a column: nine blocks are nine blocks however long the
+     line is, so past a certain width the part stops getting shorter and the
+     extra width buys nothing.
+
+     So the width does what it still can, which is stop the paragraphs inside
+     those blocks from running to three lines where they ran to two, and the
+     type size does the rest. Each figure is the narrowest panel that holds
+     all three parts at the shortest window its step has to cover, found by
+     search rather than by rounding up, because every rem of it past what is
+     needed is a panel the reader has to scroll to see the end of. Persian is
+     the longer of the two languages here and governs every step.
+
+     This ladder is last in the file, after the shared one, and steps down:
+     on a short window several of these match at once and the last one wins.
+
+     Changing a word on this spread means measuring these again. */
+
+  .sec--slabs {
+    --panel: max(100vw, 86rem);
+  }
+
+  @media (max-height: 60rem) {
+    .sec--slabs {
+      --panel: max(100vw, 93rem);
+    }
+  }
+
+  @media (max-height: 55rem) {
+    .sec--slabs {
+      --panel: max(100vw, 111rem);
+    }
+  }
+
+  @media (max-height: 50.5rem) {
+    .sec--slabs {
+      --panel: max(100vw, 117rem);
+    }
+  }
+
+  @media (max-height: 48rem) {
+    .sec--slabs {
+      --panel: max(100vw, 122rem);
+    }
+  }
+
+  /* Below this the long parts will not stand in a column at any width: the
+     first is nine blocks and the second is six, and the panel has room for
+     about five. Rather than give up the arrangement the reader was promised,
+     the two long parts are set across two measures each inside their own
+     column. The spread is still the three parts, the rules still fall
+     between them and the eye still finds each one where it was told to look;
+     the long ones simply read two columns wide, which is what a newspaper
+     does with a lead item on a shallow page. Which two are long depends on
+     the language — the first in Persian, the second in English — so both are
+     given the room and the shorter one balances into half of it.
+
+     No rule between the two measures of a part. A hairline there would make
+     five columns of what is meant to read as three. */
+  @media (max-height: 47rem) {
+    .slabs {
+      grid-template-columns:
+        minmax(0, var(--slabs-first, 2.1fr))
+        minmax(0, var(--slabs-second, 1.9fr))
+        minmax(0, var(--slabs-third, 0.75fr));
+    }
+
+    .slabs__col:first-child,
+    .slabs__side > .slabs__col:first-child {
+      display: block;
+      column-count: 2;
+      column-gap: var(--panel-gap);
+      block-size: 100%;
+    }
+
+    /* A grid's gaps do not survive the change, so they are put back as
+       margins, and the blocks that must not be broken across the two
+       measures are named. */
+    .slabs__col > * + *,
+    .slabs__benefits > * + * {
+      margin-block-start: var(--slabs-gap);
+    }
+
+    .slabs__benefits {
+      display: block;
+    }
+
+    .slabs .benefit,
+    .slabs .list,
+    .slabs .pull {
+      break-inside: avoid;
+    }
+
+    .slabs .benefit__title,
+    .slabs .title {
+      break-after: avoid;
+    }
+
+    .sec--slabs {
+      --panel: max(100vw, 112rem);
+    }
+  }
+
+  /* The shallowest panel the sideways version is offered on. The third part
+     is two paragraphs and a title, and it is the only one still standing in
+     a single measure, so on a panel this shallow it is the one that runs out
+     of room; the width it needs comes off the two that are set two up. */
+  @media (max-height: 43rem) {
+    .sec--slabs {
+      --panel: max(100vw, 124rem);
+      --slabs-third: 0.95fr;
     }
   }
 }
