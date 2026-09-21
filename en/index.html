@@ -3,55 +3,785 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Behkooshan | Digital Catalogue</title>
-  <meta name="description" content="The starting point for a new design of the Behkooshan Stone Processing Company digital catalogue.">
+  <title>Behkooshan Catalogue</title>
+  <meta name="description" content="The digital catalogue of Behkooshan Stone Processing Company: the Rijen Natanz white granite quarry, granite and quartzite slabs, and 12 mm stone slabs.">
+  <meta name="theme-color" content="#184b36">
+  <meta name="color-scheme" content="light">
 
   <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0f5a3b">
-  <link rel="alternate" hreflang="fa" href="../">
-  <link rel="alternate" hreflang="en" href="./">
-  <link rel="alternate" hreflang="x-default" href="../">
+  <link rel="canonical" href="https://behkooshan.ir/en/">
+  <link rel="alternate" hreflang="fa" href="https://behkooshan.ir/">
+  <link rel="alternate" hreflang="en" href="https://behkooshan.ir/en/">
+  <link rel="alternate" hreflang="x-default" href="https://behkooshan.ir/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Behkooshan Catalogue">
+  <meta property="og:description" content="The digital catalogue of Behkooshan Stone Processing Company: the Rijen Natanz white granite quarry, granite and quartzite slabs, and 12 mm stone slabs.">
+  <meta property="og:locale" content="en_US">
 
   <link rel="preload" href="../assets/fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="../assets/css/fonts.css">
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <link rel="stylesheet" href="../assets/css/shapes.css">
-  <link rel="stylesheet" href="../assets/css/starter.css">
+  <link rel="stylesheet" href="../assets/css/catalogue.css">
+
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
+  <a class="skip" href="#cover">Skip to content</a>
+
   <header class="bar">
     <div class="shell bar__inner">
-      <a class="bar__logo" href="./" aria-label="Behkooshan, home">
+      <a class="bar__logo" href="#cover" aria-label="Back to the top">
         <span class="bk-logo bk-logo--lockup"></span>
       </a>
 
-      <a class="lang" href="../" lang="fa" aria-label="فارسی">FA</a>
+      <div class="bar__end">
+        <button class="chip" type="button" data-contents-open hidden>Contents</button>
+        <a class="chip" href="../" lang="fa"
+           data-lang-swap
+           hreflang="fa" aria-label="Read in Persian">فارسی</a>
+      </div>
     </div>
+
+    <span class="progress" aria-hidden="true"></span>
   </header>
 
-  <main class="page">
-    <div class="shell">
-      <h1>Behkooshan Digital Catalogue</h1>
-
-      <p>
-        This branch is the starting point for a new design. The fonts, the
-        logo, the shapes, the photography, the copy and the brand design guide
-        are all here and ready to use. This page exists only to prove the
-        publishing pipeline works, and gives way as soon as the design starts.
-      </p>
+  <dialog class="contents" id="contents" aria-label="Contents">
+    <div class="contents__inner">
+      <div class="contents__head">
+        <p class="contents__title">Contents</p>
+        <button class="chip" type="button" data-contents-close>Close contents</button>
+      </div>
+      <ol class="contents__list">
+          <li><a href="#cover">
+            <span class="contents__label">Cover
+              <span class="contents__pages">printed page 1</span>
+            </span>
+          </a></li>
+          <li><a href="#about">
+            <span class="contents__label">About Us
+              <span class="contents__pages">printed page 2-3</span>
+            </span>
+          </a></li>
+          <li><a href="#rijen">
+            <span class="contents__label">Rijen Kashan Cobblestone Production Company
+              <span class="contents__pages">printed page 4-5</span>
+            </span>
+          </a></li>
+          <li><a href="#history">
+            <span class="contents__label">History
+              <span class="contents__pages">printed page 6-7</span>
+            </span>
+          </a></li>
+          <li><a href="#gray-granite">
+            <span class="contents__label">Natanz Rijen Gray Granite
+              <span class="contents__pages">printed page 8-9</span>
+            </span>
+          </a></li>
+          <li><a href="#behkooshan">
+            <span class="contents__label">Behkooshan Stone Processing Company
+              <span class="contents__pages">printed page 10-11</span>
+            </span>
+          </a></li>
+          <li><a href="#advantages">
+            <span class="contents__label">What Makes Behkooshan Different?
+              <span class="contents__pages">printed page 12-13</span>
+            </span>
+          </a></li>
+          <li><a href="#natural-stone">
+            <span class="contents__label">Natural Stone by Behkooshan
+              <span class="contents__pages">printed page 14-15</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-valley">
+            <span class="contents__label">The quarry
+              <span class="contents__pages">printed page 16-17</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-loader">
+            <span class="contents__label">The working face
+              <span class="contents__pages">printed page 18-19</span>
+            </span>
+          </a></li>
+          <li><a href="#generations">
+            <span class="contents__label">Two Generations, One Legacy
+              <span class="contents__pages">printed page 20-21</span>
+            </span>
+          </a></li>
+          <li><a href="#first-generation">
+            <span class="contents__label">First Generation
+              <span class="contents__pages">printed page 22</span>
+            </span>
+          </a></li>
+          <li><a href="#second-generation">
+            <span class="contents__label">Second Generation
+              <span class="contents__pages">printed page 23</span>
+            </span>
+          </a></li>
+          <li><a href="#slabs">
+            <span class="contents__label">12 mm Stone Slabs
+              <span class="contents__pages">printed page 24-25</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-blades">
+            <span class="contents__label">The production line
+              <span class="contents__pages">printed page 26-27</span>
+            </span>
+          </a></li>
+          <li><a href="#twelve-mm">
+            <span class="contents__label">Twelve millimetres
+              <span class="contents__pages">printed page 28-29</span>
+            </span>
+          </a></li>
+          <li><a href="#granite">
+            <span class="contents__label">Granite
+              <span class="contents__pages">printed page 30</span>
+            </span>
+          </a></li>
+          <li><a href="#quartzite">
+            <span class="contents__label">Quartzite
+              <span class="contents__pages">printed page 31</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-island-mono">
+            <span class="contents__label">In place
+              <span class="contents__pages">printed page 32-33</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-island-silver">
+            <span class="contents__label">In place
+              <span class="contents__pages">printed page 34-35</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-terrazzo">
+            <span class="contents__label">In place
+              <span class="contents__pages">printed page 36-37</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-counter">
+            <span class="contents__label">In place
+              <span class="contents__pages">printed page 38-39</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-powder-room">
+            <span class="contents__label">In place
+              <span class="contents__pages">printed page 40</span>
+            </span>
+          </a></li>
+      </ol>
     </div>
+  </dialog>
+
+  <main class="doc" id="doc">
+
+    <section class="sec sec--cover" id="cover" data-section
+             aria-label="Cover">
+      <div class="shell cover">
+        <h1 class="cover__mark">
+          <span class="bk-logo bk-logo--lockup" role="img" aria-label="Behkooshan Catalogue"></span>
+        </h1>
+        <p class="cover__line" lang="en">Beautifully Strong</p>
+        <span class="cover__rule" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="about" data-section
+             aria-label="About Us">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>About</span></span> <span class="word" style="--w:1"><span>Us</span></span></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="rijen" data-section
+             aria-label="Rijen Kashan Cobblestone Production Company">
+      <div class="feature feature--flip feature--mono">
+        <figure class="feature__figure place">
+          <img
+            src="../assets/images/quarry-white-cut-960.webp"
+            srcset="../assets/images/quarry-white-cut-960.webp 960w, ../assets/images/quarry-white-cut-1440.webp 1440w, ../assets/images/quarry-white-cut-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1365"
+            alt="The cut face of the white granite quarry, in black and white"
+            loading="eager" decoding="async" fetchpriority="high">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>Rijen</span></span> <span class="word" style="--w:1"><span>Kashan</span></span> <span class="word" style="--w:2"><span>Cobblestone</span></span> <span class="word" style="--w:3"><span>Production</span></span> <span class="word" style="--w:4"><span>Company</span></span></h2>
+          <h3 class="heading" class="reveal" style="--i:0">Introduction</h3>
+          <div class="prose">
+            <p class="reveal" style="--i:1">The Natanz White Granite Quarry, operated by <strong>Rijen Kashan Cobblestone Production Company</strong> and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry. The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets.</p>
+            <p class="reveal" style="--i:2">Furthermore, due to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="history" data-section
+             aria-label="History">
+      <div class="feature">
+        <figure class="feature__figure place">
+          <img
+            src="../assets/images/kitchen-grey-granite-960.webp"
+            srcset="../assets/images/kitchen-grey-granite-960.webp 960w, ../assets/images/kitchen-grey-granite-1440.webp 1440w, ../assets/images/kitchen-grey-granite-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1411"
+            alt="A kitchen with a grey granite worktop and island"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>History</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">The operation of the Rijen Natanz White Granite Quarry began decades ago and has continued steadily ever since. Over time, in line with technical and technological advancements, the quarry has significantly developed its infrastructure. The use of advanced extraction and processing machinery, the implementation of modern stone processing technologies, and the employment of a specialized and experienced team in mining and stone engineering have made the Rijen quarry one of the leaders in the granite stone industry in Iran. The extracted stones from this quarry, due to their excellent color quality, desirable mechanical strength, and soft, uniform cotton-like texture, have always been of great interest to architects, interior designers, contractors, and exporters, playing an important role in both national and international projects.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="gray-granite" data-section
+             aria-label="Natanz Rijen Gray Granite">
+      <div class="feature feature--lead">
+        <figure class="feature__figure place">
+          <img
+            src="../assets/images/kitchen-dark-veined-960.webp"
+            srcset="../assets/images/kitchen-dark-veined-960.webp 960w, ../assets/images/kitchen-dark-veined-1440.webp 1440w, ../assets/images/kitchen-dark-veined-2048.webp 2048w"
+            sizes="(min-width: 60rem) 84rem, 100vw"
+            width="2048" height="1365"
+            alt="A kitchen island and wall faced in dark veined stone"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <div class="prose lede">
+            <p class="reveal" style="--i:0">Natanz Rijen Gray Granite, extracted from the Rijen paving stone quarry located in Natanz County, Isfahan Province, is a type of granite-granodiorite formed through magmatic processes during the late Mesozoic and early Cenozoic geological periods. Its dense structure and the presence of dark-colored magmatic minerals give this stone a dark gray spectrum with a uniform and durable appearance.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="behkooshan" data-section
+             aria-label="Behkooshan Stone Processing Company">
+      <div class="feature feature--flip">
+        <figure class="feature__figure place">
+          <img
+            src="../assets/images/factory-multiwire-hall-960.webp"
+            srcset="../assets/images/factory-multiwire-hall-960.webp 960w, ../assets/images/factory-multiwire-hall-1440.webp 1440w, ../assets/images/factory-multiwire-hall-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1365"
+            alt="The Behkooshan production hall, a row of Multiwire machines under the overhead crane"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>Behkooshan</span></span> <span class="word" style="--w:1"><span>Stone</span></span> <span class="word" style="--w:2"><span>Processing</span></span> <span class="word" style="--w:3"><span>Company</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0"><strong>Behkooshan Stone Processing Company</strong>, established in 2017, is the largest producer of granite and quartzite slabs in Iran using advanced Multiwire technology. We utilize the latest stone processing technology and the most skilled staff to ensure the best quality and high diversity in our products.</p>
+            <p class="reveal" style="--i:1">Our production line is equipped with three Italian Multiwire machines which can cut stone blocks into slabs with different thicknesses from 12 millimeters upwards. Raw materials are selected with the utmost care and meticulousness from reputable mines around the world, including Iran, Brazil, Ukraine, India, and African countries.</p>
+            <p class="reveal" style="--i:2">Our mission is to provide our customers with a wide variety of high-quality and strong material to suit their taste and needs while pushing the boundaries of the construction industry.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--columns" id="advantages" data-section
+             aria-label="What Makes Behkooshan Different?">
+      <div class="shell">
+        <div class="columns__text">
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>What</span></span> <span class="word" style="--w:1"><span>Makes</span></span> <span class="word" style="--w:2"><span>Behkooshan</span></span> <span class="word" style="--w:3"><span>Different?</span></span></h2>
+            <ul class="list" class="reveal" style="--i:0">
+              <li>Creativity and adaptability to market needs</li>
+              <li>Relationships based on value and trust</li>
+              <li>Priority of quality over quantity</li>
+              <li>Continuous learning and improvement</li>
+              <li>Professional collaboration</li>
+              <li>Transparency in processes</li>
+            </ul>
+          </div>
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>Why</span></span> <span class="word" style="--w:1"><span>Behkooshan</span></span> <span class="word" style="--w:2"><span>Granite</span></span> <span class="word" style="--w:3"><span>and</span></span> <span class="word" style="--w:4"><span>Quartzite?</span></span></h2>
+            <ul class="list" class="reveal" style="--i:0">
+              <li><strong>Exceptional Strength:</strong> Both granite and quartzite are known for their resistance to wear, heat, and pressure, making them ideal for high-traffic and high-performance areas.</li>
+              <li><strong>Natural Elegance:</strong> The striking patterns and colors of our stones add sophistication and depth to any interior or exterior space.</li>
+              <li><strong>Sustainable Choice:</strong> Sourced responsibly from premium Iranian quarries, our stones represent a long-lasting and eco-friendly solution.</li>
+              <li><strong>Versatile Applications:</strong> From countertops and flooring to cladding and facades, our stones are suitable for residential, commercial, and urban projects.</li>
+            </ul>
+            <div class="prose">
+              <p class="reveal" style="--i:1">At <strong>Behkooshan</strong>, precision processing, expert craftsmanship, and customer focus come together to deliver natural stone solutions that inspire and endure. Whether you’re building a luxury residence, a modern commercial space, or a large-scale architectural project, our granite and quartzite offer the quality and character you need.</p>
+            </div>
+          </div>
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>The</span></span> <span class="word" style="--w:1"><span>Timeless</span></span> <span class="word" style="--w:2"><span>Beauty</span></span> <span class="word" style="--w:3"><span>of</span></span> <span class="word" style="--w:4"><span>Natural</span></span> <span class="word" style="--w:5"><span>Stones</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">Natural stones have always been a symbol of grandeur, authenticity and durability. Collections of marble, granite, onyx, travertine and limestone with bright or soft colors and harmonious shades create a luxurious and eye-catching space. The diversity of these stones is the result of precise processing with modern technologies and is ideal for special decorations and outstanding architectural projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="band">
+          <figure class="place">
+            <img
+              src="../assets/images/quarry-aerial-pool-400.webp"
+              srcset="../assets/images/quarry-aerial-pool-400.webp 400w, ../assets/images/quarry-aerial-pool-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="800"
+              alt="The quarry from the air, with the water basin among the cut blocks"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/loader-carrying-block-400.webp"
+              srcset="../assets/images/loader-carrying-block-400.webp 400w, ../assets/images/loader-carrying-block-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="A wheel loader carrying a block of stone"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/quarry-fluted-face-400.webp"
+              srcset="../assets/images/quarry-fluted-face-400.webp 400w, ../assets/images/quarry-fluted-face-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="The fluted quarry face under a clear sky"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/quarry-excavators-400.webp"
+              srcset="../assets/images/quarry-excavators-400.webp 400w, ../assets/images/quarry-excavators-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="Excavators working the quarry floor"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/driller-at-face-400.webp"
+              srcset="../assets/images/driller-at-face-400.webp 400w, ../assets/images/driller-at-face-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="600"
+              alt="A driller at work on the quarry face"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/multiwire-cutting-400.webp"
+              srcset="../assets/images/multiwire-cutting-400.webp 400w, ../assets/images/multiwire-cutting-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="552"
+              alt="A Multiwire machine cutting a block"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/slab-storage-hall-400.webp"
+              srcset="../assets/images/slab-storage-hall-400.webp 400w, ../assets/images/slab-storage-hall-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="The hall where finished slabs are stored"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="../assets/images/block-yard-crane-400.webp"
+              srcset="../assets/images/block-yard-crane-400.webp 400w, ../assets/images/block-yard-crane-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="The block yard and the yellow gantry crane"
+              loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="natural-stone" data-section
+             aria-label="Natural Stone by Behkooshan">
+      <div class="feature feature--flip">
+        <figure class="feature__figure place">
+          <img
+            src="../assets/images/lounge-green-panel-960.webp"
+            srcset="../assets/images/lounge-green-panel-960.webp 960w, ../assets/images/lounge-green-panel-1440.webp 1440w, ../assets/images/lounge-green-panel-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1411"
+            alt="A double-height lounge with a tall green stone panel beside the full-height glazing"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>Natural</span></span> <span class="word" style="--w:1"><span>Stone</span></span> <span class="word" style="--w:2"><span>by</span></span> <span class="word" style="--w:3"><span>Behkooshan,</span></span> <span class="word" style="--w:4"><span>The</span></span> <span class="word" style="--w:5"><span>Art</span></span> <span class="word" style="--w:6"><span>of</span></span> <span class="word" style="--w:7"><span>Granite</span></span> <span class="word" style="--w:8"><span>and</span></span> <span class="word" style="--w:9"><span>Quartzite</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">At Behkooshan Stone Processing Company, we specialize in two of the most durable and visually striking natural stones: granite and quartzite. These stones, formed through powerful geological processes over millions of years, embody strength, natural beauty, and timeless elegance.</p>
+            <p class="reveal" style="--i:1">Each block of granite and quartzite we process is a unique work of nature featuring rich textures, intricate veining, and color variations that bring individuality to every project. Our commitment is to transform these raw natural materials into refined products that meet the highest standards of quality and design.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-valley" data-section
+             aria-label="The quarry">
+      <figure class="plate place plate--mono">
+        <img
+          src="../assets/images/quarry-valley-960.webp"
+          srcset="../assets/images/quarry-valley-960.webp 960w, ../assets/images/quarry-valley-1440.webp 1440w, ../assets/images/quarry-valley-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="The quarry wall and the valley below it, in black and white"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-loader" data-section
+             aria-label="The working face">
+      <figure class="plate place">
+        <img
+          src="../assets/images/quarry-loader-wall-960.webp"
+          srcset="../assets/images/quarry-loader-wall-960.webp 960w, ../assets/images/quarry-loader-wall-1440.webp 1440w, ../assets/images/quarry-loader-wall-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="The white quarry wall with a yellow loader at its foot"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="generations" data-section
+             aria-label="Two Generations, One Legacy">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>Two</span></span> <span class="word" style="--w:1"><span>Generations,</span></span><br>
+        <span class="word" style="--w:2"><span>One</span></span> <span class="word" style="--w:3"><span>Legacy</span></span></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--people" id="first-generation" data-section
+             aria-label="First Generation">
+      <div class="shell">
+        <h2 class="tag" class="reveal" style="--i:0">First Generation – The Founders</h2>
+        <div class="people__lede lede" class="reveal" style="--i:1">
+          <p>Our company began its journey years ago through the dedication and expertise of two pioneers in the stone industry.</p>
+          <p>Mr. Hamid Reza Naseri Zadeh and
+Mr. Mohammad Jafar Mohammadi</p>
+        </div>
+        <div class="people__list">
+        <div class="person person--no-portrait">
+
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">Mr. Mohammad Jafar Mohammadi</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">Born in Behbahan, he holds a bachelor’s degree in Soil and Water Engineering from Agricultural Sciences and Natural Resources University of Khuzestan and a master’s degree in Soil Science from the University of Reading, UK. With over 20 years of international research experience and expertise in pressurized irrigation systems, he has been a founder and shareholder of <strong>Rijen Kashan Cobblestone Production Company</strong> and <strong>Behkooshan Stone Processing Company</strong> since 1993, leading the development and processing of building stones.</p></div>
+          </div>
+        </div>
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="../assets/images/portrait-naseri-zadeh-400.webp"
+              srcset="../assets/images/portrait-naseri-zadeh-400.webp 400w, ../assets/images/portrait-naseri-zadeh-800.webp 800w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="800" height="1045"
+              alt="Mr. Hamid Reza Naseri Zadeh"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">Mr. Hamid Reza Naseri Zadeh</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">Born in Kashan, he holds a Bachelor’s degree in Industrial Engineering from North Carolina State University. In 1993, he founded <strong>Rijen Kashan Cobblestone Production Company.</strong> With his innovative vision and smart management, he laid the strong foundations of the company and continues to guide its growth and excellence as a board member.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--people" id="second-generation" data-section
+             aria-label="Second Generation">
+      <div class="shell">
+        <h2 class="tag" class="reveal" style="--i:0">Second Generation – Today’s Leadership and Development</h2>
+        <div class="people__lede lede" class="reveal" style="--i:1">
+          <p>Two generations of committed and skilled professionals, sharing a common vision and utilizing modern machinery alongside efficient young talent, strive to ensure high product quality and to enhance the position of granite.</p>
+        </div>
+        <div class="people__list">
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="../assets/images/portrait-pedram-400.webp"
+              srcset="../assets/images/portrait-pedram-400.webp 400w, ../assets/images/portrait-pedram-496.webp 496w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="496" height="614"
+              alt="Mr. Pedram Mohammadi"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">Mr. Pedram Mohammadi</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">Born in Tehran, he holds a bachelor’s degree in Theoretical Economics. He began his career at Rijen Kashan Cobblestone Production Company in 2005 and is currently the Chairman of <strong>Behkooshan Stone Processing Company</strong> and <strong>Rijen Kashan Cobblestone Production Company</strong>. With his expertise in economics and management, he has played a key role in ensuring sustainable growth and business development for the company.</p></div>
+          </div>
+        </div>
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="../assets/images/portrait-tannaz-400.webp"
+              srcset="../assets/images/portrait-tannaz-400.webp 400w, ../assets/images/portrait-tannaz-800.webp 800w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="800" height="751"
+              alt="Ms. Tannaz Naseri Zadeh"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">Ms. Tannaz Naseri Zadeh</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">Born in Tehran, she holds a bachelor’s degree in Guidance and Counseling. She joined the management team in 2018 and is currently a board member of <strong>Behkooshan Stone Processing Company</strong>. Her presence has strengthened the company’s human resources management as well as its decision-making and advisory processes.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="slabs" data-section
+             aria-label="12 mm Stone Slabs">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>12</span></span> <span class="word" style="--w:1"><span>mm</span></span> <span class="word" style="--w:2"><span>Stone</span></span><br>
+        <span class="word" style="--w:3"><span>Slabs,</span></span> <span class="word" style="--w:4"><span>the</span></span> <span class="word" style="--w:5"><span>Latest</span></span><br>
+        <span class="word" style="--w:6"><span>Innovation</span></span> <span class="word" style="--w:7"><span>by</span></span><br>
+        <span class="word" style="--w:8"><span>Behkooshan</span></span></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-blades" data-section
+             aria-label="The production line">
+      <figure class="plate place">
+        <img
+          src="../assets/images/factory-multiwire-blades-960.webp"
+          srcset="../assets/images/factory-multiwire-blades-960.webp 960w, ../assets/images/factory-multiwire-blades-1440.webp 1440w, ../assets/images/factory-multiwire-blades-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="The row of Multiwire cutting heads on the production line"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--slabs" id="twelve-mm" data-section
+             aria-label="Twelve millimetres">
+      <div class="shell">
+        <div class="slabs">
+          <div class="slabs__col">
+          <div class="prose">
+            <p class="reveal" style="--i:0">The latest product innovation by <strong>Behkooshan Company</strong> is a new generation of 12 mm thickness granite and quartzite slabs, designed to meet the demands of modern architecture and lightweight construction projects.</p>
+            <p class="reveal" style="--i:1">These ultra-thin slabs offer numerous advantages in construction and architectural applications, including reduced weight, ease of transportation and installation, refined design, and a more cost-effective solution.</p>
+          </div>
+          <div class="slabs__benefits">
+            <div class="benefit" class="reveal" style="--i:2">
+              <h3 class="benefit__title">Lightweight</h3>
+              <p>Reduced structural load and lower transportation costs.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:3">
+              <h3 class="benefit__title">Ease of Installation</h3>
+              <p>The thinner profile allows for greater cutting flexibility and faster, more efficient installation.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:4">
+              <h3 class="benefit__title">Aesthetic Excellence</h3>
+              <p>Patterns and colors appear more vibrant, and when combined with modern materials such as metal, glass, and wood, they create a distinctive and elegant visual impact.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:5">
+              <h3 class="benefit__title">Economic Efficiency</h3>
+              <p>Reduced thickness results in lower raw material consumption, leading to a more cost-effective solution especially advantageous for large-scale and mass construction projects.</p>
+            </div>
+          </div>
+          </div>
+          <div class="slabs__col">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>Environmental</span></span> <span class="word" style="--w:1"><span>Benefits</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">The use of this product significantly reduces raw material consumption. This not only reduces the extraction of natural resources but also helps decrease waste generation and energy usage. As a result, it contributes effectively to sustainable development and aligns with global environmental goals.</p>
+            <p class="reveal" style="--i:1">In addition, this production and installation process requires less manual labor, further optimizing operational efficiency.</p>
+          </div>
+          <p class="slabs__uses-intro" class="reveal" style="--i:2">This product is suitable for use in various architectural and construction spaces, including:</p>
+          <ul class="list" class="reveal" style="--i:3">
+            <li>Interior and exterior building façades</li>
+            <li>Flooring for high-traffic areas</li>
+            <li>Walls and decorative surface coverings</li>
+          </ul>
+          <p class="pull" class="reveal" style="--i:4">One of the successful implementations of this product in Iran is the Hayat Niavaran Project, which demonstrates its performance and aesthetic quality in real-world applications.</p>
+          <h2 class="title headline"><span class="word" style="--w:0"><span>Additional</span></span> <span class="word" style="--w:1"><span>Advantages</span></span> <span class="word" style="--w:2"><span>of</span></span> <span class="word" style="--w:3"><span>Reduced</span></span> <span class="word" style="--w:4"><span>Thickness</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:5">Stone slabs with a thickness of 12 mm yield approximately 40% more surface area compared to slabs with a thickness of 20 mm during production.</p>
+            <p class="reveal" style="--i:6">As a result, larger areas can be covered more uniformly during installation, ensuring visual continuity and material efficiency.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--stone" id="granite" data-section
+             aria-label="Granite">
+      <div class="shell">
+        <div class="stone">
+          <div class="stone__text">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>Granite</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">Granite is an igneous rock of volcanic origin that is composed of about 30% quartz and 60% feldspar. This structure gives it exceptional hardness, high abrasion resistance and compressive strength. Granite comes in a wide range of colors and designs, from uniform to veined, and is an ideal choice for interior and exterior building applications due to its high resistance to various weather conditions.</p>
+            </div>
+          </div>
+          <div class="stone__figures">
+            <figure class="place">
+              <img
+                src="../assets/images/granite-slab-display-562.webp"
+                srcset="../assets/images/granite-slab-display-562.webp 562w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="562" height="1000"
+                alt="A veined granite slab framed against a dark ground"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="../assets/images/granite-bathroom-vanity-640.webp"
+                srcset="../assets/images/granite-bathroom-vanity-640.webp 640w, ../assets/images/granite-bathroom-vanity-1024.webp 1024w, ../assets/images/granite-bathroom-vanity-1287.webp 1287w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1287" height="1400"
+                alt="A washroom faced and floored in green granite"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="../assets/images/granite-shower-wall-640.webp"
+                srcset="../assets/images/granite-shower-wall-640.webp 640w, ../assets/images/granite-shower-wall-1024.webp 1024w, ../assets/images/granite-shower-wall-1536.webp 1536w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1536" height="1671"
+                alt="A shower with a green granite wall"
+                loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--stone" id="quartzite" data-section
+             aria-label="Quartzite">
+      <div class="shell">
+        <div class="stone stone--flip">
+          <div class="stone__text">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>Quartzite</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">Quartzite is very similar to granite in terms of physical and mechanical features and is highly durable and hard. Depending on its type and structure, this stone is widely used in outdoor spaces and projects that require high resistance, and it gives the space a modern and distinctive aspect.</p>
+            </div>
+          </div>
+          <div class="stone__figures">
+            <figure class="place">
+              <img
+                src="../assets/images/quartzite-raw-blocks-640.webp"
+                srcset="../assets/images/quartzite-raw-blocks-640.webp 640w, ../assets/images/quartzite-raw-blocks-800.webp 800w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="800" height="1000"
+                alt="Two raw blocks of white quartzite"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="../assets/images/quartzite-countertop-edge-640.webp"
+                srcset="../assets/images/quartzite-countertop-edge-640.webp 640w, ../assets/images/quartzite-countertop-edge-800.webp 800w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="800" height="1000"
+                alt="The edge of a pale quartzite worktop"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="../assets/images/quartzite-block-display-640.webp"
+                srcset="../assets/images/quartzite-block-display-640.webp 640w, ../assets/images/quartzite-block-display-1024.webp 1024w, ../assets/images/quartzite-block-display-1080.webp 1080w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1080" height="1350"
+                alt="A piece of quartzite on a display plinth"
+                loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-island-mono" data-section
+             aria-label="In place">
+      <figure class="plate place">
+        <img
+          src="../assets/images/kitchen-black-white-island-960.webp"
+          srcset="../assets/images/kitchen-black-white-island-960.webp 960w, ../assets/images/kitchen-black-white-island-1440.webp 1440w, ../assets/images/kitchen-black-white-island-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="A kitchen island in black and white veined stone"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-island-silver" data-section
+             aria-label="In place">
+      <figure class="plate place">
+        <img
+          src="../assets/images/kitchen-silver-vein-island-960.webp"
+          srcset="../assets/images/kitchen-silver-vein-island-960.webp 960w, ../assets/images/kitchen-silver-vein-island-1440.webp 1440w, ../assets/images/kitchen-silver-vein-island-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="A kitchen island with silver veining on a dark ground"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-terrazzo" data-section
+             aria-label="In place">
+      <figure class="plate place">
+        <img
+          src="../assets/images/kitchen-black-terrazzo-960.webp"
+          srcset="../assets/images/kitchen-black-terrazzo-960.webp 960w, ../assets/images/kitchen-black-terrazzo-1440.webp 1440w, ../assets/images/kitchen-black-terrazzo-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="A kitchen faced in speckled black stone"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-counter" data-section
+             aria-label="In place">
+      <figure class="plate place">
+        <img
+          src="../assets/images/counter-dark-green-sink-960.webp"
+          srcset="../assets/images/counter-dark-green-sink-960.webp 960w, ../assets/images/counter-dark-green-sink-1440.webp 1440w, ../assets/images/counter-dark-green-sink-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1475"
+          alt="A dark green stone worktop with an inset sink"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-powder-room" data-section
+             aria-label="In place">
+      <figure class="plate place">
+        <img
+          src="../assets/images/powder-room-grey-stone-960.webp"
+          srcset="../assets/images/powder-room-grey-stone-960.webp 960w, ../assets/images/powder-room-grey-stone-1440.webp 1440w, ../assets/images/powder-room-grey-stone-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="3072"
+          alt="A powder room clad throughout in grey stone"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
   </main>
 
-  <footer class="bar site-footer">
-    <span class="bk-shape bk-shape--03 mark" aria-hidden="true"></span>
-
-    <div class="shell bar__inner">
-      <p>No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran</p>
-      <p><a href="https://behkooshan.ir">behkooshan.ir</a></p>
+  <footer class="foot">
+    <div class="shell foot__inner">
+      <span class="bk-logo bk-logo--lockup" role="img" aria-label="Behkooshan"></span>
+      <p class="foot__links">
+        <a href="https://behkooshan.ir" lang="en">behkooshan.ir</a>
+      </p>
     </div>
   </footer>
 
+  <script src="../assets/js/catalogue.js" defer></script>
 </body>
 </html>

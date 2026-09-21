@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>به‌کوشان | کاتالوگ دیجیتال</title>
-  <meta name="description" content="نقطه شروع طراحی تازه کاتالوگ دیجیتال شرکت فرآورسنگ به‌کوشان.">
+  <title>کاتالوگ به‌کوشان</title>
+  <meta name="description" content="کاتالوگ دیجیتال شرکت فرآورسنگ به‌کوشان: معدن گرانیت سفید نطنز ریجن، اسلب‌های گرانیت و کوارتزیت و صفحات سنگی ۱۲ میلی‌متری.">
+  <meta name="theme-color" content="#184b36">
+  <meta name="color-scheme" content="light">
 
   <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0f5a3b">
-  <link rel="alternate" hreflang="fa" href="./">
-  <link rel="alternate" hreflang="en" href="en/">
-  <link rel="alternate" hreflang="x-default" href="./">
+  <link rel="canonical" href="https://behkooshan.ir/">
+  <link rel="alternate" hreflang="fa" href="https://behkooshan.ir/">
+  <link rel="alternate" hreflang="en" href="https://behkooshan.ir/en/">
+  <link rel="alternate" hreflang="x-default" href="https://behkooshan.ir/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="کاتالوگ به‌کوشان">
+  <meta property="og:description" content="کاتالوگ دیجیتال شرکت فرآورسنگ به‌کوشان: معدن گرانیت سفید نطنز ریجن، اسلب‌های گرانیت و کوارتزیت و صفحات سنگی ۱۲ میلی‌متری.">
+  <meta property="og:locale" content="fa_IR">
 
   <link rel="preload" href="assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,41 +25,774 @@
   <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/tokens.css">
   <link rel="stylesheet" href="assets/css/shapes.css">
-  <link rel="stylesheet" href="assets/css/starter.css">
+  <link rel="stylesheet" href="assets/css/catalogue.css">
+
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
+  <a class="skip" href="#cover">رفتن به متن</a>
+
   <header class="bar">
     <div class="shell bar__inner">
-      <a class="bar__logo" href="./" aria-label="به‌کوشان، صفحه نخست">
+      <a class="bar__logo" href="#cover" aria-label="بازگشت به ابتدا">
         <span class="bk-logo bk-logo--lockup-fa"></span>
       </a>
 
-      <a class="lang" href="en/" lang="en" aria-label="English">EN</a>
+      <div class="bar__end">
+        <button class="chip" type="button" data-contents-open hidden>فهرست</button>
+        <a class="chip" href="en/" lang="en"
+           data-lang-swap
+           hreflang="en" aria-label="خواندن به انگلیسی">English</a>
+      </div>
     </div>
+
+    <span class="progress" aria-hidden="true"></span>
   </header>
 
-  <main class="page">
-    <div class="shell">
-      <h1>کاتالوگ دیجیتال به‌کوشان</h1>
-
-      <p>
-        این شاخه نقطه شروع یک طراحی تازه است. فونت‌ها، لوگو، شکل‌ها، عکس‌ها،
-        متن‌ها و راهنمای طراحی برند همگی اینجا هستند و آماده استفاده‌اند.
-        این صفحه فقط برای همین است که مسیر انتشار آزمایش شود؛ با شروع طراحی
-        جای خودش را می‌دهد.
-      </p>
+  <dialog class="contents" id="contents" aria-label="فهرست">
+    <div class="contents__inner">
+      <div class="contents__head">
+        <p class="contents__title">فهرست</p>
+        <button class="chip" type="button" data-contents-close>بستن فهرست</button>
+      </div>
+      <ol class="contents__list">
+          <li><a href="#cover">
+            <span class="contents__label">جلد
+              <span class="contents__pages">صفحۀ چاپی ۱</span>
+            </span>
+          </a></li>
+          <li><a href="#about">
+            <span class="contents__label">دربارۀ ما
+              <span class="contents__pages">صفحۀ چاپی ۲-۳</span>
+            </span>
+          </a></li>
+          <li><a href="#rijen">
+            <span class="contents__label">شرکت تولید سنگ‌فرش ریجن
+              <span class="contents__pages">صفحۀ چاپی ۴-۵</span>
+            </span>
+          </a></li>
+          <li><a href="#history">
+            <span class="contents__label">تاریخچه
+              <span class="contents__pages">صفحۀ چاپی ۶-۷</span>
+            </span>
+          </a></li>
+          <li><a href="#gray-granite">
+            <span class="contents__label">گرانیت طوسی نطنز ریجن
+              <span class="contents__pages">صفحۀ چاپی ۸-۹</span>
+            </span>
+          </a></li>
+          <li><a href="#behkooshan">
+            <span class="contents__label">شرکت فرآورسنگ به‌کوشان
+              <span class="contents__pages">صفحۀ چاپی ۱۰-۱۱</span>
+            </span>
+          </a></li>
+          <li><a href="#advantages">
+            <span class="contents__label">مزیت‌های رقابتی به‌کوشان
+              <span class="contents__pages">صفحۀ چاپی ۱۲-۱۳</span>
+            </span>
+          </a></li>
+          <li><a href="#natural-stone">
+            <span class="contents__label">سنگ طبیعی به‌کوشان
+              <span class="contents__pages">صفحۀ چاپی ۱۴-۱۵</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-valley">
+            <span class="contents__label">معدن
+              <span class="contents__pages">صفحۀ چاپی ۱۶-۱۷</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-loader">
+            <span class="contents__label">جبهۀ کار
+              <span class="contents__pages">صفحۀ چاپی ۱۸-۱۹</span>
+            </span>
+          </a></li>
+          <li><a href="#generations">
+            <span class="contents__label">دو نسل، یک میراث
+              <span class="contents__pages">صفحۀ چاپی ۲۰-۲۱</span>
+            </span>
+          </a></li>
+          <li><a href="#first-generation">
+            <span class="contents__label">نسل اول
+              <span class="contents__pages">صفحۀ چاپی ۲۲</span>
+            </span>
+          </a></li>
+          <li><a href="#second-generation">
+            <span class="contents__label">نسل دوم
+              <span class="contents__pages">صفحۀ چاپی ۲۳</span>
+            </span>
+          </a></li>
+          <li><a href="#slabs">
+            <span class="contents__label">صفحات سنگی ۱۲ میلی‌متری
+              <span class="contents__pages">صفحۀ چاپی ۲۴-۲۵</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-blades">
+            <span class="contents__label">خط تولید
+              <span class="contents__pages">صفحۀ چاپی ۲۶-۲۷</span>
+            </span>
+          </a></li>
+          <li><a href="#twelve-mm">
+            <span class="contents__label">دوازده میلی‌متر
+              <span class="contents__pages">صفحۀ چاپی ۲۸-۲۹</span>
+            </span>
+          </a></li>
+          <li><a href="#granite">
+            <span class="contents__label">گرانیت
+              <span class="contents__pages">صفحۀ چاپی ۳۰</span>
+            </span>
+          </a></li>
+          <li><a href="#quartzite">
+            <span class="contents__label">کوارتزیت
+              <span class="contents__pages">صفحۀ چاپی ۳۱</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-island-mono">
+            <span class="contents__label">اجرا
+              <span class="contents__pages">صفحۀ چاپی ۳۲-۳۳</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-island-silver">
+            <span class="contents__label">اجرا
+              <span class="contents__pages">صفحۀ چاپی ۳۴-۳۵</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-terrazzo">
+            <span class="contents__label">اجرا
+              <span class="contents__pages">صفحۀ چاپی ۳۶-۳۷</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-counter">
+            <span class="contents__label">اجرا
+              <span class="contents__pages">صفحۀ چاپی ۳۸-۳۹</span>
+            </span>
+          </a></li>
+          <li><a href="#plate-powder-room">
+            <span class="contents__label">اجرا
+              <span class="contents__pages">صفحۀ چاپی ۴۰</span>
+            </span>
+          </a></li>
+      </ol>
     </div>
+  </dialog>
+
+  <main class="doc" id="doc">
+
+    <section class="sec sec--cover" id="cover" data-section
+             aria-label="جلد">
+      <div class="shell cover">
+        <h1 class="cover__mark">
+          <span class="bk-logo bk-logo--lockup-fa" role="img" aria-label="کاتالوگ به‌کوشان"></span>
+        </h1>
+        <p class="cover__line" lang="en">Beautifully Strong</p>
+        <span class="cover__rule" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="about" data-section
+             aria-label="دربارۀ ما">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>دربارۀ</span></span> <span class="word" style="--w:1"><span>ما</span></span></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="rijen" data-section
+             aria-label="شرکت تولید سنگ‌فرش ریجن">
+      <div class="feature feature--flip feature--mono">
+        <figure class="feature__figure place">
+          <img
+            src="assets/images/quarry-white-cut-960.webp"
+            srcset="assets/images/quarry-white-cut-960.webp 960w, assets/images/quarry-white-cut-1440.webp 1440w, assets/images/quarry-white-cut-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1365"
+            alt="دیوارۀ برش‌خوردۀ معدن گرانیت سفید، در سیاه و سفید"
+            loading="eager" decoding="async" fetchpriority="high">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>شرکت</span></span> <span class="word" style="--w:1"><span>تولید</span></span> <span class="word" style="--w:2"><span>سنگ‌فرش</span></span> <span class="word" style="--w:3"><span>ریجن</span></span></h2>
+          <h3 class="heading" class="reveal" style="--i:0">معرفی</h3>
+          <div class="prose">
+            <p class="reveal" style="--i:1">معدن گرانیت سفید نطنز ریجن، تحت بهره‌برداری <strong>شرکت تولید سنگ‌فرش ریجن</strong> واقع در منطقۀ نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های باکیفیت توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد.</p>
+            <p class="reveal" style="--i:2">محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و دارای بافتی یکنواخت، در صنایع مختلف عمرانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های زیرساختی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجن است که باعث شده است محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند.</p>
+            <p class="reveal" style="--i:3">همچنین این سنگ، به دلیل تراکم بالا و بافت یکنواخت، برای کاربردهای گوناگون در فرآوری‌های سنگ خام مناسب است و در این زمینه بسیار موفق عمل کرده است.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="history" data-section
+             aria-label="تاریخچه">
+      <div class="feature">
+        <figure class="feature__figure place">
+          <img
+            src="assets/images/kitchen-grey-granite-960.webp"
+            srcset="assets/images/kitchen-grey-granite-960.webp 960w, assets/images/kitchen-grey-granite-1440.webp 1440w, assets/images/kitchen-grey-granite-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1411"
+            alt="آشپزخانه‌ای با کانترتاپ و جزیرۀ گرانیت طوسی"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>تاریخچه</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">فعالیت معدن گرانیت سفید نطنز ریجن از دهه‌های گذشته آغاز شده و تاکنون پیوسته ادامه داشته است. این معدن با گذشت زمان، همگام با پیشرفت‌های فنی و تکنولوژیکی، زیرساخت‌های خود را به‌طور چشمگیری توسعه داده است. استفاده از ماشین‌آلات پیشرفتۀ استخراج و فرآوری، به‌کارگیری فناوری‌های نوین در فرآوری سنگ و همچنین حضور گروهی متخصص و مجرب در زمینۀ معدن‌کاری و مهندسی سنگ، باعث شده‌اند معدن ریجن به یکی از پیشروهای صنعت سنگ گرانیت در ایران تبدیل شود. سنگ‌های استخراجی این معدن به دلیل کیفیت بالای رنگ، مقاومت مکانیکی مطلوب و بافت پنبه‌ای و یکنواخت، همواره مورد توجه معماران، طراحان داخلی، پیمانکاران و صادرکنندگان بوده است و نقش مهمی در پروژه‌های ملی و بین‌المللی ایفا کرده است.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="gray-granite" data-section
+             aria-label="گرانیت طوسی نطنز ریجن">
+      <div class="feature feature--lead">
+        <figure class="feature__figure place">
+          <img
+            src="assets/images/kitchen-dark-veined-960.webp"
+            srcset="assets/images/kitchen-dark-veined-960.webp 960w, assets/images/kitchen-dark-veined-1440.webp 1440w, assets/images/kitchen-dark-veined-2048.webp 2048w"
+            sizes="(min-width: 60rem) 84rem, 100vw"
+            width="2048" height="1365"
+            alt="آشپزخانه‌ای با جزیره و نمای دیواری از سنگ تیرۀ رگه‌دار"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <div class="prose lede">
+            <p class="reveal" style="--i:0">گرانیت طوسی نطنز ریجن، استخراج‌شده از معدن سنگ‌فرش ریجن واقع در شهرستان نطنز، استان اصفهان، از نوع گرانیت-گرانودیوریت و حاصل فرایندهای ماگمایی اواخر دورۀ مزوزوئیک و اوایل دورۀ سنوزوئیک زمین‌شناسی است. ساختار متراکم آن و وجود کانی‌های ماگمایی تیره‌رنگ، این سنگ را در طیف خاکستری تیره با جلوه‌ای یکنواخت و ماندگار قرار داده است.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="behkooshan" data-section
+             aria-label="شرکت فرآورسنگ به‌کوشان">
+      <div class="feature feature--flip">
+        <figure class="feature__figure place">
+          <img
+            src="assets/images/factory-multiwire-hall-960.webp"
+            srcset="assets/images/factory-multiwire-hall-960.webp 960w, assets/images/factory-multiwire-hall-1440.webp 1440w, assets/images/factory-multiwire-hall-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1365"
+            alt="سالن تولید به‌کوشان و ردیف دستگاه‌های مولتی‌وایر زیر جرثقیل سقفی"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>شرکت</span></span> <span class="word" style="--w:1"><span>فرآورسنگ</span></span> <span class="word" style="--w:2"><span>به‌کوشان</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0"><strong>شرکت فرآورسنگ به‌کوشان</strong>، که در سال ۱۳۹۶ تأسیس شده است، بزرگ‌ترین تولیدکنندۀ اسلب‌های گرانیت و کوارتزیت در ایران با بهره‌گیری از فناوری پیشرفتۀ مولتی‌وایر است. مجموعۀ ما با استفاده از به‌روزترین تکنولوژی‌های فرآوری سنگ و تکیه بر نیروی انسانی متخصص، محصولاتی با کیفیت ممتاز و تنوع بالا به بازارهای داخلی و بین‌المللی عرضه می‌کند.</p>
+            <p class="reveal" style="--i:1">خط تولید ما مجهز به سه دستگاه مولتی‌وایر ایتالیایی است که امکان برش دقیق بلوک‌های سنگی به اسلب‌هایی با ضخامت‌های متنوع، از ۱۲ میلی‌متر به بالا، را فراهم می‌سازد. مواد اولیه با نهایت دقت و وسواس از معادن معتبر سراسر جهان، از جمله ایران، برزیل، اوکراین، هند و کشورهای آفریقایی انتخاب می‌شود.</p>
+            <p class="reveal" style="--i:2">مأموریت ما ارائۀ سنگ‌هایی مستحکم، زیبا و ماندگار است که پاسخگوی سلایق متنوع مشتریان بوده و هم‌زمان استانداردهای صنعت ساخت‌وساز را ارتقا دهد.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--columns" id="advantages" data-section
+             aria-label="مزیت‌های رقابتی به‌کوشان">
+      <div class="shell">
+        <div class="columns__text">
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>مزیت‌های</span></span> <span class="word" style="--w:1"><span>رقابتی</span></span> <span class="word" style="--w:2"><span>به‌کوشان</span></span></h2>
+            <ul class="list" class="reveal" style="--i:0">
+              <li>خلاقیت و سازگاری با نیاز بازار</li>
+              <li>روابط مبتنی بر ارزش و اعتماد</li>
+              <li>اولویت کیفیت بر کمیت</li>
+              <li>یادگیری و بهبود مستمر</li>
+              <li>همکاری حرفه‌ای</li>
+              <li>شفافیت در فرایندها</li>
+            </ul>
+          </div>
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>چرا</span></span> <span class="word" style="--w:1"><span>گرانیت</span></span> <span class="word" style="--w:2"><span>و</span></span> <span class="word" style="--w:3"><span>کوارتزیت</span></span> <span class="word" style="--w:4"><span>به‌کوشان؟</span></span></h2>
+            <ul class="list" class="reveal" style="--i:0">
+              <li><strong>استحکام بالا:</strong> مقاومت عالی در برابر سایش، فشار و حرارت</li>
+              <li><strong>زیبایی طبیعی:</strong> الگوها و رنگ‌های منحصربه‌فرد برای فضاهای لوکس</li>
+              <li><strong>دوام و پایداری:</strong> انتخابی ماندگار و سازگار با محیط‌زیست</li>
+              <li><strong>کاربرد گسترده:</strong> مناسب برای کانترتاپ، کف، دیوار، نما و پروژه‌های مسکونی، تجاری و شهری</li>
+            </ul>
+            <div class="prose">
+              <p class="reveal" style="--i:1">در <strong>به‌کوشان</strong>، دقت در فرآوری، مهارت فنی و تمرکز بر رضایت مشتری در کنار هم قرار گرفته‌اند تا سنگ‌هایی الهام‌بخش و ماندگار خلق شوند.</p>
+              <p class="reveal" style="--i:2">خواه در حال ساخت یک خانۀ مسکونی لوکس، یک فضای تجاری مدرن یا یک پروژۀ معماری در مقیاس بزرگ باشید، گرانیت و کوارتزیت ما کیفیت و شخصیت مورد نیاز شما را ارائه می‌دهد.</p>
+            </div>
+          </div>
+          <div class="columns__block">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>زیبایی</span></span> <span class="word" style="--w:1"><span>جاودانۀ</span></span> <span class="word" style="--w:2"><span>سنگ‌های</span></span> <span class="word" style="--w:3"><span>طبیعی</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">سنگ‌های طبیعی همواره نمادی از شکوه، اصالت و ماندگاری بوده‌اند. مجموعه‌ای از مرمر، گرانیت، اونیکس، تراورتن و سنگ آهک با رنگ‌های روشن یا ملایم و طیف‌های هماهنگ، فضایی لوکس و چشم‌نواز خلق می‌کنند. تنوع این سنگ‌ها، حاصل فرآوری دقیق با فناوری‌های نوین است و برای دکوراسیون‌های خاص و پروژه‌های شاخص معماری انتخابی ایده‌آل به شمار می‌رود.</p>
+            </div>
+          </div>
+        </div>
+        <div class="band">
+          <figure class="place">
+            <img
+              src="assets/images/quarry-aerial-pool-400.webp"
+              srcset="assets/images/quarry-aerial-pool-400.webp 400w, assets/images/quarry-aerial-pool-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="800"
+              alt="نمای هوایی معدن و حوضچۀ آب در میان بلوک‌های بریده‌شده"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/loader-carrying-block-400.webp"
+              srcset="assets/images/loader-carrying-block-400.webp 400w, assets/images/loader-carrying-block-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="لودر در حال جابه‌جایی یک بلوک سنگ"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/quarry-fluted-face-400.webp"
+              srcset="assets/images/quarry-fluted-face-400.webp 400w, assets/images/quarry-fluted-face-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="دیوارۀ شیاردار معدن زیر آسمان صاف"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/quarry-excavators-400.webp"
+              srcset="assets/images/quarry-excavators-400.webp 400w, assets/images/quarry-excavators-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="بیل‌های مکانیکی در کف معدن"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/driller-at-face-400.webp"
+              srcset="assets/images/driller-at-face-400.webp 400w, assets/images/driller-at-face-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="600"
+              alt="کارگر در حال حفاری در جبهۀ کار معدن"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/multiwire-cutting-400.webp"
+              srcset="assets/images/multiwire-cutting-400.webp 400w, assets/images/multiwire-cutting-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="552"
+              alt="دستگاه مولتی‌وایر در حال برش یک بلوک"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/slab-storage-hall-400.webp"
+              srcset="assets/images/slab-storage-hall-400.webp 400w, assets/images/slab-storage-hall-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="سالن نگهداری اسلب‌های آمادۀ ارسال"
+              loading="lazy" decoding="async">
+          </figure>
+          <figure class="place">
+            <img
+              src="assets/images/block-yard-crane-400.webp"
+              srcset="assets/images/block-yard-crane-400.webp 400w, assets/images/block-yard-crane-800.webp 800w"
+              sizes="(min-width: 48rem) 25vw, 50vw"
+              width="800" height="533"
+              alt="محوطۀ بلوک‌ها و جرثقیل دروازه‌ای زرد"
+              loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--feature" id="natural-stone" data-section
+             aria-label="سنگ طبیعی به‌کوشان">
+      <div class="feature feature--flip">
+        <figure class="feature__figure place">
+          <img
+            src="assets/images/lounge-green-panel-960.webp"
+            srcset="assets/images/lounge-green-panel-960.webp 960w, assets/images/lounge-green-panel-1440.webp 1440w, assets/images/lounge-green-panel-2048.webp 2048w"
+            sizes="(min-width: 60rem) 49rem, 100vw"
+            width="2048" height="1411"
+            alt="نشیمنی دوارتفاع با پانل بلند سنگ سبز در کنار پنجرۀ سرتاسری"
+            loading="lazy" decoding="async">
+        </figure>
+        <div class="feature__text">
+          <div class="feature__inner">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>سنگ</span></span> <span class="word" style="--w:1"><span>طبیعی</span></span> <span class="word" style="--w:2"><span>به‌کوشان،</span></span> <span class="word" style="--w:3"><span>هنر</span></span> <span class="word" style="--w:4"><span>گرانیت</span></span> <span class="word" style="--w:5"><span>و</span></span> <span class="word" style="--w:6"><span>کوارتزیت</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">در <strong>به‌کوشان</strong>، تمرکز اصلی بر فرآوری دو سنگ طبیعی شاخص و بادوام، گرانیت و کوارتزیت است. این سنگ‌ها که طی میلیون‌ها سال و در اثر فرایندهای زمین‌شناسی شکل گرفته‌اند، نمایانگر استحکام، زیبایی طبیعی و اصالت ماندگار هستند.</p>
+            <p class="reveal" style="--i:1">هر بلوک گرانیت و کوارتزیت فرآوری‌شده در <strong>به‌کوشان</strong> اثری منحصربه‌فرد از طبیعت است که با رگه‌های پیچیده، بافت‌های غنی و تنوع رنگی‌اش به هر پروژه هویتی متفاوت می‌بخشد. تعهد ما تبدیل این مواد خام ارزشمند به محصولاتی با بالاترین استانداردهای کیفیت و طراحی است.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-valley" data-section
+             aria-label="معدن">
+      <figure class="plate place plate--mono">
+        <img
+          src="assets/images/quarry-valley-960.webp"
+          srcset="assets/images/quarry-valley-960.webp 960w, assets/images/quarry-valley-1440.webp 1440w, assets/images/quarry-valley-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="دیوارۀ معدن و درۀ پیش روی آن، در سیاه و سفید"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-loader" data-section
+             aria-label="جبهۀ کار">
+      <figure class="plate place">
+        <img
+          src="assets/images/quarry-loader-wall-960.webp"
+          srcset="assets/images/quarry-loader-wall-960.webp 960w, assets/images/quarry-loader-wall-1440.webp 1440w, assets/images/quarry-loader-wall-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="دیوارۀ سفید معدن با لودر زرد در پای آن"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="generations" data-section
+             aria-label="دو نسل، یک میراث">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>دو</span></span> <span class="word" style="--w:1"><span>نسل،</span></span><br>
+        <span class="word" style="--w:2"><span>یک</span></span> <span class="word" style="--w:3"><span>میراث</span></span></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--people" id="first-generation" data-section
+             aria-label="نسل اول">
+      <div class="shell">
+        <h2 class="tag" class="reveal" style="--i:0">نسل اول – بنیان‌گذاران</h2>
+        <div class="people__lede lede" class="reveal" style="--i:1">
+          <p>شرکت ما داستان خود را از سال‌ها پیش با تلاش و تخصص دو پیشگام در صنعت سنگ آغاز کرد.</p>
+          <p>آقای حمیدرضا ناصری‌زاده
+آقای محمدجعفر محمدی</p>
+        </div>
+        <div class="people__list">
+        <div class="person person--no-portrait">
+
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">مهندس محمد جعفر محمدی</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">متولد بهبهان، دارای مدرک کارشناسی در رشتۀ مهندسی آب و خاک از دانشگاه علوم کشاورزی و منابع طبیعی اهواز و مدرک کارشناسی ارشد در رشتۀ خاک‌شناسی از دانشگاه ریدینگ انگلستان است. با تجربۀ تحقیقاتی بین‌المللی به مدت ۲۰ سال و تخصص در سیستم‌های آبیاری تحت فشار، از سال ۱۳۷۲ تاکنون به عنوان سهامدار و بنیان‌گذار <strong>شرکت سنگ‌فرش ریجن کاشان</strong> و <strong>شرکت فرآورسنگ به‌کوشان</strong>، مسیر توسعه و فرآوری سنگ‌های ساختمانی را هدایت کرده است.</p></div>
+          </div>
+        </div>
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="assets/images/portrait-naseri-zadeh-400.webp"
+              srcset="assets/images/portrait-naseri-zadeh-400.webp 400w, assets/images/portrait-naseri-zadeh-800.webp 800w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="800" height="1045"
+              alt="مهندس حمیدرضا ناصری زاده"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">مهندس حمیدرضا ناصری زاده</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">متولد کاشان، دارای مدرک کارشناسی مهندسی صنایع از دانشگاه ایالتی کارولینای شمالی است. در سال ۱۳۷۲ <strong>شرکت تولید سنگ‌فرش ریجن کاشان</strong> را تأسیس کرد. او با دیدگاه نوآورانه و مدیریت هوشمندانه، پایه‌های محکم شرکت را بنیان نهاد و امروز همچنان به عنوان عضو هیأت‌مدیره، مسیر رشد و تعالی را هدایت می‌کند.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--people" id="second-generation" data-section
+             aria-label="نسل دوم">
+      <div class="shell">
+        <h2 class="tag" class="reveal" style="--i:0">نسل دوم – توسعه و مدیریت امروز</h2>
+        <div class="people__lede lede" class="reveal" style="--i:1">
+          <p>دو نسل از متخصصان متعهد و ماهر، با دیدگاهی مشترک و با بهره‌گیری از ماشین‌آلات مدرن در کنار استعدادهای جوان و کارآمد، تلاش می‌کنند کیفیت بالای محصول را تضمین کنند و جایگاه سنگ گرانیت را ارتقا دهند.</p>
+        </div>
+        <div class="people__list">
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="assets/images/portrait-pedram-400.webp"
+              srcset="assets/images/portrait-pedram-400.webp 400w, assets/images/portrait-pedram-496.webp 496w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="496" height="614"
+              alt="مهندس پدرام محمدی"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">مهندس پدرام محمدی</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">متولد تهران، دارای مدرک کارشناسی اقتصاد نظری، سال ۱۳۸۴ در شرکت تولید سنگ‌فرش ریجن کاشان فعالیت خود را آغاز کرد و اکنون رئیس هیأت‌مدیرۀ <strong>شرکت فرآورسنگ به‌کوشان</strong> و <strong>شرکت سنگ فرش ریجن کاشان</strong> است. او با تخصص خود در اقتصاد و مدیریت، نقشی اساسی در تضمین رشد پایدار و توسعۀ کسب‌وکار شرکت ایفا کرده است.</p></div>
+          </div>
+        </div>
+        <div class="person">
+          <div class="person__portrait">
+            <img
+              src="assets/images/portrait-tannaz-400.webp"
+              srcset="assets/images/portrait-tannaz-400.webp 400w, assets/images/portrait-tannaz-800.webp 800w"
+              sizes="(min-width: 48rem) 176px, 136px"
+              width="800" height="751"
+              alt="طناز ناصری زاده"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name" class="reveal" style="--i:0">طناز ناصری زاده</h3>
+            <div class="prose person__bio"><p class="reveal" style="--i:1">متولد تهران، دارای مدرک کارشناسی راهنمایی و مشاوره است؛ از سال ۱۳۹۷ به گروه مدیریتی پیوست و هم‌اکنون عضو هیأت‌مدیرۀ <strong>شرکت فرآورسنگ به‌کوشان</strong> است. حضور او موجب تقویت مدیریت منابع انسانی و نیز فرایندهای تصمیم‌گیری و مشاوره‌ای شرکت شده است.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--divider sec--flush" id="slabs" data-section
+             aria-label="صفحات سنگی ۱۲ میلی‌متری">
+      <div class="divider">
+        <div class="divider__green" aria-hidden="true"></div>
+        <div class="divider__face">
+          <h2 class="divider__title"><span class="word" style="--w:0"><span>صفحات</span></span> <span class="word" style="--w:1"><span>سنگی</span></span><br>
+        <span class="word" style="--w:2"><span>۱۲</span></span> <span class="word" style="--w:3"><span>میلی‌متری</span></span></h2>
+          <p class="divider__subtitle" class="reveal" style="--i:0">جدیدترین ابداع به‌کوشان</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-blades" data-section
+             aria-label="خط تولید">
+      <figure class="plate place">
+        <img
+          src="assets/images/factory-multiwire-blades-960.webp"
+          srcset="assets/images/factory-multiwire-blades-960.webp 960w, assets/images/factory-multiwire-blades-1440.webp 1440w, assets/images/factory-multiwire-blades-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="ردیف سرهای برش مولتی‌وایر در خط تولید"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--slabs" id="twelve-mm" data-section
+             aria-label="دوازده میلی‌متر">
+      <div class="shell">
+        <div class="slabs">
+          <div class="slabs__col">
+          <div class="prose">
+            <p class="reveal" style="--i:0">به‌روزترین محصول <strong>شرکت به‌کوشان</strong> نسل جدیدی از اسلب‌های نازک گرانیت و کوارتزیت با ضخامت ۱۲ میلی‌متر است که کاملاً متناسب با نیازهای معماری مدرن و پروژه‌های اجرایی سبک‌سازی‌شده طراحی شده‌اند.</p>
+            <p class="reveal" style="--i:1">این اسلب‌های فوق‌نازک دارای مزایای فراوانی در ساخت‌وساز و معماری هستند، از جمله:</p>
+          </div>
+          <ul class="list" class="reveal" style="--i:2">
+            <li>سبک بودن</li>
+            <li>سهولت در حمل‌ونقل و نصب</li>
+            <li>ظرافت در طراحی</li>
+            <li>قیمت کمتر</li>
+          </ul>
+          <div class="prose">
+            <p class="reveal" style="--i:3"><strong>شرکت فرآور سنگ به‌کوشان</strong> با ارائه اسلب‌های گرانیت و کوارتزیت با ضخامت ۱۲ میلی‌متر، وارد نسل جدیدی از محصولات سنگی شده است که کاملاً متناسب با نیازهای معماری مدرن و پروژه‌های اجرایی سبک‌سازی شده، طراحی شده‌اند.</p>
+          </div>
+          <div class="slabs__benefits">
+            <div class="benefit" class="reveal" style="--i:4">
+              <h3 class="benefit__title">سبکی</h3>
+              <p>وزن کمتر بر روی سازه و کاهش هزینه‌های حمل‌ونقل.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:5">
+              <h3 class="benefit__title">نصب آسان‌تر</h3>
+              <p>ضخامت کمتر به معنای سهولت بُرش و فرایند نصب سریع‌تر است.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:6">
+              <h3 class="benefit__title">زیبایی‌شناسی</h3>
+              <p>طرح‌ها و رنگ‌ها بهتر دیده می‌شوند و در ترکیب با مواد مدرن، مانند فلز، شیشه و چوب، جلوۀ خاصی پیدا می‌کنند.</p>
+            </div>
+            <div class="benefit" class="reveal" style="--i:7">
+              <h3 class="benefit__title">صرفه‌جویی اقتصادی</h3>
+              <p>صرفه‌جویی اقتصادی در ضخامت کمتر، مصرف مواد خام کمتر و در نتیجه قیمت مناسب‌تر در پروژه‌های انبوه.</p>
+            </div>
+          </div>
+          </div>
+          <div class="slabs__col">
+          <h2 class="title headline"><span class="word" style="--w:0"><span>مزیت‌های</span></span> <span class="word" style="--w:1"><span>زیست‌محیطی</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:0">با استفاده از این محصول، میزان مصرف مادۀ خام به‌طور قابل‌توجهی کاهش می‌یابد. این ویژگی نه‌تنها موجب کاهش استخراج منابع طبیعی می‌شود، بلکه به کاهش ضایعات و مصرف انرژی نیز کمک می‌کند. در نتیجه، این رویکرد نقش مؤثری در توسعۀ پایدار ایفا می‌کند و هم‌راستا با اهداف زیست‌محیطی جهانی است.</p>
+            <p class="reveal" style="--i:1">همچنین این فرایند نیاز به نیروی انسانی را کاهش می‌دهد و موجب بهینه‌سازی راندمان اجرایی می‌شود.</p>
+          </div>
+          <p class="slabs__uses-intro" class="reveal" style="--i:2">از این محصول می‌توان در فضاهای مختلف استفاده کرد، از جمله:</p>
+          <ul class="list" class="reveal" style="--i:3">
+            <li>نمای داخلی و خارجی ساختمان‌ها</li>
+            <li>کفپوش فضاهای پرتردد</li>
+            <li>دیواره‌ها و پوشش‌های دکوراتیو</li>
+          </ul>
+          <p class="pull" class="reveal" style="--i:4">یکی از نمونه‌های موفق اجراشدۀ این محصول در ایران «پروژۀ حیات نیاوران» است که عملکرد و کیفیت زیبایی‌شناختی این محصول را در کاربردهای دنیای واقعی نشان می‌دهد.</p>
+          <h2 class="title headline"><span class="word" style="--w:0"><span>از</span></span> <span class="word" style="--w:1"><span>دیگر</span></span> <span class="word" style="--w:2"><span>مزایای</span></span> <span class="word" style="--w:3"><span>سنگ</span></span> <span class="word" style="--w:4"><span>با</span></span> <span class="word" style="--w:5"><span>ضخامت</span></span> <span class="word" style="--w:6"><span>کمتر</span></span></h2>
+          <div class="prose">
+            <p class="reveal" style="--i:5">متراژ به‌دست‌آمده در تولید سنگ با ضخامت ۱۲ میلی‌متر ۴۰٪ بیشتر از متراژ به‌دست‌آمده از تولید سنگ با ضخامت ۲۰ میلی‌متر می‌باشد.</p>
+            <p class="reveal" style="--i:6">در نتیجه، می‌توان سطوح بزرگ‌تر را هنگام نصب به‌طور یکنواخت‌تری پوشش داد و از پیوستگیِ بصری و کاراییِ مواد اطمینان حاصل کرد.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--stone" id="granite" data-section
+             aria-label="گرانیت">
+      <div class="shell">
+        <div class="stone">
+          <div class="stone__text">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>گرانیت</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">گرانیت سنگی آذرین با منشأ آتشفشانی است که حدود ۳۰٪ کوارتز و ۶۰٪ فلدسپات در ترکیب خود دارد. این ساختار باعث سختی، مقاومت سایشی بالا و استحکام فشاری فوق‌العادۀ آن می‌شود. گرانیت در طیف گسترده‌ای از رنگ‌ها و طرح‌های یکنواخت تا رگه‌دار عرضه شده و به دلیل مقاومت بالا در برابر شرایط مختلف آب‌وهوایی، گزینه‌ای ایده‌آل برای کاربردهای داخلی و خارجی ساختمان است.</p>
+            </div>
+          </div>
+          <div class="stone__figures">
+            <figure class="place">
+              <img
+                src="assets/images/granite-slab-display-562.webp"
+                srcset="assets/images/granite-slab-display-562.webp 562w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="562" height="1000"
+                alt="اسلب گرانیت رگه‌دار در قاب، روی زمینۀ تیره"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="assets/images/granite-bathroom-vanity-640.webp"
+                srcset="assets/images/granite-bathroom-vanity-640.webp 640w, assets/images/granite-bathroom-vanity-1024.webp 1024w, assets/images/granite-bathroom-vanity-1287.webp 1287w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1287" height="1400"
+                alt="سرویس بهداشتی با نما و کف گرانیت سبز"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="assets/images/granite-shower-wall-640.webp"
+                srcset="assets/images/granite-shower-wall-640.webp 640w, assets/images/granite-shower-wall-1024.webp 1024w, assets/images/granite-shower-wall-1536.webp 1536w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1536" height="1671"
+                alt="دوش با دیوارۀ گرانیت سبز"
+                loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--stone" id="quartzite" data-section
+             aria-label="کوارتزیت">
+      <div class="shell">
+        <div class="stone stone--flip">
+          <div class="stone__text">
+            <h2 class="title headline"><span class="word" style="--w:0"><span>کوارتزیت</span></span></h2>
+            <div class="prose">
+              <p class="reveal" style="--i:0">کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد.</p>
+            </div>
+          </div>
+          <div class="stone__figures">
+            <figure class="place">
+              <img
+                src="assets/images/quartzite-raw-blocks-640.webp"
+                srcset="assets/images/quartzite-raw-blocks-640.webp 640w, assets/images/quartzite-raw-blocks-800.webp 800w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="800" height="1000"
+                alt="دو قطعۀ خام کوارتزیت سفید"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="assets/images/quartzite-countertop-edge-640.webp"
+                srcset="assets/images/quartzite-countertop-edge-640.webp 640w, assets/images/quartzite-countertop-edge-800.webp 800w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="800" height="1000"
+                alt="لبۀ کانترتاپ کوارتزیت روشن"
+                loading="lazy" decoding="async">
+            </figure>
+            <figure class="place">
+              <img
+                src="assets/images/quartzite-block-display-640.webp"
+                srcset="assets/images/quartzite-block-display-640.webp 640w, assets/images/quartzite-block-display-1024.webp 1024w, assets/images/quartzite-block-display-1080.webp 1080w"
+                sizes="(min-width: 60rem) 30vw, 50vw"
+                width="1080" height="1350"
+                alt="قطعۀ کوارتزیت روی پایۀ نمایش"
+                loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-island-mono" data-section
+             aria-label="اجرا">
+      <figure class="plate place">
+        <img
+          src="assets/images/kitchen-black-white-island-960.webp"
+          srcset="assets/images/kitchen-black-white-island-960.webp 960w, assets/images/kitchen-black-white-island-1440.webp 1440w, assets/images/kitchen-black-white-island-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="جزیرۀ آشپزخانه با سنگ سیاه و سفید رگه‌دار"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-island-silver" data-section
+             aria-label="اجرا">
+      <figure class="plate place">
+        <img
+          src="assets/images/kitchen-silver-vein-island-960.webp"
+          srcset="assets/images/kitchen-silver-vein-island-960.webp 960w, assets/images/kitchen-silver-vein-island-1440.webp 1440w, assets/images/kitchen-silver-vein-island-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="جزیرۀ آشپزخانه با رگه‌های نقره‌ای روی زمینۀ تیره"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-terrazzo" data-section
+             aria-label="اجرا">
+      <figure class="plate place">
+        <img
+          src="assets/images/kitchen-black-terrazzo-960.webp"
+          srcset="assets/images/kitchen-black-terrazzo-960.webp 960w, assets/images/kitchen-black-terrazzo-1440.webp 1440w, assets/images/kitchen-black-terrazzo-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1365"
+          alt="آشپزخانه با نمای سنگ سیاه دانه‌دار"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-counter" data-section
+             aria-label="اجرا">
+      <figure class="plate place">
+        <img
+          src="assets/images/counter-dark-green-sink-960.webp"
+          srcset="assets/images/counter-dark-green-sink-960.webp 960w, assets/images/counter-dark-green-sink-1440.webp 1440w, assets/images/counter-dark-green-sink-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="1475"
+          alt="کانترتاپ سنگ سبز تیره با سینک توکار"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="sec sec--plate sec--flush" id="plate-powder-room" data-section
+             aria-label="اجرا">
+      <figure class="plate place">
+        <img
+          src="assets/images/powder-room-grey-stone-960.webp"
+          srcset="assets/images/powder-room-grey-stone-960.webp 960w, assets/images/powder-room-grey-stone-1440.webp 1440w, assets/images/powder-room-grey-stone-2048.webp 2048w"
+          sizes="100vw"
+          width="2048" height="3072"
+          alt="سرویس بهداشتی با نمای سراسری سنگ طوسی"
+          loading="lazy" decoding="async">
+      </figure>
+    </section>
+
   </main>
 
-  <footer class="bar site-footer">
-    <span class="bk-shape bk-shape--03 mark" aria-hidden="true"></span>
-
-    <div class="shell bar__inner">
-      <p>تهران، شهرک صنعتی شمس‌آباد، کوچه سنبل ۵، پلاک ۲۸۶</p>
-      <p><a href="https://behkooshan.ir" lang="en">behkooshan.ir</a></p>
+  <footer class="foot">
+    <div class="shell foot__inner">
+      <span class="bk-logo bk-logo--lockup-fa" role="img" aria-label="Behkooshan"></span>
+      <p class="foot__links">
+        <a href="https://behkooshan.ir" lang="en">behkooshan.ir</a>
+      </p>
     </div>
   </footer>
 
+  <script src="assets/js/catalogue.js" defer></script>
 </body>
 </html>

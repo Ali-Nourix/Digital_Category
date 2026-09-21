@@ -1,0 +1,584 @@
+{
+  "_comment": [
+    "The printed Behkooshan catalogue, page for page. `pages` on each section",
+    "names the printed pages it comes from, and the sections are in that order.",
+    "",
+    "The prose is the client's own, transcribed from the print PDF. Two classes",
+    "of repair were made and nothing else: the text layer extracts the lam alef",
+    "ligature with its letters reversed (محصوالت for محصولات, باال for بالا,",
+    "کامًال for کاملاً), which is a font artefact and not spelling, and page 29",
+    "sets 'EnvironmentalBenefits' with no word space. Both were read back off a",
+    "150 dpi render of the page before being written here. No sentence was",
+    "rewritten, shortened or added, and the print's own en dashes in the two",
+    "generation headings are kept as the client set them.",
+    "",
+    "`image` values are slugs in assets/images. Every one is the client's",
+    "original webp, matched to the photograph the print uses on that page; the",
+    "images embedded in the PDF are InDesign crops and are not used. Where the",
+    "print runs one photograph across a spread, the whole photograph is here.",
+    "",
+    "`mono: true` marks a photograph the print runs in black and white."
+  ],
+
+  "site": {
+    "brand": "Behkooshan",
+    "url": "https://behkooshan.ir",
+    "fa": {
+      "lang": "fa",
+      "dir": "rtl",
+      "title": "کاتالوگ به‌کوشان",
+      "description": "کاتالوگ دیجیتال شرکت فرآورسنگ به‌کوشان: معدن گرانیت سفید نطنز ریجن، اسلب‌های گرانیت و کوارتزیت و صفحات سنگی ۱۲ میلی‌متری.",
+      "other": "English",
+      "otherLabel": "خواندن به انگلیسی",
+      "contents": "فهرست",
+      "contentsClose": "بستن فهرست",
+      "skip": "رفتن به متن",
+      "top": "بازگشت به ابتدا"
+    },
+    "en": {
+      "lang": "en",
+      "dir": "ltr",
+      "title": "Behkooshan Catalogue",
+      "description": "The digital catalogue of Behkooshan Stone Processing Company: the Rijen Natanz white granite quarry, granite and quartzite slabs, and 12 mm stone slabs.",
+      "other": "فارسی",
+      "otherLabel": "Read in Persian",
+      "contents": "Contents",
+      "contentsClose": "Close contents",
+      "skip": "Skip to content",
+      "top": "Back to the top"
+    }
+  },
+
+  "sections": [
+    {
+      "id": "cover",
+      "kind": "cover",
+      "pages": [1],
+      "fa": { "nav": "جلد", "line": "Beautifully Strong" },
+      "en": { "nav": "Cover", "line": "Beautifully Strong" }
+    },
+
+    {
+      "id": "about",
+      "kind": "divider",
+      "pages": [2, 3],
+      "fa": { "nav": "دربارۀ ما", "title": "دربارۀ ما" },
+      "en": { "nav": "About Us", "title": "About Us" }
+    },
+
+    {
+      "id": "rijen",
+      "kind": "feature",
+      "pages": [4, 5],
+      "image": "quarry-white-cut",
+      "mono": true,
+      "flip": true,
+      "fa": {
+        "nav": "شرکت تولید سنگ‌فرش ریجن",
+        "title": "شرکت تولید سنگ‌فرش ریجن",
+        "heading": "معرفی",
+        "body": [
+          "معدن گرانیت سفید نطنز ریجن، تحت بهره‌برداری **شرکت تولید سنگ‌فرش ریجن** واقع در منطقۀ نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های باکیفیت توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد.",
+          "محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و دارای بافتی یکنواخت، در صنایع مختلف عمرانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های زیرساختی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجن است که باعث شده است محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند.",
+          "همچنین این سنگ، به دلیل تراکم بالا و بافت یکنواخت، برای کاربردهای گوناگون در فرآوری‌های سنگ خام مناسب است و در این زمینه بسیار موفق عمل کرده است."
+        ],
+        "alt": "دیوارۀ برش‌خوردۀ معدن گرانیت سفید، در سیاه و سفید"
+      },
+      "en": {
+        "nav": "Rijen Kashan Cobblestone Production Company",
+        "title": "Rijen Kashan Cobblestone Production Company",
+        "heading": "Introduction",
+        "body": [
+          "The Natanz White Granite Quarry, operated by **Rijen Kashan Cobblestone Production Company** and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry. The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets.",
+          "Furthermore, due to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field."
+        ],
+        "alt": "The cut face of the white granite quarry, in black and white"
+      }
+    },
+
+    {
+      "id": "history",
+      "kind": "feature",
+      "pages": [6, 7],
+      "image": "kitchen-grey-granite",
+      "fa": {
+        "nav": "تاریخچه",
+        "title": "تاریخچه",
+        "body": [
+          "فعالیت معدن گرانیت سفید نطنز ریجن از دهه‌های گذشته آغاز شده و تاکنون پیوسته ادامه داشته است. این معدن با گذشت زمان، همگام با پیشرفت‌های فنی و تکنولوژیکی، زیرساخت‌های خود را به‌طور چشمگیری توسعه داده است. استفاده از ماشین‌آلات پیشرفتۀ استخراج و فرآوری، به‌کارگیری فناوری‌های نوین در فرآوری سنگ و همچنین حضور گروهی متخصص و مجرب در زمینۀ معدن‌کاری و مهندسی سنگ، باعث شده‌اند معدن ریجن به یکی از پیشروهای صنعت سنگ گرانیت در ایران تبدیل شود. سنگ‌های استخراجی این معدن به دلیل کیفیت بالای رنگ، مقاومت مکانیکی مطلوب و بافت پنبه‌ای و یکنواخت، همواره مورد توجه معماران، طراحان داخلی، پیمانکاران و صادرکنندگان بوده است و نقش مهمی در پروژه‌های ملی و بین‌المللی ایفا کرده است."
+        ],
+        "alt": "آشپزخانه‌ای با کانترتاپ و جزیرۀ گرانیت طوسی"
+      },
+      "en": {
+        "nav": "History",
+        "title": "History",
+        "body": [
+          "The operation of the Rijen Natanz White Granite Quarry began decades ago and has continued steadily ever since. Over time, in line with technical and technological advancements, the quarry has significantly developed its infrastructure. The use of advanced extraction and processing machinery, the implementation of modern stone processing technologies, and the employment of a specialized and experienced team in mining and stone engineering have made the Rijen quarry one of the leaders in the granite stone industry in Iran. The extracted stones from this quarry, due to their excellent color quality, desirable mechanical strength, and soft, uniform cotton-like texture, have always been of great interest to architects, interior designers, contractors, and exporters, playing an important role in both national and international projects."
+        ],
+        "alt": "A kitchen with a grey granite worktop and island"
+      }
+    },
+
+    {
+      "id": "gray-granite",
+      "kind": "feature",
+      "pages": [8, 9],
+      "image": "kitchen-dark-veined",
+      "lead": true,
+      "fa": {
+        "nav": "گرانیت طوسی نطنز ریجن",
+        "body": [
+          "گرانیت طوسی نطنز ریجن، استخراج‌شده از معدن سنگ‌فرش ریجن واقع در شهرستان نطنز، استان اصفهان، از نوع گرانیت-گرانودیوریت و حاصل فرایندهای ماگمایی اواخر دورۀ مزوزوئیک و اوایل دورۀ سنوزوئیک زمین‌شناسی است. ساختار متراکم آن و وجود کانی‌های ماگمایی تیره‌رنگ، این سنگ را در طیف خاکستری تیره با جلوه‌ای یکنواخت و ماندگار قرار داده است."
+        ],
+        "alt": "آشپزخانه‌ای با جزیره و نمای دیواری از سنگ تیرۀ رگه‌دار"
+      },
+      "en": {
+        "nav": "Natanz Rijen Gray Granite",
+        "body": [
+          "Natanz Rijen Gray Granite, extracted from the Rijen paving stone quarry located in Natanz County, Isfahan Province, is a type of granite-granodiorite formed through magmatic processes during the late Mesozoic and early Cenozoic geological periods. Its dense structure and the presence of dark-colored magmatic minerals give this stone a dark gray spectrum with a uniform and durable appearance."
+        ],
+        "alt": "A kitchen island and wall faced in dark veined stone"
+      }
+    },
+
+    {
+      "id": "behkooshan",
+      "kind": "feature",
+      "pages": [10, 11],
+      "image": "factory-multiwire-hall",
+      "flip": true,
+      "fa": {
+        "nav": "شرکت فرآورسنگ به‌کوشان",
+        "title": "شرکت فرآورسنگ به‌کوشان",
+        "body": [
+          "**شرکت فرآورسنگ به‌کوشان**، که در سال ۱۳۹۶ تأسیس شده است، بزرگ‌ترین تولیدکنندۀ اسلب‌های گرانیت و کوارتزیت در ایران با بهره‌گیری از فناوری پیشرفتۀ مولتی‌وایر است. مجموعۀ ما با استفاده از به‌روزترین تکنولوژی‌های فرآوری سنگ و تکیه بر نیروی انسانی متخصص، محصولاتی با کیفیت ممتاز و تنوع بالا به بازارهای داخلی و بین‌المللی عرضه می‌کند.",
+          "خط تولید ما مجهز به سه دستگاه مولتی‌وایر ایتالیایی است که امکان برش دقیق بلوک‌های سنگی به اسلب‌هایی با ضخامت‌های متنوع، از ۱۲ میلی‌متر به بالا، را فراهم می‌سازد. مواد اولیه با نهایت دقت و وسواس از معادن معتبر سراسر جهان، از جمله ایران، برزیل، اوکراین، هند و کشورهای آفریقایی انتخاب می‌شود.",
+          "مأموریت ما ارائۀ سنگ‌هایی مستحکم، زیبا و ماندگار است که پاسخگوی سلایق متنوع مشتریان بوده و هم‌زمان استانداردهای صنعت ساخت‌وساز را ارتقا دهد."
+        ],
+        "alt": "سالن تولید به‌کوشان و ردیف دستگاه‌های مولتی‌وایر زیر جرثقیل سقفی"
+      },
+      "en": {
+        "nav": "Behkooshan Stone Processing Company",
+        "title": "Behkooshan Stone Processing Company",
+        "body": [
+          "**Behkooshan Stone Processing Company**, established in 2017, is the largest producer of granite and quartzite slabs in Iran using advanced Multiwire technology. We utilize the latest stone processing technology and the most skilled staff to ensure the best quality and high diversity in our products.",
+          "Our production line is equipped with three Italian Multiwire machines which can cut stone blocks into slabs with different thicknesses from 12 millimeters upwards. Raw materials are selected with the utmost care and meticulousness from reputable mines around the world, including Iran, Brazil, Ukraine, India, and African countries.",
+          "Our mission is to provide our customers with a wide variety of high-quality and strong material to suit their taste and needs while pushing the boundaries of the construction industry."
+        ],
+        "alt": "The Behkooshan production hall, a row of Multiwire machines under the overhead crane"
+      }
+    },
+
+    {
+      "id": "advantages",
+      "kind": "columns",
+      "pages": [12, 13],
+      "images": [
+        { "image": "quarry-aerial-pool", "fa": "نمای هوایی معدن و حوضچۀ آب در میان بلوک‌های بریده‌شده", "en": "The quarry from the air, with the water basin among the cut blocks" },
+        { "image": "loader-carrying-block", "fa": "لودر در حال جابه‌جایی یک بلوک سنگ", "en": "A wheel loader carrying a block of stone" },
+        { "image": "quarry-fluted-face", "fa": "دیوارۀ شیاردار معدن زیر آسمان صاف", "en": "The fluted quarry face under a clear sky" },
+        { "image": "quarry-excavators", "fa": "بیل‌های مکانیکی در کف معدن", "en": "Excavators working the quarry floor" },
+        { "image": "driller-at-face", "fa": "کارگر در حال حفاری در جبهۀ کار معدن", "en": "A driller at work on the quarry face" },
+        { "image": "multiwire-cutting", "fa": "دستگاه مولتی‌وایر در حال برش یک بلوک", "en": "A Multiwire machine cutting a block" },
+        { "image": "slab-storage-hall", "fa": "سالن نگهداری اسلب‌های آمادۀ ارسال", "en": "The hall where finished slabs are stored" },
+        { "image": "block-yard-crane", "fa": "محوطۀ بلوک‌ها و جرثقیل دروازه‌ای زرد", "en": "The block yard and the yellow gantry crane" }
+      ],
+      "fa": {
+        "nav": "مزیت‌های رقابتی به‌کوشان",
+        "blocks": [
+          {
+            "title": "مزیت‌های رقابتی به‌کوشان",
+            "list": [
+              "خلاقیت و سازگاری با نیاز بازار",
+              "روابط مبتنی بر ارزش و اعتماد",
+              "اولویت کیفیت بر کمیت",
+              "یادگیری و بهبود مستمر",
+              "همکاری حرفه‌ای",
+              "شفافیت در فرایندها"
+            ]
+          },
+          {
+            "title": "چرا گرانیت و کوارتزیت به‌کوشان؟",
+            "list": [
+              "**استحکام بالا:** مقاومت عالی در برابر سایش، فشار و حرارت",
+              "**زیبایی طبیعی:** الگوها و رنگ‌های منحصربه‌فرد برای فضاهای لوکس",
+              "**دوام و پایداری:** انتخابی ماندگار و سازگار با محیط‌زیست",
+              "**کاربرد گسترده:** مناسب برای کانترتاپ، کف، دیوار، نما و پروژه‌های مسکونی، تجاری و شهری"
+            ],
+            "body": [
+              "در **به‌کوشان**، دقت در فرآوری، مهارت فنی و تمرکز بر رضایت مشتری در کنار هم قرار گرفته‌اند تا سنگ‌هایی الهام‌بخش و ماندگار خلق شوند.",
+              "خواه در حال ساخت یک خانۀ مسکونی لوکس، یک فضای تجاری مدرن یا یک پروژۀ معماری در مقیاس بزرگ باشید، گرانیت و کوارتزیت ما کیفیت و شخصیت مورد نیاز شما را ارائه می‌دهد."
+            ]
+          },
+          {
+            "title": "زیبایی جاودانۀ سنگ‌های طبیعی",
+            "body": [
+              "سنگ‌های طبیعی همواره نمادی از شکوه، اصالت و ماندگاری بوده‌اند. مجموعه‌ای از مرمر، گرانیت، اونیکس، تراورتن و سنگ آهک با رنگ‌های روشن یا ملایم و طیف‌های هماهنگ، فضایی لوکس و چشم‌نواز خلق می‌کنند. تنوع این سنگ‌ها، حاصل فرآوری دقیق با فناوری‌های نوین است و برای دکوراسیون‌های خاص و پروژه‌های شاخص معماری انتخابی ایده‌آل به شمار می‌رود."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "nav": "What Makes Behkooshan Different?",
+        "blocks": [
+          {
+            "title": "What Makes Behkooshan Different?",
+            "list": [
+              "Creativity and adaptability to market needs",
+              "Relationships based on value and trust",
+              "Priority of quality over quantity",
+              "Continuous learning and improvement",
+              "Professional collaboration",
+              "Transparency in processes"
+            ]
+          },
+          {
+            "title": "Why Behkooshan Granite and Quartzite?",
+            "list": [
+              "**Exceptional Strength:** Both granite and quartzite are known for their resistance to wear, heat, and pressure, making them ideal for high-traffic and high-performance areas.",
+              "**Natural Elegance:** The striking patterns and colors of our stones add sophistication and depth to any interior or exterior space.",
+              "**Sustainable Choice:** Sourced responsibly from premium Iranian quarries, our stones represent a long-lasting and eco-friendly solution.",
+              "**Versatile Applications:** From countertops and flooring to cladding and facades, our stones are suitable for residential, commercial, and urban projects."
+            ],
+            "body": [
+              "At **Behkooshan**, precision processing, expert craftsmanship, and customer focus come together to deliver natural stone solutions that inspire and endure. Whether you’re building a luxury residence, a modern commercial space, or a large-scale architectural project, our granite and quartzite offer the quality and character you need."
+            ]
+          },
+          {
+            "title": "The Timeless Beauty of Natural Stones",
+            "body": [
+              "Natural stones have always been a symbol of grandeur, authenticity and durability. Collections of marble, granite, onyx, travertine and limestone with bright or soft colors and harmonious shades create a luxurious and eye-catching space. The diversity of these stones is the result of precise processing with modern technologies and is ideal for special decorations and outstanding architectural projects."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "natural-stone",
+      "kind": "feature",
+      "pages": [14, 15],
+      "image": "lounge-green-panel",
+      "flip": true,
+      "fa": {
+        "nav": "سنگ طبیعی به‌کوشان",
+        "title": "سنگ طبیعی به‌کوشان، هنر گرانیت و کوارتزیت",
+        "body": [
+          "در **به‌کوشان**، تمرکز اصلی بر فرآوری دو سنگ طبیعی شاخص و بادوام، گرانیت و کوارتزیت است. این سنگ‌ها که طی میلیون‌ها سال و در اثر فرایندهای زمین‌شناسی شکل گرفته‌اند، نمایانگر استحکام، زیبایی طبیعی و اصالت ماندگار هستند.",
+          "هر بلوک گرانیت و کوارتزیت فرآوری‌شده در **به‌کوشان** اثری منحصربه‌فرد از طبیعت است که با رگه‌های پیچیده، بافت‌های غنی و تنوع رنگی‌اش به هر پروژه هویتی متفاوت می‌بخشد. تعهد ما تبدیل این مواد خام ارزشمند به محصولاتی با بالاترین استانداردهای کیفیت و طراحی است."
+        ],
+        "alt": "نشیمنی دوارتفاع با پانل بلند سنگ سبز در کنار پنجرۀ سرتاسری"
+      },
+      "en": {
+        "nav": "Natural Stone by Behkooshan",
+        "title": "Natural Stone by Behkooshan, The Art of Granite and Quartzite",
+        "body": [
+          "At Behkooshan Stone Processing Company, we specialize in two of the most durable and visually striking natural stones: granite and quartzite. These stones, formed through powerful geological processes over millions of years, embody strength, natural beauty, and timeless elegance.",
+          "Each block of granite and quartzite we process is a unique work of nature featuring rich textures, intricate veining, and color variations that bring individuality to every project. Our commitment is to transform these raw natural materials into refined products that meet the highest standards of quality and design."
+        ],
+        "alt": "A double-height lounge with a tall green stone panel beside the full-height glazing"
+      }
+    },
+
+    {
+      "id": "plate-valley",
+      "kind": "plate",
+      "pages": [16, 17],
+      "image": "quarry-valley",
+      "mono": true,
+      "fa": { "nav": "معدن", "alt": "دیوارۀ معدن و درۀ پیش روی آن، در سیاه و سفید" },
+      "en": { "nav": "The quarry", "alt": "The quarry wall and the valley below it, in black and white" }
+    },
+
+    {
+      "id": "plate-loader",
+      "kind": "plate",
+      "pages": [18, 19],
+      "image": "quarry-loader-wall",
+      "fa": { "nav": "جبهۀ کار", "alt": "دیوارۀ سفید معدن با لودر زرد در پای آن" },
+      "en": { "nav": "The working face", "alt": "The white quarry wall with a yellow loader at its foot" }
+    },
+
+    {
+      "id": "generations",
+      "kind": "divider",
+      "pages": [20, 21],
+      "fa": { "nav": "دو نسل، یک میراث", "title": "دو نسل،\nیک میراث" },
+      "en": { "nav": "Two Generations, One Legacy", "title": "Two Generations,\nOne Legacy" }
+    },
+
+    {
+      "id": "first-generation",
+      "kind": "people",
+      "pages": [22],
+      "fa": {
+        "nav": "نسل اول",
+        "tag": "نسل اول – بنیان‌گذاران",
+        "lede": [
+          "شرکت ما داستان خود را از سال‌ها پیش با تلاش و تخصص دو پیشگام در صنعت سنگ آغاز کرد.",
+          "آقای حمیدرضا ناصری‌زاده\nآقای محمدجعفر محمدی"
+        ],
+        "people": [
+          {
+            "name": "مهندس محمد جعفر محمدی",
+            "bio": "متولد بهبهان، دارای مدرک کارشناسی در رشتۀ مهندسی آب و خاک از دانشگاه علوم کشاورزی و منابع طبیعی اهواز و مدرک کارشناسی ارشد در رشتۀ خاک‌شناسی از دانشگاه ریدینگ انگلستان است. با تجربۀ تحقیقاتی بین‌المللی به مدت ۲۰ سال و تخصص در سیستم‌های آبیاری تحت فشار، از سال ۱۳۷۲ تاکنون به عنوان سهامدار و بنیان‌گذار **شرکت سنگ‌فرش ریجن کاشان** و **شرکت فرآورسنگ به‌کوشان**، مسیر توسعه و فرآوری سنگ‌های ساختمانی را هدایت کرده است."
+          },
+          {
+            "name": "مهندس حمیدرضا ناصری زاده",
+            "bio": "متولد کاشان، دارای مدرک کارشناسی مهندسی صنایع از دانشگاه ایالتی کارولینای شمالی است. در سال ۱۳۷۲ **شرکت تولید سنگ‌فرش ریجن کاشان** را تأسیس کرد. او با دیدگاه نوآورانه و مدیریت هوشمندانه، پایه‌های محکم شرکت را بنیان نهاد و امروز همچنان به عنوان عضو هیأت‌مدیره، مسیر رشد و تعالی را هدایت می‌کند."
+          }
+        ]
+      },
+      "en": {
+        "nav": "First Generation",
+        "tag": "First Generation – The Founders",
+        "lede": [
+          "Our company began its journey years ago through the dedication and expertise of two pioneers in the stone industry.",
+          "Mr. Hamid Reza Naseri Zadeh and\nMr. Mohammad Jafar Mohammadi"
+        ],
+        "people": [
+          {
+            "name": "Mr. Mohammad Jafar Mohammadi",
+            "bio": "Born in Behbahan, he holds a bachelor’s degree in Soil and Water Engineering from Agricultural Sciences and Natural Resources University of Khuzestan and a master’s degree in Soil Science from the University of Reading, UK. With over 20 years of international research experience and expertise in pressurized irrigation systems, he has been a founder and shareholder of **Rijen Kashan Cobblestone Production Company** and **Behkooshan Stone Processing Company** since 1993, leading the development and processing of building stones."
+          },
+          {
+            "name": "Mr. Hamid Reza Naseri Zadeh",
+            "bio": "Born in Kashan, he holds a Bachelor’s degree in Industrial Engineering from North Carolina State University. In 1993, he founded **Rijen Kashan Cobblestone Production Company.** With his innovative vision and smart management, he laid the strong foundations of the company and continues to guide its growth and excellence as a board member."
+          }
+        ]
+      },
+      "portraits": [null, "portrait-naseri-zadeh"]
+    },
+
+    {
+      "id": "second-generation",
+      "kind": "people",
+      "pages": [23],
+      "fa": {
+        "nav": "نسل دوم",
+        "tag": "نسل دوم – توسعه و مدیریت امروز",
+        "lede": [
+          "دو نسل از متخصصان متعهد و ماهر، با دیدگاهی مشترک و با بهره‌گیری از ماشین‌آلات مدرن در کنار استعدادهای جوان و کارآمد، تلاش می‌کنند کیفیت بالای محصول را تضمین کنند و جایگاه سنگ گرانیت را ارتقا دهند."
+        ],
+        "people": [
+          {
+            "name": "مهندس پدرام محمدی",
+            "bio": "متولد تهران، دارای مدرک کارشناسی اقتصاد نظری، سال ۱۳۸۴ در شرکت تولید سنگ‌فرش ریجن کاشان فعالیت خود را آغاز کرد و اکنون رئیس هیأت‌مدیرۀ **شرکت فرآورسنگ به‌کوشان** و **شرکت سنگ فرش ریجن کاشان** است. او با تخصص خود در اقتصاد و مدیریت، نقشی اساسی در تضمین رشد پایدار و توسعۀ کسب‌وکار شرکت ایفا کرده است."
+          },
+          {
+            "name": "طناز ناصری زاده",
+            "bio": "متولد تهران، دارای مدرک کارشناسی راهنمایی و مشاوره است؛ از سال ۱۳۹۷ به گروه مدیریتی پیوست و هم‌اکنون عضو هیأت‌مدیرۀ **شرکت فرآورسنگ به‌کوشان** است. حضور او موجب تقویت مدیریت منابع انسانی و نیز فرایندهای تصمیم‌گیری و مشاوره‌ای شرکت شده است."
+          }
+        ]
+      },
+      "en": {
+        "nav": "Second Generation",
+        "tag": "Second Generation – Today’s Leadership and Development",
+        "lede": [
+          "Two generations of committed and skilled professionals, sharing a common vision and utilizing modern machinery alongside efficient young talent, strive to ensure high product quality and to enhance the position of granite."
+        ],
+        "people": [
+          {
+            "name": "Mr. Pedram Mohammadi",
+            "bio": "Born in Tehran, he holds a bachelor’s degree in Theoretical Economics. He began his career at Rijen Kashan Cobblestone Production Company in 2005 and is currently the Chairman of **Behkooshan Stone Processing Company** and **Rijen Kashan Cobblestone Production Company**. With his expertise in economics and management, he has played a key role in ensuring sustainable growth and business development for the company."
+          },
+          {
+            "name": "Ms. Tannaz Naseri Zadeh",
+            "bio": "Born in Tehran, she holds a bachelor’s degree in Guidance and Counseling. She joined the management team in 2018 and is currently a board member of **Behkooshan Stone Processing Company**. Her presence has strengthened the company’s human resources management as well as its decision-making and advisory processes."
+          }
+        ]
+      },
+      "portraits": ["portrait-pedram", "portrait-tannaz"]
+    },
+
+    {
+      "id": "slabs",
+      "kind": "divider",
+      "pages": [24, 25],
+      "fa": {
+        "nav": "صفحات سنگی ۱۲ میلی‌متری",
+        "title": "صفحات سنگی\n۱۲ میلی‌متری",
+        "subtitle": "جدیدترین ابداع به‌کوشان"
+      },
+      "en": {
+        "nav": "12 mm Stone Slabs",
+        "title": "12 mm Stone\nSlabs, the Latest\nInnovation by\nBehkooshan"
+      }
+    },
+
+    {
+      "id": "plate-blades",
+      "kind": "plate",
+      "pages": [26, 27],
+      "image": "factory-multiwire-blades",
+      "fa": { "nav": "خط تولید", "alt": "ردیف سرهای برش مولتی‌وایر در خط تولید" },
+      "en": { "nav": "The production line", "alt": "The row of Multiwire cutting heads on the production line" }
+    },
+
+    {
+      "id": "twelve-mm",
+      "kind": "slabs",
+      "pages": [28, 29],
+      "fa": {
+        "nav": "دوازده میلی‌متر",
+        "intro": [
+          "به‌روزترین محصول **شرکت به‌کوشان** نسل جدیدی از اسلب‌های نازک گرانیت و کوارتزیت با ضخامت ۱۲ میلی‌متر است که کاملاً متناسب با نیازهای معماری مدرن و پروژه‌های اجرایی سبک‌سازی‌شده طراحی شده‌اند.",
+          "این اسلب‌های فوق‌نازک دارای مزایای فراوانی در ساخت‌وساز و معماری هستند، از جمله:"
+        ],
+        "introList": ["سبک بودن", "سهولت در حمل‌ونقل و نصب", "ظرافت در طراحی", "قیمت کمتر"],
+        "introAfter": [
+          "**شرکت فرآور سنگ به‌کوشان** با ارائه اسلب‌های گرانیت و کوارتزیت با ضخامت ۱۲ میلی‌متر، وارد نسل جدیدی از محصولات سنگی شده است که کاملاً متناسب با نیازهای معماری مدرن و پروژه‌های اجرایی سبک‌سازی شده، طراحی شده‌اند."
+        ],
+        "benefits": [
+          { "title": "سبکی", "body": "وزن کمتر بر روی سازه و کاهش هزینه‌های حمل‌ونقل." },
+          { "title": "نصب آسان‌تر", "body": "ضخامت کمتر به معنای سهولت بُرش و فرایند نصب سریع‌تر است." },
+          { "title": "زیبایی‌شناسی", "body": "طرح‌ها و رنگ‌ها بهتر دیده می‌شوند و در ترکیب با مواد مدرن، مانند فلز، شیشه و چوب، جلوۀ خاصی پیدا می‌کنند." },
+          { "title": "صرفه‌جویی اقتصادی", "body": "صرفه‌جویی اقتصادی در ضخامت کمتر، مصرف مواد خام کمتر و در نتیجه قیمت مناسب‌تر در پروژه‌های انبوه." }
+        ],
+        "environment": {
+          "title": "مزیت‌های زیست‌محیطی",
+          "body": [
+            "با استفاده از این محصول، میزان مصرف مادۀ خام به‌طور قابل‌توجهی کاهش می‌یابد. این ویژگی نه‌تنها موجب کاهش استخراج منابع طبیعی می‌شود، بلکه به کاهش ضایعات و مصرف انرژی نیز کمک می‌کند. در نتیجه، این رویکرد نقش مؤثری در توسعۀ پایدار ایفا می‌کند و هم‌راستا با اهداف زیست‌محیطی جهانی است.",
+            "همچنین این فرایند نیاز به نیروی انسانی را کاهش می‌دهد و موجب بهینه‌سازی راندمان اجرایی می‌شود."
+          ]
+        },
+        "usesIntro": "از این محصول می‌توان در فضاهای مختلف استفاده کرد، از جمله:",
+        "uses": ["نمای داخلی و خارجی ساختمان‌ها", "کفپوش فضاهای پرتردد", "دیواره‌ها و پوشش‌های دکوراتیو"],
+        "quote": "یکی از نمونه‌های موفق اجراشدۀ این محصول در ایران «پروژۀ حیات نیاوران» است که عملکرد و کیفیت زیبایی‌شناختی این محصول را در کاربردهای دنیای واقعی نشان می‌دهد.",
+        "extra": {
+          "title": "از دیگر مزایای سنگ با ضخامت کمتر",
+          "body": [
+            "متراژ به‌دست‌آمده در تولید سنگ با ضخامت ۱۲ میلی‌متر ۴۰٪ بیشتر از متراژ به‌دست‌آمده از تولید سنگ با ضخامت ۲۰ میلی‌متر می‌باشد.",
+            "در نتیجه، می‌توان سطوح بزرگ‌تر را هنگام نصب به‌طور یکنواخت‌تری پوشش داد و از پیوستگیِ بصری و کاراییِ مواد اطمینان حاصل کرد."
+          ]
+        }
+      },
+      "en": {
+        "nav": "Twelve millimetres",
+        "intro": [
+          "The latest product innovation by **Behkooshan Company** is a new generation of 12 mm thickness granite and quartzite slabs, designed to meet the demands of modern architecture and lightweight construction projects.",
+          "These ultra-thin slabs offer numerous advantages in construction and architectural applications, including reduced weight, ease of transportation and installation, refined design, and a more cost-effective solution."
+        ],
+        "benefits": [
+          { "title": "Lightweight", "body": "Reduced structural load and lower transportation costs." },
+          { "title": "Ease of Installation", "body": "The thinner profile allows for greater cutting flexibility and faster, more efficient installation." },
+          { "title": "Aesthetic Excellence", "body": "Patterns and colors appear more vibrant, and when combined with modern materials such as metal, glass, and wood, they create a distinctive and elegant visual impact." },
+          { "title": "Economic Efficiency", "body": "Reduced thickness results in lower raw material consumption, leading to a more cost-effective solution especially advantageous for large-scale and mass construction projects." }
+        ],
+        "environment": {
+          "title": "Environmental Benefits",
+          "body": [
+            "The use of this product significantly reduces raw material consumption. This not only reduces the extraction of natural resources but also helps decrease waste generation and energy usage. As a result, it contributes effectively to sustainable development and aligns with global environmental goals.",
+            "In addition, this production and installation process requires less manual labor, further optimizing operational efficiency."
+          ]
+        },
+        "usesIntro": "This product is suitable for use in various architectural and construction spaces, including:",
+        "uses": ["Interior and exterior building façades", "Flooring for high-traffic areas", "Walls and decorative surface coverings"],
+        "quote": "One of the successful implementations of this product in Iran is the Hayat Niavaran Project, which demonstrates its performance and aesthetic quality in real-world applications.",
+        "extra": {
+          "title": "Additional Advantages of Reduced Thickness",
+          "body": [
+            "Stone slabs with a thickness of 12 mm yield approximately 40% more surface area compared to slabs with a thickness of 20 mm during production.",
+            "As a result, larger areas can be covered more uniformly during installation, ensuring visual continuity and material efficiency."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "granite",
+      "kind": "stone",
+      "pages": [30],
+      "images": [
+        { "image": "granite-slab-display", "fa": "اسلب گرانیت رگه‌دار در قاب، روی زمینۀ تیره", "en": "A veined granite slab framed against a dark ground" },
+        { "image": "granite-bathroom-vanity", "fa": "سرویس بهداشتی با نما و کف گرانیت سبز", "en": "A washroom faced and floored in green granite" },
+        { "image": "granite-shower-wall", "fa": "دوش با دیوارۀ گرانیت سبز", "en": "A shower with a green granite wall" }
+      ],
+      "fa": {
+        "nav": "گرانیت",
+        "title": "گرانیت",
+        "body": [
+          "گرانیت سنگی آذرین با منشأ آتشفشانی است که حدود ۳۰٪ کوارتز و ۶۰٪ فلدسپات در ترکیب خود دارد. این ساختار باعث سختی، مقاومت سایشی بالا و استحکام فشاری فوق‌العادۀ آن می‌شود. گرانیت در طیف گسترده‌ای از رنگ‌ها و طرح‌های یکنواخت تا رگه‌دار عرضه شده و به دلیل مقاومت بالا در برابر شرایط مختلف آب‌وهوایی، گزینه‌ای ایده‌آل برای کاربردهای داخلی و خارجی ساختمان است."
+        ]
+      },
+      "en": {
+        "nav": "Granite",
+        "title": "Granite",
+        "body": [
+          "Granite is an igneous rock of volcanic origin that is composed of about 30% quartz and 60% feldspar. This structure gives it exceptional hardness, high abrasion resistance and compressive strength. Granite comes in a wide range of colors and designs, from uniform to veined, and is an ideal choice for interior and exterior building applications due to its high resistance to various weather conditions."
+        ]
+      }
+    },
+
+    {
+      "id": "quartzite",
+      "kind": "stone",
+      "pages": [31],
+      "flip": true,
+      "images": [
+        { "image": "quartzite-raw-blocks", "fa": "دو قطعۀ خام کوارتزیت سفید", "en": "Two raw blocks of white quartzite" },
+        { "image": "quartzite-countertop-edge", "fa": "لبۀ کانترتاپ کوارتزیت روشن", "en": "The edge of a pale quartzite worktop" },
+        { "image": "quartzite-block-display", "fa": "قطعۀ کوارتزیت روی پایۀ نمایش", "en": "A piece of quartzite on a display plinth" }
+      ],
+      "fa": {
+        "nav": "کوارتزیت",
+        "title": "کوارتزیت",
+        "body": [
+          "کوارتزیت از نظر ویژگی‌های فیزیکی و مکانیکی شباهت زیادی به گرانیت دارد و از سختی و دوام بالایی برخوردار است. این سنگ بسته به نوع و ساختار خود، به‌طور گسترده در فضاهای خارجی و پروژه‌هایی که نیاز به مقاومت بالا دارند مورد استفاده قرار می‌گیرد و جلوه‌ای مدرن و متمایز به فضا می‌بخشد."
+        ]
+      },
+      "en": {
+        "nav": "Quartzite",
+        "title": "Quartzite",
+        "body": [
+          "Quartzite is very similar to granite in terms of physical and mechanical features and is highly durable and hard. Depending on its type and structure, this stone is widely used in outdoor spaces and projects that require high resistance, and it gives the space a modern and distinctive aspect."
+        ]
+      }
+    },
+
+    {
+      "id": "plate-island-mono",
+      "kind": "plate",
+      "pages": [32, 33],
+      "image": "kitchen-black-white-island",
+      "fa": { "nav": "اجرا", "alt": "جزیرۀ آشپزخانه با سنگ سیاه و سفید رگه‌دار" },
+      "en": { "nav": "In place", "alt": "A kitchen island in black and white veined stone" }
+    },
+
+    {
+      "id": "plate-island-silver",
+      "kind": "plate",
+      "pages": [34, 35],
+      "image": "kitchen-silver-vein-island",
+      "fa": { "nav": "اجرا", "alt": "جزیرۀ آشپزخانه با رگه‌های نقره‌ای روی زمینۀ تیره" },
+      "en": { "nav": "In place", "alt": "A kitchen island with silver veining on a dark ground" }
+    },
+
+    {
+      "id": "plate-terrazzo",
+      "kind": "plate",
+      "pages": [36, 37],
+      "image": "kitchen-black-terrazzo",
+      "fa": { "nav": "اجرا", "alt": "آشپزخانه با نمای سنگ سیاه دانه‌دار" },
+      "en": { "nav": "In place", "alt": "A kitchen faced in speckled black stone" }
+    },
+
+    {
+      "id": "plate-counter",
+      "kind": "plate",
+      "pages": [38, 39],
+      "image": "counter-dark-green-sink",
+      "fa": { "nav": "اجرا", "alt": "کانترتاپ سنگ سبز تیره با سینک توکار" },
+      "en": { "nav": "In place", "alt": "A dark green stone worktop with an inset sink" }
+    },
+
+    {
+      "id": "plate-powder-room",
+      "kind": "plate",
+      "pages": [40],
+      "image": "powder-room-grey-stone",
+      "fa": { "nav": "اجرا", "alt": "سرویس بهداشتی با نمای سراسری سنگ طوسی" },
+      "en": { "nav": "In place", "alt": "A powder room clad throughout in grey stone" }
+    }
+  ]
+}
