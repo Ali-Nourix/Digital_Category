@@ -1,79 +1,72 @@
-# Behkooshan Digital Catalogue
+# Behkooshan Catalogue, design branch
 
-Bilingual (Persian and English) digital catalogue for Behkooshan stone
-processing. Plain static HTML and CSS, no runtime dependencies.
+A second take on the Behkooshan digital catalogue. This branch carries every
+piece of raw material the first one used and none of its design, so the next
+one can be built without inheriting the last one's decisions.
 
-The visual rules come from the Behkooshan Design Guide.
-**[docs/DESIGN.md](docs/DESIGN.md)** records how that guide is implemented
-here and where it was silent. Read it before changing anything visual.
+The first design lives on the `Behkooshan` branch and is still there to look
+at, or to lift a solved problem out of.
 
-## Structure
+## What is here
 
 ```
-index.html                    Persian home, RTL. The site root. Generated.
-about.html                    Persian About, generated
-gallery.html                  Persian gallery, generated
-products/                     Persian catalogue, generated
-en/                           The same four, in English
-404.html                      Self contained error page
-data/home.json                Single source of truth for the home page copy
-data/products.json            Single source of truth for products
-data/about.json               Single source of truth for the About copy
-data/gallery.json             Single source of truth for the gallery
-tools/build-site.mjs          Generates every data driven page
-tools/build-shape-css.py      Generates assets/css/shapes.css
-assets/css/                   fonts, tokens, site, shapes, product, about,
-                              gallery, lightbox
-assets/js/reveal.js           Reveals blocks on scroll
-assets/js/catalogue.js        Catalogue search and filtering
-assets/js/lightbox.js         Opens a photograph large, with zoom
-assets/fonts/                 Rokh (7 static weights), TT Firs Neue (variable)
-assets/images/                Photography, named for where it is used
-assets/logos/                 4 lockups in currentColor, plus favicon.svg
-assets/shapes/                21 abstract brand shapes, currentColor
-docs/DESIGN.md                Implementation notes for the design guide
+assets/fonts/          Rokh (7 static weights), TT Firs Neue (variable)
+assets/logos/          4 lockups in currentColor, plus favicon.svg
+assets/shapes/         21 abstract brand shapes, currentColor
+assets/images/         All the photography, named for what each shot is of
+assets/css/fonts.css   @font-face only. No font is declared anywhere else.
+assets/css/tokens.css  The brand palette, type scale and spacing
+assets/css/shapes.css  Logo and shape library. Generated, never hand edited.
+data/home.json         The company introduction, both languages
+data/products.json     Granite and quartzite: copy, specifications, images
+data/about.json        The About page copy, both languages
+data/gallery.json      The gallery photographs and their captions
+docs/DESIGN.md         The design guide, in Persian
+tools/build-shape-css.py   Regenerates assets/css/shapes.css from the SVGs
+index.html, en/        A placeholder page. See below.
 ```
 
-Every page on the site is generated. Editing `index.html`, `about.html` or
-anything under `products/` by hand loses the edit on the next build.
+## What is deliberately not here
 
-Persian sits at the root because the domain is `.ir` and the primary audience
-is domestic. English lives under `/en/`. Swapping them means moving the two
-folders and updating the `hreflang` links.
+Everything that was the first design: its stylesheets (`site`, `about`,
+`product`, `gallery`, `lightbox`), its scripts, its page generator
+(`tools/build-site.mjs`) and every page it produced. Rebuilding those is the
+job of this branch.
 
-Every path in the HTML is relative, so the site works both at a domain root
-and under a project sub-path such as `/Digital_Category/`.
+## The three stylesheets that came along
 
-## Scripting
+`fonts.css` and `shapes.css` are plumbing and are safe to keep as they are.
+`shapes.css` is generated: edit the SVGs and re-run the generator, never the
+stylesheet.
 
-Two scripts, and the site is fully readable without either.
+`tokens.css` needs a judgement call, because it holds two different kinds of
+value:
 
-`assets/js/reveal.js` fades blocks marked `.reveal` into place as they scroll
-in. The hidden starting state is applied by CSS only under `html.js`, a class
-set by one inline line in the head, so if the script never loads nothing was
-ever hidden. Under `prefers-reduced-motion: reduce` nothing is hidden or moved.
+- **From the design guide, and not yours to change.** The two brand greens,
+  the bone, the ink, the two type families, the per script leading and
+  tracking. Changing these changes the brand, not the design.
+- **Decisions the first design made.** The type scale steps, the spacing
+  scale, `--shell`, `--header-h`, `--control-h`, `--section-gap`, `--measure`
+  and the motion durations. Defaults, not rules. Replace them freely.
 
-When adding a `.reveal`, scroll the page to the very bottom and check the
-block actually reaches full opacity. Anything that can end up below the last
-scroll position is the case worth testing.
+`docs/DESIGN.md` is the same mixture. Sections 1 to 4 are the brand: colour,
+logo, typography, shapes. Sections 5 onward describe how the first design
+implemented them, and are reference here rather than instruction.
 
-`assets/js/catalogue.js` drives the catalogue's search box and filter chips.
-Each tile carries its own name and facet values as data attributes, so the
-script holds no product list of its own and adding a facet to
-`data/products.json` needs no change to it. The whole filter bar is hidden by
-CSS unless `html.js` is set, because a search box that cannot search is worse
-than no search box; without scripting the catalogue is the full list.
+## The placeholder page
 
-`assets/js/lightbox.js` opens a photograph full screen with its description,
-and lets you zoom. Mark an image `data-zoom` and it joins the set on that page,
-in document order. It is built on `<dialog>.showModal()`, so the focus trap,
-the inert background and Escape come from the browser rather than from script
-that has to reimplement them. The caption is the image's own alt text: one
-description, not two, so the printed line and the one a screen reader gets can
-never drift apart. Zoomed, the photograph is dragged to pan, not just
-scrolled. Without the script every photograph is still a plain `<img>`
-in the page, and the `zoom-in` cursor and the button role are only applied once
-the script has actually run.
+`index.html` and `en/index.html` exist so the branch has something to deploy
+before the design starts. They are a header, a line of text and a footer, and
+they load `assets/css/starter.css`, which says at the top of the file that it
+is disposable.
+
+They are worth keeping until the first real page exists, because rendering
+them checks three things at once: both faces load in both scripts, the brand
+colours resolve, and the logo and shape masks resolve their paths. That last
+one has broken on this project before, and it only shows up once the files
+are served from a real path rather than opened from disk.
+
+Delete all three the moment there is a real page.
 
 ## Local preview
 
@@ -82,66 +75,40 @@ python3 -m http.server 8000
 ```
 
 Then open <http://localhost:8000>. Opening the files directly with `file://`
-will not work, because the font and shape URLs resolve relative to the
-document.
-
-## Adding or editing a product
-
-1. Add the entry to `data/products.json`. Each product carries a `slug`, its
-   `facets`, an `images` block with a `main` and a `gallery`, and per language
-   a `name`, a `body` and its `specs`.
-2. Put the photographs in `assets/images/`, named for the product and for what
-   the shot is of (`granite-bathroom-vanity.webp`, not `IMG_2404.webp`).
-3. Run the generator:
-
-   ```bash
-   node tools/build-site.mjs
-   ```
-4. Commit the JSON, the images and the generated HTML together.
-
-**The prose is the client's, verbatim.** `body` holds exactly what they sent,
-and everything in `specs` is derived from that same text, with a `specSources`
-entry naming the sentence each figure came from. Nothing on a product page is
-written here. A product whose copy has not arrived yet carries
-`"awaitingCopy": true` and a `pending` line, and its page says so plainly
-rather than showing invented description.
-
-**Filters come from the data.** The bar renders one radio group per entry in
-`facets` at the top of the file, so giving products an origin or a finish is a
-data edit, not a code change. A product only declares a facet its text
-supports; it is better for a stone to be absent from a filter than to be
-listed under a claim nobody made.
-
-Both hairline grids (product specifications, About features) draw their rules
-as a spread `box-shadow` on each cell rather than as a container colour showing
-through the gaps, so a row the cells do not fill draws nothing instead of a
-grey slab. Any cell count works.
-
-After adding, removing or re-exporting a logo or shape, run
-`python3 tools/build-shape-css.py` to refresh the generated stylesheet.
+will not work: the font and mask URLs resolve relative to the document, and
+the masks are blocked cross origin.
 
 ## Deployment
 
-`.github/workflows/deploy-pages.yml` publishes the `Behkooshan` branch to
-GitHub Pages on every push. The generators run locally and their output is
-committed, so deployment itself is a plain file upload with no build step.
+`.github/workflows/deploy-pages.yml` publishes this branch to GitHub Pages on
+every push.
 
-One manual step is needed the first time: in the repository, go to
-**Settings > Pages** and set **Source** to **GitHub Actions**. Until that is
-set, the workflow runs and then fails at the deploy step.
+**A repository has one Pages site.** The `Behkooshan` branch carries the same
+workflow pointed at itself, so both branches publish to the same URL and
+whichever deployed last is what is live. Decide which branch owns the URL. To
+stop this branch publishing automatically, delete the `push:` block in the
+workflow and leave `workflow_dispatch:`, which keeps the manual trigger in the
+Actions tab.
+
+One manual step is needed the first time, if it was not done already: in the
+repository, **Settings > Pages**, set **Source** to **GitHub Actions**.
+
+## Working with the copy
+
+The prose in `data/` is the client's own text, verbatim, and it stays that
+way. Everything in a product's `specs` is derived from that same text, with a
+`specSources` entry naming the sentence each figure came from. Nothing on a
+page should say anything the client did not write, or anything that cannot be
+traced back to something they did.
 
 ## Before going live
 
-- **Font licence.** TT Firs Neue is currently the Trial file, which is not
-  licensed for public deployment. Buy a commercial web licence from TypeType
-  and replace the file in `assets/fonts/tt-firs-neue/`.
-- **Contact.** There is no contact page yet, which is why there is no call to
-  action on a product. Add the page, then the button.
-- **Dark mode.** The design guide defines no dark palette, so the site ships
-  light only. The values in `tokens.css` are derived from its light palette
-  and stay behind `[data-theme="dark"]` until they are signed off; nothing
-  switches them on automatically.
+- **Font licence.** TT Firs Neue is the Trial file, which is not licensed for
+  public deployment. Buy a commercial web licence from TypeType and replace
+  the file in `assets/fonts/tt-firs-neue/`.
 - **Two company names.** The About copy describes Rijen Kashan Cobblestone
   Production Company and the Natanz quarry in Isfahan, while the rest of the
   site is Behkooshan in Shams Abad, Tehran. Confirm how the two relate before
-  this page is published.
+  that page is published.
+- **Contact.** There is still no contact page, which is why nothing in the
+  data carries a call to action.

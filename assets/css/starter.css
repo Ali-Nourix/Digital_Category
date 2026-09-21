@@ -1,0 +1,202 @@
+/* ==========================================================================
+   Behkooshan catalogue, starter page
+
+   THIS FILE IS A PLACEHOLDER. Delete it when the real design begins.
+
+   It exists so the branch has something to deploy: a page that proves the
+   pipeline works and that the brand assets are wired up correctly. It is not
+   a design system and nothing should be built on top of it. The design system
+   for this branch is yours to write.
+
+   What it does check, by simply rendering:
+     - both brand faces load, in both scripts        (fonts.css)
+     - the brand colours resolve                      (tokens.css)
+     - the logo and shape masks resolve their paths   (shapes.css)
+
+   That last one is worth having. A mask url() inside a custom property
+   resolves against the stylesheet that consumes it rather than against the
+   document, which has broken on this project before and only shows up once
+   the files are served from a real path.
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-block-size: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--green-tint);
+  color: var(--ink);
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="fa"] body {
+  font-family: var(--font-fa);
+  line-height: var(--leading-body-fa);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-en);
+  line-height: var(--leading-body-en);
+}
+
+a {
+  color: var(--green-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--green-deep);
+  outline-offset: 3px;
+}
+
+/* --- Shell ---------------------------------------------------------------- */
+
+.shell {
+  inline-size: 100%;
+  max-inline-size: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* --- Header and footer ----------------------------------------------------
+   Green ground with paper type, the way every printed piece in the stationery
+   is built. Kept here only so the placeholder reads as Behkooshan rather than
+   as an unstyled document. */
+
+.bar {
+  background-color: var(--green-deep);
+  color: var(--paper);
+}
+
+.bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  min-block-size: var(--header-h);
+  padding-block: var(--space-4);
+}
+
+.bar a {
+  color: var(--paper);
+}
+
+.bar__logo {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  min-inline-size: 2.75rem;
+  color: var(--paper);
+}
+
+.bar__logo .bk-logo {
+  block-size: 1.375rem;
+  inline-size: auto;
+}
+
+html[lang="fa"] .bar__logo .bk-logo {
+  block-size: 1.625rem;
+}
+
+.bar :focus-visible {
+  outline-color: var(--paper);
+}
+
+/* The language switch, as a bordered chip. */
+.lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
+  min-inline-size: 2.75rem;
+  padding-inline: var(--space-3);
+  border: 1px solid rgb(255 255 255 / 0.4);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-footer {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer .bar__inner {
+  flex-wrap: wrap;
+  min-block-size: 0;
+  padding-block: var(--space-6);
+}
+
+/* --- The page itself ------------------------------------------------------ */
+
+.page {
+  flex: 1;
+  display: grid;
+  align-content: center;
+  padding-block: var(--space-24);
+}
+
+.page h1 {
+  font-size: clamp(2rem, 1.4rem + 3vw, 3.25rem);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+html[lang="fa"] .page h1 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+html[lang="en"] .page h1 {
+  font-weight: 600;
+  letter-spacing: var(--tracking-display);
+}
+
+.page p {
+  margin-block-start: var(--space-6);
+  max-inline-size: 48ch;
+  color: var(--ink-muted);
+}
+
+/* One brand shape, on the footer.
+
+   It is there as proof that assets/shapes resolves, which the logo does not
+   cover: that comes out of assets/logos, a different directory through the
+   same mask mechanism. Placing it here rather than loose on the page also
+   follows the guide, which only ever puts a shape on a green panel, tone on
+   tone, bleeding off an edge. Loose on the light ground it read as a filled
+   square with a hole in it. */
+
+.site-footer .mark {
+  position: absolute;
+  inset-block-start: -40%;
+  inset-inline-end: 8%;
+  z-index: -1;
+  inline-size: min(20vw, 12rem);
+  color: var(--green);
+  pointer-events: none;
+}
+
+@media (max-width: 43.75rem) {
+  .site-footer .mark {
+    display: none;
+  }
+}

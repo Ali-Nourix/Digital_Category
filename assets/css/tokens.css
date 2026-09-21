@@ -127,17 +127,22 @@
   --hairline: 1px;
   --border-strong: 2px;
 
-  /* --- Layout ---------------------------------------------------------- */
+  /* --- Layout ----------------------------------------------------------
+     Below this point the values are the first design's, not the brand's.
+     Replace them freely; see the branch README. */
   --shell: 77.5rem;         /* 1240px, matching the guide's own container */
   --gutter: clamp(20px, 5vw, 72px);
   --header-h: 4.5rem;       /* 72px, inside the guide's 80px cap */
   --control-h: 3rem;        /* 48px minimum for any interactive target */
 
   /* --- Motion ----------------------------------------------------------
-     Small and quiet. State feedback on anything you can touch, and one
-     scroll reveal that carries a block up into place as it enters. Nothing
-     loops, nothing moves on its own. Everything here collapses under
-     prefers-reduced-motion, in site.css. */
+     Small and quiet: state feedback on anything you can touch, and a reveal
+     that carries a block up into place as it enters. Nothing loops, nothing
+     moves on its own.
+
+     These are the first design's durations, not rules from the guide, and
+     the stylesheet that collapsed them under prefers-reduced-motion is not
+     on this branch. Whatever replaces it owes the page that media query. */
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --dur-fast: 120ms;
   --dur: 220ms;
