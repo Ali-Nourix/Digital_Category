@@ -125,6 +125,18 @@ itself no longer scrolls.
   The follow stands down the moment anything else moves the track, which it
   notices by finding a number it did not leave there; without that, a jump
   from the contents and the glide take a frame each and neither arrives.
+
+  A mouse and a trackpad are told apart, because they need different things.
+  A trackpad asks for a small distance every frame and the track can simply
+  follow it. A mouse asks for one large notch every eighty milliseconds and
+  nothing in between, so following it directly makes each notch a shove: the
+  speed leaps on the frame the notch lands and decays to almost nothing
+  before the next, which is felt as the track moving in lumps. For a mouse
+  the speed itself is eased towards what the follow asks for, which fills the
+  gaps between notches. Measured over a steady turn of the wheel, that takes
+  the variation in speed from frame to frame from 0.62 of the mean down to
+  0.21, flatter than a trackpad's own 0.25, and costs the first six frames of
+  response nothing.
 - **Page Up and Page Down** turn a panel. Home and End go to the ends.
 
 Below `60rem` wide or `38rem` tall the whole stylesheet switches off and the

@@ -38,12 +38,35 @@
      throw still glides. */
   var FOLLOW = 0.24;
 
+  /* The two kinds of wheel, and the reason there are two.
+
+     A trackpad reports a small distance every frame, so the travel it asks
+     for is already even and the track can simply follow it.
+
+     A mouse reports one large notch every eighty milliseconds or so, and
+     nothing in between. Following that directly turns each notch into a
+     shove: the speed leaps on the frame the notch lands and then decays to
+     almost nothing before the next one, which is felt as the track moving
+     in lumps rather than gliding. So for a mouse the speed itself is eased
+     towards what the follow asks for, over several frames, which fills the
+     gaps between the notches and takes the top off the shoves. The number
+     is the fraction of that difference taken per frame; the trackpad's 1
+     means no easing at all. */
+  var EASE_FINE = 1;
+  var EASE_COARSE = 0.3;
+
   /* Where the reader has asked to get to, as opposed to where the track has
      caught up to. Kept between notches so that spinning the wheel
      accumulates into one glide instead of restarting from wherever the
      animation happens to be. */
   var target = null;
   var frame = null;
+
+  /* The speed the glide is running at, and how fast that speed is allowed to
+     change. Speed is carried between frames because easing it is the whole
+     point: it cannot be recomputed from the gap alone. */
+  var speed = 0;
+  var ease = EASE_FINE;
 
   /* Where the glide left the track on its last frame. Read back after the
      assignment rather than remembered from before it, so that finding a
@@ -59,6 +82,7 @@
     frame = null;
     target = null;
     last = null;
+    speed = 0;
   }
 
   function step() {
@@ -69,13 +93,16 @@
     if (last !== null && Math.abs(track.scrollLeft - last) > 1) return stop();
 
     var gap = target - track.scrollLeft;
+    speed += (gap * FOLLOW - speed) * ease;
 
-    if (Math.abs(gap) < 0.5) {
+    /* Both, not either: the gap can close while the speed is still up, and
+       stopping there would cut the glide off at the knees. */
+    if (Math.abs(gap) < 0.5 && Math.abs(speed) < 0.5) {
       track.scrollLeft = target;
       return stop();
     }
 
-    track.scrollLeft += gap * FOLLOW;
+    track.scrollLeft += speed;
     last = track.scrollLeft;
     frame = requestAnimationFrame(step);
   }
@@ -119,6 +146,11 @@
       // deltaMode 1 is lines rather than pixels, which some mice always
       // send; normalising keeps one notch of the wheel the same distance.
       var step = event.deltaMode === 1 ? event.deltaY * 16 : event.deltaY;
+
+      // Which kind of wheel this is. Anything reporting in lines is a mouse,
+      // and so is anything moving this far in one event: a trackpad covers
+      // the same ground in a stream of small ones.
+      ease = event.deltaMode !== 0 || Math.abs(event.deltaY) >= 40 ? EASE_COARSE : EASE_FINE;
 
       // Nothing else on the page scrolls, so the gesture has nowhere else
       // to go and the browser's own handling is never what is wanted.
