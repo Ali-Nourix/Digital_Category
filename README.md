@@ -153,6 +153,11 @@ fitted. The picture is moved with one transform rather than by scrolling a
 container, which is what makes the zoom continuous and what lets it hold the
 point under the pointer still.
 
+Nothing is printed under the picture but its position in the set. The print
+carries no captions, and the description each photograph holds is alt text
+for a screen reader, not a line of copy to set under the picture: the client
+did not write it.
+
 The pointer is captured only once a drag has really started. Capturing on
 pointerdown retargets the click the browser sends afterwards to the
 capturing element, so a plain click on the picture arrives as a click on the

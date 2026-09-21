@@ -26,7 +26,6 @@
 
   var stage = dialog.querySelector(".lb__stage");
   var view = dialog.querySelector(".lb__img");
-  var caption = dialog.querySelector(".lb__caption");
   var counter = dialog.querySelector(".lb__counter");
   var template = counter.getAttribute("data-template");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -124,7 +123,6 @@
 
     view.src = img.getAttribute("data-full") || img.currentSrc || img.src;
     view.alt = img.alt;
-    caption.textContent = img.alt;
 
     var n = 0;
     counter.textContent = template.replace(/%/g, function () {

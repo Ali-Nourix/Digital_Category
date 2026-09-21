@@ -410,6 +410,11 @@ ${items}
  * whichever photograph was clicked. The glyphs are typographic rather than
  * drawn: a plus, a minus and a multiplication sign carry these three
  * controls without adding an icon set to a page that needs none.
+ *
+ * Nothing is printed under the picture but its position in the set. The
+ * print has no captions and the description each photograph carries is
+ * there for a screen reader, not to be set as a line of copy the client
+ * never wrote.
  */
 function lightbox(ctx) {
   const s = ctx.site;
@@ -427,10 +432,7 @@ function lightbox(ctx) {
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__meta">
-        <span class="lb__counter" data-template="${esc(s.counter)}"></span>
-        <span class="lb__caption"></span>
-      </p>
+      <p class="lb__counter" data-template="${esc(s.counter)}"></p>
       <div class="lb__tools">
         <button class="lb__btn" type="button" data-lb-step="-1" aria-label="${esc(s.prevImage)}">&#8249;</button>
         <button class="lb__btn" type="button" data-lb-step="1" aria-label="${esc(s.nextImage)}">&#8250;</button>
