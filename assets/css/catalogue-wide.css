@@ -1,0 +1,444 @@
+/* ==========================================================================
+   Behkooshan catalogue, read sideways
+
+   The second version. Same markup, same words, same photographs; the
+   document runs along the inline axis instead of down the block one, so the
+   Persian catalogue is read right to left and the English one left to right,
+   the way each language is read in the first place.
+
+   Everything here is an override of catalogue.css, and nothing in that file
+   knows about this one. Deleting this stylesheet, assets/js/catalogue-wide.js,
+   the wide/ directory and the two `wide` rows in tools/build-catalogue.mjs
+   removes the version completely. See docs/WIDE.md.
+
+   The whole file sits inside one media query. A sideways catalogue needs a
+   landscape window: below it the page is the upright one, unchanged.
+   ========================================================================== */
+
+@media (min-width: 60rem) and (min-height: 30rem) {
+  /* --- The track ----------------------------------------------------------
+     The document itself is the scroller. Its flex row follows `dir`, so the
+     Persian build scrolls right to left with no extra work, and the browser
+     gives the scrollbar, the keyboard and the touch swipe for free. */
+
+  html,
+  body {
+    block-size: 100%;
+    overflow: hidden;
+  }
+
+  .doc {
+    /* The height every panel is cut to. Written down once, because a
+       percentage of a grid row the browser is still sizing resolves against
+       nothing and lets a figure grow past the panel. */
+    --panel-h: calc(100dvh - var(--bar-h));
+
+    display: flex;
+    align-items: stretch;
+    block-size: 100dvh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    /* Proximity, not mandatory: several panels are wider than the window and
+       have to be scrollable through rather than snapped past. */
+    scroll-snap-type: x proximity;
+    scroll-padding-inline-start: 0;
+  }
+
+  /* A section is a panel: full height, a width of its own, and no vertical
+     padding, because the height it gets is all the height there is. */
+  .sec {
+    --panel: 100vw;
+
+    flex: 0 0 auto;
+    display: grid;
+    /* One row, a definite fraction of a panel that is itself definite. Left
+       to size itself from its content, anything inside asking for a
+       percentage of it gets no answer. */
+    grid-template-rows: minmax(0, 1fr);
+    inline-size: var(--panel);
+    block-size: 100%;
+    padding-block: 0;
+    padding-inline: 0;
+    overflow: hidden;
+    scroll-snap-align: start;
+  }
+
+  .sec > * {
+    min-block-size: 0;
+  }
+
+  /* The shell inside a panel stops being a centred column: the panel is the
+     column, and its width is the measure. */
+  .sec > .shell {
+    inline-size: 100%;
+    max-inline-size: none;
+    block-size: 100%;
+    margin-inline: 0;
+  }
+
+  /* The page turn between two panels, which the upright version draws as a
+     hairline across the top of a section. */
+  .sec + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
+    inset-block: var(--frame);
+    inset-inline-start: 0;
+    inset-inline-end: auto;
+    inline-size: var(--hairline);
+    block-size: auto;
+  }
+
+  .sec--plate + .sec::before,
+  .sec--divider + .sec::before {
+    content: none;
+  }
+
+  /* Panels wider than one window: the two spreads the print sets dense, and
+     the biographies, which want room for two people and their lede. Given
+     one window each they would have to be set too small to read. */
+  .sec--columns {
+    --panel: 178vw;
+  }
+
+  .sec--slabs {
+    --panel: 152vw;
+  }
+
+  .sec--people {
+    --panel: 124vw;
+  }
+
+  /* Just under one window keeps the edge of the next panel in view, which is
+     what tells a reader the document goes sideways. */
+  .sec--plate {
+    --panel: 88vw;
+  }
+
+  /* --- The bar ------------------------------------------------------------
+     The reading line follows the track rather than the document, which is no
+     longer the thing that scrolls. */
+
+  @supports (animation-timeline: scroll()) and (timeline-scope: --page) {
+    html {
+      timeline-scope: --page;
+    }
+
+    .doc {
+      scroll-timeline: --page inline;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .progress {
+        animation-timeline: --page;
+      }
+    }
+  }
+
+  /* --- Cover -------------------------------------------------------------- */
+
+  .cover {
+    min-block-size: 0;
+    block-size: 100%;
+    padding-block: 0;
+    align-content: center;
+  }
+
+  /* --- Divider ------------------------------------------------------------
+     The green half and the title half, side by side, filling the panel. */
+
+  .divider {
+    min-block-size: 0;
+    block-size: 100%;
+    grid-template-columns: 5fr 7fr;
+  }
+
+  /* Centred in what is left of the panel rather than pushed against the
+     green. Upright, the title sat at the top of a page and the space below
+     it was the page; sideways there is no below, only a field either side. */
+  .divider__face {
+    padding-block: 0;
+    justify-content: center;
+    max-inline-size: none;
+  }
+
+  /* --- Feature ------------------------------------------------------------
+     Photograph and type were already side by side. Here the photograph runs
+     the full height of the panel and the type takes the rest, so the split
+     falls on the panel's own middle rather than on the shell's. */
+
+  .feature {
+    block-size: 100%;
+    grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+    align-items: stretch;
+  }
+
+  .feature__figure {
+    block-size: 100%;
+    aspect-ratio: auto;
+    margin-inline-start: 0;
+  }
+
+  .feature__text {
+    display: grid;
+    align-content: center;
+    padding-inline: clamp(2rem, 4vw, 4rem);
+  }
+
+  .feature__inner {
+    max-inline-size: 38rem;
+  }
+
+  .feature--flip {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+  }
+
+  .feature--flip .feature__figure {
+    margin-inline-end: 0;
+  }
+
+  /* The lead composition put the photograph above a short block of type.
+     Inside a panel that is all height and no spare room it becomes the same
+     side by side split as the others, with the type on a narrower measure
+     because there is less of it. */
+  .feature--lead {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 0;
+  }
+
+  .feature--lead .feature__figure {
+    block-size: 100%;
+  }
+
+  .feature--lead .feature__text {
+    padding-inline: clamp(2rem, 4vw, 4rem);
+  }
+
+  .feature--lead .feature__inner {
+    display: block;
+    max-inline-size: 32rem;
+    margin-inline: 0;
+  }
+
+  .feature--lead .feature__inner > * {
+    grid-column: auto;
+  }
+
+  /* --- Columns ------------------------------------------------------------
+     Three blocks of type across the panel, and the eight photographs as a
+     band of four by two beside them, which is the shape the print gives them
+     down the gutter of the spread. */
+
+  .sec--columns > .shell {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2rem, 4vw, 4rem);
+    align-items: center;
+  }
+
+  .columns__text {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: clamp(1.75rem, 2.4vw, 3rem);
+    align-items: start;
+  }
+
+  .columns__block:nth-child(2) {
+    grid-row: auto;
+  }
+
+  .band {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-block-start: 0;
+    align-self: center;
+  }
+
+  /* --- Plate -------------------------------------------------------------- */
+
+  .plate {
+    block-size: 100%;
+  }
+
+  /* --- People -------------------------------------------------------------
+     The tag and its lede lead the panel, the two biographies follow. */
+
+  .sec--people > .shell {
+    display: grid;
+    grid-template-columns: minmax(15rem, 4fr) minmax(0, 9fr);
+    column-gap: clamp(2.5rem, 4vw, 4.5rem);
+    align-content: center;
+  }
+
+  .sec--people .tag {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    justify-self: start;
+  }
+
+  .sec--people .people__lede {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+    max-inline-size: none;
+  }
+
+  .sec--people .people__list {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+    margin-block-start: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .person:nth-child(-n + 2) {
+    padding-block-start: 0;
+    border-block-start: 0;
+  }
+
+  /* --- Slabs --------------------------------------------------------------
+     Four columns rather than two, because the height of a window is about
+     half the height this text had in the upright version. The two column
+     wrappers step out of the way so every block is a grid item of its own
+     and the browser can balance them across four tracks. */
+
+  .slabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: clamp(1.75rem, 2.4vw, 3rem);
+    row-gap: var(--space-5);
+    align-items: start;
+    align-content: center;
+    block-size: 100%;
+  }
+
+  .slabs__col {
+    display: contents;
+  }
+
+  /* --- Stone --------------------------------------------------------------
+     Already a text column beside a block of figures. The sticky column has
+     nothing to stick to here, and the figures take the panel's height. */
+
+  .stone {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+    align-items: center;
+    block-size: 100%;
+  }
+
+  .stone__text {
+    position: static;
+  }
+
+  /* Three tall figures in a row rather than one beside a stack. Stacked,
+     two squares do not fit a panel's height beside a figure that already
+     fills it, and a catalogue running sideways would rather read across
+     anyway. */
+  .stone__figures {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: minmax(0, 1fr);
+    block-size: min(calc(var(--panel-h) - 4rem), 42rem);
+  }
+
+  .stone__figures figure,
+  .stone__figures figure:first-child {
+    grid-column: auto;
+    grid-row: auto;
+    aspect-ratio: auto;
+    block-size: 100%;
+  }
+
+  /* --- Footer -------------------------------------------------------------
+     The last panel of the track rather than a band under the document. It
+     keeps the angled edge, turned to face the way the reader is travelling,
+     and still overlaps the photograph before it by exactly that cut. */
+
+  .foot {
+    flex: 0 0 auto;
+    display: grid;
+    align-content: center;
+    inline-size: min(100vw, 46rem);
+    block-size: 100%;
+    margin-block-start: 0;
+    margin-inline-start: calc(var(--cut) * -1);
+    padding-block: 0;
+    padding-inline: 0;
+    scroll-snap-align: start;
+    clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  html[dir="rtl"] .foot {
+    clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% 100%, 0 100%);
+  }
+
+  .foot > .shell {
+    inline-size: 100%;
+    max-inline-size: none;
+    margin-inline: 0;
+    padding-inline-start: calc(var(--frame) + var(--cut));
+  }
+
+  .foot__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: clamp(2rem, 4vh, 3rem);
+  }
+
+  /* --- Motion -------------------------------------------------------------
+     The same four moves. Two of them have an axis, and it is the axis the
+     document runs on. */
+
+  @media (prefers-reduced-motion: no-preference) {
+    .js .reveal.is-out {
+      transform: translateX(var(--reveal-shift, 1.5rem));
+    }
+
+    html[dir="rtl"] .js .reveal.is-out {
+      transform: translateX(calc(var(--reveal-shift, 1.5rem) * -1));
+    }
+
+    .js .divider.is-out .divider__green {
+      clip-path: inset(0 100% 0 0);
+    }
+
+    html[dir="rtl"] .js .divider.is-out .divider__green {
+      clip-path: inset(0 0 0 100%);
+    }
+  }
+
+  /* Drift reads the inline axis of the track and moves the photograph along
+     it. Progressive enhancement, as in the upright version: the photograph
+     is already in place and correctly framed without it. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .plate img,
+      .feature__figure img {
+        block-size: 100%;
+        inline-size: 114%;
+        animation: drift-inline linear both;
+        animation-timeline: view(inline);
+        animation-range: cover 0% cover 100%;
+      }
+
+      html[dir="rtl"] .plate img,
+      html[dir="rtl"] .feature__figure img {
+        animation-name: drift-inline-rtl;
+      }
+    }
+  }
+}
+
+@keyframes drift-inline {
+  from {
+    transform: translateX(-12.2%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes drift-inline-rtl {
+  from {
+    transform: translateX(12.2%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

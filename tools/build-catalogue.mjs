@@ -3,11 +3,24 @@
  *
  *   node tools/build-catalogue.mjs
  *
- * Writes index.html (Persian, rtl) and en/index.html (English, ltr). The two
- * are separate files on purpose: only one language is ever on screen, the
- * direction is set on <html> rather than switched at runtime, and the page
- * works with no JavaScript at all. The switch in the bar is a plain link,
- * and script keeps a fragment on it so it lands on the section being read.
+ * Writes four documents: two languages by two ways of reading the same
+ * catalogue.
+ *
+ *   index.html        Persian, rtl, read downwards
+ *   en/index.html     English, ltr, read downwards
+ *   wide/index.html   Persian, rtl, read sideways, right to left
+ *   wide/en/          English, ltr, read sideways, left to right
+ *
+ * The languages are separate files on purpose: only one is ever on screen,
+ * the direction is set on <html> rather than switched at runtime, and the
+ * page works with no JavaScript at all. Both switches in the bar are plain
+ * links, and script keeps a fragment on them so either one lands on the
+ * section being read.
+ *
+ * The sideways build is the same markup and the same content. It differs by
+ * one stylesheet and one script, both named `-wide`, and by the directory it
+ * is written to. Removing it is four deletions and one line here; see
+ * docs/WIDE.md.
  *
  * Section order is the order of the array in the data file, which is the
  * order of the printed pages.
@@ -441,16 +454,31 @@ function lightbox(ctx) {
   </dialog>`;
 }
 
-function document_(lang) {
+/**
+ * The four documents, and how each one reaches the other three.
+ *
+ * `axis` goes on <html> and is the one thing the shared script reads to know
+ * which way the document runs. `wide` is what the sideways build adds.
+ */
+const BUILDS = [
+  { mode: "flow", lang: "fa", out: "index.html",         root: "",       lang_: "en/",      view: "wide/" },
+  { mode: "flow", lang: "en", out: "en/index.html",      root: "../",    lang_: "../",      view: "../wide/en/" },
+  { mode: "wide", lang: "fa", out: "wide/index.html",    root: "../",    lang_: "en/",      view: "../" },
+  { mode: "wide", lang: "en", out: "wide/en/index.html", root: "../../", lang_: "../",      view: "../../en/" },
+];
+
+function document_(build) {
+  const { mode, lang, root } = build;
   const site = data.site[lang];
   const other = lang === "fa" ? "en" : "fa";
-  const root = lang === "fa" ? "" : "../";
+  const wide = mode === "wide";
   let eagerLeft = 1;
 
   const ctx = {
     lang,
     root,
     site,
+    mode,
     lockup: lang === "fa" ? "bk-logo--lockup-fa" : "bk-logo--lockup",
     // Only the first photograph in the document is worth pre-empting the
     // lazy loader for; everything else is below the fold by definition.
@@ -460,7 +488,7 @@ function document_(lang) {
   const body = data.sections.map((sec) => section(ctx, sec)).join("\n\n");
 
   return `<!DOCTYPE html>
-<html lang="${site.lang}" dir="${site.dir}">
+<html lang="${site.lang}" dir="${site.dir}" data-axis="${wide ? "inline" : "block"}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -470,9 +498,9 @@ function document_(lang) {
   <meta name="color-scheme" content="light">
 
   <link rel="icon" href="${root}assets/logos/favicon.svg" type="image/svg+xml">
-  <link rel="canonical" href="${data.site.url}/${lang === "fa" ? "" : "en/"}">
-  <link rel="alternate" hreflang="fa" href="${data.site.url}/">
-  <link rel="alternate" hreflang="en" href="${data.site.url}/en/">
+  <link rel="canonical" href="${data.site.url}/${wide ? "wide/" : ""}${lang === "fa" ? "" : "en/"}">
+  <link rel="alternate" hreflang="fa" href="${data.site.url}/${wide ? "wide/" : ""}">
+  <link rel="alternate" hreflang="en" href="${data.site.url}/${wide ? "wide/" : ""}en/">
   <link rel="alternate" hreflang="x-default" href="${data.site.url}/">
 
   <meta property="og:type" content="website">
@@ -490,7 +518,9 @@ ${
   <link rel="stylesheet" href="${root}assets/css/fonts.css">
   <link rel="stylesheet" href="${root}assets/css/tokens.css">
   <link rel="stylesheet" href="${root}assets/css/shapes.css">
-  <link rel="stylesheet" href="${root}assets/css/catalogue.css">
+  <link rel="stylesheet" href="${root}assets/css/catalogue.css">${
+  wide ? `\n  <link rel="stylesheet" href="${root}assets/css/catalogue-wide.css">` : ""
+}
 
   <script>document.documentElement.classList.add("js");</script>
 </head>
@@ -506,7 +536,11 @@ ${
 
       <div class="bar__end">
         <button class="chip" type="button" data-contents-open hidden>${esc(site.contents)}</button>
-        <a class="chip" href="${lang === "fa" ? "en/" : "../"}" lang="${other}"
+        <a class="chip" href="${build.view}" data-view-swap
+           aria-label="${esc(wide ? site.thisViewLabel : site.otherViewLabel)}">${
+             esc(wide ? site.thisView : site.otherView)
+           }</a>
+        <a class="chip" href="${build.lang_}" lang="${other}"
            data-lang-swap
            hreflang="${other}" aria-label="${esc(site.otherLabel)}">${esc(site.other)}</a>
       </div>
@@ -519,13 +553,13 @@ ${contents(ctx)}
 
 ${lightbox(ctx)}
 
+  <!-- Sideways, the footer is the last panel of the track, so it lives
+       inside the scroller. role="contentinfo" keeps it a landmark there. -->
   <main class="doc" id="doc">
 
 ${body}
-
-  </main>
-
-  <footer class="foot">
+${wide ? "" : "\n  </main>\n"}
+  <footer class="foot"${wide ? ' role="contentinfo"' : ""}>
     <div class="shell foot__inner">
       <div class="foot__brand">
         <span class="bk-logo ${ctx.lockup}" role="img" aria-label="${esc(data.site.brand)}"></span>
@@ -559,19 +593,21 @@ ${data.site.social
       </div>
     </div>
   </footer>
-
-  <script src="${root}assets/js/catalogue.js" defer></script>
+${wide ? "\n  </main>\n" : ""}
+  <script src="${root}assets/js/catalogue.js" defer></script>${
+  wide ? `\n  <script src="${root}assets/js/catalogue-wide.js" defer></script>` : ""
+}
   <script src="${root}assets/js/lightbox.js" defer></script>
 </body>
 </html>
 `;
 }
 
-for (const lang of ["fa", "en"]) {
-  const out = lang === "fa" ? resolve(repo, "index.html") : resolve(repo, "en/index.html");
+for (const build of BUILDS) {
+  const out = resolve(repo, build.out);
   mkdirSync(dirname(out), { recursive: true });
-  writeFileSync(out, document_(lang));
-  console.log(`${lang}  ${out.replace(repo + "/", "")}`);
+  writeFileSync(out, document_(build));
+  console.log(`${build.mode}  ${build.lang}  ${build.out}`);
 }
 
 console.log(`${data.sections.length} sections, printed pages 1 to 40`);

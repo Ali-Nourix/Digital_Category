@@ -48,6 +48,10 @@
       "counter": "% از %",
       "openImage": "دیدن بزرگ‌تر",
       "contactTitle": "اطلاعات تماس",
+      "otherView": "نمای افقی",
+      "otherViewLabel": "خواندن در نمای افقی",
+      "thisView": "نمای عمودی",
+      "thisViewLabel": "خواندن در نمای عمودی",
       "address": "تهران، شهرک صنعتی شمس‌آباد، خیابان زکریا، کوچه سنبل ۵، پلاک ۲۸۶ (۱۰)",
       "phones": [
         { "label": "۰۲۱ ۵۳۹۱۴", "tel": "+982153914" },
@@ -74,6 +78,10 @@
       "counter": "% of %",
       "openImage": "View larger",
       "contactTitle": "Contact",
+      "otherView": "Sideways",
+      "otherViewLabel": "Read in the sideways view",
+      "thisView": "Upright",
+      "thisViewLabel": "Read in the upright view",
       "address": "No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran",
       "phones": [
         { "label": "021 53914", "tel": "+982153914" },

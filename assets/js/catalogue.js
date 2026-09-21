@@ -22,6 +22,13 @@
   var root = document.documentElement;
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+  // Which way the document runs. The upright build leaves this alone; the
+  // sideways one sets data-axis="inline" on <html>, and the two observers
+  // below are the only things in this file that care. Removing the sideways
+  // version means removing this line and taking the first branch of each
+  // pair that reads it.
+  var sideways = root.dataset.axis === "inline";
+
   /* ---------------------------------------------------------------- reveal */
 
   function setUpReveal() {
@@ -37,9 +44,13 @@
     // Only hide what the reader cannot see yet. Hiding everything and then
     // letting the observer undo it one frame later is what makes a page
     // flash on load.
-    var fold = window.innerHeight * 0.94;
+    var fold = (sideways ? window.innerWidth : window.innerHeight) * 0.94;
     targets.forEach(function (el) {
-      if (el.getBoundingClientRect().top > fold) el.classList.add("is-out");
+      var box = el.getBoundingClientRect();
+      var ahead = sideways
+        ? Math.max(box.left, window.innerWidth - box.right)
+        : box.top;
+      if (ahead > fold) el.classList.add("is-out");
     });
 
     var observer = new IntersectionObserver(
@@ -48,11 +59,11 @@
           entry.target.classList.toggle("is-out", !entry.isIntersecting);
         });
       },
-      // The bottom edge is pulled in a little so a block starts arriving
+      // The trailing edge is pulled in a little so a block starts arriving
       // just before it would otherwise be flush with the window edge. Small,
       // because anything larger risks leaving the last block of the document
-      // unrevealed at the bottom of the scroll.
-      { rootMargin: "0px 0px -6% 0px" }
+      // unrevealed at the end of the scroll.
+      { rootMargin: sideways ? "0px -6% 0px -6%" : "0px 0px -6% 0px" }
     );
 
     targets.forEach(function (el) {
@@ -64,7 +75,9 @@
 
   function setUpPosition() {
     var sections = Array.prototype.slice.call(document.querySelectorAll("[data-section]"));
-    var swap = document.querySelector("[data-lang-swap]");
+    var swaps = Array.prototype.slice.call(
+      document.querySelectorAll("[data-lang-swap], [data-view-swap]")
+    );
     var links = {};
 
     Array.prototype.forEach.call(
@@ -74,9 +87,11 @@
       }
     );
 
-    if (!sections.length || !("IntersectionObserver" in window)) return;
+    if (!sections.length || !swaps.length || !("IntersectionObserver" in window)) return;
 
-    var base = swap ? swap.getAttribute("href").split("#")[0] : null;
+    var bases = swaps.map(function (a) {
+      return a.getAttribute("href").split("#")[0];
+    });
     var current = null;
 
     function mark(id) {
@@ -84,7 +99,9 @@
       if (current && links[current]) links[current].removeAttribute("aria-current");
       current = id;
       if (links[id]) links[id].setAttribute("aria-current", "true");
-      if (base !== null) swap.setAttribute("href", base + "#" + id);
+      swaps.forEach(function (a, i) {
+        a.setAttribute("href", bases[i] + "#" + id);
+      });
     }
 
     // A band across the middle of the window: whichever section crosses it
@@ -95,7 +112,7 @@
           if (entry.isIntersecting) mark(entry.target.id);
         });
       },
-      { rootMargin: "-45% 0px -45% 0px" }
+      { rootMargin: sideways ? "0px -45% 0px -45%" : "-45% 0px -45% 0px" }
     );
 
     sections.forEach(function (section) {
@@ -137,7 +154,8 @@
       dialog.close();
       target.scrollIntoView({
         behavior: reduced.matches ? "auto" : "smooth",
-        block: "start",
+        block: sideways ? "nearest" : "start",
+        inline: sideways ? "start" : "nearest",
       });
       // The section is not focusable on its own, so give the reader's
       // keyboard somewhere to land at the other end of the journey.

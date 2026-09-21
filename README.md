@@ -4,11 +4,22 @@ The forty page print catalogue, rebuilt as a single scrolling web document so
 it can be sent as a link and read without the printed copy. Same sequence,
 same photographs, same words.
 
-Two files, one per language: `index.html` is Persian and right to left,
-`en/index.html` is English and left to right. Only one language is ever on
-screen. The switch in the bar is a plain link between them, and script keeps a
-fragment on it so the switch lands on whatever section is being read rather
-than at the top.
+Four documents: two languages by two ways of reading the same catalogue.
+
+    /           upright, Persian, right to left
+    /en/        upright, English, left to right
+    /wide/      sideways, Persian, right to left
+    /wide/en/   sideways, English, left to right
+
+Only one language is ever on screen. Both switches in the bar are plain links,
+and script keeps a fragment on them so either one lands on whatever section is
+being read rather than at the top.
+
+The sideways version runs the catalogue along the page instead of down it, so
+the document travels the way its language is read. It is the same markup and
+the same content; it differs by one stylesheet, one script and the directory
+it is written to, and it is built to be removed or merged in one move. See
+[docs/WIDE.md](docs/WIDE.md).
 
 ```bash
 python3 -m http.server 8000     # then open http://localhost:8000
@@ -23,8 +34,9 @@ and the masks are blocked cross origin.
 node tools/build-catalogue.mjs        # data/catalogue.json  ->  the two pages
 ```
 
-The generated HTML is committed, so deploying is a file upload and nothing
-else. Edit `data/catalogue.json` and re-run; never edit `index.html` by hand.
+All four documents are generated. The HTML is committed, so deploying is a
+file upload and nothing else. Edit `data/catalogue.json` and re-run; never
+edit `index.html` by hand.
 
 ```bash
 python3 tools/derive-images.py SRC    # the client's originals -> assets/images
@@ -46,6 +58,9 @@ assets/css/catalogue.css   The whole design. Logical properties throughout,
                            so one stylesheet serves both directions
 assets/js/catalogue.js     Reveal, reading position, contents. No scroll listener
 assets/js/lightbox.js      The photograph viewer: zoom, pan, pinch, wheel
+assets/css/catalogue-wide.css  The sideways version's layout. One media query
+assets/js/catalogue-wide.js    The sideways version's wheel and page keys
+docs/WIDE.md               What the sideways version is, and how to remove it
 assets/icons/              Telegram, WhatsApp and Instagram, from Simple Icons
 assets/css/tokens.css      The brand palette, type scale and spacing
 assets/css/fonts.css       @font-face only
