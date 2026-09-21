@@ -68,15 +68,35 @@ function srcset(ctx, slug) {
 function picture(ctx, slug, { alt, sizes, eager = false, indent = "" }) {
   const entry = images[slug];
   const pad = " ".repeat(indent);
+  const widest = entry.widths[entry.widths.length - 1];
+  const focus = entry.focus && entry.focus !== "50% 50%";
   return [
     `${pad}<img`,
     `${pad}  src="${ctx.root}assets/images/${slug}-${entry.widths[0]}.webp"`,
     `${pad}  srcset="${srcset(ctx, slug)}"`,
     `${pad}  sizes="${sizes}"`,
     `${pad}  width="${entry.width}" height="${entry.height}"`,
+    // What the viewer shows. The page may only ever need the 400px step of
+    // a small figure; opened full screen it wants the largest there is.
+    `${pad}  data-full="${ctx.root}assets/images/${slug}-${widest}.webp"`,
+    // Which part of the picture has to survive the crop. Only written where
+    // the subject is off centre; see the focus table in derive-images.py.
+    ...(focus ? [`${pad}  style="object-position: ${entry.focus}"`] : []),
     `${pad}  alt="${esc(alt)}"`,
     `${pad}  loading="${eager ? "eager" : "lazy"}" decoding="async"${eager ? ' fetchpriority="high"' : ""}>`,
   ].join("\n");
+}
+
+/**
+ * A photograph that opens in the viewer. The button covers the figure, so
+ * the photograph itself is the target, and it carries the label rather than
+ * the image, which keeps the alt text describing the picture.
+ */
+function opener(ctx, alt, indent = "") {
+  const pad = " ".repeat(indent);
+  return `${pad}<button class="lb-open" type="button">
+${pad}  <span class="u-visually-hidden">${esc(ctx.site.openImage)}: ${esc(alt)}</span>
+${pad}</button>`;
 }
 
 /* ---------------------------------------------------------------- sections */
@@ -134,13 +154,14 @@ const RENDER = {
     if (sec.lead) classes.push("feature--lead");
     if (sec.mono) classes.push("feature--mono");
 
-    const figure = `        <figure class="feature__figure place">
+    const figure = `        <figure class="feature__figure place zoomable" data-zoom>
 ${picture(ctx, sec.image, {
   alt: copy.alt,
   sizes: sec.lead ? "(min-width: 60rem) 84rem, 100vw" : "(min-width: 60rem) 49rem, 100vw",
   eager: ctx.eager(),
   indent: 10,
 })}
+${opener(ctx, copy.alt, 10)}
         </figure>`;
 
     const text = [
@@ -188,12 +209,13 @@ ${text}
 
     const band = sec.images
       .map(
-        (fig) => `          <figure class="place">
+        (fig) => `          <figure class="place zoomable cut" data-zoom>
 ${picture(ctx, fig.image, {
   alt: fig[ctx.lang],
   sizes: "(min-width: 48rem) 25vw, 50vw",
   indent: 12,
 })}
+${opener(ctx, fig[ctx.lang], 12)}
           </figure>`
       )
       .join("\n");
@@ -209,8 +231,9 @@ ${band}
   },
 
   plate(ctx, sec, copy) {
-    return `      <figure class="plate place${sec.mono ? " plate--mono" : ""}">
+    return `      <figure class="plate place zoomable${sec.mono ? " plate--mono" : ""}" data-zoom>
 ${picture(ctx, sec.image, { alt: copy.alt, sizes: "100vw", indent: 8 })}
+${opener(ctx, copy.alt, 8)}
       </figure>`;
   },
 
@@ -223,12 +246,13 @@ ${picture(ctx, sec.image, { alt: copy.alt, sizes: "100vw", indent: 8 })}
         const slug = sec.portraits[i];
         const inner = stagger();
         const portrait = slug
-          ? `          <div class="person__portrait">
+          ? `          <div class="person__portrait zoomable cut" data-zoom>
 ${picture(ctx, slug, {
   alt: person.name,
-  sizes: "(min-width: 48rem) 176px, 136px",
+  sizes: "(min-width: 48rem) 152px, 136px",
   indent: 12,
 })}
+${opener(ctx, person.name, 12)}
           </div>`
           : "";
         return `        <div class="person${slug ? "" : " person--no-portrait"}">
@@ -322,12 +346,13 @@ ${second}
     const step = stagger();
     const figures = sec.images
       .map(
-        (fig) => `            <figure class="place">
+        (fig) => `            <figure class="place zoomable cut" data-zoom>
 ${picture(ctx, fig.image, {
   alt: fig[ctx.lang],
   sizes: "(min-width: 60rem) 30vw, 50vw",
   indent: 14,
 })}
+${opener(ctx, fig[ctx.lang], 14)}
             </figure>`
       )
       .join("\n");
@@ -365,24 +390,12 @@ ${RENDER[sec.kind](ctx, sec, copy)}
 
 function contents(ctx) {
   const items = data.sections
-    .map((sec) => {
-      const copy = sec[ctx.lang];
-      const pages = sec.pages;
-      const range = pages.length > 1 ? `${pages[0]}-${pages[pages.length - 1]}` : `${pages[0]}`;
-      return `          <li><a href="#${sec.id}">
-            <span class="contents__label">${esc(copy.nav)}
-              <span class="contents__pages">${ctx.lang === "fa" ? "صفحۀ چاپی" : "printed page"} ${esc(
-                ctx.lang === "fa" ? toFa(range) : range
-              )}</span>
-            </span>
-          </a></li>`;
-    })
+    .map((sec) => `          <li><a href="#${sec.id}">${esc(sec[ctx.lang].nav)}</a></li>`)
     .join("\n");
 
   return `  <dialog class="contents" id="contents" aria-label="${esc(ctx.site.contents)}">
     <div class="contents__inner">
       <div class="contents__head">
-        <p class="contents__title">${esc(ctx.site.contents)}</p>
         <button class="chip" type="button" data-contents-close>${esc(ctx.site.contentsClose)}</button>
       </div>
       <ol class="contents__list">
@@ -392,8 +405,39 @@ ${items}
   </dialog>`;
 }
 
-/** Persian pages are numbered in Persian in the print, so they are here too. */
-const toFa = (s) => s.replace(/[0-9]/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[Number(d)]);
+/**
+ * The viewer. One dialog for the whole document; lightbox.js fills it from
+ * whichever photograph was clicked. The glyphs are typographic rather than
+ * drawn: a plus, a minus and a multiplication sign carry these three
+ * controls without adding an icon set to a page that needs none.
+ */
+function lightbox(ctx) {
+  const s = ctx.site;
+  return `  <dialog class="lb" id="lightbox" aria-label="${esc(s.openImage)}">
+    <div class="lb__stage">
+      <img class="lb__img" alt="">
+    </div>
+
+    <div class="lb__bar lb__bar--top">
+      <div class="lb__tools">
+        <button class="lb__btn" type="button" data-lb-zoom="-1" aria-label="${esc(s.zoomOut)}">&#8722;</button>
+        <button class="lb__btn" type="button" data-lb-zoom="1" aria-label="${esc(s.zoomIn)}">+</button>
+        <button class="lb__btn" type="button" data-lb-close aria-label="${esc(s.closeImage)}">&#10005;</button>
+      </div>
+    </div>
+
+    <div class="lb__bar lb__bar--bottom">
+      <p class="lb__meta">
+        <span class="lb__counter" data-template="${esc(s.counter)}"></span>
+        <span class="lb__caption"></span>
+      </p>
+      <div class="lb__tools">
+        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="${esc(s.prevImage)}">&#8249;</button>
+        <button class="lb__btn" type="button" data-lb-step="1" aria-label="${esc(s.nextImage)}">&#8250;</button>
+      </div>
+    </div>
+  </dialog>`;
+}
 
 function document_(lang) {
   const site = data.site[lang];
@@ -471,6 +515,8 @@ ${
 
 ${contents(ctx)}
 
+${lightbox(ctx)}
+
   <main class="doc" id="doc">
 
 ${body}
@@ -478,15 +524,42 @@ ${body}
   </main>
 
   <footer class="foot">
+    <span class="bk-shape bk-shape--03 foot__shape" aria-hidden="true"></span>
+
     <div class="shell foot__inner">
-      <span class="bk-logo ${ctx.lockup}" role="img" aria-label="${esc(data.site.brand)}"></span>
-      <p class="foot__links">
-        <a href="${data.site.url}" lang="en">behkooshan.ir</a>
-      </p>
+      <div class="foot__brand">
+        <span class="bk-logo ${ctx.lockup}" role="img" aria-label="${esc(data.site.brand)}"></span>
+        <p class="foot__site"><a href="${data.site.url}" lang="en">behkooshan.ir</a></p>
+      </div>
+
+      <div>
+        <h2 class="foot__title">${esc(site.contactTitle)}</h2>
+        <address class="foot__contact">
+          <span class="foot__address">${esc(site.address)}</span>
+${site.phones
+  .map(
+    (phone) =>
+      `          <a class="foot__tel" href="tel:${esc(phone.tel)}" dir="ltr">${esc(phone.label)}</a>`
+  )
+  .join("\n")}
+        </address>
+
+        <div class="foot__social">
+${data.site.social
+  .map(
+    (link) => `          <a href="${esc(link.href)}" rel="me noopener" target="_blank"
+             aria-label="${esc(link.name)}">
+            <span class="bk-icon bk-icon--${link.icon}" aria-hidden="true"></span>
+          </a>`
+  )
+  .join("\n")}
+        </div>
+      </div>
     </div>
   </footer>
 
   <script src="${root}assets/js/catalogue.js" defer></script>
+  <script src="${root}assets/js/lightbox.js" defer></script>
 </body>
 </html>
 `;

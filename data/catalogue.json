@@ -23,6 +23,11 @@
   "site": {
     "brand": "Behkooshan",
     "url": "https://behkooshan.ir",
+    "social": [
+      { "name": "Telegram", "icon": "telegram", "href": "https://telegram.me/behkooshan" },
+      { "name": "WhatsApp", "icon": "whatsapp", "href": "https://api.whatsapp.com/send?phone=+989121900124" },
+      { "name": "Instagram", "icon": "instagram", "href": "https://www.instagram.com/behkooshan" }
+    ],
     "fa": {
       "lang": "fa",
       "dir": "rtl",
@@ -33,7 +38,21 @@
       "contents": "فهرست",
       "contentsClose": "بستن فهرست",
       "skip": "رفتن به متن",
-      "top": "بازگشت به ابتدا"
+      "top": "بازگشت به ابتدا",
+      "zoomIn": "بزرگ‌نمایی",
+      "zoomOut": "کوچک‌نمایی",
+      "reset": "اندازۀ اصلی",
+      "closeImage": "بستن تصویر",
+      "prevImage": "تصویر قبلی",
+      "nextImage": "تصویر بعدی",
+      "counter": "% از %",
+      "openImage": "دیدن بزرگ‌تر",
+      "contactTitle": "تماس",
+      "address": "تهران، شهرک صنعتی شمس‌آباد، خیابان زکریا، کوچه سنبل ۵، پلاک ۲۸۶ (۱۰)",
+      "phones": [
+        { "label": "۰۲۱ ۵۳۹۱۴", "tel": "+982153914" },
+        { "label": "۰۹۱۲۱۹۰۰۱۲۴", "tel": "+989121900124" }
+      ]
     },
     "en": {
       "lang": "en",
@@ -45,7 +64,21 @@
       "contents": "Contents",
       "contentsClose": "Close contents",
       "skip": "Skip to content",
-      "top": "Back to the top"
+      "top": "Back to the top",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "reset": "Fit to screen",
+      "closeImage": "Close image",
+      "prevImage": "Previous image",
+      "nextImage": "Next image",
+      "counter": "% of %",
+      "openImage": "View larger",
+      "contactTitle": "Contact",
+      "address": "No 10 (286), 5th Sonbol, Zakariya St., Shams Abad Industrial Zone, Tehran, Iran",
+      "phones": [
+        { "label": "021 53914", "tel": "+982153914" },
+        { "label": "09121900124", "tel": "+989121900124" }
+      ]
     }
   },
 
@@ -347,7 +380,7 @@
           }
         ]
       },
-      "portraits": [null, "portrait-naseri-zadeh"]
+      "portraits": ["portrait-mohammadi", "portrait-naseri-zadeh"]
     },
 
     {

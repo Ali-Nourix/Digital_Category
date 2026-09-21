@@ -119,9 +119,31 @@
     dialog.addEventListener("click", function (event) {
       // A click that lands on the dialog element itself landed on the
       // backdrop: the panel's own children are what sit on top of it.
-      if (event.target === dialog) dialog.close();
-      if (event.target.closest("[data-contents-close]")) dialog.close();
-      if (event.target.closest(".contents__list a")) dialog.close();
+      if (event.target === dialog) return dialog.close();
+      if (event.target.closest("[data-contents-close]")) return dialog.close();
+
+      var link = event.target.closest(".contents__list a");
+      if (!link) return;
+
+      // Smooth, and only here. The page is about 25,000 pixels long, so
+      // scroll-behavior on the document would also apply to the language
+      // switch landing on a fragment, and spend two seconds travelling
+      // through sections nobody asked to see. Choosing a destination from
+      // the contents is the one case where the journey is worth showing.
+      var target = document.getElementById(link.getAttribute("href").slice(1));
+      if (!target) return;
+
+      event.preventDefault();
+      dialog.close();
+      target.scrollIntoView({
+        behavior: reduced.matches ? "auto" : "smooth",
+        block: "start",
+      });
+      // The section is not focusable on its own, so give the reader's
+      // keyboard somewhere to land at the other end of the journey.
+      target.setAttribute("tabindex", "-1");
+      target.focus({ preventScroll: true });
+      history.replaceState(null, "", link.getAttribute("href"));
     });
   }
 

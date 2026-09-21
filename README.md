@@ -45,6 +45,8 @@ tools/derive-images.py     The image derivation, and the PDF to webp mapping
 assets/css/catalogue.css   The whole design. Logical properties throughout,
                            so one stylesheet serves both directions
 assets/js/catalogue.js     Reveal, reading position, contents. No scroll listener
+assets/js/lightbox.js      The photograph viewer: zoom, pan, pinch, wheel
+assets/icons/              Telegram, WhatsApp and Instagram, from Simple Icons
 assets/css/tokens.css      The brand palette, type scale and spacing
 assets/css/fonts.css       @font-face only
 assets/css/shapes.css      Logo and shape masks. Generated, never hand edited
@@ -73,9 +75,14 @@ the PDF are InDesign crops of those originals, so they are not used at all.
 Where the print runs one photograph across a spread, the whole photograph is
 here. `tools/derive-images.py` names the source file for each one.
 
-One is missing: **Mohammad Jafar Mohammadi's portrait**, on printed page 22.
-Three of the four portraits are in the client's zip and his is not. His
-biography runs the full width of its row rather than leaving an empty frame.
+All four portraits are here. Three came in the client's zip; Mohammad Jafar
+Mohammadi's arrived later as a 3x4 PDF whose single embedded image is the
+same one the print places on page 22, re-rendered at 600 dpi so its CMYK
+profile is applied properly rather than converted by hand.
+
+`focus` in the manifest is what keeps a subject inside its box. It becomes
+`object-position` on the page and is only written where the subject is off
+centre; the table lives in `tools/derive-images.py`.
 
 ## The design
 
@@ -91,6 +98,13 @@ Nine layout families, one per kind of printed spread: cover, section divider,
 three feature compositions, the advantages columns with their photograph band,
 the full bleed plate, the biographies, the twelve millimetre spread and the
 two stone pages.
+
+The brand's one piece of geometry is the notch off a corner, and it is used
+in two places: on the framed photographs, which is the shape the print clips
+its portraits into, and on the top edge of the footer, which is the cut the
+stationery puts on a green panel. It stays off the full bleed plates. A
+photograph running off the edge of the window has no frame to cut, and a
+notch out of one reads as a rendering fault rather than as a shape.
 
 ### Motion
 
@@ -113,8 +127,25 @@ Everything collapses under `prefers-reduced-motion: reduce`. With JavaScript
 switched off the page is complete and static, because every hidden state in
 the stylesheet is gated on a class the script adds rather than removes.
 
-Scrolling is not smooth, on purpose. The document is roughly 25,000 pixels
-long, so a jump from the contents or a language switch is instant.
+Scrolling is not smooth by default. The document is roughly 25,000 pixels
+long, so a language switch landing on a fragment is instant. Choosing a
+destination from the contents is the one case where the journey is worth
+showing, and that one call asks for it.
+
+### The photograph viewer
+
+Every photograph opens in it, at the largest size that was derived for that
+picture rather than whatever the page happened to load. The wheel zooms
+towards the pointer, a double click zooms in and out again, two fingers
+pinch, dragging moves the picture and the arrows walk the set while it is
+fitted. The picture is moved with one transform rather than by scrolling a
+container, which is what makes the zoom continuous and what lets it hold the
+point under the pointer still.
+
+The pointer is captured only once a drag has really started. Capturing on
+pointerdown retargets the click the browser sends afterwards to the
+capturing element, so a plain click on the picture arrives as a click on the
+backdrop and closes the viewer.
 
 ## Deployment
 
@@ -138,5 +169,6 @@ One manual step, once: **Settings > Pages**, set **Source** to
 - **Two company names.** The copy describes Rijen Kashan Cobblestone
   Production Company and the Natanz quarry in Isfahan alongside Behkooshan.
   That is how the print sets it out; confirm it reads correctly online too.
-- **No contact details.** The print carries none and neither does this, beyond
-  the address of the website in the footer.
+- **Contact details** in the footer are the ones on behkooshan.ir: the Shams
+  Abad address, the two numbers, and the Telegram, WhatsApp and Instagram
+  accounts. Confirm they are current before this goes out.

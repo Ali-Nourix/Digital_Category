@@ -129,6 +129,26 @@ img {
   color: var(--paper);
 }
 
+/* --- The cut corner -------------------------------------------------------
+   The brand's one piece of geometry, and the shape the print clips its
+   portraits into: a notch off the corner of the frame that faces the type.
+   It goes on the framed photographs only. A full bleed plate has no frame to
+   cut, and a notch out of a photograph running off the edge of the window
+   reads as a rendering fault rather than as a shape.
+
+   clip-path has no logical keywords, so rtl carries its own polygon. The
+   notch is a length rather than a percentage, which keeps it the same
+   forty five degrees on a square portrait and on a wide figure. */
+
+.cut {
+  --cut: 1.75rem;
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+html[dir="rtl"] .cut {
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
+}
+
 .u-visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -326,65 +346,52 @@ html[dir="rtl"] .progress {
 .contents__head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-4);
+  justify-content: flex-end;
   min-block-size: var(--bar-h);
   padding-inline: var(--frame);
-  border-block-end: var(--hairline) solid var(--rule);
-}
-
-.contents__title {
-  font-size: var(--step-0);
-  font-weight: 700;
-  color: var(--print-green);
 }
 
 .contents__list {
   flex: 1;
   overflow-y: auto;
+  overscroll-behavior: contain;
   margin: 0;
-  padding: var(--space-4) var(--frame) var(--space-12);
+  padding: var(--space-2) var(--frame) var(--space-16);
   list-style: none;
-  counter-reset: toc;
 }
 
+/* No rules, no numbers, no page references. A list of places to go, set in
+   the same face as the headings they lead to, and the one being read is the
+   only one in green. */
 .contents__list a {
-  display: grid;
-  grid-template-columns: 2.5rem 1fr;
-  gap: var(--space-4);
-  align-items: baseline;
-  padding-block: var(--space-3);
-  border-block-end: var(--hairline) solid var(--rule);
-  color: inherit;
-  text-decoration: none;
-  counter-increment: toc;
-}
-
-.contents__list a::before {
-  content: counter(toc, decimal-leading-zero);
+  display: block;
+  padding-block: var(--space-2);
   color: var(--ink-muted);
-  font-size: var(--step--2);
-  font-variant-numeric: tabular-nums;
-}
-
-html[lang="fa"] .contents__list a::before {
-  font-family: var(--font-en);
-}
-
-.contents__list a:hover .contents__label,
-.contents__list a:focus-visible .contents__label {
-  color: var(--print-green);
-}
-
-.contents__label {
+  font-size: var(--step-1);
+  line-height: 1.4;
+  text-decoration: none;
   transition: color var(--dur-fast) linear;
 }
 
-.contents__pages {
-  display: block;
-  margin-block-start: 0.15em;
-  color: var(--ink-muted);
-  font-size: var(--step--2);
+html[lang="fa"] .contents__list a {
+  font-weight: 500;
+}
+
+.contents__list a:hover,
+.contents__list a:focus-visible {
+  color: var(--ink);
+}
+
+.contents__list a[aria-current] {
+  color: var(--print-green);
+}
+
+html[lang="fa"] .contents__list a[aria-current] {
+  font-weight: 700;
+}
+
+html[lang="en"] .contents__list a[aria-current] {
+  font-weight: 600;
 }
 
 
@@ -551,35 +558,36 @@ html[lang="fa"] .lede {
   display: grid;
   align-content: center;
   min-block-size: calc(100dvh - var(--bar-h));
-  /* Centred, then pushed down. The printed cover sets its line a little
-     below the middle of the page rather than on it. */
-  padding-block: 14vh var(--space-12);
+  /* A shade below the optical centre, which is where the printed cover sets
+     its line. Small, because anything more leaves the top of the window
+     reading as an empty band rather than as margin. */
+  padding-block: var(--space-16) var(--space-8);
 }
 
 .cover__mark {
   color: var(--print-green);
-  inline-size: min(34rem, 72vw);
+  inline-size: min(40rem, 78vw);
   /* An h1 carrying a mask, so none of the heading defaults apply. */
   font-size: inherit;
   line-height: 0;
 }
 
 html[lang="fa"] .cover__mark {
-  inline-size: min(24rem, 62vw);
+  inline-size: min(28rem, 68vw);
 }
 
 .cover__line {
-  margin-block-start: clamp(2rem, 6vh, 4rem);
+  margin-block-start: clamp(1.75rem, 4.5vh, 3rem);
   color: var(--print-green);
   font-family: var(--font-en);
-  font-size: var(--step-3);
+  font-size: var(--step-4);
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
 .cover__rule {
-  margin-block-start: clamp(2rem, 6vh, 4rem);
-  inline-size: min(22rem, 40vw);
+  margin-block-start: clamp(1.75rem, 4.5vh, 3rem);
+  inline-size: min(26rem, 44vw);
   block-size: var(--border-strong);
   background-color: var(--print-green);
   transform-origin: left center;
@@ -823,16 +831,20 @@ html[lang="fa"] .divider__subtitle {
   }
 }
 
+/* The print sets these eight down the gutter of the spread with white
+   between them rather than butted together, which is also what lets the cut
+   corner read: a notch against the page is a shape, a notch against the next
+   photograph is a chip out of it. */
 .band {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--hairline);
+  gap: clamp(0.75rem, 1.6vw, 1.25rem);
   margin-block-start: clamp(3rem, 7vw, 5.5rem);
-  margin-inline: calc(var(--frame) * -1);
-  background-color: var(--rule);
 }
 
 .band figure {
+  --cut: 1.25rem;
+
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -926,7 +938,7 @@ html[lang="en"] .tag {
 .people__list {
   margin-block-start: clamp(2.5rem, 6vw, 4.5rem);
   display: grid;
-  gap: clamp(2.5rem, 5vw, 4rem);
+  gap: clamp(2.5rem, 5vw, 3.5rem);
 }
 
 .person {
@@ -942,6 +954,8 @@ html[lang="en"] .tag {
 }
 
 .person__portrait {
+  --cut: 1.5rem;
+
   inline-size: 8.5rem;
   aspect-ratio: 3 / 4;
   overflow: hidden;
@@ -973,8 +987,8 @@ html[lang="en"] .person__name {
 
 @media (min-width: 48rem) {
   .person {
-    grid-template-columns: 11rem minmax(0, 1fr);
-    gap: clamp(2rem, 4vw, 3.5rem);
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: clamp(1.5rem, 3vw, 2.5rem);
     align-items: start;
   }
 
@@ -982,12 +996,28 @@ html[lang="en"] .person__name {
     inline-size: 100%;
   }
 
+  /* Nothing in the data is short a portrait now, but a row that loses one
+     should close up rather than leave an empty frame. */
   .person--no-portrait {
     grid-template-columns: minmax(0, 1fr);
   }
 
   .person--no-portrait .person__body {
     max-inline-size: var(--measure);
+  }
+}
+
+/* The two people of a generation stand together, as they do in the print.
+   The rule that separated them stacked becomes the rule above the row. */
+@media (min-width: 62rem) {
+  .people__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(2.5rem, 5vw, 4.5rem);
+  }
+
+  .person:nth-child(-n + 2) {
+    padding-block-start: 0;
+    border-block-start: 0;
   }
 }
 
@@ -1089,6 +1119,8 @@ html[lang="en"] .pull {
 }
 
 .stone__figures figure {
+  --cut: 1.5rem;
+
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -1149,53 +1181,356 @@ html[lang="en"] .pull {
    ========================================================================== */
 
 .foot {
-  padding-block: clamp(3rem, 8vw, 5rem);
+  --cut: clamp(1.5rem, 5vw, 3.5rem);
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-block: calc(clamp(3rem, 7vw, 4.5rem) + var(--cut)) clamp(3rem, 7vw, 4.5rem);
   background-color: var(--print-green);
   color: var(--paper);
+  /* The angled edge the stationery cuts into a green panel. It leans the
+     other way in the Persian document so the rise always follows the
+     reading direction. */
+  clip-path: polygon(0 var(--cut), 100% 0, 100% 100%, 0 100%);
+}
+
+html[dir="rtl"] .foot {
+  clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+@media (max-width: 40rem) {
+  .foot {
+    --cut: 0px;
+  }
+}
+
+/* One brand shape, tone on tone, bleeding off the top edge. The guide only
+   ever puts a shape on a green panel, and only one per view. */
+.foot__shape {
+  position: absolute;
+  /* Mostly off the top edge, so what is left reads as a shape running under
+     the panel rather than as a mark floating on it. */
+  inset-block-start: -46%;
+  inset-inline-end: 6%;
+  z-index: -1;
+  inline-size: min(26vw, 18rem);
+  color: var(--green);
+  pointer-events: none;
+}
+
+@media (max-width: 52rem) {
+  .foot__shape {
+    inset-inline-end: -8%;
+    inline-size: 13rem;
+    opacity: 0.5;
+  }
 }
 
 .foot__inner {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: var(--space-6);
+  gap: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 8vw, 6rem);
+}
+
+.foot__brand {
+  display: grid;
+  gap: var(--space-5);
+  justify-items: start;
 }
 
 .foot .bk-logo {
-  block-size: 1.25rem;
+  block-size: 1.5rem;
   inline-size: auto;
   color: var(--paper);
 }
 
 html[lang="fa"] .foot .bk-logo {
-  block-size: 1.5rem;
+  block-size: 1.75rem;
 }
 
 .foot a {
   color: var(--paper);
-  text-decoration-thickness: from-font;
-  text-underline-offset: 0.25em;
 }
 
 .foot :focus-visible {
   outline-color: var(--paper);
 }
 
-.foot__links {
-  display: flex;
-  flex-wrap: wrap;
+.foot__title {
+  color: var(--paper);
+  font-size: var(--step-1);
+}
+
+html[lang="fa"] .foot__title {
+  font-weight: 700;
+}
+
+html[lang="en"] .foot__title {
+  font-weight: 600;
+}
+
+.foot__contact {
+  display: grid;
+  gap: var(--space-3);
+  justify-items: start;
+  font-size: var(--step--1);
+  color: var(--on-inverse-muted);
+  /* <address> is italic by default, which neither brand face is drawn for. */
+  font-style: normal;
+}
+
+.foot__address {
+  max-inline-size: 42ch;
+}
+
+.foot__contact a {
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-6);
+  min-block-size: 1.75rem;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.foot__contact a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+html[lang="fa"] .foot__tel {
+  /* Persian digits, but the number still reads left to right. */
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.foot__social {
+  display: flex;
+  gap: var(--space-3);
+  margin-block-start: var(--space-3);
+}
+
+/* A 44px target with the mark drawn inside it, so the icon can stay small
+   without the thing being hard to hit. */
+.foot__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: var(--hairline) solid var(--rule-inverse);
+  transition: background-color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear;
+}
+
+.foot__social a:hover {
+  background-color: var(--paper);
+  border-color: var(--paper);
+  color: var(--print-green);
+}
+
+.foot__social .bk-icon {
+  inline-size: 1.125rem;
+}
+
+.foot__site {
+  margin-block-start: var(--space-2);
   font-size: var(--step--1);
 }
 
 /* On its own rather than inside a sentence, so WCAG 2.5.8 applies: the
    target has to reach 24px even though the line box does not. */
-.foot__links a {
+.foot__site a {
   display: inline-flex;
   align-items: center;
-  min-block-size: 1.5rem;
+  min-block-size: 1.75rem;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.25em;
+}
+
+
+/* ==========================================================================
+   The photograph viewer
+
+   Only offered once the script that runs it is in the page: html.has-lightbox
+   is the last thing lightbox.js does. Until then a photograph is a picture
+   and nothing invites a click on it.
+   ========================================================================== */
+
+/* The button sits over the whole figure, so the photograph is the target.
+   It carries no visible chrome of its own; the figure's own scale on hover
+   is the affordance, and the focus ring is the keyboard's. */
+.lb-open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+html:not(.has-lightbox) .lb-open {
+  display: none;
+}
+
+.has-lightbox .zoomable {
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .has-lightbox .zoomable img {
+    transition: transform 700ms var(--ease-out), filter 700ms var(--ease-out);
+  }
+
+  .has-lightbox .zoomable:has(.lb-open:hover) img,
+  .has-lightbox .zoomable:has(.lb-open:focus-visible) img {
+    transform: scale(1.03);
+  }
+}
+
+.lb {
+  inline-size: 100%;
+  max-inline-size: 100%;
+  block-size: 100dvh;
+  max-block-size: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgb(8 12 10 / 0.97);
+  color: var(--paper);
+  overflow: hidden;
+}
+
+.lb::backdrop {
+  background-color: rgb(8 12 10 / 0.97);
+}
+
+.lb__stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2.5rem);
+  /* One picture and no text, so it has no reading direction to keep. */
+  direction: ltr;
+  overflow: hidden;
+  touch-action: none;
+  cursor: zoom-in;
+}
+
+.lb__stage.is-zoomed {
+  cursor: grab;
+}
+
+.lb__stage.is-dragging {
+  cursor: grabbing;
+}
+
+.lb__img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+  inline-size: auto;
+  block-size: auto;
+  object-fit: contain;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Head and foot float over the picture. Both are a gradient rather than a
+   bar so the photograph runs behind them uninterrupted. */
+.lb__bar {
+  position: absolute;
+  inset-inline: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) clamp(1rem, 3vw, 2rem);
+  pointer-events: none;
+}
+
+.lb__bar > * {
+  pointer-events: auto;
+}
+
+.lb__bar--top {
+  inset-block-start: 0;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, rgb(8 12 10 / 0.85), transparent);
+}
+
+.lb__bar--bottom {
+  inset-block-end: 0;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgb(8 12 10 / 0.85), transparent);
+}
+
+.lb__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.lb__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: var(--hairline) solid rgb(255 255 255 / 0.35);
+  background: none;
+  color: var(--paper);
+  font: inherit;
+  font-size: var(--step-1);
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear,
+              color var(--dur-fast) linear,
+              opacity var(--dur-fast) linear;
+}
+
+.lb__btn:hover:not(:disabled) {
+  background-color: var(--paper);
+  border-color: var(--paper);
+  color: var(--ink);
+}
+
+.lb__btn:disabled {
+  opacity: 0.32;
+  cursor: default;
+}
+
+.lb :focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 3px;
+}
+
+.lb__meta {
+  max-inline-size: 60ch;
+  font-size: var(--step--1);
+  color: rgb(255 255 255 / 0.9);
+}
+
+.lb__counter {
+  display: block;
+  margin-block-end: var(--space-1);
+  font-size: var(--step--2);
+  color: rgb(255 255 255 / 0.7);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 40rem) {
+  .lb__meta {
+    max-inline-size: 22ch;
+  }
+
+  .lb__bar--bottom {
+    align-items: flex-end;
+  }
 }
 
 

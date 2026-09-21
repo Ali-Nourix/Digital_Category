@@ -23,13 +23,22 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else "."
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "images")
 
-# slug -> (source file, widths)
+# slug -> (source file, widths, focus)
+#
 # PLATE  full bleed, can fill a 1920 viewport
 # PANEL  a column or half of a spread
 # INSET  a small figure in a grid, or a portrait
+#
+# `focus` is written into the manifest and becomes object-position on the
+# page. Nothing here is cropped: the box decides what it shows and this says
+# which part of the picture has to survive that. "50% 50%" is the default and
+# is only worth writing down where the subject is off centre.
+# The top width of each set is what the lightbox shows, so even a thumbnail
+# sized figure carries one large derivative. Nothing is upscaled: a source
+# narrower than the step it lands on simply stops at its own width.
 PLATE = (960, 1440, 2048)
 PANEL = (640, 1024, 1536)
-INSET = (400, 800)
+INSET = (400, 800, 1600)
 
 IMAGES = {
     # --- About Us -------------------------------------------------------
@@ -38,42 +47,49 @@ IMAGES = {
     "kitchen-dark-veined":       ("6a0182f426f18.webp", PLATE),
     "factory-multiwire-hall":    ("factory 6.webp", PLATE),
     # the eight small figures between the two advantage columns
-    "quarry-aerial-pool":        ("444.webp", INSET),
-    "loader-carrying-block":     ("madan 5.webp", INSET),
+    "quarry-aerial-pool":        ("444.webp", INSET, "50% 42%"),
+    "loader-carrying-block":     ("madan 5.webp", INSET, "55% 55%"),
     "quarry-fluted-face":        ("madan 2a.webp", INSET),
-    "quarry-excavators":         ("madan 6a.webp", INSET),
+    "quarry-excavators":         ("madan 6a.webp", INSET, "50% 60%"),
     "driller-at-face":           ("IMG_0960.webp", INSET),
     "multiwire-cutting":         ("factory 4.webp", INSET),
     "slab-storage-hall":         ("factory 7.webp", INSET),
     "block-yard-crane":          ("factory 1.webp", INSET),
     "lounge-green-panel":        ("1 tif.webp", PLATE),
     "quarry-valley":             ("madan 3-b.webp", PLATE),
-    "quarry-loader-wall":        ("madan 1.webp", PLATE),
+    "quarry-loader-wall":        ("madan 1.webp", PLATE, "50% 62%"),
     # --- Two Generations ------------------------------------------------
-    "portrait-naseri-zadeh":     ("IMG_8649.webp", INSET),
-    "portrait-pedram":           ("IMG_8647.webp", INSET),
-    "portrait-tannaz":           ("IMG_7865.webp", INSET),
+    "portrait-naseri-zadeh":     ("IMG_8649.webp", INSET, "50% 22%"),
+    "portrait-pedram":           ("IMG_8647.webp", INSET, "50% 26%"),
+    "portrait-tannaz":           ("IMG_7865.webp", INSET, "50% 24%"),
+    # Not in the client's zip. This one arrived later as a 3x4 PDF, whose
+    # single embedded image is the same 378x473 the print places on page 22;
+    # it was re-rendered at 600 dpi so the CMYK profile is applied properly
+    # rather than converted by hand.
+    "portrait-mohammadi":        ("portrait-mohammadi.webp", INSET, "50% 26%"),
     # --- 12 mm slabs ----------------------------------------------------
     "factory-multiwire-blades":  ("factory 2.webp", PLATE),
     # --- Granite and quartzite ------------------------------------------
-    "granite-slab-display":      ("1.webp", PANEL),
-    "granite-bathroom-vanity":   ("IMG_2404.JPG.webp", PANEL),
+    "granite-slab-display":      ("1.webp", PANEL, "50% 42%"),
+    "granite-bathroom-vanity":   ("IMG_2404.JPG.webp", PANEL, "50% 58%"),
     "granite-shower-wall":       ("IMG_2405.JPG.webp", PANEL),
     "quartzite-raw-blocks":      ("IMG_8819.webp", PANEL),
-    "quartzite-countertop-edge": ("IMG_8821.webp", PANEL),
-    "quartzite-block-display":   ("111.webp", PANEL),
+    "quartzite-countertop-edge": ("IMG_8821.webp", PANEL, "50% 45%"),
+    "quartzite-block-display":   ("111.webp", PANEL, "50% 42%"),
     # --- Closing plates -------------------------------------------------
     "kitchen-black-white-island":  ("3.webp", PLATE),
     "kitchen-silver-vein-island":  ("6.webp", PLATE),
     "kitchen-black-terrazzo":      ("6a0179fd2365e.webp", PLATE),
-    "counter-dark-green-sink":     ("Black Tempest kitchen (1).jpg.webp", PLATE),
-    "powder-room-grey-stone":      ("1 (2).webp", PLATE),
+    "counter-dark-green-sink":     ("Black Tempest kitchen (1).jpg.webp", PLATE, "50% 55%"),
+    "powder-room-grey-stone":      ("1 (2).webp", PLATE, "50% 42%"),
 }
 
 os.makedirs(OUT, exist_ok=True)
 manifest = {}
 total = 0
-for slug, (src, widths) in sorted(IMAGES.items()):
+for slug, entry in sorted(IMAGES.items()):
+    src, widths = entry[0], entry[1]
+    focus = entry[2] if len(entry) > 2 else "50% 50%"
     path = os.path.join(SRC, src)
     im = Image.open(path).convert("RGB")
     made = []
@@ -97,6 +113,7 @@ for slug, (src, widths) in sorted(IMAGES.items()):
         "widths": [w for w, _ in made],
         "width": made[-1][0],
         "height": made[-1][1],
+        "focus": focus,
     }
     print()
 

@@ -24,6 +24,7 @@ HEADER = '''/* =================================================================
    gradient and never a stroke.
 
    Usage:  <span class="bk-shape bk-shape--05" aria-hidden="true"></span>
+           <span class="bk-icon bk-icon--telegram" aria-hidden="true"></span>
    Size it with inline-size; the aspect ratio comes from the class.
 
    The url() has to live in this stylesheet rather than in a style attribute.
@@ -32,7 +33,8 @@ HEADER = '''/* =================================================================
    ========================================================================== */
 
 .bk-shape,
-.bk-logo {
+.bk-logo,
+.bk-icon {
   display: block;
   aspect-ratio: var(--shape-ratio, 1);
   background-color: currentColor;
@@ -40,6 +42,12 @@ HEADER = '''/* =================================================================
   mask: var(--shape) no-repeat center / contain;
 }
 '''
+
+# The three social marks in the footer of behkooshan.ir. Taken from Simple
+# Icons (CC0) rather than drawn here, and normalised to currentColor like
+# everything else in this library. They are brand marks, not UI icons: do not
+# add a fourth without a matching link.
+ICONS = ["telegram", "whatsapp", "instagram"]
 
 LOGOS = [
     ("logo-mark", "mark"),
@@ -66,6 +74,12 @@ def main():
     for name, suffix in LOGOS:
         width, height = viewbox_ratio(ROOT / f"assets/logos/{name}.svg")
         parts.append(rule(f".bk-logo--{suffix}", f"../logos/{name}.svg", width, height))
+
+    parts.append("\n/* --- Social marks --------------------------------------------------------- */\n")
+
+    for name in ICONS:
+        width, height = viewbox_ratio(ROOT / f"assets/icons/{name}.svg")
+        parts.append(rule(f".bk-icon--{name}", f"../icons/{name}.svg", width, height))
 
     parts.append("\n/* --- Shapes --------------------------------------------------------------- */\n")
 
