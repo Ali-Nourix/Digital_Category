@@ -158,6 +158,12 @@ carries no captions, and the description each photograph holds is alt text
 for a screen reader, not a line of copy to set under the picture: the client
 did not write it.
 
+The picture is hidden while its source changes. An <img> goes on painting
+what it already has until the new file has decoded, so the viewer used to
+show the photograph you looked at last for as long as the next one took to
+arrive. A request counter makes sure that a reader holding the next arrow
+down uncovers only the picture they stopped on.
+
 The pointer is captured only once a drag has really started. Capturing on
 pointerdown retargets the click the browser sends afterwards to the
 capturing element, so a plain click on the picture arrives as a click on the

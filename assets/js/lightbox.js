@@ -42,6 +42,7 @@
   var pointers = new Map();
   var pinch = null;
   var moved = false;
+  var request = 0;
 
   view.draggable = false;
 
@@ -64,9 +65,12 @@
 
   function paint(animate) {
     clampPan();
-    view.style.transition = animate && !reduced.matches
-      ? "transform 260ms cubic-bezier(0.16, 1, 0.3, 1)"
-      : "none";
+    // The opacity part is always in the list: it is what covers the swap
+    // from one photograph to the next, and paint() would otherwise drop it
+    // every time it sets the transform.
+    var fade = reduced.matches ? "" : "opacity 180ms linear";
+    var move = animate && !reduced.matches ? "transform 260ms cubic-bezier(0.16, 1, 0.3, 1)" : "";
+    view.style.transition = [move, fade].filter(Boolean).join(", ") || "none";
     view.style.transform = "translate(" + tx + "px, " + ty + "px) scale(" + scale + ")";
     stage.classList.toggle("is-zoomed", scale > MIN + 0.01);
     dialog.querySelectorAll("[data-lb-zoom]").forEach(function (button) {
@@ -121,8 +125,25 @@
     var figure = figures[index];
     var img = figure.querySelector("img") || figure;
 
+    // Hidden before the source changes. An <img> goes on painting the
+    // picture it already has until the new one has decoded, so without this
+    // the viewer shows the photograph you looked at last for as long as the
+    // new one takes to arrive.
+    view.classList.add("is-loading");
+    var mine = ++request;
+
     view.src = img.getAttribute("data-full") || img.currentSrc || img.src;
     view.alt = img.alt;
+
+    function reveal() {
+      // A reader holding the next arrow down can be two pictures ahead by
+      // the time this one decodes; only the latest request may uncover.
+      if (mine === request) view.classList.remove("is-loading");
+    }
+
+    if (typeof view.decode === "function") view.decode().then(reveal, reveal);
+    else if (view.complete) reveal();
+    else view.addEventListener("load", reveal, { once: true });
 
     var n = 0;
     counter.textContent = template.replace(/%/g, function () {

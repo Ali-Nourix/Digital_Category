@@ -1487,6 +1487,12 @@ html:not(.has-lightbox) .lb-open {
   -webkit-user-drag: none;
 }
 
+/* Between one photograph and the next. The transition itself is written
+   inline by the script, alongside the transform. */
+.lb__img.is-loading {
+  opacity: 0;
+}
+
 /* Head and foot float over the picture. Both are a gradient rather than a
    bar so the photograph runs behind them uninterrupted. */
 .lb__bar {
