@@ -338,74 +338,50 @@
   }
 
   /* --- People -------------------------------------------------------------
-     The tag and its lede hold the leading column; the two biographies stack
-     beside it, a half panel each, portrait to the outer edge and the name
-     and the life beside it. That is the composition the print uses, given
-     the height of a window instead of the height of a page: the portraits
-     come out about twice the size they are upright. */
+     The arrangement the upright version uses, kept as it is: the green tag,
+     its lede under it, and the two lives side by side, each with a small
+     portrait against the outer edge and the name and the life beside it.
+
+     A panel is not a reason to redraw a composition that works. This one
+     keeps the page's own shell, so the measure and the portraits come out
+     the size they are upright, and the block sits in the middle of the
+     panel's height rather than being stretched to fill it. */
 
   .sec--people > .shell {
     display: grid;
-    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
-    column-gap: var(--panel-gap);
-    grid-template-rows: auto minmax(0, 1fr);
-    align-content: start;
+    align-content: center;
+    max-inline-size: var(--shell);
+    margin-inline: auto;
   }
 
+  /* The banner is an inline block on a page, so it is as wide as its words.
+     A grid item stretches instead, and a tag drawn across the whole measure
+     stops being a tag. */
   .sec--people .tag {
-    grid-column: 1;
-    grid-row: 1;
     justify-self: start;
   }
 
-  .sec--people .people__lede {
-    grid-column: 1;
-    grid-row: 2;
-    align-self: start;
-    max-inline-size: none;
-  }
+  /* On a shorter window the shell has to go, and the air between the lede
+     and the lives with it. Keeping the page's own measure is what makes this
+     panel the upright composition, but a page can be any height and a panel
+     cannot: below this the two lives are taller than the panel, and what is
+     left to give them is the rest of its width. The arrangement does not
+     change, only the length of the line. */
+  @media (max-height: 56rem) {
+    .sec--people > .shell {
+      max-inline-size: none;
+    }
 
-  .sec--people .people__list {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    /* One above the other, a half panel each. Side by side they would each
-       get a quarter of the width and the portraits would come out smaller
-       than they are in the upright version, which is the opposite of what a
-       panel this size is for. */
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-    row-gap: clamp(1.75rem, 3.5vh, 2.75rem);
-    margin-block-start: 0;
-    block-size: 100%;
-  }
-
-  /* A biography is half the panel: the portrait fills that half, the name
-     and the life sit beside it on the reading line. */
-  .sec--people .person {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-    grid-template-rows: minmax(0, 1fr);
-    column-gap: var(--panel-gap);
-    align-items: stretch;
-    block-size: 100%;
-    padding-block-start: 0;
-    border-block-start: 0;
-  }
-
-  .sec--people .person__portrait {
-    inline-size: 100%;
-    block-size: 100%;
-    aspect-ratio: auto;
-  }
-
-  .sec--people .person__body {
-    align-self: center;
+    .people__list {
+      margin-block-start: clamp(1.75rem, 4vh, 3rem);
+    }
   }
 
   /* --- Slabs --------------------------------------------------------------
      The twelve millimetre spread, which is the longest piece of writing in
      the catalogue. Upright it runs as two columns down a page; here the page
      is a window on its side, so it is set the way a newspaper sets a story
-     that has to fit a fixed depth: three columns off the top frame line,
+     that has to fit a fixed depth: balanced columns off the top frame line,
      ending level with each other.
 
      Multiple columns rather than a grid. A grid gives every block a row, and
@@ -415,25 +391,30 @@
 
   .slabs {
     display: block;
-    /* A width rather than a count, as on the advantages spread: the measure
-       is set here and the panel takes as many columns of it as it can hold. */
+    /* A width rather than a count: the measure is set here and the panel
+       takes as many columns of it as it can hold. */
     column-width: 29rem;
     column-gap: var(--panel-gap);
+    /* A hairline down each gutter, the rule the print uses between columns
+       of a spread. Poured type has no other edge, and three columns of it
+       without one read as one wide block that happens to have gaps in it. */
+    column-rule: var(--hairline) solid var(--rule);
     /* Balanced rather than poured. Poured, the text fills the first column
        to the bottom frame line, then the second, and stops wherever it
        stops: in Persian that leaves a short third column and in English,
-       which sets tighter, an empty one. Balanced, the three always end on
+       which sets tighter, an empty one. Balanced, the columns always end on
        the same line and the space left over is a margin along the foot of
        the panel rather than a hole in the corner of it.
 
-       Balanced across the panel's own height, so the three columns run from
-       the top frame line to the bottom one rather than stopping where the
-       words happen to end. The cost of that is the failure: text that will
-       not fit three columns of this height pours into a fourth, off the
-       inline edge, where the panel's overflow rule eats it, and a paragraph
-       disappears with nothing on the page to say so. The widths at the foot
-       of this file are what keep it from arising, and they are measured
-       against exactly that. */
+       Balanced across the panel's own height, so the columns run from the
+       top frame line to the bottom one rather than stopping where the words
+       happen to end. The cost of that is the failure: text that will not fit
+       the columns of this height pours into one more, off the inline edge,
+       where the panel's overflow rule eats it, and a paragraph disappears
+       with nothing on the page to say so. The widths at the foot of this
+       file are what keep it from arising, and they are measured against
+       exactly that. */
+    column-fill: balance;
     block-size: 100%;
   }
 
@@ -470,6 +451,16 @@
   .slabs .title,
   .slabs .benefit__title {
     break-after: avoid;
+  }
+
+  /* A rule over each of the two section titles. Down a page a title of this
+     size opens a column and is plainly the start of something; poured across
+     three, it lands halfway down one of them, and without a line above it
+     the words under it read as a continuation of the paragraph over it
+     rather than as the beginning of a new part of the spread. */
+  .slabs .title {
+    padding-block-start: var(--space-5);
+    border-block-start: var(--hairline) solid var(--rule-strong);
   }
 
   /* --- Stone --------------------------------------------------------------
@@ -596,47 +587,95 @@
     --panel: max(100vw, 100rem);
   }
 
-  .sec--columns,
-  .sec--people {
+  .sec--columns {
     --panel: max(100vw, 78rem);
+  }
+
+  .sec--people {
+    --panel: max(100vw, 72rem);
   }
 
   @media (max-height: 68rem) {
     .sec--slabs {
-      --panel: max(100vw, 108rem);
+      --panel: max(100vw, 106rem);
+    }
+
+    .sec--columns {
+      --panel: max(100vw, 78rem);
+    }
+
+    .sec--people {
+      --panel: max(100vw, 76rem);
+    }
+  }
+
+  @media (max-height: 62rem) {
+    .sec--slabs {
+      --panel: max(100vw, 106rem);
+    }
+
+    .sec--columns {
+      --panel: max(100vw, 78rem);
+    }
+
+    .sec--people {
+      --panel: max(100vw, 84rem);
     }
   }
 
   @media (max-height: 54rem) {
     .sec--slabs {
-      --panel: max(100vw, 136rem);
+      --panel: max(100vw, 138rem);
     }
 
-    .sec--columns,
-    .sec--people {
+    .sec--columns {
       --panel: max(100vw, 86rem);
+    }
+
+    .sec--people {
+      --panel: max(100vw, 88rem);
     }
   }
 
   @media (max-height: 49rem) {
     .sec--slabs {
-      --panel: max(100vw, 142rem);
+      --panel: max(100vw, 140rem);
     }
 
-    .sec--columns,
-    .sec--people {
+    .sec--columns {
       --panel: max(100vw, 96rem);
+    }
+
+    .sec--people {
+      --panel: max(100vw, 92rem);
     }
   }
 
-  @media (max-height: 43rem) {
+  @media (max-height: 46rem) {
     .sec--slabs {
-      --panel: max(100vw, 152rem);
+      --panel: max(100vw, 150rem);
     }
 
-    .sec--columns,
+    .sec--columns {
+      --panel: max(100vw, 96rem);
+    }
+
     .sec--people {
+      --panel: max(100vw, 98rem);
+    }
+  }
+
+  @media (max-height: 42rem) {
+    .sec--slabs {
+      --panel: max(100vw, 170rem);
+    }
+
+    .sec--columns {
       --panel: max(100vw, 110rem);
+    }
+
+    .sec--people {
+      --panel: max(100vw, 114rem);
     }
   }
 

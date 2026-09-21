@@ -77,8 +77,8 @@ field of green, take no frame: they are meant to run to the trim.
 | Divider | The green half and the title half, side by side, filling the panel. |
 | Feature | Photograph the full height of the panel, type centred in the other half on a `34rem` measure. Both edges of that half are margins sideways, so the type is centred in it rather than held against the photograph. |
 | Advantages | Three columns of type across the top and the eight photographs beneath them as a band that takes whatever height the type leaves. The type is poured across the three and balanced rather than given a column each: the three blocks are very different lengths, and a grid makes all three as deep as the longest. Upright the print runs the photographs down the gutter between two columns; a band along the foot is the same idea turned on its side. |
-| Twelve millimetre slabs | The longest piece of writing in the catalogue, set the way a newspaper sets a story that has to fit a fixed depth: balanced columns from the top frame line down, three of them on a window of ordinary width. Multiple columns rather than a grid, because a grid gives every block a row and a short block beside a long one leaves a hole under it. The columns are set by width rather than by count, so a wider panel takes another column at the same measure instead of stretching the three it had. |
-| The biographies | The tag and its lede hold the leading column; the two lives stack beside it, a half panel each, portrait to the outer edge. The portraits come out about twice the size they are upright. |
+| Twelve millimetre slabs | The longest piece of writing in the catalogue, set the way a newspaper sets a story that has to fit a fixed depth: balanced columns from the top frame line down, three of them on a window of ordinary width, with a hairline down each gutter and a rule over each of the two section titles. Multiple columns rather than a grid, because a grid gives every block a row and a short block beside a long one leaves a hole under it. The columns are set by width rather than by count, so a wider panel takes another column at the same measure instead of stretching the three it had. |
+| The biographies | The upright composition, unchanged: the tag, its lede under it, and the two lives side by side with a small portrait against the outer edge of each. The panel keeps the page's own shell, so the measure and the portraits come out the size they are upright, and the block sits in the middle of the panel's height. Below `56rem` of window height the shell goes, because a page can be any height and a panel cannot; the arrangement stays, only the line gets longer. |
 | Granite and quartzite | The arrangement the print uses: one tall photograph with two squarer ones stacked beside it, the rows declared so the block fills the height exactly. |
 | Footer | The last panel of the track, keeping the angled edge and still overlapping the photograph before it by exactly that cut. |
 
@@ -87,8 +87,8 @@ field of green, take no frame: they are meant to run to the trim.
 What a panel of type needs is area: a column of a certain width, for a
 certain depth. Its width here is the window's, so the shorter the window, the
 wider the panel has to be to hold the same words. The last section of the
-stylesheet is that curve in five steps, keyed on the window's height alone
-and written as a floor in rem, so `max(100vw, …)` gives a wide window its own
+stylesheet is that curve in steps, keyed on the window's height alone and
+written as a floor in rem, so `max(100vw, …)` gives a wide window its own
 width and a narrow one the floor. It also takes a little photograph away from
 the features, whose measure is capped and which therefore gain nothing from a
 wider panel.
