@@ -1661,6 +1661,16 @@ html:not(.has-lightbox) .lb-open {
   .js .place img {
     transform: none;
     transition: transform 1200ms var(--ease-out), clip-path 1000ms var(--ease-out);
+  }
+
+  /* The open state is a rectangle for a plain photograph and the brand's
+     notch for a framed one, which is what it was cut to and what keeps the
+     stroke visible along the diagonal. Written as an exception rather than
+     left to the cascade: `.js .place img` outweighs `.cut img`, so a framed
+     photograph in the Latin document was having its corner squared off and
+     the stroke covered. The Persian one was spared only because its own cut
+     rule carries `html[dir="rtl"]` and so outweighed this one in turn. */
+  .js .place:not(.cut) img {
     clip-path: inset(0 0 0 0);
   }
 

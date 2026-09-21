@@ -114,10 +114,16 @@ ${pad}</button>`;
 
 /* ---------------------------------------------------------------- sections */
 
-/** A counter per section, so the stagger restarts at every band. */
+/**
+ * A counter per section, so the stagger restarts at every band.
+ *
+ * It writes the whole class attribute rather than an extra one, because two
+ * of those on the same tag is not two classes: the parser keeps the first and
+ * throws the second away, and the block never gets its reveal.
+ */
 function stagger() {
   let i = 0;
-  return () => ` class="reveal" style="--i:${i++}"`;
+  return (cls = "") => ` class="${cls ? cls + " " : ""}reveal" style="--i:${i++}"`;
 }
 
 function paragraphs(copy, step, extra = "") {
@@ -126,7 +132,7 @@ function paragraphs(copy, step, extra = "") {
 
 function list(items, step) {
   return [
-    `        <ul class="list"${step()}>`,
+    `        <ul${step("list")}>`,
     ...items.map((item) => `          <li>${rich(item)}</li>`),
     `        </ul>`,
   ].join("\n");
@@ -153,7 +159,7 @@ const RENDER = {
         <div class="divider__face">
           <h2 class="divider__title">${words(copy.title)}</h2>${
             copy.subtitle
-              ? `\n          <p class="divider__subtitle"${step()}>${rich(copy.subtitle)}</p>`
+              ? `\n          <p${step("divider__subtitle")}>${rich(copy.subtitle)}</p>`
               : ""
           }
         </div>
@@ -179,7 +185,7 @@ ${opener(ctx, copy.alt, 10)}
 
     const text = [
       copy.title ? `          <h2 class="title headline">${words(copy.title)}</h2>` : "",
-      copy.heading ? `          <h3 class="heading"${step()}>${rich(copy.heading)}</h3>` : "",
+      copy.heading ? `          <h3${step("heading")}>${rich(copy.heading)}</h3>` : "",
       `          <div class="prose${sec.lead ? " lede" : ""}">`,
       copy.body.map((p) => `            <p${step()}>${rich(p)}</p>`).join("\n"),
       `          </div>`,
@@ -206,7 +212,7 @@ ${text}
         const parts = [`          <div class="columns__block">`];
         parts.push(`            <h2 class="title headline">${words(block.title)}</h2>`);
         if (block.list) {
-          parts.push(`            <ul class="list"${step()}>`);
+          parts.push(`            <ul${step("list")}>`);
           block.list.forEach((item) => parts.push(`              <li>${rich(item)}</li>`));
           parts.push(`            </ul>`);
         }
@@ -259,7 +265,7 @@ ${opener(ctx, copy.alt, 8)}
         const slug = sec.portraits[i];
         const inner = stagger();
         const portrait = slug
-          ? `          <div class="person__portrait zoomable cut" data-zoom>
+          ? `          <div class="person__portrait place zoomable cut" data-zoom>
 ${picture(ctx, slug, {
   alt: person.name,
   sizes: "(min-width: 48rem) 152px, 136px",
@@ -271,7 +277,7 @@ ${opener(ctx, person.name, 12)}
         return `        <div class="person${slug ? "" : " person--no-portrait"}">
 ${portrait}
           <div class="person__body">
-            <h3 class="person__name"${inner()}>${rich(person.name)}</h3>
+            <h3${inner("person__name")}>${rich(person.name)}</h3>
             <div class="prose person__bio"><p${inner()}>${rich(person.bio)}</p></div>
           </div>
         </div>`;
@@ -279,8 +285,8 @@ ${portrait}
       .join("\n");
 
     return `      <div class="shell">
-        <h2 class="tag"${step()}>${rich(copy.tag)}</h2>
-        <div class="people__lede lede"${step()}>
+        <h2${step("tag")}>${rich(copy.tag)}</h2>
+        <div${step("people__lede lede")}>
 ${lede}
         </div>
         <div class="people__list">
@@ -299,7 +305,7 @@ ${people}
       `          </div>`,
       copy.introList
         ? [
-            `          <ul class="list"${left()}>`,
+            `          <ul${left("list")}>`,
             ...copy.introList.map((item) => `            <li>${rich(item)}</li>`),
             `          </ul>`,
           ].join("\n")
@@ -314,7 +320,7 @@ ${people}
       `          <div class="slabs__benefits">`,
       copy.benefits
         .map(
-          (b) => `            <div class="benefit"${left()}>
+          (b) => `            <div${left("benefit")}>
               <h3 class="benefit__title">${rich(b.title)}</h3>
               <p>${rich(b.body)}</p>
             </div>`
@@ -330,13 +336,13 @@ ${people}
       `          <div class="prose">`,
       copy.environment.body.map((p) => `            <p${right()}>${rich(p)}</p>`).join("\n"),
       `          </div>`,
-      `          <p class="slabs__uses-intro"${right()}>${rich(copy.usesIntro)}</p>`,
+      `          <p${right("slabs__uses-intro")}>${rich(copy.usesIntro)}</p>`,
       [
-        `          <ul class="list"${right()}>`,
+        `          <ul${right("list")}>`,
         ...copy.uses.map((item) => `            <li>${rich(item)}</li>`),
         `          </ul>`,
       ].join("\n"),
-      `          <p class="pull"${right()}>${rich(copy.quote)}</p>`,
+      `          <p${right("pull")}>${rich(copy.quote)}</p>`,
       `          <h2 class="title headline">${words(copy.extra.title)}</h2>`,
       `          <div class="prose">`,
       copy.extra.body.map((p) => `            <p${right()}>${rich(p)}</p>`).join("\n"),
