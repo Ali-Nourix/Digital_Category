@@ -90,9 +90,17 @@ built to a different rule from the rest.
 
 It is written in three parts, and each part is a column: the product and its
 four named advantages; the environmental case with the uses and the project
-it names; the yield of the thinner stone. A hairline down each gutter, and
-the columns run the full depth of the panel whether or not the words reach
-the bottom, because it is the rule that says a column is a column.
+it names; the yield of the thinner stone. A hairline down each gutter.
+
+The block is as deep as its longest column and sits in the middle of the
+panel, the same air over it as under it, rather than hanging from the top
+frame line with everything left over falling in one piece under the shortest
+column. The two shorter columns are stretched to the longest, which is what
+carries the rules the whole way down: a rule that stopped with the last line
+of its own column would say the spread ended there. The centring is `safe`,
+so if the words ever came to more than the panel holds the block goes back to
+the top line and only the foot is at risk, which is where the check below
+would find it.
 
 So the markup is three parts, not two. Upright, the second and the third
 stand one above the other and are the right hand column of the printed

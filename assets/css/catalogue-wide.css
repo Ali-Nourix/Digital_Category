@@ -113,6 +113,19 @@
      the most words on it gets the tighter margin. */
   .sec--slabs > .shell {
     padding-block: clamp(1.25rem, 2.5vh, 2rem);
+
+    /* And the spread sits in the middle of that frame, the same air over it
+       as under it, rather than hanging from the top line with everything
+       left over falling in one piece under the shortest column. The three
+       columns are different lengths and the longest of them is the block
+       being centred, so they all still begin on one line.
+
+       Safe centring: if the words ever came to more than the panel holds,
+       centred they would go over both edges at once and the first line would
+       be the one lost. Safe, the block goes back to the top line and only
+       the foot is at risk, which is where a check would find it. */
+    display: grid;
+    align-content: safe center;
   }
 
   /* The page turn between two panels, which the upright version draws as a
@@ -488,18 +501,14 @@
        this file that asked for it. */
     max-inline-size: max(108rem, 172rem - 80vh, 62vw);
     margin-inline: auto;
-    /* Declared, not left to size itself: the columns ask for the height of
-       the row, and a row the browser is sizing from its content cannot
-       answer that. */
-    grid-template-rows: minmax(0, 1fr);
     column-gap: var(--panel-gap);
-    /* Upright the three parts hang from the top of the page and stop where
-       they stop. Here they are columns, and a column runs the depth of the
-       spread whether or not its words reach the bottom: it is the rule
-       between them that says so, and a rule that ends with the last line
-       says instead that the spread ended there. */
+    /* As deep as the longest of the three parts and no deeper, so that what
+       the panel has over is air the frame can divide between the head and
+       the foot. The two shorter columns are stretched to the longest, which
+       is what carries the rules the whole way down the block: a rule that
+       stopped with the last line of its own column would say the spread
+       ended there. */
     align-items: stretch;
-    block-size: 100%;
   }
 
   /* The wrapper that makes parts two and three the right hand column of the
@@ -954,12 +963,16 @@
         minmax(0, var(--slabs-third, 0.75fr));
     }
 
+    /* Balanced across the two measures rather than poured down a given
+       height. Poured, the browser needs a depth to pour into and answers a
+       part that will not fit by making a third measure past the inline edge
+       where the panel eats it. Balanced with the count fixed at two, there
+       are two and the part is as deep as half of itself. */
     .slabs__col:first-child,
     .slabs__side > .slabs__col:first-child {
       display: block;
       column-count: 2;
       column-gap: var(--panel-gap);
-      block-size: 100%;
     }
 
     /* A grid's gaps do not survive the change, so they are put back as
