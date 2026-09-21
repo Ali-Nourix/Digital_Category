@@ -142,11 +142,42 @@ img {
 
 .cut {
   --cut: 1.75rem;
+
+  /* The stroke is the padding: the frame paints it and the photograph sits
+     one pixel inside, so the line follows the diagonal as well as the four
+     straight edges. A plain border would be clipped away at the notch.
+     Half ink, which measures 3.5:1 on paper: enough to give a photograph
+     with a white studio ground an edge, quiet enough not to read as a
+     keyline round every picture. */
+  padding: var(--hairline);
+  background-color: var(--rule-strong);
   clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
 }
 
 html[dir="rtl"] .cut {
   clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
+}
+
+/* The photograph repeats the notch, one pixel in, so the stroke stays
+   visible along the diagonal instead of being covered by a square corner. */
+.cut img {
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--cut) + var(--hairline)) 0,
+    100% calc(var(--cut) - var(--hairline)),
+    100% 100%,
+    0 100%
+  );
+}
+
+html[dir="rtl"] .cut img {
+  clip-path: polygon(
+    calc(var(--cut) - var(--hairline)) 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(var(--cut) - var(--hairline))
+  );
 }
 
 .u-visually-hidden {
@@ -1181,12 +1212,14 @@ html[lang="en"] .pull {
    ========================================================================== */
 
 .foot {
-  --cut: clamp(1.5rem, 5vw, 3.5rem);
+  --cut: clamp(1.25rem, 3.5vw, 2.75rem);
 
   position: relative;
-  isolation: isolate;
   overflow: hidden;
-  padding-block: calc(clamp(3rem, 7vw, 4.5rem) + var(--cut)) clamp(3rem, 7vw, 4.5rem);
+  /* Pulled up by exactly the cut, so the wedge the angle takes out of the
+     panel is filled by the last photograph rather than by a white gap. */
+  margin-block-start: calc(var(--cut) * -1);
+  padding-block: calc(clamp(2rem, 3.5vw, 2.75rem) + var(--cut)) clamp(2rem, 3.5vw, 2.75rem);
   background-color: var(--print-green);
   color: var(--paper);
   /* The angled edge the stationery cuts into a green panel. It leans the
@@ -1207,26 +1240,6 @@ html[dir="rtl"] .foot {
 
 /* One brand shape, tone on tone, bleeding off the top edge. The guide only
    ever puts a shape on a green panel, and only one per view. */
-.foot__shape {
-  position: absolute;
-  /* Mostly off the top edge, so what is left reads as a shape running under
-     the panel rather than as a mark floating on it. */
-  inset-block-start: -46%;
-  inset-inline-end: 6%;
-  z-index: -1;
-  inline-size: min(26vw, 18rem);
-  color: var(--green);
-  pointer-events: none;
-}
-
-@media (max-width: 52rem) {
-  .foot__shape {
-    inset-inline-end: -8%;
-    inline-size: 13rem;
-    opacity: 0.5;
-  }
-}
-
 .foot__inner {
   display: flex;
   flex-wrap: wrap;
@@ -1237,7 +1250,7 @@ html[dir="rtl"] .foot {
 
 .foot__brand {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--space-4);
   justify-items: start;
 }
 
@@ -1260,8 +1273,10 @@ html[lang="fa"] .foot .bk-logo {
 }
 
 .foot__title {
+  margin-block-end: var(--space-4);
   color: var(--paper);
-  font-size: var(--step-1);
+  font-size: var(--step-0);
+  letter-spacing: 0.02em;
 }
 
 html[lang="fa"] .foot__title {
@@ -1274,16 +1289,31 @@ html[lang="en"] .foot__title {
 
 .foot__contact {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-4);
   justify-items: start;
-  font-size: var(--step--1);
-  color: var(--on-inverse-muted);
   /* <address> is italic by default, which neither brand face is drawn for. */
   font-style: normal;
 }
 
+/* The address is the one paragraph here, so it takes body size and a
+   measure short enough to break where the address itself does. */
 .foot__address {
-  max-inline-size: 42ch;
+  max-inline-size: 34ch;
+  font-size: var(--step--1);
+  line-height: 1.7;
+  color: var(--on-inverse-muted);
+}
+
+html[lang="fa"] .foot__address {
+  line-height: 1.9;
+}
+
+/* The numbers are what a reader comes to the footer for, so they are set
+   at reading size rather than as fine print, and sit on one line. */
+.foot__tels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
 }
 
 .foot__contact a {
@@ -1294,21 +1324,32 @@ html[lang="en"] .foot__title {
   text-decoration: none;
 }
 
-.foot__contact a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
-html[lang="fa"] .foot__tel {
+.foot__tel {
+  font-size: var(--step-1);
+  font-variant-numeric: tabular-nums;
   /* Persian digits, but the number still reads left to right. */
   direction: ltr;
   unicode-bidi: isolate;
 }
 
+html[lang="fa"] .foot__tel {
+  font-weight: 500;
+}
+
+html[lang="en"] .foot__tel {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.foot__contact a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
 .foot__social {
   display: flex;
-  gap: var(--space-3);
-  margin-block-start: var(--space-3);
+  gap: var(--space-2);
+  margin-block-start: var(--space-4);
 }
 
 /* A 44px target with the mark drawn inside it, so the icon can stay small
@@ -1317,8 +1358,8 @@ html[lang="fa"] .foot__tel {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  inline-size: 2.75rem;
-  block-size: 2.75rem;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
   border: var(--hairline) solid var(--rule-inverse);
   transition: background-color var(--dur-fast) linear,
               border-color var(--dur-fast) linear;
@@ -1335,7 +1376,6 @@ html[lang="fa"] .foot__tel {
 }
 
 .foot__site {
-  margin-block-start: var(--space-2);
   font-size: var(--step--1);
 }
 
@@ -1411,6 +1451,12 @@ html:not(.has-lightbox) .lb-open {
   position: absolute;
   inset: 0;
   display: grid;
+  /* One row and one column, both a definite fraction of the stage. Left to
+     size themselves from their content the track is indefinite, and
+     max-block-size: 100% on the picture then resolves against nothing and
+     behaves as none, so a portrait photograph runs off the bottom of the
+     window instead of fitting. */
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
   place-items: center;
   padding: clamp(1rem, 3vw, 2.5rem);
   /* One picture and no text, so it has no reading direction to keep. */
@@ -1433,6 +1479,8 @@ html:not(.has-lightbox) .lb-open {
   max-block-size: 100%;
   inline-size: auto;
   block-size: auto;
+  min-inline-size: 0;
+  min-block-size: 0;
   object-fit: contain;
   will-change: transform;
   user-select: none;

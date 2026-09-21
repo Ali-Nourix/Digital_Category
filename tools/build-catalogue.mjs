@@ -524,8 +524,6 @@ ${body}
   </main>
 
   <footer class="foot">
-    <span class="bk-shape bk-shape--03 foot__shape" aria-hidden="true"></span>
-
     <div class="shell foot__inner">
       <div class="foot__brand">
         <span class="bk-logo ${ctx.lockup}" role="img" aria-label="${esc(data.site.brand)}"></span>
@@ -536,12 +534,14 @@ ${body}
         <h2 class="foot__title">${esc(site.contactTitle)}</h2>
         <address class="foot__contact">
           <span class="foot__address">${esc(site.address)}</span>
+          <span class="foot__tels">
 ${site.phones
   .map(
     (phone) =>
-      `          <a class="foot__tel" href="tel:${esc(phone.tel)}" dir="ltr">${esc(phone.label)}</a>`
+      `            <a class="foot__tel" href="tel:${esc(phone.tel)}" dir="ltr">${esc(phone.label)}</a>`
   )
   .join("\n")}
+          </span>
         </address>
 
         <div class="foot__social">

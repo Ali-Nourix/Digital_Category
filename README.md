@@ -106,6 +106,17 @@ stationery puts on a green panel. It stays off the full bleed plates. A
 photograph running off the edge of the window has no frame to cut, and a
 notch out of one reads as a rendering fault rather than as a shape.
 
+A framed photograph also carries a hairline, because several of them are
+studio shots on a white ground that would otherwise have no edge against
+the page. The line is the frame's own one pixel of padding showing through
+rather than a border, so it follows the diagonal as well as the four
+straight sides; a border would be clipped away at the notch.
+
+The footer is pulled up by exactly its cut, so the wedge the angle takes
+out of the panel is filled by the last photograph rather than by a white
+gap. Nothing else is placed on it: a loose shape under that top edge gets
+sliced by the angle and reads as a stray triangle.
+
 ### Motion
 
 Four moves, each with a job:
