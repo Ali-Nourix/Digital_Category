@@ -33,27 +33,39 @@
      page: a panel is a whole window wide. */
   var REACH = 2.2;
 
-  /* How much of the remaining distance the track covers each frame. High
-     enough that the first frame has visibly moved, low enough that a long
-     throw still glides. */
-  var FOLLOW = 0.24;
+  /* The glide.
 
-  /* The two kinds of wheel, and the reason there are two.
+     A notch does not move the track itself. It adds to a distance, and the
+     track covers that distance on an ease out whose length grows with it, so
+     a long spin travels further and takes longer to come to rest.
 
-     A trackpad reports a small distance every frame, so the travel it asks
-     for is already even and the track can simply follow it.
+     Growing the length with the distance is what makes it feel even. The
+     speed an ease out sets off at is its distance over its length, so tying
+     the two together leaves that speed the same whatever is pending, and a
+     notch landing in the middle of a glide carries on at the speed the last
+     one was running at instead of lurching.
 
-     A mouse reports one large notch every eighty milliseconds or so, and
-     nothing in between. Following that directly turns each notch into a
-     shove: the speed leaps on the frame the notch lands and then decays to
-     almost nothing before the next one, which is felt as the track moving
-     in lumps rather than gliding. So for a mouse the speed itself is eased
-     towards what the follow asks for, over several frames, which fills the
-     gaps between the notches and takes the top off the shoves. The number
-     is the fraction of that difference taken per frame; the trackpad's 1
-     means no easing at all. */
-  var EASE_FINE = 1;
-  var EASE_COARSE = 0.3;
+     An ease out and not an ease in and out: the track has to leave under the
+     hand at once, and the softness belongs at the far end, where it stops.
+     The exponent is low, so the speed holds up through most of the glide and
+     the curve does its work in the last of it; a steeper one spends its
+     speed early and lands the same stop-start the easing is here to remove.
+     Every figure here was chosen by measuring the travel frame by frame
+     against a wheel turned steadily. */
+  var PACE = 0.7;
+  var CURVE = 1.6;
+  var LONGEST = 700;
+
+  /* The shortest a glide may be, which is the one number the two kinds of
+     wheel disagree about.
+
+     A mouse reports one large notch every eighty milliseconds or so and
+     nothing in between, so its glide has to outlast the gap between notches
+     or the track stops and starts. A trackpad reports a small distance every
+     frame, and a glide that long would leave the track trailing a quarter of
+     a second behind the fingers; it wants only enough to take the edges off. */
+  var SLOWEST = 420;
+  var QUICKEST = 80;
 
   /* Where the reader has asked to get to, as opposed to where the track has
      caught up to. Kept between notches so that spinning the wheel
@@ -62,11 +74,15 @@
   var target = null;
   var frame = null;
 
-  /* The speed the glide is running at, and how fast that speed is allowed to
-     change. Speed is carried between frames because easing it is the whole
-     point: it cannot be recomputed from the gap alone. */
-  var speed = 0;
-  var ease = EASE_FINE;
+  /* The glide in flight: where it set off from, where it is bound, when it
+     started and how long it has. `clock` is the timestamp of the last frame
+     drawn, which is what a glide already running is timed against. */
+  var from = 0;
+  var to = 0;
+  var began = 0;
+  var span = 0;
+  var clock = 0;
+  var shortest = SLOWEST;
 
   /* Where the glide left the track on its last frame. Read back after the
      assignment rather than remembered from before it, so that finding a
@@ -82,28 +98,27 @@
     frame = null;
     target = null;
     last = null;
-    speed = 0;
+    span = 0;
   }
 
-  function step() {
+  function step(now) {
     /* Anything else that moves the track wins, and the glide gets out of the
        way: a jump from the contents, a panel turned with the keyboard, a
        hand on the scrollbar. Without this the two take a frame each and
        neither ever arrives. */
     if (last !== null && Math.abs(track.scrollLeft - last) > 1) return stop();
 
-    var gap = target - track.scrollLeft;
-    speed += (gap * FOLLOW - speed) * ease;
+    clock = now;
 
-    /* Both, not either: the gap can close while the speed is still up, and
-       stopping there would cut the glide off at the knees. */
-    if (Math.abs(gap) < 0.5 && Math.abs(speed) < 0.5) {
-      track.scrollLeft = target;
-      return stop();
-    }
+    /* Held inside nought and one all the same. Two clocks meet here and the
+       arithmetic between them is not guaranteed to come out positive. */
+    var t = span > 0 ? clamp((now - began) / span, 0, 1) : 1;
+    var eased = 1 - Math.pow(1 - t, CURVE);
 
-    track.scrollLeft += speed;
+    track.scrollLeft = from + (to - from) * eased;
     last = track.scrollLeft;
+
+    if (t >= 1) return stop();
     frame = requestAnimationFrame(step);
   }
 
@@ -122,10 +137,22 @@
       return;
     }
 
-    // Followed frame by frame rather than handed to scrollTo with a smooth
-    // behaviour. That runs the browser's own easing from scratch on every
-    // notch, which lands a good third of a second behind the wheel and
-    // reads as lag; this has moved by the next frame.
+    /* The glide is re-aimed from wherever the track has got to, rather than
+       handed to scrollTo with a smooth behaviour. That runs the browser's
+       own easing from scratch on every notch, which lands a good third of a
+       second behind the wheel and reads as lag. */
+    from = track.scrollLeft;
+    to = target;
+    span = Math.min(LONGEST, Math.max(shortest, Math.abs(to - from) * PACE));
+
+    /* Timed from the frame this notch belongs to, not from the instant the
+       handler ran. A frame's timestamp is the moment it began, and input is
+       handled after that but before the frame is drawn, so timing a glide
+       from `performance.now()` leaves its first frame with no elapsed time
+       at all and the track standing still through it. One stalled frame in
+       every six or seven is exactly the stutter this is here to remove. */
+    began = frame !== null && clock ? clock : performance.now() - 16;
+
     if (frame === null) frame = requestAnimationFrame(step);
   }
 
@@ -150,7 +177,8 @@
       // Which kind of wheel this is. Anything reporting in lines is a mouse,
       // and so is anything moving this far in one event: a trackpad covers
       // the same ground in a stream of small ones.
-      ease = event.deltaMode !== 0 || Math.abs(event.deltaY) >= 40 ? EASE_COARSE : EASE_FINE;
+      var mouse = event.deltaMode !== 0 || Math.abs(event.deltaY) >= 40;
+      shortest = mouse ? SLOWEST : QUICKEST;
 
       // Nothing else on the page scrolls, so the gesture has nowhere else
       // to go and the browser's own handling is never what is wanted.
