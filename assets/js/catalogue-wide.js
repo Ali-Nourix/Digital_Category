@@ -9,6 +9,9 @@
         gesture has to be turned into travel along the track
      2. Page Up and Page Down should turn a panel rather than do nothing
 
+   On a phone the track is a deck of cards instead, and both of those turn
+   a card at a time; the rest of the file is what the deck needs measured.
+
    Loaded only by the wide build. Deleting it leaves the upright version
    untouched; see docs/WIDE.md.
    ========================================================================== */
@@ -23,11 +26,18 @@
   /* The gate in the stylesheet. Below it the document is the upright one and
      nothing in this file should touch it. Keep the two in step. */
   var gate = window.matchMedia("(min-width: 20rem) and (min-height: 34rem)");
+  /* And the one inside it that turns the spread into a deck of cards. */
+  var narrow = window.matchMedia("(max-width: 59.9375rem), (max-height: 37.9375rem)");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   /** Whether the stylesheet is laying the track out sideways at all. */
   function sideways() {
     return gate.matches;
+  }
+
+  /** Whether it is laying it out as a deck of cards, a card to the screen. */
+  function onDeck() {
+    return sideways() && narrow.matches;
   }
 
   /* ---------------------------------------------------------------- wheel */
@@ -174,8 +184,21 @@
       if (!event.deltaY) return;
 
       // deltaMode 1 is lines rather than pixels, which some mice always
-      // send; normalising keeps one notch of the wheel the same distance.
-      var step = event.deltaMode === 1 ? event.deltaY * 16 : event.deltaY;
+      // send, and 2 is whole pages; normalising keeps one notch of the wheel
+      // the same distance.
+      var step =
+        event.deltaMode === 1 ? event.deltaY * 16 :
+        event.deltaMode === 2 ? event.deltaY * track.clientWidth :
+        event.deltaY;
+
+      // Nothing else on the page scrolls, so the gesture has nowhere else
+      // to go and the browser's own handling is never what is wanted.
+      event.preventDefault();
+
+      if (onDeck()) {
+        deckWheel(step, event.timeStamp || performance.now());
+        return;
+      }
 
       // Which kind of wheel this is. Anything reporting in lines is a mouse,
       // and so is anything moving this far in one event: a trackpad covers
@@ -183,9 +206,6 @@
       var mouse = event.deltaMode !== 0 || Math.abs(event.deltaY) >= 40;
       shortest = mouse ? SLOWEST : QUICKEST;
 
-      // Nothing else on the page scrolls, so the gesture has nowhere else
-      // to go and the browser's own handling is never what is wanted.
-      event.preventDefault();
       travel(step * REACH);
     },
     { passive: false }
@@ -194,8 +214,151 @@
   // A hand on the track abandons the wheel's destination straight away,
   // rather than waiting for the next frame to notice it has moved.
   ["pointerdown", "touchstart"].forEach(function (kind) {
-    track.addEventListener(kind, stop, { passive: true });
+    track.addEventListener(kind, function () {
+      stop();
+      aim = null;
+    }, { passive: true });
   });
+
+  /* ------------------------------------------------------------ the cards */
+
+  /* On a phone the track is a deck, and a deck is only read on a card: at
+     rest half way between two, the reader has the end of one and the start
+     of the next and neither to read. The snap in the stylesheet brings a
+     swipe to rest on a card, but a glide cannot live with it (the glide sets
+     the track a few pixels at a time, and a snap takes every one of those
+     back to the card it came from), so on a card the wheel and the page keys
+     do not glide. They turn a card, as a swipe does, and aim the track at
+     exactly where the card begins, which is where the snap would put it.
+
+     Where the cards begin is read off the snap targets themselves, every
+     panel and every stop `markStops` placed inside one, as distances along
+     the track in reading order. */
+  var cards = [];
+
+  /* The card a turn in flight is bound for. A second notch while the track
+     is still travelling is counted from here, not from wherever the track
+     has got to, so turning the wheel three times turns three cards. */
+  var aim = null;
+  var landing = null;
+
+  /** Which way along scrollLeft reading forward goes. */
+  function forward() {
+    return getComputedStyle(track).direction === "rtl" ? -1 : 1;
+  }
+
+  /** How far along the track, in reading order, an element begins. */
+  function startOf(el) {
+    var dir = forward();
+    var box = track.getBoundingClientRect();
+    var r = el.getBoundingClientRect();
+    var edge = dir > 0 ? r.left - box.left : r.right - box.right;
+    return clamp(Math.round((track.scrollLeft + edge) * dir), 0, track.scrollWidth - track.clientWidth);
+  }
+
+  function readCards() {
+    var seen = {};
+    cards = [];
+    Array.prototype.forEach.call(track.querySelectorAll("[data-section], .foot, .deck-stop"), function (el) {
+      var at = startOf(el);
+      if (!seen[at]) {
+        seen[at] = true;
+        cards.push(at);
+      }
+    });
+    cards.sort(function (a, b) {
+      return a - b;
+    });
+  }
+
+  /** The card nearest to where the track is now. */
+  function nearestCard() {
+    var here = track.scrollLeft * forward();
+    var best = 0;
+    for (var i = 1; i < cards.length; i += 1) {
+      if (Math.abs(cards[i] - here) < Math.abs(cards[best] - here)) best = i;
+    }
+    return best;
+  }
+
+  function turn(by) {
+    stop();
+    if (!cards.length) readCards();
+    if (!cards.length) return;
+
+    aim = clamp((aim !== null ? aim : nearestCard()) + by, 0, cards.length - 1);
+    track.scrollTo({
+      left: cards[aim] * forward(),
+      behavior: reduced.matches ? "auto" : "smooth",
+    });
+
+    // Once the track has come to rest the next turn is counted from where it
+    // is. The scroll says when it has ended where the browser can; the wait
+    // is for the ones that cannot, and is longer than any turn takes.
+    if (landing !== null) clearTimeout(landing);
+    landing = setTimeout(function () {
+      aim = null;
+      landing = null;
+    }, 900);
+  }
+
+  track.addEventListener("scrollend", function () {
+    aim = null;
+  });
+
+  /* The wheel on a card.
+
+     A mouse and a trackpad send such different streams that one rule for
+     both has to be about the stream rather than about the device. A burst
+     of events with no quiet longer than GESTURE in it is one gesture: one
+     notch, a spin of several, or one stroke of two fingers together with
+     the coasting that follows it after they lift. A gesture turns a card as
+     soon as it has travelled NUDGE, so a wheel answers on its first notch
+     and a finger resting on the pad does nothing.
+
+     After that, a gesture that keeps going at the strength it turned with
+     is a wheel being spun, and turns another card every PACING, which is
+     about as long as one turn takes to travel. A gesture that is dying away
+     is a trackpad coasting, and turns nothing more: without that, one flick
+     of the fingers would run through three or four cards. */
+  var GESTURE = 160;
+  var NUDGE = 24;
+  var PACING = 400;
+
+  var gestureAt = -Infinity;
+  var gathered = 0;
+  var turnedAt = 0;
+  var strength = 0;
+  var heading = 0;
+
+  function deckWheel(delta, now) {
+    var sign = delta > 0 ? 1 : -1;
+
+    if (now - gestureAt > GESTURE || (turnedAt && sign !== heading)) {
+      gathered = 0;
+      turnedAt = 0;
+      strength = 0;
+    }
+    gestureAt = now;
+    heading = sign;
+
+    if (!turnedAt) {
+      gathered += delta;
+      if (Math.abs(gathered) < NUDGE) return;
+      heading = gathered > 0 ? 1 : -1;
+      turn(heading);
+      turnedAt = now;
+      strength = Math.abs(delta);
+      return;
+    }
+
+    strength = Math.max(strength, Math.abs(delta));
+    if (now - turnedAt >= PACING && Math.abs(delta) >= strength * 0.9) {
+      turn(sign);
+      turnedAt = now;
+      strength = Math.abs(delta);
+    }
+  }
 
   /* ------------------------------------------------------------- keyboard */
 
@@ -238,6 +401,15 @@
     // which are modal and have their own keys.
     if (document.querySelector("dialog[open]")) return;
     if (event.target.closest("input, textarea, [contenteditable]")) return;
+
+    // On a card a page is a card, not a section: a section may run to five.
+    if (onDeck()) {
+      if (event.key === "PageDown") { event.preventDefault(); turn(1); }
+      else if (event.key === "PageUp") { event.preventDefault(); turn(-1); }
+      else if (event.key === "Home") { event.preventDefault(); turn(-Infinity); }
+      else if (event.key === "End") { event.preventDefault(); turn(Infinity); }
+      return;
+    }
 
     if (event.key === "PageDown") { event.preventDefault(); go(1); }
     else if (event.key === "PageUp") { event.preventDefault(); go(-1); }
@@ -346,9 +518,55 @@
     });
   }
 
+  /* A generation's two lives stand one under the other on the card after
+     its opener, as they stand down the upright page, with the page's rule
+     between them. Should a card ever have no room even to start the second,
+     it goes on to the next card, and a rule over it there would be a line
+     across the head of that card with nothing above it; so the rule is
+     drawn only over a life that starts on the card the one before it is on.
+     A life that runs on to the next card is in two pieces, and it is the
+     first piece that says where it starts. The rule is out of the flow, so
+     drawing it moves nothing and cannot change where either life lands. */
+  function markLives(deck) {
+    Array.prototype.forEach.call(document.querySelectorAll(".person"), function (life) {
+      var before = life.previousElementSibling;
+      var under = false;
+      if (deck && before !== null && before.classList.contains("person")) {
+        var a = before.getClientRects()[0];
+        var b = life.getClientRects()[0];
+        under = !!a && !!b && Math.abs((a.left + a.right) / 2 - (b.left + b.right) / 2) < window.innerWidth / 2;
+      }
+      life.classList.toggle("person--under", under);
+    });
+  }
+
+  /* Granite and quartzite are one composition on two cards: the same three
+     frames in the same places, and the writing under them. Each card gives
+     its photographs what its own writing leaves, so a longer paragraph used
+     to mean a shorter block of photographs and the two cards came out two
+     different shapes. They are given the same block, the one the longer
+     writing leaves, and the shorter writing has the more white under it. */
+  function fitStones(deck) {
+    var stones = Array.prototype.slice.call(document.querySelectorAll(".sec--stone"));
+    stones.forEach(function (sec) {
+      sec.style.removeProperty("--stone-figures");
+    });
+    if (!deck) return;
+
+    var least = Infinity;
+    stones.forEach(function (sec) {
+      var figures = sec.querySelector(".stone__figures");
+      if (figures) least = Math.min(least, figures.getBoundingClientRect().height);
+    });
+    if (!isFinite(least) || least <= 0) return;
+
+    stones.forEach(function (sec) {
+      sec.style.setProperty("--stone-figures", Math.floor(least) + "px");
+    });
+  }
+
   function fitCards() {
-    var narrow = window.matchMedia("(max-width: 59.9375rem), (max-height: 37.9375rem)");
-    var deck = sideways() && narrow.matches;
+    var deck = onDeck();
 
     DECK.forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll(kind.sec), function (sec) {
@@ -371,7 +589,10 @@
       });
     });
 
+    fitStones(deck);
     markStops(deck);
+    markLives(deck);
+    readCards();
   }
 
   /* Measured against the type as it will be set, not as it is set while the
@@ -385,9 +606,10 @@
 
   /* A turn of the phone changes both the width the words are set to and the
      height of the card holding them, so the whole deck is measured again.
-     Keeping the reader where they were: the card they are on is the panel
-     nearest the leading edge, and after the deck has been remade that panel
-     is brought back to it. */
+     Keeping the reader where they were: the panel they are in is the one
+     nearest the leading edge, and they are so many cards into it. After the
+     deck has been remade they are put back on that card of that panel, or on
+     its last if it now runs to fewer. */
   var settle = null;
   window.addEventListener(
     "resize",
@@ -396,8 +618,18 @@
       settle = setTimeout(function () {
         settle = null;
         var here = PANELS[currentPanel()];
+        var into = here ? Math.max(0, Math.round((track.scrollLeft * forward() - startOf(here)) / window.innerWidth)) : 0;
         fitCards();
-        if (here) here.scrollIntoView({ behavior: "auto", inline: "start", block: "nearest" });
+        if (!here) return;
+        here.scrollIntoView({ behavior: "auto", inline: "start", block: "nearest" });
+        if (!onDeck() || !into) return;
+
+        var first = cards.indexOf(startOf(here));
+        var span = Math.round(here.getBoundingClientRect().width / window.innerWidth);
+        if (first < 0 || span < 2) return;
+        aim = null;
+        var card = cards[Math.min(cards.length - 1, first + Math.min(into, span - 1))];
+        track.scrollTo({ left: card * forward(), behavior: "auto" });
       }, 150);
     },
     { passive: true }

@@ -252,13 +252,27 @@ of the height, so the divider's printed 5:7 becomes green across the top and
 the title under it, and the section opener still stands where the reading
 starts, which on a card is the top of it.
 
-Two compositions are drawn rather than turned, because turning them would not
-have worked:
+Three compositions are drawn rather than turned, because turning them would
+not have worked:
 
 | Panel | Deck |
 |---|---|
 | Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. |
-| The biographies | The portrait beside the name rather than over it, a byline. Down a page the portrait stands above the life it belongs to and there is a page to spare; on a card the two together are a hundred and fifty pixels of depth that the life itself needs. The first life follows the generation's opener on to its card when the whole of it fits there, and takes the next card when it does not. |
+| The biographies | Each generation's head (its banner, what the print says of it, and who it was) on a card of its own, set in the middle of it with the same white above as below: a title card. Then its two lives on the next card, one under the other as they stand down the upright page, with the page's rule between them. The portrait is beside the name rather than over it, a byline at four rem, because the depth a portrait over the name takes is the depth the second life needs to start on the same card. Where the card is too short for both lives whole, the second still starts under the first and its last lines run on to the next card, as any paragraph does. It starts a card of its own only on the smallest phones, where the first life alone fills most of one. |
+| Granite and quartzite | The same three frames on both, one tall and two square, over the writing. Left alone each block of photographs takes what its own writing leaves, so the two came out different shapes on consecutive cards. `fitStones` in the script gives both the block the longer writing leaves, so the frames stand in the same places on both cards and the title under them starts on the same line. |
+
+The lives are set in flow, not on the grid the page uses: the portrait floats
+against the leading edge and the name sits beside it at its height. A grid is
+not something every browser can carry from one column to the next, and flow
+is, a line at a time. `markLives` draws the rule over the second life only when
+its first piece is on the same card as the first life, so a life that ever
+has to open a card does not open it under a line. A life may open with two
+lines at the foot of a card instead of the three a paragraph is otherwise
+held to.
+
+The hairline the spread draws between two panels of writing is not drawn on a
+card: the card's edge is the page turn, and at rest the line stood down the
+edge of the screen on some cards and not others.
 
 **And a card holds what a card holds.** The long sections are given more than
 one card rather than a card with the foot cut off it, and where the writing
@@ -322,8 +336,8 @@ Two things to know when checking it:
 
 ### Resting on a card
 
-Swiped (`pointer: coarse`), a card comes to rest on a card, and one swipe is
-one card: `scroll-snap-type: x mandatory` with `scroll-snap-stop: always` on
+A card comes to rest on a card, however it was moved, and one swipe is one
+card: `scroll-snap-type: x mandatory` with `scroll-snap-stop: always` on
 every stop. Every panel is a stop. So is every card inside a panel that runs
 on, but those cards are columns of poured type and a column is not an
 element, so `markStops` in the script places a one pixel `.deck-stop` where
@@ -331,6 +345,27 @@ each of them begins, from the width the panel came out at. Only once they are
 there does the snap become mandatory; before that, and without the script, it
 is by proximity, which never takes a reader away from a card there is no stop
 for.
+
+The snap is for every pointer, not only for touch. It was once kept to
+`pointer: coarse`, because the wheel's glide sets the track a few pixels at a
+time and a snap takes every one of them back; that left a desktop browser
+emulating a phone, which reports a mouse, with no snap at all, and it came to
+rest half way between two cards. On a card the wheel does not glide. It turns
+cards, as a swipe does, aimed at exactly where a card begins:
+
+- a burst of wheel events with no quiet longer than 160ms in it is one
+  gesture, and a gesture turns a card once it has travelled 24px, so a notch
+  answers at once and a finger resting on a trackpad does nothing;
+- a gesture that keeps its strength (a wheel spun on) turns another card
+  every 400ms; one that is dying away (a trackpad coasting after the fingers
+  lift) turns nothing more, or one flick would run through four cards;
+- a notch while a turn is still travelling is counted from the card the turn
+  is bound for, so three notches are three cards.
+
+Page Up and Page Down turn a card rather than a section, Home and End go to
+the first and the last, and after a resize the reader is put back on the card
+they were on, not only in the section. Where the cards begin is read off the
+snap targets themselves, so the wheel, the keys and the snap always agree.
 
 Two things had to change for this to work at all:
 
@@ -412,6 +447,10 @@ itself outside its card and reads as lost text:
 
 And the same with scripting off, which is what checks the figures in the
 stylesheet rather than the ones the script works out.
+
+If a biography changes length, check too that each generation's second life
+still starts on the card its first is on. A life of a few lines more on a
+short phone is what sends the second to a card of its own.
 
 ## Removing it
 

@@ -531,19 +531,18 @@ html[lang="en"] .contents__list a[aria-current] {
 }
 
 /* The hairline between two consecutive text sections stands in for the page
-   turn. Plates and dividers carry their own edge, so they are skipped. */
-.sec + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
+   turn. Plates and dividers carry their own edge, so a section next to one
+   is skipped, on either side of it. Both sides are in the one selector:
+   written as a second rule setting `content: none`, the skip weighed less
+   than the rule it was skipping, and every section after a plate or a
+   divider drew the line all the same. */
+.sec:not(.sec--plate, .sec--divider, .sec--cover) + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
   content: "";
   position: absolute;
   inset-block-start: 0;
   inset-inline: var(--frame);
   block-size: var(--hairline);
   background-color: var(--rule);
-}
-
-.sec--plate + .sec::before,
-.sec--divider + .sec::before {
-  content: none;
 }
 
 

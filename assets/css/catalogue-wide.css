@@ -138,17 +138,12 @@
 
   /* The page turn between two panels, which the upright version draws as a
      hairline across the top of a section. */
-  .sec + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
+  .sec:not(.sec--plate, .sec--divider, .sec--cover) + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
     inset-block: var(--frame);
     inset-inline-start: 0;
     inset-inline-end: auto;
     inline-size: var(--hairline);
     block-size: auto;
-  }
-
-  .sec--plate + .sec::before,
-  .sec--divider + .sec::before {
-    content: none;
   }
 
   /* A photograph panel is the photograph, whatever the screen: the frame is
@@ -1177,10 +1172,14 @@
       --panel: 100vw;
     }
 
-    /* Swiped, a card comes to rest on a card, and one swipe is one card.
-       Scrolled with a wheel or a bar it does not: the glide would fight the
-       snap over the last few pixels of every turn. `coarse` is the
-       difference between the two.
+    /* A card comes to rest on a card, however it was moved: swiped, turned
+       with a wheel, dragged by the bar or stepped with the keys, and on a
+       desktop browser pretending to be a phone, which reports a mouse. This
+       was once for touch alone, because the wheel's glide sets the track a
+       few pixels at a time and a snap fights it over the last few pixels of
+       every turn; on a card the wheel turns a whole card instead (see
+       `catalogue-wide.js`), so there is nothing left for the two to fight
+       over, and nothing is left resting half way between two cards.
 
        Every panel is a stop. So is every card inside a panel that runs on,
        but those are columns of poured type and a column is not an element,
@@ -1188,21 +1187,19 @@
        cards) and only then asks for every swipe to end on one. Until it has,
        the snap is by proximity, which never takes a reader away from a card
        there is nothing to mark. */
-    @media (pointer: coarse) {
-      .doc {
-        scroll-snap-type: x proximity;
-      }
+    .doc {
+      scroll-snap-type: x proximity;
+    }
 
-      html.deck-stops .doc {
-        scroll-snap-type: x mandatory;
-      }
+    html.deck-stops .doc {
+      scroll-snap-type: x mandatory;
+    }
 
-      .sec,
-      .foot,
-      .deck-stop {
-        scroll-snap-align: start;
-        scroll-snap-stop: always;
-      }
+    .sec,
+    .foot,
+    .deck-stop {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
     }
 
     .deck-stop {
@@ -1211,6 +1208,14 @@
       inset-inline-start: calc(var(--at) * 100vw);
       inline-size: 1px;
       pointer-events: none;
+    }
+
+    /* A card's own edge is its page turn, so the hairline the spread draws
+       down the side of a panel is not drawn. At rest on a card it stood as
+       a stray line down the edge of the screen, and only on the cards whose
+       section happened to follow another section of writing. */
+    .sec:not(.sec--plate, .sec--divider, .sec--cover) + .sec:not(.sec--plate, .sec--divider, .sec--cover)::before {
+      content: none;
     }
 
     /* The frame comes off the shell on every section whose blocks are poured
@@ -1388,9 +1393,11 @@
     }
 
     /* --- People -------------------------------------------------------------
-       Three cards: the generation and its lede, then a life on each. The
-       print sets the two lives side by side and a card has room for one, so
-       the pair becomes a pair of cards and the opener keeps the one it had. */
+       The generation on a card of its own: its banner, what the print says
+       of it and who it was. Then its two lives on the card after it, one
+       under the other, as they stand down the upright page. A life is never
+       broken, so where the second has no room under the first it takes the
+       card after that one. */
 
     .sec--people {
       --cards: 5;
@@ -1407,15 +1414,26 @@
       padding-inline: var(--frame);
     }
 
-    /* Except the green banner, whose green is its box. Given the frame as
-       padding it takes the frame inside the green, and the banner runs out
-       to the edge of the card, where it meets the green of the section
-       opener on the card before and the two read as one shape. As margin
-       the frame is white, and the banner starts on the same line as the
-       words under it. */
-    .sec--people > .shell > .tag {
-      margin-inline-start: var(--frame);
-      padding-inline: var(--space-5);
+    /* The generation's head, the banner and the lede, is its card: as tall
+       as the card, with the head set in the middle of it, the same white
+       over it as under it. It is a title card, and set at the top it read
+       as a page that had stopped a third of the way down.
+
+       The frame is the head's padding, so the green banner inside it starts
+       on the frame, on the line the words under it start on. Given the frame
+       as padding itself it took the frame inside its green, and ran out to
+       the edge of the card, where it met the green of the section opener on
+       the card before and the two read as one shape. */
+    .people__head {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      block-size: 100%;
+    }
+
+    .people__head > .people__lede {
+      align-self: stretch;
     }
 
     /* A grid is one piece and cannot be poured, so the list of lives stops
@@ -1425,52 +1443,90 @@
       margin-block-start: 0;
     }
 
-    /* The portrait beside the name rather than over it: a byline. Down a page
-       it stands above the life it belongs to and there is a page to spare;
-       on a card the two together are a hundred and fifty pixels of depth
-       that the life itself needs. */
+    /* The two lives are one run of writing, the second straight under the
+       first. Where a card has room for both, both are on it; where it does
+       not, the second starts under the first all the same and its last lines
+       run on to the next card, the way every paragraph on a card runs on.
+       Given a card each instead, each was a card two thirds white.
+
+       So a life is set in flow and not on a grid: flow is what every browser
+       knows how to carry from one column to the next a line at a time, and a
+       grid is not. The page's rule over a life is drawn out of the flow
+       below, so that it can be left off where a life opens a card. */
     .person {
-      display: grid;
-      grid-template-columns: auto minmax(0, 1fr);
-      column-gap: var(--space-5);
-      row-gap: var(--space-4);
-      align-items: center;
-      break-before: column;
-      break-inside: avoid;
-      /* The rule over a life separated it from the one before it down a
-         page. A card does that on its own. */
+      position: relative;
+      display: block;
       padding-block-start: 0;
       border-block-start: 0;
     }
 
-    /* The first life follows the generation's opener on to its card when
-       there is room for the whole of it there, and takes the next card when
-       there is not. The opener is a tag and a paragraph, and on a phone of
-       ordinary height it leaves most of a card that the first life fills;
-       made to wait for the next card, it leaves a card that is two thirds
-       white followed by one that is full. */
+    /* The lives begin on the card after the opener, which keeps its card to
+       itself. */
     .person:first-child {
-      break-before: auto;
-      margin-block-start: var(--space-6);
+      break-before: column;
+    }
+
+    /* The space over the second life is a margin, so that if it is ever sent
+       on to a card of its own the space goes with the break and the life
+       starts on the card's top line like every other card does. */
+    .person + .person {
+      margin-block-start: var(--space-8);
+    }
+
+    /* The page's rule, halfway down that space, when the second life starts
+       on the same card as the first: `markLives` in the script says when. */
+    .person--under::before {
+      content: "";
+      position: absolute;
+      inset-inline: 0;
+      inset-block-start: calc(var(--space-8) / -2);
+      block-size: var(--hairline);
+      background-color: var(--rule);
+    }
+
+    /* The byline: the portrait against the leading edge and the name beside
+       it, on its middle. A byline and not the page's portrait over the name,
+       because down a page there is a page to spare, and here the depth the
+       portrait takes is depth the second life needs to start on this card.
+       The two are the same height, so they always go on to a card together;
+       and the name holds on to the first lines of the life under it. */
+    .person__portrait {
+      --cut: 1rem;
+
+      float: inline-start;
+      inline-size: 4rem;
+      margin-inline-end: var(--space-5);
     }
 
     .person__body {
-      display: contents;
-    }
-
-    .person__portrait {
-      grid-row: 1;
-      inline-size: 6rem;
+      display: block;
     }
 
     .person__name {
-      grid-column: 2;
-      grid-row: 1;
-      align-self: center;
+      display: flex;
+      align-items: center;
+      /* The portrait's height: four rem at three to four. */
+      min-block-size: calc(4rem * 4 / 3);
+      break-inside: avoid;
+      break-after: avoid;
+    }
+
+    .person--no-portrait .person__name {
+      min-block-size: 0;
     }
 
     .person__bio {
-      grid-column: 1 / -1;
+      clear: both;
+      margin-block-start: var(--space-2);
+    }
+
+    /* A life may open with two lines at the foot of a card rather than the
+       three a paragraph is held to elsewhere. Two is enough to be the start
+       of something, and it is the difference between the second life
+       starting under the first on a phone of ordinary height and starting
+       on a card of its own. */
+    .doc .person__bio p {
+      orphans: 2;
     }
 
     .person .list li {
@@ -1545,12 +1601,21 @@
        The photographs over the writing, as the two panels have them sideways:
        the stone first and then what it is. The printed arrangement of three
        frames, one tall and two square beside it, is kept. There are four
-       sentences here and they fit under it, so this one stays a single card. */
+       sentences here and they fit under it, so this one stays a single card.
+
+       Granite and quartzite are the same composition, and on two cards in a
+       row any difference between them is a difference the reader sees. Left
+       to itself each block of photographs takes what its own writing leaves,
+       and granite, which has more to say, came out a shorter block than
+       quartzite. `fitStones` in the script gives both the block the longer
+       writing leaves (`--stone-figures`), so the frames stand in the same
+       places on both cards and the title under them starts on the same line.
+       Without the script each keeps its own share. */
 
     .stone {
       block-size: 100%;
       grid-template-columns: minmax(0, 1fr);
-      grid-template-rows: minmax(0, 7fr) auto;
+      grid-template-rows: var(--stone-figures, minmax(0, 7fr)) auto;
       gap: var(--panel-gap);
       align-items: stretch;
     }

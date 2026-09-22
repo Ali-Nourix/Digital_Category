@@ -284,10 +284,14 @@ ${portrait}
       })
       .join("\n");
 
+    /* The banner and the lede are one head, which a phone's deck of cards
+       gives a card of its own and sets in the middle of it. */
     return `      <div class="shell">
-        <h2${step("tag")}>${rich(copy.tag)}</h2>
-        <div${step("people__lede lede")}>
+        <div class="people__head">
+          <h2${step("tag")}>${rich(copy.tag)}</h2>
+          <div${step("people__lede lede")}>
 ${lede}
+          </div>
         </div>
         <div class="people__list">
 ${people}
