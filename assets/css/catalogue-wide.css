@@ -651,14 +651,6 @@
     max-inline-size: none;
   }
 
-  /* A justified line needs words enough to absorb the space between them.
-     The third column is the narrowest on the panel and the English sets long
-     words in it, so there the line is ranged from the start and the space
-     goes to the rag instead of into the middle of the sentence. */
-  html[lang="en"] .slabs__side > .slabs__col + .slabs__col .prose p {
-    text-align: start;
-  }
-
   /* A hairline down each gutter, the rule the print uses between the columns
      of a spread. Three columns of type without one read as a single wide
      block that happens to have gaps in it. The rule is drawn on the leading
@@ -1125,14 +1117,6 @@
     html[lang="fa"] .doc .list li,
     html[lang="fa"] .doc .lede {
       line-height: 1.8;
-    }
-
-    /* Ranged from the start, not justified. The print justifies a column
-       thirty words wide; a phone's line is eight or nine, and spread across
-       that the space between words opens into holes, which is what the
-       justified paragraphs on a phone were showing. */
-    .doc .prose p {
-      text-align: start;
     }
 
     /* A title and the heading under it are one unit. The page sets a

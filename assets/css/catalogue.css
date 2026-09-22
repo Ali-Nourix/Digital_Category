@@ -600,16 +600,52 @@ html[lang="en"] .heading {
   margin-block-start: var(--space-4);
 }
 
-.prose p {
+/* Running text is justified, in both languages and in every reading of the
+   page: Persian flush to both edges with its last line ranged right, Latin
+   with its last line ranged left. The space a line has over goes between
+   its words and nowhere else. Persian is never drawn out between its
+   letters, by kashida or by tracking, which stretches a word through its
+   joins; Latin is hyphenated, as a justified column in print is, so that a
+   short line does not open into holes between its words. A word is broken
+   only if it has six letters or more, with two left behind and three
+   carried over.
+
+   Display type is not justified. A title, a banner, a name and the pull
+   quote are set a few words to the line at a size where the space a line
+   has over cannot be hidden between so few words, so they range from the
+   start, as headings do. */
+.prose p,
+.people__lede p,
+.list li,
+.benefit p,
+.slabs__uses-intro {
   text-align: justify;
+  text-align-last: start;
   text-justify: inter-word;
-  hyphens: auto;
 }
 
-html[lang="fa"] .prose p {
+html[lang="fa"] .prose p,
+html[lang="fa"] .people__lede p,
+html[lang="fa"] .list li,
+html[lang="fa"] .benefit p,
+html[lang="fa"] .slabs__uses-intro {
   /* Persian sets solid: no tracking, and the leading carries the line. */
   letter-spacing: 0;
   hyphens: none;
+}
+
+html[lang="en"] .prose p,
+html[lang="en"] .people__lede p,
+html[lang="en"] .list li,
+html[lang="en"] .benefit p,
+html[lang="en"] .slabs__uses-intro {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 2 3;
+  -webkit-hyphenate-limit-before: 2;
+  -webkit-hyphenate-limit-after: 3;
+  /* Never more than two broken lines running. */
+  -webkit-hyphenate-limit-lines: 2;
 }
 
 .prose strong {
@@ -1360,6 +1396,11 @@ html[lang="fa"] .foot .bk-logo {
   margin-block-end: var(--space-4);
   color: var(--paper);
   font-size: var(--step-0);
+}
+
+/* Tracking is for the Latin only: spaced out, Persian is pulled apart at the
+   joins between its letters. */
+html[lang="en"] .foot__title {
   letter-spacing: 0.02em;
 }
 

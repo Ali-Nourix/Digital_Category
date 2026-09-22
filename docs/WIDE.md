@@ -297,9 +297,28 @@ rather than the page's thirty two. The Persian running text is set on 1.8
 rather than 1.85, because short lines want less air between them to read as
 a paragraph.
 
-Running text is ranged from the start on a card, not justified. The print
-justifies a column thirty words wide; a phone's line is eight or nine, and
-spread across that the space between words opens into holes.
+Running text is justified on a card as it is everywhere else: Persian flush
+to both edges with its last line to the right, English with its last line to
+the left. The rule is in `catalogue.css` and no reading overrides it. The
+space a line has over goes between its words and nowhere else: no kashida
+and no tracking, which would stretch a Persian word through its joins. The
+English is hyphenated (`hyphens: auto`, six letters or more, two left behind
+and three carried over), which is what keeps a phone's eight or nine words
+to the line from opening into holes. Display type (titles, the banner, the
+names, the pull quote) is not justified: a few words to the line at that
+size cannot hide the space between them.
+
+Two things to know when checking it:
+
+- **The Persian face has a narrow space.** Rokh's word space is a tenth of an
+  em, where the Latin face's is more than a quarter, so a justified Persian
+  line whose spaces measure two or three times the plain one is a normal
+  word space and not a loose line.
+- **A test browser may not hyphenate.** Chrome fetches its hyphenation
+  dictionaries as a component, and a Playwright Chromium never does, so the
+  English it renders is set without hyphenation, with holes the reader's
+  browser does not have. Measure English gaps with the breaks marked in as
+  soft hyphens instead, from the en-us patterns and with the same limits.
 
 ### Resting on a card
 
