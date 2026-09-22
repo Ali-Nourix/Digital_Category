@@ -270,19 +270,55 @@ html[lang="fa"] .bar__logo .bk-logo {
   gap: var(--space-2);
 }
 
+/* A phone's bar carries a mark and three controls, and at the sizes the rest
+   of the document is set at they are more than the row holds: the labels
+   break over two lines and the mark runs into them.
+
+   The mark gives first, and gives the most. The lockup is the wordmark
+   beside the mark, five times as wide as the mark on its own, and the name
+   is on the cover, in the footer and in the tab. The controls give a little
+   after it, which is padding rather than type: a label set smaller to fit is
+   a label that has been made harder to read in order to fit.
+
+   The url() has to be written here rather than in a style attribute for the
+   reason shapes.css gives, and this file sits in the same folder as that
+   one, so the path is the same. */
+@media (max-width: 30rem) {
+  .bar__logo .bk-logo,
+  html[lang="fa"] .bar__logo .bk-logo {
+    --shape: url("../logos/logo-mark.svg");
+    --shape-ratio: 49.15 / 51.7;
+
+    block-size: 1.5rem;
+  }
+
+  .bar__inner {
+    gap: var(--space-2);
+  }
+
+  .bar .chip {
+    padding-inline: var(--space-3);
+  }
+
+  /* And the bar's own margin comes in with them, which is the last of it. */
+  .bar__inner {
+    padding-inline: var(--space-4);
+  }
+}
+
 /* --- The view switch ------------------------------------------------------
    Belongs to the sideways version; delete this block with it, see docs/WIDE.md.
 
    Offered only where there are two versions to switch between. The sideways
-   stylesheet lays its track out above this same breakpoint and below it the
-   two builds render identically, so a switch there would swap a document for
-   a copy of itself, and cost the bar a third of its room to do it. */
+   stylesheet lays its track out inside this same gate and below it the two
+   builds render identically, so a switch there would swap a document for a
+   copy of itself, and cost the bar a third of its room to do it. */
 
 .chip[data-view-swap] {
   display: none;
 }
 
-@media (min-width: 60rem) and (min-height: 38rem) {
+@media (min-width: 20rem) and (min-height: 34rem) {
   .chip[data-view-swap] {
     display: inline-flex;
   }
@@ -305,6 +341,9 @@ html[lang="fa"] .bar__logo .bk-logo {
   font: inherit;
   font-size: var(--step--1);
   line-height: 1;
+  /* A control is one line. Broken over two it stops reading as a button and
+     starts reading as a sentence that has been put in a box. */
+  white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
   transition: background-color var(--dur-fast) linear,

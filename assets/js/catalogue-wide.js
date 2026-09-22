@@ -19,12 +19,14 @@
   var track = document.getElementById("doc");
   if (!track || document.documentElement.dataset.axis !== "inline") return;
 
-  var wide = window.matchMedia("(min-width: 60rem) and (min-height: 38rem)");
+  /* The gate in the stylesheet. Below it the document is the upright one and
+     nothing in this file should touch it. Keep the two in step. */
+  var gate = window.matchMedia("(min-width: 20rem) and (min-height: 34rem)");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-  /** The stylesheet only lays the track out sideways above this breakpoint. */
+  /** Whether the stylesheet is laying the track out sideways at all. */
   function sideways() {
-    return wide.matches;
+    return gate.matches;
   }
 
   /* ---------------------------------------------------------------- wheel */
@@ -241,4 +243,133 @@
     else if (event.key === "Home") { event.preventDefault(); go(-PANELS.length); }
     else if (event.key === "End") { event.preventDefault(); go(PANELS.length); }
   });
+
+  /* ----------------------------------------------------------- the deck */
+
+  /* On a phone a panel is a card, and a section whose writing is longer than
+     one card is given as many as it needs. How many that is, is a question
+     CSS cannot answer: it is the height of a piece of text at a width, and
+     there is no way to ask for that and then divide by the height of a card.
+     So it is measured here.
+
+     The stylesheet sets each of these sections in columns exactly one card
+     wide and pours the text down them, and gives the section a width of
+     `--cards` cards. Too few, and the last column has nowhere to go: it is
+     laid out past the inline edge, where the section's own overflow eats it
+     and a paragraph goes missing with nothing to say so. That is exactly
+     what is measured — the poured box reports a scroll width past its own —
+     so the count starts at one and goes up until the spill stops.
+
+     Without this the stylesheet's own figures stand, and they are the number
+     the smallest phone the deck is offered on needs. Nothing is ever lost
+     without the script; a big phone is simply given one or two cards of
+     white it did not need, and this takes them back. */
+
+  var DECK = [
+    { sec: ".sec--feature", pour: ".feature", prop: "--cards", hero: ".feature__figure" },
+    { sec: ".sec--people", pour: ".shell", prop: "--cards" },
+    { sec: ".sec--slabs", pour: ".shell", prop: "--cards" },
+    { sec: ".sec--columns", pour: ".columns__text", prop: "--text-cards" },
+  ];
+
+  var MOST = 12;
+
+  /* What a photograph at the head of a card may come down to before it stops
+     being a photograph, and what it may come up to before the words under it
+     read as a caption that has lost its picture. Shares of the card. */
+  var HERO_LEAST = 0.28;
+  var HERO_MOST = 0.64;
+
+  /** Poured type that will not fit is laid out past the inline edge. */
+  function spills(box) {
+    return box.scrollWidth - box.clientWidth > 1;
+  }
+
+  /* A section whose writing fits one card is given its photograph back: the
+     picture takes the card exactly, which both fills it and makes the
+     picture as large as the words allow. Returns true if one card did it.
+
+     Without this a section three lines over a card spends a second one on
+     those three lines, and the reader swipes to a card that is empty. */
+  function fitHero(sec, box, spot) {
+    var fig = sec.querySelector(spot);
+    if (!fig) return false;
+
+    /* The card's own height, without the frame: clientHeight still counts
+       the padding, and a photograph sized to include it is a photograph one
+       frame too tall for the card it is filling. */
+    var frame = getComputedStyle(box);
+    var avail =
+      box.clientHeight -
+      parseFloat(frame.paddingBlockStart) -
+      parseFloat(frame.paddingBlockEnd);
+
+    sec.style.setProperty("--hero", "0px");
+    var words = fig.nextElementSibling ? fig.nextElementSibling.offsetHeight : avail;
+    /* A pixel short of exact, because a photograph that fills the last of the
+       card to the subpixel is a photograph that sometimes does not. */
+    var hero = Math.min(avail - words - 1, avail * HERO_MOST);
+
+    if (hero >= avail * HERO_LEAST && !spills(box)) {
+      sec.style.setProperty("--hero", hero + "px");
+      if (!spills(box)) return true;
+    }
+
+    sec.style.removeProperty("--hero");
+    return false;
+  }
+
+  function fitCards() {
+    var narrow = window.matchMedia("(max-width: 59.9375rem), (max-height: 37.9375rem)");
+
+    DECK.forEach(function (kind) {
+      Array.prototype.forEach.call(document.querySelectorAll(kind.sec), function (sec) {
+        if (!sideways() || !narrow.matches) {
+          sec.style.removeProperty(kind.prop);
+          sec.style.removeProperty("--hero");
+          return;
+        }
+        var box = sec.querySelector(kind.pour);
+        if (!box) return;
+
+        sec.style.setProperty(kind.prop, 1);
+        if (kind.hero && fitHero(sec, box, kind.hero)) return;
+
+        var n = 1;
+        while (n < MOST && spills(box)) {
+          n += 1;
+          sec.style.setProperty(kind.prop, n);
+        }
+      });
+    });
+  }
+
+  /* Measured against the type as it will be set, not as it is set while the
+     brand faces are still arriving. */
+  function measureWhenReady() {
+    fitCards();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitCards);
+  }
+
+  measureWhenReady();
+
+  /* A turn of the phone changes both the width the words are set to and the
+     height of the card holding them, so the whole deck is measured again.
+     Keeping the reader where they were: the card they are on is the panel
+     nearest the leading edge, and after the deck has been remade that panel
+     is brought back to it. */
+  var settle = null;
+  window.addEventListener(
+    "resize",
+    function () {
+      if (settle !== null) clearTimeout(settle);
+      settle = setTimeout(function () {
+        settle = null;
+        var here = PANELS[currentPanel()];
+        fitCards();
+        if (here) here.scrollIntoView({ behavior: "auto", inline: "start", block: "nearest" });
+      }, 150);
+    },
+    { passive: true }
+  );
 })();

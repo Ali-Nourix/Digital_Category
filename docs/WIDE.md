@@ -14,16 +14,29 @@ difference is one stylesheet, one script and the directory it is written to.
 
 The chip in the bar switches between the upright and the sideways reading of
 whatever section is on screen, next to the one that switches language. It is
-offered only above `60rem` wide and `38rem` tall, because below that the
-sideways stylesheet switches itself off and a switch would swap a document
-for a copy of itself.
+offered at `20rem` wide and `34rem` tall and up, which is the gate the
+sideways stylesheet lays its track out inside; below that the stylesheet
+switches itself off, the two builds render identically, and a switch would
+swap a document for a copy of itself.
+
+It is read two ways inside that gate, and which one depends on the shape of
+the window rather than on the device:
+
+- **the spread**, above `60rem` wide and `38rem` tall, where a panel is a
+  printed spread and things stand side by side;
+- **the deck**, below either of those, where a panel is a card and a phone
+  held upright swipes through them.
+
+The gate keeps out one shape in particular, a phone turned on its side: there
+are barely three hundred pixels of height there to cut a panel to, and the
+upright document is the better reading.
 
 ## What it is made of
 
 | File | What it does |
 |---|---|
-| `assets/css/catalogue-wide.css` | Every layout override. One media query wraps the file. |
-| `assets/js/catalogue-wide.js` | Turns a mouse wheel into travel along the track, and makes Page Up and Page Down turn a panel. |
+| `assets/css/catalogue-wide.css` | Every layout override, in three blocks: the track, the spread, the deck. |
+| `assets/js/catalogue-wide.js` | Turns a mouse wheel into travel along the track, makes Page Up and Page Down turn a panel, and measures how many cards each section of the deck needs. |
 | `wide/index.html`, `wide/en/index.html` | Generated output. |
 | `BUILDS` in `tools/build-catalogue.mjs` | Two rows, `mode: "wide"`. |
 
@@ -33,7 +46,9 @@ Three small things live in shared files and are marked where they are:
   reads it in one place (`var sideways = ...`) and uses it to choose the axis
   for its two observers and for the contents jump.
 - `.chip[data-view-swap]` in `assets/css/catalogue.css`, which hides the
-  switch below the breakpoint.
+  switch below the gate, and the block under it that puts the bar's mark down
+  to the monogram on a narrow window: three controls and a lockup are more
+  than a phone's bar holds.
 - The footer is written inside `<main>` in the sideways build, because there
   it is the last panel of the track rather than a band under the document.
   It carries `role="contentinfo"` there so it stays a landmark.
@@ -44,9 +59,11 @@ The track is a native scroll container: `.doc` becomes a flex row that is one
 window tall and as wide as its panels. A flex row follows `dir`, so the
 Persian build scrolls right to left with no arithmetic anywhere, and the
 scrollbar, the keyboard, the touch swipe and a trackpad's horizontal gesture
-all come from the browser. Nothing snaps: several readings of a panel are
-legitimate, and snapping spends its time pulling a reader who is part way
-between two of them back to an edge they did not ask for.
+all come from the browser. Nothing snaps where the gesture is a wheel or a
+bar: several readings of a panel are legitimate there, and snapping spends
+its time pulling a reader who is part way between two of them back to an edge
+they did not ask for. Where the gesture is a swipe — `pointer: coarse` — it
+snaps by proximity, because a card wants to come to rest on a card.
 
 ### One window, one spread
 
@@ -203,11 +220,79 @@ itself no longer scrolls.
   response nothing.
 - **Page Up and Page Down** turn a panel. Home and End go to the ends.
 
-Below `60rem` wide or `38rem` tall the whole stylesheet switches off and the
-page is the upright one. A sideways catalogue needs a landscape window with
-room in it: every panel is a whole spread cut to the height of the window,
-and under about six hundred pixels of that there is no height left to cut one
-to.
+Below `20rem` wide or `34rem` tall the whole stylesheet switches off and the
+page is the upright one.
+
+## The deck
+
+A phone held upright. The window is taller than it is wide, so nothing goes
+side by side and a panel stops being a spread: it is a card, one screen of
+it, and the reader swipes through a deck of forty or so, which is about what
+the printed catalogue has pages.
+
+Two things follow, and the third block of the stylesheet is one or the other.
+
+**What was beside something is now over it.** A photograph and the words
+about it, the green field and the section title, the stone and its caption:
+each pair keeps its order, which is the order it is read in, and turns a
+quarter turn. Where the pair had a share of the width it takes the same share
+of the height, so the divider's printed 5:7 becomes green across the top and
+the title under it, and the section opener still stands where the reading
+starts — which on a card is the top of it.
+
+Two compositions are drawn rather than turned, because turning them would not
+have worked:
+
+| Panel | Deck |
+|---|---|
+| Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. |
+| The biographies | The portrait beside the name rather than over it, a byline. Down a page the portrait stands above the life it belongs to and there is a page to spare; on a card the two together are a hundred and fifty pixels of depth that the life itself needs. |
+
+**And a card holds what a card holds.** The long sections are given more than
+one card rather than a card with the foot cut off it, and where the writing
+is already in parts — the three of the twelve millimetre spread, the two
+lives, the three blocks of the advantages — the parts are where it divides. A
+part opens a card and runs on to the next if it needs one.
+
+The mechanism is the same everywhere: the block is set in columns exactly one
+card wide, poured rather than balanced (`column-fill: auto`), with the frame
+moved off the shell and on to the blocks inside it, so that every column
+carries the frame and not only the first and the last. A section is
+`--cards` cards wide.
+
+### How many cards
+
+This is the one question CSS cannot answer. It is the height of a piece of
+text at a width, divided by the height of a card, and there is no way to ask
+for the first of those as a length. So `fitCards` in
+`assets/js/catalogue-wide.js` measures it: it sets a section to one card and
+grows the count while the poured box reports a scroll width past its own,
+which is what a column with nowhere to go does.
+
+The figures in the stylesheet are what stands without the script. They are
+the number the smallest phone the deck is offered on needs, measured in both
+languages, so nothing is ever lost without it; a big phone is simply given a
+card or two of white that the script then takes back.
+
+On a feature the script does one thing more. A section whose writing fits one
+card gets its photograph sized to exactly what the words leave, so the card is
+filled and the picture is as large as it can be. Without that, a section three
+lines over a card spends a second card on those three lines and the reader
+swipes to a card that is empty.
+
+### What to check when the words change
+
+Two things, at every phone size and in both languages, with the transitions
+turned off first — a block on its way in from the trailing edge reports
+itself outside its card and reads as lost text:
+
+- nothing ends below the foot of the card it is on;
+- no poured box reports a `scrollWidth` past its `clientWidth`, which is a
+  column laid out past the inline edge where the section's own overflow eats
+  it.
+
+And the same with scripting off, which is what checks the figures in the
+stylesheet rather than the ones the script works out.
 
 ## Removing it
 
