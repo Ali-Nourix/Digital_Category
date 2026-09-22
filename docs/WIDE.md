@@ -192,7 +192,11 @@ down, because on a short one several of them match at once and the last wins.
 
 The same four moves. Two of them have an axis: a block arrives from the
 trailing edge rather than from below, and a full bleed photograph drifts
-along `view(inline)` rather than down the block axis. The reading line in the
+along `view(inline)` rather than down the block axis. The drifting photograph
+is 114% of its frame and needs `max-inline-size: none` to be so: the reset
+caps every image at the width of its box, and capped it is no wider than the
+frame, so every pixel it drifts uncovers a pixel of the dark ground behind
+it. The reading line in the
 bar follows the track through a named scroll timeline, because the document
 itself no longer scrolls.
 
@@ -238,7 +242,7 @@ each pair keeps its order, which is the order it is read in, and turns a
 quarter turn. Where the pair had a share of the width it takes the same share
 of the height, so the divider's printed 5:7 becomes green across the top and
 the title under it, and the section opener still stands where the reading
-starts — which on a card is the top of it.
+starts, which on a card is the top of it.
 
 Two compositions are drawn rather than turned, because turning them would not
 have worked:
@@ -246,19 +250,79 @@ have worked:
 | Panel | Deck |
 |---|---|
 | Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. |
-| The biographies | The portrait beside the name rather than over it, a byline. Down a page the portrait stands above the life it belongs to and there is a page to spare; on a card the two together are a hundred and fifty pixels of depth that the life itself needs. |
+| The biographies | The portrait beside the name rather than over it, a byline. Down a page the portrait stands above the life it belongs to and there is a page to spare; on a card the two together are a hundred and fifty pixels of depth that the life itself needs. The first life follows the generation's opener on to its card when the whole of it fits there, and takes the next card when it does not. |
 
 **And a card holds what a card holds.** The long sections are given more than
 one card rather than a card with the foot cut off it, and where the writing
-is already in parts — the three of the twelve millimetre spread, the two
-lives, the three blocks of the advantages — the parts are where it divides. A
-part opens a card and runs on to the next if it needs one.
+is already in parts (the three of the twelve millimetre spread, the two
+lives, the three blocks of the advantages), the parts are where it divides. A
+part opens a card and runs on to the next if it needs one. A paragraph may
+run from the foot of one card to the head of the next, as it runs from page
+to page in print, never with fewer than three lines at either end; a heading
+never ends a card, and a list item, a named advantage or the quote is never
+broken.
 
 The mechanism is the same everywhere: the block is set in columns exactly one
 card wide, poured rather than balanced (`column-fill: auto`), with the frame
 moved off the shell and on to the blocks inside it, so that every column
 carries the frame and not only the first and the last. A section is
 `--cards` cards wide.
+
+### Type on a card
+
+The page's type scale is set for a spread, where a heading has half a window
+to stand in, and on a phone it comes out loud: a section title two lines of
+34px before a word of the section is read, a lede the size a heading should
+be. The deck redeclares the steps above the body on `.doc`:
+
+| | Spread | Deck |
+|---|---|---|
+| Body | 16-17px | 16px, unchanged |
+| Lede, names, named advantages, tag | ~19px | 17px (tag 16px) |
+| Headings, the quote | ~23px | 19px |
+| Section titles | 34-43px | 24-28px |
+| Section openers | 40px and up | 30-36px |
+
+The hierarchy is carried by weight and green rather than by size alone. A
+title and the heading under it are set as one unit, twelve pixels apart
+rather than the page's thirty two. The Persian running text is set on 1.8
+rather than 1.85, because short lines want less air between them to read as
+a paragraph.
+
+Running text is ranged from the start on a card, not justified. The print
+justifies a column thirty words wide; a phone's line is eight or nine, and
+spread across that the space between words opens into holes.
+
+### Resting on a card
+
+Swiped (`pointer: coarse`), a card comes to rest on a card, and one swipe is
+one card: `scroll-snap-type: x mandatory` with `scroll-snap-stop: always` on
+every stop. Every panel is a stop. So is every card inside a panel that runs
+on, but those cards are columns of poured type and a column is not an
+element, so `markStops` in the script places a one pixel `.deck-stop` where
+each of them begins, from the width the panel came out at. Only once they are
+there does the snap become mandatory; before that, and without the script, it
+is by proximity, which never takes a reader away from a card there is no stop
+for.
+
+Two things had to change for this to work at all:
+
+- **Panels are clipped, not hidden.** `overflow: hidden` makes every panel a
+  scroll container of its own, and a snap point belongs to its nearest scroll
+  container, so every stop drawn inside a panel was snapping the panel, which
+  never scrolls, instead of the track. `overflow: clip` cuts off the same
+  pixels without making a scroll container.
+- **The plates are a whole card.** On a spread a photograph panel is most of
+  a window, so the edge of the next panel shows and tells a reader the
+  document goes sideways. In a deck that strip means no card after it ever
+  comes to rest square to the screen.
+
+The reveal had to learn one thing as well. A paragraph poured across two
+cards is one element in two pieces, and an IntersectionObserver watches only
+the first: when that piece left the screen it reported the paragraph gone and
+the reveal took the whole of it out, including the half still being read.
+`catalogue.js` now asks whether any piece of a block is on screen before
+taking it out.
 
 ### How many cards
 

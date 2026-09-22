@@ -296,13 +296,26 @@ html[lang="fa"] .bar__logo .bk-logo {
     gap: var(--space-2);
   }
 
+  /* Forty pixels rather than forty four. Three boxes that size across a
+     phone's bar read as three buttons shouting over the mark; forty is still
+     well over the twenty four WCAG 2.5.8 asks of a target, and over the
+     thirty six the platforms ask of one in a toolbar. */
   .bar .chip {
+    min-block-size: 2.5rem;
     padding-inline: var(--space-3);
   }
 
-  /* And the bar's own margin comes in with them, which is the last of it. */
+  /* And the bar's own margin comes in with them. */
   .bar__inner {
     padding-inline: var(--space-4);
+  }
+}
+
+/* The narrowest phones, where the longest of the labels ("Sideways") still
+   leaves the row a few pixels short. */
+@media (max-width: 22.5rem) {
+  .bar .chip {
+    padding-inline: var(--space-2);
   }
 }
 
@@ -324,9 +337,10 @@ html[lang="fa"] .bar__logo .bk-logo {
   }
 }
 
-/* Both controls in the bar are the same chip. 44px tall so an isolated
-   control clears WCAG 2.5.8, and the border measures 3.5:1 on paper so the
-   boundary itself is visible at low contrast sensitivity. */
+/* Every control in the bar is the same chip. 44px tall, the size the
+   platforms ask of a touch target and nearly twice the 24px WCAG 2.5.8
+   does, and the border measures 3.5:1 on paper so the boundary itself is
+   visible at low contrast sensitivity. */
 .chip {
   display: inline-flex;
   align-items: center;

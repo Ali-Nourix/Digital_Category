@@ -16,8 +16,9 @@
 (function () {
   "use strict";
 
+  var root = document.documentElement;
   var track = document.getElementById("doc");
-  if (!track || document.documentElement.dataset.axis !== "inline") return;
+  if (!track || root.dataset.axis !== "inline") return;
 
   /* The gate in the stylesheet. Below it the document is the upright one and
      nothing in this file should touch it. Keep the two in step. */
@@ -319,12 +320,39 @@
     return false;
   }
 
+  /* A stop at every card boundary inside a panel that runs on, so a swipe
+     can come to rest on the second card of a part as well as on the first.
+     The cards past the first are columns of poured type, which are not
+     elements and cannot be snapped to; these are one pixel wide, sit where
+     each of those columns begins, and are nothing but somewhere to stop.
+     Placed from the width each panel came out at, so they agree with the
+     count by construction. */
+  function markStops(narrow) {
+    Array.prototype.forEach.call(document.querySelectorAll(".deck-stop"), function (stop) {
+      stop.remove();
+    });
+    root.classList.toggle("deck-stops", narrow);
+    if (!narrow) return;
+
+    PANELS.forEach(function (panel) {
+      var cards = Math.round(panel.getBoundingClientRect().width / window.innerWidth);
+      for (var k = 1; k < cards; k += 1) {
+        var stop = document.createElement("span");
+        stop.className = "deck-stop";
+        stop.setAttribute("aria-hidden", "true");
+        stop.style.setProperty("--at", k);
+        panel.appendChild(stop);
+      }
+    });
+  }
+
   function fitCards() {
     var narrow = window.matchMedia("(max-width: 59.9375rem), (max-height: 37.9375rem)");
+    var deck = sideways() && narrow.matches;
 
     DECK.forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll(kind.sec), function (sec) {
-        if (!sideways() || !narrow.matches) {
+        if (!deck) {
           sec.style.removeProperty(kind.prop);
           sec.style.removeProperty("--hero");
           return;
@@ -342,6 +370,8 @@
         }
       });
     });
+
+    markStops(deck);
   }
 
   /* Measured against the type as it will be set, not as it is set while the

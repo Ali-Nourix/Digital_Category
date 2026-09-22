@@ -102,7 +102,15 @@
     block-size: 100%;
     padding-block: 0;
     padding-inline: 0;
+    /* Clipped, not hidden. Both cut off what runs past the panel, but hidden
+       also makes the panel a scroll container of its own, and a snap point
+       belongs to its nearest scroll container: every card boundary drawn
+       inside a panel was snapping the panel, which never scrolls, instead of
+       the track, which does. It also let a focused link inside a clipped
+       column scroll the panel's contents sideways under the reader. Hidden
+       stays as the fallback for the few browsers that do not know clip. */
     overflow: hidden;
+    overflow: clip;
   }
 
   .sec > * {
@@ -225,7 +233,14 @@
       .plate img,
       .feature__figure img {
         block-size: 100%;
+        /* Wider than the frame by exactly the distance it drifts, so it
+           covers the frame at both ends of the journey. The reset caps every
+           image at the width of its box, and left capped the photograph is
+           no wider than the frame, so every pixel it drifts uncovers a pixel
+           of the dark ground behind it: a strip down the edge of the panel
+           as it leaves. */
         inline-size: 114%;
+        max-inline-size: none;
         animation: drift-inline linear both;
         animation-timeline: view(inline);
         animation-range: cover 0% cover 100%;
@@ -1087,6 +1102,70 @@
          worth rather than a spread's. */
       --panel-pad: clamp(1.25rem, 3vh, 2rem);
       --panel-gap: clamp(0.75rem, 3.5vw, 1.25rem);
+
+      /* The type scale, redrawn for a card. The page's steps are set for a
+         spread, where a heading has half a window of width to stand in, and
+         on a phone they come out loud: a section title two lines of 34px
+         deep before a word of the section is read, a lede the size a heading
+         should be. The body stays where it is, sixteen pixels, which is what
+         a phone reads at; the steps above it close in on it, so the
+         hierarchy is carried by weight and green rather than by size alone. */
+      --step-1: 1.0625rem;
+      --step-2: 1.1875rem;
+      --step-4: clamp(1.5rem, 1.1rem + 2vw, 1.75rem);
+    }
+
+    /* The deck's own line for the running text: a shade closer than the
+       page's, because the lines are short and a short line wants less air
+       between it and the next to be read as one paragraph. */
+    html[lang="fa"] .doc .prose p,
+    html[lang="fa"] .doc .list li,
+    html[lang="fa"] .doc .lede {
+      line-height: 1.8;
+    }
+
+    /* Ranged from the start, not justified. The print justifies a column
+       thirty words wide; a phone's line is eight or nine, and spread across
+       that the space between words opens into holes, which is what the
+       justified paragraphs on a phone were showing. */
+    .doc .prose p {
+      text-align: start;
+    }
+
+    /* A title and the heading under it are one unit. The page sets a
+       paragraph's worth of air between them because a page has it to spare. */
+    .doc .title {
+      line-height: 1.25;
+    }
+
+    html[lang="fa"] .doc .title {
+      line-height: 1.45;
+    }
+
+    .doc .heading {
+      margin-block-start: var(--space-3);
+    }
+
+    .doc .title + .prose,
+    .doc .heading + .prose {
+      margin-block-start: var(--space-3);
+    }
+
+    /* The section opener's title comes down with the rest, and the green
+       banner over a generation is a label rather than a heading, so it is
+       set like one. */
+    .doc .divider__title {
+      font-size: clamp(1.875rem, 1.3rem + 2.8vw, 2.25rem);
+    }
+
+    .doc .tag {
+      padding: var(--space-2) var(--space-5);
+      font-size: 1rem;
+    }
+
+    /* The cover is sized against the mark over it, not against the scale. */
+    .doc .cover__line {
+      font-size: clamp(1.75rem, 1.2rem + 3vw, 2.125rem);
     }
 
     /* A section may be more than one card wide. Most are one.
@@ -1102,33 +1181,49 @@
       --panel: calc(100vw * var(--cards, 1));
     }
 
-    /* Swiped, a card wants to come to rest on a card. Scrolled with a wheel
-       or a bar it does not: the glide would be fighting the snap over the
-       last few pixels of every turn, and a reader who stopped between two
-       panels meant to. `coarse` is the difference between the two.
+    /* A whole card, where the spread gives a photograph most of a window and
+       lets the edge of the next panel show. On a spread that edge is what
+       tells a reader the document goes sideways. In a deck it is a card that
+       never comes to rest square: every panel after it sits a strip off the
+       screen, and a swipe lands between two of them. */
+    .sec--plate {
+      --panel: 100vw;
+    }
 
-       Proximity and not mandatory, because the sections that run on are
-       poured columns and a column is not an element, so there is nothing to
-       snap the second card of a part to. Proximity leaves the reader there;
-       mandatory would take them back. */
+    /* Swiped, a card comes to rest on a card, and one swipe is one card.
+       Scrolled with a wheel or a bar it does not: the glide would fight the
+       snap over the last few pixels of every turn. `coarse` is the
+       difference between the two.
+
+       Every panel is a stop. So is every card inside a panel that runs on,
+       but those are columns of poured type and a column is not an element,
+       so the script marks them (`.deck-stop`, placed where it counted the
+       cards) and only then asks for every swipe to end on one. Until it has,
+       the snap is by proximity, which never takes a reader away from a card
+       there is nothing to mark. */
     @media (pointer: coarse) {
       .doc {
         scroll-snap-type: x proximity;
       }
 
-      /* Every card that begins something: a section, and inside a section
-         that runs on, each block the stylesheet told to open a card. The
-         cards a part continues on to have nothing to snap to, which is what
-         proximity is for. */
+      html.deck-stops .doc {
+        scroll-snap-type: x mandatory;
+      }
+
       .sec,
       .foot,
-      .feature__figure,
-      .columns__block,
-      .band,
-      .person,
-      .slabs__col {
+      .deck-stop {
         scroll-snap-align: start;
+        scroll-snap-stop: always;
       }
+    }
+
+    .deck-stop {
+      position: absolute;
+      inset-block: 0;
+      inset-inline-start: calc(var(--at) * 100vw);
+      inline-size: 1px;
+      pointer-events: none;
     }
 
     /* The frame comes off the shell on every section whose blocks are poured
@@ -1141,9 +1236,6 @@
     .sec--slabs > .shell {
       padding-inline: 0;
     }
-
-    /* --- Cover --------------------------------------------------------------
-       As it is. A title page is a title page whatever it is read on. */
 
     /* --- Divider ------------------------------------------------------------
        The green field and the title, turned a quarter turn: the green across
@@ -1236,7 +1328,6 @@
       break-after: avoid;
     }
 
-    .feature .prose p,
     .feature .list li {
       break-inside: avoid;
     }
@@ -1284,9 +1375,17 @@
       break-after: avoid;
     }
 
-    .columns__text li,
-    .columns__block .prose p {
+    .columns__text li {
       break-inside: avoid;
+    }
+
+    /* A paragraph may run from the foot of one card to the head of the next,
+       as it runs from one page to the next in print; kept whole, a long one
+       jumps the gap and leaves a hand's width of white under the last line
+       before it. Never with a single line stranded at either end. */
+    .doc .prose p {
+      orphans: 3;
+      widows: 3;
     }
 
     .band {
@@ -1336,13 +1435,25 @@
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
       column-gap: var(--space-5);
-      row-gap: var(--space-5);
+      row-gap: var(--space-4);
       align-items: center;
       break-before: column;
+      break-inside: avoid;
       /* The rule over a life separated it from the one before it down a
          page. A card does that on its own. */
       padding-block-start: 0;
       border-block-start: 0;
+    }
+
+    /* The first life follows the generation's opener on to its card when
+       there is room for the whole of it there, and takes the next card when
+       there is not. The opener is a tag and a paragraph, and on a phone of
+       ordinary height it leaves most of a card that the first life fills;
+       made to wait for the next card, it leaves a card that is two thirds
+       white followed by one that is full. */
+    .person:first-child {
+      break-before: auto;
+      margin-block-start: var(--space-6);
     }
 
     .person__body {
@@ -1351,7 +1462,7 @@
 
     .person__portrait {
       grid-row: 1;
-      inline-size: 7rem;
+      inline-size: 6rem;
     }
 
     .person__name {
@@ -1364,7 +1475,6 @@
       grid-column: 1 / -1;
     }
 
-    .person .prose p,
     .person .list li {
       break-inside: avoid;
     }
@@ -1403,7 +1513,11 @@
       break-before: column;
     }
 
-    .slabs__col:first-child {
+    /* The first part only. The second is the first child of the wrapper that
+       holds the second and third, so a bare :first-child takes its break
+       away too, and it runs on under the first part instead of opening a
+       card of its own. */
+    .slabs > .slabs__col:first-child {
       break-before: auto;
     }
 
@@ -1419,9 +1533,8 @@
     }
 
     .slabs .benefit,
-    .slabs .list,
-    .slabs .pull,
-    .slabs .prose p {
+    .slabs .list li,
+    .slabs .pull {
       break-inside: avoid;
     }
 

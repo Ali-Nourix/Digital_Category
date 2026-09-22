@@ -53,10 +53,27 @@
       if (ahead > fold) el.classList.add("is-out");
     });
 
+    // Whether any part of a block is on screen. A paragraph poured from the
+    // foot of one column to the head of the next is one element in two
+    // pieces, and the observer only watches the first: when that piece
+    // leaves, it reports the whole paragraph gone, and taking it out then
+    // would blank the half still being read.
+    function onScreen(el) {
+      var pieces = el.getClientRects();
+      for (var i = 0; i < pieces.length; i += 1) {
+        var r = pieces[i];
+        if (r.right > 0 && r.left < window.innerWidth && r.bottom > 0 && r.top < window.innerHeight) {
+          return true;
+        }
+      }
+      return false;
+    }
+
     var observer = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
-          entry.target.classList.toggle("is-out", !entry.isIntersecting);
+          var gone = !entry.isIntersecting && !onScreen(entry.target);
+          entry.target.classList.toggle("is-out", gone);
         });
       },
       // The trailing edge is pulled in a little so a block starts arriving
