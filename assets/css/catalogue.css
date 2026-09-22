@@ -1737,7 +1737,9 @@ html:not(.has-lightbox) .lb-open {
     clip-path: inset(0 100% 0 0);
   }
 
-  html[dir="rtl"] .js .place.is-out img {
+  /* `html.js[dir="rtl"]`, one element: the class is on <html>, so the
+     descendant form `html[dir="rtl"] .js` never matches anything. */
+  html.js[dir="rtl"] .place.is-out img {
     clip-path: inset(0 0 0 100%);
   }
 
@@ -1774,7 +1776,7 @@ html:not(.has-lightbox) .lb-open {
       clip-path: inset(0 100% 0 0);
     }
 
-    html[dir="rtl"] .js .divider.is-out .divider__green {
+    html.js[dir="rtl"] .divider.is-out .divider__green {
       clip-path: inset(0 0 0 100%);
     }
   }

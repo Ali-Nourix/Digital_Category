@@ -205,14 +205,17 @@
 
   /* --- Motion -------------------------------------------------------------
      The same four moves. Two of them have an axis, and it is the axis the
-     document runs on. */
+     document runs on. The rtl rules are `html.js[dir="rtl"]` because the
+     class is on <html> itself: written `html[dir="rtl"] .js` they look for
+     it on a descendant, never find it, and leave the Persian document
+     moving the Latin way round. */
 
   @media (prefers-reduced-motion: no-preference) {
     .js .reveal.is-out {
       transform: translateX(var(--reveal-shift, 1.5rem));
     }
 
-    html[dir="rtl"] .js .reveal.is-out {
+    html.js[dir="rtl"] .reveal.is-out {
       transform: translateX(calc(var(--reveal-shift, 1.5rem) * -1));
     }
 
@@ -220,7 +223,7 @@
       clip-path: inset(0 100% 0 0);
     }
 
-    html[dir="rtl"] .js .divider.is-out .divider__green {
+    html.js[dir="rtl"] .divider.is-out .divider__green {
       clip-path: inset(0 0 0 100%);
     }
   }
@@ -1420,6 +1423,17 @@
       padding-inline: var(--frame);
     }
 
+    /* Except the green banner, whose green is its box. Given the frame as
+       padding it takes the frame inside the green, and the banner runs out
+       to the edge of the card, where it meets the green of the section
+       opener on the card before and the two read as one shape. As margin
+       the frame is white, and the banner starts on the same line as the
+       words under it. */
+    .sec--people > .shell > .tag {
+      margin-inline-start: var(--frame);
+      padding-inline: var(--space-5);
+    }
+
     /* A grid is one piece and cannot be poured, so the list of lives stops
        being one. */
     .people__list {
@@ -1623,6 +1637,47 @@
       align-items: flex-start;
       justify-content: center;
       gap: clamp(1.5rem, 3.5vh, 2.5rem);
+    }
+
+    /* --- Motion -------------------------------------------------------------
+       On a card the swipe is the motion. A spread is travelled across and a
+       block arriving from the trailing edge is part of the travel; a card is
+       carried in under a thumb, and the reader is reading it the moment it
+       lands. Words that fade in after it has landed make the reader wait for
+       what they came to read, and words that fade out while it is still
+       being dragged away take the last line of it from under their eyes.
+
+       So on a card the words and the titles are simply there. What still
+       moves is what is not read: a photograph opens on its first arrival and
+       drifts against the swipe, and a section opener's green comes down the
+       first time it is met. None of it goes back, which is the one thing
+       here the stylesheet cannot say on its own: `--reveal-returns` tells
+       the observer in catalogue.js to leave them where they arrived. */
+
+    :root {
+      --reveal-returns: 0;
+    }
+
+    /* `html.js[dir]` rather than `.js`: the class is on <html> itself, and
+       the attribute is there to outweigh the rtl variants of these rules,
+       which carry it too. */
+    @media (prefers-reduced-motion: no-preference) {
+      html.js[dir] .reveal.is-out {
+        opacity: 1;
+        transform: none;
+      }
+
+      html.js[dir] .is-out .word > span,
+      html.js[dir] .word.is-out > span {
+        transform: none;
+      }
+
+      /* The green is a band across the top of the card here, so it comes
+         down from the top, as it does on a page, rather than in from the
+         side, as it does on a spread. */
+      html.js[dir] .divider.is-out .divider__green {
+        clip-path: inset(0 0 100% 0);
+      }
     }
   }
 }

@@ -5,7 +5,9 @@
 
      1. reveal    hide what is below the fold, then let an IntersectionObserver
                   bring each piece in as the scroll reaches it, and take it
-                  back out when it leaves so the return journey plays too
+                  back out when it leaves so the return journey plays too,
+                  unless the stylesheet says the page is being read as a
+                  deck of cards, where what has arrived stays
      2. position  keep track of which section is on screen, so the language
                   switch lands the reader in the same place in the other
                   document rather than at the top of it
@@ -69,10 +71,21 @@
       return false;
     }
 
+    // Whether a block that has arrived goes back out when it leaves, so the
+    // return journey plays too. The stylesheet decides, because it is the
+    // one that knows what the page is being read as: on a phone's deck of
+    // cards a photograph opens once and stays open, since a card being
+    // dragged away is still being looked at.
+    function returns() {
+      return getComputedStyle(root).getPropertyValue("--reveal-returns").trim() !== "0";
+    }
+
     var observer = new IntersectionObserver(
       function (entries) {
+        var back = returns();
         entries.forEach(function (entry) {
           var gone = !entry.isIntersecting && !onScreen(entry.target);
+          if (gone && !back) return;
           entry.target.classList.toggle("is-out", gone);
         });
       },

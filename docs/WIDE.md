@@ -200,6 +200,14 @@ it. The reading line in the
 bar follows the track through a named scroll timeline, because the document
 itself no longer scrolls.
 
+The Persian document moves the other way round: a block arrives from the
+left, a photograph opens from its right hand edge and a divider's green from
+the outer edge it is printed against, which in Persian is the right. Those
+rules are written `html.js[dir="rtl"]`, one element, because the `js` class
+is on `<html>` itself. Written `html[dir="rtl"] .js` they look for the class
+on a descendant, never find it, and the Persian document silently moves the
+Latin way round, which is what it did until they were corrected.
+
 ### The two things a mouse cannot do
 
 - **The wheel** reports `deltaY` and nothing else, so the vertical gesture is
@@ -323,6 +331,34 @@ the first: when that piece left the screen it reported the paragraph gone and
 the reveal took the whole of it out, including the half still being read.
 `catalogue.js` now asks whether any piece of a block is on screen before
 taking it out.
+
+### Motion on a card
+
+On a card the swipe is the motion. A spread is travelled across, and a block
+arriving from the trailing edge is part of the travel; a card is carried in
+under a thumb and read the moment it lands. Words that fade in after it has
+landed make the reader wait for what they came to read, and words that fade
+out while it is still being dragged away take the last line from under their
+eyes. So on a card:
+
+| | Spread | Card |
+|---|---|---|
+| Paragraphs, lists, quotes | arrive from the trailing edge, go back out when they leave | simply there |
+| Titles | written a word at a time | simply there |
+| Photographs | open from the leading edge, every time | open the first time, stay open |
+| A section opener's green | wipes in from the outer edge, every time | comes down from the top the first time, stays |
+
+The "stays" is the one part the stylesheet cannot say alone, because it is
+the observer in `catalogue.js` that takes a block back out. The deck sets
+`--reveal-returns: 0` on the root, and the observer reads it on every change
+and leaves what has arrived where it is. The overrides are written
+`html.js[dir]`, which outweighs the rtl variants of the same rules.
+
+The generation's banner (the green «نسل اول – بنیان‌گذاران») is set in from
+the frame by a margin rather than padded out to it. Every block in a poured
+panel carries the frame as its own padding, so that every card has one, and
+the banner took that padding inside its green: the green ran to the trim of
+the card and joined the green of the divider beside it.
 
 ### How many cards
 
