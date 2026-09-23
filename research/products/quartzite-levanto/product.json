@@ -1,0 +1,107 @@
+{
+  "slug": "quartzite-levanto",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کوارتزیت لوانتو",
+    "en": "Quartzite Levanto"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/quartzite-levatnto/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/quartzite-levatnto/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-254_1__-024-2048x1112.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/254_1__-024-2048x1112.jpg",
+      "archived_url": "https://web.archive.org/web/20260219203949id_/https://fa.behkooshan.ir/wp-content/uploads/254_1__-024-2048x1112.jpg",
+      "alt": "Quartzite Levanto – product listing image",
+      "alt_fa": "کوارتزیت لوانتو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 2048,
+      "height": 1112,
+      "format": "JPEG",
+      "resolution": "resized-2048x1112",
+      "bytes": 333435,
+      "sha1": "089b7569822a2820ead5012b968816fe3f779ef4",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Quartzite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Brazil\")"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Quartzite Levanto",
+    "en": "Quartzite Levanto"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6792"
+    ],
+    "en": [
+      "6628"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "URL slug on the site is misspelled /product/quartzite-levatnto/; the product name is \"Quartzite Levanto\".",
+    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

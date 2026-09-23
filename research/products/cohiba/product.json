@@ -1,0 +1,139 @@
+{
+  "slug": "cohiba",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کوهیبا",
+    "en": "Cohiba"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/cohiba/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/cohiba/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Cohiba-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Cohiba-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619004452id_/https://behkooshan.ir/wp-content/uploads/Cohiba-m.jpg",
+      "alt": "Cohiba – main product image (slab surface)",
+      "alt_fa": "کوهیبا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Cohiba-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 76363,
+      "sha1": "1fcae6d4de0722216eb488ab7ada5065be1084eb",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/cohiba/"
+      ]
+    },
+    {
+      "file": "images/02-Cohiba-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Cohiba-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619015500id_/https://behkooshan.ir/wp-content/uploads/Cohiba-p.jpg",
+      "alt": "Cohiba – product listing image",
+      "alt_fa": "کوهیبا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 93119,
+      "sha1": "62a919aa1f272aa92d5d7102acda0dc97f6d0026",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Cohiba"
+  },
+  "site_post_ids": {
+    "en": [
+      "5727"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T13:54:02",
+      "modified": "2025-05-07T15:13:14"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250619001334",
+        "archived": "https://web.archive.org/web/20250619001334/https://behkooshan.ir/product/cohiba/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "7b420d145f1e064eb00bb3403c6a5e241d3f7d92",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

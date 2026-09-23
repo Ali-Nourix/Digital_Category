@@ -1,0 +1,268 @@
+{
+  "slug": "t-rex",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "تی رکس",
+    "en": "T.Rex"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/t-rex/",
+      "https://fa.behkooshan.ir/product/t-rex-2/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/t-rex-2/",
+      "https://behkooshan.ir/product/t-rex/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-T-Rex-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/T-Rex-m.jpg",
+      "archived_url": "https://web.archive.org/web/20260219195306id_/https://fa.behkooshan.ir/wp-content/uploads/T-Rex-m.jpg",
+      "alt": "T.Rex – main product image (slab surface)",
+      "alt_fa": "تی رکس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "T Rex-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 95137,
+      "sha1": "0771a6f1355610116e1ad0f65baade31e347996f",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/t-rex/",
+        "product page https://fa.behkooshan.ir/product/t-rex/"
+      ]
+    },
+    {
+      "file": "images/02-3878X1-001-2048x1116.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/3878X1-001-2048x1116.jpg",
+      "archived_url": "https://web.archive.org/web/20260227054157id_/https://fa.behkooshan.ir/wp-content/uploads/3878X1-001-2048x1116.jpg",
+      "alt": "T.Rex – product listing image",
+      "alt_fa": "تی رکس – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 2048,
+      "height": 1116,
+      "format": "JPEG",
+      "resolution": "resized-2048x1116",
+      "bytes": 408837,
+      "sha1": "e20ad29424a105094d153ce70c1c9b262ca4f581",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product/black-zebra/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-T-Rex-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/T-Rex-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250618234434/https://behkooshan.ir/wp-content/uploads/T-Rex-p.jpg",
+      "alt": "T Rex",
+      "alt_fa": "تی رکس – تصویر فهرست محصولات",
+      "site_alt": "T Rex",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 114175,
+      "sha1": "1cd90324123cb515eb38de2a7ba4e0bd84533b22",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/t-rex/",
+        "og:image of https://fa.behkooshan.ir/product/t-rex/",
+        "product card on https://behkooshan.ir/product/elegant-green/",
+        "product card on https://behkooshan.ir/product/gando/",
+        "product card on https://behkooshan.ir/product/naica-quartzite/",
+        "product card on https://behkooshan.ir/product/patagonia-black/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/product/t-rex/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://fa.behkooshan.ir/product/lumix-wow/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/04-53-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226084205id_/https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 183605,
+      "sha1": "b17e56f65e6699861cb9fbdaafc4794c3790823c",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=b71b648a8a10524a0c28c1f2e2d927bbce6831cd",
+      "archived_url": "https://web.archive.org/web/20250619005959id_/https://behkooshan.ir/?jet_download=b71b648a8a10524a0c28c1f2e2d927bbce6831cd",
+      "original_filename": "T-Rex.jpg",
+      "width": 1288,
+      "height": 841,
+      "format": "JPEG",
+      "bytes": 437761,
+      "sha1": "780cdfd15aa75d42872318a3d7d9debe10084ef9",
+      "alt": "T.Rex – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-T-Rex.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "T.Rex",
+    "en": "T.Rex"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5376",
+      "6777"
+    ],
+    "en": [
+      "5376",
+      "6613"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": "2024-04-20T10:47:31+03:30"
+    },
+    "en": {
+      "published": "2023-12-12T13:27:43",
+      "modified": "2025-05-08T10:14:29"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/t-rex/",
+      "title": null
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/t-rex/",
+      "title": null
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260219194449",
+        "archived": "https://web.archive.org/web/20260219194449/https://fa.behkooshan.ir/product/t-rex/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619001020",
+        "archived": "https://web.archive.org/web/20250619001020/https://behkooshan.ir/product/t-rex/"
+      },
+      {
+        "captured": "20250618232434",
+        "archived": "https://web.archive.org/web/20250618232434/https://behkooshan.ir/product/t-rex/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/45-scaled.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/t-rex/",
+        "project page https://behkooshan.ir/_project/t-rex/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/46-scaled.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/t-rex/",
+        "project page https://behkooshan.ir/_project/t-rex/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/47-scaled.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/t-rex/",
+        "project page https://behkooshan.ir/_project/t-rex/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/51-scaled.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/t-rex/",
+        "project page https://behkooshan.ir/_project/t-rex/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/52-scaled.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/t-rex/",
+        "project page https://behkooshan.ir/_project/t-rex/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    }
+  ],
+  "missing_textures": [],
+  "notes": [
+    "The site has two posts with the same name \"T.Rex\" (granite, Iran): /product/t-rex/ (post 5376, 2023, photo T-Rex-*) and /product/t-rex-2/ (Persian post 6777 / English post 6613, 2025, photo 3878X1-001). Both were listed in the Feb-2026 Persian sitemap. Merged here into one product with all photos; split again if they are different lots.",
+    "The Persian site showed different origins over time: Iran, ایران; the most recent archived value is used.",
+    "The Persian site showed different stone types over time: Granite, گرانیت; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "5 image(s) referenced by the site were not archived and are missing; see missing_images."
+  ]
+}

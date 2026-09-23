@@ -1,0 +1,233 @@
+{
+  "slug": "evolution-green",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "اوولوشن گرین",
+    "en": "Evolution Green"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/evolution-green/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/evolution-green/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Evolution-Green-m-1024x629.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m-1024x629.jpg",
+      "archived_url": "https://web.archive.org/web/20260225021440id_/https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m-1024x629.jpg",
+      "alt": "Evolution Green – main product image (slab surface)",
+      "alt_fa": "اوولوشن گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Evolution Green-m",
+      "width": 1024,
+      "height": 629,
+      "format": "JPEG",
+      "resolution": "resized-1024x629",
+      "bytes": 109040,
+      "sha1": "7f65e5f09073bd54e90ad5d726630cffca8d15ea",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/evolution-green/"
+      ]
+    },
+    {
+      "file": "images/02-Evolution-Green-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625090041id_/https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-p.jpg",
+      "alt": "Evolution Green – product listing image",
+      "alt_fa": "اوولوشن گرین – تصویر فهرست محصولات",
+      "site_alt": "Evolution Green",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 68014,
+      "sha1": "dbc8b34a703c2056e31a219e8e2b5b3066b1f4f2",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/dalmata/",
+        "product card on https://behkooshan.ir/product/new-galaxy/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/black-zebra/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-Northgolestan_project_9-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Northgolestan_project_9-scaled.webp",
+      "archived_url": "https://web.archive.org/web/20260226234125id_/https://es55asecvav.exactdn.com/wp-content/uploads/Northgolestan_project_9-scaled.webp?strip=all",
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1282,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 178456,
+      "sha1": "ffeb5fe5f68dd957028726ecbb9a0d871355fe25",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Evolution Green",
+    "en": "Evolution Green"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3901"
+    ],
+    "en": [
+      "3901"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:55:12",
+      "modified": "2024-04-22T08:52:48"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/evolution-green/",
+      "title": "Evolution Green"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/evolution-green/",
+      "title": "Evolution Green"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260225021302",
+        "archived": "https://web.archive.org/web/20260225021302/https://fa.behkooshan.ir/product/evolution-green/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "اولیون",
+      "دانه اناری",
+      "اسلب گرانیت دانه اناری"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "اولیون",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+        "archived": "https://web.archive.org/web/20230131092150/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "اولیون",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+        "archived": "https://web.archive.org/web/20230131111137/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "دانه اناری",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131095518/https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+        "match_basis": "image file name on the old page matches this product"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت دانه اناری",
+        "url": "http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+        "archived": "https://web.archive.org/web/20201204045303/http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+        "match_basis": "same Persian name as the matched 2021-2023 page"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "9d6ecc94622f749788bbf6a62190b2b235a2b753",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

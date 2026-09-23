@@ -1,0 +1,230 @@
+{
+  "slug": "black-zebra",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "بلک زبرا",
+    "en": "Black Zebra"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-zebra/",
+      "https://fa.behkooshan.ir/product/zebra/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/zebra/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Zebra-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Zebra-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250625160508id_/https://fa.behkooshan.ir/wp-content/uploads/Zebra-m.jpg",
+      "alt": "Black Zebra – main product image (slab surface)",
+      "alt_fa": "بلک زبرا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Zebra-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 49228,
+      "sha1": "727cda2e63a5a47abe5415210871e97d3fb5f473",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/zebra/",
+        "product page https://fa.behkooshan.ir/product/black-zebra/",
+        "product page https://fa.behkooshan.ir/product/zebra/"
+      ]
+    },
+    {
+      "file": "images/02-Zebra-p-1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Zebra-p-1.jpg",
+      "archived_url": "https://web.archive.org/web/20260219221147id_/https://fa.behkooshan.ir/wp-content/uploads/Zebra-p-1.jpg",
+      "alt": "Black Zebra – product listing image",
+      "alt_fa": "بلک زبرا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 59237,
+      "sha1": "f6711f64896202e9324e4e5c894149348021cdf9",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/zebra/",
+        "og:image of https://fa.behkooshan.ir/product/black-zebra/",
+        "og:image of https://fa.behkooshan.ir/product/zebra/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-diamond/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/meteorus/",
+        "product card on https://fa.behkooshan.ir/product/verde-imperial/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=6b94127275377e56f488ffb54bb88aa9385c2f37",
+      "archived_url": "https://web.archive.org/web/20250622191553id_/https://behkooshan.ir/?jet_download=6b94127275377e56f488ffb54bb88aa9385c2f37",
+      "original_filename": "Zebra.jpg",
+      "width": 1651,
+      "height": 856,
+      "format": "JPEG",
+      "bytes": 108093,
+      "sha1": "137ec77fd7318f6331e118f7708218f9bfc63336",
+      "alt": "Black Zebra – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Zebra.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Zebra",
+    "en": "Zebra"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5394",
+      "5930"
+    ],
+    "en": [
+      "5394"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T14:01:50",
+      "modified": "2025-07-23T14:01:52"
+    },
+    "en": {
+      "published": "2023-12-12T13:34:23",
+      "modified": "2023-12-12T13:34:23"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625160022",
+        "archived": "https://web.archive.org/web/20250625160022/https://fa.behkooshan.ir/product/zebra/"
+      },
+      {
+        "captured": "20260219202401",
+        "archived": "https://web.archive.org/web/20260219202401/https://fa.behkooshan.ir/product/black-zebra/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622182333",
+        "archived": "https://web.archive.org/web/20250622182333/https://behkooshan.ir/product/zebra/"
+      },
+      {
+        "captured": "20250619032943",
+        "archived": "https://web.archive.org/web/20250619032943/https://behkooshan.ir/product/zebra/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "بلک زبرا",
+      "زبرا",
+      "اسلب گرانیت بلک زبرا B (رگه پهن)",
+      "اسلب گرانیت بلک زبرا A (رگه نازک)"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بلک زبرا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131111903/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "زبرا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%B2%D8%A8%D8%B1%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131110930/https://www.behkooshan.ir/bk_product/%D8%B2%D8%A8%D8%B1%D8%A7/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت بلک زبرا B (رگه پهن)",
+        "url": "http://www.behkooshan.ir/Page/82/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-B-(%D8%B1%DA%AF%D9%87-%D9%BE%D9%87%D9%86)",
+        "archived": "https://web.archive.org/web/20201204041809/http://www.behkooshan.ir/Page/82/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-B-(%D8%B1%DA%AF%D9%87-%D9%BE%D9%87%D9%86)",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت بلک زبرا A (رگه نازک)",
+        "url": "http://www.behkooshan.ir/Page/83/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-A-(%D8%B1%DA%AF%D9%87-%D9%86%D8%A7%D8%B2%DA%A9)",
+        "archived": "https://web.archive.org/web/20201204045202/http://www.behkooshan.ir/Page/83/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-A-(%D8%B1%DA%AF%D9%87-%D9%86%D8%A7%D8%B2%DA%A9)",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "d601f59c7dc505897ddf2453bbb74bcbe2001f87",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The Persian site replaced \"Zebra\" (post 5394, /product/zebra/) with \"Black Zebra\" (post 5930, /product/black-zebra/) in 2026; the listing photo is byte-identical (Zebra-p.jpg re-uploaded as Zebra-p-1.jpg). The English site still listed it as \"Zebra\". Merged into one product.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

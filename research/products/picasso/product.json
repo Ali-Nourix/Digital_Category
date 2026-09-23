@@ -1,0 +1,206 @@
+{
+  "slug": "picasso",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "پیکاسو",
+    "en": "Picasso"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/picasso/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/picasso/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Picasso-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Picasso-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250625192348id_/https://fa.behkooshan.ir/wp-content/uploads/Picasso-m.jpg",
+      "alt": "Picasso – main product image (slab surface)",
+      "alt_fa": "پیکاسو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Picasso-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 74091,
+      "sha1": "41c18f1c705bda9405887b7a9060f9c901e08419",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/picasso/",
+        "product page https://fa.behkooshan.ir/product/picasso/"
+      ]
+    },
+    {
+      "file": "images/02-Picasso-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Picasso-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623220843id_/https://fa.behkooshan.ir/wp-content/uploads/Picasso-p.jpg",
+      "alt": "Picasso – product listing image",
+      "alt_fa": "پیکاسو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 91072,
+      "sha1": "0a1a51ba336a50d66d3162d18ea4de5506e519c6",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/picasso/",
+        "og:image of https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/jasmin/",
+        "product card on https://behkooshan.ir/product/patagonia-green/",
+        "product card on https://behkooshan.ir/product/space-gray/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://fa.behkooshan.ir/product/infinity-gold/",
+        "product card on https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://fa.behkooshan.ir/product/taj-mahal/",
+        "product card on https://fa.behkooshan.ir/product/turquoise/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=ce538dff1be1904b32a2a97d1dc87fd8539cf2c7",
+      "archived_url": "https://web.archive.org/web/20250619004941id_/https://behkooshan.ir/?jet_download=ce538dff1be1904b32a2a97d1dc87fd8539cf2c7",
+      "original_filename": "Picasso.jpg",
+      "width": 1507,
+      "height": 904,
+      "format": "JPEG",
+      "bytes": 377733,
+      "sha1": "f9b833f06a3820f6bffd1ae4776acf81171d4a33",
+      "alt": "Picasso – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Picasso.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Picasso",
+    "en": "Picasso"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3925"
+    ],
+    "en": [
+      "3925"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:59:41",
+      "modified": "2024-04-22T08:55:30"
+    },
+    "en": {
+      "published": "2023-08-01T14:59:41",
+      "modified": "2023-12-12T13:15:29"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625185240",
+        "archived": "https://web.archive.org/web/20250625185240/https://fa.behkooshan.ir/product/picasso/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619033302",
+        "archived": "https://web.archive.org/web/20250619033302/https://behkooshan.ir/product/picasso/"
+      },
+      {
+        "captured": "20250618224053",
+        "archived": "https://web.archive.org/web/20250618224053/https://behkooshan.ir/product/picasso/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "پیکاسو",
+      "آبرنگی",
+      "اسلب گرانیت پیکاسو"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پیکاسو",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88/",
+        "archived": "https://web.archive.org/web/20230131102257/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "آبرنگی",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131103922/https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+        "match_basis": "image file name on the old page matches this product"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت پیکاسو",
+        "url": "http://www.behkooshan.ir/Page/53/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88",
+        "archived": "https://web.archive.org/web/20201204053807/http://www.behkooshan.ir/Page/53/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

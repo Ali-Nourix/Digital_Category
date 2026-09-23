@@ -1,0 +1,145 @@
+{
+  "slug": "kosmus-gold",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کاسموس گلد",
+    "en": "Kosmus Gold"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/kosmus-gold/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/kosmus-gold/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Kosmus-Gold-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619052413id_/https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-m.jpg",
+      "alt": "Kosmus Gold – main product image (slab surface)",
+      "alt_fa": "کاسموس گلد – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Kosmus-Gold-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 267286,
+      "sha1": "b15b01f56a5cabab72f705e6fe9bdf3105a252d5",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/kosmus-gold/"
+      ]
+    },
+    {
+      "file": "images/02-Kosmus-Gold-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619000311id_/https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-p.jpg",
+      "alt": "Kosmus Gold – product listing image",
+      "alt_fa": "کاسموس گلد – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 326946,
+      "sha1": "e7362c0b3247354df596a54652466b45b23c9506",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/kosmus-gold/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Kosmus Gold"
+  },
+  "site_post_ids": {
+    "en": [
+      "5753"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T14:57:42",
+      "modified": "2025-05-07T15:08:13"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250618232519",
+        "archived": "https://web.archive.org/web/20250618232519/https://behkooshan.ir/product/kosmus-gold/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "e49db242696668881085f4732d9b2ca38d0f585c",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

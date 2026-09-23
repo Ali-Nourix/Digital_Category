@@ -1,0 +1,177 @@
+{
+  "slug": "lemurian-labradorite",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "لابرادوریت لموریان",
+    "en": "Lemurian Labradorite"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ماداگاسکار",
+      "رنگ": [
+        "مشکی",
+        "آبی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Madagascar",
+      "Colour": [
+        "Black",
+        "Blue"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/labradorite/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/labradorite/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-labradorite-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/labradorite-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250625104512id_/https://fa.behkooshan.ir/wp-content/uploads/labradorite-1.jpg",
+      "alt": "labradorite",
+      "alt_fa": "لابرادوریت لموریان – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "labradorite",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 142181,
+      "sha1": "939eaab4b31540752de95c3042b261d8a2929a0c",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/labradorite/"
+      ]
+    },
+    {
+      "file": "images/02-Lemurian-Labradorite.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite.jpg",
+      "archived_url": "https://web.archive.org/web/20250627105132id_/https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite.jpg",
+      "alt": "Lemurian Labradorite – product listing image",
+      "alt_fa": "لابرادوریت لموریان – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 147291,
+      "sha1": "92fffdd3f6db08734fa903282e3590336f81eca1",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product/nehbandan/",
+        "product card on https://behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/emerald-green/",
+        "product card on https://fa.behkooshan.ir/product/turquoise/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Lemurian Labradorite",
+    "en": "Lemurian Labradorite"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4785"
+    ],
+    "en": [
+      "4785"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:38:28",
+      "modified": "2024-04-20T10:51:19"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260219190424",
+        "archived": "https://web.archive.org/web/20260219190424/https://fa.behkooshan.ir/product/labradorite/"
+      },
+      {
+        "captured": "20250625090812",
+        "archived": "https://web.archive.org/web/20250625090812/https://fa.behkooshan.ir/product/labradorite/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "لابرادوریته لموریان"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "لابرادوریته لموریان",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+        "archived": "https://web.archive.org/web/20230131110347/https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "769d7c66b9ce71cf30455e9ab4fc79dcadd7b5cf",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

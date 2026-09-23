@@ -1,0 +1,1412 @@
+[
+  {
+    "slug": "absolute-black",
+    "category": "domestic",
+    "name": {
+      "fa": "ابسولوت بلک",
+      "en": "Absolute Black"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "absolute-black/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "alaska-white",
+    "category": "imported",
+    "name": {
+      "fa": "آلاسکا وایت",
+      "en": "Alaska White"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "alaska-white/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "amazonite",
+    "category": "imported",
+    "name": {
+      "fa": "آمازونیت",
+      "en": "Amazonite"
+    },
+    "type": "Granite",
+    "origin": "Madagascar",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "amazonite/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "andromeda",
+    "category": "imported",
+    "name": {
+      "fa": "آندرومدا",
+      "en": "Andromeda"
+    },
+    "type": "Granite",
+    "origin": "Sri-Lanka",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "andromeda/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "bellatrix",
+    "category": "imported",
+    "name": {
+      "fa": "بلاتریکس",
+      "en": "Bellatrix"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "bellatrix/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "belvedere",
+    "category": "imported",
+    "name": {
+      "fa": "بلودره",
+      "en": "Belvedere"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 4,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "belvedere/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "black-beat",
+    "category": "imported",
+    "name": {
+      "fa": "بلک بیت",
+      "en": "Black Beat"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-beat/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "black-diamond",
+    "category": "imported",
+    "name": {
+      "fa": "بلک دایموند",
+      "en": "Black Diamond"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-diamond/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "black-fantasy",
+    "category": "imported",
+    "name": {
+      "fa": "بلک فانتزی",
+      "en": "Black Fantasy"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "black-fantasy/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "black-galaxy",
+    "category": "imported",
+    "name": {
+      "fa": "بلک گلکسی",
+      "en": "Black Galaxy"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-galaxy/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "black-horse",
+    "category": "imported",
+    "name": {
+      "fa": "بلک هورس",
+      "en": "Black Horse"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-horse/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "black-tempest",
+    "category": null,
+    "name": {
+      "fa": "بلک تمپست",
+      "en": "Black Tempest"
+    },
+    "type": null,
+    "origin": null,
+    "image_count": 0,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-tempest/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "black-zebra",
+    "category": "domestic",
+    "name": {
+      "fa": "بلک زبرا",
+      "en": "Black Zebra"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "black-zebra/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "blanco-potiguar",
+    "category": "imported",
+    "name": {
+      "fa": "بلانکو پوتیگوار",
+      "en": "Blanco Potiguar"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "blanco-potiguar/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "bronze-antique",
+    "category": "imported",
+    "name": {
+      "fa": "برنز آنتیک",
+      "en": "Bronze Antique"
+    },
+    "type": "Granite",
+    "origin": "Ukraine",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "bronze-antique/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "bubble-gray",
+    "category": "domestic",
+    "name": {
+      "fa": "بابل گری",
+      "en": "Bubble Gray"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "bubble-gray/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "casper",
+    "category": "domestic",
+    "name": {
+      "fa": "کاسپر",
+      "en": "Casper"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "casper/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "casper-line",
+    "category": "domestic",
+    "name": {
+      "fa": "کاسپر لاین",
+      "en": "Casper Line"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "casper-line/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "cohiba",
+    "category": "imported",
+    "name": {
+      "fa": "کوهیبا",
+      "en": "Cohiba"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "cohiba/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "colonial",
+    "category": "imported",
+    "name": {
+      "fa": "کلونیال",
+      "en": "Colonial"
+    },
+    "type": "Granite",
+    "origin": "Sri-Lanka",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "colonial/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "copper-dune",
+    "category": "imported",
+    "name": {
+      "fa": "کاپر دیون",
+      "en": "Copper Dune"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "copper-dune/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "cristallo-rosa",
+    "category": "imported",
+    "name": {
+      "fa": "کریستالو رزا",
+      "en": "Cristallo Rosa"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "cristallo-rosa/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "dalmata",
+    "category": "imported",
+    "name": {
+      "fa": "دالماتا",
+      "en": "Dalmata"
+    },
+    "type": "Marble",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "dalmata/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "dark-golden-lightning",
+    "category": "domestic",
+    "name": {
+      "fa": "دارک گلدن لایتنینگ",
+      "en": "Dark Golden Lightning"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "dark-golden-lightning/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "dedalus",
+    "category": "imported",
+    "name": {
+      "fa": "ددالوس",
+      "en": "Dedalus"
+    },
+    "type": "Marble",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "dedalus/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "delicate",
+    "category": "domestic",
+    "name": {
+      "fa": "دلیکیت",
+      "en": "Delicate"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "delicate/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "dolce-vita",
+    "category": "imported",
+    "name": {
+      "fa": "دولچه ویتا",
+      "en": "Dolce Vita"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "dolce-vita/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "dover-blue",
+    "category": "imported",
+    "name": {
+      "fa": "دوور بلو",
+      "en": "Dover Blue"
+    },
+    "type": "Marble",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "dover-blue/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "elegant-brown",
+    "category": "imported",
+    "name": {
+      "fa": "الگانت براون",
+      "en": "Elegant Brown"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "elegant-brown/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "elegant-green",
+    "category": "domestic",
+    "name": {
+      "fa": "الگانت گرین",
+      "en": "Elegant Green"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "elegant-green/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "emerald-quartzite",
+    "category": "imported",
+    "name": {
+      "fa": "امرالد کوارتزیت",
+      "en": "Emerald Quartzite"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "emerald-quartzite/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "evolution-green",
+    "category": "domestic",
+    "name": {
+      "fa": "اوولوشن گرین",
+      "en": "Evolution Green"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "evolution-green/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "explosion-blue",
+    "category": "imported",
+    "name": {
+      "fa": "اکسپلوژن بلو",
+      "en": "Explosion Blue"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "explosion-blue/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "gando",
+    "category": "domestic",
+    "name": {
+      "fa": "گاندو",
+      "en": "Gando"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "gando/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "grand-antique",
+    "category": "imported",
+    "name": {
+      "fa": "گرند آنتیک",
+      "en": "Grand Antique"
+    },
+    "type": "Marble",
+    "origin": "France",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "grand-antique/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "green-shadow",
+    "category": "domestic",
+    "name": {
+      "fa": "گرین شدو",
+      "en": "Green Shadow"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "green-shadow/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "infinity-gold",
+    "category": "domestic",
+    "name": {
+      "fa": "اینفینیتی گلد",
+      "en": "Infinity Gold"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "infinity-gold/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "jacaranda",
+    "category": "imported",
+    "name": {
+      "fa": "جاکاراندا",
+      "en": "Jacaranda"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "jacaranda/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "jasmin",
+    "category": "domestic",
+    "name": {
+      "fa": "جاسمین",
+      "en": "Jasmin"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "jasmin/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "jeriba-blue",
+    "category": "imported",
+    "name": {
+      "fa": "جریبا بلو",
+      "en": "Jeriba Blue"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "jeriba-blue/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "jet-black",
+    "category": "domestic",
+    "name": {
+      "fa": "جت بلک",
+      "en": "Jet Black"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "jet-black/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "kojin",
+    "category": "domestic",
+    "name": {
+      "fa": "کوجین",
+      "en": "Kojin"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "kojin/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "kosmus-a",
+    "category": "imported",
+    "name": {
+      "fa": "کاسموس A",
+      "en": "Kosmus “A”"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "kosmus-a/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "kosmus-gold",
+    "category": "imported",
+    "name": {
+      "fa": "کاسموس گلد",
+      "en": "Kosmus Gold"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "kosmus-gold/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "lemurian-labradorite",
+    "category": "imported",
+    "name": {
+      "fa": "لابرادوریت لموریان",
+      "en": "Lemurian Labradorite"
+    },
+    "type": "Granite",
+    "origin": "Madagascar",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "lemurian-labradorite/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "lumix-wow",
+    "category": "imported",
+    "name": {
+      "fa": "لومیکس واو",
+      "en": "Lumix Wow"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "lumix-wow/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "magma-gold",
+    "category": "imported",
+    "name": {
+      "fa": "مگما گلد",
+      "en": "Magma Gold"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "magma-gold/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "malibu-red",
+    "category": "domestic",
+    "name": {
+      "fa": "مالیبو رد",
+      "en": "Malibu Red"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "malibu-red/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "mercury-black",
+    "category": "domestic",
+    "name": {
+      "fa": "مرکوری بلک",
+      "en": "Mercury Black"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "mercury-black/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "meteorus",
+    "category": "imported",
+    "name": {
+      "fa": "متئوروس",
+      "en": "Meteorus"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "meteorus/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "midnight-gray",
+    "category": "domestic",
+    "name": {
+      "fa": "میدنایت گری",
+      "en": "Midnight Gray"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "midnight-gray/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "milky-way",
+    "category": "imported",
+    "name": {
+      "fa": "میلکی وی",
+      "en": "Milky Way"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "milky-way/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "mont-blanc",
+    "category": "imported",
+    "name": {
+      "fa": "مون بلان",
+      "en": "Mont Blanc"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "mont-blanc/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "mozzarella",
+    "category": "domestic",
+    "name": {
+      "fa": "موتزارلا",
+      "en": "Mozzarella"
+    },
+    "type": "Miscellaneous",
+    "origin": "Iran",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "mozzarella/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "naica-quartzite",
+    "category": "imported",
+    "name": {
+      "fa": "نایکا کوارتزیت",
+      "en": "Naica Quartzite"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "naica-quartzite/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "natanz-white-granite-rijen",
+    "category": "quarry",
+    "name": {
+      "fa": "معدن گرانیت طامه",
+      "en": "Natanz White Granite Quarry - Rijen"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 13,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": null,
+    "path": "natanz-white-granite-rijen/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "native-black",
+    "category": "domestic",
+    "name": {
+      "fa": "نیتیو بلک",
+      "en": "Native Black"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "native-black/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "negresco",
+    "category": "imported",
+    "name": {
+      "fa": "نگرسکو",
+      "en": "Negresco"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "negresco/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "new-galaxy",
+    "category": "imported",
+    "name": {
+      "fa": "نیو گلکسی",
+      "en": "New Galaxy"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "new-galaxy/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "new-golden-silver",
+    "category": "imported",
+    "name": {
+      "fa": "نیو گلدن سیلور",
+      "en": "New Golden Silver"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "new-golden-silver/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "new-patagonia",
+    "category": "imported",
+    "name": {
+      "fa": "نیو پاتاگونیا",
+      "en": "New Patagonia"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "new-patagonia/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "nysa",
+    "category": "domestic",
+    "name": {
+      "fa": "نیسا",
+      "en": "Nysa"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "nysa/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "oyster-quartz",
+    "category": "imported",
+    "name": {
+      "fa": "اویستر کوارتز",
+      "en": "Oyster Quartz"
+    },
+    "type": "Marble",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "oyster-quartz/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "patagonia-a",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا A",
+      "en": "Patagonia “A”"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-a/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "patagonia-black",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا بلک",
+      "en": "Patagonia Black"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-black/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "patagonia-green",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا گرین",
+      "en": "Patagonia Green"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-green/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "patagonia-original",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا اورجینال",
+      "en": "Patagonia Original"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-original/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "patagonia-pink",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا پینک",
+      "en": "Patagonia Pink"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-pink/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "patagonia-tourmaline",
+    "category": "imported",
+    "name": {
+      "fa": "پاتاگونیا تورمالین",
+      "en": "Patagonia Tourmaline"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "patagonia-tourmaline/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "picasso",
+    "category": "domestic",
+    "name": {
+      "fa": "پیکاسو",
+      "en": "Picasso"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "picasso/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "platinum",
+    "category": "imported",
+    "name": {
+      "fa": "پلاتینیوم",
+      "en": "Platinum"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "platinum/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "purple-rain",
+    "category": "domestic",
+    "name": {
+      "fa": "پرپل رین",
+      "en": "Purple Rain"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "purple-rain/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "python",
+    "category": "domestic",
+    "name": {
+      "fa": "پایتون",
+      "en": "Python"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "python/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "quartzite-levanto",
+    "category": "imported",
+    "name": {
+      "fa": "کوارتزیت لوانتو",
+      "en": "Quartzite Levanto"
+    },
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "quartzite-levanto/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "river-blanche",
+    "category": "imported",
+    "name": {
+      "fa": "ریور بلانش",
+      "en": "River Blanche"
+    },
+    "type": "Quartzite",
+    "origin": "Afghanistan",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "river-blanche/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "river-noire",
+    "category": "imported",
+    "name": {
+      "fa": "ریور نوآر",
+      "en": "River Noire"
+    },
+    "type": "Granite",
+    "origin": "India",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "river-noire/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "river-stone",
+    "category": "imported",
+    "name": {
+      "fa": "ریور استون",
+      "en": "River Stone"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "river-stone/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "rosso-fantastico",
+    "category": "domestic",
+    "name": {
+      "fa": "روسو فانتاستیکو",
+      "en": "Rosso Fantastic"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "rosso-fantastico/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "sanded-white",
+    "category": "domestic",
+    "name": {
+      "fa": "سندد وایت",
+      "en": "Sanded White"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "sanded-white/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "serpentine",
+    "category": "domestic",
+    "name": {
+      "fa": "سرپانتین",
+      "en": "Serpentine"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "serpentine/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "silver-fusion",
+    "category": "imported",
+    "name": {
+      "fa": "سیلور فیوژن",
+      "en": "Silver Fusion"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "silver-fusion/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "space-gray",
+    "category": "domestic",
+    "name": {
+      "fa": "اسپیس گری",
+      "en": "Space Gray"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "space-gray/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "spectrolite-blue",
+    "category": "imported",
+    "name": {
+      "fa": "اسپکترولیت بلو",
+      "en": "Spectrolite Blue"
+    },
+    "type": "Granite",
+    "origin": "Ukraine",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "spectrolite-blue/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "t-rex",
+    "category": "domestic",
+    "name": {
+      "fa": "تی رکس",
+      "en": "T.Rex"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 4,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "t-rex/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "taj-mahal",
+    "category": "imported",
+    "name": {
+      "fa": "تاج محل",
+      "en": "Taj Mahal"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "taj-mahal/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "titanium-mc",
+    "category": "imported",
+    "name": {
+      "fa": "تیتانیوم ام‌سی",
+      "en": "Titanium MC"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "titanium-mc/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "tropical-storm",
+    "category": "imported",
+    "name": {
+      "fa": "تروپیکال استورم",
+      "en": "Tropical Storm"
+    },
+    "type": "Granite",
+    "origin": "Angola",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "tropical-storm/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "turquoise",
+    "category": "domestic",
+    "name": {
+      "fa": "آبی فیروزه‌ای",
+      "en": "Turquoise"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "turquoise/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "venetian-granite",
+    "category": "domestic",
+    "name": {
+      "fa": "گرانیت ونیشن",
+      "en": "Venetian Granite"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "venetian-granite/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "verde-fantastic",
+    "category": "domestic",
+    "name": {
+      "fa": "ورده فانتاستیک",
+      "en": "Verde Fantastic"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 3,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "verde-fantastic/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "verde-imperial",
+    "category": "domestic",
+    "name": {
+      "fa": "ورده ایمپریال",
+      "en": "Verde Imperial"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "verde-imperial/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "verde-karzai",
+    "category": "domestic",
+    "name": {
+      "fa": "ورده کارزای",
+      "en": "Verde Karzai"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 2,
+    "texture_count": 1,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "verde-karzai/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "via-lattea",
+    "category": "imported",
+    "name": {
+      "fa": "ویا لاتئا",
+      "en": "Via Lattea"
+    },
+    "type": "Granite",
+    "origin": "Brazil",
+    "image_count": 2,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "via-lattea/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "volga-blue",
+    "category": "imported",
+    "name": {
+      "fa": "ولگا بلو",
+      "en": "Volga Blue"
+    },
+    "type": "Granite",
+    "origin": "Ukraine",
+    "image_count": 3,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": true,
+    "path": "volga-blue/product.json",
+    "has_texture": true
+  }
+]

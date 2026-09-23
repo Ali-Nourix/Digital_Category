@@ -1,0 +1,103 @@
+{
+  "slug": "dolce-vita",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "دولچه ویتا",
+    "en": "Dolce Vita"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dolce-vita/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dolce-vita/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-4037-004_68a56914930db_1755670804_compressed.jpg",
+      "kind": "listing",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg",
+      "archived_url": "https://web.archive.org/web/20260225210951id_/https://es55asecvav.exactdn.com/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg",
+      "alt": "Dolce Vita – product listing image",
+      "alt_fa": "دولچه ویتا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1729,
+      "height": 997,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 83617,
+      "sha1": "cf798ab88c592c5294a496746a32d72701f0700d",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Dolce Vita"
+  },
+  "site_post_ids": {
+    "en": [
+      "6398"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

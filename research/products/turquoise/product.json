@@ -1,0 +1,273 @@
+{
+  "slug": "turquoise",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "آبی فیروزه‌ای",
+    "en": "Turquoise"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/turquoise/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/turquoise/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-turquoise-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/turquoise-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250624143453id_/https://fa.behkooshan.ir/wp-content/uploads/turquoise-m.jpg",
+      "alt": "Turquoise – main product image (slab surface)",
+      "alt_fa": "آبی فیروزه‌ای – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "turquoise-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 91240,
+      "sha1": "fc9e784a6b820abb962379a86aebd186eb22f676",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/turquoise/",
+        "product page https://fa.behkooshan.ir/product/turquoise/"
+      ]
+    },
+    {
+      "file": "images/02-turquoise-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/turquoise-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619024729id_/https://fa.behkooshan.ir/wp-content/uploads/turquoise-p.jpg",
+      "alt": "Turquoise – product listing image",
+      "alt_fa": "آبی فیروزه‌ای – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 108211,
+      "sha1": "2bdf619e5a6035fe8b628050fedecdd5b9b72362",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/turquoise/",
+        "og:image of https://fa.behkooshan.ir/product/turquoise/",
+        "product card on https://behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://behkooshan.ir/product/casper/",
+        "product card on https://behkooshan.ir/product/explosion-blue/",
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product/new-patagonia/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/black-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/casper/",
+        "product card on https://fa.behkooshan.ir/product/magma-gold/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/sanded-white/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-turquoise-standard-cataloge.jpg7_.jpg",
+      "kind": "legacy",
+      "source_url": "https://www.behkooshan.ir/wp-content/uploads/turquoise-standard-cataloge.jpg7_.jpg",
+      "archived_url": "https://web.archive.org/web/20220406013215id_/https://www.behkooshan.ir/wp-content/uploads/turquoise-standard-cataloge.jpg7_.jpg",
+      "alt": "Turquoise – catalogue image from the 2021-2023 version of the site",
+      "alt_fa": "آبی فیروزه‌ای – تصویر کاتالوگ از نسخه ۲۰۲۱ تا ۲۰۲۳ سایت",
+      "site_alt": null,
+      "width": 1400,
+      "height": 825,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 351767,
+      "sha1": "dfe3487f4ba1848fff14405d666309c2c713b894",
+      "seen_on": [
+        "2021-2023 version of www.behkooshan.ir"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=77552a1500531660496455c02b204e44360a0549",
+      "archived_url": "https://web.archive.org/web/20250625111522id_/https://fa.behkooshan.ir/?jet_download=77552a1500531660496455c02b204e44360a0549",
+      "original_filename": "turquoise.jpg",
+      "width": 1349,
+      "height": 754,
+      "format": "JPEG",
+      "bytes": 369154,
+      "sha1": "2d2973286744ea09325270c0124fbd3a49eb601c",
+      "alt": "Turquoise – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-turquoise.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Turquoise",
+    "en": "Turquoise"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3943"
+    ],
+    "en": [
+      "3943"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T15:46:32",
+      "modified": "2024-04-22T08:48:03"
+    },
+    "en": {
+      "published": "2023-08-01T15:46:32",
+      "modified": "2023-12-12T13:28:56"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625090558",
+        "archived": "https://web.archive.org/web/20250625090558/https://fa.behkooshan.ir/product/turquoise/"
+      },
+      {
+        "captured": "20250624141306",
+        "archived": "https://web.archive.org/web/20250624141306/https://fa.behkooshan.ir/product/turquoise/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250618235202",
+        "archived": "https://web.archive.org/web/20250618235202/https://behkooshan.ir/product/turquoise/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "آبی فیروزه ای استاندارد",
+      "فیروزه ای سوپر",
+      "تورقیسه",
+      "اسلب گرانیت آبی فیروزه ای استاندارد",
+      "اسلب گرانیت آبی فیروزه ای پریمیوم",
+      "گرانیت آبی فیروزه‌ای",
+      "آبی فیروزه‌ای"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "آبی فیروزه ای استاندارد",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF/",
+        "archived": "https://web.archive.org/web/20230131101008/https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "فیروزه ای سوپر",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%B3%D9%88%D9%BE%D8%B1/",
+        "archived": "https://web.archive.org/web/20230131111940/https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%B3%D9%88%D9%BE%D8%B1/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "تورقیسه",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%D8%B1%D9%82%DB%8C%D8%B3%D9%87/",
+        "archived": "https://web.archive.org/web/20230131100840/https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%D8%B1%D9%82%DB%8C%D8%B3%D9%87/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت آبی فیروزه ای استاندارد",
+        "url": "http://www.behkooshan.ir/Page/80/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+        "archived": "https://web.archive.org/web/20201204044444/http://www.behkooshan.ir/Page/80/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت آبی فیروزه ای پریمیوم",
+        "url": "http://www.behkooshan.ir/Page/85/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D9%BE%D8%B1%DB%8C%D9%85%DB%8C%D9%88%D9%85",
+        "archived": "https://web.archive.org/web/20201204053832/http://www.behkooshan.ir/Page/85/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D9%BE%D8%B1%DB%8C%D9%85%DB%8C%D9%88%D9%85",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2018 (behkooshan.ir WordPress portfolio)",
+        "name_fa": "گرانیت آبی فیروزه‌ای",
+        "url": "http://behkooshan.ir:80/project/turquoise-granaite/",
+        "archived": "https://web.archive.org/web/20181010045452/http://behkooshan.ir:80/project/turquoise-granaite/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2018 (behkooshan.ir WordPress portfolio)",
+        "name_fa": "گرانیت آبی فیروزه‌ای",
+        "url": "http://behkooshan.ir:80/project/turquoise-granaite-2/",
+        "archived": "https://web.archive.org/web/20181001035707/http://behkooshan.ir:80/project/turquoise-granaite-2/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2018 (behkooshan.ir WordPress portfolio)",
+        "name_fa": "آبی فیروزه‌ای",
+        "url": "http://behkooshan.ir:80/project/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87%E2%80%8C%D8%A7%DB%8C/",
+        "archived": "https://web.archive.org/web/20190727182757/http://behkooshan.ir:80/project/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87%E2%80%8C%D8%A7%DB%8C/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The English site's hidden WooCommerce stone-type attribute says \"quartzite\", but the page displays \"Granite\"; the displayed value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

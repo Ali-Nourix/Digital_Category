@@ -1,0 +1,159 @@
+{
+  "slug": "copper-dune",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کاپر دیون",
+    "en": "Copper Dune"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/elegant-brown/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/elegant-brown/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Copper-Dune-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623221240id_/https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-1.jpg",
+      "alt": "Copper-Dune",
+      "alt_fa": "کاپر دیون – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Copper-Dune",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 43727,
+      "sha1": "cf4faee1548f0c384fa3880006f1a6dd798ea825",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/elegant-brown/"
+      ]
+    },
+    {
+      "file": "images/02-Copper-Dune.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune.jpg",
+      "archived_url": "https://web.archive.org/web/20250626141810id_/https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune.jpg",
+      "alt": "Copper Dune – product listing image",
+      "alt_fa": "کاپر دیون – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 45598,
+      "sha1": "6dc30a59e0b9a72fed52bbf26f5d6c172371e1e6",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/elegant-brown/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/dover-blue/",
+        "product card on https://fa.behkooshan.ir/product/sanded-white/",
+        "product card on https://fa.behkooshan.ir/product/spectrolite-blue/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ee56ee9a999424b135c06b9cb5685748edddca30",
+      "archived_url": "https://web.archive.org/web/20250625230147id_/https://fa.behkooshan.ir/?jet_download=ee56ee9a999424b135c06b9cb5685748edddca30",
+      "original_filename": "Copper-Dune-1.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 43727,
+      "sha1": "cf4faee1548f0c384fa3880006f1a6dd798ea825",
+      "alt": "Copper Dune – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Copper-Dune-1.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Copper Dune",
+    "en": "Copper Dune"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4749"
+    ],
+    "en": [
+      "4749"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T08:12:50",
+      "modified": "2024-04-22T08:39:47"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625214333",
+        "archived": "https://web.archive.org/web/20250625214333/https://fa.behkooshan.ir/product/elegant-brown/"
+      },
+      {
+        "captured": "20250623213808",
+        "archived": "https://web.archive.org/web/20250623213808/https://fa.behkooshan.ir/product/elegant-brown/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Published under the URL /product/elegant-brown/ (post 4749) but titled \"Copper Dune\" on both language sites; the English site later published a separate product \"Elegant Brown\" (/product/elegant-brown-2/), see products/elegant-brown/.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

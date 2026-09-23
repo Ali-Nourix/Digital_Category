@@ -1,0 +1,203 @@
+{
+  "slug": "nysa",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "نیسا",
+    "en": "Nysa"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/nysa/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/nysa/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-49031-001.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/49031-001.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050439id_/https://fa.behkooshan.ir/wp-content/uploads/49031-001.jpg",
+      "alt": "Nysa – product listing image",
+      "alt_fa": "نیسا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1920,
+      "height": 786,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 214355,
+      "sha1": "7fe7100ff53c9487cc5aca66d6693c7aafb15bc1",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/02-62.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/62.jpg",
+      "archived_url": "https://web.archive.org/web/20260226162752id_/https://fa.behkooshan.ir/wp-content/uploads/62.jpg",
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 239146,
+      "sha1": "3e4740e7f69ccd452321fd396a1b9bc81ec0d9f4",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Nysa"
+  },
+  "site_post_ids": {
+    "en": [
+      "6733"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/nysa/",
+      "title": null
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/nysa/",
+      "title": "Nysa"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/54-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/56-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/57-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/58-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/65-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/68-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/69-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/71-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/nysa/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    }
+  ],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "8 image(s) referenced by the site were not archived and are missing; see missing_images.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

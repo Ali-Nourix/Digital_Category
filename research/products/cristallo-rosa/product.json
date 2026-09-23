@@ -1,0 +1,103 @@
+{
+  "slug": "cristallo-rosa",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کریستالو رزا",
+    "en": "Cristallo Rosa"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/cristallo-rosa/"
+    ],
+    "en": []
+  },
+  "images": [
+    {
+      "file": "images/01-Crystal-Rose-p-1024x755.webp",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p-1024x755.webp",
+      "archived_url": "https://web.archive.org/web/20260219015230id_/https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p-1024x755.webp",
+      "alt": "Cristallo Rosa – product listing image",
+      "alt_fa": "کریستالو رزا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1024,
+      "height": 755,
+      "format": "WEBP",
+      "resolution": "resized-1024x755",
+      "bytes": 83752,
+      "sha1": "fbae552a21e283e97beaf31261f10662465f031f",
+      "seen_on": [
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": true
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": [
+      "none of the English site's pages for this product were archived; English name taken from the Latin name on the Persian site",
+      "specs.Type (translated from the Persian site)",
+      "specs.Origin (translated from the Persian site)"
+    ]
+  },
+  "site_names": {
+    "fa": "Cristallo Rosa",
+    "en": null
+  },
+  "site_post_ids": {
+    "fa": [
+      "6493"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

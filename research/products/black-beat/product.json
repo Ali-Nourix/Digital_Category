@@ -1,0 +1,166 @@
+{
+  "slug": "black-beat",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک بیت",
+    "en": "Black Beat"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-beat/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-beat/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Black-Beat-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Beat-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624062447id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Beat-m_11zon.jpg",
+      "alt": "Black Beat – main product image (slab surface)",
+      "alt_fa": "بلک بیت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Black Beat-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80619,
+      "sha1": "6c6022b782d4fd0b5fd9ec0881694bc7b6d4ff64",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/black-beat/",
+        "product page https://fa.behkooshan.ir/product/black-beat/"
+      ]
+    },
+    {
+      "file": "images/02-Black-Beat-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Beat-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250618235936id_/https://behkooshan.ir/wp-content/uploads/Black-Beat-p_11zon.jpg",
+      "alt": "Black Beat – product listing image",
+      "alt_fa": "بلک بیت – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 95896,
+      "sha1": "a700d58c2f08b3b33936ec7183c2c004e245b646",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/black-beat/",
+        "og:image of https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/taj-mahal/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/bellatrix/",
+        "product card on https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://fa.behkooshan.ir/product/mercury-black/",
+        "product card on https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/silver-fusion/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=77abd6b8fa9ab82856ef2554681d32f9d4833a46",
+      "archived_url": "https://web.archive.org/web/20250704082542id_/https://fa.behkooshan.ir/?jet_download=77abd6b8fa9ab82856ef2554681d32f9d4833a46",
+      "original_filename": "Black-Beat.jpg",
+      "width": 1554,
+      "height": 883,
+      "format": "JPEG",
+      "bytes": 333514,
+      "sha1": "51694e97bb2378161946631b11694aa4204ceb0f",
+      "alt": "Black Beat – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Black-Beat.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Beat",
+    "en": "Black Beat"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5420"
+    ],
+    "en": [
+      "5420"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:02:34",
+      "modified": "2024-04-20T10:32:15"
+    },
+    "en": {
+      "published": "2023-12-12T23:02:34",
+      "modified": "2025-05-07T13:29:20"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704081433",
+        "archived": "https://web.archive.org/web/20250704081433/https://fa.behkooshan.ir/product/black-beat/"
+      },
+      {
+        "captured": "20250624060949",
+        "archived": "https://web.archive.org/web/20250624060949/https://fa.behkooshan.ir/product/black-beat/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619023331",
+        "archived": "https://web.archive.org/web/20250619023331/https://behkooshan.ir/product/black-beat/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The Persian site showed different origins over time: آنگولا, هند; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

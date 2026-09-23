@@ -1,0 +1,169 @@
+{
+  "slug": "river-blanche",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ریور بلانش",
+    "en": "River Blanche"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "افغانستان",
+      "رنگ": [
+        "آبی",
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Afghanistan",
+      "Colour": [
+        "Blue",
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/river-blanche/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/river-blanche/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-River-Blanche-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/River-Blanche-m.jpg",
+      "archived_url": "https://web.archive.org/web/20260226083010id_/https://fa.behkooshan.ir/wp-content/uploads/River-Blanche-m.jpg",
+      "alt": "River Blanche – main product image (slab surface)",
+      "alt_fa": "ریور بلانش – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "River-Blanche-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 69394,
+      "sha1": "aaeed144bd221bdd093d6b2e7e495865e5797fac",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/river-blanche/",
+        "product page https://fa.behkooshan.ir/product/river-blanche/"
+      ]
+    },
+    {
+      "file": "images/02-River-Blanche-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/River-Blanche-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260225003551id_/https://fa.behkooshan.ir/wp-content/uploads/River-Blanche-p.jpg",
+      "alt": "River Blanche – product listing image",
+      "alt_fa": "ریور بلانش – تصویر فهرست محصولات",
+      "site_alt": "River Blanche",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 82869,
+      "sha1": "3a751da5558f7800bc0911d5249b202a70713af6",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/river-blanche/",
+        "og:image of https://fa.behkooshan.ir/product/river-blanche/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/black-beat/",
+        "product card on https://behkooshan.ir/product/kosmus-gold/",
+        "product card on https://behkooshan.ir/product/midnight-gray/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/product/river-blanche/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "River Blanche",
+    "en": "River Blanche"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6001"
+    ],
+    "en": [
+      "5640"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T18:14:05",
+      "modified": "2025-07-27T12:37:09"
+    },
+    "en": {
+      "published": "2024-06-13T09:15:46",
+      "modified": "2024-08-01T09:14:12"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260226082652",
+        "archived": "https://web.archive.org/web/20260226082652/https://fa.behkooshan.ir/product/river-blanche/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250618234501",
+        "archived": "https://web.archive.org/web/20250618234501/https://behkooshan.ir/product/river-blanche/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "47e6aaef114c3423b6fc2c218133d157e7706cab",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    },
+    {
+      "jet_download": "ad88a876858617c4e9f79ec035d583d0a4ca769a",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

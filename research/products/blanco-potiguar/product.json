@@ -1,0 +1,176 @@
+{
+  "slug": "blanco-potiguar",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلانکو پوتیگوار",
+    "en": "Blanco Potiguar"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/blanco-potiguar/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/blanco-potiguar/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Blanco-Potiguar.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Blanco-Potiguar.jpg",
+      "archived_url": "https://web.archive.org/web/20250624012038id_/https://fa.behkooshan.ir/wp-content/uploads/Blanco-Potiguar.jpg",
+      "alt": "Blanco Potiguar – main product image (slab surface)",
+      "alt_fa": "بلانکو پوتیگوار – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Blanco Potiguar",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 177843,
+      "sha1": "16eda5e5d2ab1a774304015be63cf00996853586",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/blanco-potiguar/",
+        "product page https://fa.behkooshan.ir/product/blanco-potiguar/"
+      ]
+    },
+    {
+      "file": "images/02-Blanco-Potiguar1.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Blanco-Potiguar1.jpg",
+      "archived_url": "https://web.archive.org/web/20250619070455id_/https://behkooshan.ir/wp-content/uploads/Blanco-Potiguar1.jpg",
+      "alt": "Blanco Potiguar – product listing image",
+      "alt_fa": "بلانکو پوتیگوار – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 210863,
+      "sha1": "acb89fa5b1d8ca5e8fb0d39c7437dd8fb180b832",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/blanco-potiguar/",
+        "og:image of https://fa.behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/andromeda/",
+        "product card on https://behkooshan.ir/product/jacaranda/",
+        "product card on https://behkooshan.ir/product/new-galaxy/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/product/purple-rain/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/delicate/",
+        "product card on https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/product/volga-blue/",
+        "product card on https://fa.behkooshan.ir/product/zebra/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=5b936f8cd3873748ac6ceb2b0dff546db85bfd2c",
+      "archived_url": "https://web.archive.org/web/20250625153449id_/https://fa.behkooshan.ir/?jet_download=5b936f8cd3873748ac6ceb2b0dff546db85bfd2c",
+      "original_filename": "Blanco-Potiguar.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 177843,
+      "sha1": "16eda5e5d2ab1a774304015be63cf00996853586",
+      "alt": "Blanco Potiguar – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Blanco-Potiguar.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Blanco Potiguar",
+    "en": "Blanco Potiguar"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4735"
+    ],
+    "en": [
+      "4735"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T07:45:43",
+      "modified": "2024-04-20T10:35:45"
+    },
+    "en": {
+      "published": "2023-09-05T07:45:43",
+      "modified": "2023-09-26T18:46:24"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625151643",
+        "archived": "https://web.archive.org/web/20250625151643/https://fa.behkooshan.ir/product/blanco-potiguar/"
+      },
+      {
+        "captured": "20250624000019",
+        "archived": "https://web.archive.org/web/20250624000019/https://fa.behkooshan.ir/product/blanco-potiguar/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619011902",
+        "archived": "https://web.archive.org/web/20250619011902/https://behkooshan.ir/product/blanco-potiguar/"
+      },
+      {
+        "captured": "20250618233654",
+        "archived": "https://web.archive.org/web/20250618233654/https://behkooshan.ir/product/blanco-potiguar/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

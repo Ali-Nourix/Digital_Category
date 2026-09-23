@@ -1,0 +1,152 @@
+{
+  "slug": "oyster-quartz",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "اویستر کوارتز",
+    "en": "Oyster Quartz"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Angola",
+      "Colour": [
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/oyster/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/oyster/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-oyster_7VmxiLrLXyB3TH59ttHN-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/oyster_7VmxiLrLXyB3TH59ttHN-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250705133318id_/https://fa.behkooshan.ir/wp-content/uploads/oyster_7VmxiLrLXyB3TH59ttHN-1.jpg",
+      "alt": "oyster_7VmxiLrLXyB3TH59ttHN",
+      "alt_fa": "اویستر کوارتز – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "oyster_7VmxiLrLXyB3TH59ttHN",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 78296,
+      "sha1": "ff0bf537b5e58feca7a8595c0f8bb8eff8cf28c3",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/oyster/"
+      ]
+    },
+    {
+      "file": "images/02-oyster1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/oyster1.jpg",
+      "archived_url": "https://web.archive.org/web/20250624001056id_/https://fa.behkooshan.ir/wp-content/uploads/oyster1.jpg",
+      "alt": "Oyster Quartz – product listing image",
+      "alt_fa": "اویستر کوارتز – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87964,
+      "sha1": "8fcc47609d0c62565213d6ec7b3383cd7e27ac47",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/oyster/",
+        "product card on https://behkooshan.ir/product/naica-quartzite/",
+        "product card on https://behkooshan.ir/product/space-gray/",
+        "product card on https://behkooshan.ir/product/verde-karzai/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product card on https://fa.behkooshan.ir/product/oyster/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-green/",
+        "product card on https://fa.behkooshan.ir/product/silver-fusion/",
+        "product card on https://fa.behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Oyster Quartz",
+    "en": "Oyster Quartz"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4810"
+    ],
+    "en": [
+      "4810"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:08:38",
+      "modified": "2024-04-22T08:41:37"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250626224549",
+        "archived": "https://web.archive.org/web/20250626224549/https://fa.behkooshan.ir/product/oyster/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "a664b68cb246d7c03d73433e00a4dc03a85ba4a5",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

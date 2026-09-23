@@ -1,0 +1,163 @@
+{
+  "slug": "dalmata",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "دالماتا",
+    "en": "Dalmata"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی",
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black",
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dalmata/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dalmata/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-oreo.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/oreo.jpg",
+      "archived_url": "https://web.archive.org/web/20250626083617id_/https://fa.behkooshan.ir/wp-content/uploads/oreo.jpg",
+      "alt": "oreo",
+      "alt_fa": "دالماتا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "oreo",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 136079,
+      "sha1": "eb7ea6ae8f8e9d6c159f9d10ee203b0725caff30",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/dalmata/",
+        "product page https://fa.behkooshan.ir/product/dalmata/"
+      ]
+    },
+    {
+      "file": "images/02-Dalmata.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Dalmata.jpg",
+      "archived_url": "https://web.archive.org/web/20250623220909id_/https://fa.behkooshan.ir/wp-content/uploads/Dalmata.jpg",
+      "alt": "Dalmata – product listing image",
+      "alt_fa": "دالماتا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 124531,
+      "sha1": "1a4ef8cc3a70918c27d31682f85a9014a91b9a7e",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/dalmata/",
+        "og:image of https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://behkooshan.ir/product/absolute-black/",
+        "product card on https://behkooshan.ir/product/alaska-white/",
+        "product card on https://behkooshan.ir/product/andromeda/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/meteorus/",
+        "product card on https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Dalmata",
+    "en": "Dalmata"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4805"
+    ],
+    "en": [
+      "4805"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:03:36",
+      "modified": "2024-04-22T08:39:49"
+    },
+    "en": {
+      "published": "2023-09-05T10:03:36",
+      "modified": "2023-11-19T15:01:18"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250626070355",
+        "archived": "https://web.archive.org/web/20250626070355/https://fa.behkooshan.ir/product/dalmata/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622193730",
+        "archived": "https://web.archive.org/web/20250622193730/https://behkooshan.ir/product/dalmata/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "b6e885d7ee189022828e6d59815333b622ce4547",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The English site's hidden WooCommerce stone-type attribute says \"granite\", but the page displays \"Marble\"; the displayed value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

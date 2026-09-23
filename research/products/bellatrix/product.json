@@ -1,0 +1,183 @@
+{
+  "slug": "bellatrix",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلاتریکس",
+    "en": "Bellatrix"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/bellatrix/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/bellatrix/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Bellatrix.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050621id_/https://fa.behkooshan.ir/wp-content/uploads/Bellatrix.jpg",
+      "alt": "Bellatrix – main product image (slab surface)",
+      "alt_fa": "بلاتریکس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Bellatrix",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 129498,
+      "sha1": "bb5871a7bfc0431416ddaa2156bd0dc0f375edb5",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/bellatrix/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product page https://fa.behkooshan.ir/product/bellatrix/",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/02-Bellatrix-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project.jpg",
+      "archived_url": "https://web.archive.org/web/20260227072819id_/https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project.jpg",
+      "alt": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1640,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 94240,
+      "sha1": "1504ba7d7ff2d57312a6e88cbc1c60e6f4fa9c5e",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/bellatrix/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Bellatrix",
+    "en": "Bellatrix"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6672"
+    ],
+    "en": [
+      "6335"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-08-26T17:29:49",
+      "modified": "2025-08-26T17:29:49"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/bellatrix/",
+      "title": "Bellatrix"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/bellatrix/",
+      "title": "Bellatrix"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260224213116",
+        "archived": "https://web.archive.org/web/20260224213116/https://fa.behkooshan.ir/product/bellatrix/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "بیلاترکس",
+      "بلاتریکس لیتر"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بیلاترکس",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+        "archived": "https://web.archive.org/web/20230131094813/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بلاتریکس لیتر",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+        "archived": "https://web.archive.org/web/20230131093647/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "098c84f40ccdfdef9f6f1e8868dfe528d89b201e",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

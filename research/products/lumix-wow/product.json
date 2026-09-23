@@ -1,0 +1,203 @@
+{
+  "slug": "lumix-wow",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "لومیکس واو",
+    "en": "Lumix Wow"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "هند",
+      "رنگ": [
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/lumix-wow/",
+      "https://fa.behkooshan.ir/product/new-lumix-wow/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/new-lumix-wow/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Lumix-wow-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Lumix-wow-m.jpg",
+      "archived_url": "https://web.archive.org/web/20260219204030id_/https://fa.behkooshan.ir/wp-content/uploads/Lumix-wow-m.jpg",
+      "alt": "Lumix Wow – main product image (slab surface)",
+      "alt_fa": "لومیکس واو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Lumix-wow-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 70529,
+      "sha1": "35466a886a8a14d63519b5deef4e179d7abfb252",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/new-lumix-wow/",
+        "product page https://fa.behkooshan.ir/product/lumix-wow/",
+        "product page https://fa.behkooshan.ir/product/new-lumix-wow/"
+      ]
+    },
+    {
+      "file": "images/02-Lumix-wow-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Lumix-wow-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260219224624id_/https://fa.behkooshan.ir/wp-content/uploads/Lumix-wow-p.jpg",
+      "alt": "Lumix Wow – product listing image",
+      "alt_fa": "لومیکس واو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 83209,
+      "sha1": "927957b9f0d3cede984b8eec28fa453be848b0a0",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/new-lumix-wow/",
+        "og:image of https://fa.behkooshan.ir/product/lumix-wow/",
+        "og:image of https://fa.behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/alaska-white/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/casper/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/product/serpentine/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Lumix Wow",
+    "en": "Lumix Wow"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5567",
+      "5973"
+    ],
+    "en": [
+      "5567"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2024-01-22T14:24:17",
+      "modified": "2024-04-20T11:48:51"
+    },
+    "en": {
+      "published": "2024-01-22T14:24:17",
+      "modified": "2025-05-07T14:16:31"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625081551",
+        "archived": "https://web.archive.org/web/20250625081551/https://fa.behkooshan.ir/product/new-lumix-wow/"
+      },
+      {
+        "captured": "20260219192153",
+        "archived": "https://web.archive.org/web/20260219192153/https://fa.behkooshan.ir/product/lumix-wow/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250703152835",
+        "archived": "https://web.archive.org/web/20250703152835/https://behkooshan.ir/product/new-lumix-wow/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "لومیکس"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "لومیکس",
+        "category_path_fa": [
+          "اسلب",
+          "کوارتزایت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%84%D9%88%D9%85%DB%8C%DA%A9%D8%B3/",
+        "archived": "https://web.archive.org/web/20230131104718/https://www.behkooshan.ir/bk_product/%D9%84%D9%88%D9%85%DB%8C%DA%A9%D8%B3/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "986a7673c4a96c5038b4777acd18c3235805a84f",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    },
+    {
+      "jet_download": "d2aa6bfe6a9efd14aeb1cba4c341ae9f811773f2",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The site renamed \"New Lumix wow\" (post 5567, /product/new-lumix-wow/) to \"Lumix Wow\"; the Persian site re-published it in 2026 as /product/lumix-wow/ (post 5973). The photos are the same picture. Merged into one product.",
+    "Stone type differs between the sites: Persian site \"مرمریت\", English site \"Quartzite\". Each language keeps its own site's value.",
+    "Origin differs between the sites: Persian site \"هند\", English site \"Brazil\" (latest archived values). Each language keeps its own site's value.",
+    "The Persian site showed different origins over time: برزیل, هند; the most recent archived value is used.",
+    "The Persian site showed different stone types over time: مرمریت, کوارتزیت; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

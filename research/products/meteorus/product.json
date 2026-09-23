@@ -1,0 +1,194 @@
+{
+  "slug": "meteorus",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "متئوروس",
+    "en": "Meteorus"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/meteorus/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/meteorus/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+      "archived_url": "https://web.archive.org/web/20260223221050id_/https://fa.behkooshan.ir/wp-content/uploads/ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+      "alt": "Meteorus – main product image (slab surface)",
+      "alt_fa": "متئوروس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "ChatGPT Image Dec 23, 2025, 10_44_38 AM",
+      "width": 1492,
+      "height": 859,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 702767,
+      "sha1": "e005539dbca574333846d5251d3b8e3a4a85ca25",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/meteorus/",
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product card on https://fa.behkooshan.ir/product/dover-blue/",
+        "product card on https://fa.behkooshan.ir/product/malibu-red/",
+        "product page https://fa.behkooshan.ir/product/meteorus/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/02-67.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/67.jpg",
+      "archived_url": "https://web.archive.org/web/20260225022956id_/https://fa.behkooshan.ir/wp-content/uploads/67.jpg",
+      "alt": "Meteorus – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "متئوروس – تصویر بخش پروژه‌های سایت",
+      "site_alt": "67",
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 166232,
+      "sha1": "dc2c8819a542a790a5426c608c21595791047f31",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/meteorus/",
+        "project page https://fa.behkooshan.ir/projects/meteorus/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/meteorus/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Brazil\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Meteorus",
+    "en": "Meteorus"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6859"
+    ],
+    "en": [
+      "6713"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-12-23T10:54:20",
+      "modified": "2025-12-25T11:04:31"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/meteorus/",
+      "title": null
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/meteorus/",
+      "title": null
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260220095052",
+        "archived": "https://web.archive.org/web/20260220095052/https://fa.behkooshan.ir/product/meteorus/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/60-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/meteorus/",
+        "project page https://fa.behkooshan.ir/projects/meteorus/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/61-scaled.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/meteorus/",
+        "project page https://fa.behkooshan.ir/projects/meteorus/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/72.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/meteorus/",
+        "project page https://fa.behkooshan.ir/projects/meteorus/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    }
+  ],
+  "missing_textures": [
+    {
+      "jet_download": "ac9d2dfb849685fc07dc69495e2788015e5f60f4",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "3 image(s) referenced by the site were not archived and are missing; see missing_images.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
+    "The site's main and listing image for Meteorus is the file \"ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg\"; the file name suggests it was generated or edited with an AI image tool, so check it against a real slab photo before using it in the new catalogue."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "grand-antique",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "گرند آنتیک",
+    "en": "Grand Antique"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "فرانسه",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "France",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/grand-antique/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/grand-antique/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Grand-Antique.jpg",
+      "kind": "listing",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Grand-Antique.jpg",
+      "archived_url": "https://web.archive.org/web/20260225211017id_/https://es55asecvav.exactdn.com/wp-content/uploads/Grand-Antique.jpg?strip=all",
+      "alt": "Grand Antique – product listing image",
+      "alt_fa": "گرند آنتیک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 196329,
+      "sha1": "0f7621693f4fdd36eb3ab08e80b3c5738f6ccc9a",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Grand Antique"
+  },
+  "site_post_ids": {
+    "en": [
+      "6405"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"imported\" is inferred from the origin (France).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "new-patagonia",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نیو پاتاگونیا",
+    "en": "New Patagonia"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/new-patagonia/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/new-patagonia/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-New-Patagonia-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625082215id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-m_11zon.jpg",
+      "alt": "New Patagonia – main product image (slab surface)",
+      "alt_fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "New Patagonia-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 86384,
+      "sha1": "2841ab77774a12fd7d22bac0feca643a5c2515fd",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/new-patagonia/",
+        "product page https://fa.behkooshan.ir/product/new-patagonia/"
+      ]
+    },
+    {
+      "file": "images/02-New-Patagonia-1-1536x862.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1-1536x862.jpg",
+      "archived_url": "https://web.archive.org/web/20260220030028id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1-1536x862.jpg",
+      "alt": "New Patagonia – product listing image",
+      "alt_fa": "نیو پاتاگونیا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1536,
+      "height": 862,
+      "format": "JPEG",
+      "resolution": "resized-1536x862",
+      "bytes": 218623,
+      "sha1": "4d1a0662be9e667172af5c935d2340f4fe536501",
+      "seen_on": [
+        "product card on https://fa.behkooshan.ir/product/casper-line/"
+      ]
+    },
+    {
+      "file": "images/03-New-Patagonia-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623224826id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-p_11zon.jpg",
+      "alt": "New Patagonia – product listing image",
+      "alt_fa": "نیو پاتاگونیا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 101866,
+      "sha1": "4c8eb0539bc4aecb8045b14773207fc69d4b0805",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/new-patagonia/",
+        "og:image of https://fa.behkooshan.ir/product/new-patagonia/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/absolute-black/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/mercury-black/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "New Patagonia",
+    "en": "New Patagonia"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5466"
+    ],
+    "en": [
+      "5466"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:18:45",
+      "modified": "2024-04-20T11:48:16"
+    },
+    "en": {
+      "published": "2023-12-12T23:18:45",
+      "modified": "2025-05-07T13:24:28"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625074250",
+        "archived": "https://web.archive.org/web/20250625074250/https://fa.behkooshan.ir/product/new-patagonia/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619003241",
+        "archived": "https://web.archive.org/web/20250619003241/https://behkooshan.ir/product/new-patagonia/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "cfafd884980fcbfc1aef5e0951a92cbfd9d51f17",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The Persian site showed different origins over time: آنگولا, هند; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

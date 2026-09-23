@@ -1,0 +1,168 @@
+{
+  "slug": "venetian-granite",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "گرانیت ونیشن",
+    "en": "Venetian Granite"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/venetian-granite/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/venetian-granite/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-4615-007.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4615-007.jpg",
+      "archived_url": "https://web.archive.org/web/20260227074143id_/https://fa.behkooshan.ir/wp-content/uploads/4615-007.jpg",
+      "alt": "Venetian Granite – product listing image",
+      "alt_fa": "گرانیت ونیشن – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1738,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 760352,
+      "sha1": "4657a9196d3ed26329b2d87a46818ce077bb07ab",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://behkooshan.ir/product/nehbandan/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/02-65fa37d6-0f1c-44d4-86da-5ad830c4cff3.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/65fa37d6-0f1c-44d4-86da-5ad830c4cff3.jpg",
+      "archived_url": "https://web.archive.org/web/20260225193814id_/https://fa.behkooshan.ir/wp-content/uploads/65fa37d6-0f1c-44d4-86da-5ad830c4cff3.jpg",
+      "alt": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 196832,
+      "sha1": "f27956f082e16c954894a2641e7ad3636cfb6cd6",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/venetian-granite/",
+        "project page https://fa.behkooshan.ir/projects/venetian-granite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/venetian-granite/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Venetian Granite"
+  },
+  "site_post_ids": {
+    "en": [
+      "6667"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/venetian-granite/",
+      "title": null
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/venetian-granite/",
+      "title": null
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/0a2b00f0-b8a6-4db7-b9bf-f764b426947e.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/venetian-granite/",
+        "project page https://behkooshan.ir/_project/venetian-granite/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/3da1f1b3-ef0e-4837-bfab-c665e5cc5920.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/venetian-granite/",
+        "project page https://behkooshan.ir/_project/venetian-granite/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    },
+    {
+      "url": "https://fa.behkooshan.ir/wp-content/uploads/5d947982-19cb-4c9a-a2ab-e868d47da9d3.jpg",
+      "kind": "project",
+      "seen_in": [
+        "project page https://fa.behkooshan.ir/projects/venetian-granite/",
+        "project page https://behkooshan.ir/_project/venetian-granite/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    }
+  ],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "3 image(s) referenced by the site were not archived and are missing; see missing_images.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

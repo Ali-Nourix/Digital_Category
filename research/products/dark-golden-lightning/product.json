@@ -1,0 +1,173 @@
+{
+  "slug": "dark-golden-lightning",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "دارک گلدن لایتنینگ",
+    "en": "Dark Golden Lightning"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dark-golden-lightning/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dark-golden-lightning/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Dark-Golden-Lightning-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Dark-Golden-Lightning-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250625104253id_/https://fa.behkooshan.ir/wp-content/uploads/Dark-Golden-Lightning-m.jpg",
+      "alt": "Dark Golden Lightning – main product image (slab surface)",
+      "alt_fa": "دارک گلدن لایتنینگ – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Dark Golden Lightning-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 53314,
+      "sha1": "cad57f7ac2ad0669d79ceabd3fb8a7916b0b8026",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/dark-golden-lightning/"
+      ]
+    },
+    {
+      "file": "images/02-Dark-Golden-Lightning-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Dark-Golden-Lightning-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623214759id_/https://fa.behkooshan.ir/wp-content/uploads/Dark-Golden-Lightning-p.jpg",
+      "alt": "Dark Golden Lightning – product listing image",
+      "alt_fa": "دارک گلدن لایتنینگ – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 64722,
+      "sha1": "ba57202dae105198ef0711bc53ecc4f1edfe3d1b",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/dark-golden-lightning/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/andromeda/",
+        "product card on https://behkooshan.ir/product/explosion-blue/",
+        "product card on https://fa.behkooshan.ir/product/amazonite/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/emerald-green/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://fa.behkooshan.ir/product/patagonia/",
+        "product card on https://fa.behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/product/titanium-mc/",
+        "product card on https://fa.behkooshan.ir/product/turquoise/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Dark Golden Lightning",
+    "en": "Dark Golden Lightning"
+  },
+  "site_post_ids": {
+    "fa": [
+      "2313"
+    ],
+    "en": [
+      "2313"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-03-03T18:49:32",
+      "modified": "2024-04-20T10:39:46"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625101637",
+        "archived": "https://web.archive.org/web/20250625101637/https://fa.behkooshan.ir/product/dark-golden-lightning/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "گلدن لایتنینگ دارک",
+      "اسلب گرانیت دارک گلدن لایتنینگ"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "گلدن لایتنینگ دارک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D8%AF%D8%A7%D8%B1%DA%A9/",
+        "archived": "https://web.archive.org/web/20230131095810/https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D8%AF%D8%A7%D8%B1%DA%A9/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت دارک گلدن لایتنینگ",
+        "url": "http://www.behkooshan.ir/Page/64/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D8%B1%DA%A9-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+        "archived": "https://web.archive.org/web/20201204042231/http://www.behkooshan.ir/Page/64/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D8%B1%DA%A9-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "818f960bdb97effe4f37d146674a9dba0d49ed40",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

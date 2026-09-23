@@ -1,0 +1,104 @@
+{
+  "slug": "mozzarella",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "موتزارلا",
+    "en": "Mozzarella"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "متفرقه",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Miscellaneous",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/mozzarella/"
+    ],
+    "en": []
+  },
+  "images": [
+    {
+      "file": "images/01-Mozzarella-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Mozzarella-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260220102409id_/https://fa.behkooshan.ir/wp-content/uploads/Mozzarella-p.jpg",
+      "alt": "Mozzarella – product listing image",
+      "alt_fa": "موتزارلا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 134410,
+      "sha1": "8bfc5e28831d9a7da8f3a9ffca7a5784f6b7bb3b",
+      "seen_on": [
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/meteorus/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": true
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": [
+      "none of the English site's pages for this product were archived; English name taken from the Latin name on the Persian site",
+      "specs.Type (translated from the Persian site)",
+      "specs.Origin (translated from the Persian site)"
+    ]
+  },
+  "site_names": {
+    "fa": "Mozzarella",
+    "en": null
+  },
+  "site_post_ids": {
+    "fa": [
+      "6481"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

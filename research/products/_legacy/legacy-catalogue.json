@@ -1,0 +1,2384 @@
+{
+  "about": "Products listed on older versions of the Behkooshan website (before the current 2023-2026 WooCommerce site). None of these pages has product-specific text or technical data, and almost none of their photos were archived. Items that correspond to a product of the current catalogue point to it in current_product; the others appear to have been discontinued.",
+  "generations": [
+    {
+      "id": "2021-2023",
+      "site": "https://www.behkooshan.ir/ (WordPress, custom post type \"bk_product\", Persian only)",
+      "archived_between": "2021-09 .. 2023-01",
+      "product_pages": 122,
+      "template_note": "Every product page showed the same feature and application icons (a template, not product-specific).",
+      "template_features": {
+        "fa": [
+          "مقاوم در برابر خش",
+          "مقاوم در برابر باکتری",
+          "مقاوم در برابر ضربه",
+          "مقاوم در برابر لک",
+          "مقاوم در برابر اسید"
+        ],
+        "en": [
+          "Scratch-resistant",
+          "Bacteria-resistant",
+          "Impact-resistant",
+          "Stain-resistant",
+          "Acid-resistant"
+        ]
+      },
+      "template_applications": {
+        "fa": [
+          "پله ا",
+          "دیوار فضاهای داخلی",
+          "دیوار سرویس بهداشتی",
+          "آشپزخانه",
+          "کف فضاهای داخلی",
+          "کف سرویس بهداشتی",
+          "حمام"
+        ],
+        "en": [
+          "Stairs",
+          "Interior walls",
+          "Restroom walls",
+          "Kitchen",
+          "Interior floors",
+          "Restroom floors",
+          "Bathroom"
+        ]
+      },
+      "template_translation_note": "English versions of the template features/applications are my translation (the site was Persian only). \"پله ا\" is truncated on the site itself (probably \"پله‌ها\", stairs).",
+      "images_note": "The Wayback Machine did not archive the product photos of this version, except turquoise-standard-cataloge.jpg7_.jpg (saved in products/turquoise/)."
+    },
+    {
+      "id": "2019-2021",
+      "site": "http://www.behkooshan.ir/Page/<id>/<title> (custom CMS, Persian only)",
+      "archived_between": "2019-12 .. 2021-01",
+      "product_pages": 22,
+      "template_description_fa": "سنگ خارا یا گرانیت (به فرانسوی: granite) گونه‌ای سنگ آذرین درونی است. به همین دلیل، بافتِ آن دارای دانه‌های متوسط تا درشت است و دارای کوارتز (دُرّ کوهی) و فلدسپات، میکا، و پاره‌ای کانی‌های دیگر می‌باشد. بسته به کانی‌هایِ موجود در سنگ خارا و شیمی آن، این سنگ به رنگ‌های گوناگونی، از صورتی تا خاکستریِ پررنگ و حتی سیاه، یافت می‌شود. این سنگ از سنگین‌ترین سنگ‌ها با چگالی ۲٫۷۵ گرم بر سانتی‌متر مکعب به‌شمار می‌رود.\nسنگ خارا یکی از محکم‌ترین و سخت‌ترین سنگ‌ها می‌باشد. به همین خاطر به عنوان مصالح ساختمانی به صورت گسترده‌ای استفاده می‌شود. مقاومت این سنگ در مقابل ساییدگی باعث استفاده گسترده از آن در آزمایشگاه‌ها شده‌است. مقاومت و سختی بالای این سنگ این امکان را فراهم می‌کند که ورقه‌هایی به ضخامت تنها چند میلی‌متر از این سنگ ساخت.",
+      "template_description_en": "Granite (French: granite) is a type of intrusive igneous rock. For this reason its texture has medium to coarse grains and it contains quartz (rock crystal), feldspar, mica and some other minerals. Depending on the minerals in the granite and its chemistry, the stone occurs in various colours, from pink to dark grey and even black. It is regarded as one of the heaviest stones, with a density of 2.75 g/cm³.\n\nGranite is one of the strongest and hardest stones. For this reason it is widely used as a building material. Its resistance to abrasion has led to its wide use in laboratories. The high strength and hardness of this stone make it possible to produce sheets only a few millimetres thick from it.",
+      "template_note": "This general text about granite (the only technical value is the density of 2.75 g/cm³) was shown identically on every product page of this version; the English text is my translation."
+    },
+    {
+      "id": "2018",
+      "site": "http://behkooshan.ir/project/<slug>/ and http://en.behkooshan.ir/project/<slug>/ (WordPress portfolio)",
+      "archived_between": "2018-07 .. 2018-11",
+      "product_pages": 12,
+      "template_note": "Portfolio pages with placeholder text (\"متن\") and generic factory photos; only the names are informative."
+    }
+  ],
+  "products_2021_2023": [
+    {
+      "name_fa": "1704 آبرنگی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/1704-%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131111257/https://www.behkooshan.ir/bk_product/1704-%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+      "post_id": "1357",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1704-abrangi.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آبرنگی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131103922/https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%D8%B1%D9%86%DA%AF%DB%8C/",
+      "post_id": "1776",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/picasso-2-1.jpg-6-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "picasso",
+      "match_basis": "image file name on the old page matches this product"
+    },
+    {
+      "name_fa": "آبی فیروزه ای استاندارد",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131101008/https://www.behkooshan.ir/bk_product/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF/",
+      "post_id": "1689",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1269-firozei-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/1223-firoze-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "turquoise",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "آزنا سوپر",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%B2%D9%86%D8%A7-%D8%B3%D9%88%D9%BE%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131100636/https://www.behkooshan.ir/bk_product/%D8%A2%D8%B2%D9%86%D8%A7-%D8%B3%D9%88%D9%BE%D8%B1/",
+      "post_id": "2017",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Azna-Super.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آزنا میلکی وایت",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D8%B2%D9%86%D8%A7-%D9%85%DB%8C%D9%84%DA%A9%DB%8C-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131104941/https://www.behkooshan.ir/bk_product/%D8%A2%D8%B2%D9%86%D8%A7-%D9%85%DB%8C%D9%84%DA%A9%DB%8C-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "post_id": "2022",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/AZNA-MILKY-WHITE-EHGH.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آلاسکا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131103055/https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7/",
+      "post_id": "1065",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/ALASKA-TREASURE-P.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/alaska-white.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "alaska-white",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "آلاسکا تریاسره",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D8%AA%D8%B1%DB%8C%D8%A7%D8%B3%D8%B1%D9%87/",
+      "archived": "https://web.archive.org/web/20230131105427/https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D8%AA%D8%B1%DB%8C%D8%A7%D8%B3%D8%B1%D9%87/",
+      "post_id": "1871",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/alaska-treasure.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آمبر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%85%D8%A8%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131094236/https://www.behkooshan.ir/bk_product/%D8%A2%D9%85%D8%A8%D8%B1/",
+      "post_id": "1877",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1589-amber.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آندوزیت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D8%B2%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131105345/https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D8%B2%DB%8C%D8%AA/",
+      "post_id": "844",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/andozite.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/andozite1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "آندومدا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D9%85%D8%AF%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131092337/https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D9%85%D8%AF%D8%A7/",
+      "post_id": "1882",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1563-andormeda.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "andromeda",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ابسلوت بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131094644/https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9/",
+      "post_id": "1822",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1577-abslou.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "absolute-black",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ابسولوت ب ل الی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8-%D9%84-%D8%A7%D9%84%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131105214/https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8-%D9%84-%D8%A7%D9%84%DB%8C/",
+      "post_id": "1359",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/ABSOLUT-B-L-ELY.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "اسپایدر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131102418/https://www.behkooshan.ir/bk_product/%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1/",
+      "post_id": "1013",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/spider-4.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/spider-5.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/SPIDER-L.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/spider.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "اسپایدر +",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1-2/",
+      "archived": "https://web.archive.org/web/20230131112512/https://www.behkooshan.ir/bk_product/%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1-2/",
+      "post_id": "1807",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/spider-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "الاسکا وایت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131094111/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "post_id": "1866",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Alaska-White-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "alaska-white",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "الپینوس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D9%BE%DB%8C%D9%86%D9%88%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131094728/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D9%BE%DB%8C%D9%86%D9%88%D8%B3/",
+      "post_id": "1859",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Alpinus-3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "الپینیوس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D9%BE%DB%8C%D9%86%DB%8C%D9%88%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131093118/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D9%BE%DB%8C%D9%86%DB%8C%D9%88%D8%B3/",
+      "post_id": "1258",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/alpinus-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "الگانت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%DA%AF%D8%A7%D9%86%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131101906/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%DA%AF%D8%A7%D9%86%D8%AA/",
+      "post_id": "888",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/elegant-green.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/ELEGANT-GREEN-3.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/elegant-black.jpg-3.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/elegant-black.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/ELEGANT.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "elegant-green",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "امرالد",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%85%D8%B1%D8%A7%D9%84%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131105505/https://www.behkooshan.ir/bk_product/%D8%A7%D9%85%D8%B1%D8%A7%D9%84%D8%AF/",
+      "post_id": "1517",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/emerald-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "emerald-quartzite",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "امرالد کوارتزیت",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%85%D8%B1%D8%A7%D9%84%D8%AF-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131102059/https://www.behkooshan.ir/bk_product/%D8%A7%D9%85%D8%B1%D8%A7%D9%84%D8%AF-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+      "post_id": "1515",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1348-emerald-quartzite.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "emerald-quartzite",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "اوربیکو",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D8%B1%D8%A8%DB%8C%DA%A9%D9%88/",
+      "archived": "https://web.archive.org/web/20230131104459/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D8%B1%D8%A8%DB%8C%DA%A9%D9%88/",
+      "post_id": "1327",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/ORBICO.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "اولیون",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+      "archived": "https://web.archive.org/web/20230131092150/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+      "post_id": "623",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/evoliion-green.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/evolition-green-21.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "evolution-green",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "اولیون",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+      "archived": "https://web.archive.org/web/20230131111137/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+      "post_id": "898",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/evoliion-green-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/evolition-green-21-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "evolution-green",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "اینفینیتی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A7%DB%8C%D9%86%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131092840/https://www.behkooshan.ir/bk_product/%D8%A7%DB%8C%D9%86%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+      "post_id": "1827",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Infinity-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "infinity-gold",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بابل",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84/",
+      "archived": "https://web.archive.org/web/20230131100554/https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84/",
+      "post_id": "854",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/bubble-edit.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/bubble-gray-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/Bubble-Gray-9-1521-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/Bubble-Gray-10-1521-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "bubble-gray",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بابل گری",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84-%DA%AF%D8%B1%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131102139/https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84-%DA%AF%D8%B1%DB%8C/",
+      "post_id": "1758",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Bubble-Gray.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "bubble-gray",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "باسالت",
+      "category_path_fa": [
+        "اسلب",
+        "خاص و متفاوت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%B3%D8%A7%D9%84%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131100432/https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%B3%D8%A7%D9%84%D8%AA/",
+      "post_id": "1992",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/464-BASALT.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "برونزوانتی کیو",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%B1%D9%88%D9%86%D8%B2%D9%88%D8%A7%D9%86%D8%AA%DB%8C-%DA%A9%DB%8C%D9%88/",
+      "archived": "https://web.archive.org/web/20230131093859/https://www.behkooshan.ir/bk_product/%D8%A8%D8%B1%D9%88%D9%86%D8%B2%D9%88%D8%A7%D9%86%D8%AA%DB%8C-%DA%A9%DB%8C%D9%88/",
+      "post_id": "1275",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/bronzo-antiqu-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "bronze-antique",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بلاتریکس لیتر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131093647/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+      "post_id": "1915",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/BLATRIX-LEATHER.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "bellatrix",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بلویس نایت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D9%88%DB%8C%D8%B3-%D9%86%D8%A7%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131104611/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D9%88%DB%8C%D8%B3-%D9%86%D8%A7%DB%8C%D8%AA/",
+      "post_id": "1925",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1081-BLUES-NIGHT.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131111824/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9/",
+      "post_id": "1084",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/BLACK-ANTIQE-IMPORTED-LINE.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/black-cosmic-5.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/black-cosmic4.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/BLACK-HORSE-B.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/black-horseA.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/black-ice3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک آیس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%A2%DB%8C%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131101549/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%A2%DB%8C%D8%B3/",
+      "post_id": "1903",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Black-Ice.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک انتیک اینپورت لاین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%A7%D9%86%D8%AA%DB%8C%DA%A9-%D8%A7%DB%8C%D9%86%D9%BE%D9%88%D8%B1%D8%AA-%D9%84%D8%A7%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131101829/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%A7%D9%86%D8%AA%DB%8C%DA%A9-%D8%A7%DB%8C%D9%86%D9%BE%D9%88%D8%B1%D8%AA-%D9%84%D8%A7%DB%8C%D9%86/",
+      "post_id": "1887",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/BLACK-ANTIQE-IMPORTED-LINE-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک تایروس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%AA%D8%A7%DB%8C%D8%B1%D9%88%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131105303/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%AA%D8%A7%DB%8C%D8%B1%D9%88%D8%B3/",
+      "post_id": "1909",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Black-Taurus-6-1587.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک ریور",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B1%DB%8C%D9%88%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131092051/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B1%DB%8C%D9%88%D8%B1/",
+      "post_id": "1713",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1447-river.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بلک زبرا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131111903/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7/",
+      "post_id": "1812",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1484-zebraaaa1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "black-zebra",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بلک هورس اکسترا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D9%87%D9%88%D8%B1%D8%B3-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131094409/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D9%87%D9%88%D8%B1%D8%B3-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+      "post_id": "1898",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Black-Horse-8.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "black-horse",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بلک کسمیک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%DA%A9%D8%B3%D9%85%DB%8C%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131103604/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%DA%A9%D8%B3%D9%85%DB%8C%DA%A9/",
+      "post_id": "1893",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Black-Cosmic-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بولو ایزاینت نایت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%88%D9%84%D9%88-%D8%A7%DB%8C%D8%B2%D8%A7%DB%8C%D9%86%D8%AA-%D9%86%D8%A7%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131092800/https://www.behkooshan.ir/bk_product/%D8%A8%D9%88%D9%84%D9%88-%D8%A7%DB%8C%D8%B2%D8%A7%DB%8C%D9%86%D8%AA-%D9%86%D8%A7%DB%8C%D8%AA/",
+      "post_id": "1271",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/blue-is-inthe-night-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بیانکو ماربل",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D8%A7%D9%86%DA%A9%D9%88-%D9%85%D8%A7%D8%B1%D8%A8%D9%84/",
+      "archived": "https://web.archive.org/web/20230131105129/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D8%A7%D9%86%DA%A9%D9%88-%D9%85%D8%A7%D8%B1%D8%A8%D9%84/",
+      "post_id": "2032",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Bianco-Marble-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/Bianco-Marble-3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بیانکو ماربل اکسترا",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D8%A7%D9%86%DA%A9%D9%88-%D9%85%D8%A7%D8%B1%D8%A8%D9%84-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131095602/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D8%A7%D9%86%DA%A9%D9%88-%D9%85%D8%A7%D8%B1%D8%A8%D9%84-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+      "post_id": "2027",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Bianco-Marble-Extra-3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "بیلاترکس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131094813/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+      "post_id": "1075",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Belatrex1-POLISH.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/belatrix-LEATHER.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "bellatrix",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بیلویدیری",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D9%88%DB%8C%D8%AF%DB%8C%D8%B1%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131100100/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D9%88%DB%8C%D8%AF%DB%8C%D8%B1%DB%8C/",
+      "post_id": "1265",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/belveder3-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/belveder3-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "belvedere",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "بیوتی بلک ب",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%88%D8%AA%DB%8C-%D8%A8%D9%84%DA%A9-%D8%A8/",
+      "archived": "https://web.archive.org/web/20230131091952/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%88%D8%AA%DB%8C-%D8%A8%D9%84%DA%A9-%D8%A8/",
+      "post_id": "1361",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/beauty-black-B.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "تایوروس1587",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D8%A7%DB%8C%D9%88%D8%B1%D9%88%D8%B31587/",
+      "archived": "https://web.archive.org/web/20230131103804/https://www.behkooshan.ir/bk_product/%D8%AA%D8%A7%DB%8C%D9%88%D8%B1%D9%88%D8%B31587/",
+      "post_id": "1333",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/taurus-1587.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "تروپیکال استورم",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85/",
+      "archived": "https://web.archive.org/web/20230131095937/https://www.behkooshan.ir/bk_product/%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85/",
+      "post_id": "1335",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/tropical-storme.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "tropical-storm",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "تروپیکال استورم",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85-2/",
+      "archived": "https://web.archive.org/web/20230131093212/https://www.behkooshan.ir/bk_product/%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85-2/",
+      "post_id": "1982",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Tropical-Storm.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "tropical-storm",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "تورقیسه",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%D8%B1%D9%82%DB%8C%D8%B3%D9%87/",
+      "archived": "https://web.archive.org/web/20230131100840/https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%D8%B1%D9%82%DB%8C%D8%B3%D9%87/",
+      "post_id": "1026",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-premium-cataloge.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-premium-cataloge.jpg-3.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-premium-cataloge.jpg-3.jpg1_.jpge_.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-standard-cataloge.jpg-5.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-standard-cataloge.jpg2_.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/turquoise-standard-cataloge.jpg7_.jpg"
+      ],
+      "images_archived": true,
+      "current_product": "turquoise",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "تویستر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%DB%8C%D8%B3%D8%AA%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131092529/https://www.behkooshan.ir/bk_product/%D8%AA%D9%88%DB%8C%D8%B3%D8%AA%D8%B1/",
+      "post_id": "1148",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/twister-black-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/twister-black1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "تیتانیوم",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85/",
+      "archived": "https://web.archive.org/web/20230131100923/https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85/",
+      "post_id": "1137",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/titanium-mc-5.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/TITANIUM-SN-A.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/titanium-sn-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "titanium-mc",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "تیتانیوم اس ان",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D8%B3-%D8%A7%D9%86/",
+      "archived": "https://web.archive.org/web/20230131095024/https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D8%B3-%D8%A7%D9%86/",
+      "post_id": "1977",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/TITANIUM-SN.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "تیتانیوم ام سی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D9%85-%D8%B3%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131104116/https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D9%85-%D8%B3%DB%8C/",
+      "post_id": "1971",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Titanium-mc-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "titanium-mc",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "جاسمین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131102459/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86/",
+      "post_id": "1791",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/JASMIN-GREEN-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "jasmin",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "جاسمین گرین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131092926/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86/",
+      "post_id": "1365",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/JASMIN-GREEN.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "jasmin",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "جاسمین گرین",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86-2/",
+      "archived": "https://web.archive.org/web/20230131095645/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86-2/",
+      "post_id": "1520",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/JASMIN-GREEN1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "jasmin",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "جاگوار",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%DA%AF%D9%88%D8%A7%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131105727/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%DA%AF%D9%88%D8%A7%D8%B1/",
+      "post_id": "1936",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Jaguar-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "جاگورا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%DA%AF%D9%88%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131093942/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%DA%AF%D9%88%D8%B1%D8%A7/",
+      "post_id": "1101",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/JAGUAR-7.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/jaguar-307.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "جت بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131093347/https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9/",
+      "post_id": "934",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/jet-black-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/jet-black-L.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "jet-black",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "جت بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9-2/",
+      "archived": "https://web.archive.org/web/20230131100143/https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9-2/",
+      "post_id": "1817",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/jet-black-12.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "jet-black",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "دانه اناری",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131095518/https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+      "post_id": "1698",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/evolition-green-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "evolution-green",
+      "match_basis": "image file name on the old page matches this product"
+    },
+    {
+      "name_fa": "دانه طلایی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131094322/https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C/",
+      "post_id": "1704",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/elegant-green-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "elegant-green",
+      "match_basis": "image file name on the old page matches this product"
+    },
+    {
+      "name_fa": "دیلیکاتوس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%AF%DB%8C%D9%84%DB%8C%DA%A9%D8%A7%D8%AA%D9%88%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131101349/https://www.behkooshan.ir/bk_product/%D8%AF%DB%8C%D9%84%DB%8C%DA%A9%D8%A7%D8%AA%D9%88%D8%B3/",
+      "post_id": "1930",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/DELICATUS.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "delicate",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "رد کولینز",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B1%D8%AF-%DA%A9%D9%88%D9%84%DB%8C%D9%86%D8%B2/",
+      "archived": "https://web.archive.org/web/20230131094501/https://www.behkooshan.ir/bk_product/%D8%B1%D8%AF-%DA%A9%D9%88%D9%84%DB%8C%D9%86%D8%B2/",
+      "post_id": "1524",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/RED-COLINS.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ریجین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D8%AC%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131103134/https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D8%AC%DB%8C%D9%86/",
+      "post_id": "1369",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/RIGEN.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "natanz-white-granite-rijen",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ریور",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D9%88%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131092710/https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D9%88%D8%B1/",
+      "post_id": "982",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/river-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/river-black-iran.jpgv_.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/RIVER-BLACK3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "زاهدان",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B2%D8%A7%D9%87%D8%AF%D8%A7%D9%86/",
+      "archived": "https://web.archive.org/web/20230131104534/https://www.behkooshan.ir/bk_product/%D8%B2%D8%A7%D9%87%D8%AF%D8%A7%D9%86/",
+      "post_id": "1797",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/white-beauty.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "زبرا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B2%D8%A8%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131110930/https://www.behkooshan.ir/bk_product/%D8%B2%D8%A8%D8%B1%D8%A7/",
+      "post_id": "1052",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1495-zebra-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/zebra-1484.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/ZEBRA1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "black-zebra",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "سانتاسیسیلا گرنیت1",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%A7%D9%86%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%DB%8C%D9%84%D8%A7-%DA%AF%D8%B1%D9%86%DB%8C%D8%AA1/",
+      "archived": "https://web.archive.org/web/20230131094154/https://www.behkooshan.ir/bk_product/%D8%B3%D8%A7%D9%86%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%DB%8C%D9%84%D8%A7-%DA%AF%D8%B1%D9%86%DB%8C%D8%AA1/",
+      "post_id": "1331",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/santa-cicilia-granite1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "سر پانتین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1-%D9%BE%D8%A7%D9%86%D8%AA%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131091521/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1-%D9%BE%D8%A7%D9%86%D8%AA%DB%8C%D9%86/",
+      "post_id": "1752",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Serpentine-1-1512.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "serpentine",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "سرمه",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%85%D9%87/",
+      "archived": "https://web.archive.org/web/20230131093303/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%85%D9%87/",
+      "post_id": "1002",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/SORME-642.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/SORME-GOLD-873.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/SORME-GOLD-LEATHER.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "سرمه گلد",
+      "category_path_fa": [
+        "اسلب",
+        "خاص و متفاوت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%85%D9%87-%DA%AF%D9%84%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131102020/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%85%D9%87-%DA%AF%D9%84%D8%AF/",
+      "post_id": "1786",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/SORME-GOLD-LEATHER-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "سرپنطینه",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%BE%D9%86%D8%B7%DB%8C%D9%86%D9%87/",
+      "archived": "https://web.archive.org/web/20230131100512/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%BE%D9%86%D8%B7%DB%8C%D9%86%D9%87/",
+      "post_id": "993",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/SERPANTINE-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/SERPANTINE-P.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "serpentine",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "فیروزه ای سوپر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%B3%D9%88%D9%BE%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131111940/https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%B3%D9%88%D9%BE%D8%B1/",
+      "post_id": "1839",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/super-turquoise-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "turquoise",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "فیوژن بروان 3",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D9%88%DA%98%D9%86-%D8%A8%D8%B1%D9%88%D8%A7%D9%86-3/",
+      "archived": "https://web.archive.org/web/20230131094556/https://www.behkooshan.ir/bk_product/%D9%81%DB%8C%D9%88%DA%98%D9%86-%D8%A8%D8%B1%D9%88%D8%A7%D9%86-3/",
+      "post_id": "1363",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Fusion-Brown-3.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "لابرادوریته لموریان",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+      "archived": "https://web.archive.org/web/20230131110347/https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+      "post_id": "1339",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/LABRADORITE-LEMURIAN.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "lemurian-labradorite",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "لومیکس",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%84%D9%88%D9%85%DB%8C%DA%A9%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131104718/https://www.behkooshan.ir/bk_product/%D9%84%D9%88%D9%85%DB%8C%DA%A9%D8%B3/",
+      "post_id": "1513",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/03_Lumix_HD_01.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "lumix-wow",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ماتریکس",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3/",
+      "archived": "https://web.archive.org/web/20230131095107/https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3/",
+      "post_id": "1946",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Matrix-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ماتریکس 2",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-2/",
+      "archived": "https://web.archive.org/web/20230131105050/https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-2/",
+      "post_id": "1323",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/MATRIX2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "مالیبورد",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131094941/https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+      "post_id": "1719",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Malibu-Red-16-1637-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "malibu-red",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ملبو",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D9%84%D8%A8%D9%88/",
+      "archived": "https://web.archive.org/web/20230131100716/https://www.behkooshan.ir/bk_product/%D9%85%D9%84%D8%A8%D9%88/",
+      "post_id": "943",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1541-malibo.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/1637-malibu-red.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/malibo-1541.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/MALIBORED-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/malibu-red-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "malibu-red",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "مونتانا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131111217/https://www.behkooshan.ir/bk_product/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7/",
+      "post_id": "1325",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/montana-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "مونتانا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-2/",
+      "archived": "https://web.archive.org/web/20230131095854/https://www.behkooshan.ir/bk_product/%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7-2/",
+      "post_id": "1951",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/montana-2-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "مگما",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131111618/https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7/",
+      "post_id": "1110",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/magma-gold-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/magma-GOLD.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "magma-gold",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "مگما گلد",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7-%DA%AF%D9%84%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131094855/https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7-%DA%AF%D9%84%D8%AF/",
+      "post_id": "1941",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/magma-gold-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "magma-gold",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "مید نایت گری",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131102816/https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C/",
+      "post_id": "1781",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/0007-MIDNIGHT.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "midnight-gray",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "مید نایت گری 1",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C-1/",
+      "archived": "https://web.archive.org/web/20230131110848/https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C-1/",
+      "post_id": "1367",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/mid-night-gray1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "midnight-gray",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "نایس کوارتزیت",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%86%D8%A7%DB%8C%D8%B3-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131092239/https://www.behkooshan.ir/bk_product/%D9%86%D8%A7%DB%8C%D8%B3-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+      "post_id": "1522",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/nica-quartzite.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "naica-quartzite",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "نطنز",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%86%D8%B7%D9%86%D8%B2/",
+      "archived": "https://web.archive.org/web/20230131092646/https://www.behkooshan.ir/bk_product/%D9%86%D8%B7%D9%86%D8%B2/",
+      "post_id": "1802",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Rigen-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "natanz-white-granite-rijen",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "نیوگلدن",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%86%DB%8C%D9%88%DA%AF%D9%84%D8%AF%D9%86/",
+      "archived": "https://web.archive.org/web/20230131102539/https://www.behkooshan.ir/bk_product/%D9%86%DB%8C%D9%88%DA%AF%D9%84%D8%AF%D9%86/",
+      "post_id": "1119",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/new-golden-silver.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/new-golden-silver.jpg1_.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "new-golden-silver",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "هیمالیا رد",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%87%DB%8C%D9%85%D8%A7%D9%84%DB%8C%D8%A7-%D8%B1%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131095232/https://www.behkooshan.ir/bk_product/%D9%87%DB%8C%D9%85%D8%A7%D9%84%DB%8C%D8%A7-%D8%B1%D8%AF/",
+      "post_id": "1279",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/HIMALIA-RED.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "وان گوق اینپورتت لاین",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%A7%D9%86-%DA%AF%D9%88%D9%82-%D8%A7%DB%8C%D9%86%D9%BE%D9%88%D8%B1%D8%AA%D8%AA-%D9%84%D8%A7%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131102218/https://www.behkooshan.ir/bk_product/%D9%88%D8%A7%D9%86-%DA%AF%D9%88%D9%82-%D8%A7%DB%8C%D9%86%D9%BE%D9%88%D8%B1%D8%AA%D8%AA-%D9%84%D8%A7%DB%8C%D9%86/",
+      "post_id": "1526",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/VAN-GOGH-IMPORTED-LINE.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ورد ایمپریال",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D8%A7%DB%8C%D9%85%D9%BE%D8%B1%DB%8C%D8%A7%D9%84/",
+      "archived": "https://web.archive.org/web/20230131103212/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D8%A7%DB%8C%D9%85%D9%BE%D8%B1%DB%8C%D8%A7%D9%84/",
+      "post_id": "1833",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/verde-imperial-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "verde-imperial",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ورد بورگونیا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D8%A8%D9%88%D8%B1%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131091841/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D8%A8%D9%88%D8%B1%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+      "post_id": "1726",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Verde-Borgogna-1326.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ورد فنتستیک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D9%81%D9%86%D8%AA%D8%B3%D8%AA%DB%8C%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131093815/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%D9%81%D9%86%D8%AA%D8%B3%D8%AA%DB%8C%DA%A9/",
+      "post_id": "1747",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Verde-Fantastic-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "verde-fantastic",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ورد کارزای",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%DA%A9%D8%A7%D8%B1%D8%B2%D8%A7%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131102658/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF-%DA%A9%D8%A7%D8%B1%D8%B2%D8%A7%DB%8C/",
+      "post_id": "1844",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/verde-karzai.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "verde-karzai",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ورده",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF%D9%87/",
+      "archived": "https://web.archive.org/web/20230131093429/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D8%AF%D9%87/",
+      "post_id": "1043",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/verde-borgonia.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/verde-fantastic-iran.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "verde-fantastic",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ورنیز تروپیکال",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D9%86%DB%8C%D8%B2-%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84/",
+      "archived": "https://web.archive.org/web/20230131111538/https://www.behkooshan.ir/bk_product/%D9%88%D8%B1%D9%86%DB%8C%D8%B2-%D8%AA%D8%B1%D9%88%D9%BE%DB%8C%DA%A9%D8%A7%D9%84/",
+      "post_id": "1337",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/verniz-tropical-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ولگا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131111417/https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7/",
+      "post_id": "1166",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/VOLGA-BLUE-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/volga-blue.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "volga-blue",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ولگا بلو",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7-%D8%A8%D9%84%D9%88/",
+      "archived": "https://web.archive.org/web/20230131102936/https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7-%D8%A8%D9%84%D9%88/",
+      "post_id": "1987",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/volga-blue-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "volga-blue",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "وود استون",
+      "category_path_fa": [
+        "اسلب",
+        "خاص و متفاوت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA%D9%88%D9%86/",
+      "archived": "https://web.archive.org/web/20230131104827/https://www.behkooshan.ir/bk_product/%D9%88%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA%D9%88%D9%86/",
+      "post_id": "1997",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/wood-stone.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ویا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131103014/https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D8%A7/",
+      "post_id": "1157",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/via-latte-3.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/via-latte-4.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "via-lattea",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "ویلد فورست 2",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D9%84%D8%AF-%D9%81%D9%88%D8%B1%D8%B3%D8%AA-2/",
+      "archived": "https://web.archive.org/web/20230131111742/https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D9%84%D8%AF-%D9%81%D9%88%D8%B1%D8%B3%D8%AA-2/",
+      "post_id": "1371",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/wild-forest2.jpg1_.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "پاتاگونیا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D8%AA%D8%A7%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131103641/https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D8%AA%D8%A7%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+      "post_id": "1249",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/patagonia.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/PATAGONIA1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "patagonia-a",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پاندا وایت (چین)",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D9%86%D8%AF%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA-%DA%86%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131111336/https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D9%86%D8%AF%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA-%DA%86%DB%8C%D9%86/",
+      "post_id": "2007",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Panda-pre-polish-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "پایتون",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/",
+      "archived": "https://web.archive.org/web/20230131102856/https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/",
+      "post_id": "969",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1158-python.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/pyhtone-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/python.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/PYTHONE-SIN.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "python",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پرشیا وایت",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%B1%D8%B4%DB%8C%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "archived": "https://web.archive.org/web/20230131104152/https://www.behkooshan.ir/bk_product/%D9%BE%D8%B1%D8%B4%DB%8C%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+      "post_id": "1329",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/persia-white.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "پلاتینیوم",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85/",
+      "archived": "https://web.archive.org/web/20230131103844/https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85/",
+      "post_id": "1128",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/platinium-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/platnium.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "platinum",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پلاتینیوم",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-2/",
+      "archived": "https://web.archive.org/web/20230131111456/https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-2/",
+      "post_id": "1961",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/platinium-1-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "platinum",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پلاتینیوم گلد",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-%DA%AF%D9%84%D8%AF/",
+      "archived": "https://web.archive.org/web/20230131104753/https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-%DA%AF%D9%84%D8%AF/",
+      "post_id": "1966",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/platinium-Gold.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "پیتون بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131095727/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9/",
+      "post_id": "1731",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1572-pythone-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "python",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پیتون بلک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9-2/",
+      "archived": "https://web.archive.org/web/20230131095313/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9-2/",
+      "post_id": "1956",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/PYTHONE-BRESIL-.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "python",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "پیکاسو",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88/",
+      "archived": "https://web.archive.org/web/20230131102257/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88/",
+      "post_id": "958",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/picasoo-polish.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/picasso-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/picasso-2.jpg-6.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "picasso",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "کاسپر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%A9%D8%A7%D8%B3%D9%BE%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131094027/https://www.behkooshan.ir/bk_product/%DA%A9%D8%A7%D8%B3%D9%BE%D8%B1/",
+      "post_id": "868",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/1507-casper-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/casper-.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/casper-1-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "casper",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "کسپر",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%A9%D8%B3%D9%BE%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131101509/https://www.behkooshan.ir/bk_product/%DA%A9%D8%B3%D9%BE%D8%B1/",
+      "post_id": "1765",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/casper.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "casper",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "کسپر لاین",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%A9%D8%B3%D9%BE%D8%B1-%D9%84%D8%A7%DB%8C%D9%86/",
+      "archived": "https://web.archive.org/web/20230131091728/https://www.behkooshan.ir/bk_product/%DA%A9%D8%B3%D9%BE%D8%B1-%D9%84%D8%A7%DB%8C%D9%86/",
+      "post_id": "1770",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Casper-Line.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "casper-line",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "کنگولومرا",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%A9%D9%86%DA%AF%D9%88%D9%84%D9%88%D9%85%D8%B1%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131104000/https://www.behkooshan.ir/bk_product/%DA%A9%D9%86%DA%AF%D9%88%D9%84%D9%88%D9%85%D8%B1%D8%A7/",
+      "post_id": "879",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/congolomera-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/congolomera-1.jpge_.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "کوارتزایت ها",
+      "category_path_fa": [
+        "اسلب",
+        "کوارتزایت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%D8%A7%DB%8C%D8%AA-%D9%87%D8%A7/",
+      "archived": "https://web.archive.org/web/20230131095150/https://www.behkooshan.ir/bk_product/%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%D8%A7%DB%8C%D8%AA-%D9%87%D8%A7/",
+      "post_id": "1230",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/03_Lumix_HD_01.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/1348-emerald-quartzite.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/emerald-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/JASMIN-GREEN1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/nica-quartzite.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/RED-COLINS.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/VAN-GOGH-IMPORTED-LINE.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "گلدن",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86/",
+      "archived": "https://web.archive.org/web/20230131100757/https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86/",
+      "post_id": "910",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Golden-Lightening-1.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/Golden-Lightening-Dark-2.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/golden-lightening.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/golden-lightining-dark3.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/golden-lightning2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "گلدن لایتنینگ",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/",
+      "archived": "https://web.archive.org/web/20230131091603/https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/",
+      "post_id": "1736",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/golden-lightening-2.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "گلدن لایتنینگ دارک",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها",
+        "داخلی",
+        "ایران گرانیت"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D8%AF%D8%A7%D8%B1%DA%A9/",
+      "archived": "https://web.archive.org/web/20230131095810/https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D8%AF%D8%A7%D8%B1%DA%A9/",
+      "post_id": "1742",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Golden-Lightening-Dark-1.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "dark-golden-lightning",
+      "match_basis": "same trade name"
+    },
+    {
+      "name_fa": "گلدن لایتنینگ لیتر",
+      "category_path_fa": [
+        "اسلب",
+        "ماربل ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D9%84%DB%8C%D8%AA%D8%B1/",
+      "archived": "https://web.archive.org/web/20230131093023/https://www.behkooshan.ir/bk_product/%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D9%84%DB%8C%D8%AA%D8%B1/",
+      "post_id": "2012",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/Golden-Lightening-Leather.jpg"
+      ],
+      "images_archived": false,
+      "current_product": null,
+      "match_basis": null
+    },
+    {
+      "name_fa": "ینیتفینیتی",
+      "category_path_fa": [
+        "اسلب",
+        "گرانیت ها"
+      ],
+      "url": "https://www.behkooshan.ir/bk_product/%DB%8C%D9%86%DB%8C%D8%AA%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+      "archived": "https://web.archive.org/web/20230131093731/https://www.behkooshan.ir/bk_product/%DB%8C%D9%86%DB%8C%D8%AA%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+      "post_id": "925",
+      "image_files_referenced": [
+        "https://www.behkooshan.ir/wp-content/uploads/infinity.jpg",
+        "https://www.behkooshan.ir/wp-content/uploads/initfinity.jpg"
+      ],
+      "images_archived": false,
+      "current_product": "infinity-gold",
+      "match_basis": "same trade name"
+    }
+  ],
+  "products_2019_2021": [
+    {
+      "name_fa": "اسلب گرانیت بلک اسپایدر",
+      "page_id": 47,
+      "url": "http://www.behkooshan.ir/Page/47/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1",
+      "archived": "https://web.archive.org/web/20200920042249/http://www.behkooshan.ir/Page/47/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A7%D8%B3%D9%BE%D8%A7%DB%8C%D8%AF%D8%B1",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت جگوار",
+      "page_id": 48,
+      "url": "http://www.behkooshan.ir/Page/48/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AC%DA%AF%D9%88%D8%A7%D8%B1",
+      "archived": "https://web.archive.org/web/20201204054752/http://www.behkooshan.ir/Page/48/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AC%DA%AF%D9%88%D8%A7%D8%B1",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت ماگما بلک",
+      "page_id": 49,
+      "url": "http://www.behkooshan.ir/Page/49/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%DA%AF%D9%85%D8%A7-%D8%A8%D9%84%DA%A9",
+      "archived": "https://web.archive.org/web/20201204045808/http://www.behkooshan.ir/Page/49/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%DA%AF%D9%85%D8%A7-%D8%A8%D9%84%DA%A9",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت ورده فنتستیک",
+      "page_id": 50,
+      "url": "http://www.behkooshan.ir/Page/50/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%88%D8%B1%D8%AF%D9%87-%D9%81%D9%86%D8%AA%D8%B3%D8%AA%DB%8C%DA%A9",
+      "archived": "https://web.archive.org/web/20201204042832/http://www.behkooshan.ir/Page/50/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%88%D8%B1%D8%AF%D9%87-%D9%81%D9%86%D8%AA%D8%B3%D8%AA%DB%8C%DA%A9",
+      "current_product": "verde-fantastic"
+    },
+    {
+      "name_fa": "اسلب گرانیت پیکاسو",
+      "page_id": 53,
+      "url": "http://www.behkooshan.ir/Page/53/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88",
+      "archived": "https://web.archive.org/web/20201204053807/http://www.behkooshan.ir/Page/53/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%BE%DB%8C%DA%A9%D8%A7%D8%B3%D9%88",
+      "current_product": "picasso"
+    },
+    {
+      "name_fa": "اسلب گرانیت دارک گلدن لایتنینگ",
+      "page_id": 64,
+      "url": "http://www.behkooshan.ir/Page/64/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D8%B1%DA%A9-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+      "archived": "https://web.archive.org/web/20201204042231/http://www.behkooshan.ir/Page/64/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D8%B1%DA%A9-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+      "current_product": "dark-golden-lightning"
+    },
+    {
+      "name_fa": "اسلب گرانیت مالیبو رد",
+      "page_id": 65,
+      "url": "http://www.behkooshan.ir/Page/65/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88-%D8%B1%D8%AF",
+      "archived": "https://web.archive.org/web/20201204050928/http://www.behkooshan.ir/Page/65/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88-%D8%B1%D8%AF",
+      "current_product": "malibu-red"
+    },
+    {
+      "name_fa": "اسلب گرانیت گلدن لایتنینگ",
+      "page_id": 79,
+      "url": "http://www.behkooshan.ir/Page/79/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+      "archived": "https://web.archive.org/web/20201204050655/http://www.behkooshan.ir/Page/79/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%DA%AF%D9%84%D8%AF%D9%86-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت آبی فیروزه ای استاندارد",
+      "page_id": 80,
+      "url": "http://www.behkooshan.ir/Page/80/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+      "archived": "https://web.archive.org/web/20201204044444/http://www.behkooshan.ir/Page/80/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+      "current_product": "turquoise"
+    },
+    {
+      "name_fa": "اسلب گرانیت بلک زبرا B (رگه پهن)",
+      "page_id": 82,
+      "url": "http://www.behkooshan.ir/Page/82/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-B-(%D8%B1%DA%AF%D9%87-%D9%BE%D9%87%D9%86)",
+      "archived": "https://web.archive.org/web/20201204041809/http://www.behkooshan.ir/Page/82/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-B-(%D8%B1%DA%AF%D9%87-%D9%BE%D9%87%D9%86)",
+      "current_product": "black-zebra"
+    },
+    {
+      "name_fa": "اسلب گرانیت بلک زبرا A (رگه نازک)",
+      "page_id": 83,
+      "url": "http://www.behkooshan.ir/Page/83/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-A-(%D8%B1%DA%AF%D9%87-%D9%86%D8%A7%D8%B2%DA%A9)",
+      "archived": "https://web.archive.org/web/20201204045202/http://www.behkooshan.ir/Page/83/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B2%D8%A8%D8%B1%D8%A7-A-(%D8%B1%DA%AF%D9%87-%D9%86%D8%A7%D8%B2%DA%A9)",
+      "current_product": "black-zebra"
+    },
+    {
+      "name_fa": "اسلب گرانیت سرمه",
+      "page_id": 84,
+      "url": "http://www.behkooshan.ir/Page/84/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B3%D8%B1%D9%85%D9%87",
+      "archived": "https://web.archive.org/web/20201204045700/http://www.behkooshan.ir/Page/84/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B3%D8%B1%D9%85%D9%87",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت آبی فیروزه ای پریمیوم",
+      "page_id": 85,
+      "url": "http://www.behkooshan.ir/Page/85/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D9%BE%D8%B1%DB%8C%D9%85%DB%8C%D9%88%D9%85",
+      "archived": "https://web.archive.org/web/20201204053832/http://www.behkooshan.ir/Page/85/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87-%D8%A7%DB%8C-%D9%BE%D8%B1%DB%8C%D9%85%DB%8C%D9%88%D9%85",
+      "current_product": "turquoise"
+    },
+    {
+      "name_fa": "اسلب گرانیت ریجن",
+      "page_id": 98,
+      "url": "http://www.behkooshan.ir/Page/98/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B1%DB%8C%D8%AC%D9%86",
+      "archived": "https://web.archive.org/web/20200920031622/http://www.behkooshan.ir/Page/98/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B1%DB%8C%D8%AC%D9%86",
+      "current_product": "natanz-white-granite-rijen"
+    },
+    {
+      "name_fa": "اسلب گرانیت دانه طلایی",
+      "page_id": 99,
+      "url": "http://www.behkooshan.ir/Page/99/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C",
+      "archived": "https://web.archive.org/web/20200920040713/http://www.behkooshan.ir/Page/99/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C",
+      "current_product": "elegant-green"
+    },
+    {
+      "name_fa": "اسلب گرانیت بلک استورم",
+      "page_id": 100,
+      "url": "http://www.behkooshan.ir/Page/100/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85",
+      "archived": "https://web.archive.org/web/20200920032527/http://www.behkooshan.ir/Page/100/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D9%85",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت سفید زاهدان",
+      "page_id": 101,
+      "url": "http://www.behkooshan.ir/Page/101/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B3%D9%81%DB%8C%D8%AF-%D8%B2%D8%A7%D9%87%D8%AF%D8%A7%D9%86",
+      "archived": "https://web.archive.org/web/20201204054646/http://www.behkooshan.ir/Page/101/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B3%D9%81%DB%8C%D8%AF-%D8%B2%D8%A7%D9%87%D8%AF%D8%A7%D9%86",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت ابسولوت بلک",
+      "page_id": 102,
+      "url": "http://www.behkooshan.ir/Page/102/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9",
+      "archived": "https://web.archive.org/web/20200920051945/http://www.behkooshan.ir/Page/102/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9",
+      "current_product": "absolute-black"
+    },
+    {
+      "name_fa": "اسلب گرانیت دانه اناری",
+      "page_id": 103,
+      "url": "http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+      "archived": "https://web.archive.org/web/20201204045303/http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+      "current_product": "evolution-green"
+    },
+    {
+      "name_fa": "اسلب گرانیت بلک بیوتی",
+      "page_id": 104,
+      "url": "http://www.behkooshan.ir/Page/104/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A8%DB%8C%D9%88%D8%AA%DB%8C",
+      "archived": "https://web.archive.org/web/20200920040832/http://www.behkooshan.ir/Page/104/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%A8%DB%8C%D9%88%D8%AA%DB%8C",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت بلک ریور",
+      "page_id": 105,
+      "url": "http://www.behkooshan.ir/Page/105/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B1%DB%8C%D9%88%D8%B1",
+      "archived": "https://web.archive.org/web/20200920041459/http://www.behkooshan.ir/Page/105/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A8%D9%84%DA%A9-%D8%B1%DB%8C%D9%88%D8%B1",
+      "current_product": null
+    },
+    {
+      "name_fa": "اسلب گرانیت آندوزیت",
+      "page_id": 106,
+      "url": "http://www.behkooshan.ir/Page/106/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D9%86%D8%AF%D9%88%D8%B2%DB%8C%D8%AA",
+      "archived": "https://web.archive.org/web/20200920051332/http://www.behkooshan.ir/Page/106/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A2%D9%86%D8%AF%D9%88%D8%B2%DB%8C%D8%AA",
+      "current_product": null
+    }
+  ],
+  "products_2018": [
+    {
+      "name": "مینیاتور",
+      "slug": "miniature",
+      "url": "http://behkooshan.ir:80/project/miniature/",
+      "archived": "https://web.archive.org/web/20180908075118/http://behkooshan.ir:80/project/miniature/",
+      "current_product": null
+    },
+    {
+      "name": "گرانیت آبی فیروزه‌ای",
+      "slug": "turquoise-granaite",
+      "url": "http://behkooshan.ir:80/project/turquoise-granaite/",
+      "archived": "https://web.archive.org/web/20181010045452/http://behkooshan.ir:80/project/turquoise-granaite/",
+      "current_product": "turquoise"
+    },
+    {
+      "name": "گرانیت آبی فیروزه‌ای",
+      "slug": "turquoise-granaite-2",
+      "url": "http://behkooshan.ir:80/project/turquoise-granaite-2/",
+      "archived": "https://web.archive.org/web/20181001035707/http://behkooshan.ir:80/project/turquoise-granaite-2/",
+      "current_product": "turquoise"
+    },
+    {
+      "name": "پاییزه",
+      "slug": "verde-fantastico",
+      "url": "http://behkooshan.ir:80/project/verde-fantastico/",
+      "archived": "https://web.archive.org/web/20180908075520/http://behkooshan.ir:80/project/verde-fantastico/",
+      "current_product": "verde-fantastic"
+    },
+    {
+      "name": "آبی فیروزه‌ای",
+      "slug": "آبی-فیروزه‌ای",
+      "url": "http://behkooshan.ir:80/project/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87%E2%80%8C%D8%A7%DB%8C/",
+      "archived": "https://web.archive.org/web/20190727182757/http://behkooshan.ir:80/project/%D8%A2%D8%A8%DB%8C-%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%87%E2%80%8C%D8%A7%DB%8C/",
+      "current_product": "turquoise"
+    },
+    {
+      "name": "شماره سه",
+      "slug": "شماره-سه",
+      "url": "http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%D8%B3%D9%87/",
+      "archived": "https://web.archive.org/web/20181001032911/http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%D8%B3%D9%87/",
+      "current_product": null
+    },
+    {
+      "name": "شماره چهار",
+      "slug": "شماره-چهار",
+      "url": "http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DA%86%D9%87%D8%A7%D8%B1/",
+      "archived": "https://web.archive.org/web/20181001035954/http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DA%86%D9%87%D8%A7%D8%B1/",
+      "current_product": null
+    },
+    {
+      "name": "شماره یک",
+      "slug": "شماره-یک",
+      "url": "http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C%DA%A9/",
+      "archived": "https://web.archive.org/web/20181001033336/http://behkooshan.ir:80/project/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C%DA%A9/",
+      "current_product": null
+    },
+    {
+      "name": "مالیبورد",
+      "slug": "مالیبورد",
+      "url": "http://behkooshan.ir:80/project/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+      "archived": "https://web.archive.org/web/20190727145745/http://behkooshan.ir:80/project/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+      "current_product": "malibu-red"
+    },
+    {
+      "name": "پرشین ماگما",
+      "slug": "پرشین-ماگما",
+      "url": "http://behkooshan.ir:80/project/%D9%BE%D8%B1%D8%B4%DB%8C%D9%86-%D9%85%D8%A7%DA%AF%D9%85%D8%A7/",
+      "archived": "https://web.archive.org/web/20190727145702/http://behkooshan.ir:80/project/%D9%BE%D8%B1%D8%B4%DB%8C%D9%86-%D9%85%D8%A7%DA%AF%D9%85%D8%A7/",
+      "current_product": null
+    },
+    {
+      "name": "پرشین نویر",
+      "slug": "پرشین-نویر",
+      "url": "http://behkooshan.ir:80/project/%D9%BE%D8%B1%D8%B4%DB%8C%D9%86-%D9%86%D9%88%DB%8C%D8%B1/",
+      "archived": "https://web.archive.org/web/20190613120022/http://behkooshan.ir:80/project/%D9%BE%D8%B1%D8%B4%DB%8C%D9%86-%D9%86%D9%88%DB%8C%D8%B1/",
+      "current_product": null
+    },
+    {
+      "name": "NO1",
+      "slug": "no1",
+      "url": "http://en.behkooshan.ir:80/project/no1/",
+      "archived": "https://web.archive.org/web/20180819180623/http://en.behkooshan.ir:80/project/no1/",
+      "current_product": null
+    }
+  ]
+}

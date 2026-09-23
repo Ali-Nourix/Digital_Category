@@ -1,0 +1,365 @@
+{
+  "slug": "natanz-white-granite-rijen",
+  "category": "quarry",
+  "category_label": {
+    "fa": "معدن سنگ",
+    "en": "Quarry"
+  },
+  "name": {
+    "fa": "معدن گرانیت طامه",
+    "en": "Natanz White Granite Quarry - Rijen"
+  },
+  "description": {
+    "fa": "بهره بردار : شرکت سنگ فرش ریجن\nمعرفی\nمعدن گرانیت سفید نطنز ریجن، واقع در منطقه نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های با کیفیت بالا، توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد. محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و بافتی یکنواخت، در صنایع مختلف ساختمانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های عمرانی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجن است که باعث شده محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند.\nهمچنین اسن سنگ به دلیل تراکم بالا و بافت یکنواخت مورد استفاده جهت انواع فراوری های سنگ خام قرار گرفته است و در این حوزه بسیار موفق عمل کرده است.\nتاریخچه\nفعالیت معدن گرانیت سفید ریجن از دهه‌های گذشته و به طور مستمر آغاز شده است. این معدن با گذشت زمان، همگام با پیشرفت‌های فنی و تکنولوژیکی، توانسته توسعه زیرساخت‌های خود را به طور چشمگیری افزایش دهد. استفاده از ماشین‌آلات پیشرفته استخراج و فرآوری، به‌کارگیری فناوری‌های نوین در فرآوری سنگ و همچنین حضور تیمی متخصص و مجرب در زمینه معدن‌کاری و مهندسی سنگ، باعث شده‌اند معدن ریجن به یکی از پیشروهای صنعت سنگ گرانیت در ایران تبدیل شود. سنگ‌های استخراجی این معدن به دلیل کیفیت بالای رنگ، مقاومت مکانیکی مطلوب و بافت گل‌پنبه‌ای نرم و یکنواخت، همواره مورد توجه معماران، طراحان داخلی، پیمانکاران و صادرکنندگان بوده است و نقش مهمی در پروژه‌های ملی و بین‌المللی ایفا کرده است.",
+    "en": "Introduction\nThe Natanz White Granite Quarry , operated by Rijen Stone Pavement Company and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry. The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets.\nDue to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field.\nHistory\nThe operation of the Rijen White Granite Quarry began decades ago and has continued steadily ever since. Over time, in line with technical and technological advancements, the quarry has significantly developed its infrastructure. The use of advanced extraction and processing machinery, the implementation of modern stone processing technologies, and the employment of a specialized and experienced team in mining and stone engineering have made the Rejen quarry one of the leaders in the granite stone industry in Iran. The extracted stones from this quarry , due to their excellent color quality, desirable mechanical strength, and soft, uniform cotton-like texture, have always been of great interest to architects, interior designers, contractors, and exporters, playing an important role in both national and international projects."
+  },
+  "specs": {
+    "fa": {
+      "بهره بردار": "شرکت سنگ فرش ریجن",
+      "نوع": "گرانیت",
+      "رنگ": "سفید خالص تا خاکستری روشن",
+      "موقعیت": "منطقه نطنز استان اصفهان",
+      "کشور مبدا": "ایران"
+    },
+    "en": {
+      "Operator": "Rijen Stone Pavement Company",
+      "Type": "Granite",
+      "Colour": "pure white to light gray",
+      "Location": "Natanz region, Isfahan Province",
+      "Origin": "Iran"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+    ],
+    "en": [
+      "https://behkooshan.ir/natanz-white-granite-quarry-rijen/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-IMG_1652.jpg",
+      "kind": "quarry",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/IMG_1652.webp",
+      "archived_url": "https://web.archive.org/web/20260225081019id_/https://es55asecvav.exactdn.com/wp-content/uploads/IMG_1652.webp?strip=all",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 101077,
+      "sha1": "bb02f6ff43ded9ed4c52ada7f521f20750e96f7b",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/02-IMG_1651.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1651.jpg",
+      "archived_url": "https://web.archive.org/web/20260226003354id_/https://fa.behkooshan.ir/wp-content/uploads/IMG_1651.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87486,
+      "sha1": "3aaec0b3bd0991d05c84e9ea2660e82b06d56915",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/03-IMG_1642.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1642.jpg",
+      "archived_url": "https://web.archive.org/web/20260226161102id_/https://fa.behkooshan.ir/wp-content/uploads/IMG_1642.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 145197,
+      "sha1": "2cd668153dfe3bf483b1908e15460128c27d75d4",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/04-IMG_1638.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1638.jpg",
+      "archived_url": "https://web.archive.org/web/20260226002238id_/https://fa.behkooshan.ir/wp-content/uploads/IMG_1638.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 141074,
+      "sha1": "b2de99feef049e8ea527f451f1db71285392f568",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/05-IMG_1637.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1637.jpg",
+      "archived_url": "https://web.archive.org/web/20260225033503id_/https://fa.behkooshan.ir/wp-content/uploads/IMG_1637.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 133177,
+      "sha1": "e3c1713b642ec9c3fb74a16aff230a47cdb2bc16",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/06-image.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/image.jpg",
+      "archived_url": "https://web.archive.org/web/20260227005745id_/https://fa.behkooshan.ir/wp-content/uploads/image.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 117651,
+      "sha1": "1fad6baf080319e0514a074b7213d9bbd9c8fee3",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/07-image-29.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/image-29.jpg",
+      "archived_url": "https://web.archive.org/web/20260227065148id_/https://fa.behkooshan.ir/wp-content/uploads/image-29.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 95810,
+      "sha1": "d372bfbcfe62b37eb02d01ac20f0fddceb87f0df",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/08-image-19.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/image-19.jpg",
+      "archived_url": "https://web.archive.org/web/20260226045704id_/https://fa.behkooshan.ir/wp-content/uploads/image-19.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 73039,
+      "sha1": "65a982522dedcd0d1174ace23fc3d6b828de74e1",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/09-image-14.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/image-14.jpg",
+      "archived_url": "https://web.archive.org/web/20260227023326id_/https://fa.behkooshan.ir/wp-content/uploads/image-14.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 82534,
+      "sha1": "b76655da29876747778cb77bbe5186391efd1e7a",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/10-image-11.jpg",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/image-11.jpg",
+      "archived_url": "https://web.archive.org/web/20260226035528id_/https://fa.behkooshan.ir/wp-content/uploads/image-11.jpg",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 139029,
+      "sha1": "8633a10f13f866c4aac83e8bd707ece8b8549ad8",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/11-1.webp",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/1.webp",
+      "archived_url": "https://web.archive.org/web/20260226024436id_/https://fa.behkooshan.ir/wp-content/uploads/1.webp",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 87740,
+      "sha1": "4963f89f1ffc6d4ee86c1aebc1653a42f1a4421a",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/12-2.webp",
+      "kind": "quarry",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/2.webp",
+      "archived_url": "https://web.archive.org/web/20260226003357id_/https://fa.behkooshan.ir/wp-content/uploads/2.webp",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 118222,
+      "sha1": "4cb33ff74369019ba20edefd950c01344cc43603",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    },
+    {
+      "file": "images/13-3.jpg",
+      "kind": "quarry",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/3.webp",
+      "archived_url": "https://web.archive.org/web/20260226173341id_/https://es55asecvav.exactdn.com/wp-content/uploads/3.webp?strip=all",
+      "alt": "Natanz White Granite (Rijen quarry) – quarry photo",
+      "alt_fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+      "site_alt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 175903,
+      "sha1": "a49cdc9cedc21e427af1cc1eb22cf882d9fd0bd8",
+      "seen_on": [
+        "https://behkooshan.ir/natanz-white-granite-quarry-rijen/",
+        "https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": false,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [],
+    "en": []
+  },
+  "site_names": {
+    "fa": "معدن گرانیت طامه",
+    "en": "Natanz White Granite Quarry - Rijen"
+  },
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260225023930",
+        "archived": "https://web.archive.org/web/20260225023930/https://fa.behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260226020225",
+        "archived": "https://web.archive.org/web/20260226020225/https://behkooshan.ir/natanz-white-granite-quarry-rijen/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "نطنز",
+      "ریجین",
+      "اسلب گرانیت ریجن"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "نطنز",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%86%D8%B7%D9%86%D8%B2/",
+        "archived": "https://web.archive.org/web/20230131092646/https://www.behkooshan.ir/bk_product/%D9%86%D8%B7%D9%86%D8%B2/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ریجین",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D8%AC%DB%8C%D9%86/",
+        "archived": "https://web.archive.org/web/20230131103134/https://www.behkooshan.ir/bk_product/%D8%B1%DB%8C%D8%AC%DB%8C%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت ریجن",
+        "url": "http://www.behkooshan.ir/Page/98/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B1%DB%8C%D8%AC%D9%86",
+        "archived": "https://web.archive.org/web/20200920031622/http://www.behkooshan.ir/Page/98/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%B1%DB%8C%D8%AC%D9%86",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "This is the site's \"Quarry\" / \"معدن سنگ\" page (menu item), a white granite from the Natanz quarry operated by Rijen Stone Pavement Company; it is not a WooCommerce product but is the only item with a real bilingual description, so it is included as a product.",
+    "Name and description are exactly as the site writes them. The Persian page is headed \"معدن گرانیت طامه\" (Tameh granite quarry) with the line \"بهره بردار : شرکت سنگ فرش ریجن\", while its text and the English page call it the Natanz white granite quarry (Rijen).",
+    "Specs are taken word-for-word from the page text (operator, location, colour range, stone type); the site gives no numeric technical values.",
+    "Images are the quarry photos shown on the page; no texture download exists for it."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "river-stone",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ریور استون",
+    "en": "River Stone"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [],
+    "en": [
+      "https://behkooshan.ir/product/river-stone/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-River-Stone.jpg",
+      "kind": "listing",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/River-Stone.jpg",
+      "archived_url": "https://web.archive.org/web/20260225211022/https://es55asecvav.exactdn.com/wp-content/uploads/River-Stone.jpg?strip=all",
+      "alt": "River Stone – product listing image",
+      "alt_fa": "ریور استون – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1189,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 103156,
+      "sha1": "e63f7eabbe0382661f6488515fdb8378fabb5559",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "River Stone"
+  },
+  "site_post_ids": {
+    "en": [
+      "6499"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}
