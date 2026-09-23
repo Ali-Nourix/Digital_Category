@@ -69,6 +69,14 @@ assets/images/             The photography at several widths, plus manifest.json
 docs/DESIGN.md             The brand design guide, in Persian
 ```
 
+`products/` is the product catalogue, published here so the one Pages site
+carries both: the digital catalogue at `/` and the product catalogue at
+`/products/`. It is written by the `Behkooshan-products` branch, whose publish
+workflow copies its site into this folder and commits it on every push there.
+Edit it on that branch, never here: the next push overwrites this copy. The
+product research it is built from lives on that branch too, under
+`research/products/`.
+
 `data/home.json`, `data/products.json`, `data/about.json` and
 `data/gallery.json` belong to the first design, on the `Behkooshan` branch.
 They are kept here as the record of the client's copy and the specifications
