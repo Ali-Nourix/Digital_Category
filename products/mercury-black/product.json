@@ -1,0 +1,144 @@
+{
+  "slug": "mercury-black",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "مرکوری بلک",
+    "en": "Mercury Black"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/mercury-black/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/mercury-black/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-mercury-black.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/mercury-black.jpg",
+      "archived_url": "https://web.archive.org/web/20250625211745id_/https://fa.behkooshan.ir/wp-content/uploads/mercury-black.jpg",
+      "alt": "Mercury Black – main product image (slab surface)",
+      "alt_fa": "مرکوری بلک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "mercury black",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 13774,
+      "sha1": "02c8bbaa076858957b1885a0303260b2a5422bbc",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/mercury-black/"
+      ]
+    },
+    {
+      "file": "images/02-mercury-black1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/mercury-black1.jpg",
+      "archived_url": "https://web.archive.org/web/20250624013656id_/https://fa.behkooshan.ir/wp-content/uploads/mercury-black1.jpg",
+      "alt": "Mercury Black – product listing image",
+      "alt_fa": "مرکوری بلک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 12179,
+      "sha1": "44a8fb52ff30fb10092a834d156b7bd801caa485",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/mercury-black/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/emerald-green/",
+        "product card on https://behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/product/patagonia-black/",
+        "product card on https://behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://behkooshan.ir/product/silver-fusion/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/space-gray/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Mercury Black",
+    "en": "Mercury Black"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3913"
+    ],
+    "en": [
+      "3913"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:57:42",
+      "modified": "2024-04-20T10:44:08"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625211024",
+        "archived": "https://web.archive.org/web/20250625211024/https://fa.behkooshan.ir/product/mercury-black/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "7f9b8e49da1e09a638580e9df235b70da50577fa",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

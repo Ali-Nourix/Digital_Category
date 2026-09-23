@@ -1,0 +1,160 @@
+{
+  "slug": "green-shadow",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "گرین شدو",
+    "en": "Green Shadow"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "مشکی",
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Black",
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/green-shadow/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/green-shadow/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Green-Shadow-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Green-Shadow-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250622210216id_/https://behkooshan.ir/wp-content/uploads/Green-Shadow-m.jpg",
+      "alt": "Green Shadow – main product image (slab surface)",
+      "alt_fa": "گرین شدو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Green-Shadow-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 116121,
+      "sha1": "69211bd957a546ad3b342388f9219a3fb222b767",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/green-shadow/"
+      ]
+    },
+    {
+      "file": "images/02-Green-Shadow-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Green-Shadow-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619004717id_/https://behkooshan.ir/wp-content/uploads/Green-Shadow-p.jpg",
+      "alt": "Green Shadow – product listing image",
+      "alt_fa": "گرین شدو – تصویر فهرست محصولات",
+      "site_alt": "Green Shadow",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 146477,
+      "sha1": "79de21a765a8b8845274b1630ebea22ae6a3a576",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/black-fantasy/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/magma-gold/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=a576052a0443b540829dfad537af00152b2c2f30",
+      "archived_url": "https://web.archive.org/web/20250622230457id_/https://behkooshan.ir/?jet_download=a576052a0443b540829dfad537af00152b2c2f30",
+      "original_filename": "Green-Shadow-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 116121,
+      "sha1": "69211bd957a546ad3b342388f9219a3fb222b767",
+      "alt": "Green Shadow – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Green-Shadow-m.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Green Shadow"
+  },
+  "site_post_ids": {
+    "en": [
+      "5748"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T14:49:24",
+      "modified": "2025-05-07T15:03:41"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250704081509",
+        "archived": "https://web.archive.org/web/20250704081509/https://behkooshan.ir/product/green-shadow/"
+      },
+      {
+        "captured": "20250622191803",
+        "archived": "https://web.archive.org/web/20250622191803/https://behkooshan.ir/product/green-shadow/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026."
+  ]
+}

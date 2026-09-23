@@ -1,0 +1,166 @@
+{
+  "slug": "patagonia-green",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پاتاگونیا گرین",
+    "en": "Patagonia Green"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "سبز",
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Green",
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/patagonia-green/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/patagonia-green/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Patagonia-Green-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Green-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250626162101id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Green-m_11zon.jpg",
+      "alt": "Patagonia Green – main product image (slab surface)",
+      "alt_fa": "پاتاگونیا گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Patagonia Green-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 50098,
+      "sha1": "9b43dc267db6017039756fb5190bdfa6955c8910",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/patagonia-green/",
+        "product page https://fa.behkooshan.ir/product/patagonia-green/"
+      ]
+    },
+    {
+      "file": "images/02-Patagonia-Green-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Green-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624012724id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Green-p_11zon.jpg",
+      "alt": "Patagonia Green – product listing image",
+      "alt_fa": "پاتاگونیا گرین – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 58975,
+      "sha1": "c55f676561d60223dd781810b310c11e6b10eeb6",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/patagonia-green/",
+        "og:image of https://fa.behkooshan.ir/product/patagonia-green/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://fa.behkooshan.ir/product/naica-quartzite/",
+        "product card on https://fa.behkooshan.ir/product/new-golden-silver/",
+        "product card on https://fa.behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Patagonia Green",
+    "en": "Patagonia Green"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5471"
+    ],
+    "en": [
+      "5471"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:20:58",
+      "modified": "2024-04-22T08:55:02"
+    },
+    "en": {
+      "published": "2023-12-12T23:20:58",
+      "modified": "2025-05-07T13:23:42"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625091555",
+        "archived": "https://web.archive.org/web/20250625091555/https://fa.behkooshan.ir/product/patagonia-green/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622220927",
+        "archived": "https://web.archive.org/web/20250622220927/https://behkooshan.ir/product/patagonia-green/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "0356be7c1c24a6dd5d2251637d0b169e2662a1d6",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "new-golden-silver",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نیو گلدن سیلور",
+    "en": "New Golden Silver"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/new-golden-silver/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/new-golden-silver/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-new_golden1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/new_golden1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623231917id_/https://fa.behkooshan.ir/wp-content/uploads/new_golden1.jpg",
+      "alt": "new_golden(1)",
+      "alt_fa": "نیو گلدن سیلور – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "new_golden(1)",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 251010,
+      "sha1": "8dd6db9b15b73ba8eab0c924dff6fc3922ad818e",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/new-golden-silver/",
+        "product page https://fa.behkooshan.ir/product/new-golden-silver/"
+      ]
+    },
+    {
+      "file": "images/02-new_golden-1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/new_golden-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250619014414id_/https://fa.behkooshan.ir/wp-content/uploads/new_golden-1.jpg",
+      "alt": "New Golden Silver – product listing image",
+      "alt_fa": "نیو گلدن سیلور – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 245126,
+      "sha1": "757c7a3854dda77c24a2e511358a7897aef73ca4",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/new-golden-silver/",
+        "og:image of https://fa.behkooshan.ir/product/new-golden-silver/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/emerald-green/",
+        "product card on https://behkooshan.ir/product/serpentine/",
+        "product card on https://behkooshan.ir/product/turquoise/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/black-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=20503f67b5c52d14e0e8d2197b83d7f3ac43394a",
+      "archived_url": "https://web.archive.org/web/20250704022315id_/https://fa.behkooshan.ir/?jet_download=20503f67b5c52d14e0e8d2197b83d7f3ac43394a",
+      "original_filename": "new_golden.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 323419,
+      "sha1": "4b0d42dc743de6ef9f535edfe6742b585c4c1997",
+      "alt": "New Golden Silver – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-new_golden.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "New Golden Silver",
+    "en": "New Golden Silver"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4800"
+    ],
+    "en": [
+      "4800"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:58:06",
+      "modified": "2024-04-20T11:46:59"
+    },
+    "en": {
+      "published": "2023-09-05T09:58:06",
+      "modified": "2023-09-26T17:31:37"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625083752",
+        "archived": "https://web.archive.org/web/20250625083752/https://fa.behkooshan.ir/product/new-golden-silver/"
+      },
+      {
+        "captured": "20250623225820",
+        "archived": "https://web.archive.org/web/20250623225820/https://fa.behkooshan.ir/product/new-golden-silver/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260226021614",
+        "archived": "https://web.archive.org/web/20260226021614/https://behkooshan.ir/product/new-golden-silver/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "نیوگلدن"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "نیوگلدن",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%86%DB%8C%D9%88%DA%AF%D9%84%D8%AF%D9%86/",
+        "archived": "https://web.archive.org/web/20230131102539/https://www.behkooshan.ir/bk_product/%D9%86%DB%8C%D9%88%DA%AF%D9%84%D8%AF%D9%86/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

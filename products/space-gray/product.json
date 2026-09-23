@@ -1,0 +1,162 @@
+{
+  "slug": "space-gray",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "اسپیس گری",
+    "en": "Space Gray"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/space-gray/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/space-gray/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Space-Gray-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Space-Gray-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250624025708id_/https://fa.behkooshan.ir/wp-content/uploads/Space-Gray-m.jpg",
+      "alt": "Space Gray – main product image (slab surface)",
+      "alt_fa": "اسپیس گری – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Space Gray-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 31318,
+      "sha1": "c82885c538feccca24e4f9716d3a24dbd25e6b38",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/space-gray/",
+        "product page https://fa.behkooshan.ir/product/space-gray/"
+      ]
+    },
+    {
+      "file": "images/02-Space-Gray-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Space-Gray-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619073406id_/https://behkooshan.ir/wp-content/uploads/Space-Gray-p.jpg",
+      "alt": "Space Gray – product listing image",
+      "alt_fa": "اسپیس گری – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 37911,
+      "sha1": "dd27437fded082b1489d753cc6178b418adcb13c",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/space-gray/",
+        "og:image of https://fa.behkooshan.ir/product/space-gray/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/andromeda/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/delicate/",
+        "product card on https://behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/spectrolite-blue/",
+        "product card on https://fa.behkooshan.ir/product/t-rex/",
+        "product card on https://fa.behkooshan.ir/product/verde-karzai/",
+        "product card on https://fa.behkooshan.ir/product/volga-blue/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=61a53e849b11af87f10947a8ae63d4fa3afd6732",
+      "archived_url": "https://web.archive.org/web/20250704153542id_/https://fa.behkooshan.ir/?jet_download=61a53e849b11af87f10947a8ae63d4fa3afd6732",
+      "original_filename": "Space-Gray.jpg",
+      "width": 1384,
+      "height": 901,
+      "format": "JPEG",
+      "bytes": 136768,
+      "sha1": "b52bdd295ecc7ac63e3075f2f4d0f9b7b5c8e55a",
+      "alt": "Space Gray – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Space-Gray.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Space Gray",
+    "en": "Space Gray"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5371"
+    ],
+    "en": [
+      "5371"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T13:26:40",
+      "modified": "2024-04-20T10:47:24"
+    },
+    "en": {
+      "published": "2023-12-12T13:26:40",
+      "modified": "2023-12-12T13:26:40"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625205916",
+        "archived": "https://web.archive.org/web/20250625205916/https://fa.behkooshan.ir/product/space-gray/"
+      },
+      {
+        "captured": "20250624005307",
+        "archived": "https://web.archive.org/web/20250624005307/https://fa.behkooshan.ir/product/space-gray/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622193306",
+        "archived": "https://web.archive.org/web/20250622193306/https://behkooshan.ir/product/space-gray/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

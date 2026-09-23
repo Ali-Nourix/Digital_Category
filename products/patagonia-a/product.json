@@ -1,0 +1,178 @@
+{
+  "slug": "patagonia-a",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پاتاگونیا A",
+    "en": "Patagonia “A”"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/patagonia/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/patagonia/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-patagonia.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/patagonia.jpg",
+      "archived_url": "https://web.archive.org/web/20250623225545id_/https://fa.behkooshan.ir/wp-content/uploads/patagonia.jpg",
+      "alt": "patagonia",
+      "alt_fa": "پاتاگونیا A – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "patagonia",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 164656,
+      "sha1": "f59e605fe18e3d510fdc2cf18e0b1c09e1b462df",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/patagonia/"
+      ]
+    },
+    {
+      "file": "images/02-platinium1e.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/platinium1e.jpg",
+      "archived_url": "https://web.archive.org/web/20250623220752id_/https://fa.behkooshan.ir/wp-content/uploads/platinium1e.jpg",
+      "alt": "Patagonia “A” – product listing image",
+      "alt_fa": "پاتاگونیا A – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 195098,
+      "sha1": "ccd4c15a68eb6d77ff8f9189952f77499612882d",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/patagonia/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/belvedere/",
+        "product card on https://behkooshan.ir/product/nehbandan/",
+        "product card on https://behkooshan.ir/product/turquoise/",
+        "product card on https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/elegant-brown/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/titanium-mc/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=674b1c7bf85b986a08b99055d557bb5954812b3b",
+      "archived_url": "https://web.archive.org/web/20250625233650id_/https://fa.behkooshan.ir/?jet_download=674b1c7bf85b986a08b99055d557bb5954812b3b",
+      "original_filename": "patagonia-1.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 246954,
+      "sha1": "9f9fb33e70db7d2832964a4457a9698321b444d8",
+      "alt": "Patagonia “A” – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-patagonia-1.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Patagonia “A”",
+    "en": "Patagonia “A”"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4815"
+    ],
+    "en": [
+      "4815"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:15:13",
+      "modified": "2024-04-20T11:50:50"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625230045",
+        "archived": "https://web.archive.org/web/20250625230045/https://fa.behkooshan.ir/product/patagonia/"
+      },
+      {
+        "captured": "20250623220225",
+        "archived": "https://web.archive.org/web/20250623220225/https://fa.behkooshan.ir/product/patagonia/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "پاتاگونیا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پاتاگونیا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D8%AA%D8%A7%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131103641/https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%D8%AA%D8%A7%DA%AF%D9%88%D9%86%DB%8C%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "The site's listing image for this product is stored as \"platinium1e.jpg\"; despite the file name it shows the same stone as the main image patagonia.jpg (checked by image comparison), not Platinum."
+  ]
+}

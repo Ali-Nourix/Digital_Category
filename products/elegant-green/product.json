@@ -1,0 +1,184 @@
+{
+  "slug": "elegant-green",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "الگانت گرین",
+    "en": "Elegant Green"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/elegant-green/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/elegant-green/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Elegant-Green-m-1024x629.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Green-m-1024x629.jpg",
+      "archived_url": "https://web.archive.org/web/20250622205408id_/https://behkooshan.ir/wp-content/uploads/Elegant-Green-m-1024x629.jpg",
+      "alt": "Elegant Green – main product image (slab surface)",
+      "alt_fa": "الگانت گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Elegant Green-m",
+      "width": 1024,
+      "height": 629,
+      "format": "JPEG",
+      "resolution": "resized-1024x629",
+      "bytes": 82779,
+      "sha1": "a74ec0b6634455f0b4286cc6ea8759da23b7a41e",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/elegant-green/"
+      ]
+    },
+    {
+      "file": "images/02-Elegant-Green-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Green-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625163037/https://fa.behkooshan.ir/wp-content/uploads/Elegant-Green-p.jpg",
+      "alt": "Elegant Green – product listing image",
+      "alt_fa": "الگانت گرین – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 46011,
+      "sha1": "b27c05bbba5044727b982c2472081aa263eb42f6",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/elegant-green/",
+        "product card on https://behkooshan.ir/product/casper-line/",
+        "product card on https://behkooshan.ir/product/explosion-blue/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/delicate/",
+        "product card on https://fa.behkooshan.ir/product/emerald-green/",
+        "product card on https://fa.behkooshan.ir/product/jasmin/",
+        "product card on https://fa.behkooshan.ir/product/magma-gold/",
+        "product card on https://fa.behkooshan.ir/product/malibu-red/",
+        "product card on https://fa.behkooshan.ir/product/zebra/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Elegant Green",
+    "en": "Elegant Green"
+  },
+  "site_post_ids": {
+    "en": [
+      "3898"
+    ],
+    "fa": [
+      "3898"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2023-08-01T14:54:35",
+      "modified": "2023-12-12T12:45:41"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250622195715",
+        "archived": "https://web.archive.org/web/20250622195715/https://behkooshan.ir/product/elegant-green/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "الگانت",
+      "دانه طلایی",
+      "اسلب گرانیت دانه طلایی"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "الگانت",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%DA%AF%D8%A7%D9%86%D8%AA/",
+        "archived": "https://web.archive.org/web/20230131101906/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%DA%AF%D8%A7%D9%86%D8%AA/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "دانه طلایی",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131094322/https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C/",
+        "match_basis": "image file name on the old page matches this product"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت دانه طلایی",
+        "url": "http://www.behkooshan.ir/Page/99/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C",
+        "archived": "https://web.archive.org/web/20200920040713/http://www.behkooshan.ir/Page/99/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C",
+        "match_basis": "same Persian name as the matched 2021-2023 page"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "91c9041981b1bd932b305cf32352a8276e74df6c",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "negresco",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نگرسکو",
+    "en": "Negresco"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/negresco/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/negresco/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Negresco-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Negresco-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250627065659id_/https://behkooshan.ir/wp-content/uploads/Negresco-m.jpg",
+      "alt": "Negresco – main product image (slab surface)",
+      "alt_fa": "نگرسکو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Negresco-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 137348,
+      "sha1": "3368695ecad84a43693c975c9eda36aa2a2aa550",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/negresco/",
+        "product page https://fa.behkooshan.ir/product/negresco/"
+      ]
+    },
+    {
+      "file": "images/02-Negresco-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Negresco-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623233309id_/https://fa.behkooshan.ir/wp-content/uploads/Negresco-p.jpg",
+      "alt": "Negresco – product listing image",
+      "alt_fa": "نگرسکو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 176638,
+      "sha1": "ff6e53392e662d11431ed71142cbcda2589d63a3",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/negresco/",
+        "og:image of https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://behkooshan.ir/product/black-beat/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/taj-mahal/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/dark-golden-lightning/",
+        "product card on https://fa.behkooshan.ir/product/patagonia/",
+        "product card on https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-35-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/35-final-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226120056id_/https://fa.behkooshan.ir/wp-content/uploads/35-final-scaled.jpg",
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 110707,
+      "sha1": "d035bc10fa69d04eba8f73b05743ed171299c76f",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Negresco",
+    "en": "Negresco"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5461"
+    ],
+    "en": [
+      "5461"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:17:42",
+      "modified": "2024-04-20T11:48:02"
+    },
+    "en": {
+      "published": "2023-12-12T23:17:42",
+      "modified": "2025-05-07T13:24:55"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/negresco/",
+      "title": "Negresco"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/negresco/",
+      "title": "Negresco"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625084835",
+        "archived": "https://web.archive.org/web/20250625084835/https://fa.behkooshan.ir/product/negresco/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250627052729",
+        "archived": "https://web.archive.org/web/20250627052729/https://behkooshan.ir/product/negresco/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "b47f4b932c5a9d381fc09be01bad1b872634e812",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Origin differs between the sites: Persian site \"آنگولا\", English site \"Brazil\" (latest archived values). Each language keeps its own site's value.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

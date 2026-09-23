@@ -1,0 +1,140 @@
+{
+  "slug": "bubble-gray",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "بابل گری",
+    "en": "Bubble Gray"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/bubble-gray/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/bubble-gray/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Bubble-Gray-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bubble-Gray-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625075256id_/https://fa.behkooshan.ir/wp-content/uploads/Bubble-Gray-p.jpg",
+      "alt": "Bubble Gray – product listing image",
+      "alt_fa": "بابل گری – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 72309,
+      "sha1": "60ac17640984aa7c95858a6ce658730c700d1516",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product/volga-blue/",
+        "product card on https://fa.behkooshan.ir/product/magma-gold/",
+        "product card on https://fa.behkooshan.ir/product/naica-quartzite/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/product/taj-mahal/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Bubble Gray",
+    "en": "Bubble Gray"
+  },
+  "site_post_ids": {
+    "fa": [
+      "2343"
+    ],
+    "en": [
+      "2343"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "بابل گری",
+      "بابل"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بابل گری",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84-%DA%AF%D8%B1%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131102139/https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84-%DA%AF%D8%B1%DB%8C/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بابل",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84/",
+        "archived": "https://web.archive.org/web/20230131100554/https://www.behkooshan.ir/bk_product/%D8%A8%D8%A7%D8%A8%D9%84/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

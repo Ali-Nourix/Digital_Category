@@ -1,0 +1,229 @@
+{
+  "slug": "absolute-black",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "ابسولوت بلک",
+    "en": "Absolute Black"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/absolute-black/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/absolute-black/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Absolute-Black-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Absolute-Black-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250623222557id_/https://fa.behkooshan.ir/wp-content/uploads/Absolute-Black-m.jpg",
+      "alt": "Absolute Black – main product image (slab surface)",
+      "alt_fa": "ابسولوت بلک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Absolute Black-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 55888,
+      "sha1": "708130149a8a6f3ef3a854ad5dd2ceef10e52fe0",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/absolute-black/",
+        "product page https://fa.behkooshan.ir/product/absolute-black/"
+      ]
+    },
+    {
+      "file": "images/02-Absolute-Black-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Absolute-Black-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619040014id_/https://fa.behkooshan.ir/wp-content/uploads/Absolute-Black-p.jpg",
+      "alt": "Absolute Black – product listing image",
+      "alt_fa": "ابسولوت بلک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 70110,
+      "sha1": "c4c6e12c675e80e9770e3c74b6b97be2a94ff27b",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/absolute-black/",
+        "og:image of https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://behkooshan.ir/product/casper-line/",
+        "product card on https://behkooshan.ir/product/negresco/",
+        "product card on https://behkooshan.ir/product/purple-rain/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product card on https://behkooshan.ir/product/silver-fusion/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/dark-golden-lightning/",
+        "product card on https://fa.behkooshan.ir/product/elegant-brown/",
+        "product card on https://fa.behkooshan.ir/product/meteorus/",
+        "product card on https://fa.behkooshan.ir/product/new-golden-silver/",
+        "product card on https://fa.behkooshan.ir/product/oyster/",
+        "product card on https://fa.behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/product/turquoise/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-1698175922.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/1698175922.jpg",
+      "archived_url": "https://web.archive.org/web/20260226231507id_/https://fa.behkooshan.ir/wp-content/uploads/1698175922.jpg",
+      "alt": "Absolute Black – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ابسولوت بلک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1801,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 162390,
+      "sha1": "89aa9d324ae55593adc680315834e212067ad026",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/absolute-black/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=84039ad648c8bc58fe7461290ea25948953d8959",
+      "archived_url": "https://web.archive.org/web/20250625234921id_/https://fa.behkooshan.ir/?jet_download=84039ad648c8bc58fe7461290ea25948953d8959",
+      "original_filename": "Absolute-Black.jpg",
+      "width": 1400,
+      "height": 901,
+      "format": "JPEG",
+      "bytes": 263084,
+      "sha1": "6ee3ebd2dd460888a05b8f32f38475a0fa6bd3d9",
+      "alt": "Absolute Black – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Absolute-Black.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Absolute Black",
+    "en": "Absolute Black"
+  },
+  "site_post_ids": {
+    "fa": [
+      "2347"
+    ],
+    "en": [
+      "2347"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-03-05T09:21:30",
+      "modified": "2024-04-20T00:21:13"
+    },
+    "en": {
+      "published": "2023-03-05T09:21:30",
+      "modified": "2023-12-12T12:32:53"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/absolute-black/",
+      "title": "Absolute Black"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/absolute-black/",
+      "title": "Absolute Black"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625221736",
+        "archived": "https://web.archive.org/web/20250625221736/https://fa.behkooshan.ir/product/absolute-black/"
+      },
+      {
+        "captured": "20250623214403",
+        "archived": "https://web.archive.org/web/20250623214403/https://fa.behkooshan.ir/product/absolute-black/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619060537",
+        "archived": "https://web.archive.org/web/20250619060537/https://behkooshan.ir/product/absolute-black/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "ابسلوت بلک",
+      "اسلب گرانیت ابسولوت بلک"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ابسلوت بلک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9/",
+        "archived": "https://web.archive.org/web/20230131094644/https://www.behkooshan.ir/bk_product/%D8%A7%D8%A8%D8%B3%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت ابسولوت بلک",
+        "url": "http://www.behkooshan.ir/Page/102/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9",
+        "archived": "https://web.archive.org/web/20200920051945/http://www.behkooshan.ir/Page/102/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%A7%D8%A8%D8%B3%D9%88%D9%84%D9%88%D8%AA-%D8%A8%D9%84%DA%A9",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

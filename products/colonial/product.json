@@ -1,0 +1,149 @@
+{
+  "slug": "colonial",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کلونیال",
+    "en": "Colonial"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "سریلانکا",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Sri-Lanka",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/colonial/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/colonial/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Colonial.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Colonial.jpg",
+      "archived_url": "https://web.archive.org/web/20250704110524id_/https://fa.behkooshan.ir/wp-content/uploads/Colonial.jpg",
+      "alt": "Colonial – main product image (slab surface)",
+      "alt_fa": "کلونیال – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Colonial",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 119697,
+      "sha1": "cfa56653fdec1556fb046f4264f1d7ba6465fa1b",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/colonial/"
+      ]
+    },
+    {
+      "file": "images/02-Colonial1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Colonial1.jpg",
+      "archived_url": "https://web.archive.org/web/20250626074122id_/https://fa.behkooshan.ir/wp-content/uploads/Colonial1.jpg",
+      "alt": "Colonial – product listing image",
+      "alt_fa": "کلونیال – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 146850,
+      "sha1": "77cd98e9810231c279e959cae6174c227abdcea4",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/colonial/",
+        "product card on https://behkooshan.ir/product/bronze-antique/",
+        "product card on https://behkooshan.ir/product/casper/",
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://fa.behkooshan.ir/product/platinium/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Colonial",
+    "en": "Colonial"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4268"
+    ],
+    "en": [
+      "4268"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:17:05",
+      "modified": "2024-04-20T10:37:35"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704100428",
+        "archived": "https://web.archive.org/web/20250704100428/https://fa.behkooshan.ir/product/colonial/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "b065d8cabf71d8069ee10ab38d820fb9e6555bf5",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

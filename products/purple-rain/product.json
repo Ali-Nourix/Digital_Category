@@ -1,0 +1,140 @@
+{
+  "slug": "purple-rain",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "پرپل رین",
+    "en": "Purple Rain"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/purple-rain/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/purple-rain/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Purple-Rain-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Purple-Rain-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619012319id_/https://behkooshan.ir/wp-content/uploads/Purple-Rain-m.jpg",
+      "alt": "Purple Rain – main product image (slab surface)",
+      "alt_fa": "پرپل رین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Purple-Rain-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 111551,
+      "sha1": "9012a7e72712f3c5825e0e1cea1943eab47d4ce7",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/purple-rain/"
+      ]
+    },
+    {
+      "file": "images/02-Purple-Rain-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Purple-Rain-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250618233855id_/https://behkooshan.ir/wp-content/uploads/Purple-Rain-p.jpg",
+      "alt": "Purple Rain – product listing image",
+      "alt_fa": "پرپل رین – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 134774,
+      "sha1": "8284ab230e41c690584d04a34c4cac5ab5d5ba4e",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/purple-rain/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/belvedere/",
+        "product card on https://behkooshan.ir/product/verde-imperial/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Purple Rain"
+  },
+  "site_post_ids": {
+    "en": [
+      "5736"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T14:03:17",
+      "modified": "2025-05-07T14:40:31"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250619003818",
+        "archived": "https://web.archive.org/web/20250619003818/https://behkooshan.ir/product/purple-rain/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "146be8a34eec4814453d4470368654d2062f01b6",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "patagonia-black",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پاتاگونیا بلک",
+    "en": "Patagonia Black"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "رنگ": [
+        "مشکی",
+        "صورتی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Colour": [
+        "Black",
+        "Pink"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/patagonia-black/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/patagonia-black/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Patagonia-Black-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Patagonia-Black-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619000902id_/https://behkooshan.ir/wp-content/uploads/Patagonia-Black-m.jpg",
+      "alt": "Patagonia Black – main product image (slab surface)",
+      "alt_fa": "پاتاگونیا بلک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Patagonia Black-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 207196,
+      "sha1": "e3ea697fceaf310fc5a31ac6c487dd68386da702",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/patagonia-black/"
+      ]
+    },
+    {
+      "file": "images/02-Patagonia-Black-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Black-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260219194623id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Black-p.jpg",
+      "alt": "Patagonia Black – product listing image",
+      "alt_fa": "پاتاگونیا بلک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 250742,
+      "sha1": "7821dcb130bc402f8c4a4f981a03efb82a19725d",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/patagonia-black/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/jacaranda/",
+        "product card on https://behkooshan.ir/product/new-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-Patagonia-Black-1.jpg",
+      "kind": "project",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Patagonia-Black-1.jpg",
+      "archived_url": "https://web.archive.org/web/20260226234112id_/https://es55asecvav.exactdn.com/wp-content/uploads/Patagonia-Black-1.jpg",
+      "alt": "Patagonia Black – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "پاتاگونیا بلک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 879,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57186,
+      "sha1": "fc059ce97fe50a7239e8bb033557e8ea029142f8",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/patagonia-black/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/patagonia-black/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=7c57307d5e54346922da27b1b5b2f36d49a6bf50",
+      "archived_url": "https://web.archive.org/web/20260219182327id_/https://behkooshan.ir/?jet_download=7c57307d5e54346922da27b1b5b2f36d49a6bf50",
+      "original_filename": "Patagonia-Black-scaled.jpg",
+      "width": 1871,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 394532,
+      "sha1": "f0b91a78d5c588d14440411acba7f009142b2158",
+      "alt": "Patagonia Black – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Patagonia-Black-scaled.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Patagonia Black",
+    "en": "Patagonia Black"
+  },
+  "site_post_ids": {
+    "en": [
+      "5724"
+    ],
+    "fa": [
+      "5983"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T13:51:53",
+      "modified": "2025-05-07T15:17:54"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/patagonia-black/",
+      "title": null
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/patagonia-black/",
+      "title": "Patagonia Black"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20260219164050",
+        "archived": "https://web.archive.org/web/20260219164050/https://behkooshan.ir/product/patagonia-black/"
+      },
+      {
+        "captured": "20250618231844",
+        "archived": "https://web.archive.org/web/20250618231844/https://behkooshan.ir/product/patagonia-black/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [
+    {
+      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Patagonia-Black1.jpg?strip=all",
+      "kind": "project",
+      "seen_in": [
+        "project page https://behkooshan.ir/_project/patagonia-black/"
+      ],
+      "reason": "not archived by the Wayback Machine"
+    }
+  ],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "1 image(s) referenced by the site were not archived and are missing; see missing_images."
+  ]
+}

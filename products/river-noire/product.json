@@ -1,0 +1,151 @@
+{
+  "slug": "river-noire",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ریور نوآر",
+    "en": "River Noire"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/river-noir/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/river-noire/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-4643-005-2048x1227.jpg",
+      "kind": "listing",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/4643-005-2048x1227.jpg",
+      "archived_url": "https://web.archive.org/web/20260227042843id_/https://es55asecvav.exactdn.com/wp-content/uploads/4643-005-2048x1227.jpg?strip=all",
+      "alt": "River Noire – product listing image",
+      "alt_fa": "ریور نوآر – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 2048,
+      "height": 1227,
+      "format": "JPEG",
+      "resolution": "resized-2048x1227",
+      "bytes": 524143,
+      "sha1": "c139bc461830aa5863d1fb20a00ac2196129177e",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://behkooshan.ir/product/new-golden-silver/",
+        "project card on https://behkooshan.ir/_project/"
+      ]
+    },
+    {
+      "file": "images/02-4643-004-scaled.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4643-004-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260219200140id_/https://fa.behkooshan.ir/wp-content/uploads/4643-004-scaled.jpg",
+      "alt": "River Noire – product listing image",
+      "alt_fa": "ریور نوآر – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1771,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 462112,
+      "sha1": "d831d98d543104127da7ce9a99bbdffedff78d41",
+      "seen_on": [
+        "product card on https://fa.behkooshan.ir/product/labradorite/"
+      ]
+    },
+    {
+      "file": "images/03-48-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/48-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226020419id_/https://es55asecvav.exactdn.com/wp-content/uploads/48-scaled.jpg",
+      "alt": "River Noire – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ریور نوآر – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 150295,
+      "sha1": "3c9e1dbe06cedddf3aaac756e6e4d4df5831994e",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/river-noire/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"India\")"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "River Noire",
+    "en": "River Noire"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6710"
+    ],
+    "en": [
+      "6606"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/river-noire/",
+      "title": "River Noire"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Persian URL /product/river-noir/ (post 6710) and English URL /product/river-noire/ (post 6606) are the same product \"River Noire\".",
+    "No archived page states the category; \"imported\" is inferred from the origin (India).",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+  ]
+}

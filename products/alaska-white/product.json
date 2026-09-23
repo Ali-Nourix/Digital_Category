@@ -1,0 +1,206 @@
+{
+  "slug": "alaska-white",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "آلاسکا وایت",
+    "en": "Alaska White"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/alaska-white/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/alaska-white/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Alaska-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Alaska-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619022547id_/https://behkooshan.ir/wp-content/uploads/Alaska-m.jpg",
+      "alt": "Alaska White – main product image (slab surface)",
+      "alt_fa": "آلاسکا وایت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Alaska-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 132444,
+      "sha1": "aa4895b25a901b95c27520f542d539ba18af8f07",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product/platinum/",
+        "product card on https://behkooshan.ir/products/",
+        "product page https://behkooshan.ir/product/alaska-white/",
+        "product page https://fa.behkooshan.ir/product/alaska-white/"
+      ]
+    },
+    {
+      "file": "images/02-Alaska-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Alaska-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050523id_/https://fa.behkooshan.ir/wp-content/uploads/Alaska-p.jpg",
+      "alt": "Alaska White – product listing image",
+      "alt_fa": "آلاسکا وایت – تصویر فهرست محصولات",
+      "site_alt": "Alaska White",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 156760,
+      "sha1": "6acdf381b9ef43226235013e6b468e12aee56b30",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/alaska-white/",
+        "og:image of https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/gando/",
+        "product card on https://behkooshan.ir/product/kosmus-gold/",
+        "product card on https://behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product card on https://behkooshan.ir/product/t-rex/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/lumix-wow/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=9c5a59c20562806821abde05d1cbb429d7dc6ea6",
+      "archived_url": "https://web.archive.org/web/20260224202235id_/https://fa.behkooshan.ir/?jet_download=9c5a59c20562806821abde05d1cbb429d7dc6ea6",
+      "original_filename": "Alaska-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 132444,
+      "sha1": "aa4895b25a901b95c27520f542d539ba18af8f07",
+      "alt": "Alaska White – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Alaska-m.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Alaska White",
+    "en": "Alaska White"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5926"
+    ],
+    "en": [
+      "5741"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": "2025-07-23T13:56:10+03:30"
+    },
+    "en": {
+      "published": "2025-05-07T14:38:02",
+      "modified": "2025-05-07T14:45:02"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260224205707",
+        "archived": "https://web.archive.org/web/20260224205707/https://fa.behkooshan.ir/product/alaska-white/"
+      },
+      {
+        "captured": "20260219225439",
+        "archived": "https://web.archive.org/web/20260219225439/https://fa.behkooshan.ir/product/alaska-white/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619005535",
+        "archived": "https://web.archive.org/web/20250619005535/https://behkooshan.ir/product/alaska-white/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "الاسکا وایت",
+      "آلاسکا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "الاسکا وایت",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+        "archived": "https://web.archive.org/web/20230131094111/https://www.behkooshan.ir/bk_product/%D8%A7%D9%84%D8%A7%D8%B3%DA%A9%D8%A7-%D9%88%D8%A7%DB%8C%D8%AA/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "آلاسکا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131103055/https://www.behkooshan.ir/bk_product/%D8%A2%D9%84%D8%A7%D8%B3%DA%A9%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "39d8be37122c7adb79ebee0a5830d801e9a239aa",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

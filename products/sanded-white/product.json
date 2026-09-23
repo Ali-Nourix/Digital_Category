@@ -1,0 +1,157 @@
+{
+  "slug": "sanded-white",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "سندد وایت",
+    "en": "Sanded White"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/sanded-white/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/sanded-white/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Sanded-White-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Sanded-White-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250627070237id_/https://behkooshan.ir/wp-content/uploads/Sanded-White-m.jpg",
+      "alt": "Sanded White – main product image (slab surface)",
+      "alt_fa": "سندد وایت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Sanded White-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 126309,
+      "sha1": "f2dadcf8cf64c2fd13df72bc7860ba7c9e88e1a1",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/sanded-white/",
+        "product page https://fa.behkooshan.ir/product/sanded-white/"
+      ]
+    },
+    {
+      "file": "images/02-Sanded-White-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Sanded-White-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619055339id_/https://fa.behkooshan.ir/wp-content/uploads/Sanded-White-p.jpg",
+      "alt": "Sanded White – product listing image",
+      "alt_fa": "سندد وایت – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 155142,
+      "sha1": "3d3e7bd40614aa9ef4a9677b92c6d75883137d84",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/sanded-white/",
+        "og:image of https://fa.behkooshan.ir/product/sanded-white/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-fantasy/",
+        "product card on https://behkooshan.ir/product/bronze-antique/",
+        "product card on https://behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/black-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/black-zebra/",
+        "product card on https://fa.behkooshan.ir/product/new-golden-silver/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=c554f39f6dcd7fae0b449141225eae69ade3a7b3",
+      "archived_url": "https://web.archive.org/web/20250627052918id_/https://behkooshan.ir/?jet_download=c554f39f6dcd7fae0b449141225eae69ade3a7b3",
+      "original_filename": "Sanded-White.jpg",
+      "width": 1378,
+      "height": 889,
+      "format": "JPEG",
+      "bytes": 526330,
+      "sha1": "2d1658ca82ddb554acb5a5e010df9b57c64ad188",
+      "alt": "Sanded White – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Sanded-White.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Sanded White",
+    "en": "Sanded White"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5361"
+    ],
+    "en": [
+      "5361"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T13:20:35",
+      "modified": "2024-04-20T10:47:12"
+    },
+    "en": {
+      "published": "2023-12-12T13:20:35",
+      "modified": "2023-12-12T13:20:36"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250623232245",
+        "archived": "https://web.archive.org/web/20250623232245/https://fa.behkooshan.ir/product/sanded-white/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250706031549",
+        "archived": "https://web.archive.org/web/20250706031549/https://behkooshan.ir/product/sanded-white/"
+      },
+      {
+        "captured": "20250627050543",
+        "archived": "https://web.archive.org/web/20250627050543/https://behkooshan.ir/product/sanded-white/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "patagonia-original",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پاتاگونیا اورجینال",
+    "en": "Patagonia Original"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/patagonia-orginal/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/patagonia-orginal/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Patagonia-Orginal-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Orginal-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625083211id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-Orginal-m_11zon.jpg",
+      "alt": "Patagonia Original – main product image (slab surface)",
+      "alt_fa": "پاتاگونیا اورجینال – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Patagonia Orginal-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 98479,
+      "sha1": "d9996643ea5933865ca4b0de68447a01379e6567",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/patagonia-orginal/",
+        "product page https://fa.behkooshan.ir/product/patagonia-orginal/"
+      ]
+    },
+    {
+      "file": "images/02-Patagonia-Orginal-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Patagonia-Orginal-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619000825id_/https://behkooshan.ir/wp-content/uploads/Patagonia-Orginal-p_11zon.jpg",
+      "alt": "Patagonia Orginal",
+      "alt_fa": "پاتاگونیا اورجینال – تصویر فهرست محصولات",
+      "site_alt": "Patagonia Orginal",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 117269,
+      "sha1": "13d4bd334aba9d302c1d2ae153e38907ff4c1883",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/patagonia-orginal/",
+        "og:image of https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://fa.behkooshan.ir/product/new-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/new-golden-silver/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-IMG_3170-2-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/IMG_3170-2-scaled.webp",
+      "archived_url": "https://web.archive.org/web/20260226234125id_/https://es55asecvav.exactdn.com/wp-content/uploads/IMG_3170-2-scaled.webp?strip=all",
+      "alt": "Patagonia Original – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "پاتاگونیا اورجینال – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 169663,
+      "sha1": "abc60ec5aa145cffff9db7495035c2f50291606a",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/patagonia-original/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=55700632613075f4ff97196125f13d5d357b5082",
+      "archived_url": "https://web.archive.org/web/20260219214215id_/https://fa.behkooshan.ir/?jet_download=55700632613075f4ff97196125f13d5d357b5082",
+      "original_filename": "Patagonia-Orginal.jpg",
+      "width": 1416,
+      "height": 901,
+      "format": "JPEG",
+      "bytes": 415481,
+      "sha1": "c5e2f8d5c6cfc99a4cdefab6b737430be1d04a96",
+      "alt": "Patagonia Original – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Patagonia-Orginal.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Patagonia Orginal",
+    "en": "Patagonia Orginal"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5477"
+    ],
+    "en": [
+      "5477"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:22:06",
+      "modified": "2024-04-20T11:51:26"
+    },
+    "en": {
+      "published": "2023-12-12T23:22:06",
+      "modified": "2025-05-07T13:23:21"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/patagonia-original/",
+      "title": "Patagonia Original"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/patagonia-original/",
+      "title": "Patagonia Original"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260219191006",
+        "archived": "https://web.archive.org/web/20260219191006/https://fa.behkooshan.ir/product/patagonia-orginal/"
+      },
+      {
+        "captured": "20250625074331",
+        "archived": "https://web.archive.org/web/20250625074331/https://fa.behkooshan.ir/product/patagonia-orginal/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619022721",
+        "archived": "https://web.archive.org/web/20250619022721/https://behkooshan.ir/product/patagonia-orginal/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The product page spells the name \"Patagonia Orginal\" (URL /product/patagonia-orginal/); the site's project listing spells it \"Patagonia Original\", which is used as the English name here.",
+    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
+    "The English site showed different origins over time: Angola, Brazil; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

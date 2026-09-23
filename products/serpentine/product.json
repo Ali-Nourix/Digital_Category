@@ -1,0 +1,188 @@
+{
+  "slug": "serpentine",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "سرپانتین",
+    "en": "Serpentine"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/serpentine/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/serpentine/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Serpentine-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Serpentine-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250626012940id_/https://fa.behkooshan.ir/wp-content/uploads/Serpentine-m.jpg",
+      "alt": "Serpentine – main product image (slab surface)",
+      "alt_fa": "سرپانتین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Serpentine-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 64266,
+      "sha1": "3fe9eca30940ed3eb67fbc0f25dd1f31d73607c5",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/serpentine/",
+        "product page https://fa.behkooshan.ir/product/serpentine/"
+      ]
+    },
+    {
+      "file": "images/02-Serpentine-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Serpentine-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250624024723id_/https://fa.behkooshan.ir/wp-content/uploads/Serpentine-p.jpg",
+      "alt": "Serpentine – product listing image",
+      "alt_fa": "سرپانتین – تصویر فهرست محصولات",
+      "site_alt": "Serpentine",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 76941,
+      "sha1": "663c383e7eef6485b2b3ec07d6c65fa49d7a169f",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/serpentine/",
+        "og:image of https://fa.behkooshan.ir/product/serpentine/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Serpentine",
+    "en": "Serpentine"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3940"
+    ],
+    "en": [
+      "3940"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T15:45:56",
+      "modified": "2024-04-22T08:56:04"
+    },
+    "en": {
+      "published": "2023-08-01T15:45:56",
+      "modified": "2023-12-12T13:25:20"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250626000520",
+        "archived": "https://web.archive.org/web/20250626000520/https://fa.behkooshan.ir/product/serpentine/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260226031748",
+        "archived": "https://web.archive.org/web/20260226031748/https://behkooshan.ir/product/serpentine/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "سر پانتین",
+      "سرپنطینه"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "سر پانتین",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1-%D9%BE%D8%A7%D9%86%D8%AA%DB%8C%D9%86/",
+        "archived": "https://web.archive.org/web/20230131091521/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1-%D9%BE%D8%A7%D9%86%D8%AA%DB%8C%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "سرپنطینه",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%BE%D9%86%D8%B7%DB%8C%D9%86%D9%87/",
+        "archived": "https://web.archive.org/web/20230131100512/https://www.behkooshan.ir/bk_product/%D8%B3%D8%B1%D9%BE%D9%86%D8%B7%DB%8C%D9%86%D9%87/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "7005f6b9d5dc29c555822f5d9f2f0225cde474d7",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

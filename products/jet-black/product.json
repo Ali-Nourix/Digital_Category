@@ -1,0 +1,180 @@
+{
+  "slug": "jet-black",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "جت بلک",
+    "en": "Jet Black"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/jet-black/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/jet-black/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Jet-Black-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Jet-Black-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250704112750id_/https://fa.behkooshan.ir/wp-content/uploads/Jet-Black-m.jpg",
+      "alt": "Jet Black – main product image (slab surface)",
+      "alt_fa": "جت بلک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Jet Black-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 25854,
+      "sha1": "a0915d80a0e5f90578d3d3e8631668263504e31d",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/jet-black/"
+      ]
+    },
+    {
+      "file": "images/02-Jet-Black-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Jet-Black-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250704112707id_/https://fa.behkooshan.ir/wp-content/uploads/Jet-Black-p.jpg",
+      "alt": "Jet Black – product listing image",
+      "alt_fa": "جت بلک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 33911,
+      "sha1": "628823df6ba2c34b697c666aae8458a6a7e2be31",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/jet-black/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/dalmata/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/jasmin/",
+        "product card on https://behkooshan.ir/product/platinum/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/space-gray/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://fa.behkooshan.ir/product/nehbandan/",
+        "product card on https://fa.behkooshan.ir/product/spectrolite-blue/",
+        "product card on https://fa.behkooshan.ir/product/titanium-mc/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Jet Black",
+    "en": "Jet Black"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3907"
+    ],
+    "en": [
+      "3907"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:56:32",
+      "modified": "2024-04-20T10:43:56"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704102835",
+        "archived": "https://web.archive.org/web/20250704102835/https://fa.behkooshan.ir/product/jet-black/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "جت بلک"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "جت بلک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9/",
+        "archived": "https://web.archive.org/web/20230131093347/https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "جت بلک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9-2/",
+        "archived": "https://web.archive.org/web/20230131100143/https://www.behkooshan.ir/bk_product/%D8%AC%D8%AA-%D8%A8%D9%84%DA%A9-2/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "98c8a53cc4fc35a45ef4ac56b2b871c49e0c4530",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

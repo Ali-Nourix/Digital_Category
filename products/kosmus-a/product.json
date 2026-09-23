@@ -1,0 +1,158 @@
+{
+  "slug": "kosmus-a",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کاسموس A",
+    "en": "Kosmus “A”"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم",
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream",
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/kosmus-a/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/kosmus-a/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Kosmus-A-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Kosmus-A-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624072506id_/https://fa.behkooshan.ir/wp-content/uploads/Kosmus-A-m_11zon.jpg",
+      "alt": "Kosmus “A” – main product image (slab surface)",
+      "alt_fa": "کاسموس A – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Kosmus A-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 126780,
+      "sha1": "60f89fddcf8373df276f815eefe12de48ba45951",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/kosmus-a/"
+      ]
+    },
+    {
+      "file": "images/02-Kosmus-A-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Kosmus-A-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619060452id_/https://fa.behkooshan.ir/wp-content/uploads/Kosmus-A-p_11zon.jpg",
+      "alt": "Kosmus “A” – product listing image",
+      "alt_fa": "کاسموس A – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 152823,
+      "sha1": "f82ae23058cbd01e93d07d90a2a6b7494ce46a13",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/taj-mahal/",
+        "product card on https://fa.behkooshan.ir/product/colonial/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=f02225457cf16c15c21eb1df5e4095591f3866d8",
+      "archived_url": "https://web.archive.org/web/20250704101309id_/https://fa.behkooshan.ir/?jet_download=f02225457cf16c15c21eb1df5e4095591f3866d8",
+      "original_filename": "Kosmus-A.jpg",
+      "width": 1455,
+      "height": 868,
+      "format": "JPEG",
+      "bytes": 551644,
+      "sha1": "9a13c5207961e887f55a3b5f6d1056390bd9d76c",
+      "alt": "Kosmus “A” – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Kosmus-A.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "“Kosmus “A",
+    "en": "Kosmus “A”"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4780"
+    ],
+    "en": [
+      "4780"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:31:41",
+      "modified": "2024-04-22T08:50:02"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704091611",
+        "archived": "https://web.archive.org/web/20250704091611/https://fa.behkooshan.ir/product/kosmus-a/"
+      },
+      {
+        "captured": "20250624062725",
+        "archived": "https://web.archive.org/web/20250624062725/https://fa.behkooshan.ir/product/kosmus-a/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

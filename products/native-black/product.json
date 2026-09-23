@@ -1,0 +1,146 @@
+{
+  "slug": "native-black",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "نیتیو بلک",
+    "en": "Native Black"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/native-black/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/native-black/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Native-Black-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Native-Black-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250704102439id_/https://fa.behkooshan.ir/wp-content/uploads/Native-Black-m.jpg",
+      "alt": "Native Black – main product image (slab surface)",
+      "alt_fa": "نیتیو بلک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Native Black-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 67137,
+      "sha1": "92909de57baab40667304c96e8c50c24d8ba38b4",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/native-black/"
+      ]
+    },
+    {
+      "file": "images/02-Native-Black-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Native-Black-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623231614id_/https://fa.behkooshan.ir/wp-content/uploads/Native-Black-p.jpg",
+      "alt": "Native Black – product listing image",
+      "alt_fa": "نیتیو بلک – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 83713,
+      "sha1": "fa4466e87261ddba373e096f0a7692b3c9cbd753",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/belvedere/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/infinity-gold/",
+        "product card on https://behkooshan.ir/product/new-golden-silver/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://fa.behkooshan.ir/product/casper/",
+        "product card on https://fa.behkooshan.ir/product/explosion-blue/",
+        "product card on https://fa.behkooshan.ir/product/jasmin/",
+        "product card on https://fa.behkooshan.ir/product/lumix-wow/",
+        "product card on https://fa.behkooshan.ir/product/new-galaxy/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Native Black",
+    "en": "Native Black"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3919"
+    ],
+    "en": [
+      "3919"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:58:39",
+      "modified": "2024-04-20T10:44:22"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625172833",
+        "archived": "https://web.archive.org/web/20250625172833/https://fa.behkooshan.ir/product/native-black/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "e2a6d7f54e4f2a2dc6fc4c20e35ec73f496d74d3",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

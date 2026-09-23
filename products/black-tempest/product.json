@@ -1,0 +1,67 @@
+{
+  "slug": "black-tempest",
+  "category": null,
+  "category_label": null,
+  "name": {
+    "fa": "بلک تمپست",
+    "en": "Black Tempest"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {},
+    "en": {}
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-tempest/"
+    ],
+    "en": []
+  },
+  "images": [],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": true
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": [
+      "name"
+    ]
+  },
+  "site_names": {
+    "fa": null,
+    "en": null
+  },
+  "site_post_ids": {},
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
+    "Only the URL /product/black-tempest/ is known (Persian sitemap of Feb 2026 and project sitemap /projects/black-tempest/); neither page was archived, so the name is derived from the URL and no specs or images exist."
+  ]
+}

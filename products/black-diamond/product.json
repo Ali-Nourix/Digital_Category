@@ -1,0 +1,180 @@
+{
+  "slug": "black-diamond",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک دایموند",
+    "en": "Black Diamond"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-diamond/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-diamond/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Black-Diamond-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624233005id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-m_11zon.jpg",
+      "alt": "Black Diamond – main product image (slab surface)",
+      "alt_fa": "بلک دایموند – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Black Diamond-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 50657,
+      "sha1": "b8672e045808303b9a80f827425dff5fc2bfd582",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/black-diamond/",
+        "product page https://fa.behkooshan.ir/product/black-diamond/"
+      ]
+    },
+    {
+      "file": "images/02-Black-Diamond-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250703144109id_/https://behkooshan.ir/wp-content/uploads/Black-Diamond-p_11zon.jpg",
+      "alt": "Black Diamond – product listing image",
+      "alt_fa": "بلک دایموند – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 59879,
+      "sha1": "8ad2057d7909134a1158e17d3787f88abb2db1ed",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/black-diamond/",
+        "og:image of https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/magma-gold/",
+        "product card on https://behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/product/silver-fusion/",
+        "product card on https://behkooshan.ir/product/verde-karzai/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://fa.behkooshan.ir/product/new-patagonia/",
+        "product card on https://fa.behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bd80fe90acbfec7fae861919d1075bddfeb893fa",
+      "archived_url": "https://web.archive.org/web/20250704091424id_/https://fa.behkooshan.ir/?jet_download=bd80fe90acbfec7fae861919d1075bddfeb893fa",
+      "original_filename": "Black-Diamond.jpg",
+      "width": 1370,
+      "height": 784,
+      "format": "JPEG",
+      "bytes": 182419,
+      "sha1": "d5f3c6a816380de23a6a0d49155ecc7e9b8b2cfd",
+      "alt": "Black Diamond – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Black-Diamond.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Diamond",
+    "en": "Black Diamond"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4272"
+    ],
+    "en": [
+      "4272"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:18:53",
+      "modified": "2024-04-22T08:46:08"
+    },
+    "en": {
+      "published": "2023-08-11T13:18:53",
+      "modified": "2023-12-12T23:04:59"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704091135",
+        "archived": "https://web.archive.org/web/20250704091135/https://fa.behkooshan.ir/product/black-diamond/"
+      },
+      {
+        "captured": "20250624223126",
+        "archived": "https://web.archive.org/web/20250624223126/https://fa.behkooshan.ir/product/black-diamond/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619033858",
+        "archived": "https://web.archive.org/web/20250619033858/https://behkooshan.ir/product/black-diamond/"
+      },
+      {
+        "captured": "20250619023323",
+        "archived": "https://web.archive.org/web/20250619023323/https://behkooshan.ir/product/black-diamond/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Colour attribute differs between the sites: Persian site ['black'], English site ['cream']; the Persian site's terms are used.",
+    "The English site's hidden WooCommerce stone-type attribute says \"quartzite\", but the page displays \"Granite\"; the displayed value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "platinum",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پلاتینیوم",
+    "en": "Platinum"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/platinum/",
+      "https://fa.behkooshan.ir/product/platinium/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/platinum/",
+      "https://behkooshan.ir/product/platinium/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-platinium-1.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/platinium-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250706193030id_/https://behkooshan.ir/wp-content/uploads/platinium-1.jpg",
+      "alt": "platinium",
+      "alt_fa": "پلاتینیوم – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "platinium",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 196422,
+      "sha1": "66d25c0159f550fd8a221a78fa0c2461ff160f87",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/platinium/",
+        "product page https://behkooshan.ir/product/platinum/",
+        "product page https://fa.behkooshan.ir/product/platinium/"
+      ]
+    },
+    {
+      "file": "images/02-platinium1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/platinium1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623233701id_/https://fa.behkooshan.ir/wp-content/uploads/platinium1.jpg",
+      "alt": "Platinum – product listing image",
+      "alt_fa": "پلاتینیوم – تصویر فهرست محصولات",
+      "site_alt": "Platinum",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 194229,
+      "sha1": "52770367d629c8947ab7872c874727713fd662de",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/platinium/",
+        "og:image of https://behkooshan.ir/product/platinum/",
+        "og:image of https://fa.behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/infinity-gold/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://fa.behkooshan.ir/product/explosion-blue/",
+        "product card on https://fa.behkooshan.ir/product/magma-gold/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=7628b4de700b7a2f59496d3c78a879da34657363",
+      "archived_url": "https://web.archive.org/web/20250706023023id_/https://behkooshan.ir/?jet_download=7628b4de700b7a2f59496d3c78a879da34657363",
+      "original_filename": "platinium.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 235838,
+      "sha1": "c933e3415cea154a532908ad053034f65c8e30b9",
+      "alt": "Platinum – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-platinium.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Platinium",
+    "en": "Platinum"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4821"
+    ],
+    "en": [
+      "4821"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:19:34",
+      "modified": "2024-04-20T11:52:03"
+    },
+    "en": {
+      "published": "2023-09-05T10:19:34",
+      "modified": "2023-09-26T17:06:12"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704112902",
+        "archived": "https://web.archive.org/web/20250704112902/https://fa.behkooshan.ir/product/platinium/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260225092836",
+        "archived": "https://web.archive.org/web/20260225092836/https://behkooshan.ir/product/platinum/"
+      },
+      {
+        "captured": "20250706091707",
+        "archived": "https://web.archive.org/web/20250706091707/https://behkooshan.ir/product/platinium/"
+      },
+      {
+        "captured": "20250627062107",
+        "archived": "https://web.archive.org/web/20250627062107/https://behkooshan.ir/product/platinium/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "پلاتینیوم"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پلاتینیوم",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85/",
+        "archived": "https://web.archive.org/web/20230131103844/https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پلاتینیوم",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-2/",
+        "archived": "https://web.archive.org/web/20230131111456/https://www.behkooshan.ir/bk_product/%D9%BE%D9%84%D8%A7%D8%AA%DB%8C%D9%86%DB%8C%D9%88%D9%85-2/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Post 4821 was published as \"Platinium\" (/product/platinium/) and later renamed \"Platinum\" (/product/platinum/) on both sites.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+  ]
+}

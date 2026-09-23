@@ -1,0 +1,184 @@
+{
+  "slug": "gando",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "گاندو",
+    "en": "Gando"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/gando/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/gando/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Gando-1-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Gando-1-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619000451id_/https://behkooshan.ir/wp-content/uploads/Gando-1-m.jpg",
+      "alt": "Gando – main product image (slab surface)",
+      "alt_fa": "گاندو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Gando-1-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 98968,
+      "sha1": "1e917d0df55e5990f835f49c5a6d3d9d6a2e60a2",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/gando/"
+      ]
+    },
+    {
+      "file": "images/02-Gando-1-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Gando-1-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050359id_/https://fa.behkooshan.ir/wp-content/uploads/Gando-1-p.jpg",
+      "alt": "Gando – product listing image",
+      "alt_fa": "گاندو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 120838,
+      "sha1": "7f1f0b6b041bd829b3b4c5b66646d9ee3a0941c6",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/gando/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/amazonite/",
+        "product card on https://behkooshan.ir/product/black-fantasy/",
+        "product card on https://behkooshan.ir/product/bronze-antique/",
+        "product card on https://behkooshan.ir/product/negresco/",
+        "product card on https://behkooshan.ir/product/new-galaxy/",
+        "product card on https://behkooshan.ir/product/patagonia-black/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-Gando-03.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Gando-03.jpg",
+      "archived_url": "https://web.archive.org/web/20260226113623id_/https://fa.behkooshan.ir/wp-content/uploads/Gando-03.jpg",
+      "alt": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "گاندو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 563,
+      "height": 1000,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 26467,
+      "sha1": "51558d00c517da4fe7018f73e32617145f04b5cd",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/gando/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (translated from the English site)",
+      "specs.کشور مبدا (translated from the English site)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": null,
+    "en": "Gando"
+  },
+  "site_post_ids": {
+    "en": [
+      "5730"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": null,
+      "modified": null
+    },
+    "en": {
+      "published": "2025-05-07T13:58:00",
+      "modified": "2025-05-07T14:50:43"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/gando/",
+      "title": "Gando"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/gando/",
+      "title": "Gando"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250618235534",
+        "archived": "https://web.archive.org/web/20250618235534/https://behkooshan.ir/product/gando/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "741bf43acf845c3c131b97afa5a1a592974c08c4",
+      "languages": [
+        "en"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

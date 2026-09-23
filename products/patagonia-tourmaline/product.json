@@ -1,0 +1,144 @@
+{
+  "slug": "patagonia-tourmaline",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "پاتاگونیا تورمالین",
+    "en": "Patagonia Tourmaline"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/patagonia-troumaline/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/patagonia-troumaline/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Patagonia-troumaline-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-troumaline-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625090616id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-troumaline-m_11zon.jpg",
+      "alt": "Patagonia Tourmaline – main product image (slab surface)",
+      "alt_fa": "پاتاگونیا تورمالین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Patagonia troumaline-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 56141,
+      "sha1": "2a209bf50dbd2965c7388d20d716a69f8b1e676d",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/patagonia-troumaline/"
+      ]
+    },
+    {
+      "file": "images/02-Patagonia-troumaline-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Patagonia-troumaline-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624004557id_/https://fa.behkooshan.ir/wp-content/uploads/Patagonia-troumaline-p_11zon.jpg",
+      "alt": "Patagonia Tourmaline – product listing image",
+      "alt_fa": "پاتاگونیا تورمالین – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 66394,
+      "sha1": "77d99f086940750a0006b5f08238f8787ec16df2",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/patagonia-troumaline/",
+        "product card on https://behkooshan.ir/product/verde-karzai/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/bronze-antique/",
+        "product card on https://fa.behkooshan.ir/product/colonial/",
+        "product card on https://fa.behkooshan.ir/product/river-blanche/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Patagonia troumaline",
+    "en": "Patagonia Tourmaline"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5482"
+    ],
+    "en": [
+      "5482"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:23:05",
+      "modified": "2024-04-20T11:51:31"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625080240",
+        "archived": "https://web.archive.org/web/20250625080240/https://fa.behkooshan.ir/product/patagonia-troumaline/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "7d4b65da60bda4c495db1b755ee5b607e0825f14",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "The Persian site writes \"Patagonia troumaline\" (URL /product/patagonia-troumaline/); the English site writes \"Patagonia Tourmaline\", used here.",
+    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}

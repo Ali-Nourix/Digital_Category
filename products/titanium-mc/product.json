@@ -1,0 +1,217 @@
+{
+  "slug": "titanium-mc",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "تیتانیوم ام‌سی",
+    "en": "Titanium MC"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/titanium-mc/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/titanium-mc/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-titanium_mc-1.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/titanium_mc-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250619001146id_/https://behkooshan.ir/wp-content/uploads/titanium_mc-1.jpg",
+      "alt": "titanium_mc",
+      "alt_fa": "تیتانیوم ام‌سی – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "titanium_mc",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 141092,
+      "sha1": "e1e56b08d859bc4599bf2792b28550a24a85bdf0",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/titanium-mc/",
+        "product page https://fa.behkooshan.ir/product/titanium-mc/"
+      ]
+    },
+    {
+      "file": "images/02-titanium_mc1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/titanium_mc1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623234445id_/https://fa.behkooshan.ir/wp-content/uploads/titanium_mc1.jpg",
+      "alt": "Titanium MC – product listing image",
+      "alt_fa": "تیتانیوم ام‌سی – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 150420,
+      "sha1": "aa8acac34a06b577366510fca4028bca01103ab5",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/titanium-mc/",
+        "og:image of https://fa.behkooshan.ir/product/titanium-mc/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/infinity-gold/",
+        "product card on https://behkooshan.ir/product/platinum/",
+        "product card on https://fa.behkooshan.ir/product/explosion-blue/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-troumaline/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-Titanium-MC1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Titanium-MC1.jpg",
+      "archived_url": "https://web.archive.org/web/20260226032053id_/https://fa.behkooshan.ir/wp-content/uploads/Titanium-MC1.jpg",
+      "alt": "Titanium MC – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تیتانیوم ام‌سی – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1638,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 81716,
+      "sha1": "b71819c250c66644854fa4618db3000d187ac93a",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/titanium-mc/"
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Titanium MC",
+    "en": "Titanium MC"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4836"
+    ],
+    "en": [
+      "4836"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:35:12",
+      "modified": "2024-04-20T11:51:08"
+    },
+    "en": {
+      "published": "2023-09-05T10:35:12",
+      "modified": "2023-09-26T16:40:18"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/titanium-mc/",
+      "title": "Titanium MC"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/titanium-mc/",
+      "title": "Titanium MC"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625181858",
+        "archived": "https://web.archive.org/web/20250625181858/https://fa.behkooshan.ir/product/titanium-mc/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250618235751",
+        "archived": "https://web.archive.org/web/20250618235751/https://behkooshan.ir/product/titanium-mc/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "تیتانیوم ام سی",
+      "تیتانیوم"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "تیتانیوم ام سی",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D9%85-%D8%B3%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131104116/https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85-%D8%A7%D9%85-%D8%B3%DB%8C/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "تیتانیوم",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85/",
+        "archived": "https://web.archive.org/web/20230131100923/https://www.behkooshan.ir/bk_product/%D8%AA%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D9%88%D9%85/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "32ead4941b5ba73b9fbb7f185a75eeaf651e6d5a",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
+    }
+  ],
+  "notes": [
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+  ]
+}
