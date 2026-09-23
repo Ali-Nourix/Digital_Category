@@ -525,6 +525,8 @@ function document_(build) {
   <meta name="color-scheme" content="light">
 
   <link rel="icon" href="${root}assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="${root}assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="${root}assets/logos/apple-touch-icon.png">
   <link rel="canonical" href="${data.site.url}/${wide ? "wide/" : ""}${lang === "fa" ? "" : "en/"}">
   <link rel="alternate" hreflang="fa" href="${data.site.url}/${wide ? "wide/" : ""}">
   <link rel="alternate" hreflang="en" href="${data.site.url}/${wide ? "wide/" : ""}en/">
@@ -562,7 +564,11 @@ ${
       </a>
 
       <div class="bar__end">
-        <button class="chip" type="button" data-contents-open hidden>${esc(site.contents)}</button>
+        <button class="chip chip--contents" type="button" data-contents-open hidden>
+          <span class="icon icon--list" aria-hidden="true"></span><span class="chip__label">${esc(site.contents)}</span>
+        </button>
+        <a class="chip" href="${root}products/${wide ? "wide/" : ""}${lang === "en" ? "en/" : ""}"
+           aria-label="${esc(site.productsLabel)}">${esc(site.products)}</a>
         <a class="chip" href="${build.view}" data-view-swap
            aria-label="${esc(wide ? site.thisViewLabel : site.otherViewLabel)}">${
              esc(wide ? site.thisView : site.otherView)

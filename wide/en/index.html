@@ -9,6 +9,8 @@
   <meta name="color-scheme" content="light">
 
   <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../assets/logos/apple-touch-icon.png">
   <link rel="canonical" href="https://behkooshan.ir/wide/en/">
   <link rel="alternate" hreflang="fa" href="https://behkooshan.ir/wide/">
   <link rel="alternate" hreflang="en" href="https://behkooshan.ir/wide/en/">
@@ -40,7 +42,11 @@
       </a>
 
       <div class="bar__end">
-        <button class="chip" type="button" data-contents-open hidden>Contents</button>
+        <button class="chip chip--contents" type="button" data-contents-open hidden>
+          <span class="icon icon--list" aria-hidden="true"></span><span class="chip__label">Contents</span>
+        </button>
+        <a class="chip" href="../../products/wide/en/"
+           aria-label="The Behkooshan product catalogue">Products</a>
         <a class="chip" href="../../en/" data-view-swap
            aria-label="Read in the upright view">Upright</a>
         <a class="chip" href="../" lang="fa"

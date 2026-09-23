@@ -75,7 +75,14 @@ carries both: the digital catalogue at `/` and the product catalogue at
 workflow copies its site into this folder and commits it on every push there.
 Edit it on that branch, never here: the next push overwrites this copy. The
 product research it is built from lives on that branch too, under
-`research/products/`.
+`research/products/`. The bar's "Products" chip goes to it in the same
+reading and language (`/products/`, `/products/en/`, `/products/wide/`,
+`/products/wide/en/`), and its own bar has a chip back.
+
+On a phone the bar's contents chip is a list icon, its word kept for screen
+readers only: with the products chip there are four controls, and in English
+four words and the mark are wider than a phone's bar at any padding. The
+icon is Phosphor's (MIT, `assets/icons/PHOSPHOR-LICENSE.txt`).
 
 `data/home.json`, `data/products.json`, `data/about.json` and
 `data/gallery.json` belong to the first design, on the `Behkooshan` branch.
