@@ -302,6 +302,8 @@ function bar(page, { otherLang, otherView, home }) {
         <a class="chip" href="${otherLang}" lang="${t.other}" hreflang="${t.other}" aria-label="${esc(t.otherLabel)}">${t.otherName}</a>
       </div>
     </div>
+
+    <span class="progress" aria-hidden="true"></span>
   </header>`;
 }
 
@@ -408,12 +410,14 @@ function tile(page, p, { eager = false, feature = false } = {}) {
             data-type="${typeOf(p)}" data-origin="${originOf(p)}" data-colours="${esc(p.colours.join(" "))}"
             data-names="${esc(searchText(p))}">
           <a class="stone__link" href="${site(page).product(p.slug)}">
-            <span class="stone__frame cut">
+            <span class="stone__frame cut place">
               ${picture}
             </span>
-            <span class="stone__name">${esc(plain(p.name[lang]))}</span>
-            <span class="stone__alt" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</span>
-            <span class="stone__meta">${esc(meta.join(lang === "fa" ? "، " : ", "))}</span>
+            <span class="stone__text reveal" style="--i:1">
+              <span class="stone__name">${esc(plain(p.name[lang]))}</span>
+              <span class="stone__alt" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</span>
+              <span class="stone__meta">${esc(meta.join(lang === "fa" ? "، " : ", "))}</span>
+            </span>
           </a>
         </li>`;
 }
@@ -431,23 +435,51 @@ function chips(group, values, labels, withSwatch = false) {
 }
 
 const BAND = products.filter((p) => p.surface).sort((a, b) => a.surface.order - b.surface.order);
-const BAND_SIZES = "(min-width: 84rem) 84rem, 100vw";
+/* The band runs from edge to edge of the window upright and on a card, and
+   takes the first half and more of a spread sideways (products-wide.css). */
+const bandSizes = (mode) => (mode === "wide" ? "(min-width: 60rem) and (min-height: 38rem) 56vw, 100vw" : "100vw");
 
 /* The band at the head of the listing: the stones' own surfaces, one after
-   another, uncovered from the leading edge the way the catalogue lays its
-   photographs onto the page. The first is in the page; the rest are listed
-   for the script, which fetches each only as its turn comes. */
+   another, each laid over the last from the leading edge the way the
+   catalogue lays its photographs onto the page, with the name of the stone
+   it is showing under it. The first is in the page; the rest are listed for
+   the script, which fetches each only as its turn comes. The picture is
+   hidden from assistive technology: the name under it is a link to the
+   stone, and every stone it shows is in the grid. */
 function hero(page) {
   if (!BAND.length) return "";
-  const slides = BAND.map((p) => ({ srcset: srcset(page.prefix, p.surface), src: largest(page.prefix, p.surface) }));
+  const { lang, mode } = page;
+  const other = lang === "fa" ? "en" : "fa";
+  const links = site(page);
+  const slides = BAND.map((p) => ({
+    srcset: srcset(page.prefix, p.surface),
+    src: largest(page.prefix, p.surface),
+    name: plain(p.name[lang]),
+    alt: plain(p.name[other]),
+    href: links.product(p.slug),
+  }));
   const first = BAND[0].surface;
-  return `        <div class="hero" aria-hidden="true" data-hero data-sizes="${BAND_SIZES}"
-             data-slides="${esc(JSON.stringify(slides.slice(1)))}">
-          <div class="hero__frame">
-            <img class="hero__img" src="${largest(page.prefix, first)}" srcset="${srcset(page.prefix, first)}" sizes="${BAND_SIZES}"
-                 width="${first.width}" height="${first.height}" alt="" fetchpriority="high" decoding="async">
-          </div>
-        </div>`;
+  return `      <div class="hero" data-hero data-sizes="${bandSizes(mode)}"
+           data-slides="${esc(JSON.stringify(slides))}">
+        <div class="hero__frame" aria-hidden="true">
+          <img class="hero__img hero__img--first" src="${largest(page.prefix, first)}" srcset="${srcset(page.prefix, first)}" sizes="${bandSizes(mode)}"
+               width="${first.width}" height="${first.height}" alt="" fetchpriority="high" decoding="async">
+        </div>
+      </div>`;
+}
+
+/** The name under the band: the stone it is showing, and a way to it. */
+function heroCaption(page) {
+  if (!BAND.length) return "";
+  const { lang } = page;
+  const other = lang === "fa" ? "en" : "fa";
+  const p = BAND[0];
+  return `        <p class="shell hero__caption">
+          <a class="hero__name" href="${site(page).product(p.slug)}" data-hero-link>
+            <span class="hero__title" data-hero-title>${words(plain(p.name[lang]))}</span>
+            <span class="hero__alt" lang="${other}" dir="${T[other].dir}" data-hero-alt>${esc(plain(p.name[other]))}</span>
+          </a>
+        </p>`;
 }
 
 function listing(mode, lang) {
@@ -470,7 +502,7 @@ function listing(mode, lang) {
       .join("\n");
     return `    <section class="group" data-group="${o}" aria-labelledby="group-${o}">
       <div class="shell group__inner">
-        <h2 class="group__title headline" id="group-${o}"><span class="group__name">${words(t.groups[o])}</span> <span class="group__count" data-count>${num(lang, items.length)}</span></h2>
+        <h2 class="group__title headline${mode === "wide" ? " divider" : ""}" id="group-${o}"><span class="group__name">${words(t.groups[o])}</span> <span class="group__count" data-count>${num(lang, items.length)}</span></h2>
         <ol class="stones" role="list">
 ${tiles}
         </ol>
@@ -481,7 +513,7 @@ ${tiles}
   const html = `${head(page, {
     title: t.title,
     description: t.description,
-    preloadImage: BAND[0] && { srcset: srcset(page.prefix, BAND[0].surface), sizes: BAND_SIZES },
+    preloadImage: BAND[0] && { srcset: srcset(page.prefix, BAND[0].surface), sizes: bandSizes(mode) },
   })}
 <body class="page page--list">
 
@@ -489,14 +521,18 @@ ${bar(page, { otherLang: links.listing(mode, t.other), otherView: links.listing(
 
   <main id="stones"${mode === "wide" ? ' class="track"' : ""}>
     <div class="intro">
-      <div class="shell intro__inner">
 ${hero(page)}
-        <h1 class="intro__title headline">${words(t.heading)}</h1>
-      </div>
+
+      <div class="intro__body">
+${heroCaption(page)}
+
+        <div class="shell intro__inner">
+          <h1 class="intro__title">${words(t.heading)}</h1>
+        </div>
 
       <form class="filters" role="search" data-filters data-lang="${lang}" onsubmit="return false">
         <div class="shell filters__inner">
-          <div class="filters__search">
+          <div class="filters__search reveal" style="--i:0">
             <label class="filters__label" for="q">${t.search}</label>
             <div class="search">
               <span class="icon icon--search search__icon" aria-hidden="true"></span>
@@ -511,21 +547,21 @@ ${hero(page)}
           </button>
 
           <div class="facets" id="facets" data-facets>
-            <fieldset class="facet">
+            <fieldset class="facet reveal" style="--i:1">
               <legend class="filters__label">${t.type}</legend>
               <div class="facet__picks">
 ${chips("type", TYPES, t.types)}
               </div>
             </fieldset>
 
-            <fieldset class="facet">
+            <fieldset class="facet reveal" style="--i:2">
               <legend class="filters__label">${t.origin}</legend>
               <div class="facet__picks">
 ${chips("origin", ORIGINS, t.origins)}
               </div>
             </fieldset>
 
-            <fieldset class="facet facet--colour">
+            <fieldset class="facet facet--colour reveal" style="--i:3">
               <legend class="filters__label">${t.colour}</legend>
               <div class="facet__picks">
 ${chips("colour", COLOURS, t.colours, true)}
@@ -533,12 +569,13 @@ ${chips("colour", COLOURS, t.colours, true)}
             </fieldset>
           </div>
 
-          <div class="filters__status">
+          <div class="filters__status reveal" style="--i:4">
             <p class="filters__count" aria-live="polite" data-total>${t.stones(products.length)}</p>
             <button class="filters__clear" type="button" data-clear hidden>${t.clear}</button>
           </div>
         </div>
       </form>
+      </div>
     </div>
 
     <template data-words>${JSON.stringify({
@@ -550,7 +587,7 @@ ${chips("colour", COLOURS, t.colours, true)}
 
 ${groups}
 
-    <div class="shell empty" data-empty hidden>
+    <div class="shell empty reveal" data-empty hidden>
       <p class="empty__text">${t.none}</p>
       <button class="chip" type="button" data-clear>${t.clear}</button>
     </div>
@@ -564,10 +601,13 @@ ${close(page, { scripts: ["products.js", ...(mode === "wide" ? ["products-wide.j
 /** The research's prose: a short line with no full stop is a heading. */
 function prose(text) {
   const lines = String(text || "").split(/\n+/).map((l) => plain(l)).filter(Boolean);
+  // Each block arrives as the catalogue's paragraphs do, the first few one
+  // after another when they reach the screen together.
   return lines
-    .map((line) => {
+    .map((line, i) => {
       const heading = line.length < 40 && !/[.،؛:]$/.test(line) && !/[.]\s/.test(line);
-      return heading ? `<h3 class="about__heading">${esc(line)}</h3>` : `<p>${esc(line)}</p>`;
+      const at = `style="--i:${Math.min(i, 3)}"`;
+      return heading ? `<h3 class="about__heading reveal" ${at}>${esc(line)}</h3>` : `<p class="reveal" ${at}>${esc(line)}</p>`;
     })
     .join("\n          ");
 }
@@ -622,7 +662,7 @@ function product(mode, lang, p) {
     ? `        <div class="plates">
 ${photos
   .map(
-    (ph, i) => `          <figure class="plate${i === 0 ? " plate--lead" : ""} cut zoomable" data-zoom style="--ratio: ${ph.width} / ${ph.height}">
+    (ph, i) => `          <figure class="plate${i === 0 ? " plate--lead" : ""}${wide ? "" : " cut"} place zoomable" data-zoom style="--ratio: ${ph.width} / ${ph.height}">
             <img src="${middle(page.prefix, ph)}"
                  srcset="${srcset(page.prefix, ph)}"
                  sizes="${i === 0 ? leadSizes : restSizes}"
@@ -644,7 +684,7 @@ ${photos
 
   const texture = p.textures[0];
   const download = texture
-    ? `          <div class="get">
+    ? `          <div class="get reveal" style="--i:3">
             <a class="get__button" href="${page.prefix}${texture.file}" download="${esc(p.slug)}-texture.${texture.format === "PNG" ? "png" : "jpg"}">
               <span class="icon icon--download" aria-hidden="true"></span>${t.download}
             </a>
@@ -652,7 +692,7 @@ ${photos
 ${t.textureMeta(texture).filter(Boolean).map((line) => `              <li>${line}</li>`).join("\n")}
             </ul>
           </div>`
-    : `          <p class="get get--none">${t.noTexture}</p>`;
+    : `          <p class="get get--none reveal" style="--i:3">${t.noTexture}</p>`;
 
   const description = p.description?.[lang]
     ? `    <section class="about" aria-labelledby="about">
@@ -703,12 +743,12 @@ ${bar(page, {
 ${gallery}
 
         <div class="card">
-          <a class="card__back" href="${links.listing()}">${t.back}</a>
-          <h1 class="card__name">${esc(name)}</h1>
-          <p class="card__alt" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</p>
+          <a class="card__back reveal" style="--i:0" href="${links.listing()}">${t.back}</a>
+          <h1 class="card__name headline">${words(name)}</h1>
+          <p class="card__alt reveal" style="--i:1" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</p>
 
           <h2 class="u-visually-hidden">${t.specs}</h2>
-          <dl class="specs">
+          <dl class="specs reveal" style="--i:2">
 ${specRows(lang, p).map(([k, v]) => `            <div class="spec">
               <dt class="spec__label">${esc(plain(k))}</dt>
               <dd class="spec__value">${esc(plain(v))}</dd>
