@@ -1,0 +1,1703 @@
+/* ==========================================================================
+   Behkooshan products
+
+   The stones the company sells, one to a cell, found by name, colour, type
+   and origin, each with a page of its own and its texture to download.
+
+   Drawn in the language of the digital catalogue (branch
+   Behkooshan-catalogue): white paper, the green printed in the catalogue
+   for every title and every filled control, a hairline for every rule, no
+   radius anywhere, and the one piece of brand geometry, the cut corner, on
+   every framed photograph. The first half of this file is taken from that
+   catalogue's stylesheet as it stands, so the two read as one; the second
+   half is what a catalogue of products needs that a printed catalogue did
+   not.
+
+   Written with logical properties throughout, so the same rules serve the
+   Persian site (rtl) and the English one (ltr).
+   ========================================================================== */
+
+/* --- Catalogue tokens -----------------------------------------------------
+   Layered over tokens.css. The brand greens stay as the guide sets them; the
+   one value added here is the green actually printed in the catalogue, read
+   off the PDF at rgb(24 75 54). It sits inside the brand's deep green family
+   and measures 10.2:1 on paper, so it carries headings as well as panels. */
+
+:root {
+  --print-green: #184b36;
+
+  --page: var(--paper);
+  --frame: var(--gutter);
+
+  /* The distance from the inside of the shell to the edge of the window.
+     A photograph given this as a negative margin runs off the edge, which is
+     what every photograph in the print does against the trimmed page. */
+  --bleed: calc(var(--frame) + max(0px, (100vw - var(--shell)) / 2));
+
+  /* Half the shell's text area. A two column section splits on this line,
+     so the type keeps the same measure whatever the window does with the
+     space outside the shell. */
+  --half: calc((min(var(--shell), 100vw) - 2 * var(--frame)) / 2);
+
+  /* A wider shell than the first design used. The print page is tall and
+     narrow; on screen the spread is the unit, so the text column can sit
+     inside a much wider field without the measure ever getting long. */
+  --shell: 84rem;
+  --gutter: clamp(20px, 5vw, 80px);
+
+  --bar-h: 3.75rem;
+
+  /* One radius for the whole document: none. The print has no rounded
+     corner anywhere and neither does the brand. */
+  --radius: 0;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 60rem) {
+  :root {
+    --bar-h: 4.25rem;
+  }
+}
+
+/* --- Reset ---------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  /* The bar is fixed, so an anchored jump has to stop short of it. */
+  scroll-padding-block-start: var(--bar-h);
+  -webkit-text-size-adjust: 100%;
+
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--page);
+  color: var(--ink);
+  font-size: var(--step-0);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html[lang="fa"] body {
+  font-family: var(--font-fa);
+  line-height: var(--leading-body-fa);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-en);
+  line-height: var(--leading-body-en);
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+/* The UA rule for [hidden] loses to any author `display`, and several
+   components here set one. The contents button ships hidden and is shown by
+   script, so without this it would be offered on a page that cannot open it. */
+[hidden] {
+  display: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--print-green);
+  outline-offset: 3px;
+}
+
+::selection {
+  background-color: var(--print-green);
+  color: var(--paper);
+}
+
+/* --- The cut corner -------------------------------------------------------
+   The brand's one piece of geometry, and the shape the print clips its
+   portraits into: a notch off the corner of the frame that faces the type.
+   It goes on the framed photographs only. A full bleed plate has no frame to
+   cut, and a notch out of a photograph running off the edge of the window
+   reads as a rendering fault rather than as a shape.
+
+   clip-path has no logical keywords, so rtl carries its own polygon. The
+   notch is a length rather than a percentage, which keeps it the same
+   forty five degrees on a square portrait and on a wide figure. */
+
+.cut {
+  --cut: 1.75rem;
+
+  /* The stroke is the padding: the frame paints it and the photograph sits
+     one pixel inside, so the line follows the diagonal as well as the four
+     straight edges. A plain border would be clipped away at the notch.
+     Half ink, which measures 3.5:1 on paper: enough to give a photograph
+     with a white studio ground an edge, quiet enough not to read as a
+     keyline round every picture. */
+  padding: var(--hairline);
+  background-color: var(--rule-strong);
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+html[dir="rtl"] .cut {
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
+}
+
+/* The photograph repeats the notch, one pixel in, so the stroke stays
+   visible along the diagonal instead of being covered by a square corner. */
+.cut img {
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--cut) + var(--hairline)) 0,
+    100% calc(var(--cut) - var(--hairline)),
+    100% 100%,
+    0 100%
+  );
+}
+
+html[dir="rtl"] .cut img {
+  clip-path: polygon(
+    calc(var(--cut) - var(--hairline)) 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(var(--cut) - var(--hairline))
+  );
+}
+
+/* Icons, from Phosphor (MIT, assets/icons/PHOSPHOR-LICENSE.txt), drawn as
+   masks so they take the colour of whatever holds them, as the brand's own
+   logos and social icons do. The url() is written here for the reason
+   shapes.css gives. */
+.icon {
+  display: inline-block;
+  flex: none;
+  aspect-ratio: 1;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.icon--search { --icon: url("../icons/magnifying-glass.svg"); }
+.icon--download { --icon: url("../icons/download-simple.svg"); }
+
+.u-visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip {
+  position: fixed;
+  z-index: var(--z-overlay);
+  inset-block-start: var(--space-2);
+  inset-inline-start: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  background-color: var(--print-green);
+  color: var(--paper);
+  font-size: var(--step--1);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+
+.skip:focus {
+  transform: none;
+}
+
+/* --- Shell ---------------------------------------------------------------- */
+
+.shell {
+  inline-size: 100%;
+  max-inline-size: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--frame);
+}
+
+
+/* ==========================================================================
+   The bar
+   Paper ground, hairline under it, the reading line along that hairline.
+   Three things on one row and nothing else: the mark, the contents button,
+   the other language.
+   ========================================================================== */
+
+.bar {
+  position: fixed;
+  z-index: var(--z-sticky);
+  inset-block-start: 0;
+  inset-inline: 0;
+  background-color: rgb(255 255 255 / 0.92);
+  backdrop-filter: blur(14px);
+  border-block-end: var(--hairline) solid var(--rule);
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  .bar {
+    background-color: var(--paper);
+  }
+}
+
+.bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-block-size: var(--bar-h);
+}
+
+.bar__logo {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  padding-inline-end: var(--space-2);
+  color: var(--print-green);
+}
+
+.bar__logo .bk-logo {
+  block-size: 1.125rem;
+  inline-size: auto;
+}
+
+html[lang="fa"] .bar__logo .bk-logo {
+  block-size: 1.375rem;
+}
+
+.bar__end {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* A phone's bar carries a mark and three controls, and at the sizes the rest
+   of the document is set at they are more than the row holds: the labels
+   break over two lines and the mark runs into them.
+
+   The mark gives first, and gives the most. The lockup is the wordmark
+   beside the mark, five times as wide as the mark on its own, and the name
+   is on the cover, in the footer and in the tab. The controls give a little
+   after it, which is padding rather than type: a label set smaller to fit is
+   a label that has been made harder to read in order to fit.
+
+   The url() has to be written here rather than in a style attribute for the
+   reason shapes.css gives, and this file sits in the same folder as that
+   one, so the path is the same. */
+@media (max-width: 30rem) {
+  .bar__logo .bk-logo,
+  html[lang="fa"] .bar__logo .bk-logo {
+    --shape: url("../logos/logo-mark.svg");
+    --shape-ratio: 49.15 / 51.7;
+
+    block-size: 1.5rem;
+  }
+
+  .bar__inner {
+    gap: var(--space-2);
+  }
+
+  /* Forty pixels rather than forty four. Three boxes that size across a
+     phone's bar read as three buttons shouting over the mark; forty is still
+     well over the twenty four WCAG 2.5.8 asks of a target, and over the
+     thirty six the platforms ask of one in a toolbar. */
+  .bar .chip {
+    min-block-size: 2.5rem;
+    padding-inline: var(--space-3);
+  }
+
+  /* And the bar's own margin comes in with them. */
+  .bar__inner {
+    padding-inline: var(--space-4);
+  }
+}
+
+/* The narrowest phones, where the longest of the labels ("Sideways") still
+   leaves the row a few pixels short. */
+@media (max-width: 22.5rem) {
+  .bar .chip {
+    padding-inline: var(--space-2);
+  }
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-block-size: 2.75rem;
+  min-inline-size: 2.75rem;
+  padding-inline: var(--space-4);
+  border: var(--hairline) solid var(--rule-strong);
+  background: none;
+  color: var(--print-green);
+  font: inherit;
+  font-size: var(--step--1);
+  line-height: 1;
+  /* A control is one line. Broken over two it stops reading as a button and
+     starts reading as a sentence that has been put in a box. */
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) linear,
+              color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear;
+}
+
+html[lang="en"] .chip {
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.chip:hover {
+  background-color: var(--print-green);
+  border-color: var(--print-green);
+  color: var(--paper);
+}
+
+.chip:active {
+  transform: translateY(1px);
+}
+
+/* On the narrowest phones the bar is the logo plus two chips in 280px of
+   room. The target stays 44px tall; only the side padding gives way. */
+@media (max-width: 22.5rem) {
+  .chip {
+    padding-inline: var(--space-3);
+  }
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.foot {
+  --cut: clamp(1.25rem, 3.5vw, 2.75rem);
+
+  position: relative;
+  overflow: hidden;
+  /* Pulled up by exactly the cut, so the wedge the angle takes out of the
+     panel is filled by the last photograph rather than by a white gap. */
+  margin-block-start: calc(var(--cut) * -1);
+  padding-block: calc(clamp(2rem, 3.5vw, 2.75rem) + var(--cut)) clamp(2rem, 3.5vw, 2.75rem);
+  background-color: var(--print-green);
+  color: var(--paper);
+  /* The angled edge the stationery cuts into a green panel. It leans the
+     other way in the Persian document so the rise always follows the
+     reading direction. */
+  clip-path: polygon(0 var(--cut), 100% 0, 100% 100%, 0 100%);
+}
+
+html[dir="rtl"] .foot {
+  clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+@media (max-width: 40rem) {
+  .foot {
+    --cut: 0px;
+  }
+}
+
+/* One brand shape, tone on tone, bleeding off the top edge. The guide only
+   ever puts a shape on a green panel, and only one per view. */
+.foot__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 8vw, 6rem);
+}
+
+.foot__brand {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: start;
+}
+
+.foot .bk-logo {
+  block-size: 1.5rem;
+  inline-size: auto;
+  color: var(--paper);
+}
+
+html[lang="fa"] .foot .bk-logo {
+  block-size: 1.75rem;
+}
+
+.foot a {
+  color: var(--paper);
+}
+
+.foot :focus-visible {
+  outline-color: var(--paper);
+}
+
+.foot__title {
+  margin-block-end: var(--space-4);
+  color: var(--paper);
+  font-size: var(--step-0);
+}
+
+/* Tracking is for the Latin only: spaced out, Persian is pulled apart at the
+   joins between its letters. */
+html[lang="en"] .foot__title {
+  letter-spacing: 0.02em;
+}
+
+html[lang="fa"] .foot__title {
+  font-weight: 700;
+}
+
+html[lang="en"] .foot__title {
+  font-weight: 600;
+}
+
+.foot__contact {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: start;
+  /* <address> is italic by default, which neither brand face is drawn for. */
+  font-style: normal;
+}
+
+/* The address is the one paragraph here, so it takes body size and a
+   measure short enough to break where the address itself does. */
+.foot__address {
+  max-inline-size: 34ch;
+  font-size: var(--step--1);
+  line-height: 1.7;
+  color: var(--on-inverse-muted);
+}
+
+html[lang="fa"] .foot__address {
+  line-height: 1.9;
+}
+
+/* The numbers are what a reader comes to the footer for, so they are set
+   at reading size rather than as fine print, and sit on one line. */
+.foot__tels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+}
+
+.foot__contact a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 1.75rem;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.foot__tel {
+  font-size: var(--step-1);
+  font-variant-numeric: tabular-nums;
+  /* Persian digits, but the number still reads left to right. */
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+html[lang="fa"] .foot__tel {
+  font-weight: 500;
+}
+
+html[lang="en"] .foot__tel {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.foot__contact a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.foot__social {
+  display: flex;
+  gap: var(--space-2);
+  margin-block-start: var(--space-4);
+}
+
+/* A 44px target with the mark drawn inside it, so the icon can stay small
+   without the thing being hard to hit. */
+.foot__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: var(--hairline) solid var(--rule-inverse);
+  transition: background-color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear;
+}
+
+.foot__social a:hover {
+  background-color: var(--paper);
+  border-color: var(--paper);
+  color: var(--print-green);
+}
+
+.foot__social .bk-icon {
+  inline-size: 1.125rem;
+}
+
+.foot__site {
+  font-size: var(--step--1);
+}
+
+/* On its own rather than inside a sentence, so WCAG 2.5.8 applies: the
+   target has to reach 24px even though the line box does not. */
+.foot__site a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 1.75rem;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.25em;
+}
+
+
+/* ==========================================================================
+   The photograph viewer
+
+   Only offered once the script that runs it is in the page: html.has-lightbox
+   is the last thing lightbox.js does. Until then a photograph is a picture
+   and nothing invites a click on it.
+   ========================================================================== */
+
+/* The button sits over the whole figure, so the photograph is the target.
+   It carries no visible chrome of its own; the figure's own scale on hover
+   is the affordance, and the focus ring is the keyboard's. */
+.lb-open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+html:not(.has-lightbox) .lb-open {
+  display: none;
+}
+
+.has-lightbox .zoomable {
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .has-lightbox .zoomable img {
+    transition: transform 700ms var(--ease-out), filter 700ms var(--ease-out);
+  }
+
+  .has-lightbox .zoomable:has(.lb-open:hover) img,
+  .has-lightbox .zoomable:has(.lb-open:focus-visible) img {
+    transform: scale(1.03);
+  }
+}
+
+.lb {
+  inline-size: 100%;
+  max-inline-size: 100%;
+  block-size: 100dvh;
+  max-block-size: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgb(8 12 10 / 0.97);
+  color: var(--paper);
+  overflow: hidden;
+}
+
+.lb::backdrop {
+  background-color: rgb(8 12 10 / 0.97);
+}
+
+.lb__stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  /* One row and one column, both a definite fraction of the stage. Left to
+     size themselves from their content the track is indefinite, and
+     max-block-size: 100% on the picture then resolves against nothing and
+     behaves as none, so a portrait photograph runs off the bottom of the
+     window instead of fitting. */
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2.5rem);
+  /* One picture and no text, so it has no reading direction to keep. */
+  direction: ltr;
+  overflow: hidden;
+  touch-action: none;
+  cursor: zoom-in;
+}
+
+.lb__stage.is-zoomed {
+  cursor: grab;
+}
+
+.lb__stage.is-dragging {
+  cursor: grabbing;
+}
+
+.lb__img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+  inline-size: auto;
+  block-size: auto;
+  min-inline-size: 0;
+  min-block-size: 0;
+  object-fit: contain;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Between one photograph and the next. The transition itself is written
+   inline by the script, alongside the transform. */
+.lb__img.is-loading {
+  opacity: 0;
+}
+
+/* Head and foot float over the picture. Both are a gradient rather than a
+   bar so the photograph runs behind them uninterrupted. */
+.lb__bar {
+  position: absolute;
+  inset-inline: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) clamp(1rem, 3vw, 2rem);
+  pointer-events: none;
+}
+
+.lb__bar > * {
+  pointer-events: auto;
+}
+
+.lb__bar--top {
+  inset-block-start: 0;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, rgb(8 12 10 / 0.85), transparent);
+}
+
+.lb__bar--bottom {
+  inset-block-end: 0;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgb(8 12 10 / 0.85), transparent);
+}
+
+.lb__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.lb__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: var(--hairline) solid rgb(255 255 255 / 0.35);
+  background: none;
+  color: var(--paper);
+  font: inherit;
+  font-size: var(--step-1);
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear,
+              color var(--dur-fast) linear,
+              opacity var(--dur-fast) linear;
+}
+
+.lb__btn:hover:not(:disabled) {
+  background-color: var(--paper);
+  border-color: var(--paper);
+  color: var(--ink);
+}
+
+.lb__btn:disabled {
+  opacity: 0.32;
+  cursor: default;
+}
+
+.lb :focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 3px;
+}
+
+/* The only thing printed over the picture: where you are in the set. */
+.lb__counter {
+  font-size: var(--step--2);
+  color: rgb(255 255 255 / 0.7);
+  font-variant-numeric: tabular-nums;
+}
+
+
+
+/* ==========================================================================
+   The page
+   The bar is fixed, so every page starts a bar's height down. The footer
+   follows white rather than a photograph here, so it stands off the page
+   by a gap instead of being pulled up under it.
+   ========================================================================== */
+
+.page {
+  padding-block-start: var(--bar-h);
+}
+
+.foot {
+  margin-block-start: clamp(4rem, 9vw, 7.5rem);
+}
+
+/* A title in the catalogue's green, the one weight a heading has. */
+.section-title,
+.intro__title,
+.group__title,
+.card__name {
+  color: var(--print-green);
+  text-wrap: balance;
+}
+
+html[lang="fa"] .section-title,
+html[lang="fa"] .intro__title,
+html[lang="fa"] .group__title,
+html[lang="fa"] .card__name {
+  font-weight: 700;
+}
+
+html[lang="en"] .section-title,
+html[lang="en"] .intro__title,
+html[lang="en"] .group__title,
+html[lang="en"] .card__name {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.section-title {
+  margin-block-end: var(--space-6);
+  font-size: var(--step-2);
+  line-height: 1.3;
+}
+
+
+/* ==========================================================================
+   The stones
+   ========================================================================== */
+
+/* --- Intro ----------------------------------------------------------------
+   The page's title and one factual line under it: how many stones, and
+   where from. The grid is the page; this only says what it is. */
+
+.intro {
+  padding-block: clamp(2.5rem, 6vw, 4.75rem) clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.intro__title {
+  font-size: var(--step-5);
+  line-height: 1.15;
+}
+
+html[lang="fa"] .intro__title {
+  line-height: 1.35;
+}
+
+.intro__lede {
+  margin-block-start: var(--space-3);
+  color: var(--ink-muted);
+  font-size: var(--step-0);
+}
+
+/* --- Filters --------------------------------------------------------------
+   The name first, because a stone is most often looked for by the name it
+   was quoted under; then the three things a stone is chosen by, each a row
+   of choices that can be combined. Choosing nothing in a row means all of
+   it. The row of rules above and below makes the block one instrument
+   rather than three loose lists.
+
+   Offered only once the script is in the page: without it every stone is
+   shown and there is nothing for the controls to do. */
+
+.filters {
+  display: none;
+}
+
+html.js .filters {
+  display: block;
+  border-block: var(--hairline) solid var(--rule);
+}
+
+.filters__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-5);
+  padding-block: var(--space-5) var(--space-6);
+}
+
+.filters__label {
+  display: block;
+  margin-block-end: var(--space-2);
+  padding: 0;
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  line-height: 1.4;
+}
+
+html[lang="en"] .filters__label {
+  letter-spacing: 0.02em;
+}
+
+html[lang="fa"] .filters__label {
+  font-weight: 500;
+}
+
+.facet {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.facet__picks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.facets {
+  display: grid;
+  gap: var(--space-5);
+}
+
+/* On a phone the three rows fold behind one control, so the first stones
+   are on the first screen; the name stays open, because it is what most
+   readers came with. The control says how many choices are made. */
+.filters__toggle {
+  display: none;
+  justify-self: start;
+}
+
+.filters__active {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 39.9375rem) {
+  .filters__toggle {
+    display: inline-flex;
+  }
+
+  .filters__toggle[aria-expanded="true"] {
+    background-color: var(--print-green);
+    border-color: var(--print-green);
+    color: var(--paper);
+  }
+
+  .filters:not(.is-open) .facets {
+    display: none;
+  }
+
+  .intro {
+    padding-block: var(--space-8) var(--space-5);
+  }
+}
+
+/* The search field. Square like everything else, a hairline that turns
+   green when it has the focus, and the mark of a lens drawn inside it with
+   two pieces of border rather than a picture. */
+.search {
+  position: relative;
+}
+
+.search__input {
+  inline-size: 100%;
+  min-block-size: 3rem;
+  padding-block: 0;
+  padding-inline: 2.75rem var(--space-4);
+  border: var(--hairline) solid var(--rule-strong);
+  border-radius: 0;
+  background-color: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--step-0);
+  line-height: 1.2;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search__input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.search__input:hover {
+  border-color: var(--ink);
+}
+
+.search__input:focus-visible {
+  outline: none;
+  border-color: var(--print-green);
+  box-shadow: inset 0 0 0 1px var(--print-green);
+}
+
+.search__icon {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: var(--space-4);
+  inline-size: 1.125rem;
+  color: var(--ink-muted);
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* A choice. The same square box as the bar's chips, smaller, in ink, and
+   filled with the green once it is chosen, which is the one state change a
+   reader has to be able to see at a glance across a row. */
+.pick {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-block-size: 2.5rem;
+  padding-inline: var(--space-4);
+  border: var(--hairline) solid var(--rule-strong);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--step--1);
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) linear,
+              border-color var(--dur-fast) linear,
+              color var(--dur-fast) linear;
+}
+
+html[lang="fa"] .pick {
+  font-weight: 500;
+}
+
+html[lang="en"] .pick {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.pick:hover {
+  border-color: var(--print-green);
+  color: var(--print-green);
+}
+
+.pick:active {
+  transform: translateY(1px);
+}
+
+.pick[aria-pressed="true"] {
+  background-color: var(--print-green);
+  border-color: var(--print-green);
+  color: var(--paper);
+}
+
+/* The colour of a stone as a small square of it, named beside it: a row of
+   squares alone asks a reader to tell grey from a blue grey by eye. The
+   squares are stone colours, not screen colours, muted to sit next to the
+   photographs they stand for. */
+.pick__swatch {
+  display: inline-block;
+  flex: none;
+  inline-size: 0.875rem;
+  block-size: 0.875rem;
+  box-shadow: inset 0 0 0 var(--hairline) rgb(16 20 18 / 0.28);
+}
+
+.pick[aria-pressed="true"] .pick__swatch {
+  box-shadow: 0 0 0 var(--hairline) var(--paper);
+}
+
+.pick__swatch--white { background-color: #f3f2ec; }
+.pick__swatch--cream { background-color: #d9c8a4; }
+.pick__swatch--grey  { background-color: #9c9d98; }
+.pick__swatch--black { background-color: #1f2221; }
+.pick__swatch--green { background-color: #3f6751; }
+.pick__swatch--blue  { background-color: #4d6b87; }
+.pick__swatch--pink  { background-color: #d5aba7; }
+
+.filters__status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-5);
+}
+
+.filters__count {
+  color: var(--print-green);
+  font-size: var(--step-0);
+  font-variant-numeric: tabular-nums;
+}
+
+html[lang="fa"] .filters__count {
+  font-weight: 700;
+}
+
+html[lang="en"] .filters__count {
+  font-weight: 600;
+}
+
+.filters__clear {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink-muted);
+  font: inherit;
+  font-size: var(--step--1);
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.3em;
+  cursor: pointer;
+}
+
+.filters__clear:hover {
+  color: var(--print-green);
+}
+
+/* Across a laptop the four sit in one band: the name and the count on the
+   first line, the three rows of choices side by side under them. */
+@media (min-width: 64rem) {
+  .filters__inner {
+    grid-template-columns: minmax(18rem, 30rem) minmax(0, 1fr);
+    grid-template-areas:
+      "search status"
+      "facets facets";
+    align-items: end;
+    column-gap: var(--space-12);
+  }
+
+  .filters__search { grid-area: search; }
+  .facets { grid-area: facets; }
+
+  .filters__status {
+    grid-area: status;
+    justify-content: flex-end;
+    min-block-size: 3rem;
+  }
+
+  /* Type and origin one over the other, and the colours beside them in a
+     single row, the one row of choices a stone is most often picked by. */
+  .facets {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "type colour"
+      "origin colour";
+    column-gap: clamp(2.5rem, 4vw, 4rem);
+    row-gap: var(--space-4);
+    padding-block-start: var(--space-5);
+    border-block-start: var(--hairline) solid var(--rule);
+  }
+
+  .facet:nth-of-type(1) { grid-area: type; }
+  .facet:nth-of-type(2) { grid-area: origin; }
+  .facet--colour { grid-area: colour; }
+
+  .facets .pick {
+    padding-inline: var(--space-3);
+  }
+
+  /* The label beside its row rather than over it, so the two short rows
+     stack into the height of the colour row and its label. */
+  .facet:not(.facet--colour) {
+    display: grid;
+    grid-template-columns: 4.5rem auto;
+    align-items: center;
+  }
+
+  .facet:not(.facet--colour) .filters__label {
+    float: inline-start;
+    margin-block-end: 0;
+  }
+}
+
+/* --- The way back to the filters ------------------------------------------
+   Ninety stones are ten screens of a phone. Once the filters are behind the
+   reader, one square at the foot of the screen takes them back, and says
+   how many stones are showing. */
+
+.back-to-filters {
+  position: fixed;
+  z-index: var(--z-sticky);
+  inset-block-end: var(--space-4);
+  inset-inline-end: var(--space-4);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-block-size: 3rem;
+  padding-inline: var(--space-5);
+  border: 0;
+  background-color: var(--print-green);
+  color: var(--paper);
+  font: inherit;
+  font-size: var(--step--1);
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 10px 28px -12px rgb(24 75 54 / 0.55);
+  transform: translateY(calc(100% + var(--space-6)));
+  transition: transform var(--dur) var(--ease-out);
+}
+
+html[lang="fa"] .back-to-filters {
+  font-weight: 500;
+}
+
+html[lang="en"] .back-to-filters {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.back-to-filters.is-shown {
+  transform: none;
+}
+
+.back-to-filters:focus-visible {
+  outline-color: var(--print-green);
+}
+
+.back-to-filters__count {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}
+
+/* --- Groups ---------------------------------------------------------------
+   Domestic stones, then imported ones, each under its title and a count
+   that follows the filters. A group the filters empty goes with them. */
+
+.group {
+  padding-block-start: clamp(2.5rem, 5vw, 4rem);
+}
+
+.group__title {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-block-end: var(--space-6);
+  font-size: var(--step-2);
+  line-height: 1.3;
+}
+
+.group__count {
+  color: var(--ink-muted);
+  font-size: var(--step-0);
+  font-variant-numeric: tabular-nums;
+}
+
+html[lang="fa"] .group__count {
+  font-weight: 400;
+}
+
+html[lang="en"] .group__count {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* --- The grid ---------------------------------------------------------------
+   A stone to a cell, as tall as a slab stands: four to five. Two across a
+   phone, which is the most a stone can be seen as a stone at, and up to
+   five across a wide screen. The count of columns is written down rather
+   than left to auto-fill, because the quarry's cell is two of them wide
+   and has to know how tall one is. */
+
+.stones {
+  --cols: 2;
+  --gap: clamp(0.75rem, 2vw, 1.5rem);
+
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  gap: clamp(1.75rem, 3.5vw, 2.75rem) var(--gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  container-type: inline-size;
+}
+
+@media (min-width: 40rem) {
+  .stones { --cols: 3; }
+}
+
+@media (min-width: 64rem) {
+  .stones { --cols: 4; }
+}
+
+@media (min-width: 90rem) {
+  .stones { --cols: 5; }
+}
+
+.stone[hidden] {
+  display: none;
+}
+
+.stone__link {
+  display: grid;
+  gap: var(--space-1);
+  color: inherit;
+  text-decoration: none;
+}
+
+.stone__frame {
+  --cut: clamp(0.875rem, 2.2vw, 1.25rem);
+
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  margin-block-end: var(--space-3);
+  background-color: var(--rule-strong);
+}
+
+/* The photograph fills the frame and is cropped to it; the frame's own
+   ground shows through for the moment before the file arrives. */
+.stone__frame img {
+  position: absolute;
+  inset: var(--hairline);
+  inline-size: calc(100% - 2 * var(--hairline));
+  block-size: calc(100% - 2 * var(--hairline));
+  object-fit: cover;
+  background-color: var(--bone-soft);
+  transition: transform 900ms var(--ease-out);
+}
+
+@media (hover: hover) {
+  .stone__link:hover .stone__frame img {
+    transform: scale(1.045);
+  }
+
+  .stone__link:hover .stone__name {
+    color: var(--print-green);
+  }
+}
+
+.stone__link:focus-visible {
+  outline-offset: 6px;
+}
+
+.stone__name {
+  color: var(--ink);
+  font-size: var(--step-0);
+  line-height: 1.35;
+  transition: color var(--dur-fast) linear;
+}
+
+html[lang="fa"] .stone__name {
+  font-weight: 700;
+}
+
+html[lang="en"] .stone__name {
+  font-weight: 600;
+}
+
+.stone__alt,
+.stone__meta {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  line-height: 1.45;
+}
+
+.stone__alt[lang="en"] {
+  font-family: var(--font-en);
+}
+
+.stone__alt[lang="fa"] {
+  font-family: var(--font-fa);
+}
+
+/* A stone with no photograph published: its cell in bone, with one of the
+   brand's shapes in it, rather than an empty frame or a broken image. */
+.stone__none {
+  position: absolute;
+  inset: var(--hairline);
+  display: grid;
+  place-items: center;
+  background-color: var(--bone-soft);
+  color: var(--bone);
+}
+
+.stone__none .bk-shape {
+  inline-size: 46%;
+}
+
+/* The quarry, two cells wide and exactly as tall as one: the company's own
+   granite, at the head of the stones that come out of Iran. */
+.stone--feature {
+  grid-column: span 2;
+}
+
+.stone--feature .stone__frame {
+  aspect-ratio: auto;
+  block-size: calc((100cqi - (var(--cols) - 1) * var(--gap)) / var(--cols) * 1.25);
+}
+
+/* --- Nothing found ------------------------------------------------------- */
+
+.empty {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-5);
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.empty[hidden] {
+  display: none;
+}
+
+.empty__text {
+  max-inline-size: 34ch;
+  color: var(--print-green);
+  font-size: var(--step-2);
+  line-height: 1.4;
+}
+
+html[lang="fa"] .empty__text {
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+html[lang="en"] .empty__text {
+  font-weight: 600;
+}
+
+
+/* ==========================================================================
+   One stone
+   ========================================================================== */
+
+.stone-page__inner {
+  display: grid;
+  gap: clamp(2rem, 4vw, 3rem);
+  padding-block-start: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* The photographs: the slab large, and its other pictures two to a row
+   under it. Each is framed and cut the way every framed photograph in the
+   catalogue is. */
+.plates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  align-content: start;
+}
+
+.plate {
+  --cut: clamp(1rem, 2.4vw, 1.75rem);
+
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.plate img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  background-color: var(--bone-soft);
+}
+
+.plate--lead,
+.plate:last-child:nth-child(even) {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 10;
+}
+
+.plate--none {
+  display: grid;
+  place-items: center;
+  gap: var(--space-4);
+  padding: var(--space-8);
+  background-color: var(--bone-soft);
+  color: var(--bone);
+  text-align: center;
+}
+
+.plate--none .bk-shape {
+  inline-size: min(12rem, 40%);
+}
+
+.plate__none {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+/* The card: what the stone is called, what it is, and its texture. */
+.card {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+}
+
+.card__back {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  margin-block-end: var(--space-4);
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.3em;
+}
+
+.card__back:hover {
+  color: var(--print-green);
+}
+
+.card__name {
+  font-size: var(--step-4);
+  line-height: 1.15;
+}
+
+html[lang="fa"] .card__name {
+  line-height: 1.4;
+}
+
+.card__alt {
+  margin-block-start: var(--space-2);
+  color: var(--ink-muted);
+  font-size: var(--step-0);
+}
+
+.card__alt[lang="en"] {
+  font-family: var(--font-en);
+}
+
+.card__alt[lang="fa"] {
+  font-family: var(--font-fa);
+}
+
+/* The specification, a cell to each fact on a hairline grid. Each cell
+   draws its own rule, so a stone with three facts draws three cells and
+   not three cells and a grey remainder. */
+.specs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--hairline);
+  inline-size: 100%;
+  margin-block-start: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+
+.spec {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-5);
+  box-shadow: 0 0 0 var(--hairline) var(--rule);
+}
+
+.spec__label {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+.spec__value {
+  margin: 0;
+  color: var(--ink);
+  font-size: var(--step-0);
+  line-height: 1.5;
+}
+
+html[lang="fa"] .spec__value {
+  font-weight: 500;
+}
+
+.spec__value--swatches {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+}
+
+.swatch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.spec__note {
+  flex-basis: 100%;
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+/* The texture: the file the brand published, at the size it published it,
+   with that size said before it is downloaded. */
+.get {
+  display: grid;
+  gap: var(--space-3);
+  justify-items: start;
+  margin-block-start: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+
+.get__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  min-block-size: 3.25rem;
+  padding-inline: var(--space-8);
+  background-color: var(--print-green);
+  color: var(--paper);
+  font-size: var(--step-0);
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color var(--dur-fast) linear;
+}
+
+html[lang="fa"] .get__button {
+  font-weight: 700;
+}
+
+html[lang="en"] .get__button {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.get__button:hover {
+  background-color: var(--green-deep);
+}
+
+.get__button:active {
+  transform: translateY(1px);
+}
+
+.get__button .icon {
+  inline-size: 1.25rem;
+}
+
+.get__meta {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+.get--none {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+/* Two columns from a laptop up: the photographs take the larger share and
+   the card stays beside them while they are scrolled past. */
+@media (min-width: 64rem) {
+  .stone-page__inner {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    align-items: start;
+    column-gap: clamp(2.5rem, 5vw, 5rem);
+  }
+
+  .card {
+    position: sticky;
+    inset-block-start: calc(var(--bar-h) + var(--space-8));
+  }
+}
+
+@media (max-width: 30rem) {
+  .get,
+  .get__button {
+    inline-size: 100%;
+  }
+}
+
+/* --- About the quarry ------------------------------------------------------
+   The one stone with writing of its own. One column at a reading measure,
+   justified as the catalogue's running text is. */
+
+.about {
+  padding-block-start: clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.about__text {
+  max-inline-size: 40rem;
+}
+
+.about__text p {
+  text-align: justify;
+  text-align-last: start;
+}
+
+html[lang="fa"] .about__text p {
+  letter-spacing: 0;
+  hyphens: none;
+}
+
+html[lang="en"] .about__text p {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.about__text p + p {
+  margin-block-start: var(--space-4);
+}
+
+.about__heading {
+  margin-block: var(--space-8) var(--space-3);
+  color: var(--print-green);
+  font-size: var(--step-1);
+  line-height: 1.4;
+}
+
+.about__heading:first-child {
+  margin-block-start: 0;
+}
+
+html[lang="fa"] .about__heading {
+  font-weight: 700;
+}
+
+html[lang="en"] .about__heading {
+  font-weight: 600;
+}
+
+/* --- Of the same colour --------------------------------------------------- */
+
+.related {
+  padding-block-start: clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.stones--row {
+  --cols: 2;
+}
+
+@media (min-width: 40rem) {
+  .stones--row { --cols: 4; }
+}
+
+
+/* ==========================================================================
+   Motion
+   A stone that comes back into the grid when a filter changes fades up
+   where it lands; the photographs lean in a little under the pointer.
+   Nothing else moves on its own.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+  .stone.is-arriving {
+    animation: stone-in 320ms var(--ease-out) both;
+  }
+}
+
+@keyframes stone-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stone__frame img,
+  .back-to-filters {
+    transition: none;
+  }
+}

@@ -1,0 +1,6633 @@
+[
+ {
+  "slug": "absolute-black",
+  "name": {
+   "fa": "ابسولوت بلک",
+   "en": "Absolute Black"
+  },
+  "site_name": {
+   "fa": "Absolute Black",
+   "en": "Absolute Black"
+  },
+  "legacy_names": [
+   "ابسلوت بلک",
+   "اسلب گرانیت ابسولوت بلک"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/absolute-black/01-absolute-black-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ابسولوت بلک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Absolute Black – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/absolute-black/02-1698175922",
+    "widths": [
+     480,
+     800,
+     1088
+    ],
+    "width": 1088,
+    "height": 940,
+    "kind": "project",
+    "alt": {
+     "fa": "ابسولوت بلک – تصویر بخش پروژه‌های سایت",
+     "en": "Absolute Black – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/absolute-black/textures/01-Absolute-Black.jpg",
+    "width": 1400,
+    "height": 901,
+    "bytes": 263084,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "alaska-white",
+  "name": {
+   "fa": "آلاسکا وایت",
+   "en": "Alaska White"
+  },
+  "site_name": {
+   "fa": "Alaska White",
+   "en": "Alaska White"
+  },
+  "legacy_names": [
+   "آلاسکا",
+   "الاسکا وایت"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/alaska-white/01-alaska-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "آلاسکا وایت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Alaska White – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/alaska-white/images/01-Alaska-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 132444,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "amazonite",
+  "name": {
+   "fa": "آمازونیت",
+   "en": "Amazonite"
+  },
+  "site_name": {
+   "fa": "Amazonite",
+   "en": "Amazonite"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ماداگاسکار",
+   "en": "Madagascar"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ماداگاسکار",
+    "رنگ": [
+     "آبی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Madagascar",
+    "Colour": [
+     "Blue"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "blue"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/amazonite/01-amazonite-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "آمازونیت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Amazonite – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/amazonite/textures/01-Amazonite.jpg",
+    "width": 1103,
+    "height": 910,
+    "bytes": 393186,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "andromeda",
+  "name": {
+   "fa": "آندرومدا",
+   "en": "Andromeda"
+  },
+  "site_name": {
+   "fa": "Andromeda",
+   "en": "Andromeda"
+  },
+  "legacy_names": [
+   "آندومدا"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "سریلانکا",
+   "en": "Sri-Lanka"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "سریلانکا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Sri-Lanka",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/andromeda/01-andromeda-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "آندرومدا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Andromeda – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/andromeda/textures/01-Andromeda.jpg",
+    "width": 1365,
+    "height": 877,
+    "bytes": 303622,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "bellatrix",
+  "name": {
+   "fa": "بلاتریکس",
+   "en": "Bellatrix"
+  },
+  "site_name": {
+   "fa": "Bellatrix",
+   "en": "Bellatrix"
+  },
+  "legacy_names": [
+   "بلاتریکس لیتر",
+   "بیلاترکس"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/bellatrix/01-bellatrix",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1229,
+    "kind": "main",
+    "alt": {
+     "fa": "بلاتریکس – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Bellatrix – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/bellatrix/02-bellatrix-project",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1640,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+     "en": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "belvedere",
+  "name": {
+   "fa": "بلودره",
+   "en": "Belvedere"
+  },
+  "site_name": {
+   "fa": "Belvedere",
+   "en": "Belvedere"
+  },
+  "legacy_names": [
+   "بیلویدیری"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/belvedere/01-belvedere-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلودره – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Belvedere – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/belvedere/02-belvedere-1-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلودره – تصویر بخش پروژه‌های سایت",
+     "en": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/belvedere/textures/01-belvedere.jpg",
+    "width": 1543,
+    "height": 862,
+    "bytes": 248737,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "black-beat",
+  "name": {
+   "fa": "بلک بیت",
+   "en": "Black Beat"
+  },
+  "site_name": {
+   "fa": "Black Beat",
+   "en": "Black Beat"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-beat/01-black-beat-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک بیت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Beat – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/black-beat/textures/01-Black-Beat.jpg",
+    "width": 1554,
+    "height": 883,
+    "bytes": 333514,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "black-diamond",
+  "name": {
+   "fa": "بلک دایموند",
+   "en": "Black Diamond"
+  },
+  "site_name": {
+   "fa": "Black Diamond",
+   "en": "Black Diamond"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-diamond/01-black-diamond-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک دایموند – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Diamond – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/black-diamond/textures/01-Black-Diamond.jpg",
+    "width": 1370,
+    "height": 784,
+    "bytes": 182419,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "black-fantasy",
+  "name": {
+   "fa": "بلک فانتزی",
+   "en": "Black Fantasy"
+  },
+  "site_name": {
+   "fa": "Black Fantasy",
+   "en": "Black Fantasy"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "طوسی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Grey"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-fantasy/01-black-fantasy",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک فانتزی – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Fantasy – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/black-fantasy/images/01-black-fantasy.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 57282,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "black-galaxy",
+  "name": {
+   "fa": "بلک گلکسی",
+   "en": "Black Galaxy"
+  },
+  "site_name": {
+   "fa": "Black Galaxy",
+   "en": "Black Galaxy"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-galaxy/01-black-galaxy-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک گلکسی – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Galaxy – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/black-galaxy/textures/01-Black-Galaxy.jpg",
+    "width": 1500,
+    "height": 907,
+    "bytes": 156408,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "black-horse",
+  "name": {
+   "fa": "بلک هورس",
+   "en": "Black Horse"
+  },
+  "site_name": {
+   "fa": "Black Horse",
+   "en": "Black Horse"
+  },
+  "legacy_names": [
+   "بلک هورس اکسترا"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-horse/01-black-horse-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک هورس – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Horse – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/black-horse/02-black-horse-2-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+     "en": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "black-tempest",
+  "name": {
+   "fa": "بلک تمپست",
+   "en": "Black Tempest"
+  },
+  "site_name": {
+   "fa": null,
+   "en": null
+  },
+  "legacy_names": [],
+  "category": null,
+  "type": null,
+  "type_label": {
+   "fa": null,
+   "en": null
+  },
+  "origin": {
+   "fa": null,
+   "en": null
+  },
+  "specs": {
+   "fa": {},
+   "en": {}
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "name",
+  "description": null,
+  "photos": [],
+  "textures": []
+ },
+ {
+  "slug": "black-zebra",
+  "name": {
+   "fa": "بلک زبرا",
+   "en": "Black Zebra"
+  },
+  "site_name": {
+   "fa": "Black Zebra",
+   "en": "Zebra"
+  },
+  "legacy_names": [
+   "اسلب گرانیت بلک زبرا A (رگه نازک)",
+   "اسلب گرانیت بلک زبرا B (رگه پهن)",
+   "بلک زبرا",
+   "زبرا"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/black-zebra/01-zebra-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک زبرا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Zebra – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/black-zebra/textures/01-Zebra.jpg",
+    "width": 1651,
+    "height": 856,
+    "bytes": 108093,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "blanco-potiguar",
+  "name": {
+   "fa": "بلانکو پوتیگوار",
+   "en": "Blanco Potiguar"
+  },
+  "site_name": {
+   "fa": "Blanco Potiguar",
+   "en": "Blanco Potiguar"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/blanco-potiguar/01-blanco-potiguar",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلانکو پوتیگوار – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Blanco Potiguar – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/blanco-potiguar/images/01-Blanco-Potiguar.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 177843,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "bronze-antique",
+  "name": {
+   "fa": "برنز آنتیک",
+   "en": "Bronze Antique"
+  },
+  "site_name": {
+   "fa": "Bronze Antique",
+   "en": "Bronze Antique"
+  },
+  "legacy_names": [
+   "برونزوانتی کیو"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "اکراین",
+   "en": "Ukraine"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "اکراین",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Ukraine",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/bronze-antique/01-bronze-antique",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "برنز آنتیک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Bronze Antique – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/bronze-antique/images/01-bronze-antique.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 108312,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "bubble-gray",
+  "name": {
+   "fa": "بابل گری",
+   "en": "Bubble Gray"
+  },
+  "site_name": {
+   "fa": "Bubble Gray",
+   "en": "Bubble Gray"
+  },
+  "legacy_names": [
+   "بابل",
+   "بابل گری"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey",
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/bubble-gray/01-bubble-gray-p",
+    "widths": [
+     480,
+     800,
+     969
+    ],
+    "width": 969,
+    "height": 691,
+    "kind": "listing",
+    "alt": {
+     "fa": "بابل گری – تصویر فهرست محصولات",
+     "en": "Bubble Gray – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "casper",
+  "name": {
+   "fa": "کاسپر",
+   "en": "Casper"
+  },
+  "site_name": {
+   "fa": "Casper",
+   "en": "Casper"
+  },
+  "legacy_names": [
+   "کاسپر",
+   "کسپر"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/casper/01-casper-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کاسپر – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Casper – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "casper-line",
+  "name": {
+   "fa": "کاسپر لاین",
+   "en": "Casper Line"
+  },
+  "site_name": {
+   "fa": "Casper Line",
+   "en": "Casper Line"
+  },
+  "legacy_names": [
+   "کسپر لاین"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/casper-line/01-casper-line-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کاسپر لاین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Casper Line – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/casper-line/textures/01-Casper-Line.jpg",
+    "width": 1337,
+    "height": 910,
+    "bytes": 253549,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "cohiba",
+  "name": {
+   "fa": "کوهیبا",
+   "en": "Cohiba"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Cohiba"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/cohiba/01-cohiba-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کوهیبا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Cohiba – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "colonial",
+  "name": {
+   "fa": "کلونیال",
+   "en": "Colonial"
+  },
+  "site_name": {
+   "fa": "Colonial",
+   "en": "Colonial"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "سریلانکا",
+   "en": "Sri-Lanka"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "سریلانکا",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Sri-Lanka",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/colonial/01-colonial",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کلونیال – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Colonial – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "copper-dune",
+  "name": {
+   "fa": "کاپر دیون",
+   "en": "Copper Dune"
+  },
+  "site_name": {
+   "fa": "Copper Dune",
+   "en": "Copper Dune"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/copper-dune/01-copper-dune-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کاپر دیون – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Copper-Dune"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/copper-dune/images/01-Copper-Dune-1.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 43727,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "cristallo-rosa",
+  "name": {
+   "fa": "کریستالو رزا",
+   "en": "Cristallo Rosa"
+  },
+  "site_name": {
+   "fa": "Cristallo Rosa",
+   "en": null
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "pink",
+   "cream",
+   "white"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/cristallo-rosa/01-crystal-rose-p-1024x755",
+    "widths": [
+     480,
+     800,
+     921
+    ],
+    "width": 921,
+    "height": 657,
+    "kind": "listing",
+    "alt": {
+     "fa": "کریستالو رزا – تصویر فهرست محصولات",
+     "en": "Cristallo Rosa – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "dalmata",
+  "name": {
+   "fa": "دالماتا",
+   "en": "Dalmata"
+  },
+  "site_name": {
+   "fa": "Dalmata",
+   "en": "Dalmata"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی",
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Brazil",
+    "Colour": [
+     "Black",
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black",
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/dalmata/01-oreo",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "دالماتا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "oreo"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "dark-golden-lightning",
+  "name": {
+   "fa": "دارک گلدن لایتنینگ",
+   "en": "Dark Golden Lightning"
+  },
+  "site_name": {
+   "fa": "Dark Golden Lightning",
+   "en": "Dark Golden Lightning"
+  },
+  "legacy_names": [
+   "اسلب گرانیت دارک گلدن لایتنینگ",
+   "گلدن لایتنینگ دارک"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream",
+   "green",
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/dark-golden-lightning/01-dark-golden-lightning-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "دارک گلدن لایتنینگ – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Dark Golden Lightning – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "dedalus",
+  "name": {
+   "fa": "ددالوس",
+   "en": "Dedalus"
+  },
+  "site_name": {
+   "fa": "Dedalus",
+   "en": "Dedalus"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/dedalus/01-dedalus",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1733,
+    "height": 903,
+    "kind": "main",
+    "alt": {
+     "fa": "ددالوس – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Dedalus – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/dedalus/textures/01-Dedalus.jpg",
+    "width": 1733,
+    "height": 903,
+    "bytes": 385464,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "delicate",
+  "name": {
+   "fa": "دلیکیت",
+   "en": "Delicate"
+  },
+  "site_name": {
+   "fa": "Delicate",
+   "en": "Delicate"
+  },
+  "legacy_names": [
+   "دیلیکاتوس"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream",
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/delicate/01-delicate-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "دلیکیت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Delicate – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "dolce-vita",
+  "name": {
+   "fa": "دولچه ویتا",
+   "en": "Dolce Vita"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Dolce Vita"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1729,
+    "height": 997,
+    "kind": "listing",
+    "alt": {
+     "fa": "دولچه ویتا – تصویر فهرست محصولات",
+     "en": "Dolce Vita – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "dover-blue",
+  "name": {
+   "fa": "دوور بلو",
+   "en": "Dover Blue"
+  },
+  "site_name": {
+   "fa": "Dover Blue",
+   "en": "Dover Blue"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "آبی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Angola",
+    "Colour": [
+     "Blue"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "blue"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/dover-blue/01-dover-blue-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "دوور بلو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Dover Blue – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/dover-blue/textures/01-Dover-Blue-scaled.jpg",
+    "width": 2560,
+    "height": 1441,
+    "bytes": 647643,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "elegant-brown",
+  "name": {
+   "fa": "الگانت براون",
+   "en": "Elegant Brown"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Elegant Brown"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/elegant-brown/01-elegant-brown-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "listing",
+    "alt": {
+     "fa": "الگانت براون – تصویر فهرست محصولات",
+     "en": "Elegant Brown – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "elegant-green",
+  "name": {
+   "fa": "الگانت گرین",
+   "en": "Elegant Green"
+  },
+  "site_name": {
+   "fa": "Elegant Green",
+   "en": "Elegant Green"
+  },
+  "legacy_names": [
+   "اسلب گرانیت دانه طلایی",
+   "الگانت",
+   "دانه طلایی"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green",
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/elegant-green/01-elegant-green-m-1024x629",
+    "widths": [
+     480,
+     800,
+     1024
+    ],
+    "width": 1024,
+    "height": 629,
+    "kind": "main",
+    "alt": {
+     "fa": "الگانت گرین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Elegant Green – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "emerald-quartzite",
+  "name": {
+   "fa": "امرالد کوارتزیت",
+   "en": "Emerald Quartzite"
+  },
+  "site_name": {
+   "fa": "Emerald Green",
+   "en": "Emerald Quartzite"
+  },
+  "legacy_names": [
+   "امرالد",
+   "امرالد کوارتزیت"
+  ],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/emerald-quartzite/01-emerald-quartzite-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "امرالد کوارتزیت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Emerald Quartzite – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "evolution-green",
+  "name": {
+   "fa": "اوولوشن گرین",
+   "en": "Evolution Green"
+  },
+  "site_name": {
+   "fa": "Evolution Green",
+   "en": "Evolution Green"
+  },
+  "legacy_names": [
+   "اسلب گرانیت دانه اناری",
+   "اولیون",
+   "دانه اناری"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/evolution-green/01-evolution-green-m-1024x629",
+    "widths": [
+     480,
+     800,
+     1024
+    ],
+    "width": 1024,
+    "height": 629,
+    "kind": "main",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Evolution Green – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/evolution-green/02-northgolestan-project-9-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1282,
+    "kind": "project",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+     "en": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "explosion-blue",
+  "name": {
+   "fa": "اکسپلوژن بلو",
+   "en": "Explosion Blue"
+  },
+  "site_name": {
+   "fa": "Explosion Blue",
+   "en": "Explosion Blue"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "blue",
+   "grey"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/explosion-blue/01-explosion-blue-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "اکسپلوژن بلو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Explosion Blue – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/explosion-blue/textures/01-Explosion-Blue.jpg",
+    "width": 1418,
+    "height": 874,
+    "bytes": 350216,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "gando",
+  "name": {
+   "fa": "گاندو",
+   "en": "Gando"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Gando"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/gando/01-gando-1-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "گاندو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Gando – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/gando/02-gando-03",
+    "widths": [
+     480,
+     563
+    ],
+    "width": 563,
+    "height": 1000,
+    "kind": "project",
+    "alt": {
+     "fa": "گاندو – تصویر بخش پروژه‌های سایت",
+     "en": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "grand-antique",
+  "name": {
+   "fa": "گرند آنتیک",
+   "en": "Grand Antique"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Grand Antique"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "فرانسه",
+   "en": "France"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "فرانسه",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "France",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/grand-antique/01-grand-antique",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1229,
+    "kind": "listing",
+    "alt": {
+     "fa": "گرند آنتیک – تصویر فهرست محصولات",
+     "en": "Grand Antique – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "green-shadow",
+  "name": {
+   "fa": "گرین شدو",
+   "en": "Green Shadow"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Green Shadow"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "مشکی",
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Black",
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black",
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/green-shadow/01-green-shadow-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "گرین شدو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Green Shadow – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/green-shadow/images/01-Green-Shadow-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 116121,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "infinity-gold",
+  "name": {
+   "fa": "اینفینیتی گلد",
+   "en": "Infinity Gold"
+  },
+  "site_name": {
+   "fa": "Infinity Gold",
+   "en": "Infinity Gold"
+  },
+  "legacy_names": [
+   "اینفینیتی",
+   "ینیتفینیتی"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/infinity-gold/01-infinity-gold-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "اینفینیتی گلد – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Infinity Gold – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/infinity-gold/02-42-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+     "en": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "jacaranda",
+  "name": {
+   "fa": "جاکاراندا",
+   "en": "Jacaranda"
+  },
+  "site_name": {
+   "fa": "Jacaranda",
+   "en": "Jacaranda"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/jacaranda/01-jacaranda-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "جاکاراندا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Jacaranda – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/jacaranda/02-2-1-scaled",
+    "widths": [
+     480,
+     721
+    ],
+    "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "جاکاراندا – تصویر بخش پروژه‌های سایت",
+     "en": "Jacaranda – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/jacaranda/textures/01-Jacaranda.jpg",
+    "width": 1411,
+    "height": 853,
+    "bytes": 373962,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "jasmin",
+  "name": {
+   "fa": "جاسمین",
+   "en": "Jasmin"
+  },
+  "site_name": {
+   "fa": "Jasmine",
+   "en": "Jasmin"
+  },
+  "legacy_names": [
+   "جاسمین",
+   "جاسمین گرین"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/jasmin/01-jasmin-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "جاسمین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Jasmin – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "jeriba-blue",
+  "name": {
+   "fa": "جریبا بلو",
+   "en": "Jeriba Blue"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Jeriba Blue"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "blue",
+   "grey"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/jeriba-blue/01-030618-001-68a56ffa74e19-1755672570-compressed",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1211,
+    "kind": "listing",
+    "alt": {
+     "fa": "جریبا بلو – تصویر فهرست محصولات",
+     "en": "Jeriba Blue – product listing image"
+    }
+   },
+   {
+    "base": "media/jeriba-blue/02-jeriba-blue-pr1",
+    "widths": [
+     480,
+     800,
+     922
+    ],
+    "width": 922,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+     "en": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/jeriba-blue/03-2338-038-2048x1141",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1141,
+    "kind": "project",
+    "alt": {
+     "fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+     "en": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "jet-black",
+  "name": {
+   "fa": "جت بلک",
+   "en": "Jet Black"
+  },
+  "site_name": {
+   "fa": "Jet Black",
+   "en": "Jet Black"
+  },
+  "legacy_names": [
+   "جت بلک"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/jet-black/01-jet-black-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "جت بلک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Jet Black – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "kojin",
+  "name": {
+   "fa": "کوجین",
+   "en": "Kojin"
+  },
+  "site_name": {
+   "fa": "Kojin",
+   "en": "Kojin"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/kojin/01-nehbandan",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کوجین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "nehbandan"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "kosmus-a",
+  "name": {
+   "fa": "کاسموس A",
+   "en": "Kosmus “A”"
+  },
+  "site_name": {
+   "fa": "“Kosmus “A",
+   "en": "Kosmus “A”"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم",
+     "طوسی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream",
+     "Grey"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream",
+   "grey"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/kosmus-a/01-kosmus-a-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کاسموس A – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Kosmus “A” – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/kosmus-a/textures/01-Kosmus-A.jpg",
+    "width": 1455,
+    "height": 868,
+    "bytes": 551644,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "kosmus-gold",
+  "name": {
+   "fa": "کاسموس گلد",
+   "en": "Kosmus Gold"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Kosmus Gold"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/kosmus-gold/01-kosmus-gold-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کاسموس گلد – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Kosmus Gold – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "lemurian-labradorite",
+  "name": {
+   "fa": "لابرادوریت لموریان",
+   "en": "Lemurian Labradorite"
+  },
+  "site_name": {
+   "fa": "Lemurian Labradorite",
+   "en": "Lemurian Labradorite"
+  },
+  "legacy_names": [
+   "لابرادوریته لموریان"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ماداگاسکار",
+   "en": "Madagascar"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ماداگاسکار",
+    "رنگ": [
+     "مشکی",
+     "آبی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Madagascar",
+    "Colour": [
+     "Black",
+     "Blue"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black",
+   "blue"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/lemurian-labradorite/01-labradorite-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "لابرادوریت لموریان – تصویر اصلی محصول (سطح اسلب)",
+     "en": "labradorite"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "lumix-wow",
+  "name": {
+   "fa": "لومیکس واو",
+   "en": "Lumix Wow"
+  },
+  "site_name": {
+   "fa": "Lumix Wow",
+   "en": "Lumix Wow"
+  },
+  "legacy_names": [
+   "لومیکس"
+  ],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "هند",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/lumix-wow/01-lumix-wow-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "لومیکس واو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Lumix Wow – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "magma-gold",
+  "name": {
+   "fa": "مگما گلد",
+   "en": "Magma Gold"
+  },
+  "site_name": {
+   "fa": "Magma Gold",
+   "en": "Magma Gold"
+  },
+  "legacy_names": [
+   "مگما",
+   "مگما گلد"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/magma-gold/01-magma-goldb",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "مگما گلد – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Magma_Goldb"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "malibu-red",
+  "name": {
+   "fa": "مالیبو رد",
+   "en": "Malibu Red"
+  },
+  "site_name": {
+   "fa": "Malibu Red",
+   "en": "Malibu Red"
+  },
+  "legacy_names": [
+   "اسلب گرانیت مالیبو رد",
+   "مالیبورد",
+   "ملبو"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream",
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/malibu-red/01-malibu-red-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "مالیبو رد – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Malibu Red – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "mercury-black",
+  "name": {
+   "fa": "مرکوری بلک",
+   "en": "Mercury Black"
+  },
+  "site_name": {
+   "fa": "Mercury Black",
+   "en": "Mercury Black"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/mercury-black/01-mercury-black",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "مرکوری بلک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Mercury Black – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "meteorus",
+  "name": {
+   "fa": "متئوروس",
+   "en": "Meteorus"
+  },
+  "site_name": {
+   "fa": "Meteorus",
+   "en": "Meteorus"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "طوسی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Grey"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am",
+    "widths": [
+     480,
+     800,
+     1200,
+     1492
+    ],
+    "width": 1492,
+    "height": 859,
+    "kind": "main",
+    "alt": {
+     "fa": "متئوروس – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Meteorus – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/meteorus/02-67",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "متئوروس – تصویر بخش پروژه‌های سایت",
+     "en": "Meteorus – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "midnight-gray",
+  "name": {
+   "fa": "میدنایت گری",
+   "en": "Midnight Gray"
+  },
+  "site_name": {
+   "fa": "Midnight Gray",
+   "en": "Midnight Gray"
+  },
+  "legacy_names": [
+   "مید نایت گری",
+   "مید نایت گری 1"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey",
+   "blue"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/midnight-gray/01-midnight-gray-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "میدنایت گری – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Midnight Gray – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "milky-way",
+  "name": {
+   "fa": "میلکی وی",
+   "en": "Milky Way"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Milky Way"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/milky-way/01-milky-way-2048x1267",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1267,
+    "kind": "main",
+    "alt": {
+     "fa": "میلکی وی – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Milky Way – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/milky-way/02-milky-way-1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1536
+    ],
+    "width": 1536,
+    "height": 1024,
+    "kind": "project",
+    "alt": {
+     "fa": "میلکی وی – تصویر بخش پروژه‌های سایت",
+     "en": "Milky Way – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "mont-blanc",
+  "name": {
+   "fa": "مون بلان",
+   "en": "Mont Blanc"
+  },
+  "site_name": {
+   "fa": "Mont Blanc",
+   "en": "Mont Blanc"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/mont-blanc/01-mont-blanc",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "مون بلان – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Mont Blanc – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/mont-blanc/images/01-Mont-Blanc.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 57137,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "mozzarella",
+  "name": {
+   "fa": "موتزارلا",
+   "en": "Mozzarella"
+  },
+  "site_name": {
+   "fa": "Mozzarella",
+   "en": null
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "other",
+  "type_label": {
+   "fa": "متفرقه",
+   "en": "Miscellaneous"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "متفرقه",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Miscellaneous",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/mozzarella/01-mozzarella-p",
+    "widths": [
+     480,
+     800,
+     969
+    ],
+    "width": 969,
+    "height": 691,
+    "kind": "listing",
+    "alt": {
+     "fa": "موتزارلا – تصویر فهرست محصولات",
+     "en": "Mozzarella – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "naica-quartzite",
+  "name": {
+   "fa": "نایکا کوارتزیت",
+   "en": "Naica Quartzite"
+  },
+  "site_name": {
+   "fa": "Naica Quartzite",
+   "en": "Naica Quartzite"
+  },
+  "legacy_names": [
+   "نایس کوارتزیت"
+  ],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream",
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/naica-quartzite/01-naica-quartzite-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Naica Quartzite – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "natanz-white-granite-rijen",
+  "name": {
+   "fa": "معدن گرانیت طامه",
+   "en": "Natanz White Granite Quarry - Rijen"
+  },
+  "site_name": {
+   "fa": "معدن گرانیت طامه",
+   "en": "Natanz White Granite Quarry - Rijen"
+  },
+  "legacy_names": [
+   "اسلب گرانیت ریجن",
+   "ریجین",
+   "نطنز"
+  ],
+  "category": "quarry",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "بهره بردار": "شرکت سنگ فرش ریجن",
+    "نوع": "گرانیت",
+    "رنگ": "سفید خالص تا خاکستری روشن",
+    "موقعیت": "منطقه نطنز استان اصفهان",
+    "کشور مبدا": "ایران"
+   },
+   "en": {
+    "Operator": "Rijen Stone Pavement Company",
+    "Type": "Granite",
+    "Colour": "pure white to light gray",
+    "Location": "Natanz region, Isfahan Province",
+    "Origin": "Iran"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "name",
+  "description": {
+   "fa": "بهره بردار : شرکت سنگ فرش ریجن\nمعرفی\nمعدن گرانیت سفید نطنز ریجن، واقع در منطقه نطنز استان اصفهان، یکی از بزرگ‌ترین و معتبرترین منابع استخراج گرانیت سفید در ایران به شمار می‌رود. این معدن با برخورداری از ذخایر غنی و سنگ‌های با کیفیت بالا، توانسته است جایگاه ویژه‌ای در صنعت سنگ کشور به دست آورد. محصولات این معدن، به‌خصوص گرانیت سفید با رنگ‌های متنوع از سفید خالص تا خاکستری روشن و بافتی یکنواخت، در صنایع مختلف ساختمانی، دکوراسیون داخلی، طراحی فضاهای شهری و همچنین پروژه‌های عمرانی بزرگ کاربرد فراوانی دارند. بهره‌برداری مدرن، فرآوری دقیق و کنترل کیفی بالا از ویژگی‌های بارز معدن ریجن است که باعث شده محصولات آن علاوه بر بازار داخلی، در بازارهای بین‌المللی نیز به‌خوبی شناخته و پذیرفته شوند.\nهمچنین اسن سنگ به دلیل تراکم بالا و بافت یکنواخت مورد استفاده جهت انواع فراوری های سنگ خام قرار گرفته است و در این حوزه بسیار موفق عمل کرده است.\nتاریخچه\nفعالیت معدن گرانیت سفید ریجن از دهه‌های گذشته و به طور مستمر آغاز شده است. این معدن با گذشت زمان، همگام با پیشرفت‌های فنی و تکنولوژیکی، توانسته توسعه زیرساخت‌های خود را به طور چشمگیری افزایش دهد. استفاده از ماشین‌آلات پیشرفته استخراج و فرآوری، به‌کارگیری فناوری‌های نوین در فرآوری سنگ و همچنین حضور تیمی متخصص و مجرب در زمینه معدن‌کاری و مهندسی سنگ، باعث شده‌اند معدن ریجن به یکی از پیشروهای صنعت سنگ گرانیت در ایران تبدیل شود. سنگ‌های استخراجی این معدن به دلیل کیفیت بالای رنگ، مقاومت مکانیکی مطلوب و بافت گل‌پنبه‌ای نرم و یکنواخت، همواره مورد توجه معماران، طراحان داخلی، پیمانکاران و صادرکنندگان بوده است و نقش مهمی در پروژه‌های ملی و بین‌المللی ایفا کرده است.",
+   "en": "Introduction\nThe Natanz White Granite Quarry , operated by Rijen Stone Pavement Company and located in the Natanz region of Isfahan Province, is recognized as one of the largest and most reputable sources of white granite extraction in Iran. With its rich reserves and high-quality stones, the quarry has established a distinguished position in the national stone industry. The products, particularly white granite with shades ranging from pure white to light gray and a uniform texture, are widely used in various construction industries, interior decoration, urban space design, and major infrastructure projects. Modern exploitation methods, precise processing, and strict quality control are key features of the Rijen quarry, enabling its products to be well-known and accepted in both domestic and international markets.\nDue to its high density and uniform texture, this stone is suitable for various raw stone processing applications and has been remarkably successful in this field.\nHistory\nThe operation of the Rijen White Granite Quarry began decades ago and has continued steadily ever since. Over time, in line with technical and technological advancements, the quarry has significantly developed its infrastructure. The use of advanced extraction and processing machinery, the implementation of modern stone processing technologies, and the employment of a specialized and experienced team in mining and stone engineering have made the Rejen quarry one of the leaders in the granite stone industry in Iran. The extracted stones from this quarry , due to their excellent color quality, desirable mechanical strength, and soft, uniform cotton-like texture, have always been of great interest to architects, interior designers, contractors, and exporters, playing an important role in both national and international projects."
+  },
+  "photos": [
+   {
+    "base": "media/natanz-white-granite-rijen/01-img-1652",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/02-img-1651",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/03-img-1642",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/04-img-1638",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/05-img-1637",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/06-image",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/07-image-29",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/08-image-19",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/09-image-14",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/10-image-11",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/11-1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/12-2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   },
+   {
+    "base": "media/natanz-white-granite-rijen/13-3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 853,
+    "kind": "quarry",
+    "alt": {
+     "fa": "گرانیت سفید نطنز ریجن – تصویر معدن",
+     "en": "Natanz White Granite (Rijen quarry) – quarry photo"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "native-black",
+  "name": {
+   "fa": "نیتیو بلک",
+   "en": "Native Black"
+  },
+  "site_name": {
+   "fa": "Native Black",
+   "en": "Native Black"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/native-black/01-native-black-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نیتیو بلک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Native Black – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "negresco",
+  "name": {
+   "fa": "نگرسکو",
+   "en": "Negresco"
+  },
+  "site_name": {
+   "fa": "Negresco",
+   "en": "Negresco"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/negresco/01-negresco-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نگرسکو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Negresco – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/negresco/02-35-final-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "new-galaxy",
+  "name": {
+   "fa": "نیو گلکسی",
+   "en": "New Galaxy"
+  },
+  "site_name": {
+   "fa": "New Galaxy",
+   "en": "New Galaxy"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/new-galaxy/01-new-galaxy",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نیو گلکسی – تصویر اصلی محصول (سطح اسلب)",
+     "en": "new_galaxy"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "new-golden-silver",
+  "name": {
+   "fa": "نیو گلدن سیلور",
+   "en": "New Golden Silver"
+  },
+  "site_name": {
+   "fa": "New Golden Silver",
+   "en": "New Golden Silver"
+  },
+  "legacy_names": [
+   "نیوگلدن"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/new-golden-silver/01-new-golden1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نیو گلدن سیلور – تصویر اصلی محصول (سطح اسلب)",
+     "en": "new_golden(1)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/new-golden-silver/textures/01-new_golden.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 323419,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "new-patagonia",
+  "name": {
+   "fa": "نیو پاتاگونیا",
+   "en": "New Patagonia"
+  },
+  "site_name": {
+   "fa": "New Patagonia",
+   "en": "New Patagonia"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/new-patagonia/01-new-patagonia-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "New Patagonia – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "nysa",
+  "name": {
+   "fa": "نیسا",
+   "en": "Nysa"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Nysa"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/nysa/01-49031-001",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 786,
+    "kind": "listing",
+    "alt": {
+     "fa": "نیسا – تصویر فهرست محصولات",
+     "en": "Nysa – product listing image"
+    }
+   },
+   {
+    "base": "media/nysa/02-62",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "oyster-quartz",
+  "name": {
+   "fa": "اویستر کوارتز",
+   "en": "Oyster Quartz"
+  },
+  "site_name": {
+   "fa": "Oyster Quartz",
+   "en": "Oyster Quartz"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Angola",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "اویستر کوارتز – تصویر اصلی محصول (سطح اسلب)",
+     "en": "oyster_7VmxiLrLXyB3TH59ttHN"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "patagonia-a",
+  "name": {
+   "fa": "پاتاگونیا A",
+   "en": "Patagonia “A”"
+  },
+  "site_name": {
+   "fa": "Patagonia “A”",
+   "en": "Patagonia “A”"
+  },
+  "legacy_names": [
+   "پاتاگونیا"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-a/01-patagonia",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا A – تصویر اصلی محصول (سطح اسلب)",
+     "en": "patagonia"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/patagonia-a/textures/01-patagonia-1.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 246954,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "patagonia-black",
+  "name": {
+   "fa": "پاتاگونیا بلک",
+   "en": "Patagonia Black"
+  },
+  "site_name": {
+   "fa": "Patagonia Black",
+   "en": "Patagonia Black"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "رنگ": [
+     "مشکی",
+     "صورتی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Colour": [
+     "Black",
+     "Pink"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black",
+   "pink"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-black/01-patagonia-black-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا بلک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Patagonia Black – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/patagonia-black/02-patagonia-black-1",
+    "widths": [
+     480,
+     800,
+     879
+    ],
+    "width": 879,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "پاتاگونیا بلک – تصویر بخش پروژه‌های سایت",
+     "en": "Patagonia Black – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/patagonia-black/textures/01-Patagonia-Black-scaled.jpg",
+    "width": 1871,
+    "height": 1080,
+    "bytes": 394532,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "patagonia-green",
+  "name": {
+   "fa": "پاتاگونیا گرین",
+   "en": "Patagonia Green"
+  },
+  "site_name": {
+   "fa": "Patagonia Green",
+   "en": "Patagonia Green"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "سبز",
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Green",
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "green",
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-green/01-patagonia-green-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا گرین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Patagonia Green – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "patagonia-original",
+  "name": {
+   "fa": "پاتاگونیا اورجینال",
+   "en": "Patagonia Original"
+  },
+  "site_name": {
+   "fa": "Patagonia Orginal",
+   "en": "Patagonia Orginal"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream",
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-original/01-patagonia-orginal-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا اورجینال – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Patagonia Original – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/patagonia-original/02-img-3170-2-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "پاتاگونیا اورجینال – تصویر بخش پروژه‌های سایت",
+     "en": "Patagonia Original – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/patagonia-original/textures/01-Patagonia-Orginal.jpg",
+    "width": 1416,
+    "height": 901,
+    "bytes": 415481,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "patagonia-pink",
+  "name": {
+   "fa": "پاتاگونیا پینک",
+   "en": "Patagonia Pink"
+  },
+  "site_name": {
+   "fa": "Patagonia Pink",
+   "en": "Patagonia Pink"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "رنگ": [
+     "صورتی",
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Colour": [
+     "Pink",
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "pink",
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-pink/01-patagonia-pink-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا پینک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Patagonia Pink – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "patagonia-tourmaline",
+  "name": {
+   "fa": "پاتاگونیا تورمالین",
+   "en": "Patagonia Tourmaline"
+  },
+  "site_name": {
+   "fa": "Patagonia troumaline",
+   "en": "Patagonia Tourmaline"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream",
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پاتاگونیا تورمالین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Patagonia Tourmaline – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "picasso",
+  "name": {
+   "fa": "پیکاسو",
+   "en": "Picasso"
+  },
+  "site_name": {
+   "fa": "Picasso",
+   "en": "Picasso"
+  },
+  "legacy_names": [
+   "آبرنگی",
+   "اسلب گرانیت پیکاسو",
+   "پیکاسو"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/picasso/01-picasso-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پیکاسو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Picasso – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/picasso/textures/01-Picasso.jpg",
+    "width": 1507,
+    "height": 904,
+    "bytes": 377733,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "platinum",
+  "name": {
+   "fa": "پلاتینیوم",
+   "en": "Platinum"
+  },
+  "site_name": {
+   "fa": "Platinium",
+   "en": "Platinum"
+  },
+  "legacy_names": [
+   "پلاتینیوم"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/platinum/01-platinium-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پلاتینیوم – تصویر اصلی محصول (سطح اسلب)",
+     "en": "platinium"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/platinum/textures/01-platinium.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 235838,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "purple-rain",
+  "name": {
+   "fa": "پرپل رین",
+   "en": "Purple Rain"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Purple Rain"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/purple-rain/01-purple-rain-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پرپل رین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Purple Rain – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "python",
+  "name": {
+   "fa": "پایتون",
+   "en": "Python"
+  },
+  "site_name": {
+   "fa": "Python",
+   "en": "Python"
+  },
+  "legacy_names": [
+   "پایتون",
+   "پیتون بلک"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/python/01-python-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پایتون – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Python – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/python/textures/01-Python.jpg",
+    "width": 1232,
+    "height": 874,
+    "bytes": 210068,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "quartzite-levanto",
+  "name": {
+   "fa": "کوارتزیت لوانتو",
+   "en": "Quartzite Levanto"
+  },
+  "site_name": {
+   "fa": "Quartzite Levanto",
+   "en": "Quartzite Levanto"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/quartzite-levanto/01-254-1---024-2048x1112",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1112,
+    "kind": "listing",
+    "alt": {
+     "fa": "کوارتزیت لوانتو – تصویر فهرست محصولات",
+     "en": "Quartzite Levanto – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "river-blanche",
+  "name": {
+   "fa": "ریور بلانش",
+   "en": "River Blanche"
+  },
+  "site_name": {
+   "fa": "River Blanche",
+   "en": "River Blanche"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "quartzite",
+  "type_label": {
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
+  },
+  "origin": {
+   "fa": "افغانستان",
+   "en": "Afghanistan"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "افغانستان",
+    "رنگ": [
+     "آبی",
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Afghanistan",
+    "Colour": [
+     "Blue",
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "blue",
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/river-blanche/01-river-blanche-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ریور بلانش – تصویر اصلی محصول (سطح اسلب)",
+     "en": "River Blanche – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "river-noire",
+  "name": {
+   "fa": "ریور نوآر",
+   "en": "River Noire"
+  },
+  "site_name": {
+   "fa": "River Noire",
+   "en": "River Noire"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "هند",
+   "en": "India"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "هند",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "India",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/river-noire/01-4643-005-2048x1227",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1227,
+    "kind": "listing",
+    "alt": {
+     "fa": "ریور نوآر – تصویر فهرست محصولات",
+     "en": "River Noire – product listing image"
+    }
+   },
+   {
+    "base": "media/river-noire/02-48-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ریور نوآر – تصویر بخش پروژه‌های سایت",
+     "en": "River Noire – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "river-stone",
+  "name": {
+   "fa": "ریور استون",
+   "en": "River Stone"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "River Stone"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/river-stone/01-river-stone",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1189,
+    "kind": "listing",
+    "alt": {
+     "fa": "ریور استون – تصویر فهرست محصولات",
+     "en": "River Stone – product listing image"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "rosso-fantastico",
+  "name": {
+   "fa": "روسو فانتاستیکو",
+   "en": "Rosso Fantastic"
+  },
+  "site_name": {
+   "fa": "Rosso Fantastico",
+   "en": "Rosso Fantastic"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/rosso-fantastico/01-rosso-fantastic-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Rosso Fantastic – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/rosso-fantastico/textures/01-Rosso-Fantastic.jpg",
+    "width": 1562,
+    "height": 874,
+    "bytes": 225891,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "sanded-white",
+  "name": {
+   "fa": "سندد وایت",
+   "en": "Sanded White"
+  },
+  "site_name": {
+   "fa": "Sanded White",
+   "en": "Sanded White"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "white",
+   "grey"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/sanded-white/01-sanded-white-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "سندد وایت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Sanded White – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/sanded-white/textures/01-Sanded-White.jpg",
+    "width": 1378,
+    "height": 889,
+    "bytes": 526330,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "serpentine",
+  "name": {
+   "fa": "سرپانتین",
+   "en": "Serpentine"
+  },
+  "site_name": {
+   "fa": "Serpentine",
+   "en": "Serpentine"
+  },
+  "legacy_names": [
+   "سر پانتین",
+   "سرپنطینه"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/serpentine/01-serpentine-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "سرپانتین – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Serpentine – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "silver-fusion",
+  "name": {
+   "fa": "سیلور فیوژن",
+   "en": "Silver Fusion"
+  },
+  "site_name": {
+   "fa": "Silver Fusion",
+   "en": "Silver Fusion"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "طوسی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Grey"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/silver-fusion/01-silver-fusion",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "سیلور فیوژن – تصویر اصلی محصول (سطح اسلب)",
+     "en": "silver_fusion"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "space-gray",
+  "name": {
+   "fa": "اسپیس گری",
+   "en": "Space Gray"
+  },
+  "site_name": {
+   "fa": "Space Gray",
+   "en": "Space Gray"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey",
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/space-gray/01-space-gray-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "اسپیس گری – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Space Gray – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/space-gray/textures/01-Space-Gray.jpg",
+    "width": 1384,
+    "height": 901,
+    "bytes": 136768,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "spectrolite-blue",
+  "name": {
+   "fa": "اسپکترولیت بلو",
+   "en": "Spectrolite Blue"
+  },
+  "site_name": {
+   "fa": "Spectrolite Blue",
+   "en": "Spectrolite Blue"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "اکراین",
+   "en": "Ukraine"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "اکراین",
+    "رنگ": [
+     "مشکی",
+     "آبی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Ukraine",
+    "Colour": [
+     "Black",
+     "Blue"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black",
+   "blue"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/spectrolite-blue/01-spectrolite-blue",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "اسپکترولیت بلو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "spectrolite_blue"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/spectrolite-blue/images/01-spectrolite_blue.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 161937,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "t-rex",
+  "name": {
+   "fa": "تی رکس",
+   "en": "T.Rex"
+  },
+  "site_name": {
+   "fa": "T.Rex",
+   "en": "T.Rex"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/t-rex/01-t-rex-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "تی رکس – تصویر اصلی محصول (سطح اسلب)",
+     "en": "T.Rex – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/t-rex/02-53-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/t-rex/textures/01-T-Rex.jpg",
+    "width": 1288,
+    "height": 841,
+    "bytes": 437761,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "taj-mahal",
+  "name": {
+   "fa": "تاج محل",
+   "en": "Taj Mahal"
+  },
+  "site_name": {
+   "fa": "Taj Mahal",
+   "en": "Taj Mahal"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/taj-mahal/01-taj-mahal-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "تاج محل – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Taj Mahal – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "titanium-mc",
+  "name": {
+   "fa": "تیتانیوم ام‌سی",
+   "en": "Titanium MC"
+  },
+  "site_name": {
+   "fa": "Titanium MC",
+   "en": "Titanium MC"
+  },
+  "legacy_names": [
+   "تیتانیوم",
+   "تیتانیوم ام سی"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/titanium-mc/01-titanium-mc-1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "تیتانیوم ام‌سی – تصویر اصلی محصول (سطح اسلب)",
+     "en": "titanium_mc"
+    }
+   },
+   {
+    "base": "media/titanium-mc/02-titanium-mc1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1638,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "تیتانیوم ام‌سی – تصویر بخش پروژه‌های سایت",
+     "en": "Titanium MC – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "tropical-storm",
+  "name": {
+   "fa": "تروپیکال استورم",
+   "en": "Tropical Storm"
+  },
+  "site_name": {
+   "fa": "Tropical Storm",
+   "en": "Tropical Storm"
+  },
+  "legacy_names": [
+   "تروپیکال استورم"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "آنگولا",
+   "en": "Angola"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Angola",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/tropical-storm/01-tropical-storm-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "تروپیکال استورم – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Tropical Storm – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/tropical-storm/textures/01-Tropical-Storm-scaled.jpg",
+    "width": 2560,
+    "height": 1454,
+    "bytes": 866705,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "turquoise",
+  "name": {
+   "fa": "آبی فیروزه‌ای",
+   "en": "Turquoise"
+  },
+  "site_name": {
+   "fa": "Turquoise",
+   "en": "Turquoise"
+  },
+  "legacy_names": [
+   "آبی فیروزه ای استاندارد",
+   "آبی فیروزه‌ای",
+   "اسلب گرانیت آبی فیروزه ای استاندارد",
+   "اسلب گرانیت آبی فیروزه ای پریمیوم",
+   "تورقیسه",
+   "فیروزه ای سوپر",
+   "گرانیت آبی فیروزه‌ای"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/turquoise/01-turquoise-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "آبی فیروزه‌ای – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Turquoise – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/turquoise/textures/01-turquoise.jpg",
+    "width": 1349,
+    "height": 754,
+    "bytes": 369154,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "venetian-granite",
+  "name": {
+   "fa": "گرانیت ونیشن",
+   "en": "Venetian Granite"
+  },
+  "site_name": {
+   "fa": null,
+   "en": "Venetian Granite"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "grey"
+  ],
+  "colour_source": "photograph",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/venetian-granite/01-4615-007",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1738,
+    "height": 1080,
+    "kind": "listing",
+    "alt": {
+     "fa": "گرانیت ونیشن – تصویر فهرست محصولات",
+     "en": "Venetian Granite – product listing image"
+    }
+   },
+   {
+    "base": "media/venetian-granite/02-65fa37d6-0f1c-44d4-86da-5ad830c4cff3",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
+     "en": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "verde-fantastic",
+  "name": {
+   "fa": "ورده فانتاستیک",
+   "en": "Verde Fantastic"
+  },
+  "site_name": {
+   "fa": "Verde Fantastic",
+   "en": "Verde Fantastic"
+  },
+  "legacy_names": [
+   "اسلب گرانیت ورده فنتستیک",
+   "ورد فنتستیک",
+   "ورده",
+   "پاییزه"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/verde-fantastic/01-verde-fantastic-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Verde Fantastic – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/verde-fantastic/02-verde-karzai-project1-1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 960,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/verde-fantastic/textures/01-Verde-Fantastic.jpg",
+    "width": 1396,
+    "height": 877,
+    "bytes": 232601,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "verde-imperial",
+  "name": {
+   "fa": "ورده ایمپریال",
+   "en": "Verde Imperial"
+  },
+  "site_name": {
+   "fa": "Verde Imperial",
+   "en": "Verde Imperial"
+  },
+  "legacy_names": [
+   "ورد ایمپریال"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/verde-imperial/01-verde-imperial",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ورده ایمپریال – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Verde Imperial – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "verde-karzai",
+  "name": {
+   "fa": "ورده کارزای",
+   "en": "Verde Karzai"
+  },
+  "site_name": {
+   "fa": "Verde Karzai",
+   "en": "Verde Karzai"
+  },
+  "legacy_names": [
+   "ورد کارزای"
+  ],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green",
+   "black"
+  ],
+  "colour_source": "photograph and name",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/verde-karzai/01-verde-karzai-m",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ورده کارزای – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Verde Karzai – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/verde-karzai/textures/01-verde-Karzai.jpg",
+    "width": 1573,
+    "height": 895,
+    "bytes": 327503,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "via-lattea",
+  "name": {
+   "fa": "ویا لاتئا",
+   "en": "Via Lattea"
+  },
+  "site_name": {
+   "fa": "Via Lattea",
+   "en": "Via Lattea"
+  },
+  "legacy_names": [
+   "ویا"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "برزیل",
+   "en": "Brazil"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Black"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/via-lattea/01-via-lattea-m-11zon",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ویا لاتئا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Via Lattea – main product image (slab surface)"
+    }
+   }
+  ],
+  "textures": []
+ },
+ {
+  "slug": "volga-blue",
+  "name": {
+   "fa": "ولگا بلو",
+   "en": "Volga Blue"
+  },
+  "site_name": {
+   "fa": "Volga Blue",
+   "en": "Volga Blue"
+  },
+  "legacy_names": [
+   "ولگا",
+   "ولگا بلو"
+  ],
+  "category": "imported",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "اکراین",
+   "en": "Ukraine"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "اکراین",
+    "رنگ": [
+     "مشکی",
+     "آبی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Ukraine",
+    "Colour": [
+     "Black",
+     "Blue"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "black",
+   "blue"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/volga-blue/01-volga-blue1",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ولگا بلو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "volga_blue1"
+    }
+   },
+   {
+    "base": "media/volga-blue/02-volga-blue",
+    "widths": [
+     480,
+     721
+    ],
+    "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ولگا بلو – تصویر بخش پروژه‌های سایت",
+     "en": "Volga Blue – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "textures": [
+   {
+    "file": "research/products/volga-blue/images/01-volga_blue1.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 187785,
+    "format": "JPEG"
+   }
+  ]
+ }
+]
