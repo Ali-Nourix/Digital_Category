@@ -210,6 +210,8 @@ def main():
             record["alt"] = {"fa": img.get("alt_fa") or p["name"]["fa"], "en": img.get("alt") or p["name"]["en"]}
             photos.append(record)
 
+        surface = None
+
         textures = []
         for t in p["textures"]:
             textures.append({
@@ -253,8 +255,31 @@ def main():
             "colour_source": source,
             "description": p.get("description") if (p.get("description") or {}).get("fa") or (p.get("description") or {}).get("en") else None,
             "photos": photos,
+            "surface": surface,
             "textures": textures,
         })
+
+    # The band at the head of the listing: twelve stones whose texture file
+    # is sharp enough to fill it, taken in turn from each colour so that no
+    # two neighbours look alike. Only these get the large copies.
+    by_colour = {c: [] for c in COLOURS}
+    for r in records:
+        t = r["textures"][0] if r["textures"] else None
+        if t and (t.get("width") or 0) >= 1400 and r["colours"]:
+            by_colour[r["colours"][0]].append(r)
+    band = []
+    while len(band) < 12 and any(by_colour.values()):
+        for c in ("green", "white", "black", "cream", "blue", "grey", "pink"):
+            if by_colour[c] and len(band) < 12:
+                band.append(by_colour[c].pop(0))
+    for n, r in enumerate(band):
+        research = RESEARCH / r["slug"] / r["textures"][0]["file"].split(f"research/products/{r['slug']}/", 1)[1]
+        surface = derive(r["slug"], research, 99, "surface")
+        surface["widths"] = [w for w in surface["widths"] if w >= 1200] or surface["widths"][-1:]
+        r["surface"] = dict(surface, order=n)
+    for f in MEDIA.glob("*/99-surface-*.webp"):
+        if not any(r["slug"] == f.parent.name for r in band) or int(f.stem.rsplit("-", 1)[1]) < 1200 and len(list(f.parent.glob("99-surface-*.webp"))) > 1:
+            f.unlink()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(records, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

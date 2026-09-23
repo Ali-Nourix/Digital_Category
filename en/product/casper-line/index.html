@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-axis="block">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../../assets/logos/apple-touch-icon.png">
   <link rel="preload" href="../../../assets/fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" imagesrcset="../../../media/casper-line/01-casper-line-m-480.webp 480w, ../../../media/casper-line/01-casper-line-m-800.webp 800w, ../../../media/casper-line/01-casper-line-m-1052.webp 1052w" imagesizes="(min-width: 64rem) 56vw, 100vw" fetchpriority="high">
   <link rel="stylesheet" href="../../../assets/css/fonts.css">
@@ -22,12 +24,13 @@
 
   <header class="bar">
     <div class="shell bar__inner">
-      <a class="bar__logo" href="../../" aria-label="Behkooshan stones, all stones">
+      <a class="bar__logo" href="../../../en/" aria-label="Behkooshan stones, all stones">
         <span class="bk-logo bk-logo--lockup"></span>
       </a>
 
       <div class="bar__end">
         <a class="chip" href="../../../../en/" aria-label="The Behkooshan digital catalogue">Catalogue</a>
+        <a class="chip" href="../../../wide/en/product/casper-line/" data-view-swap aria-label="Read in the sideways view">Sideways</a>
         <a class="chip" href="../../../product/casper-line/" lang="fa" hreflang="fa" aria-label="Read in Persian">فارسی</a>
       </div>
     </div>
@@ -37,7 +40,7 @@
     <article class="stone-page">
       <div class="shell stone-page__inner">
         <div class="plates">
-          <figure class="plate plate--lead cut zoomable" data-zoom>
+          <figure class="plate plate--lead cut zoomable" data-zoom style="--ratio: 1052 / 646">
             <img src="../../../media/casper-line/01-casper-line-m-800.webp"
                  srcset="../../../media/casper-line/01-casper-line-m-480.webp 480w, ../../../media/casper-line/01-casper-line-m-800.webp 800w, ../../../media/casper-line/01-casper-line-m-1052.webp 1052w"
                  sizes="(min-width: 64rem) 56vw, 100vw"
@@ -50,35 +53,39 @@
         </div>
 
         <div class="card">
-          <a class="card__back" href="../../">All stones</a>
+          <a class="card__back" href="../../../en/">All stones</a>
           <h1 class="card__name">Casper Line</h1>
           <p class="card__alt" lang="fa" dir="rtl">کاسپر لاین</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs">
-          <div class="spec">
-            <dt class="spec__label">Type</dt>
-            <dd class="spec__value">Granite</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Origin</dt>
-            <dd class="spec__value">Iran</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Category</dt>
-            <dd class="spec__value">Domestic</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Colour</dt>
-            <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--black" aria-hidden="true"></span>Black</span></dd>
-          </div>
+            <div class="spec">
+              <dt class="spec__label">Type</dt>
+              <dd class="spec__value">Granite</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Origin</dt>
+              <dd class="spec__value">Iran</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Category</dt>
+              <dd class="spec__value">Domestic</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Colour</dt>
+              <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--black" aria-hidden="true"></span>Black</span></dd>
+            </div>
           </dl>
 
           <div class="get">
             <a class="get__button" href="../../../research/products/casper-line/textures/01-Casper-Line.jpg" download="casper-line-texture.jpg">
               <span class="icon icon--download" aria-hidden="true"></span>Download texture
             </a>
-            <p class="get__meta">JPG file, 1337 by 910 pixels, 248 KB</p>
+            <ul class="get__meta" role="list">
+              <li>JPG file</li>
+              <li>1337 × 910 pixels</li>
+              <li>248 KB</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -86,20 +93,20 @@
 
 
 
-      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">Stones of the same colour</h2>
-          <ol class="stones stones--row" role="list">
+    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related"><span class="word" style="--w:0"><span>Stones</span></span> <span class="word" style="--w:1"><span>of</span></span> <span class="word" style="--w:2"><span>the</span></span> <span class="word" style="--w:3"><span>same</span></span> <span class="word" style="--w:4"><span>colour</span></span></h2>
+        <ol class="stones stones--row" role="list">
         <li class="stone"
             data-type="granite" data-origin="domestic" data-colours="black"
             data-names="ابسولوت بلک | Absolute Black | ابسلوت بلک | اسلب گرانیت ابسولوت بلک">
           <a class="stone__link" href="../../../en/product/absolute-black/">
             <span class="stone__frame cut">
-              <img src="../../../media/absolute-black/01-absolute-black-m-800.webp"
+              <span class="stone__photo"><img src="../../../media/absolute-black/01-absolute-black-m-800.webp"
                srcset="../../../media/absolute-black/01-absolute-black-m-480.webp 480w, ../../../media/absolute-black/01-absolute-black-m-800.webp 800w, ../../../media/absolute-black/01-absolute-black-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Absolute Black</span>
             <span class="stone__alt" lang="fa" dir="rtl">ابسولوت بلک</span>
@@ -111,11 +118,11 @@
             data-names="بلاتریکس | Bellatrix | بلاتریکس لیتر | بیلاترکس">
           <a class="stone__link" href="../../../en/product/bellatrix/">
             <span class="stone__frame cut">
-              <img src="../../../media/bellatrix/01-bellatrix-800.webp"
+              <span class="stone__photo"><img src="../../../media/bellatrix/01-bellatrix-800.webp"
                srcset="../../../media/bellatrix/01-bellatrix-480.webp 480w, ../../../media/bellatrix/01-bellatrix-800.webp 800w, ../../../media/bellatrix/01-bellatrix-1200.webp 1200w, ../../../media/bellatrix/01-bellatrix-1600.webp 1600w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1920" height="1229"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Bellatrix</span>
             <span class="stone__alt" lang="fa" dir="rtl">بلاتریکس</span>
@@ -127,11 +134,11 @@
             data-names="بلودره | Belvedere | بیلویدیری">
           <a class="stone__link" href="../../../en/product/belvedere/">
             <span class="stone__frame cut">
-              <img src="../../../media/belvedere/01-belvedere-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../../media/belvedere/01-belvedere-m-11zon-800.webp"
                srcset="../../../media/belvedere/01-belvedere-m-11zon-480.webp 480w, ../../../media/belvedere/01-belvedere-m-11zon-800.webp 800w, ../../../media/belvedere/01-belvedere-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Belvedere</span>
             <span class="stone__alt" lang="fa" dir="rtl">بلودره</span>
@@ -143,20 +150,21 @@
             data-names="بلک بیت | Black Beat">
           <a class="stone__link" href="../../../en/product/black-beat/">
             <span class="stone__frame cut">
-              <img src="../../../media/black-beat/01-black-beat-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../../media/black-beat/01-black-beat-m-11zon-800.webp"
                srcset="../../../media/black-beat/01-black-beat-m-11zon-480.webp 480w, ../../../media/black-beat/01-black-beat-m-11zon-800.webp 800w, ../../../media/black-beat/01-black-beat-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Black Beat</span>
             <span class="stone__alt" lang="fa" dir="rtl">بلک بیت</span>
             <span class="stone__meta">Granite, India</span>
           </a>
         </li>
-          </ol>
-        </div>
-      </section>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <footer class="foot">
@@ -212,7 +220,6 @@
       </div>
     </div>
   </dialog>
-
   <script src="../../../assets/js/products.js" defer></script>
   <script src="../../../assets/js/lightbox.js" defer></script>
 </body>

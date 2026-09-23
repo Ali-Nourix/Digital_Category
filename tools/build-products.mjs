@@ -3,12 +3,14 @@
    Behkooshan products: the build
 
    Reads data/products.json (written by tools/derive-products.py) and writes
-   the whole site as plain HTML:
+   the whole site as plain HTML, in two readings, as the digital catalogue
+   is written:
 
-     index.html                     the stones, Persian
-     en/index.html                  the stones, English
-     product/<slug>/index.html      one stone, Persian
-     en/product/<slug>/index.html   one stone, English
+     index.html                          upright, Persian
+     en/index.html                       upright, English
+     wide/index.html                     sideways, Persian
+     wide/en/index.html                  sideways, English
+     <any of those>product/<slug>/       one stone, in the same reading
 
    Every page is complete without its script: the grid is written out in
    full, every photograph has its size on the tag, and the filters are the
@@ -23,6 +25,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+
 /* A stone the research knows only by name (no photograph, no type, no
    origin) is left out until it has something to show. Black Tempest is the
    one: its page was never archived. It stays in the research. */
@@ -48,34 +51,36 @@ const T = {
     home: "محصولات به‌کوشان، همه سنگ‌ها",
     catalogue: "کاتالوگ",
     catalogueLabel: "کاتالوگ دیجیتال به‌کوشان",
+    views: { flow: "نمای عمودی", wide: "نمای افقی" },
+    viewLabels: { flow: "دیدن در نمای عمودی", wide: "دیدن در نمای افقی" },
     skip: "رفتن به سنگ‌ها",
     search: "نام سنگ",
     searchHint: "فارسی یا لاتین",
     type: "نوع",
     origin: "مبدا",
     colour: "رنگ",
-    filters: "فیلترها",
     filterRows: "نوع، مبدا و رنگ",
     clear: "پاک کردن فیلترها",
-    close: "بستن",
     none: "سنگی با این نام یا این فیلترها پیدا نشد.",
     stones: (n) => `${num("fa", n)} سنگ`,
     groups: { domestic: "سنگ‌های داخلی", imported: "سنگ‌های وارداتی" },
     types: { granite: "گرانیت", quartzite: "کوارتزیت", marble: "مرمر", other: "سایر" },
     origins: { domestic: "داخلی", imported: "وارداتی" },
     colours: { white: "سفید", cream: "کرم", grey: "خاکستری", black: "مشکی", green: "سبز", blue: "آبی", pink: "صورتی" },
-    intro: (c) => `${num("fa", c.all)} سنگ؛ ${num("fa", c.domestic)} داخلی و ${num("fa", c.imported)} وارداتی.`,
     back: "همه سنگ‌ها",
     specs: "مشخصات",
     specType: "نوع",
     specOrigin: "کشور مبدا",
     specCategory: "دسته‌بندی",
     specColour: "رنگ",
+    quarry: "معدن",
     download: "دانلود تکسچر",
-    textureMeta: (t) => `فایل <span lang="en">${t.format === "PNG" ? "PNG" : "JPG"}</span>، ${num("fa", t.width)} در ${num("fa", t.height)} پیکسل، ${size("fa", t.bytes)}`,
+    textureMeta: (t) => [
+      `فایل <span lang="en">${t.format === "PNG" ? "PNG" : "JPG"}</span>`,
+      `${num("fa", t.width)} × ${num("fa", t.height)} پیکسل`,
+      size("fa", t.bytes),
+    ],
     noTexture: "فایل تکسچر این سنگ هنوز منتشر نشده است.",
-    photos: "تصاویر",
-    installed: "در اجرا",
     about: "دربارهٔ معدن",
     related: "سنگ‌های هم‌رنگ",
     zoom: (name) => `دیدن بزرگ‌تر: ${name}`,
@@ -86,7 +91,6 @@ const T = {
     tels: ["۰۲۱ ۵۳۹۱۴", "۰۹۱۲۱۹۰۰۱۲۴"],
     surface: (name) => `سطح اسلب ${name}`,
     inPlace: (name) => `${name} در اجرا`,
-    quarry: (name) => `${name}`,
   },
   en: {
     dir: "ltr",
@@ -99,34 +103,36 @@ const T = {
     home: "Behkooshan stones, all stones",
     catalogue: "Catalogue",
     catalogueLabel: "The Behkooshan digital catalogue",
+    views: { flow: "Upright", wide: "Sideways" },
+    viewLabels: { flow: "Read in the upright view", wide: "Read in the sideways view" },
     skip: "Skip to the stones",
     search: "Stone name",
     searchHint: "Latin or Persian",
     type: "Type",
     origin: "Origin",
     colour: "Colour",
-    filters: "Filters",
     filterRows: "Type, origin, colour",
     clear: "Clear filters",
-    close: "Close",
     none: "No stone matches that name or those filters.",
     stones: (n) => `${n} ${n === 1 ? "stone" : "stones"}`,
     groups: { domestic: "Domestic stones", imported: "Imported stones" },
     types: { granite: "Granite", quartzite: "Quartzite", marble: "Marble", other: "Other" },
     origins: { domestic: "Domestic", imported: "Imported" },
     colours: { white: "White", cream: "Cream", grey: "Grey", black: "Black", green: "Green", blue: "Blue", pink: "Pink" },
-    intro: (c) => `${c.all} stones, ${c.domestic} from Iran and ${c.imported} imported.`,
     back: "All stones",
     specs: "Specification",
     specType: "Type",
     specOrigin: "Origin",
     specCategory: "Category",
     specColour: "Colour",
+    quarry: "Quarry",
     download: "Download texture",
-    textureMeta: (t) => `${t.format === "PNG" ? "PNG" : "JPG"} file, ${t.width} by ${t.height} pixels, ${size("en", t.bytes)}`,
+    textureMeta: (t) => [
+      `${t.format === "PNG" ? "PNG" : "JPG"} file`,
+      `${t.width} × ${t.height} pixels`,
+      size("en", t.bytes),
+    ],
     noTexture: "The texture file for this stone has not been published yet.",
-    photos: "Photographs",
-    installed: "Installed",
     about: "About the quarry",
     related: "Stones of the same colour",
     zoom: (name) => `View larger: ${name}`,
@@ -137,7 +143,6 @@ const T = {
     tels: ["021 53914", "09121900124"],
     surface: (name) => `${name}, slab surface`,
     inPlace: (name) => `${name}, installed`,
-    quarry: (name) => `${name}`,
   },
 };
 
@@ -176,13 +181,20 @@ function plain(value) {
   return String(value ?? "").replace(/\s*[–—]\s*/g, " - ").trim();
 }
 
+/** A title set one word at a time, as the catalogue's titles are. */
+function words(text) {
+  return String(text)
+    .split(/\s+/)
+    .map((w, i) => `<span class="word" style="--w:${i}"><span>${esc(w)}</span></span>`)
+    .join(" ");
+}
+
 function write(rel, html) {
   const target = join(ROOT, rel);
   mkdirSync(dirname(target), { recursive: true });
   writeFileSync(target, html);
 }
 
-/** What a stone is filed under: its type, and domestic or imported. */
 function typeOf(p) {
   return TYPES.includes(p.type) ? p.type : "other";
 }
@@ -205,6 +217,10 @@ function largest(prefix, photo) {
   return `${prefix}${photo.base}-${photo.widths[photo.widths.length - 1]}.webp`;
 }
 
+function middle(prefix, photo) {
+  return `${prefix}${photo.base}-${photo.widths[Math.min(1, photo.widths.length - 1)]}.webp`;
+}
+
 /** The stone's own picture: the slab surface, or else the first photograph. */
 function lead(p) {
   return p.photos.find((ph) => ph.kind === "main" || ph.kind === "listing") || p.photos[0] || null;
@@ -215,15 +231,38 @@ function collator(lang) {
   return (a, b) => c.compare(a.name[lang], b.name[lang]);
 }
 
+/* ---------------------------------------------------------------- where */
+
+/* A page is one reading (upright or sideways) in one language. Its folder
+   decides how far up the site's root is, and every link is written from
+   there. */
+function baseOf(mode, lang) {
+  return (mode === "wide" ? "wide/" : "") + (lang === "en" ? "en/" : "");
+}
+
+function upTo(folder) {
+  return "../".repeat(folder.split("/").filter(Boolean).length);
+}
+
+function site(page) {
+  const { mode, lang, prefix } = page;
+  return {
+    listing: (m = mode, l = lang) => prefix + baseOf(m, l) || "./",
+    product: (slug, m = mode, l = lang) => `${prefix}${baseOf(m, l)}product/${slug}/`,
+    catalogue: () => `${prefix}${CATALOGUE}${mode === "wide" ? "wide/" : ""}${lang === "en" ? "en/" : ""}`,
+  };
+}
+
 /* --------------------------------------------------------------- shell */
 
-function head(lang, { title, description, prefix, preloadImage }) {
+function head(page, { title, description, preloadImage }) {
+  const { lang, prefix, mode } = page;
   const t = T[lang];
   const fonts = lang === "fa"
-    ? [`${prefix}assets/fonts/rokh/Rokh-Regular.woff2`, `${prefix}assets/fonts/rokh/Rokh-Bold.woff2`]
-    : [`${prefix}assets/fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2`];
+    ? ["assets/fonts/rokh/Rokh-Regular.woff2", "assets/fonts/rokh/Rokh-Bold.woff2"]
+    : ["assets/fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2"];
   return `<!DOCTYPE html>
-<html lang="${lang}" dir="${t.dir}">
+<html lang="${lang}" dir="${t.dir}" data-axis="${mode === "wide" ? "inline" : "block"}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -232,36 +271,44 @@ function head(lang, { title, description, prefix, preloadImage }) {
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="${prefix}assets/logos/favicon.svg" type="image/svg+xml">
-${fonts.filter((f) => existsSync(join(ROOT, f.slice(prefix.length)))).map((f) => `  <link rel="preload" href="${f}" as="font" type="font/woff2" crossorigin>`).join("\n")}
+  <link rel="icon" href="${prefix}assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="${prefix}assets/logos/apple-touch-icon.png">
+${fonts.filter((f) => existsSync(join(ROOT, f))).map((f) => `  <link rel="preload" href="${prefix}${f}" as="font" type="font/woff2" crossorigin>`).join("\n")}
 ${preloadImage ? `  <link rel="preload" as="image" imagesrcset="${preloadImage.srcset}" imagesizes="${preloadImage.sizes}" fetchpriority="high">\n` : ""}  <link rel="stylesheet" href="${prefix}assets/css/fonts.css">
   <link rel="stylesheet" href="${prefix}assets/css/tokens.css">
   <link rel="stylesheet" href="${prefix}assets/css/shapes.css">
-  <link rel="stylesheet" href="${prefix}assets/css/products.css">
+  <link rel="stylesheet" href="${prefix}assets/css/products.css">${
+  mode === "wide" ? `\n  <link rel="stylesheet" href="${prefix}assets/css/products-wide.css">` : ""
+}
   <script>document.documentElement.classList.add("js");</script>
 </head>`;
 }
 
-function bar(lang, { prefix, otherHref, homeHref }) {
+function bar(page, { otherLang, otherView, home }) {
+  const { lang, mode } = page;
   const t = T[lang];
+  const other = mode === "wide" ? "flow" : "wide";
   return `  <a class="skip" href="#stones">${t.skip}</a>
 
   <header class="bar">
     <div class="shell bar__inner">
-      <a class="bar__logo" href="${homeHref}" aria-label="${esc(t.home)}">
+      <a class="bar__logo" href="${home}" aria-label="${esc(t.home)}">
         <span class="bk-logo ${lang === "fa" ? "bk-logo--lockup-fa" : "bk-logo--lockup"}"></span>
       </a>
 
       <div class="bar__end">
-        <a class="chip" href="${prefix}${CATALOGUE}${lang === "en" ? "en/" : ""}" aria-label="${esc(t.catalogueLabel)}">${t.catalogue}</a>
-        <a class="chip" href="${otherHref}" lang="${t.other}" hreflang="${t.other}" aria-label="${esc(t.otherLabel)}">${t.otherName}</a>
+        <a class="chip" href="${site(page).catalogue()}" aria-label="${esc(t.catalogueLabel)}">${t.catalogue}</a>
+        <a class="chip" href="${otherView}" data-view-swap aria-label="${esc(t.viewLabels[other])}">${t.views[other]}</a>
+        <a class="chip" href="${otherLang}" lang="${t.other}" hreflang="${t.other}" aria-label="${esc(t.otherLabel)}">${t.otherName}</a>
       </div>
     </div>
   </header>`;
 }
 
-function foot(lang) {
+function foot(page) {
+  const { lang, mode } = page;
   const t = T[lang];
-  return `  <footer class="foot">
+  return `  <footer class="foot"${mode === "wide" ? ' role="contentinfo"' : ""}>
     <div class="shell foot__inner">
       <div class="foot__brand">
         <span class="bk-logo ${lang === "fa" ? "bk-logo--lockup-fa" : "bk-logo--lockup"}" role="img" aria-label="Behkooshan"></span>
@@ -318,31 +365,49 @@ function lightbox(lang) {
   </dialog>`;
 }
 
+/** The page's closing: the footer, which sideways is the last panel of the
+    track and so has to be inside it, then the scripts. */
+function close(page, { scripts, extra = "" }) {
+  const wide = page.mode === "wide";
+  return `${wide ? `${foot(page)}\n  </main>\n` : `  </main>\n\n${foot(page)}\n`}
+${extra}
+${scripts.map((s) => `  <script src="${page.prefix}assets/js/${s}" defer></script>`).join("\n")}
+</body>
+</html>
+`;
+}
+
 /* ----------------------------------------------------------- the tile */
 
 const TILE_SIZES = "(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw";
+const FEATURE_SIZES = "(min-width: 64rem) 46vw, (min-width: 40rem) 62vw, 94vw";
 
-function tile(lang, p, { prefix, eager = false, priority = false, feature = false }) {
+/* Sideways a stone's width comes from the height of the window on a
+   spread (products-wide.css: a quarter of it, near enough) and from half
+   its width on a card; the quarry is two of them. */
+const SPREAD = "(min-width: 60rem) and (min-height: 38rem)";
+const WIDE_TILE_SIZES = `${SPREAD} 26vh, calc(50vw - 2.5rem)`;
+const WIDE_FEATURE_SIZES = `${SPREAD} calc(52vh + 2rem), calc(100vw - 2.5rem)`;
+
+function tile(page, p, { eager = false, feature = false } = {}) {
+  const { lang } = page;
   const t = T[lang];
   const other = lang === "fa" ? "en" : "fa";
   const photo = feature ? p.photos.find((ph) => ph.kind === "quarry") || lead(p) : lead(p);
-  const href = `${prefix}${lang === "en" ? "en/" : ""}product/${p.slug}/`;
-  const kind = typeOf(p);
-  const origin = originOf(p);
-  const meta = [t.types[kind], p.origin?.[lang]].filter(Boolean).map(plain);
+  const meta = [t.types[typeOf(p)], p.origin?.[lang]].filter(Boolean).map(plain);
 
   const picture = photo
-    ? `<img src="${prefix}${photo.base}-${photo.widths[Math.min(1, photo.widths.length - 1)]}.webp"
-               srcset="${srcset(prefix, photo)}"
-               sizes="${feature ? "(min-width: 64rem) 46vw, (min-width: 40rem) 62vw, 94vw" : TILE_SIZES}"
+    ? `<span class="stone__photo"><img src="${middle(page.prefix, photo)}"
+               srcset="${srcset(page.prefix, photo)}"
+               sizes="${page.mode === "wide" ? (feature ? WIDE_FEATURE_SIZES : WIDE_TILE_SIZES) : feature ? FEATURE_SIZES : TILE_SIZES}"
                width="${photo.width}" height="${photo.height}"
-               alt="" ${eager ? 'loading="eager"' : 'loading="lazy"'} decoding="async"${priority ? ' fetchpriority="high"' : ""}>`
+               alt="" ${eager ? 'loading="eager"' : 'loading="lazy"'} decoding="async"></span>`
     : `<span class="stone__none"><span class="bk-shape bk-shape--07" aria-hidden="true"></span></span>`;
 
   return `        <li class="stone${feature ? " stone--feature" : ""}"
-            data-type="${kind}" data-origin="${origin}" data-colours="${esc(p.colours.join(" "))}"
+            data-type="${typeOf(p)}" data-origin="${originOf(p)}" data-colours="${esc(p.colours.join(" "))}"
             data-names="${esc(searchText(p))}">
-          <a class="stone__link" href="${href}">
+          <a class="stone__link" href="${site(page).product(p.slug)}">
             <span class="stone__frame cut">
               ${picture}
             </span>
@@ -355,28 +420,42 @@ function tile(lang, p, { prefix, eager = false, priority = false, feature = fals
 
 /* ------------------------------------------------------------ listing */
 
-function counts() {
-  const c = { all: products.length, domestic: 0, imported: 0 };
-  for (const p of products) c[originOf(p)] += 1;
-  return c;
-}
-
-function chips(lang, group, values, labels, withSwatch = false) {
+function chips(group, values, labels, withSwatch = false) {
   return values
     .map(
-      (v) => `            <button class="pick${withSwatch ? " pick--colour" : ""}" type="button" data-${group}="${v}" aria-pressed="false">${
+      (v) => `              <button class="pick${withSwatch ? " pick--colour" : ""}" type="button" data-${group}="${v}" aria-pressed="false">${
         withSwatch ? `<span class="pick__swatch pick__swatch--${v}" aria-hidden="true"></span>` : ""
       }${labels[v]}</button>`
     )
     .join("\n");
 }
 
-function listing(lang) {
-  const t = T[lang];
-  const prefix = lang === "en" ? "../" : "";
-  const sort = collator(lang);
-  const c = counts();
+const BAND = products.filter((p) => p.surface).sort((a, b) => a.surface.order - b.surface.order);
+const BAND_SIZES = "(min-width: 84rem) 84rem, 100vw";
 
+/* The band at the head of the listing: the stones' own surfaces, one after
+   another, uncovered from the leading edge the way the catalogue lays its
+   photographs onto the page. The first is in the page; the rest are listed
+   for the script, which fetches each only as its turn comes. */
+function hero(page) {
+  if (!BAND.length) return "";
+  const slides = BAND.map((p) => ({ srcset: srcset(page.prefix, p.surface), src: largest(page.prefix, p.surface) }));
+  const first = BAND[0].surface;
+  return `        <div class="hero" aria-hidden="true" data-hero data-sizes="${BAND_SIZES}"
+             data-slides="${esc(JSON.stringify(slides.slice(1)))}">
+          <div class="hero__frame">
+            <img class="hero__img" src="${largest(page.prefix, first)}" srcset="${srcset(page.prefix, first)}" sizes="${BAND_SIZES}"
+                 width="${first.width}" height="${first.height}" alt="" fetchpriority="high" decoding="async">
+          </div>
+        </div>`;
+}
+
+function listing(mode, lang) {
+  const base = baseOf(mode, lang);
+  const page = { mode, lang, prefix: upTo(base) };
+  const t = T[lang];
+  const links = site(page);
+  const sort = collator(lang);
   const quarry = products.filter((p) => p.category === "quarry");
   const byOrigin = (o) => products.filter((p) => p.category !== "quarry" && originOf(p) === o).sort(sort);
 
@@ -386,12 +465,12 @@ function listing(lang) {
     const tiles = items
       .map((p) => {
         n += 1;
-        return tile(lang, p, { prefix, eager: n <= 6, priority: n <= 2, feature: p.category === "quarry" });
+        return tile(page, p, { eager: n <= 6, feature: p.category === "quarry" });
       })
       .join("\n");
     return `    <section class="group" data-group="${o}" aria-labelledby="group-${o}">
-      <div class="shell">
-        <h2 class="group__title" id="group-${o}">${t.groups[o]} <span class="group__count" data-count>${num(lang, items.length)}</span></h2>
+      <div class="shell group__inner">
+        <h2 class="group__title headline" id="group-${o}"><span class="group__name">${words(t.groups[o])}</span> <span class="group__count" data-count>${num(lang, items.length)}</span></h2>
         <ol class="stones" role="list">
 ${tiles}
         </ol>
@@ -399,72 +478,75 @@ ${tiles}
     </section>`;
   }).join("\n\n");
 
-  const first = [...quarry, ...byOrigin("domestic")].map((p) => p.category === "quarry" ? p.photos.find((ph) => ph.kind === "quarry") || lead(p) : lead(p)).filter(Boolean)[0];
-
-  const html = `${head(lang, {
+  const html = `${head(page, {
     title: t.title,
     description: t.description,
-    prefix,
-    preloadImage: first && { srcset: srcset(prefix, first), sizes: "(min-width: 64rem) 46vw, (min-width: 40rem) 62vw, 94vw" },
+    preloadImage: BAND[0] && { srcset: srcset(page.prefix, BAND[0].surface), sizes: BAND_SIZES },
   })}
 <body class="page page--list">
 
-${bar(lang, { prefix, otherHref: lang === "fa" ? "en/" : "../", homeHref: "./" })}
+${bar(page, { otherLang: links.listing(mode, t.other), otherView: links.listing(mode === "wide" ? "flow" : "wide"), home: "./" })}
 
-  <main id="stones">
-    <div class="shell intro">
-      <h1 class="intro__title">${t.heading}</h1>
-      <p class="intro__lede">${t.intro(c)}</p>
+  <main id="stones"${mode === "wide" ? ' class="track"' : ""}>
+    <div class="intro">
+      <div class="shell intro__inner">
+${hero(page)}
+        <h1 class="intro__title headline">${words(t.heading)}</h1>
+      </div>
+
+      <form class="filters" role="search" data-filters data-lang="${lang}" onsubmit="return false">
+        <div class="shell filters__inner">
+          <div class="filters__search">
+            <label class="filters__label" for="q">${t.search}</label>
+            <div class="search">
+              <span class="icon icon--search search__icon" aria-hidden="true"></span>
+              <input class="search__input" id="q" name="q" type="search" autocomplete="off" spellcheck="false"
+                     enterkeyhint="search" aria-describedby="q-hint">
+            </div>
+            <span class="u-visually-hidden" id="q-hint">${t.searchHint}</span>
+          </div>
+
+          <button class="chip filters__toggle" type="button" aria-expanded="false" aria-controls="facets" data-facets-toggle>
+            ${t.filterRows}<span class="filters__active" data-active hidden></span>
+          </button>
+
+          <div class="facets" id="facets" data-facets>
+            <fieldset class="facet">
+              <legend class="filters__label">${t.type}</legend>
+              <div class="facet__picks">
+${chips("type", TYPES, t.types)}
+              </div>
+            </fieldset>
+
+            <fieldset class="facet">
+              <legend class="filters__label">${t.origin}</legend>
+              <div class="facet__picks">
+${chips("origin", ORIGINS, t.origins)}
+              </div>
+            </fieldset>
+
+            <fieldset class="facet facet--colour">
+              <legend class="filters__label">${t.colour}</legend>
+              <div class="facet__picks">
+${chips("colour", COLOURS, t.colours, true)}
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="filters__status">
+            <p class="filters__count" aria-live="polite" data-total>${t.stones(products.length)}</p>
+            <button class="filters__clear" type="button" data-clear hidden>${t.clear}</button>
+          </div>
+        </div>
+      </form>
     </div>
 
-    <form class="filters" role="search" data-filters
-          data-stones-one="${esc(t.stones(1))}" data-lang="${lang}" onsubmit="return false">
-      <div class="shell filters__inner">
-        <div class="filters__search">
-          <label class="filters__label" for="q">${t.search}</label>
-          <div class="search">
-            <span class="icon icon--search search__icon" aria-hidden="true"></span>
-            <input class="search__input" id="q" name="q" type="search" autocomplete="off" spellcheck="false"
-                   enterkeyhint="search" aria-describedby="q-hint">
-          </div>
-          <span class="u-visually-hidden" id="q-hint">${t.searchHint}</span>
-        </div>
-
-        <button class="chip filters__toggle" type="button" aria-expanded="false" aria-controls="facets" data-facets-toggle>
-          ${t.filterRows}<span class="filters__active" data-active hidden></span>
-        </button>
-
-        <div class="facets" id="facets" data-facets>
-          <fieldset class="facet">
-            <legend class="filters__label">${t.type}</legend>
-            <div class="facet__picks">
-${chips(lang, "type", TYPES, t.types)}
-            </div>
-          </fieldset>
-
-          <fieldset class="facet">
-            <legend class="filters__label">${t.origin}</legend>
-            <div class="facet__picks">
-${chips(lang, "origin", ORIGINS, t.origins)}
-            </div>
-          </fieldset>
-
-          <fieldset class="facet facet--colour">
-            <legend class="filters__label">${t.colour}</legend>
-            <div class="facet__picks">
-${chips(lang, "colour", COLOURS, t.colours, true)}
-            </div>
-          </fieldset>
-        </div>
-
-        <div class="filters__status">
-          <p class="filters__count" aria-live="polite" data-total>${t.stones(c.all)}</p>
-          <button class="filters__clear" type="button" data-clear hidden>${t.clear}</button>
-        </div>
-      </div>
-    </form>
-
-    <template data-words>${JSON.stringify({ stones: lang === "fa" ? "% سنگ" : "% stones", one: lang === "fa" ? "% سنگ" : "% stone" })}</template>
+    <template data-words>${JSON.stringify({
+      stones: lang === "fa" ? "% سنگ" : "% stones",
+      one: lang === "fa" ? "% سنگ" : "% stone",
+      filters: lang === "fa" ? "فیلترها" : "Filters",
+      back: lang === "fa" ? "بازگشت به جست‌وجو و فیلترها" : "Back to the search and filters",
+    })}</template>
 
 ${groups}
 
@@ -472,15 +554,9 @@ ${groups}
       <p class="empty__text">${t.none}</p>
       <button class="chip" type="button" data-clear>${t.clear}</button>
     </div>
-  </main>
 
-${foot(lang)}
-
-  <script src="${prefix}assets/js/products.js" defer></script>
-</body>
-</html>
-`;
-  write(lang === "en" ? "en/index.html" : "index.html", html);
+${close(page, { scripts: ["products.js", ...(mode === "wide" ? ["products-wide.js"] : [])] })}`;
+  write(`${base}index.html`, html);
 }
 
 /* ------------------------------------------------------------ product */
@@ -498,11 +574,9 @@ function prose(text) {
 
 function specRows(lang, p) {
   const t = T[lang];
-  const rows = [];
-  const kind = typeOf(p);
-  rows.push([t.specType, t.types[kind]]);
+  const rows = [[t.specType, t.types[typeOf(p)]]];
   if (p.origin?.[lang]) rows.push([t.specOrigin, p.origin[lang]]);
-  rows.push([t.specCategory, p.category === "quarry" ? (lang === "fa" ? "معدن" : "Quarry") : t.origins[originOf(p)]]);
+  rows.push([t.specCategory, p.category === "quarry" ? t.quarry : t.origins[originOf(p)]]);
 
   // Anything else the site said about the stone, as it said it.
   const known = lang === "fa" ? ["نوع", "کشور مبدا", "دسته‌بندی", "رنگ"] : ["Type", "Origin", "Category", "Colour"];
@@ -516,40 +590,44 @@ function specRows(lang, p) {
 function colourRow(lang, p) {
   const t = T[lang];
   const said = p.specs?.[lang]?.[lang === "fa" ? "رنگ" : "Colour"];
-  const words = p.colours.map((c) => `<span class="swatch"><span class="pick__swatch pick__swatch--${c}" aria-hidden="true"></span>${t.colours[c]}</span>`);
+  const swatches = p.colours.map((c) => `<span class="swatch"><span class="pick__swatch pick__swatch--${c}" aria-hidden="true"></span>${t.colours[c]}</span>`);
   const free = typeof said === "string" ? `<span class="spec__note">${esc(plain(said))}</span>` : "";
-  return words.length || free ? `          <div class="spec">
-            <dt class="spec__label">${t.specColour}</dt>
-            <dd class="spec__value spec__value--swatches">${words.join("")}${free}</dd>
-          </div>` : "";
+  return swatches.length || free
+    ? `            <div class="spec">
+              <dt class="spec__label">${t.specColour}</dt>
+              <dd class="spec__value spec__value--swatches">${swatches.join("")}${free}</dd>
+            </div>`
+    : "";
 }
 
-function product(lang, p) {
+function product(mode, lang, p) {
+  const base = `${baseOf(mode, lang)}product/${p.slug}/`;
+  const page = { mode, lang, prefix: upTo(base) };
   const t = T[lang];
   const other = lang === "fa" ? "en" : "fa";
-  const prefix = lang === "en" ? "../../../" : "../../";
-  const listHref = lang === "en" ? "../../" : "../../";
-  const otherHref = lang === "en" ? `../../../product/${p.slug}/` : `../../en/product/${p.slug}/`;
   const name = plain(p.name[lang]);
   const kind = typeOf(p);
+  const links = site(page);
+  const wide = mode === "wide";
 
   const photos = p.photos.map((ph) => ({
     ...ph,
-    label: ph.kind === "project" ? t.inPlace(name) : ph.kind === "quarry" ? t.quarry(name) : t.surface(name),
+    label: ph.kind === "project" ? t.inPlace(name) : ph.kind === "quarry" ? name : t.surface(name),
   }));
   const main = photos[0];
-  const sizes = "(min-width: 64rem) 56vw, 100vw";
+  const leadSizes = wide ? "(min-width: 60rem) 60vw, 100vw" : "(min-width: 64rem) 56vw, 100vw";
+  const restSizes = wide ? "(min-width: 60rem) 45vw, 100vw" : "(min-width: 64rem) 27vw, 50vw";
 
   const gallery = photos.length
     ? `        <div class="plates">
 ${photos
   .map(
-    (ph, i) => `          <figure class="plate${i === 0 ? " plate--lead" : ""} cut zoomable" data-zoom>
-            <img src="${prefix}${ph.base}-${ph.widths[Math.min(1, ph.widths.length - 1)]}.webp"
-                 srcset="${srcset(prefix, ph)}"
-                 sizes="${i === 0 ? sizes : "(min-width: 64rem) 27vw, 50vw"}"
+    (ph, i) => `          <figure class="plate${i === 0 ? " plate--lead" : ""} cut zoomable" data-zoom style="--ratio: ${ph.width} / ${ph.height}">
+            <img src="${middle(page.prefix, ph)}"
+                 srcset="${srcset(page.prefix, ph)}"
+                 sizes="${i === 0 ? leadSizes : restSizes}"
                  width="${ph.width}" height="${ph.height}"
-                 data-full="${largest(prefix, ph)}"
+                 data-full="${largest(page.prefix, ph)}"
                  alt="${esc(ph.label)}"
                  ${i === 0 ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">
             <button class="lb-open" type="button"><span class="u-visually-hidden">${esc(t.zoom(ph.label))}</span></button>
@@ -567,22 +645,24 @@ ${photos
   const texture = p.textures[0];
   const download = texture
     ? `          <div class="get">
-            <a class="get__button" href="${prefix}${texture.file}" download="${esc(p.slug)}-texture.${texture.format === "PNG" ? "png" : "jpg"}">
+            <a class="get__button" href="${page.prefix}${texture.file}" download="${esc(p.slug)}-texture.${texture.format === "PNG" ? "png" : "jpg"}">
               <span class="icon icon--download" aria-hidden="true"></span>${t.download}
             </a>
-            <p class="get__meta">${t.textureMeta(texture)}</p>
+            <ul class="get__meta" role="list">
+${t.textureMeta(texture).filter(Boolean).map((line) => `              <li>${line}</li>`).join("\n")}
+            </ul>
           </div>`
     : `          <p class="get get--none">${t.noTexture}</p>`;
 
   const description = p.description?.[lang]
-    ? `      <section class="about" aria-labelledby="about">
-        <div class="shell about__inner">
-          <h2 class="section-title" id="about">${t.about}</h2>
-          <div class="about__text">
+    ? `    <section class="about" aria-labelledby="about">
+      <div class="shell about__inner">
+        <h2 class="section-title headline" id="about">${words(t.about)}</h2>
+        <div class="about__text">
           ${prose(p.description[lang])}
-          </div>
         </div>
-      </section>`
+      </div>
+    </section>`
     : "";
 
   // The stones of the same colour, the same kind first.
@@ -594,42 +674,45 @@ ${photos
         .slice(0, 4)
     : [];
   const relatedHtml = related.length
-    ? `      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">${t.related}</h2>
-          <ol class="stones stones--row" role="list">
-${related.map((q) => tile(lang, q, { prefix })).join("\n")}
-          </ol>
-        </div>
-      </section>`
+    ? `    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related">${words(t.related)}</h2>
+        <ol class="stones stones--row" role="list">
+${related.map((q) => tile(page, q)).join("\n")}
+        </ol>
+      </div>
+    </section>`
     : "";
 
-  const html = `${head(lang, {
+  const html = `${head(page, {
     title: `${name} | ${t.title}`,
     description: `${name}: ${[t.types[kind], p.origin?.[lang]].filter(Boolean).map(plain).join(lang === "fa" ? "، " : ", ")}.`,
-    prefix,
-    preloadImage: main && { srcset: srcset(prefix, main), sizes },
+    preloadImage: main && { srcset: srcset(page.prefix, main), sizes: leadSizes },
   })}
 <body class="page page--stone">
 
-${bar(lang, { prefix, otherHref, homeHref: listHref })}
+${bar(page, {
+  otherLang: links.product(p.slug, mode, t.other),
+  otherView: links.product(p.slug, wide ? "flow" : "wide"),
+  home: links.listing(),
+})}
 
-  <main id="stones">
+  <main id="stones"${wide ? ' class="track"' : ""}>
     <article class="stone-page">
       <div class="shell stone-page__inner">
 ${gallery}
 
         <div class="card">
-          <a class="card__back" href="${listHref}">${t.back}</a>
+          <a class="card__back" href="${links.listing()}">${t.back}</a>
           <h1 class="card__name">${esc(name)}</h1>
           <p class="card__alt" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</p>
 
           <h2 class="u-visually-hidden">${t.specs}</h2>
           <dl class="specs">
-${specRows(lang, p).map(([k, v]) => `          <div class="spec">
-            <dt class="spec__label">${esc(plain(k))}</dt>
-            <dd class="spec__value">${esc(plain(v))}</dd>
-          </div>`).join("\n")}
+${specRows(lang, p).map(([k, v]) => `            <div class="spec">
+              <dt class="spec__label">${esc(plain(k))}</dt>
+              <dd class="spec__value">${esc(plain(v))}</dd>
+            </div>`).join("\n")}
 ${colourRow(lang, p)}
           </dl>
 
@@ -641,27 +724,28 @@ ${download}
 ${description}
 
 ${relatedHtml}
-  </main>
 
-${foot(lang)}
-
-${photos.length ? lightbox(lang) : ""}
-
-  <script src="${prefix}assets/js/products.js" defer></script>
-${photos.length ? `  <script src="${prefix}assets/js/lightbox.js" defer></script>` : ""}
-</body>
-</html>
-`;
-  write(`${lang === "en" ? "en/" : ""}product/${p.slug}/index.html`, html);
+${close(page, {
+  extra: photos.length ? lightbox(lang) : "",
+  scripts: ["products.js", ...(photos.length ? ["lightbox.js"] : []), ...(wide ? ["products-wide.js"] : [])],
+})}`;
+  write(`${base}index.html`, html);
 }
 
 /* --------------------------------------------------------------- build */
 
-for (const dir of ["product", "en"]) rmSync(join(ROOT, dir), { recursive: true, force: true });
+for (const dir of ["product", "en", "wide"]) rmSync(join(ROOT, dir), { recursive: true, force: true });
 
-for (const lang of ["fa", "en"]) {
-  listing(lang);
-  for (const p of products) product(lang, p);
+let pages = 0;
+for (const mode of ["flow", "wide"]) {
+  for (const lang of ["fa", "en"]) {
+    listing(mode, lang);
+    pages += 1;
+    for (const p of products) {
+      product(mode, lang, p);
+      pages += 1;
+    }
+  }
 }
 
-console.log(`${products.length} stones, ${products.length * 2 + 2} pages`);
+console.log(`${products.length} stones, ${pages} pages`);

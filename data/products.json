@@ -72,6 +72,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/absolute-black/99-surface",
+   "widths": [
+    1200,
+    1400
+   ],
+   "width": 1400,
+   "height": 901,
+   "order": 1
+  },
   "textures": [
    {
     "file": "research/products/absolute-black/textures/01-Absolute-Black.jpg",
@@ -141,6 +151,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/alaska-white/images/01-Alaska-m.jpg",
@@ -212,6 +223,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/amazonite/textures/01-Amazonite.jpg",
@@ -279,6 +291,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/andromeda/textures/01-Andromeda.jpg",
@@ -364,6 +377,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -439,6 +453,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/belvedere/99-surface",
+   "widths": [
+    1200,
+    1543
+   ],
+   "width": 1543,
+   "height": 862,
+   "order": 5
+  },
   "textures": [
    {
     "file": "research/products/belvedere/textures/01-belvedere.jpg",
@@ -504,6 +528,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/black-beat/99-surface",
+   "widths": [
+    1200,
+    1554
+   ],
+   "width": 1554,
+   "height": 883,
+   "order": 9
+  },
   "textures": [
    {
     "file": "research/products/black-beat/textures/01-Black-Beat.jpg",
@@ -575,6 +609,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/black-diamond/textures/01-Black-Diamond.jpg",
@@ -646,6 +681,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/black-fantasy/images/01-black-fantasy.jpg",
@@ -711,6 +747,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/black-galaxy/99-surface",
+   "widths": [
+    1200,
+    1500
+   ],
+   "width": 1500,
+   "height": 907,
+   "order": 11
+  },
   "textures": [
    {
     "file": "research/products/black-galaxy/textures/01-Black-Galaxy.jpg",
@@ -800,6 +846,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -833,6 +880,7 @@
   "colour_source": "name",
   "description": null,
   "photos": [],
+  "surface": null,
   "textures": []
  },
  {
@@ -901,6 +949,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/black-zebra/textures/01-Zebra.jpg",
@@ -972,6 +1021,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/blanco-potiguar/images/01-Blanco-Potiguar.jpg",
@@ -1045,6 +1095,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/bronze-antique/images/01-bronze-antique.jpg",
@@ -1114,6 +1165,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1174,6 +1226,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1233,6 +1286,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/casper-line/textures/01-Casper-Line.jpg",
@@ -1298,6 +1352,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1361,6 +1416,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1424,6 +1480,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/copper-dune/images/01-Copper-Dune-1.jpg",
@@ -1491,6 +1548,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1557,6 +1615,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1619,6 +1678,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1677,6 +1737,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/dedalus/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1733,
+   "height": 903,
+   "order": 0
+  },
   "textures": [
    {
     "file": "research/products/dedalus/textures/01-Dedalus.jpg",
@@ -1745,6 +1815,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1803,6 +1874,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1866,6 +1938,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/dover-blue/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 2560,
+   "height": 1441,
+   "order": 3
+  },
   "textures": [
    {
     "file": "research/products/dover-blue/textures/01-Dover-Blue-scaled.jpg",
@@ -1931,6 +2013,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -1993,6 +2076,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2059,6 +2143,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2142,6 +2227,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2200,6 +2286,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/explosion-blue/99-surface",
+   "widths": [
+    1200,
+    1418
+   ],
+   "width": 1418,
+   "height": 874,
+   "order": 7
+  },
   "textures": [
    {
     "file": "research/products/explosion-blue/textures/01-Explosion-Blue.jpg",
@@ -2285,6 +2381,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2343,6 +2440,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2409,6 +2507,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/green-shadow/images/01-Green-Shadow-m.jpg",
@@ -2499,6 +2598,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2576,6 +2676,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/jacaranda/99-surface",
+   "widths": [
+    1200,
+    1411
+   ],
+   "width": 1411,
+   "height": 853,
+   "order": 2
+  },
   "textures": [
    {
     "file": "research/products/jacaranda/textures/01-Jacaranda.jpg",
@@ -2650,6 +2760,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2740,6 +2851,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2799,6 +2911,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2856,6 +2969,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -2922,6 +3036,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/kosmus-a/99-surface",
+   "widths": [
+    1200,
+    1455
+   ],
+   "width": 1455,
+   "height": 868,
+   "order": 6
+  },
   "textures": [
    {
     "file": "research/products/kosmus-a/textures/01-Kosmus-A.jpg",
@@ -2993,6 +3117,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3061,6 +3186,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3126,6 +3252,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3192,6 +3319,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3254,6 +3382,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3311,6 +3440,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3390,6 +3520,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3451,6 +3582,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3531,6 +3663,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3594,6 +3727,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/mont-blanc/images/01-Mont-Blanc.jpg",
@@ -3659,6 +3793,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3719,6 +3854,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -3980,6 +4116,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4037,6 +4174,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4109,6 +4247,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4172,6 +4311,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4237,6 +4377,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/new-golden-silver/textures/01-new_golden.jpg",
@@ -4302,6 +4443,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4376,6 +4518,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4439,6 +4582,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4504,6 +4648,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/patagonia-a/textures/01-patagonia-1.jpg",
@@ -4593,6 +4738,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/patagonia-black/textures/01-Patagonia-Black-scaled.jpg",
@@ -4667,6 +4813,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4741,6 +4888,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/patagonia-original/99-surface",
+   "widths": [
+    1200,
+    1416
+   ],
+   "width": 1416,
+   "height": 901,
+   "order": 10
+  },
   "textures": [
    {
     "file": "research/products/patagonia-original/textures/01-Patagonia-Orginal.jpg",
@@ -4815,6 +4972,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4873,6 +5031,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -4940,6 +5099,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/picasso/99-surface",
+   "widths": [
+    1200,
+    1507
+   ],
+   "width": 1507,
+   "height": 904,
+   "order": 4
+  },
   "textures": [
    {
     "file": "research/products/picasso/textures/01-Picasso.jpg",
@@ -5013,6 +5182,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/platinum/textures/01-platinium.jpg",
@@ -5078,6 +5248,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5138,6 +5309,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/python/textures/01-Python.jpg",
@@ -5204,6 +5376,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5270,6 +5443,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5344,6 +5518,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5402,6 +5577,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5459,6 +5635,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/rosso-fantastico/textures/01-Rosso-Fantastic.jpg",
@@ -5525,6 +5702,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/sanded-white/textures/01-Sanded-White.jpg",
@@ -5599,6 +5777,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5662,6 +5841,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -5720,6 +5900,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/space-gray/textures/01-Space-Gray.jpg",
@@ -5794,6 +5975,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/spectrolite-blue/images/01-spectrolite_blue.jpg",
@@ -5875,6 +6057,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/t-rex/textures/01-T-Rex.jpg",
@@ -5940,6 +6123,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -6022,6 +6206,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -6087,6 +6272,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/tropical-storm/textures/01-Tropical-Storm-scaled.jpg",
@@ -6166,6 +6352,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/turquoise/textures/01-turquoise.jpg",
@@ -6247,6 +6434,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -6331,6 +6519,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/verde-fantastic/textures/01-Verde-Fantastic.jpg",
@@ -6404,6 +6593,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -6464,6 +6654,16 @@
     }
    }
   ],
+  "surface": {
+   "base": "media/verde-karzai/99-surface",
+   "widths": [
+    1200,
+    1573
+   ],
+   "width": 1573,
+   "height": 895,
+   "order": 8
+  },
   "textures": [
    {
     "file": "research/products/verde-karzai/textures/01-verde-Karzai.jpg",
@@ -6537,6 +6737,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": []
  },
  {
@@ -6620,6 +6821,7 @@
     }
    }
   ],
+  "surface": null,
   "textures": [
    {
     "file": "research/products/volga-blue/images/01-volga_blue1.jpg",

@@ -1,0 +1,535 @@
+/* ==========================================================================
+   Behkooshan products, read sideways
+
+   The same pages and the same words as the upright reading; the page runs
+   along the inline axis instead of down it, as the digital catalogue's
+   sideways reading does, so the Persian catalogue travels right to left
+   and the English one left to right. Loaded only by the pages in wide/.
+
+   Three blocks, in this order:
+
+     1. the track, the same on every screen the gate lets in
+     2. the spread, on a window wider than it is tall: the stones in two
+        rows along the track, each group opened by a green panel
+     3. the deck, on a phone held upright: a card to the screen, swiped
+
+   Below the gate (a phone on its side, a very small window) the page is the
+   upright one and none of this applies.
+   ========================================================================== */
+
+@media (min-width: 20rem) and (min-height: 34rem) {
+  /* --- The track -------------------------------------------------------- */
+
+  html,
+  body {
+    block-size: 100%;
+    overflow: hidden;
+  }
+
+  .track {
+    --panel-h: calc(100dvh - var(--bar-h));
+    --panel-pad: clamp(1.25rem, 3.5vh, 2.5rem);
+
+    /* Positioned, so that whatever inside it is placed absolutely (the
+       visually hidden headings among them) is placed and clipped within it
+       instead of pushing the page out past the window. */
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    block-size: var(--panel-h);
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule-strong) transparent;
+  }
+
+  .track > * {
+    flex: 0 0 auto;
+    block-size: 100%;
+    min-inline-size: 0;
+  }
+
+  .track > template {
+    display: none;
+  }
+
+  /* A panel carries its own frame; the shell's page width means nothing on
+     a track. */
+  .track .shell {
+    max-inline-size: none;
+    margin-inline: 0;
+  }
+
+  /* --- The first panel: the band, the title, the filters ----------------- */
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    inline-size: min(100vw, 44rem);
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .intro__inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-block-size: 0;
+    padding-block: var(--panel-pad) var(--space-5);
+  }
+
+  .hero {
+    flex: 1 1 auto;
+    block-size: auto;
+    min-block-size: 9rem;
+    margin-block-end: var(--space-5);
+  }
+
+  .intro__title {
+    flex: none;
+  }
+
+  html.js .filters {
+    border-block-end: 0;
+  }
+
+  .filters__inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: none;
+    padding-block: var(--space-5) var(--panel-pad);
+  }
+
+  .filters__search,
+  .facets,
+  .filters__status {
+    grid-area: auto;
+  }
+
+  .filters__status {
+    justify-content: flex-start;
+    min-block-size: 0;
+  }
+
+  /* --- A group ----------------------------------------------------------
+     Opened by a green panel with its title on it, the section opener of
+     the catalogue, and then its stones in two rows along the track. */
+
+  .group {
+    padding-block-start: 0;
+  }
+
+  .group[hidden] {
+    display: none;
+  }
+
+  .group__inner {
+    display: flex;
+    block-size: 100%;
+    padding-inline: 0;
+  }
+
+  .group__title {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: var(--space-3);
+    margin: 0;
+    padding: calc(var(--panel-pad) + var(--space-8)) var(--frame) var(--panel-pad);
+    background-color: var(--print-green);
+    color: var(--paper);
+    font-size: var(--step-3);
+    line-height: 1.25;
+  }
+
+  html[lang="fa"] .group__title {
+    line-height: 1.5;
+  }
+
+  .group__count {
+    color: var(--on-inverse-muted);
+  }
+
+  /* Two rows of stones, as many columns as there are stones. A stone's
+     width is taken from the height the track gives its row, so the slab
+     keeps its four to five whatever the window's height. */
+  .stones {
+    --row-gap: clamp(1rem, 2.4vh, 1.5rem);
+    --text: 4.6rem;
+    --row: calc((var(--panel-h) - 2 * var(--panel-pad) - var(--row-gap)) / 2);
+    --tile-w: calc((var(--row) - var(--text)) * 0.8);
+
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, var(--row));
+    grid-auto-columns: var(--tile-w);
+    gap: var(--row-gap) var(--gap);
+    align-content: center;
+    padding: var(--panel-pad) var(--frame);
+    container-type: normal;
+  }
+
+  /* On the listing the way back to the filters sits over the foot of the
+     window, which sideways is the foot of the second row; the rows stop
+     short of it rather than run under it. */
+  .page--list .stones {
+    --dock: calc(3rem + 2 * var(--space-4));
+    --row: calc((var(--panel-h) - var(--panel-pad) - max(var(--panel-pad), var(--dock)) - var(--row-gap)) / 2);
+
+    padding-block-end: max(var(--panel-pad), var(--dock));
+  }
+
+  .stone__frame {
+    aspect-ratio: auto;
+    block-size: calc(var(--row) - var(--text));
+  }
+
+  /* The quarry, four cells: two rows by two columns. */
+  .stone--feature {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .stone--feature .stone__frame {
+    block-size: calc(2 * var(--row) + var(--row-gap) - var(--text));
+  }
+
+  .stone__name,
+  .stone__alt,
+  .stone__meta {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* --- Nothing found ----------------------------------------------------- */
+
+  .empty {
+    align-content: center;
+    inline-size: min(100vw, 34rem);
+    padding-inline: var(--frame);
+  }
+
+  .empty[hidden] {
+    display: none;
+  }
+
+  /* --- One stone: a spread of the slab and its card, then the rest of its
+     photographs, then the quarry's writing and the stones of its colour. */
+
+  /* The space between the photographs is each one's own margin, so the
+     row itself has no gap: on a card the photographs must meet edge to edge
+     for every card to be a window wide. */
+  .stone-page,
+  .stone-page__inner {
+    display: flex;
+    gap: 0;
+    block-size: 100%;
+    padding: 0;
+  }
+
+  .plates {
+    display: contents;
+  }
+
+  .plate {
+    order: 3;
+    flex: none;
+    block-size: calc(100% - 2 * var(--panel-pad));
+    inline-size: auto;
+    max-inline-size: 72vw;
+    aspect-ratio: var(--ratio, 4 / 3);
+    margin-block: var(--panel-pad);
+    margin-inline: var(--gap) 0;
+    align-self: center;
+  }
+
+  .plate--lead,
+  .plate:last-child:nth-child(even) {
+    grid-column: auto;
+    aspect-ratio: var(--ratio, 16 / 10);
+  }
+
+  .plate--lead {
+    order: 1;
+    margin-inline-start: var(--frame);
+  }
+
+  .plate--none {
+    aspect-ratio: 4 / 3;
+  }
+
+  .card {
+    order: 2;
+    position: static;
+    flex: none;
+    inline-size: min(100vw, 30rem);
+    block-size: 100%;
+    overflow-y: auto;
+    align-content: center;
+    padding: var(--panel-pad) var(--frame);
+  }
+
+  .about,
+  .related {
+    padding-block: 0;
+  }
+
+  .about__inner,
+  .related__inner {
+    block-size: 100%;
+    padding: var(--panel-pad) var(--frame);
+  }
+
+  /* The quarry's writing, poured down columns along the track. The script
+     widens the panel until the last column is in it. */
+  .about__inner {
+    display: flex;
+    flex-direction: column;
+    inline-size: var(--about-w, min(100vw, 44rem));
+  }
+
+  .about__text {
+    flex: 1 1 auto;
+    min-block-size: 0;
+    max-inline-size: none;
+    column-width: 22rem;
+    column-gap: clamp(2rem, 3vw, 3rem);
+    column-fill: auto;
+  }
+
+  .about__heading {
+    break-after: avoid;
+  }
+
+  .related__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stones--row {
+    flex: 1 1 auto;
+    padding: 0;
+    --row: calc((var(--panel-h) - 2 * var(--panel-pad) - 4rem - var(--row-gap)) / 2);
+  }
+
+  /* --- The footer: the last panel ---------------------------------------- */
+
+  .foot {
+    flex: 0 0 auto;
+    display: grid;
+    align-content: center;
+    inline-size: min(100vw, 40rem);
+    block-size: 100%;
+    margin-block-start: 0;
+    margin-inline-start: calc(var(--cut) * -1);
+    padding-block: 0;
+    clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  html[dir="rtl"] .foot {
+    clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% 100%, 0 100%);
+  }
+
+  .foot > .shell {
+    inline-size: 100%;
+    padding-inline-start: calc(var(--frame) + var(--cut));
+  }
+
+  .foot__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: clamp(2rem, 4vh, 3rem);
+  }
+
+  /* The way back to the filters is fixed to the window, and sideways the
+     window's foot is the track's: it stays, over the stones. */
+}
+
+
+/* ==========================================================================
+   The spread
+   ========================================================================== */
+
+/* No snap on a spread, as on the catalogue's: the wheel's glide sets the
+   track a few pixels at a time, and a snap would take each of them back. */
+@media (min-width: 60rem) and (min-height: 38rem) {
+  .group__title {
+    inline-size: clamp(16rem, 22vw, 22rem);
+  }
+}
+
+
+/* ==========================================================================
+   The deck
+   A phone held upright: a card to the screen, and every swipe comes to
+   rest on one. The first card is the band, the title and the filters; a
+   group opens on a card of its own, green above and its title under, as
+   the catalogue's section openers do; then two columns of two stones to a
+   card, a photograph to a card on a stone's page.
+   ========================================================================== */
+
+@media (min-width: 20rem) and (min-height: 34rem) {
+  @media (max-width: 59.9375rem), (max-height: 37.9375rem) {
+    .track {
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .intro {
+      inline-size: 100vw;
+      scroll-snap-align: start;
+    }
+
+    /* The band takes what the title and the filters leave of the card, and
+       gives it back when the filters are opened. */
+    .hero {
+      min-block-size: clamp(7rem, 20vh, 11rem);
+    }
+
+    /* The opener: the green field to the horizon of the card and the title
+       under it, the catalogue's divider card. */
+    .group__title {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: minmax(0, 5fr) auto minmax(0, 7fr);
+      align-content: stretch;
+      align-items: stretch;
+      gap: 0;
+      inline-size: 100vw;
+      padding: 0;
+      background: none;
+      color: var(--print-green);
+      scroll-snap-align: start;
+    }
+
+    .group__title::before {
+      content: "";
+      background-color: var(--print-green);
+    }
+
+    .group__name,
+    .group__count {
+      margin-inline: var(--frame);
+    }
+
+    .group__name {
+      margin-block-start: clamp(1.75rem, 4.5vh, 3rem);
+    }
+
+    .group__count {
+      align-self: start;
+      margin-block-start: var(--space-3);
+      color: var(--ink-muted);
+    }
+
+    /* Two columns of two to a card. The gap between the columns is the
+       frame twice over, so that two columns and their gaps come to exactly
+       a window: every card then starts where the one before it ended and
+       none shows a sliver of the next at its edge. */
+    .stones {
+      --tile-w: calc(50vw - 2 * var(--frame));
+
+      column-gap: calc(2 * var(--frame));
+      padding-inline: var(--frame);
+    }
+
+    .stone {
+      scroll-snap-align: start;
+      scroll-margin-inline-start: var(--frame);
+    }
+
+    /* The script marks the stone each card begins with, once the filters
+       have said which are showing; until it has, every column is a stop. */
+    .deck-cards .stone:not([data-card]) {
+      scroll-snap-align: none;
+    }
+
+    .stone--feature {
+      grid-column: span 2;
+    }
+
+    .empty {
+      inline-size: 100vw;
+    }
+
+    /* A stone's page: each photograph a card, the card of words a card. */
+    .plate,
+    .plate--lead {
+      order: 1;
+      inline-size: 100vw;
+      max-inline-size: none;
+      block-size: 100%;
+      aspect-ratio: auto;
+      margin: 0;
+      scroll-snap-align: start;
+    }
+
+    .plate:not(.plate--lead) {
+      order: 3;
+    }
+
+    .plate.cut,
+    .plate.cut img {
+      clip-path: none;
+      padding: 0;
+    }
+
+    .card {
+      inline-size: 100vw;
+      align-content: start;
+      scroll-snap-align: start;
+    }
+
+    .about__inner {
+      position: relative;
+      inline-size: var(--about-w, 100vw);
+      scroll-snap-align: start;
+    }
+
+    /* A stop where each card of the writing after the first begins, placed
+       by the script: the columns past the first are not elements and cannot
+       be snapped to. */
+    .deck-stop {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: calc(var(--at) * 100vw);
+      inline-size: 1px;
+      block-size: 1px;
+      scroll-snap-align: start;
+      pointer-events: none;
+    }
+
+    .about__text {
+      column-width: calc(100vw - 2 * var(--frame));
+      column-gap: calc(2 * var(--frame));
+    }
+
+    .related__inner {
+      inline-size: 100vw;
+      scroll-snap-align: start;
+    }
+
+    .stones--row {
+      padding-inline: 0;
+    }
+
+    .foot {
+      inline-size: 100vw;
+      margin-inline-start: 0;
+      clip-path: none;
+      scroll-snap-align: start;
+    }
+
+    .foot > .shell {
+      padding-inline-start: var(--frame);
+    }
+  }
+}

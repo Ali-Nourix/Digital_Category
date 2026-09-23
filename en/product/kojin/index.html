@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-axis="block">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../../assets/logos/apple-touch-icon.png">
   <link rel="preload" href="../../../assets/fonts/tt-firs-neue/TTFirsNeue-VarRoman.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" imagesrcset="../../../media/kojin/01-nehbandan-480.webp 480w, ../../../media/kojin/01-nehbandan-800.webp 800w, ../../../media/kojin/01-nehbandan-1052.webp 1052w" imagesizes="(min-width: 64rem) 56vw, 100vw" fetchpriority="high">
   <link rel="stylesheet" href="../../../assets/css/fonts.css">
@@ -22,12 +24,13 @@
 
   <header class="bar">
     <div class="shell bar__inner">
-      <a class="bar__logo" href="../../" aria-label="Behkooshan stones, all stones">
+      <a class="bar__logo" href="../../../en/" aria-label="Behkooshan stones, all stones">
         <span class="bk-logo bk-logo--lockup"></span>
       </a>
 
       <div class="bar__end">
         <a class="chip" href="../../../../en/" aria-label="The Behkooshan digital catalogue">Catalogue</a>
+        <a class="chip" href="../../../wide/en/product/kojin/" data-view-swap aria-label="Read in the sideways view">Sideways</a>
         <a class="chip" href="../../../product/kojin/" lang="fa" hreflang="fa" aria-label="Read in Persian">فارسی</a>
       </div>
     </div>
@@ -37,7 +40,7 @@
     <article class="stone-page">
       <div class="shell stone-page__inner">
         <div class="plates">
-          <figure class="plate plate--lead cut zoomable" data-zoom>
+          <figure class="plate plate--lead cut zoomable" data-zoom style="--ratio: 1052 / 646">
             <img src="../../../media/kojin/01-nehbandan-800.webp"
                  srcset="../../../media/kojin/01-nehbandan-480.webp 480w, ../../../media/kojin/01-nehbandan-800.webp 800w, ../../../media/kojin/01-nehbandan-1052.webp 1052w"
                  sizes="(min-width: 64rem) 56vw, 100vw"
@@ -50,28 +53,28 @@
         </div>
 
         <div class="card">
-          <a class="card__back" href="../../">All stones</a>
+          <a class="card__back" href="../../../en/">All stones</a>
           <h1 class="card__name">Kojin</h1>
           <p class="card__alt" lang="fa" dir="rtl">کوجین</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs">
-          <div class="spec">
-            <dt class="spec__label">Type</dt>
-            <dd class="spec__value">Granite</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Origin</dt>
-            <dd class="spec__value">Iran</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Category</dt>
-            <dd class="spec__value">Domestic</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">Colour</dt>
-            <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--grey" aria-hidden="true"></span>Grey</span></dd>
-          </div>
+            <div class="spec">
+              <dt class="spec__label">Type</dt>
+              <dd class="spec__value">Granite</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Origin</dt>
+              <dd class="spec__value">Iran</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Category</dt>
+              <dd class="spec__value">Domestic</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">Colour</dt>
+              <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--grey" aria-hidden="true"></span>Grey</span></dd>
+            </div>
           </dl>
 
           <p class="get get--none">The texture file for this stone has not been published yet.</p>
@@ -81,20 +84,20 @@
 
 
 
-      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">Stones of the same colour</h2>
-          <ol class="stones stones--row" role="list">
+    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related"><span class="word" style="--w:0"><span>Stones</span></span> <span class="word" style="--w:1"><span>of</span></span> <span class="word" style="--w:2"><span>the</span></span> <span class="word" style="--w:3"><span>same</span></span> <span class="word" style="--w:4"><span>colour</span></span></h2>
+        <ol class="stones stones--row" role="list">
         <li class="stone"
             data-type="granite" data-origin="domestic" data-colours="grey black"
             data-names="بابل گری | Bubble Gray | بابل">
           <a class="stone__link" href="../../../en/product/bubble-gray/">
             <span class="stone__frame cut">
-              <img src="../../../media/bubble-gray/01-bubble-gray-p-800.webp"
+              <span class="stone__photo"><img src="../../../media/bubble-gray/01-bubble-gray-p-800.webp"
                srcset="../../../media/bubble-gray/01-bubble-gray-p-480.webp 480w, ../../../media/bubble-gray/01-bubble-gray-p-800.webp 800w, ../../../media/bubble-gray/01-bubble-gray-p-969.webp 969w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="969" height="691"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Bubble Gray</span>
             <span class="stone__alt" lang="fa" dir="rtl">بابل گری</span>
@@ -106,11 +109,11 @@
             data-names="متئوروس | Meteorus">
           <a class="stone__link" href="../../../en/product/meteorus/">
             <span class="stone__frame cut">
-              <img src="../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-800.webp"
+              <span class="stone__photo"><img src="../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-800.webp"
                srcset="../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-480.webp 480w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-800.webp 800w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-1200.webp 1200w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-1492.webp 1492w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1492" height="859"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Meteorus</span>
             <span class="stone__alt" lang="fa" dir="rtl">متئوروس</span>
@@ -122,11 +125,11 @@
             data-names="میدنایت گری | Midnight Gray | مید نایت گری | مید نایت گری 1">
           <a class="stone__link" href="../../../en/product/midnight-gray/">
             <span class="stone__frame cut">
-              <img src="../../../media/midnight-gray/01-midnight-gray-m-800.webp"
+              <span class="stone__photo"><img src="../../../media/midnight-gray/01-midnight-gray-m-800.webp"
                srcset="../../../media/midnight-gray/01-midnight-gray-m-480.webp 480w, ../../../media/midnight-gray/01-midnight-gray-m-800.webp 800w, ../../../media/midnight-gray/01-midnight-gray-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Midnight Gray</span>
             <span class="stone__alt" lang="fa" dir="rtl">میدنایت گری</span>
@@ -138,20 +141,21 @@
             data-names="سیلور فیوژن | Silver Fusion">
           <a class="stone__link" href="../../../en/product/silver-fusion/">
             <span class="stone__frame cut">
-              <img src="../../../media/silver-fusion/01-silver-fusion-800.webp"
+              <span class="stone__photo"><img src="../../../media/silver-fusion/01-silver-fusion-800.webp"
                srcset="../../../media/silver-fusion/01-silver-fusion-480.webp 480w, ../../../media/silver-fusion/01-silver-fusion-800.webp 800w, ../../../media/silver-fusion/01-silver-fusion-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">Silver Fusion</span>
             <span class="stone__alt" lang="fa" dir="rtl">سیلور فیوژن</span>
             <span class="stone__meta">Granite, Brazil</span>
           </a>
         </li>
-          </ol>
-        </div>
-      </section>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <footer class="foot">
@@ -207,7 +211,6 @@
       </div>
     </div>
   </dialog>
-
   <script src="../../../assets/js/products.js" defer></script>
   <script src="../../../assets/js/lightbox.js" defer></script>
 </body>

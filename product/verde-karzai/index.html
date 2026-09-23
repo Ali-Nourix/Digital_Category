@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-axis="block">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../assets/logos/apple-touch-icon.png">
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" imagesrcset="../../media/verde-karzai/01-verde-karzai-m-480.webp 480w, ../../media/verde-karzai/01-verde-karzai-m-800.webp 800w, ../../media/verde-karzai/01-verde-karzai-m-1052.webp 1052w" imagesizes="(min-width: 64rem) 56vw, 100vw" fetchpriority="high">
@@ -29,6 +31,7 @@
 
       <div class="bar__end">
         <a class="chip" href="../../../" aria-label="کاتالوگ دیجیتال به‌کوشان">کاتالوگ</a>
+        <a class="chip" href="../../wide/product/verde-karzai/" data-view-swap aria-label="دیدن در نمای افقی">نمای افقی</a>
         <a class="chip" href="../../en/product/verde-karzai/" lang="en" hreflang="en" aria-label="خواندن به انگلیسی">English</a>
       </div>
     </div>
@@ -38,7 +41,7 @@
     <article class="stone-page">
       <div class="shell stone-page__inner">
         <div class="plates">
-          <figure class="plate plate--lead cut zoomable" data-zoom>
+          <figure class="plate plate--lead cut zoomable" data-zoom style="--ratio: 1052 / 646">
             <img src="../../media/verde-karzai/01-verde-karzai-m-800.webp"
                  srcset="../../media/verde-karzai/01-verde-karzai-m-480.webp 480w, ../../media/verde-karzai/01-verde-karzai-m-800.webp 800w, ../../media/verde-karzai/01-verde-karzai-m-1052.webp 1052w"
                  sizes="(min-width: 64rem) 56vw, 100vw"
@@ -57,29 +60,33 @@
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs">
-          <div class="spec">
-            <dt class="spec__label">نوع</dt>
-            <dd class="spec__value">گرانیت</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">کشور مبدا</dt>
-            <dd class="spec__value">ایران</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">دسته‌بندی</dt>
-            <dd class="spec__value">داخلی</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">رنگ</dt>
-            <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--green" aria-hidden="true"></span>سبز</span><span class="swatch"><span class="pick__swatch pick__swatch--black" aria-hidden="true"></span>مشکی</span></dd>
-          </div>
+            <div class="spec">
+              <dt class="spec__label">نوع</dt>
+              <dd class="spec__value">گرانیت</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">کشور مبدا</dt>
+              <dd class="spec__value">ایران</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">دسته‌بندی</dt>
+              <dd class="spec__value">داخلی</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">رنگ</dt>
+              <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--green" aria-hidden="true"></span>سبز</span><span class="swatch"><span class="pick__swatch pick__swatch--black" aria-hidden="true"></span>مشکی</span></dd>
+            </div>
           </dl>
 
           <div class="get">
             <a class="get__button" href="../../research/products/verde-karzai/textures/01-verde-Karzai.jpg" download="verde-karzai-texture.jpg">
               <span class="icon icon--download" aria-hidden="true"></span>دانلود تکسچر
             </a>
-            <p class="get__meta">فایل <span lang="en">JPG</span>، ۱۵۷۳ در ۸۹۵ پیکسل، ۳۲۰ کیلوبایت</p>
+            <ul class="get__meta" role="list">
+              <li>فایل <span lang="en">JPG</span></li>
+              <li>۱۵۷۳ × ۸۹۵ پیکسل</li>
+              <li>۳۲۰ کیلوبایت</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -87,20 +94,20 @@
 
 
 
-      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">سنگ‌های هم‌رنگ</h2>
-          <ol class="stones stones--row" role="list">
+    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related"><span class="word" style="--w:0"><span>سنگ‌های</span></span> <span class="word" style="--w:1"><span>هم‌رنگ</span></span></h2>
+        <ol class="stones stones--row" role="list">
         <li class="stone"
             data-type="granite" data-origin="domestic" data-colours="green"
             data-names="آبی فیروزه‌ای | Turquoise | آبی فیروزه ای استاندارد | اسلب گرانیت آبی فیروزه ای استاندارد | اسلب گرانیت آبی فیروزه ای پریمیوم | تورقیسه | فیروزه ای سوپر | گرانیت آبی فیروزه‌ای">
           <a class="stone__link" href="../../product/turquoise/">
             <span class="stone__frame cut">
-              <img src="../../media/turquoise/01-turquoise-m-800.webp"
+              <span class="stone__photo"><img src="../../media/turquoise/01-turquoise-m-800.webp"
                srcset="../../media/turquoise/01-turquoise-m-480.webp 480w, ../../media/turquoise/01-turquoise-m-800.webp 800w, ../../media/turquoise/01-turquoise-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">آبی فیروزه‌ای</span>
             <span class="stone__alt" lang="en" dir="ltr">Turquoise</span>
@@ -112,11 +119,11 @@
             data-names="الگانت گرین | Elegant Green | اسلب گرانیت دانه طلایی | الگانت | دانه طلایی">
           <a class="stone__link" href="../../product/elegant-green/">
             <span class="stone__frame cut">
-              <img src="../../media/elegant-green/01-elegant-green-m-1024x629-800.webp"
+              <span class="stone__photo"><img src="../../media/elegant-green/01-elegant-green-m-1024x629-800.webp"
                srcset="../../media/elegant-green/01-elegant-green-m-1024x629-480.webp 480w, ../../media/elegant-green/01-elegant-green-m-1024x629-800.webp 800w, ../../media/elegant-green/01-elegant-green-m-1024x629-1024.webp 1024w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1024" height="629"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">الگانت گرین</span>
             <span class="stone__alt" lang="en" dir="ltr">Elegant Green</span>
@@ -128,11 +135,11 @@
             data-names="اوولوشن گرین | Evolution Green | اسلب گرانیت دانه اناری | اولیون | دانه اناری">
           <a class="stone__link" href="../../product/evolution-green/">
             <span class="stone__frame cut">
-              <img src="../../media/evolution-green/01-evolution-green-m-1024x629-800.webp"
+              <span class="stone__photo"><img src="../../media/evolution-green/01-evolution-green-m-1024x629-800.webp"
                srcset="../../media/evolution-green/01-evolution-green-m-1024x629-480.webp 480w, ../../media/evolution-green/01-evolution-green-m-1024x629-800.webp 800w, ../../media/evolution-green/01-evolution-green-m-1024x629-1024.webp 1024w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1024" height="629"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">اوولوشن گرین</span>
             <span class="stone__alt" lang="en" dir="ltr">Evolution Green</span>
@@ -144,20 +151,21 @@
             data-names="پاتاگونیا گرین | Patagonia Green">
           <a class="stone__link" href="../../product/patagonia-green/">
             <span class="stone__frame cut">
-              <img src="../../media/patagonia-green/01-patagonia-green-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../media/patagonia-green/01-patagonia-green-m-11zon-800.webp"
                srcset="../../media/patagonia-green/01-patagonia-green-m-11zon-480.webp 480w, ../../media/patagonia-green/01-patagonia-green-m-11zon-800.webp 800w, ../../media/patagonia-green/01-patagonia-green-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">پاتاگونیا گرین</span>
             <span class="stone__alt" lang="en" dir="ltr">Patagonia Green</span>
             <span class="stone__meta">گرانیت، برزیل</span>
           </a>
         </li>
-          </ol>
-        </div>
-      </section>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <footer class="foot">
@@ -213,7 +221,6 @@
       </div>
     </div>
   </dialog>
-
   <script src="../../assets/js/products.js" defer></script>
   <script src="../../assets/js/lightbox.js" defer></script>
 </body>

@@ -744,6 +744,19 @@ html:not(.has-lightbox) .lb-open {
 
 
 
+/* The view switch is offered only where there are two readings to switch
+   between: below the gate the sideways stylesheet sets, the two builds
+   render the same, as in the catalogue. */
+.chip[data-view-swap] {
+  display: none;
+}
+
+@media (min-width: 20rem) and (min-height: 34rem) {
+  .chip[data-view-swap] {
+    display: inline-flex;
+  }
+}
+
 /* ==========================================================================
    The page
    The bar is fixed, so every page starts a bar's height down. The footer
@@ -795,11 +808,46 @@ html[lang="en"] .card__name {
    ========================================================================== */
 
 /* --- Intro ----------------------------------------------------------------
-   The page's title and one factual line under it: how many stones, and
-   where from. The grid is the page; this only says what it is. */
+   A band of the stones themselves across the head of the page, one surface
+   after another, and the page's title under it. The grid is the page; this
+   only says what it is. */
 
-.intro {
-  padding-block: clamp(2.5rem, 6vw, 4.75rem) clamp(1.5rem, 3vw, 2.25rem);
+.intro__inner {
+  padding-block: clamp(1.25rem, 3vw, 2.25rem) clamp(1.5rem, 3vw, 2.25rem);
+}
+
+/* The band. Each surface is uncovered over the one before from the leading
+   edge, the move the catalogue lays every photograph onto its page with,
+   and the frame is cut at the trailing corner as every framed photograph
+   is. Purely a picture: it is hidden from assistive technology, and the
+   stones it shows are all in the grid under it. */
+.hero {
+  --cut: clamp(1.25rem, 3vw, 2.25rem);
+
+  position: relative;
+  block-size: clamp(11rem, 30vw, 24rem);
+  margin-block-end: clamp(1.5rem, 3.5vw, 2.5rem);
+}
+
+.hero__frame {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background-color: var(--bone-soft);
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+
+html[dir="rtl"] .hero__frame {
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
+}
+
+.hero__img {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
 }
 
 .intro__title {
@@ -811,11 +859,6 @@ html[lang="fa"] .intro__title {
   line-height: 1.35;
 }
 
-.intro__lede {
-  margin-block-start: var(--space-3);
-  color: var(--ink-muted);
-  font-size: var(--step-0);
-}
 
 /* --- Filters --------------------------------------------------------------
    The name first, because a stone is most often looked for by the name it
@@ -860,11 +903,27 @@ html[lang="fa"] .filters__label {
   font-weight: 500;
 }
 
+/* A row of choices with its label beside it, the three rows one over the
+   other: the label names the row the way a heading names its paragraph,
+   and three labels in one column read as one list of three questions. */
+/* The label stands level with the first row of its chips, however many
+   rows they wrap to: it is as tall as a chip and centred in that height. */
 .facet {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  align-items: start;
   min-inline-size: 0;
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.facet .filters__label {
+  float: inline-start;
+  display: flex;
+  align-items: center;
+  min-block-size: 2.5rem;
+  margin-block-end: 0;
 }
 
 .facet__picks {
@@ -875,7 +934,7 @@ html[lang="fa"] .filters__label {
 
 .facets {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--space-3);
 }
 
 /* On a phone the three rows fold behind one control, so the first stones
@@ -1089,38 +1148,9 @@ html[lang="en"] .filters__count {
     min-block-size: 3rem;
   }
 
-  /* Type and origin one over the other, and the colours beside them in a
-     single row, the one row of choices a stone is most often picked by. */
   .facets {
-    grid-template-columns: auto minmax(0, 1fr);
-    grid-template-areas:
-      "type colour"
-      "origin colour";
-    column-gap: clamp(2.5rem, 4vw, 4rem);
-    row-gap: var(--space-4);
     padding-block-start: var(--space-5);
     border-block-start: var(--hairline) solid var(--rule);
-  }
-
-  .facet:nth-of-type(1) { grid-area: type; }
-  .facet:nth-of-type(2) { grid-area: origin; }
-  .facet--colour { grid-area: colour; }
-
-  .facets .pick {
-    padding-inline: var(--space-3);
-  }
-
-  /* The label beside its row rather than over it, so the two short rows
-     stack into the height of the colour row and its label. */
-  .facet:not(.facet--colour) {
-    display: grid;
-    grid-template-columns: 4.5rem auto;
-    align-items: center;
-  }
-
-  .facet:not(.facet--colour) .filters__label {
-    float: inline-start;
-    margin-block-end: 0;
   }
 }
 
@@ -1260,21 +1290,49 @@ html[lang="en"] .group__count {
   background-color: var(--rule-strong);
 }
 
-/* The photograph fills the frame and is cropped to it; the frame's own
-   ground shows through for the moment before the file arrives. */
-.stone__frame img {
+/* The photograph sits in an inner frame one hairline inside the cut one,
+   and it is the inner frame that carries the notch, so the photograph can
+   move inside it (the drift, the settle as it is uncovered, the lean under
+   the pointer) without the stroke along the diagonal moving with it. The
+   frame's own ground shows through for the moment before the file arrives. */
+.stone__photo {
   position: absolute;
   inset: var(--hairline);
-  inline-size: calc(100% - 2 * var(--hairline));
-  block-size: calc(100% - 2 * var(--hairline));
-  object-fit: cover;
+  overflow: hidden;
   background-color: var(--bone-soft);
-  transition: transform 900ms var(--ease-out);
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--cut) + var(--hairline)) 0,
+    100% calc(var(--cut) - var(--hairline)),
+    100% 100%,
+    0 100%
+  );
+}
+
+html[dir="rtl"] .stone__photo {
+  clip-path: polygon(
+    calc(var(--cut) - var(--hairline)) 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(var(--cut) - var(--hairline))
+  );
+}
+
+html[dir] .stone__photo img {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  clip-path: none;
+  transition: scale 900ms var(--ease-out);
 }
 
 @media (hover: hover) {
-  .stone__link:hover .stone__frame img {
-    transform: scale(1.045);
+  .stone__link:hover .stone__photo img {
+    scale: 1.045;
   }
 
   .stone__link:hover .stone__name {
@@ -1579,9 +1637,16 @@ html[lang="en"] .get__button {
 }
 
 .get__meta {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
   color: var(--ink-muted);
   font-size: var(--step--1);
+  line-height: 1.5;
 }
+
 
 .get--none {
   color: var(--ink-muted);
@@ -1677,12 +1742,96 @@ html[lang="en"] .about__heading {
 
 /* ==========================================================================
    Motion
-   A stone that comes back into the grid when a filter changes fades up
-   where it lands; the photographs lean in a little under the pointer.
-   Nothing else moves on its own.
+   The catalogue's moves, each with the same job it has there.
+
+     words    a title sets itself one word at a time
+     place    a photograph is uncovered from its leading edge and settles out
+              of a slight overscale, the way a plate is laid onto a page: the
+              stones as they reach the screen, and each surface of the band
+              over the one before it
+     drift    a photograph moves against the scroll, which turns it from a
+              picture into a window, where the browser can drive it from the
+              scroll itself
+     arrive   a stone that comes back into the grid when a filter changes
+              fades up where it lands
+
+   Every base state is the finished one: the script adds `is-out` to hide,
+   never the reverse, so a page without it is complete.
    ========================================================================== */
 
 @media (prefers-reduced-motion: no-preference) {
+  .js .word {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    padding-block-end: 0.14em;
+    margin-block-end: -0.14em;
+  }
+
+  .js .word > span {
+    display: inline-block;
+    transform: none;
+    transition: transform 720ms var(--ease-out);
+    transition-delay: calc(var(--w, 0) * 55ms);
+  }
+
+  .js .is-out .word > span {
+    transform: translateY(110%);
+  }
+
+  /* A stone's photograph, uncovered from the leading edge. The closed state
+     is the open notch with every point pulled to that edge, so the two are
+     the same shape and one runs into the other. */
+  .js .stone__photo {
+    transition: clip-path 1000ms var(--ease-out);
+  }
+
+  .js .stone__photo img {
+    transition: scale 1200ms var(--ease-out);
+  }
+
+  .js .is-out .stone__photo {
+    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
+  }
+
+  html.js[dir="rtl"] .is-out .stone__photo {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
+  }
+
+  .js .is-out .stone__photo img {
+    scale: 1.07;
+  }
+
+  /* A photograph on a stone's own page, the same way. */
+  .js .plate img {
+    transition: clip-path 1000ms var(--ease-out), scale 1200ms var(--ease-out);
+  }
+
+  .js .plate.is-out img {
+    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
+    scale: 1.07;
+  }
+
+  html.js[dir="rtl"] .plate.is-out img {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
+  }
+
+  /* The band: the next surface laid over the last. */
+  .hero__img.is-entering {
+    clip-path: inset(0 100% 0 0);
+    scale: 1.07;
+  }
+
+  html[dir="rtl"] .hero__img.is-entering {
+    clip-path: inset(0 0 0 100%);
+  }
+
+  .hero__img.is-entering.is-in {
+    clip-path: inset(0 0 0 0);
+    scale: 1;
+    transition: clip-path 1100ms var(--ease-out), scale 1400ms var(--ease-out);
+  }
+
   .stone.is-arriving {
     animation: stone-in 320ms var(--ease-out) both;
   }
@@ -1695,8 +1844,32 @@ html[lang="en"] .about__heading {
   }
 }
 
+/* Drift. Only where the browser can drive an animation from the scroll;
+   everywhere else the photograph is already in place and framed. The
+   photograph is made taller than its frame by the distance it travels. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    html[dir] .stone__photo img,
+    .hero__img {
+      block-size: 116%;
+      animation: drift linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+    }
+  }
+}
+
+@keyframes drift {
+  from {
+    translate: 0 -13.8%;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .stone__frame img,
+  .stone__photo img,
   .back-to-filters {
     transition: none;
   }
