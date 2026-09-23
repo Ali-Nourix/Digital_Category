@@ -1,20 +1,22 @@
 name: Deploy to GitHub Pages
 
-# One GitHub Pages site for two branches:
+# The site is plain static files, so there is no build step. The repository
+# root is uploaded as is.
 #
-#   /            the digital catalogue   (branch Behkooshan-catalogue)
-#   /products/   the product catalogue   (branch Behkooshan-products)
+# HEADS UP: a repository has ONE GitHub Pages site, and the Behkooshan branch
+# carries this same workflow pointed at itself. Both branches therefore
+# publish to the same URL and whichever one deployed last is what is live.
+# That is fine while this branch is the one being worked on, and it is why
+# the trigger below names only this branch: pushing to Behkooshan will still
+# replace the site, so decide which branch owns the URL rather than pushing
+# to both and wondering what happened.
 #
-# This same file is in both branches. Whichever of the two is pushed, the
-# run checks out the latest of each and publishes them together, so pushing
-# one never takes the other off the site.
-#
-# The catalogue branch's own products/ folder (the raw research) is left out
-# of the published copy: the product catalogue takes that address, and it
-# carries the same research itself.
+# To stop this branch publishing automatically, delete the `push:` block and
+# leave `workflow_dispatch:`; the branch can then still be published by hand
+# from the Actions tab.
 on:
   push:
-    branches: [Behkooshan-catalogue, Behkooshan-products]
+    branches: [Behkooshan-catalogue]
   workflow_dispatch:
 
 permissions:
@@ -36,33 +38,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: Behkooshan-catalogue
-          path: catalogue
-
-      - uses: actions/checkout@v4
-        with:
-          ref: Behkooshan-products
-          path: products
-
-      # The product site without what only building it needs: the original
-      # photographs (the site shows webp copies), the data and the tools.
-      # The original texture files stay, because they are the downloads.
-      - name: Put the two sites together
-        run: |
-          mkdir _site
-          rsync -a --exclude .git --exclude .github --exclude /products catalogue/ _site/
-          rsync -a --exclude .git --exclude .github \
-                --exclude '/research/products/*/images' \
-                --exclude /tools --exclude /data --exclude /docs \
-                products/ _site/products/
-          touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: .
 
       - id: deployment
         uses: actions/deploy-pages@v4
