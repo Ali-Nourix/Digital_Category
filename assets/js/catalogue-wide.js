@@ -441,8 +441,8 @@
   var DECK = [
     { sec: ".sec--feature", pour: ".feature", prop: "--cards" },
     { sec: ".sec--people", pour: ".shell", prop: "--cards" },
-    { sec: ".sec--slabs", pour: ".shell", prop: "--cards" },
-    { sec: ".sec--columns", pour: ".columns__text", prop: "--text-cards" },
+    { sec: ".sec--slabs", pour: ".shell", prop: "--cards", part: ".slabs__col" },
+    { sec: ".sec--columns", pour: ".columns__text", prop: "--text-cards", part: ".columns__block" },
   ];
 
   var MOST = 12;
@@ -500,7 +500,8 @@
   /* Where a card breaks, done by hand.
 
      The stylesheet asks for a heading never to end a card, for a list item,
-     a named advantage, the quote and a byline never to be broken, and for a
+     a named advantage, the quote, a byline and a life no longer than a card
+     never to be broken, and for a
      paragraph never to leave one line alone at the foot of a card. Chrome
      and Safari do as they are asked. Firefox does none of it inside columns:
      a heading ends a card with its text on the next, and a list item is cut
@@ -512,9 +513,10 @@
   var HEADS = ".title, .heading, .benefit__title, .tag, .slabs__uses-intro";
   var WHOLE = "li, .benefit, .pull, .person__name";
 
-  function paginate(box) {
-    paginateUndo(box);
-
+  /* What every step of placing by hand needs to know about a poured box:
+     the height of a card inside its frame, which card a piece of it is on
+     and how far down, and how to move a block on to the next card. */
+  function pager(box) {
     var frame = getComputedStyle(box);
     var rtl = frame.direction === "rtl";
     var width = window.innerWidth;
@@ -556,19 +558,38 @@
       return pieces[0];
     }
 
+    return { height: height, place: place, push: push, start: start };
+  }
+
+  function paginate(box) {
+    paginateUndo(box);
+
+    var pg = pager(box);
+    var height = pg.height;
+    var place = pg.place;
+    var push = pg.push;
+    var start = pg.start;
+
     /* A life's byline is its portrait and its name together, so it is the
        whole life that moves. */
     function mover(el) {
       return el.classList.contains("person__name") ? el.closest(".person") || el : el;
     }
 
-    Array.prototype.forEach.call(box.querySelectorAll(HEADS + ", " + WHOLE + ", .prose p"), function (el) {
+    Array.prototype.forEach.call(box.querySelectorAll(HEADS + ", " + WHOLE + ", .prose p, .person"), function (el) {
       var pieces = el.getClientRects();
       if (!pieces.length) return;
       var here = place(pieces[0]);
 
       if (pieces.length > 1 && place(pieces[pieces.length - 1]).column !== here.column) {
         if (el.matches(WHOLE)) return push(mover(el));
+        // The second life goes on whole, unless it is longer than a card.
+        // The first stays with the head it follows, which alone on a card
+        // is a banner and three lines.
+        if (el.matches(".person")) {
+          var first = !(el.previousElementSibling && el.previousElementSibling.matches(".person"));
+          return !first && depth(el) < height ? push(el) : undefined;
+        }
         // A paragraph that leaves a single line at the foot of a card, or
         // carries a single line over to the head of the next: the whole of
         // it goes on, which the next card has room for.
@@ -583,6 +604,36 @@
         if (after && place(after).column !== here.column) push(mover(el));
       }
     });
+  }
+
+  /* The last card of a section holding only the last few lines of it. The
+     writing runs on from card to card, and where it ran on to a card of its
+     own by three lines that card looked lost rather than turned to. So when
+     the last card would be that empty, and the last part of the section
+     (the last block with a title of its own) fits a card whole, the whole
+     part goes on to the last card instead: a part opening a card, under its
+     title, as it would if the card had been turned to on purpose. */
+  var SHORT = 0.25;
+
+  function keepLastPart(box, part) {
+    var parts = box.querySelectorAll(part);
+    var last = parts[parts.length - 1];
+    if (!last) return;
+
+    var pg = pager(box);
+    var pieces = Array.prototype.filter.call(last.getClientRects(), function (r) {
+      return r.height > 2;
+    });
+    if (pieces.length < 2) return;
+
+    var head = pg.place(pieces[0]);
+    var tail = pieces[pieces.length - 1];
+    var foot = pg.place(tail);
+    if (foot.column === head.column) return;
+    if (foot.top + tail.height >= pg.height * SHORT) return;
+    if (depth(last) >= pg.height) return;
+
+    pg.push(last);
   }
 
   /* A stop at every card boundary inside a panel that runs on, so a swipe
@@ -658,8 +709,57 @@
     });
   }
 
+  /* A feature that runs on to a second card only by a few lines is given
+     its two cards the other way round, the photograph on the first and the
+     writing whole on the second, if the writing fits one card on its own.
+     If it does not, the photograph goes back over the words and they run
+     on as they did. */
+  function plateFeature(sec, box, cards) {
+    var fig = box.querySelector(".feature__figure");
+    var words = fig && fig.nextElementSibling;
+    if (!words) return;
+
+    paginateUndo(box);
+    box.classList.add("feature--plated");
+    sec.style.setProperty("--cards", 2);
+    if (words.scrollHeight - words.clientHeight <= 1) return;
+
+    box.classList.remove("feature--plated");
+    sec.style.setProperty("--cards", cards);
+    paginate(box);
+  }
+
+  /* The eight photographs of the advantages come up under the last of the
+     writing when it leaves at least half of its card, rather than following
+     on a card of their own. What the words leave is measured from the foot
+     of the last line on that card to the bottom frame line. */
+  var BAND_LEAST = 0.5;
+
+  function liftBand(sec, box) {
+    var band = sec.querySelector(".band");
+    var last = box.lastElementChild;
+    var pieces = last && last.getClientRects();
+    if (!band || !pieces || !pieces.length) return;
+
+    var frame = getComputedStyle(box);
+    var foot = box.getBoundingClientRect().bottom - parseFloat(frame.paddingBlockEnd);
+    var room = foot - pieces[pieces.length - 1].bottom;
+    if (room < track.clientHeight * BAND_LEAST) return;
+
+    sec.classList.add("columns--band-up");
+    sec.style.setProperty("--band-room", Math.floor(room) + "px");
+  }
+
   function fitCards() {
     var deck = onDeck();
+
+    Array.prototype.forEach.call(document.querySelectorAll(".feature--plated"), function (box) {
+      box.classList.remove("feature--plated");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".columns--band-up"), function (sec) {
+      sec.classList.remove("columns--band-up");
+      sec.style.removeProperty("--band-room");
+    });
 
     fitHorizon(deck);
 
@@ -681,6 +781,21 @@
           n += 1;
           sec.style.setProperty(kind.prop, n);
         }
+
+        // Photographs brought up under the words fill that card better
+        // than the last part moved on to it, so those are tried first.
+        if (kind.sec === ".sec--columns") liftBand(sec, box);
+
+        if (kind.part && n > 1 && !sec.classList.contains("columns--band-up")) {
+          keepLastPart(box, kind.part);
+          while (n < MOST && spills(box)) {
+            n += 1;
+            sec.style.setProperty(kind.prop, n);
+          }
+        }
+
+        if (kind.sec === ".sec--feature" && n === 2) plateFeature(sec, box, n);
+        if (kind.sec === ".sec--columns" && !sec.classList.contains("columns--band-up")) liftBand(sec, box);
       });
     });
 

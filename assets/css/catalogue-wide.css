@@ -1370,6 +1370,25 @@
       break-inside: avoid;
     }
 
+    /* Where the writing under the photograph would run on to a second card
+       by a few lines, and would fit one card on its own, the two cards are
+       given the other way round: the photograph a card to itself, bleeding
+       to the trim as the plates do, and then the writing whole on the card
+       after it. Run on, the second card was three lines at its head and
+       white to the foot. The script measures the words and sets the class
+       (`plateFeature` in assets/js/catalogue-wide.js). */
+    .feature--plated {
+      display: grid;
+      grid-template-columns: repeat(2, 100vw);
+      grid-template-rows: minmax(0, 1fr);
+      column-width: auto;
+    }
+
+    .feature--plated .feature__figure {
+      block-size: auto;
+      margin: calc(var(--panel-pad) * -1) 0;
+    }
+
     /* --- Columns ------------------------------------------------------------
        The advantages spread: three blocks of writing and eight photographs.
        The blocks run on one after another, a new block marked by the air
@@ -1433,12 +1452,37 @@
       block-size: 100%;
     }
 
+    /* Where the writing leaves at least half of its last card empty, the
+       photographs come up into it under the words instead of following on a
+       card of their own: a card two thirds white and then a card of
+       photographs become one card that is both. The script measures what the
+       words leave (`--band-room`); the band closes on the bottom frame line
+       as it does on a card of its own. */
+    .sec--columns.columns--band-up {
+      --cards: var(--text-cards);
+    }
+
+    .columns--band-up > .shell {
+      grid-template-columns: calc(100vw * var(--text-cards));
+    }
+
+    .columns--band-up .columns__text,
+    .columns--band-up .band {
+      grid-area: 1 / 1;
+    }
+
+    .columns--band-up .band {
+      justify-self: end;
+      align-self: end;
+      inline-size: 100vw;
+      block-size: calc(var(--band-room) - var(--space-8));
+    }
+
     /* --- People -------------------------------------------------------------
-       The generation on a card of its own: its banner, what the print says
-       of it and who it was. Then its two lives on the card after it, one
-       under the other, as they stand down the upright page. A life is never
-       broken, so where the second has no room under the first it takes the
-       card after that one. */
+       The generation's head, its banner, what the print says of it and who
+       it was, and then its two lives under it, one under the other as they
+       stand down the upright page. A life is never broken, so where the
+       second has no room under the first it takes the next card whole. */
 
     .sec--people {
       --cards: 5;
@@ -1480,19 +1524,28 @@
 
     /* The two lives are one run of writing, the second straight under the
        first. Where a card has room for both, both are on it; where it does
-       not, the second starts under the first all the same and its last lines
-       run on to the next card, the way every paragraph on a card runs on.
-       Given a card each instead, each was a card two thirds white.
+       not, the second goes on to the next card whole. Let run on a line at a
+       time, it left its last three lines at the head of a card of white, a
+       card that looked lost rather than turned to; moved whole, each card
+       opens on a person and holds the whole of what it says of them. The
+       first life runs on from the head a line at a time, as any writing
+       does, and so does a life longer than a card.
 
-       So a life is set in flow and not on a grid: flow is what every browser
-       knows how to carry from one column to the next a line at a time, and a
-       grid is not. The page's rule over a life is drawn out of the flow
-       below, so that it can be left off where a life opens a card. */
+       A life is set in flow and not on a grid, so that one longer than a
+       card can still be carried on a line at a time. The page's rule over a
+       life is drawn out of the flow below, so that it can be left off where
+       a life opens a card. */
     .person {
       position: relative;
       display: block;
       padding-block-start: 0;
       border-block-start: 0;
+    }
+
+    /* The first life is not held whole: sent on, it would leave the head
+       on a card by itself, a banner and three lines. */
+    .person + .person {
+      break-inside: avoid;
     }
 
     /* The space over the second life is a margin, so that if it is ever sent
@@ -1549,11 +1602,9 @@
       margin-block-start: var(--space-2);
     }
 
-    /* A life may open with two lines at the foot of a card rather than the
-       three a paragraph is held to elsewhere. Two is enough to be the start
-       of something, and it is the difference between the second life
-       starting under the first on a phone of ordinary height and starting
-       on a card of its own. */
+    /* A life longer than a card, the one kind that is broken, may leave two
+       lines at the foot of a card rather than the three a paragraph is held
+       to elsewhere. Two is enough to be the start of something. */
     .doc .person__bio p {
       orphans: 2;
     }

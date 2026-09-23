@@ -257,8 +257,8 @@ not have worked:
 
 | Panel | Deck |
 |---|---|
-| Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. The band is as deep as the horizon, below, on all five. |
-| The biographies | Each generation's head (its banner, what the print says of it, and who it was) opens a card, with the page's rule under it, and its two lives run straight on under that, one under the other with the rule between them. At a phone of ordinary height or taller the whole generation is one card. On a shorter one the second life starts on the next card, so every card still opens on a person. The portrait is beside the name rather than over it, a byline at four rem, and the lives are set a step under the running text, as notes on the people. |
+| Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. The band is as deep as the horizon, below, on all five. Where the words under the band would run on to a second card by a few lines, and would fit one card on their own, the two cards are given the other way round: the photograph a card to itself, bleeding to the trim as the plates do, then the writing whole on the next (`feature--plated`, set by `plateFeature` in the script). Run on, the second card was three lines at its head and white to the foot. |
+| The biographies | Each generation's head (its banner, what the print says of it, and who it was) opens a card, with the page's rule under it, and its two lives run straight on under that, one under the other with the rule between them. At a phone of ordinary height or taller the whole generation is one card. On a shorter one the second life goes on to the next card whole, so the card holds the whole of what it says of that person and opens on them; let run on a line at a time it left its last three lines at the head of a card of white. The first life always stays with the head, which alone on a card is a banner and three lines. The portrait is beside the name rather than over it, a byline at four rem, and the lives are set a step under the running text, as notes on the people. |
 | Granite and quartzite | The same three frames on both, one tall and two square, over the writing. Left alone each block of photographs takes what its own writing leaves, so the two came out different shapes on consecutive cards. `fitStones` in the script gives both the block the longer writing leaves, so the frames stand in the same places on both cards and the title under them starts on the same line. |
 
 The lives are set in flow, not on the grid the page uses: the portrait floats
@@ -266,7 +266,8 @@ against the leading edge and the name sits beside it at its height. A grid is
 not something every browser can carry from one column to the next, and flow
 is, a line at a time. `markLives` draws the rule over the second life only when
 its first piece is on the same card as the first life, so a life that ever
-has to open a card does not open it under a line. A life may open with two
+has to open a card does not open it under a line. The first life, and any
+life longer than a card, runs on a line at a time; such a life may leave two
 lines at the foot of a card instead of the three a paragraph is otherwise
 held to.
 
@@ -285,6 +286,14 @@ run from the foot of one card to the head of the next, as it runs from page
 to page in print, never with fewer than three lines at either end; a heading
 never ends a card, and a list item, a named advantage or the quote is never
 broken.
+
+A section never ends on a card holding only its last few lines. Where its
+last card would be less than a quarter full, and its last part fits a card
+whole, the whole part starts that card, under its title (`keepLastPart` in
+the script). On the advantages the eight photographs are tried first: where
+the words leave at least half of their last card, the photographs come up
+under them, two across and four down to the bottom frame line, instead of
+following on a card of their own (`liftBand`).
 
 The mechanism is the same everywhere: the block is set in columns exactly one
 card wide, poured rather than balanced (`column-fill: auto`), with the frame
@@ -463,11 +472,12 @@ the number the smallest phone the deck is offered on needs, measured in both
 languages, so nothing is ever lost without it; a big phone is simply given a
 card or two of white that the script then takes back.
 
-On a feature the script does one thing more. A section whose writing fits one
-card gets its photograph sized to exactly what the words leave, so the card is
-filled and the picture is as large as it can be. Without that, a section three
-lines over a card spends a second card on those three lines and the reader
-swipes to a card that is empty.
+On a feature the script does one thing more. Every photograph across the head
+of a card stops on the horizon, and a section whose words would then run on
+to a second card by a few lines, but fit one card on their own, has its
+photograph moved to a card of its own before them. Without that, a section
+three lines over a card spends a second card on those three lines and the
+reader swipes to a card that is empty.
 
 ### What to check when the words change
 
@@ -483,9 +493,12 @@ itself outside its card and reads as lost text:
 And the same with scripting off, which is what checks the figures in the
 stylesheet rather than the ones the script works out.
 
-If a biography changes length, check too that each generation's second life
-still starts on the card its first is on. A life of a few lines more on a
-short phone is what sends the second to a card of its own.
+And that no card is left holding a few lines at its head and white under
+them: the last card of every poured section should be a quarter full or more,
+or open on a part, a person or a photograph. Measuring the lowest line on
+each section's last card as a share of the card, at 360, 390, 393, 412 and
+430 wide, in both languages and in Chrome and Firefox, is the quickest way
+to see it.
 
 ## Removing it
 
