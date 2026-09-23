@@ -1487,26 +1487,27 @@
     /* A generation is one card: its head and both its lives, on every phone
        that can be made to hold them. A phone's card is the screen less the
        browser's own bars, which on a phone in the hand is a good deal less
-       than the screen, and at the type as set the second life was sent on
-       to a card of its own on most of them.
+       than the screen, and as first set the second life was sent on to a
+       card of its own on most of them.
 
-       So everything on these cards is drawn between two settings, the type
-       as set (`--fit: 0`) and the closest it can be set and still read as
-       running text (`--fit: 1`): the lives from fifteen pixels to thirteen
-       and their leading from 1.75 to 1.6 in Persian, the lede from seventeen
-       to fifteen, the portraits from four rem to three, and the air between
-       the parts and round the card by about a third. `fitPeople` in the
+       The words and their sizes are never touched: every word is the
+       client's and every size is the one set here. What gives is the air.
+       Everything else on these cards is drawn between the setting as made
+       (`--fit: 0`) and the closest it can be drawn (`--fit: 1` and a little
+       past it): the leading of the lives from 1.75 to no less than 1.55 in
+       Persian, the lede's from 1.8 to 1.6, the portraits from four rem to
+       under three, and the space between the parts and round the card by
+       about half, each with a floor it never goes under. `fitPeople` in the
        script sets the least that puts both generations whole on one card
        each, the same on both so the two read as a pair. Past the closest
-       setting it has two last steps, the lives running beside the portraits
-       (`people--wrap`, below) and then up to three tenths more; where even
-       those are not enough it leaves the type as set, and the second life
-       goes on to the next card as it did. */
+       setting the lives also run beside their portraits (`people--wrap`,
+       below); where even that is not enough the setting goes back to as
+       made, and the second life goes on to the next card as it did. */
     .sec--people {
       --cards: 5;
       --fit: 0;
-      --byline: calc(4rem - var(--fit) * 1rem);
-      --between: calc(2rem - var(--fit) * 0.75rem);
+      --byline: max(2.75rem, calc(4rem - var(--fit) * 1rem));
+      --between: max(1rem, calc(2rem - var(--fit) * 0.75rem));
     }
 
     .sec--people > .shell {
@@ -1514,11 +1515,25 @@
       column-width: 100vw;
       column-gap: 0;
       column-fill: auto;
-      padding-block: calc(var(--panel-pad) - var(--fit) * (var(--panel-pad) - 0.875rem));
+      padding-block: max(0.625rem, calc(var(--panel-pad) - var(--fit) * (var(--panel-pad) - 0.875rem)));
     }
 
     .sec--people .tag {
-      padding-block: calc(0.5rem - var(--fit) * 0.125rem);
+      padding-block: max(0.25rem, calc(0.5rem - var(--fit) * 0.125rem));
+    }
+
+    /* The banner and the names are titles, a line or two each, and are led
+       as the titles on a card are rather than as the running text they were
+       taking theirs from, which stood a one line banner a third taller than
+       its words. */
+    html[lang="fa"] .doc .sec--people .tag,
+    html[lang="fa"] .doc .person__name {
+      line-height: 1.45;
+    }
+
+    html[lang="en"] .doc .sec--people .tag,
+    html[lang="en"] .doc .person__name {
+      line-height: 1.25;
     }
 
     .sec--people > .shell > * {
@@ -1535,20 +1550,19 @@
        the edge of the card, where it met the green of the section opener on
        the card before and the two read as one shape. */
     .people__head .people__lede {
-      margin-block-start: calc(1rem - var(--fit) * 0.375rem);
-      font-size: calc(var(--step-1) - var(--fit) * 0.125rem);
+      margin-block-start: max(0.5rem, calc(1rem - var(--fit) * 0.375rem));
     }
 
     html[lang="fa"] .doc .people__lede {
-      line-height: calc(1.8 - var(--fit) * 0.15);
+      line-height: max(1.6, calc(1.8 - var(--fit) * 0.15));
     }
 
     html[lang="en"] .doc .people__lede {
-      line-height: calc(1.6 - var(--fit) * 0.12);
+      line-height: max(1.45, calc(1.6 - var(--fit) * 0.12));
     }
 
     .people__head .people__lede p + p {
-      margin-block-start: calc(1.25rem - var(--fit) * 0.75rem);
+      margin-block-start: max(0.375rem, calc(1.25rem - var(--fit) * 0.75rem));
     }
 
     /* A grid is one piece and cannot be poured, so the list of lives stops
@@ -1556,8 +1570,8 @@
        life as it stands between the two lives. */
     .people__list {
       display: block;
-      margin-block-start: calc(1.5rem - var(--fit) * 0.625rem);
-      padding-block-start: calc(1.5rem - var(--fit) * 0.625rem);
+      margin-block-start: max(0.625rem, calc(1.5rem - var(--fit) * 0.625rem));
+      padding-block-start: max(0.625rem, calc(1.5rem - var(--fit) * 0.625rem));
       border-block-start: var(--hairline) solid var(--rule);
     }
 
@@ -1616,7 +1630,7 @@
 
       float: inline-start;
       inline-size: var(--byline);
-      margin-inline-end: calc(1.25rem - var(--fit) * 0.25rem);
+      margin-inline-end: max(0.875rem, calc(1.25rem - var(--fit) * 0.25rem));
     }
 
     .person__body {
@@ -1628,7 +1642,6 @@
       align-items: center;
       /* The portrait's height, at three to four. */
       min-block-size: calc(var(--byline) * 4 / 3);
-      font-size: calc(var(--step-1) - var(--fit) * 0.0625rem);
       break-inside: avoid;
       break-after: avoid;
     }
@@ -1659,7 +1672,7 @@
 
     .person__bio {
       clear: both;
-      margin-block-start: calc(0.5rem - var(--fit) * 0.125rem);
+      margin-block-start: max(0.25rem, calc(0.5rem - var(--fit) * 0.125rem));
     }
 
     /* A life longer than a card, the one kind that is broken, may leave two
@@ -1674,15 +1687,15 @@
        it already says whose it is. It is what lets a generation's head and
        both its lives stand on one card on a phone of ordinary height. */
     .doc .person__bio {
-      font-size: calc(0.9375rem - var(--fit) * 0.125rem);
+      font-size: 0.9375rem;
     }
 
     html[lang="fa"] .doc .person__bio p {
-      line-height: calc(1.75 - var(--fit) * 0.15);
+      line-height: max(1.55, calc(1.75 - var(--fit) * 0.15));
     }
 
     html[lang="en"] .doc .person__bio p {
-      line-height: calc(1.55 - var(--fit) * 0.1);
+      line-height: max(1.4, calc(1.55 - var(--fit) * 0.1));
     }
 
     .person .list li {

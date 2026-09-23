@@ -751,18 +751,19 @@
   }
 
   /* Each generation, its head and both its lives, on one card. The
-     stylesheet draws everything on those cards between the type as set
-     (`--fit: 0`) and the closest it can be set (`--fit: 1`); this finds the
-     least that puts both generations whole on one card each, in tenths, and
-     gives both the same so they read as a pair. Past that there are two
-     last steps: the life's first lines run beside the portrait instead of
-     under it (`people--wrap`), and then the type comes down by up to three
-     tenths more. Where even that does not do it the type stays as set, and the
-     second life goes on to the next card as it would have. */
+     stylesheet draws the air on those cards, never the words or their
+     sizes, between the setting as made (`--fit: 0`) and the closest it can
+     be drawn (`--fit: 1`); this finds the least that puts both generations
+     whole on one card each, in tenths, and gives both the same so they read
+     as a pair. Past that the lives run beside their portraits instead of
+     under them (`people--wrap`) and the air closes a little more, down to
+     floors the stylesheet sets. Where even that does not do it the setting
+     goes back to as made, and the second life goes on to the next card as
+     it would have. */
   var FIT_STAGES = [];
   (function () {
     for (var step = 0; step <= 10; step += 1) FIT_STAGES.push({ fit: step / 10, wrap: false });
-    [1, 1.1, 1.2, 1.3].forEach(function (fit) {
+    [1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6].forEach(function (fit) {
       FIT_STAGES.push({ fit: fit, wrap: true });
     });
   })();
