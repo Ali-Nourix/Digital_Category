@@ -1484,8 +1484,29 @@
        stand down the upright page. A life is never broken, so where the
        second has no room under the first it takes the next card whole. */
 
+    /* A generation is one card: its head and both its lives, on every phone
+       that can be made to hold them. A phone's card is the screen less the
+       browser's own bars, which on a phone in the hand is a good deal less
+       than the screen, and at the type as set the second life was sent on
+       to a card of its own on most of them.
+
+       So everything on these cards is drawn between two settings, the type
+       as set (`--fit: 0`) and the closest it can be set and still read as
+       running text (`--fit: 1`): the lives from fifteen pixels to thirteen
+       and their leading from 1.75 to 1.6 in Persian, the lede from seventeen
+       to fifteen, the portraits from four rem to three, and the air between
+       the parts and round the card by about a third. `fitPeople` in the
+       script sets the least that puts both generations whole on one card
+       each, the same on both so the two read as a pair. Past the closest
+       setting it has two last steps, the lives running beside the portraits
+       (`people--wrap`, below) and then up to three tenths more; where even
+       those are not enough it leaves the type as set, and the second life
+       goes on to the next card as it did. */
     .sec--people {
       --cards: 5;
+      --fit: 0;
+      --byline: calc(4rem - var(--fit) * 1rem);
+      --between: calc(2rem - var(--fit) * 0.75rem);
     }
 
     .sec--people > .shell {
@@ -1493,6 +1514,11 @@
       column-width: 100vw;
       column-gap: 0;
       column-fill: auto;
+      padding-block: calc(var(--panel-pad) - var(--fit) * (var(--panel-pad) - 0.875rem));
+    }
+
+    .sec--people .tag {
+      padding-block: calc(0.5rem - var(--fit) * 0.125rem);
     }
 
     .sec--people > .shell > * {
@@ -1509,7 +1535,20 @@
        the edge of the card, where it met the green of the section opener on
        the card before and the two read as one shape. */
     .people__head .people__lede {
-      margin-block-start: var(--space-4);
+      margin-block-start: calc(1rem - var(--fit) * 0.375rem);
+      font-size: calc(var(--step-1) - var(--fit) * 0.125rem);
+    }
+
+    html[lang="fa"] .doc .people__lede {
+      line-height: calc(1.8 - var(--fit) * 0.15);
+    }
+
+    html[lang="en"] .doc .people__lede {
+      line-height: calc(1.6 - var(--fit) * 0.12);
+    }
+
+    .people__head .people__lede p + p {
+      margin-block-start: calc(1.25rem - var(--fit) * 0.75rem);
     }
 
     /* A grid is one piece and cannot be poured, so the list of lives stops
@@ -1517,8 +1556,8 @@
        life as it stands between the two lives. */
     .people__list {
       display: block;
-      margin-block-start: var(--space-6);
-      padding-block-start: var(--space-6);
+      margin-block-start: calc(1.5rem - var(--fit) * 0.625rem);
+      padding-block-start: calc(1.5rem - var(--fit) * 0.625rem);
       border-block-start: var(--hairline) solid var(--rule);
     }
 
@@ -1552,7 +1591,7 @@
        on to a card of its own the space goes with the break and the life
        starts on the card's top line like every other card does. */
     .person + .person {
-      margin-block-start: var(--space-8);
+      margin-block-start: var(--between);
     }
 
     /* The page's rule, halfway down that space, when the second life starts
@@ -1561,7 +1600,7 @@
       content: "";
       position: absolute;
       inset-inline: 0;
-      inset-block-start: calc(var(--space-8) / -2);
+      inset-block-start: calc(var(--between) / -2);
       block-size: var(--hairline);
       background-color: var(--rule);
     }
@@ -1573,11 +1612,11 @@
        The two are the same height, so they always go on to a card together;
        and the name holds on to the first lines of the life under it. */
     .person__portrait {
-      --cut: 1rem;
+      --cut: calc(var(--byline) / 4);
 
       float: inline-start;
-      inline-size: 4rem;
-      margin-inline-end: var(--space-5);
+      inline-size: var(--byline);
+      margin-inline-end: calc(1.25rem - var(--fit) * 0.25rem);
     }
 
     .person__body {
@@ -1587,8 +1626,9 @@
     .person__name {
       display: flex;
       align-items: center;
-      /* The portrait's height: four rem at three to four. */
-      min-block-size: calc(4rem * 4 / 3);
+      /* The portrait's height, at three to four. */
+      min-block-size: calc(var(--byline) * 4 / 3);
+      font-size: calc(var(--step-1) - var(--fit) * 0.0625rem);
       break-inside: avoid;
       break-after: avoid;
     }
@@ -1597,9 +1637,29 @@
       min-block-size: 0;
     }
 
+    /* The last step before a generation is let go on to two cards: the
+       name at the head of the life, beside the portrait, and the life's
+       first lines running on beside it as a column runs round a picture in
+       print, rather than starting under it. It saves the depth of the
+       portrait less a line, on each life. */
+    .people--wrap .person__name {
+      display: block;
+      min-block-size: 0;
+    }
+
+    .people--wrap .person__bio {
+      clear: none;
+    }
+
+    .people--wrap .person__body::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
     .person__bio {
       clear: both;
-      margin-block-start: var(--space-2);
+      margin-block-start: calc(0.5rem - var(--fit) * 0.125rem);
     }
 
     /* A life longer than a card, the one kind that is broken, may leave two
@@ -1614,15 +1674,15 @@
        it already says whose it is. It is what lets a generation's head and
        both its lives stand on one card on a phone of ordinary height. */
     .doc .person__bio {
-      font-size: 0.9375rem;
+      font-size: calc(0.9375rem - var(--fit) * 0.125rem);
     }
 
     html[lang="fa"] .doc .person__bio p {
-      line-height: 1.75;
+      line-height: calc(1.75 - var(--fit) * 0.15);
     }
 
     html[lang="en"] .doc .person__bio p {
-      line-height: 1.55;
+      line-height: calc(1.55 - var(--fit) * 0.1);
     }
 
     .person .list li {

@@ -750,6 +750,54 @@
     sec.style.setProperty("--band-room", Math.floor(room) + "px");
   }
 
+  /* Each generation, its head and both its lives, on one card. The
+     stylesheet draws everything on those cards between the type as set
+     (`--fit: 0`) and the closest it can be set (`--fit: 1`); this finds the
+     least that puts both generations whole on one card each, in tenths, and
+     gives both the same so they read as a pair. Past that there are two
+     last steps: the life's first lines run beside the portrait instead of
+     under it (`people--wrap`), and then the type comes down by up to three
+     tenths more. Where even that does not do it the type stays as set, and the
+     second life goes on to the next card as it would have. */
+  var FIT_STAGES = [];
+  (function () {
+    for (var step = 0; step <= 10; step += 1) FIT_STAGES.push({ fit: step / 10, wrap: false });
+    [1, 1.1, 1.2, 1.3].forEach(function (fit) {
+      FIT_STAGES.push({ fit: fit, wrap: true });
+    });
+  })();
+
+  function fitPeople(deck) {
+    var secs = Array.prototype.slice.call(document.querySelectorAll(".sec--people"));
+    function set(stage) {
+      secs.forEach(function (sec) {
+        if (stage) {
+          sec.style.setProperty("--fit", stage.fit);
+          sec.style.setProperty("--cards", 1);
+        } else {
+          sec.style.removeProperty("--fit");
+        }
+        sec.classList.toggle("people--wrap", !!stage && stage.wrap);
+      });
+    }
+
+    set(null);
+    if (!deck || !secs.length) return;
+
+    for (var i = 0; i < FIT_STAGES.length; i += 1) {
+      set(FIT_STAGES[i]);
+      var whole = secs.every(function (sec) {
+        var box = sec.querySelector(".shell");
+        if (!box) return true;
+        paginate(box);
+        return !spills(box);
+      });
+      if (whole) return;
+    }
+
+    set(null);
+  }
+
   function fitCards() {
     var deck = onDeck();
 
@@ -762,6 +810,7 @@
     });
 
     fitHorizon(deck);
+    fitPeople(deck);
 
     DECK.forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll(kind.sec), function (sec) {

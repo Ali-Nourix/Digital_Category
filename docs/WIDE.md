@@ -258,7 +258,7 @@ not have worked:
 | Panel | Deck |
 |---|---|
 | Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. The band is as deep as the horizon, below, on all five. Where the words under the band would run on to a second card by a few lines, and would fit one card on their own, the two cards are given the other way round: the photograph a card to itself, bleeding to the trim as the plates do, then the writing whole on the next (`feature--plated`, set by `plateFeature` in the script). Run on, the second card was three lines at its head and white to the foot. |
-| The biographies | Each generation's head (its banner, what the print says of it, and who it was) opens a card, with the page's rule under it, and its two lives run straight on under that, one under the other with the rule between them. At a phone of ordinary height or taller the whole generation is one card. On a shorter one the second life goes on to the next card whole, so the card holds the whole of what it says of that person and opens on them; let run on a line at a time it left its last three lines at the head of a card of white. The first life always stays with the head, which alone on a card is a banner and three lines. The portrait is beside the name rather than over it, a byline at four rem, and the lives are set a step under the running text, as notes on the people. |
+| The biographies | Each generation's head (its banner, what the print says of it, and who it was) opens a card, with the page's rule under it, and its two lives run straight on under that, one under the other with the rule between them. The whole generation is one card on every phone that can be made to hold it: a phone in the hand shows the card less the browser's own bars, which on most phones sent the second life to a card of its own at the type as set, so everything on these cards is drawn between the type as set (`--fit: 0`) and the closest it can be set (`--fit: 1`: the lives at thirteen pixels, the portraits at three rem, the air cut by a third), and `fitPeople` in the script sets the least that puts both generations on one card each, the same on both. Past that the lives run beside the portraits (`people--wrap`) and the type comes down up to three tenths more. That holds both generations on one card each in Persian down to 360 by 640, and in English down to 390 by 664. Where even that is not enough the type stays as set and the second life goes on to the next card whole, so the card holds the whole of what it says of that person and opens on them; let run on a line at a time it left its last three lines at the head of a card of white. The first life always stays with the head, which alone on a card is a banner and three lines. The portrait is beside the name rather than over it, a byline at four rem, and the lives are set a step under the running text, as notes on the people. |
 | Granite and quartzite | The same three frames on both, one tall and two square, over the writing. Left alone each block of photographs takes what its own writing leaves, so the two came out different shapes on consecutive cards. `fitStones` in the script gives both the block the longer writing leaves, so the frames stand in the same places on both cards and the title under them starts on the same line. |
 
 The lives are set in flow, not on the grid the page uses: the portrait floats
@@ -492,6 +492,13 @@ itself outside its card and reads as lost text:
 
 And the same with scripting off, which is what checks the figures in the
 stylesheet rather than the ones the script works out.
+
+That each generation is still one card at the heights a phone in the hand
+really has, the screen less the browser's bars: 390 by 664 for an iPhone in
+Safari, 412 by 780 for an Android phone in Chrome or Firefox, and 360 by 640
+for a small one. A longer life is what raises the step `fitPeople` has to
+take, and past the last step it sends the second life on to a card of its
+own.
 
 And that no card is left holding a few lines at its head and white under
 them: the last card of every poured section should be a quarter full or more,
