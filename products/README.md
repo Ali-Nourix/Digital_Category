@@ -19,7 +19,14 @@ corner on every framed photograph.
 
 The bar on every page switches between the two readings and the two
 languages, and its "Catalogue" link goes to the digital catalogue in the
-same reading and language.
+same reading and language. Under it runs the catalogue's reading line.
+
+The motion is the digital catalogue's, with its figures: see the Motion
+section of `assets/css/products.css` and the reveal in `products.js`. The
+catalogue's drift (a full bleed photograph moving against the scroll) is
+not used, because in the catalogue it does not run: its photographs sit in
+frames with `overflow: hidden`, which makes each frame the scroller its
+view timeline follows, and a frame never scrolls.
 
 ```bash
 python3 -m http.server 8000     # then open http://localhost:8000
@@ -34,8 +41,8 @@ python3 -m http.server 8000     # then open http://localhost:8000
 | `assets/fonts`, `assets/logos`, `assets/icons`, `assets/shapes` | The brand's faces, marks, social icons and shapes, as the catalogue uses them. Three interface icons are from Phosphor (MIT, `assets/icons/PHOSPHOR-LICENSE.txt`). |
 | `assets/css/tokens.css`, `fonts.css`, `shapes.css` | The brand tokens and the classes for the faces, marks and shapes. |
 | `assets/css/products.css` | This site's stylesheet. Its first half is the catalogue's own (bar, controls, cut corner, footer, photograph viewer); its second half is the product catalogue. |
-| `assets/css/products-wide.css` | The sideways reading, loaded only by the pages in `wide/`: on a wide window the stones in two rows along the track, each group opened by a green panel; on a phone held upright a deck of cards, two columns of two stones to a card. |
-| `assets/js/products.js` | The search and the filters, the switching band of stones over the title, the photographs opening as they come into view, and the way back to the filters. The grid is complete without it. |
+| `assets/css/products-wide.css` | The sideways reading, loaded only by the pages in `wide/`: on a wide window the band of stones the height of the window with the title and filters beside it, then the stones in two rows along the track, each group opened by a green panel, and on a stone's page every photograph a panel of its own run to the trim; on a phone held upright a deck of cards, two columns of two stones to a card. |
+| `assets/js/products.js` | The search and the filters; the band of stone surfaces across the head of the listing, each laid over the last with the name of the stone under it; the catalogue's own reveal, move for move (blocks rise, titles are written word by word, photographs are uncovered from the leading edge, and all of it plays again on the way back, except on a phone's deck of cards); and the way back to the filters. The grid is complete without it. |
 | `assets/js/products-wide.js` | What the sideways track needs: the mouse wheel turned into travel along it, the page keys, a card at a time on a phone, and the width of the quarry's writing measured. |
 | `assets/js/lightbox.js` | The catalogue's photograph viewer, unchanged. |
 | `assets/logos/favicon-32.png`, `apple-touch-icon.png` | The catalogue's tab icon drawn from `favicon.svg`, for the browsers that do not take an SVG icon. |

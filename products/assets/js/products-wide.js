@@ -289,13 +289,18 @@
     "wheel",
     function (event) {
       if (!sideways() || event.ctrlKey) return;
-      // A panel taller than the window, the card of words on a short one,
-      // scrolls down on its own; the wheel is left to it until it has come
-      // to the end in that direction, and then travels the track.
-      var inner = event.target.closest(".card, .intro");
-      if (inner && event.deltaY &&
-          (event.deltaY > 0 ? inner.scrollTop + inner.clientHeight < inner.scrollHeight - 1 : inner.scrollTop > 0)) {
-        return;
+      // A panel of words taller than the window it is in (the card of a
+      // stone, the column of filters on a short window, a card of the deck
+      // with its filters opened) scrolls down on its own; the wheel is left
+      // to it until it has come to the end in that direction, and then
+      // travels the track.
+      var inner = event.target.closest(".card, .intro__body, .intro");
+      while (inner && inner !== track) {
+        var room = event.deltaY > 0
+          ? inner.scrollTop + inner.clientHeight < inner.scrollHeight - 1
+          : inner.scrollTop > 0;
+        if (event.deltaY && room && getComputedStyle(inner).overflowY !== "visible") return;
+        inner = inner.parentElement && inner.parentElement.closest(".card, .intro__body, .intro");
       }
 
       if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
