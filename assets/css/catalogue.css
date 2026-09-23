@@ -691,6 +691,23 @@ html[lang="fa"] .lede {
   font-weight: 700;
 }
 
+/* On a phone the items of a list sit on each other and on the title over
+   them: at a phone's measure most are a line long, and spaced like
+   paragraphs they read as separate sentences rather than as one list. */
+@media (max-width: 47.9375rem) {
+  .title + .list {
+    margin-block-start: var(--space-3);
+  }
+
+  .list li + li {
+    margin-block-start: var(--space-2);
+  }
+
+  html[lang="fa"] .list li {
+    line-height: 1.7;
+  }
+}
+
 
 /* ==========================================================================
    Cover

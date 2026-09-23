@@ -1133,6 +1133,42 @@
       margin-block-start: var(--space-3);
     }
 
+    /* --- Rhythm on a card ---------------------------------------------------
+       What belongs together is set close and what does not is set apart, so
+       that a card reads as groups and not as lines at one even distance. A
+       title sits on what it heads; the items of a list sit on each other,
+       and on the sentence that introduces them; a new block stands off the
+       one before it by more air than anything inside either. Set evenly,
+       the items of a list stood as far apart as two paragraphs and a title
+       as close to the list above it as to its own, and the writing read as
+       one thing after another. */
+    .doc .title + .list {
+      margin-block-start: var(--space-3);
+    }
+
+    .doc .list li + li {
+      margin-block-start: var(--space-2);
+    }
+
+    html[lang="fa"] .doc .list li {
+      line-height: 1.7;
+    }
+
+    .doc .prose + .list,
+    .doc .slabs__uses-intro + .list {
+      margin-block-start: var(--space-3);
+    }
+
+    .doc .list + .prose,
+    .doc .list + .pull {
+      margin-block-start: var(--space-6);
+    }
+
+    .doc .columns__block + .columns__block,
+    .doc .slabs__side > .slabs__col {
+      margin-block-start: var(--space-12);
+    }
+
     /* The section opener's title comes down with the rest, and the green
        banner over a generation is a label rather than a heading, so it is
        set like one. */
@@ -1234,13 +1270,19 @@
        the top, which on a card is where the reading starts as the start edge
        is where it starts on a spread, and the title under it. The 5:7 of the
        print is kept, so the title has the larger share and the pause below
-       it that a section opener is supposed to have. */
+       it that a section opener is supposed to have.
+
+       The green stops on the deck's horizon (`--horizon`), the line every
+       photograph across the head of a card also stops on, so that swiping
+       from a section opener to the photograph after it the two edges run
+       on as one line instead of stepping. The script sets it; without the
+       script it is the 5:12 of the print on both. */
 
     .divider {
       min-block-size: 0;
       block-size: 100%;
       grid-template-columns: minmax(0, 1fr);
-      grid-template-rows: minmax(0, 5fr) minmax(0, 7fr);
+      grid-template-rows: var(--horizon, minmax(0, 5fr)) minmax(0, 7fr);
     }
 
     .divider__green {
@@ -1282,12 +1324,16 @@
 
     .feature__figure,
     .feature--lead .feature__figure {
-      /* The share it takes where the writing runs on to a second card and
-         the photograph is simply the head of the first. Where the writing
-         fits one card, the script gives the photograph the rest of that card
-         exactly, so the card is filled and the picture is as large as the
-         words allow; see `fitCards` in assets/js/catalogue-wide.js. */
-      block-size: var(--hero, 46%);
+      /* Down to the horizon, the same line as every other photograph at the
+         head of a card and every section opener's green. Each photograph was
+         once sized to what its own writing left, and five sections in a row
+         came out five different heights, stepping at every swipe. The
+         horizon is the one the shortest of those leaves, so every section
+         that fitted one card still does; see `fitHorizon` in
+         assets/js/catalogue-wide.js. Without it, 5:12 of the card, as the
+         divider. The percentage is of the box inside the frame, and the
+         photograph starts on the trim, a frame higher. */
+      block-size: var(--horizon, calc((100% + 2 * var(--panel-pad)) * 5 / 12));
       inline-size: 100%;
       aspect-ratio: auto;
       /* Up through the top frame line and out to both trims. */
@@ -1326,11 +1372,11 @@
 
     /* --- Columns ------------------------------------------------------------
        The advantages spread: three blocks of writing and eight photographs.
-       A block to a card, and the photographs on the card after them as two
-       across and four down, which is the printed band turned upright.
-
-       The second block is the long one and on most phones it wants the card
-       after it as well, so the count allows for that. */
+       The blocks run on one after another, a new block marked by the air
+       over its title rather than by a card of its own: a block to a card
+       left two cards of three mostly white. The photographs follow on the
+       card after them as two across and four down, which is the printed
+       band turned upright. */
 
     .sec--columns {
       --text-cards: 4;
@@ -1355,11 +1401,6 @@
 
     .columns__block {
       padding-inline: var(--frame);
-      break-before: column;
-    }
-
-    .columns__block:first-child {
-      break-before: auto;
     }
 
     .columns__block .title,
@@ -1414,33 +1455,27 @@
       padding-inline: var(--frame);
     }
 
-    /* The generation's head, the banner and the lede, is its card: as tall
-       as the card, with the head set in the middle of it, the same white
-       over it as under it. It is a title card, and set at the top it read
-       as a page that had stopped a third of the way down.
+    /* The generation's head, the banner and the lede, opens the card its two
+       lives follow on: one block, read from the banner down. Given a card
+       of its own the head was a card with three lines on it.
 
        The frame is the head's padding, so the green banner inside it starts
        on the frame, on the line the words under it start on. Given the frame
        as padding itself it took the frame inside its green, and ran out to
        the edge of the card, where it met the green of the section opener on
        the card before and the two read as one shape. */
-    .people__head {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      block-size: 100%;
-    }
-
-    .people__head > .people__lede {
-      align-self: stretch;
+    .people__head .people__lede {
+      margin-block-start: var(--space-4);
     }
 
     /* A grid is one piece and cannot be poured, so the list of lives stops
-       being one. */
+       being one. The page's rule stands between the head and the first
+       life as it stands between the two lives. */
     .people__list {
       display: block;
-      margin-block-start: 0;
+      margin-block-start: var(--space-6);
+      padding-block-start: var(--space-6);
+      border-block-start: var(--hairline) solid var(--rule);
     }
 
     /* The two lives are one run of writing, the second straight under the
@@ -1458,12 +1493,6 @@
       display: block;
       padding-block-start: 0;
       border-block-start: 0;
-    }
-
-    /* The lives begin on the card after the opener, which keeps its card to
-       itself. */
-    .person:first-child {
-      break-before: column;
     }
 
     /* The space over the second life is a margin, so that if it is ever sent
@@ -1529,6 +1558,22 @@
       orphans: 2;
     }
 
+    /* A life is set a step under the running text, as a note on the person
+       rather than a paragraph of the catalogue, and closer: the byline over
+       it already says whose it is. It is what lets a generation's head and
+       both its lives stand on one card on a phone of ordinary height. */
+    .doc .person__bio {
+      font-size: 0.9375rem;
+    }
+
+    html[lang="fa"] .doc .person__bio p {
+      line-height: 1.75;
+    }
+
+    html[lang="en"] .doc .person__bio p {
+      line-height: 1.55;
+    }
+
     .person .list li {
       break-inside: avoid;
     }
@@ -1538,9 +1583,8 @@
     }
 
     /* --- Slabs --------------------------------------------------------------
-       The three parts again, a part to a card and on to the next where a
-       part needs it: five cards in both languages, the first part over two,
-       the second over two and the third on its own. */
+       The three parts again, running on one after another as the advantages
+       do, each opened by the air over its title. */
 
     .sec--slabs {
       --cards: 7;
@@ -1564,15 +1608,6 @@
     .slabs__col {
       display: block;
       padding-inline: var(--frame);
-      break-before: column;
-    }
-
-    /* The first part only. The second is the first child of the wrapper that
-       holds the second and third, so a bare :first-child takes its break
-       away too, and it runs on under the first part instead of opening a
-       card of its own. */
-    .slabs > .slabs__col:first-child {
-      break-before: auto;
     }
 
     /* A grid's gaps do not survive a block, so they come back as margins. */

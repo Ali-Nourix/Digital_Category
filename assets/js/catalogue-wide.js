@@ -439,7 +439,7 @@
      white it did not need, and this takes them back. */
 
   var DECK = [
-    { sec: ".sec--feature", pour: ".feature", prop: "--cards", hero: ".feature__figure" },
+    { sec: ".sec--feature", pour: ".feature", prop: "--cards" },
     { sec: ".sec--people", pour: ".shell", prop: "--cards" },
     { sec: ".sec--slabs", pour: ".shell", prop: "--cards" },
     { sec: ".sec--columns", pour: ".columns__text", prop: "--text-cards" },
@@ -447,49 +447,142 @@
 
   var MOST = 12;
 
-  /* What a photograph at the head of a card may come down to before it stops
-     being a photograph, and what it may come up to before the words under it
-     read as a caption that has lost its picture. Shares of the card. */
-  var HERO_LEAST = 0.28;
-  var HERO_MOST = 0.64;
-
   /** Poured type that will not fit is laid out past the inline edge. */
   function spills(box) {
     return box.scrollWidth - box.clientWidth > 1;
   }
 
-  /* A section whose writing fits one card is given its photograph back: the
-     picture takes the card exactly, which both fills it and makes the
-     picture as large as the words allow. Returns true if one card did it.
+  /* The horizon: one line across the deck that every photograph at the head
+     of a card and every section opener's green stops on, so that the edges
+     run on from card to card instead of stepping at every swipe.
 
-     Without this a section three lines over a card spends a second one on
-     those three lines, and the reader swipes to a card that is empty. */
-  function fitHero(sec, box, spot) {
-    var fig = sec.querySelector(spot);
-    if (!fig) return false;
+     It is the height the shortest writing leaves: every section whose words
+     fit one card with a photograph of a reasonable height over them is
+     measured, and the horizon is the lowest of what they leave, so all of
+     them still fit their one card and none has a photograph taller than the
+     others. A section whose writing is longer than a card runs on to the
+     next whatever the photograph does, and has no say. Kept between two
+     shares of the card: under the first a photograph stops being one, and
+     over the second, the 5:12 of the print's section openers, the writing
+     under it reads as a caption that has lost its picture. */
+  var HORIZON_LEAST = 0.28;
+  var HORIZON_MOST = 5 / 12;
 
-    /* The card's own height, without the frame: clientHeight still counts
-       the padding, and a photograph sized to include it is a photograph one
-       frame too tall for the card it is filling. */
+  /** The height of a block of writing, however many columns it runs over. */
+  function depth(el) {
+    var sum = 0;
+    Array.prototype.forEach.call(el.getClientRects(), function (r) {
+      sum += r.height;
+    });
+    return sum;
+  }
+
+  function fitHorizon(deck) {
+    root.style.removeProperty("--horizon");
+    if (!deck) return;
+
+    var card = track.clientHeight;
+    var best = card * HORIZON_MOST;
+    Array.prototype.forEach.call(document.querySelectorAll(".sec--feature .feature"), function (box) {
+      var fig = box.querySelector(".feature__figure");
+      var words = fig && fig.nextElementSibling;
+      if (!words) return;
+      var frame = getComputedStyle(box);
+      var avail = box.clientHeight - parseFloat(frame.paddingBlockStart) - parseFloat(frame.paddingBlockEnd);
+      /* A pixel short of exact, because a photograph that fills the last of
+         the card to the subpixel is a photograph that sometimes does not. */
+      var leaves = avail - depth(words) - 1;
+      if (leaves >= card * HORIZON_LEAST) best = Math.min(best, leaves);
+    });
+    root.style.setProperty("--horizon", Math.floor(best) + "px");
+  }
+
+  /* Where a card breaks, done by hand.
+
+     The stylesheet asks for a heading never to end a card, for a list item,
+     a named advantage, the quote and a byline never to be broken, and for a
+     paragraph never to leave one line alone at the foot of a card. Chrome
+     and Safari do as they are asked. Firefox does none of it inside columns:
+     a heading ends a card with its text on the next, and a list item is cut
+     in two. So after the type is set this walks the poured box in reading
+     order and, wherever one of those has happened, pushes the block on to
+     the next card with a margin exactly as deep as what was left of the
+     card it was on. Where the browser has already done it, nothing is found
+     and nothing is moved. */
+  var HEADS = ".title, .heading, .benefit__title, .tag, .slabs__uses-intro";
+  var WHOLE = "li, .benefit, .pull, .person__name";
+
+  function paginate(box) {
+    paginateUndo(box);
+
     var frame = getComputedStyle(box);
-    var avail =
-      box.clientHeight -
-      parseFloat(frame.paddingBlockStart) -
-      parseFloat(frame.paddingBlockEnd);
+    var rtl = frame.direction === "rtl";
+    var width = window.innerWidth;
+    var height = box.clientHeight - parseFloat(frame.paddingBlockStart) - parseFloat(frame.paddingBlockEnd);
 
-    sec.style.setProperty("--hero", "0px");
-    var words = fig.nextElementSibling ? fig.nextElementSibling.offsetHeight : avail;
-    /* A pixel short of exact, because a photograph that fills the last of the
-       card to the subpixel is a photograph that sometimes does not. */
-    var hero = Math.min(avail - words - 1, avail * HERO_MOST);
-
-    if (hero >= avail * HERO_LEAST && !spills(box)) {
-      sec.style.setProperty("--hero", hero + "px");
-      if (!spills(box)) return true;
+    function place(rect) {
+      var edge = box.getBoundingClientRect();
+      var x = rtl ? edge.right - rect.right : rect.left - edge.left;
+      return {
+        column: Math.floor((x + 1) / width),
+        top: rect.top - edge.top - parseFloat(frame.paddingBlockStart),
+      };
     }
 
-    sec.style.removeProperty("--hero");
-    return false;
+    /* Measured again after every step, because the margin given may
+       collapse into one the block already had and move it less than asked. */
+    function push(el) {
+      var from = el.getClientRects()[0];
+      if (!from) return;
+      var column = place(from).column;
+      for (var tries = 0; tries < 4; tries += 1) {
+        var now = el.getClientRects()[0];
+        var at = place(now);
+        if (at.column !== column) return;
+        var left = height - at.top;
+        if (left <= 1) return;
+        var margin = parseFloat(getComputedStyle(el).marginBlockStart) || 0;
+        el.style.marginBlockStart = margin + left + 1 + "px";
+        el.setAttribute("data-pushed", "");
+      }
+    }
+
+    /* The first piece of a block that has anything in it: a list can start
+       with nothing but its own top edge at the foot of one card and its
+       first item on the next. */
+    function start(el) {
+      var pieces = el.getClientRects();
+      for (var i = 0; i < pieces.length; i += 1) if (pieces[i].height > 2) return pieces[i];
+      return pieces[0];
+    }
+
+    /* A life's byline is its portrait and its name together, so it is the
+       whole life that moves. */
+    function mover(el) {
+      return el.classList.contains("person__name") ? el.closest(".person") || el : el;
+    }
+
+    Array.prototype.forEach.call(box.querySelectorAll(HEADS + ", " + WHOLE + ", .prose p"), function (el) {
+      var pieces = el.getClientRects();
+      if (!pieces.length) return;
+      var here = place(pieces[0]);
+
+      if (pieces.length > 1 && place(pieces[pieces.length - 1]).column !== here.column) {
+        if (el.matches(WHOLE)) return push(mover(el));
+        // A paragraph that leaves a single line at the foot of a card, or
+        // carries a single line over to the head of the next: the whole of
+        // it goes on, which the next card has room for.
+        var line = parseFloat(getComputedStyle(el).lineHeight) || 28;
+        var tail = pieces[pieces.length - 1].height;
+        if (pieces[0].height < line * 1.6 || (tail < line * 1.6 && depth(el) < height)) return push(el);
+      }
+
+      if (el.matches(HEADS)) {
+        var next = el.nextElementSibling;
+        var after = next && start(next);
+        if (after && place(after).column !== here.column) push(mover(el));
+      }
+    });
   }
 
   /* A stop at every card boundary inside a panel that runs on, so a swipe
@@ -568,18 +661,20 @@
   function fitCards() {
     var deck = onDeck();
 
+    fitHorizon(deck);
+
     DECK.forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll(kind.sec), function (sec) {
+        var box = sec.querySelector(kind.pour);
         if (!deck) {
           sec.style.removeProperty(kind.prop);
-          sec.style.removeProperty("--hero");
+          if (box) paginateUndo(box);
           return;
         }
-        var box = sec.querySelector(kind.pour);
         if (!box) return;
 
         sec.style.setProperty(kind.prop, 1);
-        if (kind.hero && fitHero(sec, box, kind.hero)) return;
+        paginate(box);
 
         var n = 1;
         while (n < MOST && spills(box)) {
@@ -593,6 +688,13 @@
     markStops(deck);
     markLives(deck);
     readCards();
+  }
+
+  function paginateUndo(box) {
+    Array.prototype.forEach.call(box.querySelectorAll("[data-pushed]"), function (el) {
+      el.style.removeProperty("margin-block-start");
+      el.removeAttribute("data-pushed");
+    });
   }
 
   /* Measured against the type as it will be set, not as it is set while the

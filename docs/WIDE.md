@@ -257,8 +257,8 @@ not have worked:
 
 | Panel | Deck |
 |---|---|
-| Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. |
-| The biographies | Each generation's head (its banner, what the print says of it, and who it was) on a card of its own, set in the middle of it with the same white above as below: a title card. Then its two lives on the next card, one under the other as they stand down the upright page, with the page's rule between them. The portrait is beside the name rather than over it, a byline at four rem, because the depth a portrait over the name takes is the depth the second life needs to start on the same card. Where the card is too short for both lives whole, the second still starts under the first and its last lines run on to the next card, as any paragraph does. It starts a card of its own only on the smallest phones, where the first life alone fills most of one. |
+| Feature | The photograph across the top of the card, bleeding to the trim on three sides, and the writing running on under it. The photograph is a band and not a card of its own: given a whole card it would leave the shortest of the five a card of writing with two paragraphs on it, and the longest would still want two more. The band is as deep as the horizon, below, on all five. |
+| The biographies | Each generation's head (its banner, what the print says of it, and who it was) opens a card, with the page's rule under it, and its two lives run straight on under that, one under the other with the rule between them. At a phone of ordinary height or taller the whole generation is one card. On a shorter one the second life starts on the next card, so every card still opens on a person. The portrait is beside the name rather than over it, a byline at four rem, and the lives are set a step under the running text, as notes on the people. |
 | Granite and quartzite | The same three frames on both, one tall and two square, over the writing. Left alone each block of photographs takes what its own writing leaves, so the two came out different shapes on consecutive cards. `fitStones` in the script gives both the block the longer writing leaves, so the frames stand in the same places on both cards and the title under them starts on the same line. |
 
 The lives are set in flow, not on the grid the page uses: the portrait floats
@@ -275,10 +275,12 @@ card: the card's edge is the page turn, and at rest the line stood down the
 edge of the screen on some cards and not others.
 
 **And a card holds what a card holds.** The long sections are given more than
-one card rather than a card with the foot cut off it, and where the writing
-is already in parts (the three of the twelve millimetre spread, the two
-lives, the three blocks of the advantages), the parts are where it divides. A
-part opens a card and runs on to the next if it needs one. A paragraph may
+one card rather than a card with the foot cut off it. The writing runs on
+from card to card without opening a new card for each of its parts (the
+three of the twelve millimetre spread, the three blocks of the advantages):
+given a card each, most parts left a card two thirds white. A new part is
+marked instead by the air over its title, which is the largest space on a
+card. A paragraph may
 run from the foot of one card to the head of the next, as it runs from page
 to page in print, never with fewer than three lines at either end; a heading
 never ends a card, and a list item, a named advantage or the quote is never
@@ -289,6 +291,39 @@ card wide, poured rather than balanced (`column-fill: auto`), with the frame
 moved off the shell and on to the blocks inside it, so that every column
 carries the frame and not only the first and the last. A section is
 `--cards` cards wide.
+
+### The horizon
+
+Every photograph across the head of a card and every section opener's green
+stop on one line, `--horizon`, so that swiping from one to the next their
+edges run on instead of stepping. Each photograph was once sized to what its
+own writing left, and five sections in a row came out five heights between
+308 and 511 pixels on the same phone. `fitHorizon` in the script measures
+every feature whose writing fits one card and sets the horizon to the lowest
+height any of them leaves, between 28% of the card and the print's 5:12, so
+all of them still fit and none stands taller than the others.
+
+### Rhythm on a card
+
+What belongs together is set close and what does not is set apart: a title
+twelve pixels over what it heads, the items of a list eight pixels apart and
+close to the sentence that introduces them, a new block forty eight pixels
+off the one before it. Set evenly, a one line list item stood as far from the
+next as two paragraphs do, and a title as close to the list above it as to
+its own. The same list spacing is used on the upright page at a phone's
+width.
+
+### Where a card breaks
+
+Chrome and Safari keep a heading with its text, never cut a list item or a
+byline in two and never leave one line of a paragraph alone at the foot or
+head of a card, because the stylesheet asks them to. Firefox does none of it
+inside columns, and does not honour a forced column break either. So after
+the type is set, `paginate` in the script walks each poured box in reading
+order and pushes any block that has broken one of those rules on to the next
+card, with a margin exactly as deep as what was left of the card it was on.
+Where the browser has done it already there is nothing to push. Check the
+deck in Firefox as well as Chrome whenever the words change.
 
 ### Type on a card
 
