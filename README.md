@@ -59,10 +59,13 @@ left out of the site until it has something to show. Black Tempest is the one.
 
 ## Publishing
 
-The repository has one GitHub Pages site. The workflow in
-`.github/workflows/deploy-pages.yml`, the same in this branch and in
-`Behkooshan-catalogue`, publishes both together: the digital catalogue at the
-top of the site and this one in its `products/` folder. The bar's
+The repository has one GitHub Pages site, built from the branch
+`Behkooshan-catalogue` as it stands. This site is published in that branch's
+`products/` folder: every push here runs `.github/workflows/publish.yml`, which
+copies the site into that folder (without the original photographs, the data
+and the tools) and commits it there, and Pages then publishes the digital
+catalogue at `/` and this one at `/products/`. Edit the product catalogue here
+only; the copy in the catalogue branch is overwritten on every push. The bar's
 "Catalogue" link relies on that arrangement (`CATALOGUE` at the top of
 `tools/build-products.mjs`).
 

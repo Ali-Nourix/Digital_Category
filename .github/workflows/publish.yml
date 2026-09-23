@@ -1,0 +1,58 @@
+name: Publish with the catalogue
+
+# The repository has one GitHub Pages site, built from the branch
+# Behkooshan-catalogue as it stands. This site is published in that
+# branch's products/ folder, so a push here copies what the site needs into
+# that folder and commits it there, and Pages publishes the catalogue and
+# this catalogue together, at / and at /products/.
+#
+# What is copied is the site without what only building it needs: the
+# original photographs (the pages show webp copies), the data and the tools.
+# The original texture files go, because they are the downloads. This branch
+# stays the only place the product catalogue is edited; the copy in the
+# catalogue branch is overwritten on every push.
+on:
+  push:
+    branches: [Behkooshan-products]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-products
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source
+
+      - uses: actions/checkout@v4
+        with:
+          ref: Behkooshan-catalogue
+          path: catalogue
+
+      - name: Copy the site into the catalogue's products folder
+        run: |
+          rsync -a --delete \
+                --exclude .git --exclude .github \
+                --exclude '/research/products/*/images' \
+                --exclude /tools --exclude /data --exclude /docs \
+                source/ catalogue/products/
+
+      - name: Commit it to the catalogue branch
+        working-directory: catalogue
+        run: |
+          git add -A products
+          if git diff --cached --quiet; then
+            echo "The published copy is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish the product catalogue from Behkooshan-products ${GITHUB_SHA::7}"
+          git push origin HEAD:Behkooshan-catalogue
