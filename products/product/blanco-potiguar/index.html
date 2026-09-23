@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-axis="block">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../assets/logos/apple-touch-icon.png">
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" imagesrcset="../../media/blanco-potiguar/01-blanco-potiguar-480.webp 480w, ../../media/blanco-potiguar/01-blanco-potiguar-800.webp 800w, ../../media/blanco-potiguar/01-blanco-potiguar-1052.webp 1052w" imagesizes="(min-width: 64rem) 56vw, 100vw" fetchpriority="high">
@@ -29,6 +31,7 @@
 
       <div class="bar__end">
         <a class="chip" href="../../../" aria-label="کاتالوگ دیجیتال به‌کوشان">کاتالوگ</a>
+        <a class="chip" href="../../wide/product/blanco-potiguar/" data-view-swap aria-label="دیدن در نمای افقی">نمای افقی</a>
         <a class="chip" href="../../en/product/blanco-potiguar/" lang="en" hreflang="en" aria-label="خواندن به انگلیسی">English</a>
       </div>
     </div>
@@ -38,7 +41,7 @@
     <article class="stone-page">
       <div class="shell stone-page__inner">
         <div class="plates">
-          <figure class="plate plate--lead cut zoomable" data-zoom>
+          <figure class="plate plate--lead cut zoomable" data-zoom style="--ratio: 1052 / 646">
             <img src="../../media/blanco-potiguar/01-blanco-potiguar-800.webp"
                  srcset="../../media/blanco-potiguar/01-blanco-potiguar-480.webp 480w, ../../media/blanco-potiguar/01-blanco-potiguar-800.webp 800w, ../../media/blanco-potiguar/01-blanco-potiguar-1052.webp 1052w"
                  sizes="(min-width: 64rem) 56vw, 100vw"
@@ -57,29 +60,33 @@
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs">
-          <div class="spec">
-            <dt class="spec__label">نوع</dt>
-            <dd class="spec__value">گرانیت</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">کشور مبدا</dt>
-            <dd class="spec__value">برزیل</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">دسته‌بندی</dt>
-            <dd class="spec__value">وارداتی</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">رنگ</dt>
-            <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--cream" aria-hidden="true"></span>کرم</span></dd>
-          </div>
+            <div class="spec">
+              <dt class="spec__label">نوع</dt>
+              <dd class="spec__value">گرانیت</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">کشور مبدا</dt>
+              <dd class="spec__value">برزیل</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">دسته‌بندی</dt>
+              <dd class="spec__value">وارداتی</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">رنگ</dt>
+              <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--cream" aria-hidden="true"></span>کرم</span></dd>
+            </div>
           </dl>
 
           <div class="get">
             <a class="get__button" href="../../research/products/blanco-potiguar/images/01-Blanco-Potiguar.jpg" download="blanco-potiguar-texture.jpg">
               <span class="icon icon--download" aria-hidden="true"></span>دانلود تکسچر
             </a>
-            <p class="get__meta">فایل <span lang="en">JPG</span>، ۱۰۵۲ در ۶۴۶ پیکسل، ۱۷۴ کیلوبایت</p>
+            <ul class="get__meta" role="list">
+              <li>فایل <span lang="en">JPG</span></li>
+              <li>۱۰۵۲ × ۶۴۶ پیکسل</li>
+              <li>۱۷۴ کیلوبایت</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -87,20 +94,20 @@
 
 
 
-      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">سنگ‌های هم‌رنگ</h2>
-          <ol class="stones stones--row" role="list">
+    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related"><span class="word" style="--w:0"><span>سنگ‌های</span></span> <span class="word" style="--w:1"><span>هم‌رنگ</span></span></h2>
+        <ol class="stones stones--row" role="list">
         <li class="stone"
             data-type="granite" data-origin="imported" data-colours="cream"
             data-names="الگانت براون | Elegant Brown">
           <a class="stone__link" href="../../product/elegant-brown/">
             <span class="stone__frame cut">
-              <img src="../../media/elegant-brown/01-elegant-brown-1-800.webp"
+              <span class="stone__photo"><img src="../../media/elegant-brown/01-elegant-brown-1-800.webp"
                srcset="../../media/elegant-brown/01-elegant-brown-1-480.webp 480w, ../../media/elegant-brown/01-elegant-brown-1-800.webp 800w, ../../media/elegant-brown/01-elegant-brown-1-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">الگانت براون</span>
             <span class="stone__alt" lang="en" dir="ltr">Elegant Brown</span>
@@ -112,11 +119,11 @@
             data-names="اینفینیتی گلد | Infinity Gold | اینفینیتی | ینیتفینیتی">
           <a class="stone__link" href="../../product/infinity-gold/">
             <span class="stone__frame cut">
-              <img src="../../media/infinity-gold/01-infinity-gold-m-800.webp"
+              <span class="stone__photo"><img src="../../media/infinity-gold/01-infinity-gold-m-800.webp"
                srcset="../../media/infinity-gold/01-infinity-gold-m-480.webp 480w, ../../media/infinity-gold/01-infinity-gold-m-800.webp 800w, ../../media/infinity-gold/01-infinity-gold-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">اینفینیتی گلد</span>
             <span class="stone__alt" lang="en" dir="ltr">Infinity Gold</span>
@@ -128,11 +135,11 @@
             data-names="پاتاگونیا اورجینال | Patagonia Original | Patagonia Orginal">
           <a class="stone__link" href="../../product/patagonia-original/">
             <span class="stone__frame cut">
-              <img src="../../media/patagonia-original/01-patagonia-orginal-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../media/patagonia-original/01-patagonia-orginal-m-11zon-800.webp"
                srcset="../../media/patagonia-original/01-patagonia-orginal-m-11zon-480.webp 480w, ../../media/patagonia-original/01-patagonia-orginal-m-11zon-800.webp 800w, ../../media/patagonia-original/01-patagonia-orginal-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">پاتاگونیا اورجینال</span>
             <span class="stone__alt" lang="en" dir="ltr">Patagonia Original</span>
@@ -144,20 +151,21 @@
             data-names="پاتاگونیا تورمالین | Patagonia Tourmaline | Patagonia troumaline">
           <a class="stone__link" href="../../product/patagonia-tourmaline/">
             <span class="stone__frame cut">
-              <img src="../../media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon-800.webp"
                srcset="../../media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon-480.webp 480w, ../../media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon-800.webp 800w, ../../media/patagonia-tourmaline/01-patagonia-troumaline-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">پاتاگونیا تورمالین</span>
             <span class="stone__alt" lang="en" dir="ltr">Patagonia Tourmaline</span>
             <span class="stone__meta">گرانیت، برزیل</span>
           </a>
         </li>
-          </ol>
-        </div>
-      </section>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <footer class="foot">
@@ -213,7 +221,6 @@
       </div>
     </div>
   </dialog>
-
   <script src="../../assets/js/products.js" defer></script>
   <script src="../../assets/js/lightbox.js" defer></script>
 </body>

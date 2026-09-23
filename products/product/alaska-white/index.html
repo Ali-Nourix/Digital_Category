@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-axis="block">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#184b36">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../../assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/logos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../assets/logos/apple-touch-icon.png">
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/rokh/Rokh-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" imagesrcset="../../media/alaska-white/01-alaska-m-480.webp 480w, ../../media/alaska-white/01-alaska-m-800.webp 800w, ../../media/alaska-white/01-alaska-m-1052.webp 1052w" imagesizes="(min-width: 64rem) 56vw, 100vw" fetchpriority="high">
@@ -29,6 +31,7 @@
 
       <div class="bar__end">
         <a class="chip" href="../../../" aria-label="کاتالوگ دیجیتال به‌کوشان">کاتالوگ</a>
+        <a class="chip" href="../../wide/product/alaska-white/" data-view-swap aria-label="دیدن در نمای افقی">نمای افقی</a>
         <a class="chip" href="../../en/product/alaska-white/" lang="en" hreflang="en" aria-label="خواندن به انگلیسی">English</a>
       </div>
     </div>
@@ -38,7 +41,7 @@
     <article class="stone-page">
       <div class="shell stone-page__inner">
         <div class="plates">
-          <figure class="plate plate--lead cut zoomable" data-zoom>
+          <figure class="plate plate--lead cut zoomable" data-zoom style="--ratio: 1052 / 646">
             <img src="../../media/alaska-white/01-alaska-m-800.webp"
                  srcset="../../media/alaska-white/01-alaska-m-480.webp 480w, ../../media/alaska-white/01-alaska-m-800.webp 800w, ../../media/alaska-white/01-alaska-m-1052.webp 1052w"
                  sizes="(min-width: 64rem) 56vw, 100vw"
@@ -57,29 +60,33 @@
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs">
-          <div class="spec">
-            <dt class="spec__label">نوع</dt>
-            <dd class="spec__value">گرانیت</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">کشور مبدا</dt>
-            <dd class="spec__value">هند</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">دسته‌بندی</dt>
-            <dd class="spec__value">وارداتی</dd>
-          </div>
-          <div class="spec">
-            <dt class="spec__label">رنگ</dt>
-            <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--white" aria-hidden="true"></span>سفید</span><span class="swatch"><span class="pick__swatch pick__swatch--cream" aria-hidden="true"></span>کرم</span></dd>
-          </div>
+            <div class="spec">
+              <dt class="spec__label">نوع</dt>
+              <dd class="spec__value">گرانیت</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">کشور مبدا</dt>
+              <dd class="spec__value">هند</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">دسته‌بندی</dt>
+              <dd class="spec__value">وارداتی</dd>
+            </div>
+            <div class="spec">
+              <dt class="spec__label">رنگ</dt>
+              <dd class="spec__value spec__value--swatches"><span class="swatch"><span class="pick__swatch pick__swatch--white" aria-hidden="true"></span>سفید</span><span class="swatch"><span class="pick__swatch pick__swatch--cream" aria-hidden="true"></span>کرم</span></dd>
+            </div>
           </dl>
 
           <div class="get">
             <a class="get__button" href="../../research/products/alaska-white/images/01-Alaska-m.jpg" download="alaska-white-texture.jpg">
               <span class="icon icon--download" aria-hidden="true"></span>دانلود تکسچر
             </a>
-            <p class="get__meta">فایل <span lang="en">JPG</span>، ۱۰۵۲ در ۶۴۶ پیکسل، ۱۲۹ کیلوبایت</p>
+            <ul class="get__meta" role="list">
+              <li>فایل <span lang="en">JPG</span></li>
+              <li>۱۰۵۲ × ۶۴۶ پیکسل</li>
+              <li>۱۲۹ کیلوبایت</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -87,20 +94,20 @@
 
 
 
-      <section class="related" aria-labelledby="related">
-        <div class="shell">
-          <h2 class="section-title" id="related">سنگ‌های هم‌رنگ</h2>
-          <ol class="stones stones--row" role="list">
+    <section class="related" aria-labelledby="related">
+      <div class="shell related__inner">
+        <h2 class="section-title headline" id="related"><span class="word" style="--w:0"><span>سنگ‌های</span></span> <span class="word" style="--w:1"><span>هم‌رنگ</span></span></h2>
+        <ol class="stones stones--row" role="list">
         <li class="stone"
             data-type="granite" data-origin="imported" data-colours="white"
             data-names="آندرومدا | Andromeda | آندومدا">
           <a class="stone__link" href="../../product/andromeda/">
             <span class="stone__frame cut">
-              <img src="../../media/andromeda/01-andromeda-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../media/andromeda/01-andromeda-m-11zon-800.webp"
                srcset="../../media/andromeda/01-andromeda-m-11zon-480.webp 480w, ../../media/andromeda/01-andromeda-m-11zon-800.webp 800w, ../../media/andromeda/01-andromeda-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">آندرومدا</span>
             <span class="stone__alt" lang="en" dir="ltr">Andromeda</span>
@@ -112,11 +119,11 @@
             data-names="تاج محل | Taj Mahal">
           <a class="stone__link" href="../../product/taj-mahal/">
             <span class="stone__frame cut">
-              <img src="../../media/taj-mahal/01-taj-mahal-m-11zon-800.webp"
+              <span class="stone__photo"><img src="../../media/taj-mahal/01-taj-mahal-m-11zon-800.webp"
                srcset="../../media/taj-mahal/01-taj-mahal-m-11zon-480.webp 480w, ../../media/taj-mahal/01-taj-mahal-m-11zon-800.webp 800w, ../../media/taj-mahal/01-taj-mahal-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">تاج محل</span>
             <span class="stone__alt" lang="en" dir="ltr">Taj Mahal</span>
@@ -128,11 +135,11 @@
             data-names="سندد وایت | Sanded White">
           <a class="stone__link" href="../../product/sanded-white/">
             <span class="stone__frame cut">
-              <img src="../../media/sanded-white/01-sanded-white-m-800.webp"
+              <span class="stone__photo"><img src="../../media/sanded-white/01-sanded-white-m-800.webp"
                srcset="../../media/sanded-white/01-sanded-white-m-480.webp 480w, ../../media/sanded-white/01-sanded-white-m-800.webp 800w, ../../media/sanded-white/01-sanded-white-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">سندد وایت</span>
             <span class="stone__alt" lang="en" dir="ltr">Sanded White</span>
@@ -144,20 +151,21 @@
             data-names="اویستر کوارتز | Oyster Quartz">
           <a class="stone__link" href="../../product/oyster-quartz/">
             <span class="stone__frame cut">
-              <img src="../../media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1-800.webp"
+              <span class="stone__photo"><img src="../../media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1-800.webp"
                srcset="../../media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1-480.webp 480w, ../../media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1-800.webp 800w, ../../media/oyster-quartz/01-oyster-7vmxilrlxyb3th59tthn-1-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async">
+               alt="" loading="lazy" decoding="async"></span>
             </span>
             <span class="stone__name">اویستر کوارتز</span>
             <span class="stone__alt" lang="en" dir="ltr">Oyster Quartz</span>
             <span class="stone__meta">مرمر، آنگولا</span>
           </a>
         </li>
-          </ol>
-        </div>
-      </section>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <footer class="foot">
@@ -213,7 +221,6 @@
       </div>
     </div>
   </dialog>
-
   <script src="../../assets/js/products.js" defer></script>
   <script src="../../assets/js/lightbox.js" defer></script>
 </body>
