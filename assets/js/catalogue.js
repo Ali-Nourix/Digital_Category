@@ -1,7 +1,7 @@
 /* ==========================================================================
    Behkooshan catalogue
 
-   Three jobs, no scroll listener between them:
+   Four jobs, no scroll listener between them:
 
      1. reveal    hide what is below the fold, then let an IntersectionObserver
                   bring each piece in as the scroll reaches it, and take it
@@ -12,6 +12,8 @@
                   switch lands the reader in the same place in the other
                   document rather than at the top of it
      3. contents  open and close the index
+     4. warm      ask for each photograph a few screens before the reader
+                  reaches it, so it is there when they arrive
 
    Every hidden state in the stylesheet is gated on html.js AND on a class
    this file adds. Nothing is hidden by CSS alone, so a page whose script
@@ -195,7 +197,45 @@
     });
   }
 
+  /* ------------------------------------------------------------------ warm */
+
+  /* A photograph should be on the page when the reader arrives at it, not
+     start loading as they do. `loading="lazy"` leaves when to fetch it to
+     the browser, and browsers disagree: Chrome starts one well over a screen
+     ahead, Firefox not until it is nearly in view, and inside the sideways
+     track, which is a scroller of its own, not until it is on the screen at
+     all, so on a phone every photograph arrived visibly after its card had.
+     So each is asked for outright once it is within a few screens of the
+     reader, in whichever direction the document runs. The photographs of
+     the first screen are not lazy and are fetched with the page. */
+  function setUpWarm() {
+    var lazy = Array.prototype.slice.call(document.querySelectorAll('img[loading="lazy"]'));
+    if (!lazy.length || !("IntersectionObserver" in window)) return;
+
+    function watch(options) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.loading = "eager";
+          observer.unobserve(entry.target);
+        });
+      }, options);
+      lazy.forEach(function (img) {
+        observer.observe(img);
+      });
+    }
+
+    // Down the page: two and a half screens either way.
+    watch({ rootMargin: "250% 0px 250% 0px" });
+
+    // Along the track: three cards, or three spreads, either way. An
+    // observer on the window never sees past the track's own edge.
+    var track = document.getElementById("doc");
+    if (sideways && track) watch({ root: track, rootMargin: "0px 300% 0px 300%" });
+  }
+
   setUpReveal();
   setUpPosition();
   setUpContents();
+  setUpWarm();
 })();

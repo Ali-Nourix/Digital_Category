@@ -1495,7 +1495,7 @@
        Everything else on these cards is drawn between the setting as made
        (`--fit: 0`) and the closest it can be drawn (`--fit: 1` and a little
        past it): the leading of the lives from 1.75 to no less than 1.55 in
-       Persian, the lede's from 1.8 to 1.6, the portraits from four rem to
+       Persian, the lede's from 1.6 to 1.5, the portraits from four rem to
        under three, and the space between the parts and round the card by
        about half, each with a floor it never goes under. `fitPeople` in the
        script sets the least that puts both generations whole on one card
@@ -1554,15 +1554,15 @@
     }
 
     html[lang="fa"] .doc .people__lede {
-      line-height: max(1.6, calc(1.8 - var(--fit) * 0.15));
+      line-height: max(1.5, calc(1.6 - var(--fit) * 0.1));
     }
 
     html[lang="en"] .doc .people__lede {
-      line-height: max(1.45, calc(1.6 - var(--fit) * 0.12));
+      line-height: max(1.35, calc(1.45 - var(--fit) * 0.1));
     }
 
     .people__head .people__lede p + p {
-      margin-block-start: max(0.375rem, calc(1.25rem - var(--fit) * 0.75rem));
+      margin-block-start: max(0.375rem, calc(0.75rem - var(--fit) * 0.375rem));
     }
 
     /* A grid is one piece and cannot be poured, so the list of lives stops

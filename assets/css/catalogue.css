@@ -1066,13 +1066,15 @@ html[lang="fa"] .divider__subtitle {
   background-color: var(--print-green);
   color: var(--paper);
   font-size: var(--step-1);
-  /* The angled corner off the leading edge is the shape the print cuts into
-     this banner. clip-path has no logical keywords, so rtl mirrors it. */
-  clip-path: polygon(0.9rem 0, 100% 0, 100% 100%, 0 100%, 0 0.9rem);
+  /* The angled corner is off the top of the trailing edge, the corner every
+     photograph's frame is cut at, so the banner and the portraits under it
+     are cut the same way round. clip-path has no logical keywords, so rtl
+     mirrors it. */
+  clip-path: polygon(0 0, calc(100% - 0.9rem) 0, 100% 0.9rem, 100% 100%, 0 100%);
 }
 
 html[dir="rtl"] .tag {
-  clip-path: polygon(0 0, calc(100% - 0.9rem) 0, 100% 0.9rem, 100% 100%, 0 100%);
+  clip-path: polygon(0.9rem 0, 100% 0, 100% 100%, 0 100%, 0 0.9rem);
 }
 
 html[lang="fa"] .tag {
@@ -1093,8 +1095,20 @@ html[lang="en"] .tag {
 }
 
 .people__lede p + p {
-  margin-block-start: var(--space-5);
+  margin-block-start: var(--space-3);
   color: var(--ink-muted);
+}
+
+/* A sentence and the two names it introduces, one short block under the
+   banner, and led closer than a paragraph of running text: at the lede's
+   own leading its four short lines stood apart from each other as four
+   separate things. */
+html[lang="fa"] .people__lede {
+  line-height: 1.6;
+}
+
+html[lang="en"] .people__lede {
+  line-height: 1.45;
 }
 
 .people__list {
