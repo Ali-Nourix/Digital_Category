@@ -41,6 +41,22 @@
    and that is what the height in the gate is keeping out.
    ========================================================================== */
 
+/* The word on which way the track runs has no track to speak of below the
+   gate; the track block below brings it back. */
+.hint {
+  display: none;
+}
+
+@keyframes hint-on {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0.3rem 0; }
+}
+
+@keyframes hint-on-rtl {
+  0%, 100% { translate: 0 0; }
+  50% { translate: -0.3rem 0; }
+}
+
 @media (min-width: 20rem) and (min-height: 34rem) {
   /* --- The scroller -------------------------------------------------------
      The document itself is the scroller. Its flex row follows `dir`, so the
@@ -204,6 +220,80 @@
   .sec--cover > .shell {
     max-inline-size: var(--shell);
     margin-inline: auto;
+  }
+
+  /* --- The way on ---------------------------------------------------------
+     The cover's word on which way the reading goes, in the corner it goes
+     towards: the arrow points along the track, and a press moves on a
+     screen, as the page keys do. The brand's outline tag, the same as the
+     chips in the bar, which reads on the white of the cover and on a
+     photograph alike. catalogue-wide.js shows it while the reader is on the
+     first screen, however they came back to it, and takes it away as soon
+     as they are on their way.
+
+     A hand or a wheel is told what to do with it: a screen that can hover
+     with a fine pointer has a wheel under it, anything else a finger. */
+  .hint {
+    position: fixed;
+    inset-block-end: max(var(--space-4), env(safe-area-inset-bottom));
+    inset-inline-end: var(--frame);
+    z-index: 20;
+    display: inline-flex;
+    gap: var(--space-3);
+    opacity: 0;
+    visibility: hidden;
+    translate: 0 0.75rem;
+    transition: opacity 500ms var(--ease-out),
+                translate 800ms var(--ease-out),
+                visibility 0s linear 800ms,
+                background-color var(--dur-fast) linear,
+                color var(--dur-fast) linear;
+  }
+
+  .hint[hidden] {
+    display: none;
+  }
+
+  .hint.is-shown {
+    opacity: 1;
+    visibility: visible;
+    translate: 0 0;
+    transition-delay: 0s;
+  }
+
+  .hint__wheel {
+    display: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .hint__wheel {
+      display: inline;
+    }
+
+    .hint__touch {
+      display: none;
+    }
+  }
+
+  .hint .icon {
+    inline-size: 1.125rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hint.is-shown .icon {
+      animation: hint-on 1800ms ease-in-out infinite;
+    }
+
+    html[dir="rtl"] .hint.is-shown .icon {
+      animation-name: hint-on-rtl;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hint {
+      translate: none;
+      transition: opacity 200ms linear, visibility 0s linear 200ms;
+    }
   }
 
   /* --- Motion -------------------------------------------------------------

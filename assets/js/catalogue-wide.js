@@ -901,4 +901,40 @@
     },
     { passive: true }
   );
+
+  /* ------------------------------------------------------------- the way on */
+
+  /* The cover's word on which way the reading goes. Shown while the reader
+     is on the first screen, which is within a little of a screen of the
+     start, and not before the cover has set itself, so it is not one more
+     thing moving while that does. A press moves on as Page Down does: a
+     card on the deck, a spread on a wide window. */
+  var hint = document.querySelector("[data-hint]");
+  if (hint) {
+    var ready = false;
+    var looking = null;
+
+    var place = function () {
+      looking = null;
+      var home = Math.abs(track.scrollLeft) < track.clientWidth * 0.4;
+      hint.classList.toggle("is-shown", ready && sideways() && home);
+    };
+
+    var look = function () {
+      if (looking === null) looking = requestAnimationFrame(place);
+    };
+
+    hint.hidden = false;
+    track.addEventListener("scroll", look, { passive: true });
+    window.addEventListener("resize", look, { passive: true });
+    setTimeout(function () {
+      ready = true;
+      place();
+    }, 1400);
+
+    hint.addEventListener("click", function () {
+      if (onDeck()) turn(1);
+      else go(1);
+    });
+  }
 })();

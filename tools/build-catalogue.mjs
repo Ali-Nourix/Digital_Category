@@ -630,7 +630,21 @@ ${data.site.social
       </a>
     </div>
   </footer>
-${wide ? "\n  </main>\n" : ""}
+${wide ? "\n  </main>\n" : ""}${
+  /* Sideways, the first screen's word on which way the reading goes: the
+     arrow points the way the track runs, the words are for a hand or for a
+     wheel (catalogue-wide.css picks one), and a press moves on a screen.
+     Hidden until catalogue-wide.js shows it, since that is what makes both
+     the wheel and the press do what it says. */
+  wide
+    ? `
+  <button class="chip hint" type="button" data-hint hidden>
+    <span class="hint__touch">${esc(site.hintTouch)}</span><span class="hint__wheel">${esc(site.hintWheel)}</span>
+    <span class="icon icon--${lang === "fa" ? "to-left" : "to-right"}" aria-hidden="true"></span>
+  </button>
+`
+    : ""
+}
   <script src="${root}assets/js/catalogue.js" defer></script>${
   wide ? `\n  <script src="${root}assets/js/catalogue-wide.js" defer></script>` : ""
 }
