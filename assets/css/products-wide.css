@@ -372,7 +372,13 @@
     inline-size: min(100vw, 40rem);
     block-size: 100%;
     margin-block-start: 0;
-    margin-inline-start: calc(var(--cut) * -1);
+    /* Not pulled back over the panel before it, as the catalogue's is. The
+       catalogue's footer follows a photograph run to the trim, and the angle
+       cuts into the picture; here it follows a grid of stones, and the same
+       overlap brought the angle to within a finger of the last of them. So
+       the angle leans into the footer's own width, and the panel before it
+       keeps its whole margin. */
+    margin-inline-start: 0;
     padding-block: 0;
     clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%);
   }
