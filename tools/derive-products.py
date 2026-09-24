@@ -195,6 +195,14 @@ def main():
         folder = path.parent
         slug = p["slug"]
 
+        # What the site shows now. A stone it has renamed and moved is
+        # carried on under its new name (`merged_into` says which), and one
+        # neither of its two sites lists any more is no longer offered. Both
+        # stay in the research as the record of what was.
+        live = p.get("listed_on_live_site") or {}
+        if p.get("merged_into") or (live.get("checked") and live.get("fa") is False and live.get("en") is False):
+            continue
+
         # The slab surface first, then the listing picture only where there
         # is no slab surface, then the photographs of it in place.
         main = [i for i in p["images"] if i["kind"] == "main"]
@@ -280,6 +288,21 @@ def main():
     for f in MEDIA.glob("*/99-surface-*.webp"):
         if not any(r["slug"] == f.parent.name for r in band) or int(f.stem.rsplit("-", 1)[1]) < 1200 and len(list(f.parent.glob("99-surface-*.webp"))) > 1:
             f.unlink()
+
+    # media/ is this script's output and nothing else's, so a copy no record
+    # points at is left over from an earlier run: a stone no longer offered,
+    # or a photograph since replaced or renumbered. Left there it would go on
+    # being published.
+    wanted = set()
+    for r in records:
+        for ph in r["photos"] + ([r["surface"]] if r["surface"] else []):
+            wanted.update(ROOT / f"{ph['base']}-{w}.webp" for w in ph["widths"])
+    for f in MEDIA.glob("*/*.webp"):
+        if f not in wanted:
+            f.unlink()
+    for d in MEDIA.iterdir():
+        if d.is_dir() and not any(d.iterdir()):
+            d.rmdir()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(records, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
