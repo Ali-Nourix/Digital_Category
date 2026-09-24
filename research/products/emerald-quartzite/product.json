@@ -93,6 +93,64 @@
         "product card on https://fa.behkooshan.ir/product/oyster/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-Emerald-Quartzite-project.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project.jpeg",
+      "archived_url": null,
+      "alt": "Emerald Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "امرالد کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1280,
+      "height": 960,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 86305,
+      "sha1": "9216f392696d9ac0ed0586b6d39ed3ea25b39d3b",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/emerald-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/emerald-quartzite/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/emerald-quartzite/",
+      "site_title": "Emerald Quartzite-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Emerald-Quartzite-project.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project.jpeg"
+      ]
+    },
+    {
+      "file": "images/04-Emerald-Quartzite-project1.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project1.jpeg",
+      "archived_url": null,
+      "alt": "Emerald Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "امرالد کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 960,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 226226,
+      "sha1": "3dd00d1a2d294238528a49a30be2f4e9ab493fc6",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/emerald-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/emerald-quartzite/",
+        "project card on https://behkooshan.ir/_project/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/emerald-quartzite/",
+      "site_title": "Emerald Quartzite-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Emerald-Quartzite-project1.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Emerald-Quartzite-project1.jpeg"
+      ]
     }
   ],
   "textures": [],
@@ -130,7 +188,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/emerald-quartzite/",
+      "title": "Emerald Quartzite"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/emerald-quartzite/",
+      "title": "Emerald Quartzite"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

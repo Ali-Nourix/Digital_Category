@@ -88,6 +88,92 @@
         "product card on https://fa.behkooshan.ir/product/magma-gold/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-Platinum-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project.jpg",
+      "archived_url": null,
+      "alt": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1130,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 199552,
+      "sha1": "e8c683af313e1c0411b2b108b3ed7946bf0372cc",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/platinum/",
+        "project page https://fa.behkooshan.ir/projects/platinum/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/platinum/",
+      "site_title": "Platinum-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Platinum-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:53Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Platinum-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Platinum-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project1.jpg",
+      "archived_url": null,
+      "alt": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1437,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 230277,
+      "sha1": "f7cf2c2ecaf07050d65814219566c1b8126ab390",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/platinum/",
+        "project page https://fa.behkooshan.ir/projects/platinum/",
+        "project card on https://behkooshan.ir/_project/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/platinum/",
+      "site_title": "Platinum-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Platinum-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:54Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Platinum-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Platinum-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project2.jpg",
+      "archived_url": null,
+      "alt": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 721,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 117662,
+      "sha1": "98ddbed6d422c60f7d029a597bed07c041742270",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/platinum/",
+        "project page https://fa.behkooshan.ir/projects/platinum/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/platinum/",
+      "site_title": "Platinum-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Platinum-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:53Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Platinum-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Platinum-project2.jpg"
+      ]
     }
   ],
   "textures": [
@@ -138,7 +224,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/platinum/",
+      "title": "Platinum"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/platinum/",
+      "title": "Platinum"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

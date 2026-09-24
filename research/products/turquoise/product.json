@@ -109,6 +109,120 @@
       "seen_on": [
         "2021-2023 version of www.behkooshan.ir"
       ]
+    },
+    {
+      "file": "images/04-Turquoise-01.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Turquoise-01.webp",
+      "archived_url": null,
+      "alt": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 111072,
+      "sha1": "ff1add4246320056b0aabc7944d15f93cc35bf5c",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/turquoise/",
+        "project page https://fa.behkooshan.ir/projects/turquoise/",
+        "project card on https://behkooshan.ir/_project/page/4/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/turquoise/",
+      "site_title": "Turquoise-01",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Turquoise-01.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:28Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Turquoise-01.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Turquoise-01.webp"
+      ]
+    },
+    {
+      "file": "images/05-Turquoise-pr2.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Turquoise-pr2.jpg",
+      "archived_url": null,
+      "alt": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 73581,
+      "sha1": "b747ae3b6a0d0f706713b81210dc9338cb547310",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/turquoise/",
+        "project page https://fa.behkooshan.ir/projects/turquoise/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/turquoise/",
+      "site_title": "Turquoise-pr2",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Turquoise-pr2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:29Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Turquoise-pr2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Turquoise-pr2.jpg"
+      ]
+    },
+    {
+      "file": "images/06-Turquoise-pr3.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Turquoise-pr3.jpg",
+      "archived_url": null,
+      "alt": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1085,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57803,
+      "sha1": "42f556e0fad750f6837836b9c365189933557d69",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/turquoise/",
+        "project page https://fa.behkooshan.ir/projects/turquoise/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/turquoise/",
+      "site_title": "Turquoise-pr3",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Turquoise-pr3.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:29Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Turquoise-pr3.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Turquoise-pr3.jpg"
+      ]
+    },
+    {
+      "file": "images/07-Turquoise-pr4.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Turquoise-pr4.jpg",
+      "archived_url": null,
+      "alt": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 961,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 49092,
+      "sha1": "4f49a167c2b0dab47e047648ff90351436723eac",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/turquoise/",
+        "project page https://fa.behkooshan.ir/projects/turquoise/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/turquoise/",
+      "site_title": "Turquoise-pr4",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Turquoise-pr4.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:45Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Turquoise-pr4.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Turquoise-pr4.jpg"
+      ]
     }
   ],
   "textures": [
@@ -159,7 +273,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/turquoise/",
+      "title": "Turquoise"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/turquoise/",
+      "title": "Turquoise"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

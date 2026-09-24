@@ -84,6 +84,92 @@
         "product card on https://fa.behkooshan.ir/product/via-lattea/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-Copper-Dune-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 775,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87971,
+      "sha1": "1208adaf07184e247c7e4e500c81f0257995d718",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:30Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Copper-Dune-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 122583,
+      "sha1": "bd58a187e687f477942b2c1dcf833131c1279daa",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/",
+        "project card on https://behkooshan.ir/_project/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:30Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Copper-Dune-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80974,
+      "sha1": "7d7d4e442582ffd1240187b8f16f21312e3b87c2",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:31Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg"
+      ]
     }
   ],
   "textures": [
@@ -135,7 +221,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/copper-dune/",
+      "title": "Copper Dune"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/copper-dune/",
+      "title": "Copper Dune"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

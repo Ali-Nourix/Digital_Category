@@ -103,9 +103,162 @@
       "bytes": 81891,
       "sha1": "e9ed452fa6dbcf4c1114c5c9046fec1bf5aa821f",
       "seen_on": [
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/",
+        "project page https://fa.behkooshan.ir/projects/verde-karzai/",
+        "project card on https://behkooshan.ir/_project/page/3/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
       ],
       "project_page": "https://fa.behkooshan.ir/projects/verde-fantastic/"
+    },
+    {
+      "file": "images/04-Verde-Karzai-project.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project.jpeg",
+      "archived_url": null,
+      "alt": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 960,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 81769,
+      "sha1": "cff91eb88d35f1c6658c7eb6eb75a6c93e79dcde",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/",
+        "project page https://fa.behkooshan.ir/projects/verde-karzai/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-karzai/",
+      "site_title": "Verde Karzai-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Karzai-project.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Karzai-project.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project-1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project.jpeg"
+      ]
+    },
+    {
+      "file": "images/05-Verde-Karzai-project2.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project2.jpeg",
+      "archived_url": null,
+      "alt": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 960,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 112653,
+      "sha1": "b8b864e52b9d106b0cb14bbd5cb17e38d681be16",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/",
+        "project page https://fa.behkooshan.ir/projects/verde-karzai/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-karzai/",
+      "site_title": "Verde Karzai-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Karzai-project2.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:07Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Karzai-project2.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project2-1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project2.jpeg"
+      ]
+    },
+    {
+      "file": "images/06-Verde-Karzai-project3.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project3.jpeg",
+      "archived_url": null,
+      "alt": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1280,
+      "height": 960,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 89850,
+      "sha1": "d2cd8a0cf1f786894c14405d0d9fc44d1c2b0519",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/",
+        "project page https://fa.behkooshan.ir/projects/verde-karzai/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-karzai/",
+      "site_title": "Verde Karzai-project3",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Karzai-project3.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:08Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Karzai-project3.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project3-1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project3.jpeg"
+      ]
+    },
+    {
+      "file": "images/07-Verde-Karzai-project4.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Verde-Karzai-project4.jpeg",
+      "archived_url": null,
+      "alt": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1280,
+      "height": 960,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 81917,
+      "sha1": "660653899691717f742f681c1e6c3ca9ad9e6880",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/",
+        "project page https://fa.behkooshan.ir/projects/verde-karzai/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-karzai/",
+      "site_title": "Verde Karzai-project4",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Verde-Karzai-project4.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Karzai-project4.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project4-1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Karzai-project4.jpeg"
+      ]
+    },
+    {
+      "file": "images/08-Verde-Fantastic.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Fantastic.jpeg",
+      "archived_url": null,
+      "alt": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 721,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 200258,
+      "sha1": "03829533caf5c1b6d287f999f39009491d86ea85",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-karzai/",
+        "project page https://fa.behkooshan.ir/projects/verde-fantastic/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-karzai/",
+      "site_title": "Verde Fantastic",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Fantastic.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:04Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Fantastic.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Fantastic.jpeg"
+      ]
     }
   ],
   "textures": [
@@ -160,6 +313,11 @@
     {
       "lang": "fa",
       "url": "https://fa.behkooshan.ir/projects/verde-fantastic/",
+      "title": "Verde Fantastic"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/verde-karzai/",
       "title": "Verde Fantastic"
     }
   ],
@@ -240,6 +398,6 @@
     "Colour attribute differs between the sites: Persian site ['green'], English site ['white']; the Persian site's terms are used.",
     "The English site's hidden WooCommerce stone-type attribute says \"marble\", but the page displays \"Granite\"; the displayed value is used.",
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "The site's project gallery mixes Verde Fantastic and Verde Karzai: the Persian project card /projects/verde-fantastic/ uses the photo Verde-Karzai-project1-1.jpeg (kept here as the project photo), and the English project page /_project/verde-karzai/ is titled \"Verde Fantastic\". Check which stone the project photo shows."
+    "The site's project pages mix Verde Fantastic and Verde Karzai: the five photos Verde-Karzai-project*.jpeg appear on /_project/verde-karzai/ (titled \"Verde Fantastic\"), on /projects/verde-fantastic/ (re-uploaded as Verde-Karzai-project*-1.jpeg, plus Verde-Fantastic.jpeg) and on /projects/verde-karzai/ (titled \"Verde Karzai\"). They are attached here because two of the three pages name Verde Fantastic and the stone in the photos looks like this product's slab (green with thin white veins); see PROJECTS.md. Uncertain: confirm with the owner."
   ]
 }

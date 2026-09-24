@@ -102,9 +102,39 @@
       "sha1": "b71819c250c66644854fa4618db3000d187ac93a",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/page/2/",
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/titanium-mc/",
+        "project page https://fa.behkooshan.ir/projects/titanium-mc/"
       ],
       "project_page": "https://behkooshan.ir/_project/titanium-mc/"
+    },
+    {
+      "file": "images/04-Titanium-MC.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Titanium-MC.jpg",
+      "archived_url": null,
+      "alt": "Titanium MC – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تیتانیوم ام‌سی – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 922,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 44689,
+      "sha1": "c5a002b94e523144abf4f72d804769d70a7852be",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/titanium-mc/",
+        "project page https://fa.behkooshan.ir/projects/titanium-mc/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/titanium-mc/",
+      "site_title": "Titanium MC",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Titanium-MC.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:50:13Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Titanium-MC.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Titanium-MC.jpg"
+      ]
     }
   ],
   "textures": [],

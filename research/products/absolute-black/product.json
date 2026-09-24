@@ -110,9 +110,39 @@
       "sha1": "89aa9d324ae55593adc680315834e212067ad026",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/page/2/",
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/absolute-black/",
+        "project page https://fa.behkooshan.ir/projects/absolute-black/"
       ],
       "project_page": "https://behkooshan.ir/_project/absolute-black/"
+    },
+    {
+      "file": "images/04-1698176110.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/1698176110.jpg",
+      "archived_url": null,
+      "alt": "Absolute Black – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ابسولوت بلک – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1801,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 238936,
+      "sha1": "e806aa50873dce9d2a4bc39e228ace14e817226b",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/absolute-black/",
+        "project page https://fa.behkooshan.ir/projects/absolute-black/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/absolute-black/",
+      "site_title": "1698176110",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/1698176110.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/1698176110.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/1698176110.jpg"
+      ]
     }
   ],
   "textures": [

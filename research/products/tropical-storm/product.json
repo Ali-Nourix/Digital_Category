@@ -103,6 +103,91 @@
         "product card on https://fa.behkooshan.ir/product/spectrolite-blue/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-Tropical-Storm-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project.jpg",
+      "archived_url": null,
+      "alt": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1024,
+      "height": 683,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 51611,
+      "sha1": "2e7fe39879234729df708cb31bfd1f069953eef0",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/tropical-storm/",
+        "project page https://fa.behkooshan.ir/projects/tropical-storm/",
+        "project card on https://behkooshan.ir/_project/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/tropical-storm/",
+      "site_title": "Tropical Storm-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Tropical-Storm-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:58Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Tropical-Storm-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Tropical-Storm-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project1.jpg",
+      "archived_url": null,
+      "alt": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 819,
+      "height": 1024,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75858,
+      "sha1": "83d5818ab5f2c0ff06044d25b4412758a5cd5448",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/tropical-storm/",
+        "project page https://fa.behkooshan.ir/projects/tropical-storm/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/tropical-storm/",
+      "site_title": "Tropical Storm-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Tropical-Storm-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:59Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Tropical-Storm-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Tropical-Storm-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project2.jpg",
+      "archived_url": null,
+      "alt": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 819,
+      "height": 1024,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 45734,
+      "sha1": "3019ab353c6e1f1d60986339cdca544ac25efb87",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/tropical-storm/",
+        "project page https://fa.behkooshan.ir/projects/tropical-storm/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/tropical-storm/",
+      "site_title": "Tropical Storm-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Tropical-Storm-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:59Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Tropical-Storm-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project2.jpg"
+      ]
     }
   ],
   "textures": [
@@ -157,12 +242,12 @@
     {
       "lang": "en",
       "url": "https://behkooshan.ir/_project/tropical-storm/",
-      "title": null
+      "title": "Tropical Storm"
     },
     {
       "lang": "fa",
       "url": "https://fa.behkooshan.ir/projects/tropical-storm/",
-      "title": null
+      "title": "Tropical Storm"
     }
   ],
   "archived_pages": {
@@ -221,39 +306,11 @@
     ],
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
-  "missing_images": [
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/tropical-storm/",
-        "project page https://behkooshan.ir/_project/tropical-storm/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project1.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/tropical-storm/",
-        "project page https://behkooshan.ir/_project/tropical-storm/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/Tropical-Storm-project2.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/tropical-storm/",
-        "project page https://behkooshan.ir/_project/tropical-storm/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    }
-  ],
+  "missing_images": [],
   "missing_textures": [],
   "notes": [
     "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "3 image(s) referenced by the site were not archived and are missing; see missing_images."
+    "The 3 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty."
   ]
 }
