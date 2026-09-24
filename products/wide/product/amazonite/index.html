@@ -59,7 +59,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../wide/">همه سنگ‌ها</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>آمازونیت</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="en" dir="ltr">Amazonite</p>
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs reveal" style="--i:2">
@@ -110,11 +109,10 @@
                srcset="../../../media/explosion-blue/01-explosion-blue-m-11zon-480.webp 480w, ../../../media/explosion-blue/01-explosion-blue-m-11zon-800.webp 800w, ../../../media/explosion-blue/01-explosion-blue-m-11zon-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">اکسپلوژن بلو</span>
-              <span class="stone__alt" lang="en" dir="ltr">Explosion Blue</span>
               <span class="stone__meta">گرانیت، آنگولا</span>
             </span>
           </a>
@@ -128,11 +126,10 @@
                srcset="../../../media/jeriba-blue/01-030618-001-68a56ffa74e19-1755672570-compressed-480.webp 480w, ../../../media/jeriba-blue/01-030618-001-68a56ffa74e19-1755672570-compressed-800.webp 800w, ../../../media/jeriba-blue/01-030618-001-68a56ffa74e19-1755672570-compressed-1200.webp 1200w, ../../../media/jeriba-blue/01-030618-001-68a56ffa74e19-1755672570-compressed-1600.webp 1600w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1920" height="1211"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">جریبا بلو</span>
-              <span class="stone__alt" lang="en" dir="ltr">Jeriba Blue</span>
               <span class="stone__meta">کوارتزیت، برزیل</span>
             </span>
           </a>
@@ -146,11 +143,10 @@
                srcset="../../../media/dover-blue/01-dover-blue-11zon-480.webp 480w, ../../../media/dover-blue/01-dover-blue-11zon-800.webp 800w, ../../../media/dover-blue/01-dover-blue-11zon-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">دوور بلو</span>
-              <span class="stone__alt" lang="en" dir="ltr">Dover Blue</span>
               <span class="stone__meta">مرمر، آنگولا</span>
             </span>
           </a>
@@ -164,11 +160,10 @@
                srcset="../../../media/river-blanche/01-river-blanche-m-480.webp 480w, ../../../media/river-blanche/01-river-blanche-m-800.webp 800w, ../../../media/river-blanche/01-river-blanche-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">ریور بلانش</span>
-              <span class="stone__alt" lang="en" dir="ltr">River Blanche</span>
               <span class="stone__meta">کوارتزیت، افغانستان</span>
             </span>
           </a>
@@ -206,6 +201,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-right" aria-hidden="true"></span>بازگشت به ابتدا
+      </a>
     </div>
   </footer>
   </main>
@@ -224,10 +223,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% از %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% از %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>
