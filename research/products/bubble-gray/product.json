@@ -35,6 +35,32 @@
   },
   "images": [
     {
+      "file": "images/02-Bubble-Gray-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bubble-Gray-m.jpg",
+      "archived_url": null,
+      "alt": "Bubble Gray – main product image (slab surface)",
+      "alt_fa": "بابل گری – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Bubble Gray-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 60036,
+      "sha1": "e4943d5c73f34278d5f11d57fb2d1c1ea1c97b21",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/bubble-gray/",
+        "product page https://behkooshan.ir/product/bubble-gray/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Bubble-Gray-m.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:19Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Bubble-Gray-m.jpg",
+        "https://behkooshan.ir/wp-content/uploads/Bubble-Gray-m.jpg"
+      ]
+    },
+    {
       "file": "images/01-Bubble-Gray-p.jpg",
       "kind": "listing",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bubble-Gray-p.jpg",
@@ -58,7 +84,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=359eb3629ce52dafea95b3982c8dc55412392942",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=359eb3629ce52dafea95b3982c8dc55412392942&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:15Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=359eb3629ce52dafea95b3982c8dc55412392942"
+      ],
+      "original_filename": "Bubble-Gray.jpg",
+      "width": 1793,
+      "height": 877,
+      "format": "JPEG",
+      "bytes": 302255,
+      "sha1": "20ec0ea5e185378f524b910a219ae3912e5180d8",
+      "alt": "Bubble Gray – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Bubble-Gray.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -83,15 +128,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2023-03-05T09:20:25",
+      "modified": "2024-04-20T10:35:18"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2023-03-05T09:20:25",
+      "modified": "2023-12-12T12:35:42"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -133,8 +183,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
   ]
 }

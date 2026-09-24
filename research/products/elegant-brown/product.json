@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
       "Category": "Imported"
     }
   },
@@ -36,7 +42,7 @@
   "images": [
     {
       "file": "images/01-Elegant-Brown-1.jpg",
-      "kind": "listing",
+      "kind": "main",
       "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Elegant-Brown-1.jpg",
       "archived_url": "https://web.archive.org/web/20260219165047id_/https://es55asecvav.exactdn.com/wp-content/uploads/Elegant-Brown-1.jpg",
       "alt": "Elegant Brown – product listing image",
@@ -186,7 +192,27 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=3718e4cdc10c12c04d3a03a42177af60845f07dd",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=3718e4cdc10c12c04d3a03a42177af60845f07dd&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=4413132198c31042a11bec8a74ccfe4778dd2afc"
+      ],
+      "original_filename": "Elegant-Brown.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 38417,
+      "sha1": "c7da7076a560241ad3da8f88fcba119eb0536a3d",
+      "alt": "Elegant Brown – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Elegant-Brown-1.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -194,31 +220,39 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)"
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Elegant Brown",
     "en": "Elegant Brown"
   },
   "site_post_ids": {
+    "fa": [
+      "6568"
+    ],
     "en": [
       "6290"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-16T13:22:13",
+      "modified": "2025-08-16T13:22:13"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-16T12:31:30",
+      "modified": "2025-08-16T12:59:56"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -240,10 +274,8 @@
   "missing_textures": [],
   "notes": [
     "English-site post 6290 at /product/elegant-brown-2/ (the URL /product/elegant-brown/ belongs to \"Copper Dune\", see products/copper-dune/). The Feb-2026 Persian sitemap also lists /product/elegant-brown-2/ but no Persian copy was archived.",
-    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived).",
-    "One project photo is shown both on this stone's project page (as Elegant-Brown-pr2.webp, 1708x2560, the file stored here) and on the Persian project page of Naica Quartzite (/projects/naica-quartzite/, as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload). It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner."
+    "One project photo is shown both on this stone's project page (as Elegant-Brown-pr2.webp, 1708x2560, the file stored here) and on the Persian project page of Naica Quartzite (/projects/naica-quartzite/, as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload). It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Category differs between the sites (live site, 2026-09-24: Persian site: imported, English site: domestic); \"imported\" is used because the origin is Brazil."
   ]
 }

@@ -80,7 +80,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7d4b65da60bda4c495db1b755ee5b607e0825f14",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=7d4b65da60bda4c495db1b755ee5b607e0825f14&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7d4b65da60bda4c495db1b755ee5b607e0825f14"
+      ],
+      "original_filename": "Patagonia-troumaline.jpg",
+      "width": 1455,
+      "height": 877,
+      "format": "JPEG",
+      "bytes": 241995,
+      "sha1": "4c1b0f0a9de7a5c4c45ad63d0d95b7aaf75d0881",
+      "alt": "Patagonia Tourmaline – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Patagonia-troumaline.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -106,14 +125,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T23:23:05",
-      "modified": "2024-04-20T11:51:31"
+      "modified": "2025-07-23T18:07:19"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2023-12-12T23:23:05",
+      "modified": "2025-05-07T13:19:22"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -126,19 +150,10 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "7d4b65da60bda4c495db1b755ee5b607e0825f14",
-      "languages": [
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
     "The Persian site writes \"Patagonia troumaline\" (URL /product/patagonia-troumaline/); the English site writes \"Patagonia Tourmaline\", used here.",
-    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "The Persian site showed different origins over time in the archive: آنگولا, برزیل; the live site (2026-09-24) shows \"برزیل\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

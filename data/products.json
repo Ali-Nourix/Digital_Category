@@ -96,7 +96,7 @@
    ],
    "width": 1400,
    "height": 901,
-   "order": 1
+   "order": 2
   },
   "textures": [
    {
@@ -136,19 +136,24 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "هند",
+    "رنگ": [
+     "کرم"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "India",
+    "Colour": [
+     "Cream"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
-   "white",
    "cream"
   ],
-  "colour_source": "photograph and name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -174,6 +179,13 @@
     "width": 1052,
     "height": 646,
     "bytes": 132444,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/alaska-white/textures/01-Alaska-scaled.jpg",
+    "width": 1889,
+    "height": 1080,
+    "bytes": 281848,
     "format": "JPEG"
    }
   ]
@@ -319,6 +331,78 @@
   ]
  },
  {
+  "slug": "belissimo-verde",
+  "name": {
+   "fa": "بلیسیمو ورده",
+   "en": "Belissimo Verde"
+  },
+  "site_name": {
+   "fa": "Belissimo Verde",
+   "en": "Belissimo Verde"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/belissimo-verde/01-belissimo-verde",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلیسیمو ورده – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Belissimo Verde – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": [
+   {
+    "file": "research/products/belissimo-verde/images/01-Belissimo-Verde.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 102561,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
   "slug": "bellatrix",
   "name": {
    "fa": "بلاتریکس",
@@ -409,8 +493,25 @@
     }
    }
   ],
-  "surface": null,
-  "textures": []
+  "surface": {
+   "base": "media/bellatrix/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1920,
+   "height": 1229,
+   "order": 9
+  },
+  "textures": [
+   {
+    "file": "research/products/bellatrix/images/01-Bellatrix.jpg",
+    "width": 1920,
+    "height": 1229,
+    "bytes": 129498,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "belvedere",
@@ -454,18 +555,19 @@
   "description": null,
   "photos": [
    {
-    "base": "media/belvedere/01-belvedere-m-11zon",
+    "base": "media/belvedere/01-3776--025-2048x1019",
     "widths": [
      480,
      800,
-     1052
+     1200,
+     1600
     ],
-    "width": 1052,
-    "height": 646,
+    "width": 2048,
+    "height": 1019,
     "kind": "main",
     "alt": {
-     "fa": "بلودره – تصویر اصلی محصول (سطح اسلب)",
-     "en": "Belvedere – main product image (slab surface)"
+     "fa": "بلودره – تصویر فهرست محصولات",
+     "en": "Belvedere – product listing image"
     }
    },
    {
@@ -501,17 +603,15 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/belvedere/99-surface",
-   "widths": [
-    1200,
-    1543
-   ],
-   "width": 1543,
-   "height": 862,
-   "order": 5
-  },
+  "surface": null,
   "textures": [
+   {
+    "file": "research/products/belvedere/textures/02-3776_-025-scaled.jpg",
+    "width": 1920,
+    "height": 956,
+    "bytes": 262159,
+    "format": "JPEG"
+   },
    {
     "file": "research/products/belvedere/textures/01-belvedere.jpg",
     "width": 1543,
@@ -520,6 +620,70 @@
     "format": "JPEG"
    }
   ]
+ },
+ {
+  "slug": "bianco-vena",
+  "name": {
+   "fa": "بیانکو ونا",
+   "en": "Bianco Vena"
+  },
+  "site_name": {
+   "fa": "Bianco Vena",
+   "en": "Bianco Vena"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "یونان",
+   "en": "Greece"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "یونان",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Greece",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/bianco-vena/01-bianco-vena",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بیانکو ونا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Bianco Vena – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": []
  },
  {
   "slug": "black-beat",
@@ -576,16 +740,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/black-beat/99-surface",
-   "widths": [
-    1200,
-    1554
-   ],
-   "width": 1554,
-   "height": 883,
-   "order": 9
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/black-beat/textures/01-Black-Beat.jpg",
@@ -761,78 +916,6 @@
   ]
  },
  {
-  "slug": "black-fantasy",
-  "name": {
-   "fa": "بلک فانتزی",
-   "en": "Black Fantasy"
-  },
-  "site_name": {
-   "fa": "Black Fantasy",
-   "en": "Black Fantasy"
-  },
-  "legacy_names": [],
-  "category": "imported",
-  "type": "quartzite",
-  "type_label": {
-   "fa": "کوارتزیت",
-   "en": "Quartzite"
-  },
-  "origin": {
-   "fa": "برزیل",
-   "en": "Brazil"
-  },
-  "specs": {
-   "fa": {
-    "نوع": "کوارتزیت",
-    "کشور مبدا": "برزیل",
-    "رنگ": [
-     "طوسی"
-    ],
-    "دسته‌بندی": "وارداتی"
-   },
-   "en": {
-    "Type": "Quartzite",
-    "Origin": "Brazil",
-    "Colour": [
-     "Grey"
-    ],
-    "Category": "Imported"
-   }
-  },
-  "colours": [
-   "grey"
-  ],
-  "colour_source": "site",
-  "description": null,
-  "photos": [
-   {
-    "base": "media/black-fantasy/01-black-fantasy",
-    "widths": [
-     480,
-     800,
-     1052
-    ],
-    "width": 1052,
-    "height": 646,
-    "kind": "main",
-    "alt": {
-     "fa": "بلک فانتزی – تصویر اصلی محصول (سطح اسلب)",
-     "en": "Black Fantasy – main product image (slab surface)"
-    }
-   }
-  ],
-  "surface": null,
-  "textures": [
-   {
-    "file": "research/products/black-fantasy/images/01-black-fantasy.jpg",
-    "width": 1052,
-    "height": 646,
-    "bytes": 57282,
-    "format": "JPEG"
-   }
-  ]
- },
- {
   "slug": "black-galaxy",
   "name": {
    "fa": "بلک گلکسی",
@@ -887,16 +970,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/black-galaxy/99-surface",
-   "widths": [
-    1200,
-    1500
-   ],
-   "width": 1500,
-   "height": 907,
-   "order": 11
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/black-galaxy/textures/01-Black-Galaxy.jpg",
@@ -1019,7 +1093,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/black-horse/textures/01-Black-Horse.jpg",
+    "width": 1466,
+    "height": 901,
+    "bytes": 332541,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "black-tempest",
@@ -1028,32 +1110,61 @@
    "en": "Black Tempest"
   },
   "site_name": {
-   "fa": null,
-   "en": null
+   "fa": "Black Tempest",
+   "en": "Black Tempest"
   },
   "legacy_names": [],
-  "category": null,
-  "type": null,
+  "category": "imported",
+  "type": "quartzite",
   "type_label": {
-   "fa": null,
-   "en": null
+   "fa": "کوارتزیت",
+   "en": "Quartzite"
   },
   "origin": {
-   "fa": null,
-   "en": null
+   "fa": "برزیل",
+   "en": "Brazil"
   },
   "specs": {
-   "fa": {},
-   "en": {}
+   "fa": {
+    "نوع": "کوارتزیت",
+    "کشور مبدا": "برزیل",
+    "رنگ": [
+     "طوسی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Quartzite",
+    "Origin": "Brazil",
+    "Colour": [
+     "Grey"
+    ],
+    "Category": "Imported"
+   }
   },
   "colours": [
-   "black"
+   "grey"
   ],
-  "colour_source": "name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/black-tempest/01-black-tempest-project",
+    "base": "media/black-tempest/01-black-fantasy",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "بلک تمپست – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Black Tempest – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/black-tempest/02-black-tempest-project",
     "widths": [
      480,
      764
@@ -1067,7 +1178,7 @@
     }
    },
    {
-    "base": "media/black-tempest/02-black-tempest-project1",
+    "base": "media/black-tempest/03-black-tempest-project1",
     "widths": [
      480,
      800,
@@ -1083,7 +1194,7 @@
     }
    },
    {
-    "base": "media/black-tempest/03-black-tempest-project2",
+    "base": "media/black-tempest/04-black-tempest-project2",
     "widths": [
      480,
      800,
@@ -1098,7 +1209,7 @@
     }
    },
    {
-    "base": "media/black-tempest/04-black-tempest-project3",
+    "base": "media/black-tempest/05-black-tempest-project3",
     "widths": [
      480,
      800,
@@ -1114,7 +1225,7 @@
     }
    },
    {
-    "base": "media/black-tempest/05-black-tempest-project4",
+    "base": "media/black-tempest/06-black-tempest-project4",
     "widths": [
      480,
      720
@@ -1128,7 +1239,7 @@
     }
    },
    {
-    "base": "media/black-tempest/06-black-tempest-bathroom-2-scaled",
+    "base": "media/black-tempest/07-black-tempest-bathroom-2-scaled",
     "widths": [
      480,
      800,
@@ -1144,7 +1255,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/black-tempest/images/07-black-fantasy.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 57282,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "black-zebra",
@@ -1154,7 +1273,7 @@
   },
   "site_name": {
    "fa": "Black Zebra",
-   "en": "Zebra"
+   "en": "Black Zebra"
   },
   "legacy_names": [
    "اسلب گرانیت بلک زبرا A (رگه نازک)",
@@ -1564,18 +1683,177 @@
   "description": null,
   "photos": [
    {
-    "base": "media/bubble-gray/01-bubble-gray-p",
+    "base": "media/bubble-gray/01-bubble-gray-m",
     "widths": [
      480,
      800,
-     969
+     1052
     ],
-    "width": 969,
-    "height": 691,
-    "kind": "listing",
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
     "alt": {
-     "fa": "بابل گری – تصویر فهرست محصولات",
-     "en": "Bubble Gray – product listing image"
+     "fa": "بابل گری – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Bubble Gray – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": {
+   "base": "media/bubble-gray/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1793,
+   "height": 877,
+   "order": 5
+  },
+  "textures": [
+   {
+    "file": "research/products/bubble-gray/textures/01-Bubble-Gray.jpg",
+    "width": 1793,
+    "height": 877,
+    "bytes": 302255,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "calacatta-rhino",
+  "name": {
+   "fa": "کالاکاتا راینو",
+   "en": "Calacatta Rhino"
+  },
+  "site_name": {
+   "fa": "Calacatta Rhino",
+   "en": "Calacatta Rhino"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "نامیبیا",
+   "en": "Namibia"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "نامیبیا",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Namibia",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/calacatta-rhino/01-calacatta-rhino",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کالاکاتا راینو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Calacatta Rhino – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": []
+ },
+ {
+  "slug": "calacatta-viola",
+  "name": {
+   "fa": "کالاکاتا ویولا",
+   "en": "Calacatta Viola"
+  },
+  "site_name": {
+   "fa": "Calacatta Viola",
+   "en": "Calacatta Viola"
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "ایتالیا",
+   "en": "Italy"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "ایتالیا",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Italy",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/calacatta-viola/01-calacatta-viola",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "کالاکاتا ویولا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Calacatta Viola – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/calacatta-viola/02-calacatta-viola-1",
+    "widths": [
+     480,
+     640
+    ],
+    "width": 640,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کالاکاتا ویولا – تصویر بخش پروژه‌های سایت",
+     "en": "Calacatta Viola – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -1789,7 +2067,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/casper/textures/01-Casper.jpg",
+    "width": 1376,
+    "height": 880,
+    "bytes": 206075,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "casper-line",
@@ -1866,7 +2152,7 @@
    "en": "Cohiba"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Cohiba",
    "en": "Cohiba"
   },
   "legacy_names": [],
@@ -1884,18 +2170,24 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "آنگولا",
+    "رنگ": [
+     "مشکی"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Angola",
+    "Colour": [
+     "Black"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
    "black"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -1915,7 +2207,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/cohiba/textures/01-Cohiba-scaled-1.jpg",
+    "width": 1598,
+    "height": 1080,
+    "bytes": 175807,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "colonial",
@@ -1979,7 +2279,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/colonial/images/01-Colonial.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 119697,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "copper-dune",
@@ -2105,7 +2413,7 @@
   },
   "site_name": {
    "fa": "Cristallo Rosa",
-   "en": null
+   "en": "Cristallo Rosa"
   },
   "legacy_names": [],
   "category": "imported",
@@ -2122,35 +2430,42 @@
    "fa": {
     "نوع": "کوارتزیت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم",
+     "سفید"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Quartzite",
     "Origin": "Brazil",
+    "Colour": [
+     "Cream",
+     "White"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
-   "pink",
    "cream",
    "white"
   ],
-  "colour_source": "photograph and name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/cristallo-rosa/01-crystal-rose-p-1024x755",
+    "base": "media/cristallo-rosa/01-crystal-rose-m",
     "widths": [
      480,
      800,
-     921
+     1052
     ],
-    "width": 921,
-    "height": 657,
-    "kind": "listing",
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
     "alt": {
-     "fa": "کریستالو رزا – تصویر فهرست محصولات",
-     "en": "Cristallo Rosa – product listing image"
+     "fa": "کریستالو رزا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Cristallo Rosa – main product image (slab surface)"
     }
    }
   ],
@@ -2222,7 +2537,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/dalmata/textures/01-Dalmata-1-scaled.jpg",
+    "width": 1830,
+    "height": 1080,
+    "bytes": 326457,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "dark-golden-lightning",
@@ -2285,7 +2608,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/dark-golden-lightning/textures/01-Dark-Golden-Lightning.jpg",
+    "width": 1390,
+    "height": 913,
+    "bytes": 249392,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "dedalus",
@@ -2312,18 +2643,24 @@
    "fa": {
     "نوع": "مرمریت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "سبز"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Marble",
     "Origin": "Brazil",
+    "Colour": [
+     "Green"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
    "green"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -2422,7 +2759,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/delicate/textures/01-Delicate.jpg",
+    "width": 1325,
+    "height": 904,
+    "bytes": 572496,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "dolce-vita",
@@ -2431,7 +2776,7 @@
    "en": "Dolce Vita"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Dolce Vita",
    "en": "Dolce Vita"
   },
   "legacy_names": [],
@@ -2449,39 +2794,65 @@
    "fa": {
     "نوع": "کوارتزیت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم",
+     "سفید"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Quartzite",
     "Origin": "Brazil",
+    "Colour": [
+     "Cream",
+     "White"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
+   "cream",
    "white"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed",
+    "base": "media/dolce-vita/01-4037-004-1-2048x1185",
     "widths": [
      480,
      800,
      1200,
      1600
     ],
-    "width": 1729,
-    "height": 997,
-    "kind": "listing",
+    "width": 2048,
+    "height": 1185,
+    "kind": "main",
     "alt": {
-     "fa": "دولچه ویتا – تصویر فهرست محصولات",
-     "en": "Dolce Vita – product listing image"
+     "fa": "دولچه ویتا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Dolce Vita – main product image (slab surface)"
     }
    }
   ],
-  "surface": null,
-  "textures": []
+  "surface": {
+   "base": "media/dolce-vita/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1867,
+   "height": 1080,
+   "order": 3
+  },
+  "textures": [
+   {
+    "file": "research/products/dolce-vita/textures/01-4037-004-1-scaled.jpg",
+    "width": 1867,
+    "height": 1080,
+    "bytes": 178074,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "dover-blue",
@@ -2552,7 +2923,7 @@
    ],
    "width": 2560,
    "height": 1441,
-   "order": 3
+   "order": 4
   },
   "textures": [
    {
@@ -2571,7 +2942,7 @@
    "en": "Elegant Brown"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Elegant Brown",
    "en": "Elegant Brown"
   },
   "legacy_names": [],
@@ -2589,18 +2960,24 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "کرم"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Brazil",
+    "Colour": [
+     "Cream"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
    "cream"
   ],
-  "colour_source": "photograph and name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -2612,7 +2989,7 @@
     ],
     "width": 1052,
     "height": 646,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "الگانت براون – تصویر فهرست محصولات",
      "en": "Elegant Brown – product listing image"
@@ -2684,7 +3061,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/elegant-brown/images/01-Elegant-Brown-1.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 38417,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "elegant-green",
@@ -2731,14 +3116,14 @@
   "description": null,
   "photos": [
    {
-    "base": "media/elegant-green/01-elegant-green-m-1024x629",
+    "base": "media/elegant-green/01-elegant-green-m",
     "widths": [
      480,
      800,
-     1024
+     1052
     ],
-    "width": 1024,
-    "height": 629,
+    "width": 1052,
+    "height": 646,
     "kind": "main",
     "alt": {
      "fa": "الگانت گرین – تصویر اصلی محصول (سطح اسلب)",
@@ -2746,8 +3131,25 @@
     }
    }
   ],
-  "surface": null,
-  "textures": []
+  "surface": {
+   "base": "media/elegant-green/99-surface",
+   "widths": [
+    1200,
+    1520
+   ],
+   "width": 1520,
+   "height": 907,
+   "order": 7
+  },
+  "textures": [
+   {
+    "file": "research/products/elegant-green/textures/01-Elegant-Green.jpg",
+    "width": 1520,
+    "height": 907,
+    "bytes": 187454,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "emerald-quartzite",
@@ -2756,7 +3158,7 @@
    "en": "Emerald Quartzite"
   },
   "site_name": {
-   "fa": "Emerald Green",
+   "fa": "Emerald Quartzite",
    "en": "Emerald Quartzite"
   },
   "legacy_names": [
@@ -2845,7 +3247,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/emerald-quartzite/textures/01-Emerald-Quartzite.jpg",
+    "width": 1424,
+    "height": 877,
+    "bytes": 198762,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "evolution-green",
@@ -2897,14 +3307,14 @@
   "description": null,
   "photos": [
    {
-    "base": "media/evolution-green/01-evolution-green-m-1024x629",
+    "base": "media/evolution-green/01-evolution-green-m",
     "widths": [
      480,
      800,
-     1024
+     1052
     ],
-    "width": 1024,
-    "height": 629,
+    "width": 1052,
+    "height": 646,
     "kind": "main",
     "alt": {
      "fa": "اوولوشن گرین – تصویر اصلی محصول (سطح اسلب)",
@@ -2993,7 +3403,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/evolution-green/textures/01-Evolution-Green.jpg",
+    "width": 1687,
+    "height": 889,
+    "bytes": 305834,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "explosion-blue",
@@ -3013,13 +3431,13 @@
    "en": "Granite"
   },
   "origin": {
-   "fa": "آنگولا",
+   "fa": "برزیل",
    "en": "Brazil"
   },
   "specs": {
    "fa": {
     "نوع": "گرانیت",
-    "کشور مبدا": "آنگولا",
+    "کشور مبدا": "برزیل",
     "دسته‌بندی": "وارداتی"
    },
    "en": {
@@ -3059,7 +3477,7 @@
    ],
    "width": 1418,
    "height": 874,
-   "order": 7
+   "order": 11
   },
   "textures": [
    {
@@ -3078,7 +3496,7 @@
    "en": "Gando"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Gando",
    "en": "Gando"
   },
   "legacy_names": [],
@@ -3189,7 +3607,22 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/gando/textures/01-Gando-1-scaled-1.jpg",
+    "width": 1920,
+    "height": 866,
+    "bytes": 238224,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/gando/images/01-Gando-1-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 98968,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "grand-antique",
@@ -3198,7 +3631,7 @@
    "en": "Grand Antique"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Grand Antique",
    "en": "Grand Antique"
   },
   "legacy_names": [],
@@ -3216,18 +3649,27 @@
    "fa": {
     "نوع": "مرمریت",
     "کشور مبدا": "فرانسه",
+    "رنگ": [
+     "مشکی",
+     "سفید"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Marble",
     "Origin": "France",
+    "Colour": [
+     "Black",
+     "White"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
-   "black"
+   "black",
+   "white"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -3240,7 +3682,7 @@
     ],
     "width": 1920,
     "height": 1229,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "گرند آنتیک – تصویر فهرست محصولات",
      "en": "Grand Antique – product listing image"
@@ -3248,7 +3690,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/grand-antique/images/01-Grand-Antique.jpg",
+    "width": 1920,
+    "height": 1229,
+    "bytes": 196329,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "green-shadow",
@@ -3257,7 +3707,7 @@
    "en": "Green Shadow"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Green Shadow",
    "en": "Green Shadow"
   },
   "legacy_names": [],
@@ -3321,6 +3771,13 @@
     "width": 1052,
     "height": 646,
     "bytes": 116121,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/green-shadow/textures/01-Green-Shadow-scaled-1.jpg",
+    "width": 1920,
+    "height": 927,
+    "bytes": 319644,
     "format": "JPEG"
    }
   ]
@@ -3438,7 +3895,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/infinity-gold/textures/01-Infinity-Gold.jpg",
+    "width": 1368,
+    "height": 877,
+    "bytes": 410661,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "jacaranda",
@@ -3537,7 +4002,7 @@
    ],
    "width": 1411,
    "height": 853,
-   "order": 2
+   "order": 10
   },
   "textures": [
    {
@@ -3553,11 +4018,11 @@
   "slug": "jasmin",
   "name": {
    "fa": "جاسمین",
-   "en": "Jasmin"
+   "en": "Jasmine"
   },
   "site_name": {
    "fa": "Jasmine",
-   "en": "Jasmin"
+   "en": "Jasmine"
   },
   "legacy_names": [
    "جاسمین",
@@ -3609,12 +4074,20 @@
     "kind": "main",
     "alt": {
      "fa": "جاسمین – تصویر اصلی محصول (سطح اسلب)",
-     "en": "Jasmin – main product image (slab surface)"
+     "en": "Jasmine – main product image (slab surface)"
     }
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/jasmin/textures/01-Jasmin.jpg",
+    "width": 1393,
+    "height": 895,
+    "bytes": 451406,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "jeriba-blue",
@@ -3623,7 +4096,7 @@
    "en": "Jeriba Blue"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Jeriba Blue",
    "en": "Jeriba Blue"
   },
   "legacy_names": [],
@@ -3641,11 +4114,19 @@
    "fa": {
     "نوع": "کوارتزیت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "آبی",
+     "طوسی"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Quartzite",
     "Origin": "Brazil",
+    "Colour": [
+     "Blue",
+     "Grey"
+    ],
     "Category": "Imported"
    }
   },
@@ -3653,7 +4134,7 @@
    "blue",
    "grey"
   ],
-  "colour_source": "photograph and name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -3666,7 +4147,7 @@
     ],
     "width": 1920,
     "height": 1211,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "جریبا بلو – تصویر فهرست محصولات",
      "en": "Jeriba Blue – product listing image"
@@ -3735,7 +4216,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/jeriba-blue/images/01-030618-001_68a56ffa74e19_1755672570_compressed.jpg",
+    "width": 1920,
+    "height": 1211,
+    "bytes": 150416,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "jet-black",
@@ -3795,7 +4284,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/jet-black/textures/01-Jet-Black.jpg",
+    "width": 1379,
+    "height": 856,
+    "bytes": 130146,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "kojin",
@@ -3822,18 +4319,24 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "ایران",
+    "رنگ": [
+     "کرم"
+    ],
     "دسته‌بندی": "داخلی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Iran",
+    "Colour": [
+     "Cream"
+    ],
     "Category": "Domestic"
    }
   },
   "colours": [
-   "grey"
+   "cream"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -3853,7 +4356,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/kojin/images/01-nehbandan.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 174730,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "kosmus-a",
@@ -3862,7 +4373,7 @@
    "en": "Kosmus “A”"
   },
   "site_name": {
-   "fa": "“Kosmus “A",
+   "fa": "Kosmus “A”",
    "en": "Kosmus “A”"
   },
   "legacy_names": [],
@@ -3919,16 +4430,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/kosmus-a/99-surface",
-   "widths": [
-    1200,
-    1455
-   ],
-   "width": 1455,
-   "height": 868,
-   "order": 6
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/kosmus-a/textures/01-Kosmus-A.jpg",
@@ -3946,7 +4448,7 @@
    "en": "Kosmus Gold"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Kosmus Gold",
    "en": "Kosmus Gold"
   },
   "legacy_names": [],
@@ -4001,7 +4503,22 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/kosmus-gold/images/01-Kosmus-Gold-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 267286,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/kosmus-gold/textures/01-3447_1-001-scaled.jpg",
+    "width": 1889,
+    "height": 1080,
+    "bytes": 614653,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "lemurian-labradorite",
@@ -4118,7 +4635,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/lemurian-labradorite/textures/01-labradorite.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 168191,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "lumix-wow",
@@ -4141,7 +4666,7 @@
   },
   "origin": {
    "fa": "هند",
-   "en": "Brazil"
+   "en": "India"
   },
   "specs": {
    "fa": {
@@ -4154,7 +4679,7 @@
    },
    "en": {
     "Type": "Quartzite",
-    "Origin": "Brazil",
+    "Origin": "India",
     "Colour": [
      "White"
     ],
@@ -4198,8 +4723,25 @@
     }
    }
   ],
-  "surface": null,
-  "textures": []
+  "surface": {
+   "base": "media/lumix-wow/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1917,
+   "height": 1080,
+   "order": 1
+  },
+  "textures": [
+   {
+    "file": "research/products/lumix-wow/textures/01-New-Lumix-wow-scaled.jpg",
+    "width": 1917,
+    "height": 1080,
+    "bytes": 191935,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "magma-gold",
@@ -4266,7 +4808,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/magma-gold/images/01-Magma_Goldb.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 233783,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "malibu-red",
@@ -4391,7 +4941,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/malibu-red/textures/01-Malibu-Red.jpg",
+    "width": 1370,
+    "height": 877,
+    "bytes": 237212,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "mercury-black",
@@ -4449,7 +5007,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/mercury-black/images/01-mercury-black.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 13774,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "meteorus",
@@ -4576,7 +5142,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/meteorus/images/01-ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+    "width": 1492,
+    "height": 859,
+    "bytes": 702767,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "midnight-gray",
@@ -4638,7 +5212,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/midnight-gray/textures/01-Midnight-Gray.jpg",
+    "width": 1672,
+    "height": 856,
+    "bytes": 426131,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "milky-way",
@@ -4647,7 +5229,7 @@
    "en": "Milky Way"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Milky Way",
    "en": "Milky Way"
   },
   "legacy_names": [],
@@ -4719,7 +5301,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/milky-way/textures/01-Milky-Way.jpg",
+    "width": 1745,
+    "height": 1080,
+    "bytes": 425301,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "mont-blanc",
@@ -4801,7 +5391,7 @@
   },
   "site_name": {
    "fa": "Mozzarella",
-   "en": null
+   "en": "Mozzarella"
   },
   "legacy_names": [],
   "category": "domestic",
@@ -4818,38 +5408,52 @@
    "fa": {
     "نوع": "متفرقه",
     "کشور مبدا": "ایران",
+    "رنگ": [
+     "کرم"
+    ],
     "دسته‌بندی": "داخلی"
    },
    "en": {
     "Type": "Miscellaneous",
     "Origin": "Iran",
+    "Colour": [
+     "Cream"
+    ],
     "Category": "Domestic"
    }
   },
   "colours": [
    "cream"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/mozzarella/01-mozzarella-p",
+    "base": "media/mozzarella/01-mozzarella-m",
     "widths": [
      480,
      800,
-     969
+     1052
     ],
-    "width": 969,
-    "height": 691,
-    "kind": "listing",
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
     "alt": {
-     "fa": "موتزارلا – تصویر فهرست محصولات",
-     "en": "Mozzarella – product listing image"
+     "fa": "موتزارلا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Mozzarella – main product image (slab surface)"
     }
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/mozzarella/images/02-Mozzarella-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 103340,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "naica-quartzite",
@@ -5062,7 +5666,97 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/naica-quartzite/textures/01-Naica-Quartzite.jpg",
+    "width": 1435,
+    "height": 898,
+    "bytes": 200397,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "namibia-white",
+  "name": {
+   "fa": "نامیبیا وایت",
+   "en": "Namibia White"
+  },
+  "site_name": {
+   "fa": "Namibia White",
+   "en": null
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "نامیبیا",
+   "en": "Namibia"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "نامیبیا",
+    "رنگ": [
+     "سفید"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Namibia",
+    "Colour": [
+     "White"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "white"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/namibia-white/01-namibia",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1880,
+    "height": 1080,
+    "kind": "main",
+    "alt": {
+     "fa": "نامیبیا وایت – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Namibia White – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": {
+   "base": "media/namibia-white/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1880,
+   "height": 1080,
+   "order": 8
+  },
+  "textures": [
+   {
+    "file": "research/products/namibia-white/images/01-Namibia.jpg",
+    "width": 1880,
+    "height": 1080,
+    "bytes": 111847,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "natanz-white-granite-rijen",
@@ -5382,7 +6076,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/native-black/textures/01-Native-Black.jpg",
+    "width": 1563,
+    "height": 904,
+    "bytes": 346839,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "negresco",
@@ -5402,13 +6104,13 @@
    "en": "Granite"
   },
   "origin": {
-   "fa": "آنگولا",
+   "fa": "برزیل",
    "en": "Brazil"
   },
   "specs": {
    "fa": {
     "نوع": "گرانیت",
-    "کشور مبدا": "آنگولا",
+    "کشور مبدا": "برزیل",
     "دسته‌بندی": "وارداتی"
    },
    "en": {
@@ -5560,7 +6262,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/negresco/images/01-Negresco-m.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 137348,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "new-galaxy",
@@ -5624,7 +6334,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/new-galaxy/images/01-new_galaxy.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 81968,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "new-golden-silver",
@@ -5725,29 +6443,36 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "هند",
+    "رنگ": [
+     "کرم"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "India",
+    "Colour": [
+     "Cream"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
    "cream"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/new-patagonia/01-new-patagonia-m-11zon",
+    "base": "media/new-patagonia/01-new-patagonia-1",
     "widths": [
      480,
      800,
-     1052
+     1200,
+     1600
     ],
-    "width": 1052,
-    "height": 646,
+    "width": 1920,
+    "height": 1077,
     "kind": "main",
     "alt": {
      "fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
@@ -5820,7 +6545,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/new-patagonia/images/08-New-Patagonia-1.jpg",
+    "width": 1920,
+    "height": 1077,
+    "bytes": 218916,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "nysa",
@@ -5829,7 +6562,7 @@
    "en": "Nysa"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Nysa",
    "en": "Nysa"
   },
   "legacy_names": [],
@@ -5862,19 +6595,19 @@
   "description": null,
   "photos": [
    {
-    "base": "media/nysa/01-49031-001",
+    "base": "media/nysa/01-49031-001-2048x839",
     "widths": [
      480,
      800,
      1200,
      1600
     ],
-    "width": 1920,
-    "height": 786,
-    "kind": "listing",
+    "width": 2048,
+    "height": 839,
+    "kind": "main",
     "alt": {
-     "fa": "نیسا – تصویر فهرست محصولات",
-     "en": "Nysa – product listing image"
+     "fa": "نیسا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Nysa – main product image (slab surface)"
     }
    },
    {
@@ -6021,7 +6754,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/nysa/images/01-49031-001.jpg",
+    "width": 1920,
+    "height": 786,
+    "bytes": 214355,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "oyster-quartz",
@@ -6085,7 +6826,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/oyster-quartz/textures/01-oyster_7VmxiLrLXyB3TH59ttHN.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 87491,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "patagonia-a",
@@ -6331,7 +7080,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/patagonia-green/textures/01-Patagonia-Green.jpg",
+    "width": 1407,
+    "height": 904,
+    "bytes": 217996,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "patagonia-original",
@@ -6437,16 +7194,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/patagonia-original/99-surface",
-   "widths": [
-    1200,
-    1416
-   ],
-   "width": 1416,
-   "height": 901,
-   "order": 10
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/patagonia-original/textures/01-Patagonia-Orginal.jpg",
@@ -6521,8 +7269,25 @@
     }
    }
   ],
-  "surface": null,
-  "textures": []
+  "surface": {
+   "base": "media/patagonia-pink/99-surface",
+   "widths": [
+    1200,
+    1600
+   ],
+   "width": 1669,
+   "height": 1080,
+   "order": 6
+  },
+  "textures": [
+   {
+    "file": "research/products/patagonia-pink/textures/01-Patagonia-Pink-scaled-1.jpg",
+    "width": 1669,
+    "height": 1080,
+    "bytes": 174176,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "patagonia-tourmaline",
@@ -6581,7 +7346,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/patagonia-tourmaline/textures/01-Patagonia-troumaline.jpg",
+    "width": 1455,
+    "height": 877,
+    "bytes": 241995,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "picasso",
@@ -6648,16 +7421,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/picasso/99-surface",
-   "widths": [
-    1200,
-    1507
-   ],
-   "width": 1507,
-   "height": 904,
-   "order": 4
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/picasso/textures/01-Picasso.jpg",
@@ -6675,7 +7439,7 @@
    "en": "Platinum"
   },
   "site_name": {
-   "fa": "Platinium",
+   "fa": "Platinum",
    "en": "Platinum"
   },
   "legacy_names": [
@@ -6788,13 +7552,77 @@
   ]
  },
  {
+  "slug": "pumpkin-viola",
+  "name": {
+   "fa": "پامپکین ویولا",
+   "en": "Pumpkin Viola"
+  },
+  "site_name": {
+   "fa": "Pumpkin Viola",
+   "en": "Pumpkin Viola"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "کرم"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Iran",
+    "Colour": [
+     "Cream"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "cream"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/pumpkin-viola/01-pumpkin-viola",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "پامپکین ویولا – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Pumpkin Viola – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": []
+ },
+ {
   "slug": "purple-rain",
   "name": {
    "fa": "پرپل رین",
    "en": "Purple Rain"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Purple Rain",
    "en": "Purple Rain"
   },
   "legacy_names": [],
@@ -6812,22 +7640,28 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "ایران",
+    "رنگ": [
+     "طوسی"
+    ],
     "دسته‌بندی": "داخلی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Iran",
+    "Colour": [
+     "Grey"
+    ],
     "Category": "Domestic"
    }
   },
   "colours": [
-   "black"
+   "grey"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/purple-rain/01-purple-rain-m",
+    "base": "media/purple-rain/01-purple-rain-m1-688779518e62c-1753708881-compress",
     "widths": [
      480,
      800,
@@ -7015,7 +7849,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/purple-rain/textures/01-Purple-Rain_68877950ee21a_1753708880_compressed.jpeg",
+    "width": 1920,
+    "height": 1081,
+    "bytes": 282014,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "python",
@@ -7135,7 +7977,7 @@
     ],
     "width": 2048,
     "height": 1112,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "کوارتزیت لوانتو – تصویر فهرست محصولات",
      "en": "Quartzite Levanto – product listing image"
@@ -7143,74 +7985,15 @@
    }
   ],
   "surface": null,
-  "textures": []
- },
- {
-  "slug": "river-blanche",
-  "name": {
-   "fa": "ریور بلانش",
-   "en": "River Blanche"
-  },
-  "site_name": {
-   "fa": "River Blanche",
-   "en": "River Blanche"
-  },
-  "legacy_names": [],
-  "category": "imported",
-  "type": "quartzite",
-  "type_label": {
-   "fa": "کوارتزیت",
-   "en": "Quartzite"
-  },
-  "origin": {
-   "fa": "افغانستان",
-   "en": "Afghanistan"
-  },
-  "specs": {
-   "fa": {
-    "نوع": "کوارتزیت",
-    "کشور مبدا": "افغانستان",
-    "رنگ": [
-     "آبی",
-     "سفید"
-    ],
-    "دسته‌بندی": "وارداتی"
-   },
-   "en": {
-    "Type": "Quartzite",
-    "Origin": "Afghanistan",
-    "Colour": [
-     "Blue",
-     "White"
-    ],
-    "Category": "Imported"
-   }
-  },
-  "colours": [
-   "blue",
-   "white"
-  ],
-  "colour_source": "site",
-  "description": null,
-  "photos": [
+  "textures": [
    {
-    "base": "media/river-blanche/01-river-blanche-m",
-    "widths": [
-     480,
-     800,
-     1052
-    ],
-    "width": 1052,
-    "height": 646,
-    "kind": "main",
-    "alt": {
-     "fa": "ریور بلانش – تصویر اصلی محصول (سطح اسلب)",
-     "en": "River Blanche – main product image (slab surface)"
-    }
+    "file": "research/products/quartzite-levanto/textures/01-254_1__-024-scaled.jpg",
+    "width": 1920,
+    "height": 1042,
+    "bytes": 294920,
+    "format": "JPEG"
    }
-  ],
-  "surface": null,
-  "textures": []
+  ]
  },
  {
   "slug": "river-noire",
@@ -7237,22 +8020,44 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "هند",
+    "رنگ": [
+     "مشکی"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "India",
+    "Colour": [
+     "Black"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
    "black"
   ],
-  "colour_source": "photograph and name",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
-    "base": "media/river-noire/01-4643-005-2048x1227",
+    "base": "media/river-noire/01-4643-004-2048x1249",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1249,
+    "kind": "main",
+    "alt": {
+     "fa": "ریور نوآر – تصویر اصلی محصول (سطح اسلب)",
+     "en": "River Noire – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/river-noire/02-4643-005-2048x1227",
     "widths": [
      480,
      800,
@@ -7261,14 +8066,14 @@
     ],
     "width": 2048,
     "height": 1227,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "ریور نوآر – تصویر فهرست محصولات",
      "en": "River Noire – product listing image"
     }
    },
    {
-    "base": "media/river-noire/02-48-scaled",
+    "base": "media/river-noire/03-48-scaled",
     "widths": [
      480,
      800,
@@ -7284,7 +8089,7 @@
     }
    },
    {
-    "base": "media/river-noire/03-49-scaled",
+    "base": "media/river-noire/04-49-scaled",
     "widths": [
      480,
      800,
@@ -7300,7 +8105,7 @@
     }
    },
    {
-    "base": "media/river-noire/04-50-scaled",
+    "base": "media/river-noire/05-50-scaled",
     "widths": [
      480,
      800,
@@ -7316,7 +8121,22 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/river-noire/images/02-4643-004-scaled.jpg",
+    "width": 1771,
+    "height": 1080,
+    "bytes": 462112,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/river-noire/textures/01-4643-005-scaled.jpg",
+    "width": 1804,
+    "height": 1080,
+    "bytes": 382632,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "river-stone",
@@ -7343,18 +8163,27 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "برزیل",
+    "رنگ": [
+     "مشکی",
+     "طوسی"
+    ],
     "دسته‌بندی": "وارداتی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Brazil",
+    "Colour": [
+     "Black",
+     "Grey"
+    ],
     "Category": "Imported"
    }
   },
   "colours": [
-   "black"
+   "black",
+   "grey"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -7367,7 +8196,7 @@
     ],
     "width": 1920,
     "height": 1189,
-    "kind": "listing",
+    "kind": "main",
     "alt": {
      "fa": "ریور استون – تصویر فهرست محصولات",
      "en": "River Stone – product listing image"
@@ -7375,7 +8204,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/river-stone/images/01-River-Stone.jpg",
+    "width": 1920,
+    "height": 1189,
+    "bytes": 103156,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "rosso-fantastico",
@@ -7430,6 +8267,22 @@
      "fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
      "en": "Rosso Fantastic – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/rosso-fantastico/02-rosso-fantastic",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1229,
+    "kind": "main",
+    "alt": {
+     "fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Rosso Fantastic – main product image (slab surface)"
+    }
    }
   ],
   "surface": null,
@@ -7439,6 +8292,86 @@
     "width": 1562,
     "height": 874,
     "bytes": 225891,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/rosso-fantastico/images/03-Rosso-Fantastic.jpg",
+    "width": 1920,
+    "height": 1229,
+    "bytes": 80602,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "rosso-levanto",
+  "name": {
+   "fa": "روسو لوانتو",
+   "en": "Rosso Levanto"
+  },
+  "site_name": {
+   "fa": "Rosso Levanto",
+   "en": null
+  },
+  "legacy_names": [],
+  "category": "imported",
+  "type": "marble",
+  "type_label": {
+   "fa": "مرمریت",
+   "en": "Marble"
+  },
+  "origin": {
+   "fa": "ایتالیا",
+   "en": "Italy"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "مرمریت",
+    "کشور مبدا": "ایتالیا",
+    "رنگ": [
+     "صورتی"
+    ],
+    "دسته‌بندی": "وارداتی"
+   },
+   "en": {
+    "Type": "Marble",
+    "Origin": "Italy",
+    "Colour": [
+     "Pink"
+    ],
+    "Category": "Imported"
+   }
+  },
+  "colours": [
+   "pink"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/rosso-levanto/01-rosso-levanto",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1016,
+    "kind": "main",
+    "alt": {
+     "fa": "روسو لوانتو – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Rosso Levanto – main product image (slab surface)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": [
+   {
+    "file": "research/products/rosso-levanto/images/01-Rosso-Levanto.jpg",
+    "width": 1920,
+    "height": 1016,
+    "bytes": 296344,
     "format": "JPEG"
    }
   ]
@@ -7700,7 +8633,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/serpentine/textures/01-Serpentine.jpg",
+    "width": 1637,
+    "height": 886,
+    "bytes": 314402,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "silver-fusion",
@@ -7764,7 +8705,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/silver-fusion/images/01-silver_fusion.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 116041,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "space-gray",
@@ -7933,18 +8882,24 @@
    "fa": {
     "نوع": "گرانیت",
     "کشور مبدا": "ایران",
+    "رنگ": [
+     "طوسی"
+    ],
     "دسته‌بندی": "داخلی"
    },
    "en": {
     "Type": "Granite",
     "Origin": "Iran",
+    "Colour": [
+     "Grey"
+    ],
     "Category": "Domestic"
    }
   },
   "colours": [
    "grey"
   ],
-  "colour_source": "photograph",
+  "colour_source": "site",
   "description": null,
   "photos": [
    {
@@ -7963,7 +8918,23 @@
     }
    },
    {
-    "base": "media/t-rex/02-53-scaled",
+    "base": "media/t-rex/02-3878x1-001-2048x1116",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2048,
+    "height": 1116,
+    "kind": "main",
+    "alt": {
+     "fa": "تی رکس – تصویر فهرست محصولات",
+     "en": "T.Rex – product listing image"
+    }
+   },
+   {
+    "base": "media/t-rex/03-53-scaled",
     "widths": [
      480,
      800,
@@ -7979,7 +8950,7 @@
     }
    },
    {
-    "base": "media/t-rex/03-45-scaled",
+    "base": "media/t-rex/04-45-scaled",
     "widths": [
      480,
      800,
@@ -7995,7 +8966,7 @@
     }
    },
    {
-    "base": "media/t-rex/04-46-scaled",
+    "base": "media/t-rex/05-46-scaled",
     "widths": [
      480,
      800,
@@ -8011,7 +8982,7 @@
     }
    },
    {
-    "base": "media/t-rex/05-47-scaled",
+    "base": "media/t-rex/06-47-scaled",
     "widths": [
      480,
      800,
@@ -8026,7 +8997,7 @@
     }
    },
    {
-    "base": "media/t-rex/06-51-scaled",
+    "base": "media/t-rex/07-51-scaled",
     "widths": [
      480,
      800,
@@ -8042,7 +9013,7 @@
     }
    },
    {
-    "base": "media/t-rex/07-52-scaled",
+    "base": "media/t-rex/08-52-scaled",
     "widths": [
      480,
      800,
@@ -8065,6 +9036,13 @@
     "width": 1288,
     "height": 841,
     "bytes": 437761,
+    "format": "JPEG"
+   },
+   {
+    "file": "research/products/t-rex/textures/02-3878X1-001-scaled.jpg",
+    "width": 1920,
+    "height": 1046,
+    "bytes": 422727,
     "format": "JPEG"
    }
   ]
@@ -8125,7 +9103,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/taj-mahal/textures/01-Taj-Mahal.jpg",
+    "width": 1419,
+    "height": 898,
+    "bytes": 158557,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "titanium-mc",
@@ -8223,7 +9209,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/titanium-mc/images/01-titanium_mc-1.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 141092,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "tropical-storm",
@@ -8494,7 +9488,7 @@
    "en": "Venetian Granite"
   },
   "site_name": {
-   "fa": null,
+   "fa": "Venetian Granite",
    "en": "Venetian Granite"
   },
   "legacy_names": [],
@@ -8527,19 +9521,19 @@
   "description": null,
   "photos": [
    {
-    "base": "media/venetian-granite/01-4615-007",
+    "base": "media/venetian-granite/01-4615-007-2048x1272",
     "widths": [
      480,
      800,
      1200,
      1600
     ],
-    "width": 1738,
-    "height": 1080,
-    "kind": "listing",
+    "width": 2048,
+    "height": 1272,
+    "kind": "main",
     "alt": {
-     "fa": "گرانیت ونیشن – تصویر فهرست محصولات",
-     "en": "Venetian Granite – product listing image"
+     "fa": "گرانیت ونیشن – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Venetian Granite – main product image (slab surface)"
     }
    },
    {
@@ -8600,6 +9594,78 @@
     "alt": {
      "fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
      "en": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
+  "surface": null,
+  "textures": [
+   {
+    "file": "research/products/venetian-granite/images/01-4615-007.jpg",
+    "width": 1738,
+    "height": 1080,
+    "bytes": 760352,
+    "format": "JPEG"
+   }
+  ]
+ },
+ {
+  "slug": "verde-atlantic",
+  "name": {
+   "fa": "ورده آتلانتیک",
+   "en": "Verde Atlantic"
+  },
+  "site_name": {
+   "fa": "Verde Atlantic",
+   "en": "Verde Atlantic"
+  },
+  "legacy_names": [],
+  "category": "domestic",
+  "type": "granite",
+  "type_label": {
+   "fa": "گرانیت",
+   "en": "Granite"
+  },
+  "origin": {
+   "fa": "ایران",
+   "en": "Iran"
+  },
+  "specs": {
+   "fa": {
+    "نوع": "گرانیت",
+    "کشور مبدا": "ایران",
+    "رنگ": [
+     "سبز"
+    ],
+    "دسته‌بندی": "داخلی"
+   },
+   "en": {
+    "Type": "Granite",
+    "Origin": "Iran",
+    "Colour": [
+     "Green"
+    ],
+    "Category": "Domestic"
+   }
+  },
+  "colours": [
+   "green"
+  ],
+  "colour_source": "site",
+  "description": null,
+  "photos": [
+   {
+    "base": "media/verde-atlantic/01-verde-atlantic",
+    "widths": [
+     480,
+     800,
+     1052
+    ],
+    "width": 1052,
+    "height": 646,
+    "kind": "main",
+    "alt": {
+     "fa": "ورده آتلانتیک – تصویر اصلی محصول (سطح اسلب)",
+     "en": "Verde Atlantic – main product image (slab surface)"
     }
    }
   ],
@@ -8869,7 +9935,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/verde-imperial/images/01-verde-imperial.jpg",
+    "width": 1052,
+    "height": 646,
+    "bytes": 104132,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "verde-karzai",
@@ -8929,16 +10003,7 @@
     }
    }
   ],
-  "surface": {
-   "base": "media/verde-karzai/99-surface",
-   "widths": [
-    1200,
-    1573
-   ],
-   "width": 1573,
-   "height": 895,
-   "order": 8
-  },
+  "surface": null,
   "textures": [
    {
     "file": "research/products/verde-karzai/textures/01-verde-Karzai.jpg",
@@ -9013,7 +10078,15 @@
    }
   ],
   "surface": null,
-  "textures": []
+  "textures": [
+   {
+    "file": "research/products/via-lattea/textures/01-Via-Lattea.jpg",
+    "width": 1327,
+    "height": 898,
+    "bytes": 273409,
+    "format": "JPEG"
+   }
+  ]
  },
  {
   "slug": "volga-blue",

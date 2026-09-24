@@ -96,7 +96,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=0356be7c1c24a6dd5d2251637d0b169e2662a1d6",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=0356be7c1c24a6dd5d2251637d0b169e2662a1d6&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:25Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=0356be7c1c24a6dd5d2251637d0b169e2662a1d6"
+      ],
+      "original_filename": "Patagonia-Green.jpg",
+      "width": 1407,
+      "height": 904,
+      "format": "JPEG",
+      "bytes": 217996,
+      "sha1": "f0ef3c9df838bd3761cca704f5f4122fbabbc3d6",
+      "alt": "Patagonia Green – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Patagonia-Green.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -104,7 +123,7 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -123,7 +142,7 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T23:20:58",
-      "modified": "2024-04-22T08:55:02"
+      "modified": "2025-07-23T18:03:06"
     },
     "en": {
       "published": "2023-12-12T23:20:58",
@@ -131,6 +150,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -148,19 +172,9 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "0356be7c1c24a6dd5d2251637d0b169e2662a1d6",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "The Persian site showed different origins over time in the archive: آنگولا, برزیل; the live site (2026-09-24) shows \"برزیل\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

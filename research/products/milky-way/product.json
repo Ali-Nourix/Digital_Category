@@ -61,7 +61,15 @@
         "product page https://behkooshan.ir/product/milky-way/",
         "project card on https://behkooshan.ir/_project/",
         "project card on https://fa.behkooshan.ir/projects/"
-      ]
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Milky-Way.jpg",
+        "width": 6065,
+        "height": 3753,
+        "bytes": 11509658,
+        "sha1": "2decb4a3a7ad7b8862673e710b20afcf6adf322d",
+        "format": "JPEG"
+      }
     },
     {
       "file": "images/02-Milky-Way-1.jpg",
@@ -86,7 +94,26 @@
       "project_page": "https://behkooshan.ir/_project/milky-way/"
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ae9e919d7f7fd693904e25ee6f55236e35b7f184",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=ae9e919d7f7fd693904e25ee6f55236e35b7f184&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:33Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=5e9111bced37b1696e2a167f1de918d9a7e6f00f"
+      ],
+      "original_filename": "Milky-Way.jpg",
+      "width": 1745,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 425301,
+      "sha1": "45bc309393a3cea8cb14a732b9c12d1cb42796bd",
+      "alt": "Milky Way – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Milky-Way.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -94,25 +121,28 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"India\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Milky Way",
     "en": "Milky Way"
   },
   "site_post_ids": {
+    "fa": [
+      "6841"
+    ],
     "en": [
       "6678"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-11-19T15:42:04",
+      "modified": "2025-11-19T15:42:04"
     },
     "en": {
       "published": "2025-11-19T15:44:37",
@@ -120,6 +150,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -143,18 +178,8 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "5e9111bced37b1696e2a167f1de918d9a7e6f00f",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

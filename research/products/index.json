@@ -24,7 +24,7 @@
     "type": "Granite",
     "origin": "India",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "alaska-white/product.json",
     "has_texture": true
@@ -60,6 +60,21 @@
     "has_texture": true
   },
   {
+    "slug": "belissimo-verde",
+    "category": "domestic",
+    "name": {
+      "fa": "بلیسیمو ورده",
+      "en": "Belissimo Verde"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "belissimo-verde/product.json",
+    "has_texture": true
+  },
+  {
     "slug": "bellatrix",
     "category": "imported",
     "name": {
@@ -72,7 +87,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "bellatrix/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "belvedere",
@@ -84,10 +99,25 @@
     "type": "Granite",
     "origin": "Angola",
     "image_count": 5,
-    "texture_count": 1,
+    "texture_count": 2,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "belvedere/product.json",
     "has_texture": true
+  },
+  {
+    "slug": "bianco-vena",
+    "category": "imported",
+    "name": {
+      "fa": "بیانکو ونا",
+      "en": "Bianco Vena"
+    },
+    "type": "Marble",
+    "origin": "Greece",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "bianco-vena/product.json",
+    "has_texture": false
   },
   {
     "slug": "black-beat",
@@ -159,25 +189,25 @@
     "type": "Granite",
     "origin": "Brazil",
     "image_count": 5,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "black-horse/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "black-tempest",
-    "category": null,
+    "category": "imported",
     "name": {
       "fa": "بلک تمپست",
       "en": "Black Tempest"
     },
-    "type": null,
-    "origin": null,
-    "image_count": 6,
+    "type": "Quartzite",
+    "origin": "Brazil",
+    "image_count": 8,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "black-tempest/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "black-zebra",
@@ -233,10 +263,40 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 1,
-    "texture_count": 0,
+    "image_count": 2,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "bubble-gray/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "calacatta-rhino",
+    "category": "imported",
+    "name": {
+      "fa": "کالاکاتا راینو",
+      "en": "Calacatta Rhino"
+    },
+    "type": "Marble",
+    "origin": "Namibia",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "calacatta-rhino/product.json",
+    "has_texture": false
+  },
+  {
+    "slug": "calacatta-viola",
+    "category": "imported",
+    "name": {
+      "fa": "کالاکاتا ویولا",
+      "en": "Calacatta Viola"
+    },
+    "type": "Marble",
+    "origin": "Italy",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "calacatta-viola/product.json",
     "has_texture": false
   },
   {
@@ -249,10 +309,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 12,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "casper/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "casper-line",
@@ -279,10 +339,10 @@
     "type": "Granite",
     "origin": "Angola",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "cohiba/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "colonial",
@@ -297,7 +357,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "colonial/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "copper-dune",
@@ -323,7 +383,7 @@
     },
     "type": "Quartzite",
     "origin": "Brazil",
-    "image_count": 1,
+    "image_count": 3,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "cristallo-rosa/product.json",
@@ -339,10 +399,10 @@
     "type": "Marble",
     "origin": "Brazil",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "dalmata/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "dark-golden-lightning",
@@ -354,10 +414,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "dark-golden-lightning/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "dedalus",
@@ -384,10 +444,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "delicate/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "dolce-vita",
@@ -398,11 +458,11 @@
     },
     "type": "Quartzite",
     "origin": "Brazil",
-    "image_count": 1,
-    "texture_count": 0,
+    "image_count": 2,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "dolce-vita/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "dover-blue",
@@ -432,7 +492,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "elegant-brown/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "elegant-green",
@@ -443,11 +503,11 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 2,
-    "texture_count": 0,
+    "image_count": 3,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "elegant-green/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "emerald-quartzite",
@@ -459,10 +519,10 @@
     "type": "Quartzite",
     "origin": "Brazil",
     "image_count": 4,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "emerald-quartzite/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "evolution-green",
@@ -473,11 +533,11 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 7,
-    "texture_count": 0,
+    "image_count": 8,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "evolution-green/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "explosion-blue",
@@ -504,10 +564,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 6,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "gando/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "grand-antique",
@@ -522,7 +582,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "grand-antique/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "green-shadow",
@@ -534,7 +594,7 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "green-shadow/product.json",
     "has_texture": true
@@ -549,10 +609,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 5,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "infinity-gold/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "jacaranda",
@@ -574,15 +634,15 @@
     "category": "domestic",
     "name": {
       "fa": "جاسمین",
-      "en": "Jasmin"
+      "en": "Jasmine"
     },
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "jasmin/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "jeriba-blue",
@@ -597,7 +657,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "jeriba-blue/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "jet-black",
@@ -609,10 +669,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "jet-black/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "kojin",
@@ -627,7 +687,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "kojin/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "kosmus-a",
@@ -654,10 +714,10 @@
     "type": "Granite",
     "origin": "Brazil",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "kosmus-gold/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "lemurian-labradorite",
@@ -669,10 +729,10 @@
     "type": "Granite",
     "origin": "Madagascar",
     "image_count": 5,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "lemurian-labradorite/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "lumix-wow",
@@ -682,12 +742,12 @@
       "en": "Lumix Wow"
     },
     "type": "Quartzite",
-    "origin": "Brazil",
+    "origin": "India",
     "image_count": 3,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "lumix-wow/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "magma-gold",
@@ -702,7 +762,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "magma-gold/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "malibu-red",
@@ -714,10 +774,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 6,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "malibu-red/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "mercury-black",
@@ -732,7 +792,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "mercury-black/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "meteorus",
@@ -747,7 +807,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "meteorus/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "midnight-gray",
@@ -759,10 +819,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "midnight-gray/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "milky-way",
@@ -774,10 +834,10 @@
     "type": "Granite",
     "origin": "India",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "milky-way/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "mont-blanc",
@@ -803,11 +863,11 @@
     },
     "type": "Miscellaneous",
     "origin": "Iran",
-    "image_count": 1,
+    "image_count": 2,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "mozzarella/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "naica-quartzite",
@@ -819,10 +879,25 @@
     "type": "Quartzite",
     "origin": "Brazil",
     "image_count": 12,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "naica-quartzite/product.json",
-    "has_texture": false
+    "has_texture": true
+  },
+  {
+    "slug": "namibia-white",
+    "category": "imported",
+    "name": {
+      "fa": "نامیبیا وایت",
+      "en": "Namibia White"
+    },
+    "type": "Marble",
+    "origin": "Namibia",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "namibia-white/product.json",
+    "has_texture": true
   },
   {
     "slug": "natanz-white-granite-rijen",
@@ -849,10 +924,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "native-black/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "negresco",
@@ -867,7 +942,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "negresco/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "new-galaxy",
@@ -882,7 +957,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "new-galaxy/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "new-golden-silver",
@@ -908,11 +983,11 @@
     },
     "type": "Granite",
     "origin": "India",
-    "image_count": 7,
+    "image_count": 8,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "new-patagonia/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "nysa",
@@ -923,11 +998,11 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 10,
+    "image_count": 11,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "nysa/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "oyster-quartz",
@@ -939,10 +1014,10 @@
     "type": "Marble",
     "origin": "Angola",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "oyster-quartz/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "patagonia-a",
@@ -984,10 +1059,10 @@
     "type": "Granite",
     "origin": "Brazil",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "patagonia-green/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "patagonia-original",
@@ -1014,10 +1089,10 @@
     "type": "Granite",
     "origin": "India",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "patagonia-pink/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "patagonia-tourmaline",
@@ -1029,10 +1104,10 @@
     "type": "Granite",
     "origin": "Brazil",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "patagonia-tourmaline/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "picasso",
@@ -1065,6 +1140,21 @@
     "has_texture": true
   },
   {
+    "slug": "pumpkin-viola",
+    "category": "domestic",
+    "name": {
+      "fa": "پامپکین ویولا",
+      "en": "Pumpkin Viola"
+    },
+    "type": "Marble",
+    "origin": "Iran",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "pumpkin-viola/product.json",
+    "has_texture": false
+  },
+  {
     "slug": "purple-rain",
     "category": "domestic",
     "name": {
@@ -1073,11 +1163,11 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 14,
-    "texture_count": 0,
+    "image_count": 16,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "purple-rain/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "python",
@@ -1104,10 +1194,10 @@
     "type": "Quartzite",
     "origin": "Brazil",
     "image_count": 1,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "quartzite-levanto/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "river-blanche",
@@ -1133,11 +1223,11 @@
     },
     "type": "Granite",
     "origin": "India",
-    "image_count": 5,
-    "texture_count": 0,
+    "image_count": 6,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "river-noire/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "river-stone",
@@ -1152,7 +1242,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": false,
     "path": "river-stone/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "rosso-fantastico",
@@ -1163,10 +1253,25 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 2,
+    "image_count": 3,
     "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "rosso-fantastico/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "rosso-levanto",
+    "category": "imported",
+    "name": {
+      "fa": "روسو لوانتو",
+      "en": "Rosso Levanto"
+    },
+    "type": "Marble",
+    "origin": "Italy",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "rosso-levanto/product.json",
     "has_texture": true
   },
   {
@@ -1194,10 +1299,10 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "serpentine/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "silver-fusion",
@@ -1212,7 +1317,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "silver-fusion/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "space-gray",
@@ -1254,7 +1359,7 @@
     "type": "Granite",
     "origin": "Iran",
     "image_count": 9,
-    "texture_count": 1,
+    "texture_count": 2,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "t-rex/product.json",
     "has_texture": true
@@ -1269,10 +1374,10 @@
     "type": "Granite",
     "origin": "Angola",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "taj-mahal/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "titanium-mc",
@@ -1287,7 +1392,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "titanium-mc/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "tropical-storm",
@@ -1328,10 +1433,25 @@
     },
     "type": "Granite",
     "origin": "Iran",
-    "image_count": 5,
+    "image_count": 6,
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "venetian-granite/product.json",
+    "has_texture": true
+  },
+  {
+    "slug": "verde-atlantic",
+    "category": "domestic",
+    "name": {
+      "fa": "ورده آتلانتیک",
+      "en": "Verde Atlantic"
+    },
+    "type": "Granite",
+    "origin": "Iran",
+    "image_count": 1,
+    "texture_count": 0,
+    "listed_in_feb_2026_persian_sitemap": false,
+    "path": "verde-atlantic/product.json",
     "has_texture": false
   },
   {
@@ -1362,7 +1482,7 @@
     "texture_count": 0,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "verde-imperial/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "verde-karzai",
@@ -1389,10 +1509,10 @@
     "type": "Granite",
     "origin": "Brazil",
     "image_count": 2,
-    "texture_count": 0,
+    "texture_count": 1,
     "listed_in_feb_2026_persian_sitemap": true,
     "path": "via-lattea/product.json",
-    "has_texture": false
+    "has_texture": true
   },
   {
     "slug": "volga-blue",

@@ -35,8 +35,44 @@
   },
   "images": [
     {
+      "file": "images/06-4615-007-2048x1272.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/4615-007-2048x1272.jpg",
+      "archived_url": null,
+      "alt": "Venetian Granite – main product image (slab surface)",
+      "alt_fa": "گرانیت ونیشن – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "4615-007",
+      "width": 2048,
+      "height": 1272,
+      "format": "JPEG",
+      "resolution": "resized-2048x1272",
+      "bytes": 786604,
+      "sha1": "182852230bf06aa8a7bed3b7836e1248cabc70d3",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/venetian-granite/",
+        "og:image of https://fa.behkooshan.ir/product/venetian-granite/",
+        "product page https://behkooshan.ir/product/venetian-granite/",
+        "og:image of https://behkooshan.ir/product/venetian-granite/"
+      ],
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/4615-007-2048x1272.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:51:15Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/4615-007.jpg",
+        "https://behkooshan.ir/wp-content/uploads/4615-007-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/4615-007.jpg",
+        "width": 5873,
+        "height": 3649,
+        "bytes": 13506396,
+        "sha1": "eb0bbd9bd6a43617924e3f118c9eb6952bbedd53",
+        "format": "JPEG"
+      }
+    },
+    {
       "file": "images/01-4615-007.jpg",
-      "kind": "listing",
+      "kind": "superseded",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4615-007.jpg",
       "archived_url": "https://web.archive.org/web/20260227074143id_/https://fa.behkooshan.ir/wp-content/uploads/4615-007.jpg",
       "alt": "Venetian Granite – product listing image",
@@ -53,7 +89,9 @@
         "product card on https://behkooshan.ir/product/nehbandan/",
         "project card on https://behkooshan.ir/_project/",
         "project card on https://fa.behkooshan.ir/projects/"
-      ]
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/06-4615-007-2048x1272.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
     },
     {
       "file": "images/02-65fa37d6-0f1c-44d4-86da-5ad830c4cff3.jpg",
@@ -162,7 +200,27 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ae4c721f582d557fc85b1a0d2ef632ab202c4f56",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=ae4c721f582d557fc85b1a0d2ef632ab202c4f56&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=9022a04b7c9ae5151401cedb2e58a21ff5e0b1b5"
+      ],
+      "original_filename": "4615-007.jpg",
+      "width": 1738,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 760352,
+      "sha1": "4657a9196d3ed26329b2d87a46818ce077bb07ab",
+      "alt": "Venetian Granite – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-4615-007.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -170,31 +228,39 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)"
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Venetian Granite",
     "en": "Venetian Granite"
   },
   "site_post_ids": {
+    "fa": [
+      "6824"
+    ],
     "en": [
       "6667"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-11-03T11:25:37",
+      "modified": "2025-11-03T11:25:37"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-11-03T11:29:55",
+      "modified": "2025-11-03T11:29:55"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -215,10 +281,7 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
     "The 3 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

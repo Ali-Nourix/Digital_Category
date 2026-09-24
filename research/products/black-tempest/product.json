@@ -1,7 +1,10 @@
 {
   "slug": "black-tempest",
-  "category": null,
-  "category_label": null,
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
   "name": {
     "fa": "بلک تمپست",
     "en": "Black Tempest"
@@ -11,16 +14,86 @@
     "en": null
   },
   "specs": {
-    "fa": {},
-    "en": {}
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
   },
   "urls": {
     "fa": [
-      "https://fa.behkooshan.ir/product/black-tempest/"
+      "https://fa.behkooshan.ir/product/black-tempest/",
+      "https://fa.behkooshan.ir/product/black-fantasy/"
     ],
-    "en": []
+    "en": [
+      "https://behkooshan.ir/product/black-tempest/",
+      "https://behkooshan.ir/product/black-fantasy/"
+    ]
   },
   "images": [
+    {
+      "file": "images/07-black-fantasy.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – main product image (slab surface)",
+      "alt_fa": "بلک تمپست – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "black fantasy",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/black-tempest/",
+        "product page https://behkooshan.ir/product/black-tempest/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/black-fantasy.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:39Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+        "https://behkooshan.ir/wp-content/uploads/black-fantasy.jpg"
+      ]
+    },
+    {
+      "file": "images/08-black-fantasy2.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – product listing image",
+      "alt_fa": "بلک تمپست – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80676,
+      "sha1": "f7855cc2d946d63ef1850a38dfa5951c1a2d2496",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/black-tempest/",
+        "og:image of https://behkooshan.ir/product/black-tempest/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/black-fantasy2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+        "https://behkooshan.ir/wp-content/uploads/black-fantasy2.jpg"
+      ]
+    },
     {
       "file": "images/01-Black-Tempest-project.jpg",
       "kind": "project",
@@ -198,35 +271,66 @@
       }
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447"
+      ],
+      "original_filename": "black-fantasy.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "alt": "Black Tempest – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/07-black-fantasy.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
-    "en": true
+    "en": false
   },
   "translated_fields": {
     "fa": [
-      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
-    "en": [
-      "name"
-    ]
+    "en": []
   },
   "site_names": {
-    "fa": null,
-    "en": null
+    "fa": "Black Tempest",
+    "en": "Black Tempest"
   },
-  "site_post_ids": {},
+  "site_post_ids": {
+    "fa": [
+      "4276"
+    ],
+    "en": [
+      "4276"
+    ]
+  },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2023-08-11T13:20:34",
+      "modified": "2025-07-28T11:34:09"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2023-08-11T13:20:34",
+      "modified": "2025-08-11T10:48:18"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -240,16 +344,34 @@
     }
   ],
   "archived_pages": {
-    "fa": [],
-    "en": []
+    "fa": [
+      {
+        "captured": "20250704075942",
+        "archived": "https://web.archive.org/web/20250704075942/https://fa.behkooshan.ir/product/black-fantasy/"
+      },
+      {
+        "captured": "20250624070628",
+        "archived": "https://web.archive.org/web/20250624070628/https://fa.behkooshan.ir/product/black-fantasy/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619015422",
+        "archived": "https://web.archive.org/web/20250619015422/https://behkooshan.ir/product/black-fantasy/"
+      }
+    ]
   },
   "legacy": null,
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
-    "Only the URL /product/black-tempest/ is known from the Wayback Machine (Persian sitemap of Feb 2026 and project sitemap /projects/black-tempest/); neither page was archived, so no specs exist. The live project pages /_project/black-tempest/ and /projects/black-tempest/ (checked 2026-09-24) are titled \"Black Tempest\", which confirms the name, and supply the project photos in images."
+    "Only the URL /product/black-tempest/ is known from the Wayback Machine (Persian sitemap of Feb 2026 and project sitemap /projects/black-tempest/); neither page was archived, so no specs exist. The live project pages /_project/black-tempest/ and /projects/black-tempest/ (checked 2026-09-24) are titled \"Black Tempest\", which confirms the name, and supply the project photos in images.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Colour attribute differs between the sites (live site, 2026-09-24): Persian site ['grey'], English site ['blue']; the Persian site's terms are used.",
+    "Live check 2026-09-24: the Persian site now titles this product \"Black Tempest\" (was \"Black Fantasy\").",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/black-tempest/; https://fa.behkooshan.ir/product/black-fantasy/ is no longer on the site.",
+    "Live check 2026-09-24: the English site now titles this product \"Black Tempest\" (was \"Black Fantasy\").",
+    "Live check 2026-09-24: on the English site the product is at https://behkooshan.ir/product/black-tempest/; https://behkooshan.ir/product/black-fantasy/ is no longer on the site.",
+    "Live check 2026-09-24: post 4276, archived as \"Black Fantasy\" (/product/black-fantasy/, see products/black-fantasy/), was renamed \"Black Tempest\" and moved to /product/black-tempest/ on both language sites (Persian modified 2025-07-28, English 2025-08-11) with the same photographs and texture link. The two research folders are the same product; this one continues it."
   ]
 }

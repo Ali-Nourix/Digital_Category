@@ -197,12 +197,12 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": "Platinium",
+    "fa": "Platinum",
     "en": "Platinum"
   },
   "site_post_ids": {
@@ -216,14 +216,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-09-05T10:19:34",
-      "modified": "2024-04-20T11:52:03"
+      "modified": "2025-07-28T11:48:41"
     },
     "en": {
       "published": "2023-09-05T10:19:34",
-      "modified": "2023-09-26T17:06:12"
+      "modified": "2025-07-28T11:48:28"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -292,6 +297,9 @@
   "missing_textures": [],
   "notes": [
     "Post 4821 was published as \"Platinium\" (/product/platinium/) and later renamed \"Platinum\" (/product/platinum/) on both sites.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: the Persian site now titles this product \"Platinum\" (was \"Platinium\").",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/platinum/; https://fa.behkooshan.ir/product/platinium/ is no longer on the site.",
+    "Live check 2026-09-24: on the English site the product is at https://behkooshan.ir/product/platinum/; https://behkooshan.ir/product/platinium/ is no longer on the site."
   ]
 }

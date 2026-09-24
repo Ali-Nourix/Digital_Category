@@ -410,7 +410,26 @@
       }
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680"
+      ],
+      "original_filename": "Naica-Quartzite.jpg",
+      "width": 1435,
+      "height": 898,
+      "format": "JPEG",
+      "bytes": 200397,
+      "sha1": "aab1425e94b4d8c7167938aed2d17b4e79bfdcc6",
+      "alt": "Naica Quartzite – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Naica-Quartzite.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -436,14 +455,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T23:16:38",
-      "modified": "2024-04-20T11:47:56"
+      "modified": "2025-07-27T12:30:43"
     },
     "en": {
       "published": "2023-12-12T23:16:38",
-      "modified": "2025-05-07T14:07:33"
+      "modified": "2025-07-27T20:30:28"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -490,21 +514,11 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "bab91698befa95e40fcd040c459db7682cd8a680",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Stone type differs between the sites: Persian site \"گرانیت\", English site \"Quartzite\". Each language keeps its own site's value.",
-    "Origin differs between the sites: Persian site \"آنگولا\", English site \"Brazil\" (latest archived values). Each language keeps its own site's value.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
-    "One project photo is shown both on this stone's Persian project page (as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload) and on the project pages of Elegant Brown (/_project/elegant-brown/ and /projects/elegant-brown/, as Elegant-Brown-pr2.webp). The copy stored here is the larger one, Elegant-Brown-pr2.webp (1708x2560), hence the file name 12-Elegant-Brown-pr2.webp. It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner."
+    "One project photo is shown both on this stone's Persian project page (as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload) and on the project pages of Elegant Brown (/_project/elegant-brown/ and /projects/elegant-brown/, as Elegant-Brown-pr2.webp). The copy stored here is the larger one, Elegant-Brown-pr2.webp (1708x2560), hence the file name 12-Elegant-Brown-pr2.webp. It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Stone type differs between the sites (live site, 2026-09-24): Persian site \"گرانیت\", English site \"Quartzite\". Each language keeps its own site's value.",
+    "Origin differs between the sites (live site, 2026-09-24): Persian site \"آنگولا\", English site \"Brazil\". Each language keeps its own site's value."
   ]
 }

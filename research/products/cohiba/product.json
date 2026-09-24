@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "مشکی"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "Angola",
+      "Colour": [
+        "Black"
+      ],
       "Category": "Imported"
     }
   },
@@ -77,7 +83,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=fd5d43ffe1e904f781ff971a9ac7136b5b9f8ae9",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=fd5d43ffe1e904f781ff971a9ac7136b5b9f8ae9&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:24Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7b420d145f1e064eb00bb3403c6a5e241d3f7d92"
+      ],
+      "original_filename": "Cohiba-scaled-1.jpg",
+      "width": 1598,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 175807,
+      "sha1": "24aebbb39fef2f6a6ad73912e27e81dbdb457200",
+      "alt": "Cohiba – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Cohiba-scaled-1.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -85,24 +110,26 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Cohiba",
     "en": "Cohiba"
   },
   "site_post_ids": {
+    "fa": [
+      "5937"
+    ],
     "en": [
       "5727"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-07-23T14:28:21",
+      "modified": "2025-07-23T14:28:23"
     },
     "en": {
       "published": "2025-05-07T13:54:02",
@@ -110,6 +137,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -122,18 +154,8 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "7b420d145f1e064eb00bb3403c6a5e241d3f7d92",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

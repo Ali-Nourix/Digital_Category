@@ -37,6 +37,7 @@
       "https://fa.behkooshan.ir/product/zebra/"
     ],
     "en": [
+      "https://behkooshan.ir/product/black-zebra/",
       "https://behkooshan.ir/product/zebra/"
     ]
   },
@@ -394,13 +395,13 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
     "fa": "Black Zebra",
-    "en": "Zebra"
+    "en": "Black Zebra"
   },
   "site_post_ids": {
     "fa": [
@@ -408,7 +409,8 @@
       "5930"
     ],
     "en": [
-      "5394"
+      "5394",
+      "5779"
     ]
   },
   "site_dates": {
@@ -417,11 +419,16 @@
       "modified": "2025-07-23T14:01:52"
     },
     "en": {
-      "published": "2023-12-12T13:34:23",
-      "modified": "2023-12-12T13:34:23"
+      "published": "2025-07-22T17:27:41",
+      "modified": "2025-08-17T15:31:23"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -506,18 +513,12 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "d601f59c7dc505897ddf2453bbb74bcbe2001f87",
-      "languages": [
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
     "The Persian site replaced \"Zebra\" (post 5394, /product/zebra/) with \"Black Zebra\" (post 5930, /product/black-zebra/) in 2026; the listing photo is byte-identical (Zebra-p.jpg re-uploaded as Zebra-p-1.jpg). The English site still listed it as \"Zebra\". Merged into one product.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/black-zebra/; https://fa.behkooshan.ir/product/zebra/ is no longer on the site.",
+    "Live check 2026-09-24: the English site now titles this product \"Black Zebra\" (was \"Zebra\").",
+    "Live check 2026-09-24: on the English site the product is at https://behkooshan.ir/product/black-zebra/; https://behkooshan.ir/product/zebra/ is no longer on the site."
   ]
 }

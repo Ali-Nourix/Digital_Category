@@ -211,7 +211,7 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -230,14 +230,19 @@
   "site_dates": {
     "fa": {
       "published": "2024-01-22T14:57:13",
-      "modified": "2024-04-20T11:53:23"
+      "modified": "2025-07-27T12:25:45"
     },
     "en": {
       "published": "2024-01-22T14:57:13",
-      "modified": "2025-05-07T13:21:30"
+      "modified": "2025-07-27T20:36:57"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -309,8 +314,8 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "The 3 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty."
+    "The 3 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
+    "The Persian site showed different origins over time in the archive: آنگولا, برزیل; the live site (2026-09-24) shows \"آنگولا\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

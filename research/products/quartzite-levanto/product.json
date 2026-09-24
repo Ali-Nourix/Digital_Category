@@ -36,7 +36,7 @@
   "images": [
     {
       "file": "images/01-254_1__-024-2048x1112.jpg",
-      "kind": "listing",
+      "kind": "main",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/254_1__-024-2048x1112.jpg",
       "archived_url": "https://web.archive.org/web/20260219203949id_/https://fa.behkooshan.ir/wp-content/uploads/254_1__-024-2048x1112.jpg",
       "alt": "Quartzite Levanto – product listing image",
@@ -51,10 +51,37 @@
       "seen_on": [
         "product card on https://behkooshan.ir/product-category/domestic/",
         "product card on https://fa.behkooshan.ir/product/labradorite/"
-      ]
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/254_1__-024.jpg",
+        "width": 6561,
+        "height": 3561,
+        "bytes": 9572402,
+        "sha1": "6f1a253ee139f5095f3f495560c24c0fcf632a96",
+        "format": "JPEG"
+      }
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=b795a0a020d2f9c206de937bf4a8065bd5855d8c",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=b795a0a020d2f9c206de937bf4a8065bd5855d8c&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:50Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=3f34b1a2f0338cb2798086f08f90b7bc84dc419f"
+      ],
+      "original_filename": "254_1__-024-scaled.jpg",
+      "width": 1920,
+      "height": 1042,
+      "format": "JPEG",
+      "bytes": 294920,
+      "sha1": "322f739bcba0cc19e36b48750f8c5e367db83fa6",
+      "alt": "Quartzite Levanto – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-254_1__-024-scaled.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -81,15 +108,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-23T12:36:11",
+      "modified": "2025-09-23T12:39:25"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-23T12:37:44",
+      "modified": "2025-09-23T12:40:12"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -100,8 +132,6 @@
   "missing_textures": [],
   "notes": [
     "URL slug on the site is misspelled /product/quartzite-levatnto/; the product name is \"Quartzite Levanto\".",
-    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

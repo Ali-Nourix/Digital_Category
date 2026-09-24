@@ -90,7 +90,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:01Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2"
+      ],
+      "original_filename": "Taj-Mahal.jpg",
+      "width": 1419,
+      "height": 898,
+      "format": "JPEG",
+      "bytes": 158557,
+      "sha1": "7568ce031a2e5756a57ddc8b0115a5804d36d84e",
+      "alt": "Taj Mahal – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Taj-Mahal.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -124,6 +143,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -141,18 +165,8 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "0d474e49fac801a7463896b879fc1bb38cf30ca2",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

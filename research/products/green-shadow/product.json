@@ -101,6 +101,21 @@
       "alt": "Green Shadow – texture (full slab surface, \"Texture Download\" file)",
       "file": "images/01-Green-Shadow-m.jpg",
       "note": "identical to the product image file listed in images[]"
+    },
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ea1ecca3465a74a79547a7803d93ab87d812e054",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=ea1ecca3465a74a79547a7803d93ab87d812e054&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:01Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Green-Shadow-scaled-1.jpg",
+      "width": 1920,
+      "height": 927,
+      "format": "JPEG",
+      "bytes": 319644,
+      "sha1": "5d432ffd7093ee41ca651a868ed36ff015e86656",
+      "alt": "Green Shadow – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Green-Shadow-scaled-1.jpg"
     }
   ],
   "translated": {
@@ -110,32 +125,38 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Green Shadow",
     "en": "Green Shadow"
   },
   "site_post_ids": {
+    "fa": [
+      "5954"
+    ],
     "en": [
       "5748"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-07-23T14:58:54",
+      "modified": "2025-07-23T14:58:55"
     },
     "en": {
       "published": "2025-05-07T14:49:24",
-      "modified": "2025-05-07T15:03:41"
+      "modified": "2025-07-21T15:43:20"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -154,7 +175,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

@@ -17,22 +17,28 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "ایران",
+      "رنگ": [
+        "طوسی"
+      ],
       "دسته‌بندی": "داخلی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "Iran",
+      "Colour": [
+        "Grey"
+      ],
       "Category": "Domestic"
     }
   },
   "urls": {
     "fa": [
-      "https://fa.behkooshan.ir/product/t-rex/",
-      "https://fa.behkooshan.ir/product/t-rex-2/"
+      "https://fa.behkooshan.ir/product/t-rex-2/",
+      "https://fa.behkooshan.ir/product/t-rex/"
     ],
     "en": [
-      "https://behkooshan.ir/product/t-rex-2/",
-      "https://behkooshan.ir/product/t-rex/"
+      "https://behkooshan.ir/product/t-rex/",
+      "https://behkooshan.ir/product/t-rex-2/"
     ]
   },
   "images": [
@@ -57,7 +63,7 @@
     },
     {
       "file": "images/02-3878X1-001-2048x1116.jpg",
-      "kind": "listing",
+      "kind": "main",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/3878X1-001-2048x1116.jpg",
       "archived_url": "https://web.archive.org/web/20260227054157id_/https://fa.behkooshan.ir/wp-content/uploads/3878X1-001-2048x1116.jpg",
       "alt": "T.Rex – product listing image",
@@ -74,7 +80,15 @@
         "product card on https://fa.behkooshan.ir/product/black-zebra/",
         "project card on https://behkooshan.ir/_project/",
         "project card on https://fa.behkooshan.ir/projects/"
-      ]
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/3878X1-001.jpg",
+        "width": 5889,
+        "height": 3209,
+        "bytes": 8160894,
+        "sha1": "005f7701553bdbfae3d79f98e2572979c4e6d698",
+        "format": "JPEG"
+      }
     },
     {
       "file": "images/03-T-Rex-p.jpg",
@@ -346,6 +360,24 @@
       "sha1": "780cdfd15aa75d42872318a3d7d9debe10084ef9",
       "alt": "T.Rex – texture (full slab surface, \"Texture Download\" file)",
       "file": "textures/01-T-Rex.jpg"
+    },
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=42a923724630809b18b4cf07589fad2456920d08",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=42a923724630809b18b4cf07589fad2456920d08&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:00Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=0e115e2562ae4b4609daf9c263eab5b5fddc1c13"
+      ],
+      "original_filename": "3878X1-001-scaled.jpg",
+      "width": 1920,
+      "height": 1046,
+      "format": "JPEG",
+      "bytes": 422727,
+      "sha1": "54cb392cd95897b51a1a804b90427119cfb6a2c1",
+      "alt": "T.Rex – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/02-3878X1-001-scaled.jpg"
     }
   ],
   "translated": {
@@ -356,7 +388,8 @@
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
       "specs.نوع (the Persian page showed the English word \"Granite\")",
-      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")"
+      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -376,15 +409,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": "2024-04-20T10:47:31+03:30"
+      "published": "2025-09-21T12:45:49",
+      "modified": "2025-09-21T12:45:49"
     },
     "en": {
-      "published": "2023-12-12T13:27:43",
-      "modified": "2025-05-08T10:14:29"
+      "published": "2025-09-21T12:53:04",
+      "modified": "2026-05-19T10:27:57"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -420,9 +458,11 @@
   "missing_textures": [],
   "notes": [
     "The site has two posts with the same name \"T.Rex\" (granite, Iran): /product/t-rex/ (post 5376, 2023, photo T-Rex-*) and /product/t-rex-2/ (Persian post 6777 / English post 6613, 2025, photo 3878X1-001). Both were listed in the Feb-2026 Persian sitemap. Merged here into one product with all photos; split again if they are different lots.",
-    "The Persian site showed different origins over time: Iran, ایران; the most recent archived value is used.",
-    "The Persian site showed different stone types over time: Granite, گرانیت; the most recent archived value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "The 5 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty."
+    "The 5 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
+    "The Persian site showed different origins over time in the archive: Iran, ایران; the live site (2026-09-24) shows \"Iran\", stored as «ایران».",
+    "The Persian site showed different stone types over time in the archive: Granite, گرانیت; the live site (2026-09-24) shows \"Granite\", stored as «گرانیت».",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: the Persian site has 2 posts for this stone: https://fa.behkooshan.ir/product/t-rex-2/ (post 6777, \"T.Rex\", published 2025-09-21); https://fa.behkooshan.ir/product/t-rex/ (post 5376, \"T Rex\", published 2023-12-12).",
+    "Live check 2026-09-24: on the English site the product is at https://behkooshan.ir/product/t-rex/; https://behkooshan.ir/product/t-rex-2/ is no longer on the site."
   ]
 }

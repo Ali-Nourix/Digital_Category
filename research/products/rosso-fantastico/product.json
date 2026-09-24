@@ -54,6 +54,31 @@
       ]
     },
     {
+      "file": "images/03-Rosso-Fantastic.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic.jpg",
+      "archived_url": null,
+      "alt": "Rosso Fantastic – main product image (slab surface)",
+      "alt_fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Rosso Fantastic",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80602,
+      "sha1": "5e9fc869fe837999ff9fad426f684d84928cdd74",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/rosso-fantastico/",
+        "og:image of https://behkooshan.ir/product/rosso-fantastico/"
+      ],
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Rosso-Fantastic.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic.jpg"
+      ]
+    },
+    {
       "file": "images/02-Rosso-Fantastic-p.jpg",
       "kind": "listing",
       "source_url": "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic-p.jpg",
@@ -95,6 +120,22 @@
       "sha1": "9a080cfa994e67a805ea66dc19db68c660821238",
       "alt": "Rosso Fantastic – texture (full slab surface, \"Texture Download\" file)",
       "file": "textures/01-Rosso-Fantastic.jpg"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=bd97681b067c261d648d26220c0a457c5ea27ebe",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=bd97681b067c261d648d26220c0a457c5ea27ebe&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Rosso-Fantastic.jpg",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "bytes": 80602,
+      "sha1": "5e9fc869fe837999ff9fad426f684d84928cdd74",
+      "alt": "Rosso Fantastic – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/03-Rosso-Fantastic.jpg",
+      "note": "identical to the product image file listed in images[]"
     }
   ],
   "translated": {
@@ -126,10 +167,15 @@
     },
     "en": {
       "published": "2023-08-01T15:01:19",
-      "modified": "2025-05-07T15:01:16"
+      "modified": "2025-09-28T16:31:32"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -153,6 +199,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

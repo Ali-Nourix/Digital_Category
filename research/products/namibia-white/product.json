@@ -1,0 +1,139 @@
+{
+  "slug": "namibia-white",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نامیبیا وایت",
+    "en": "Namibia White"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "نامیبیا",
+      "رنگ": [
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Namibia",
+      "Colour": [
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/namibia-white/"
+    ],
+    "en": []
+  },
+  "images": [
+    {
+      "file": "images/01-Namibia.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Namibia.jpg",
+      "archived_url": null,
+      "alt": "Namibia White – main product image (slab surface)",
+      "alt_fa": "نامیبیا وایت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Namibia",
+      "width": 1880,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 111847,
+      "sha1": "992de5f0c16d0de57357c3340543e271d1f4898d",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/namibia-white/",
+        "og:image of https://fa.behkooshan.ir/product/namibia-white/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Namibia.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Namibia.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=fb09400e41c364145ac109a12ff4339253165cde",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=fb09400e41c364145ac109a12ff4339253165cde&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:13Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Namibia.jpg",
+      "width": 1880,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 111847,
+      "sha1": "992de5f0c16d0de57357c3340543e271d1f4898d",
+      "alt": "Namibia White – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Namibia.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": true
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Marble\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": [
+      "the English site does not list this product (live check 2026-09-24); English name taken from the Latin name on the Persian site",
+      "specs.Type (the English site does not list this product; taken from the English word \"Marble\" on the Persian page)",
+      "specs.Origin (translated from the Persian site)"
+    ]
+  },
+  "site_names": {
+    "fa": "Namibia White",
+    "en": null
+  },
+  "site_post_ids": {
+    "fa": [
+      "6994"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-05-05T11:48:21",
+      "modified": "2026-09-21T13:37:16"
+    },
+    "en": {
+      "published": null,
+      "modified": null
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": false
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 6994 (https://fa.behkooshan.ir/product/namibia-white/), published 2026-05-05. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on the Persian site), so description is null.",
+    "The English site does not list this product (live check 2026-09-24); English specs are translated from the Persian site."
+  ]
+}

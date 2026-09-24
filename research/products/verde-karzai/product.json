@@ -122,14 +122,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T13:32:02",
-      "modified": "2024-04-20T10:48:03"
+      "modified": "2025-07-28T16:01:12"
     },
     "en": {
       "published": "2023-12-12T13:32:02",
-      "modified": "2023-12-12T13:32:03"
+      "modified": "2025-07-28T16:01:24"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -186,8 +191,8 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
     "The 6 project photos that were listed as missing (Verde-Karzai-project*.jpeg and Verde-Fantastic.jpeg) were retrieved from the live site on 2026-09-24 and are attached to products/verde-fantastic/, not here; see the next note and PROJECTS.md.",
-    "Project pages: the English page /_project/verde-karzai/ is titled \"Verde Fantastic\" and the Persian page /projects/verde-karzai/ is titled \"Verde Karzai\". Both, and the Persian page /projects/verde-fantastic/, show the same five photos (Verde-Karzai-project*.jpeg). They are attached to Verde Fantastic because two of the three pages name Verde Fantastic and the stone in the photos (green with thin white veins) looks like the Verde Fantastic slab, not this product's slab (dark blue-green with golden veins). Uncertain: confirm with the owner."
+    "Project pages: the English page /_project/verde-karzai/ is titled \"Verde Fantastic\" and the Persian page /projects/verde-karzai/ is titled \"Verde Karzai\". Both, and the Persian page /projects/verde-fantastic/, show the same five photos (Verde-Karzai-project*.jpeg). They are attached to Verde Fantastic because two of the three pages name Verde Fantastic and the stone in the photos (green with thin white veins) looks like the Verde Fantastic slab, not this product's slab (dark blue-green with golden veins). Uncertain: confirm with the owner.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }
