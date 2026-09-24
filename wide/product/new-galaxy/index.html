@@ -59,7 +59,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../wide/">همه سنگ‌ها</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>نیو</span></span> <span class="word" style="--w:1"><span>گلکسی</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="en" dir="ltr">New Galaxy</p>
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs reveal" style="--i:2">
@@ -101,11 +100,10 @@
                srcset="../../../media/absolute-black/01-absolute-black-m-480.webp 480w, ../../../media/absolute-black/01-absolute-black-m-800.webp 800w, ../../../media/absolute-black/01-absolute-black-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">ابسولوت بلک</span>
-              <span class="stone__alt" lang="en" dir="ltr">Absolute Black</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -119,11 +117,10 @@
                srcset="../../../media/spectrolite-blue/01-spectrolite-blue-480.webp 480w, ../../../media/spectrolite-blue/01-spectrolite-blue-800.webp 800w, ../../../media/spectrolite-blue/01-spectrolite-blue-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">اسپکترولیت بلو</span>
-              <span class="stone__alt" lang="en" dir="ltr">Spectrolite Blue</span>
               <span class="stone__meta">گرانیت، اکراین</span>
             </span>
           </a>
@@ -137,11 +134,10 @@
                srcset="../../../media/bronze-antique/01-bronze-antique-480.webp 480w, ../../../media/bronze-antique/01-bronze-antique-800.webp 800w, ../../../media/bronze-antique/01-bronze-antique-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">برنز آنتیک</span>
-              <span class="stone__alt" lang="en" dir="ltr">Bronze Antique</span>
               <span class="stone__meta">گرانیت، اکراین</span>
             </span>
           </a>
@@ -155,11 +151,10 @@
                srcset="../../../media/bellatrix/01-bellatrix-480.webp 480w, ../../../media/bellatrix/01-bellatrix-800.webp 800w, ../../../media/bellatrix/01-bellatrix-1200.webp 1200w, ../../../media/bellatrix/01-bellatrix-1600.webp 1600w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1920" height="1229"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">بلاتریکس</span>
-              <span class="stone__alt" lang="en" dir="ltr">Bellatrix</span>
               <span class="stone__meta">گرانیت، برزیل</span>
             </span>
           </a>
@@ -197,6 +192,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-right" aria-hidden="true"></span>بازگشت به ابتدا
+      </a>
     </div>
   </footer>
   </main>
@@ -215,10 +214,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% از %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% از %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

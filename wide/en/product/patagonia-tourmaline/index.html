@@ -58,7 +58,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../../wide/en/">All stones</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>Patagonia</span></span> <span class="word" style="--w:1"><span>Tourmaline</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="fa" dir="rtl">پاتاگونیا تورمالین</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs reveal" style="--i:2">
@@ -100,11 +99,10 @@
                srcset="../../../../media/blanco-potiguar/01-blanco-potiguar-480.webp 480w, ../../../../media/blanco-potiguar/01-blanco-potiguar-800.webp 800w, ../../../../media/blanco-potiguar/01-blanco-potiguar-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Blanco Potiguar</span>
-              <span class="stone__alt" lang="fa" dir="rtl">بلانکو پوتیگوار</span>
               <span class="stone__meta">Granite, Brazil</span>
             </span>
           </a>
@@ -118,11 +116,10 @@
                srcset="../../../../media/colonial/01-colonial-480.webp 480w, ../../../../media/colonial/01-colonial-800.webp 800w, ../../../../media/colonial/01-colonial-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Colonial</span>
-              <span class="stone__alt" lang="fa" dir="rtl">کلونیال</span>
               <span class="stone__meta">Granite, Sri-Lanka</span>
             </span>
           </a>
@@ -136,11 +133,10 @@
                srcset="../../../../media/dark-golden-lightning/01-dark-golden-lightning-m-480.webp 480w, ../../../../media/dark-golden-lightning/01-dark-golden-lightning-m-800.webp 800w, ../../../../media/dark-golden-lightning/01-dark-golden-lightning-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Dark Golden Lightning</span>
-              <span class="stone__alt" lang="fa" dir="rtl">دارک گلدن لایتنینگ</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -154,11 +150,10 @@
                srcset="../../../../media/delicate/01-delicate-m-480.webp 480w, ../../../../media/delicate/01-delicate-m-800.webp 800w, ../../../../media/delicate/01-delicate-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Delicate</span>
-              <span class="stone__alt" lang="fa" dir="rtl">دلیکیت</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -196,6 +191,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-left" aria-hidden="true"></span>Back to the start
+      </a>
     </div>
   </footer>
   </main>
@@ -214,10 +213,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% of %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% of %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

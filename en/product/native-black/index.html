@@ -57,7 +57,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../en/">All stones</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>Native</span></span> <span class="word" style="--w:1"><span>Black</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="fa" dir="rtl">نیتیو بلک</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs reveal" style="--i:2">
@@ -99,11 +98,10 @@
                srcset="../../../media/absolute-black/01-absolute-black-m-480.webp 480w, ../../../media/absolute-black/01-absolute-black-m-800.webp 800w, ../../../media/absolute-black/01-absolute-black-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Absolute Black</span>
-              <span class="stone__alt" lang="fa" dir="rtl">ابسولوت بلک</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -117,11 +115,10 @@
                srcset="../../../media/bellatrix/01-bellatrix-480.webp 480w, ../../../media/bellatrix/01-bellatrix-800.webp 800w, ../../../media/bellatrix/01-bellatrix-1200.webp 1200w, ../../../media/bellatrix/01-bellatrix-1600.webp 1600w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1920" height="1229"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Bellatrix</span>
-              <span class="stone__alt" lang="fa" dir="rtl">بلاتریکس</span>
               <span class="stone__meta">Granite, Brazil</span>
             </span>
           </a>
@@ -135,11 +132,10 @@
                srcset="../../../media/belvedere/01-belvedere-m-11zon-480.webp 480w, ../../../media/belvedere/01-belvedere-m-11zon-800.webp 800w, ../../../media/belvedere/01-belvedere-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Belvedere</span>
-              <span class="stone__alt" lang="fa" dir="rtl">بلودره</span>
               <span class="stone__meta">Granite, Angola</span>
             </span>
           </a>
@@ -153,11 +149,10 @@
                srcset="../../../media/black-beat/01-black-beat-m-11zon-480.webp 480w, ../../../media/black-beat/01-black-beat-m-11zon-800.webp 800w, ../../../media/black-beat/01-black-beat-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Black Beat</span>
-              <span class="stone__alt" lang="fa" dir="rtl">بلک بیت</span>
               <span class="stone__meta">Granite, India</span>
             </span>
           </a>
@@ -197,6 +192,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-top" aria-hidden="true"></span>Back to the start
+      </a>
     </div>
   </footer>
 
@@ -214,10 +213,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% of %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% of %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

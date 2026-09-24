@@ -180,7 +180,7 @@
   }
 
   html[lang="fa"] .group__title {
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   .group__count {
@@ -192,7 +192,7 @@
      keeps its four to five whatever the window's height. */
   .stones {
     --row-gap: clamp(1rem, 2.4vh, 1.5rem);
-    --text: 4.6rem;
+    --text: 3.7rem;
     --row: calc((var(--panel-h) - 2 * var(--panel-pad) - var(--row-gap)) / 2);
     --tile-w: calc((var(--row) - var(--text)) * 0.8);
 
@@ -232,7 +232,6 @@
   }
 
   .stone__name,
-  .stone__alt,
   .stone__meta {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -282,7 +281,7 @@
     max-inline-size: 88vw;
     aspect-ratio: var(--ratio, 4 / 3);
     margin: 0;
-    background-color: var(--ink);
+    background-color: var(--print-green);
   }
 
   .plate--lead {
@@ -394,6 +393,11 @@
     gap: clamp(2rem, 4vh, 3rem);
   }
 
+  /* Down the column with the rest, at the edge the reading starts from. */
+  .to-start {
+    align-self: flex-start;
+  }
+
   /* --- Motion -------------------------------------------------------------
      The same moves as upright, and as in the catalogue two of them have an
      axis, which is the axis the track runs on: a block arrives from the
@@ -437,9 +441,10 @@
 @media (min-width: 60rem) and (min-height: 38rem) {
   /* The first window is a spread: the band the height of the track and
      flush to the edge the reading starts from, and beside it, set from the
-     top where the reading starts, the page's title and the filters, with
-     the name of the stone the band is showing at the foot, level with the
-     foot of the picture it names. The two together are nine tenths of the
+     top where the reading starts, the page's title and the filters; the
+     name of the stone the band is showing is on its tag in the corner of
+     the picture, where the picture meets them. The two together are nine
+     tenths of the
      window, so the edge of the first group's green shows past them and says
      the page goes on sideways: a tenth, because a sliver narrower than the
      margin the reveal keeps at the trailing edge would be met before its
@@ -478,8 +483,7 @@
   }
 
   .intro__inner,
-  .filters__inner,
-  .hero__caption {
+  .filters__inner {
     padding-inline: var(--panel-gutter);
   }
 
@@ -491,20 +495,14 @@
     padding-block-end: var(--space-5);
   }
 
-  .hero__caption {
-    order: 3;
-    margin-block-start: auto;
-    padding-block-start: var(--space-4);
-  }
-
   .group__title {
     inline-size: clamp(16rem, 22vw, 22rem);
   }
 }
 
 /* A laptop's window: the same spread with the air between the parts of
-   the words drawn in, never the words themselves, so the name of the stone
-   still stands at the foot of the column rather than below the window. */
+   the words drawn in, never the words themselves, so the filters still fit
+   the column rather than run below the window. */
 @media (min-width: 60rem) and (min-height: 38rem) and (max-height: 50rem) {
   .intro__inner {
     padding-block-end: var(--space-3);
@@ -517,10 +515,6 @@
 
   .facets {
     gap: var(--space-2);
-  }
-
-  .hero__caption {
-    padding-block-start: var(--space-2);
   }
 }
 
@@ -638,14 +632,23 @@
       order: 3;
     }
 
+    /* The writing stands a tenth of the card in from either edge, as in the
+       catalogue's deck; the photographs and the stones keep the frame. */
+    .track {
+      --text-frame: max(var(--frame), 10vw);
+    }
+
     .card {
       inline-size: 100vw;
       align-content: start;
-      padding-inline: var(--frame);
+      padding-inline: var(--text-frame);
       scroll-snap-align: start;
     }
 
-    .about__inner,
+    .about__inner {
+      padding-inline: var(--text-frame);
+    }
+
     .related__inner {
       padding-inline: var(--frame);
     }
@@ -678,8 +681,8 @@
     }
 
     .about__text {
-      column-width: calc(100vw - 2 * var(--frame));
-      column-gap: calc(2 * var(--frame));
+      column-width: calc(100vw - 2 * var(--text-frame));
+      column-gap: calc(2 * var(--text-frame));
     }
 
     .related__inner {
@@ -702,43 +705,35 @@
       padding-inline-start: var(--frame);
     }
 
-    /* --- Motion -------------------------------------------------------------
-       The catalogue's rule for a card, word for word: on a card the swipe is
-       the motion. A spread is travelled across and a block arriving from the
-       trailing edge is part of the travel; a card is carried in under a
-       thumb, and the reader is reading it the moment it lands. Words that
-       fade in after it has landed make the reader wait for what they came
-       to read, and words that fade out while it is still being dragged away
-       take the last line of it from under their eyes.
-
-       So on a card the words and the titles are simply there. What still
-       moves is what is not read: a photograph opens on its first arrival,
-       and a group opener's green comes down the first time it is met. None
-       of it goes back, which is the one thing here the stylesheet cannot
-       say on its own: `--reveal-returns` tells the observer in products.js
-       to leave them where they arrived. */
-
-    :root {
-      --reveal-returns: 0;
+    /* Every card is a stop. Without it a hard flick carries the track past
+       two or three cards and it comes to rest wherever the flick runs out,
+       which on a stone's page is a photograph the reader meant to look at
+       gone by; with it a swipe turns one card, however hard, as the
+       catalogue's deck does. */
+    .intro,
+    .group__title,
+    .stone,
+    .empty,
+    .plate,
+    .card,
+    .about__inner,
+    .deck-stop,
+    .related__inner,
+    .foot {
+      scroll-snap-stop: always;
     }
 
-    /* `html.js[dir]` rather than `.js`: the class is on <html> itself, and
-       the attribute is there to outweigh the rtl variants of these rules,
-       which carry it too. */
+    /* --- Motion -------------------------------------------------------------
+       On a card the stones are laid down and their words written every time
+       a card comes in, in either direction, as they are down the page and
+       along a spread: a grid of stones is browsed back and forth, and a
+       stone met again is met as it was the first time. The one thing that
+       changes is the green of a group's opener, which is a band across the
+       top of the card here, so it comes down from the top, as it does on a
+       page, rather than in from the side, as it does on a spread. `html.js
+       [dir]` rather than `.js`: the class is on <html> itself, and the
+       attribute outweighs the rtl variant of the spread's rule. */
     @media (prefers-reduced-motion: no-preference) {
-      html.js[dir] .reveal.is-out {
-        opacity: 1;
-        transform: none;
-      }
-
-      html.js[dir] .is-out .word > span,
-      html.js[dir] .word.is-out > span {
-        transform: none;
-      }
-
-      /* The green is a band across the top of the card here, so it comes
-         down from the top, as it does on a page, rather than in from the
-         side, as it does on a spread. */
       html.js[dir] .divider.is-out::before {
         clip-path: inset(0 0 100% 0);
       }

@@ -59,7 +59,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../wide/">همه سنگ‌ها</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>پاتاگونیا</span></span> <span class="word" style="--w:1"><span>گرین</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="en" dir="ltr">Patagonia Green</p>
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs reveal" style="--i:2">
@@ -101,11 +100,10 @@
                srcset="../../../media/turquoise/01-turquoise-m-480.webp 480w, ../../../media/turquoise/01-turquoise-m-800.webp 800w, ../../../media/turquoise/01-turquoise-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">آبی فیروزه‌ای</span>
-              <span class="stone__alt" lang="en" dir="ltr">Turquoise</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -119,11 +117,10 @@
                srcset="../../../media/elegant-green/01-elegant-green-m-1024x629-480.webp 480w, ../../../media/elegant-green/01-elegant-green-m-1024x629-800.webp 800w, ../../../media/elegant-green/01-elegant-green-m-1024x629-1024.webp 1024w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1024" height="629"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">الگانت گرین</span>
-              <span class="stone__alt" lang="en" dir="ltr">Elegant Green</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -137,11 +134,10 @@
                srcset="../../../media/evolution-green/01-evolution-green-m-1024x629-480.webp 480w, ../../../media/evolution-green/01-evolution-green-m-1024x629-800.webp 800w, ../../../media/evolution-green/01-evolution-green-m-1024x629-1024.webp 1024w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1024" height="629"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">اوولوشن گرین</span>
-              <span class="stone__alt" lang="en" dir="ltr">Evolution Green</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -155,11 +151,10 @@
                srcset="../../../media/picasso/01-picasso-m-480.webp 480w, ../../../media/picasso/01-picasso-m-800.webp 800w, ../../../media/picasso/01-picasso-m-1052.webp 1052w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">پیکاسو</span>
-              <span class="stone__alt" lang="en" dir="ltr">Picasso</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -197,6 +192,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-right" aria-hidden="true"></span>بازگشت به ابتدا
+      </a>
     </div>
   </footer>
   </main>
@@ -215,10 +214,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% از %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% از %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

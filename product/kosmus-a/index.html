@@ -58,7 +58,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../">همه سنگ‌ها</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>کاسموس</span></span> <span class="word" style="--w:1"><span>A</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="en" dir="ltr">Kosmus “A”</p>
 
           <h2 class="u-visually-hidden">مشخصات</h2>
           <dl class="specs reveal" style="--i:2">
@@ -109,11 +108,10 @@
                srcset="../../media/elegant-brown/01-elegant-brown-1-480.webp 480w, ../../media/elegant-brown/01-elegant-brown-1-800.webp 800w, ../../media/elegant-brown/01-elegant-brown-1-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">الگانت براون</span>
-              <span class="stone__alt" lang="en" dir="ltr">Elegant Brown</span>
               <span class="stone__meta">گرانیت، برزیل</span>
             </span>
           </a>
@@ -127,11 +125,10 @@
                srcset="../../media/infinity-gold/01-infinity-gold-m-480.webp 480w, ../../media/infinity-gold/01-infinity-gold-m-800.webp 800w, ../../media/infinity-gold/01-infinity-gold-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">داخلی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">اینفینیتی گلد</span>
-              <span class="stone__alt" lang="en" dir="ltr">Infinity Gold</span>
               <span class="stone__meta">گرانیت، ایران</span>
             </span>
           </a>
@@ -145,11 +142,10 @@
                srcset="../../media/blanco-potiguar/01-blanco-potiguar-480.webp 480w, ../../media/blanco-potiguar/01-blanco-potiguar-800.webp 800w, ../../media/blanco-potiguar/01-blanco-potiguar-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">بلانکو پوتیگوار</span>
-              <span class="stone__alt" lang="en" dir="ltr">Blanco Potiguar</span>
               <span class="stone__meta">گرانیت، برزیل</span>
             </span>
           </a>
@@ -163,11 +159,10 @@
                srcset="../../media/patagonia-original/01-patagonia-orginal-m-11zon-480.webp 480w, ../../media/patagonia-original/01-patagonia-orginal-m-11zon-800.webp 800w, ../../media/patagonia-original/01-patagonia-orginal-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">وارداتی</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">پاتاگونیا اورجینال</span>
-              <span class="stone__alt" lang="en" dir="ltr">Patagonia Original</span>
               <span class="stone__meta">گرانیت، برزیل</span>
             </span>
           </a>
@@ -207,6 +202,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-top" aria-hidden="true"></span>بازگشت به ابتدا
+      </a>
     </div>
   </footer>
 
@@ -224,10 +223,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% از %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% از %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="تصویر قبلی">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="تصویر بعدی">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

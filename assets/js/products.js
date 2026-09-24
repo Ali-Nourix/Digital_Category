@@ -166,7 +166,6 @@
     var closed = rtl ? "inset(0 0 0 100%)" : "inset(0 100% 0 0)";
     var link = document.querySelector("[data-hero-link]");
     var title = document.querySelector("[data-hero-title]");
-    var alt = document.querySelector("[data-hero-alt]");
 
     var index = 0;
     var timer = null;
@@ -198,7 +197,6 @@
           fill: "forwards",
         });
       });
-      if (alt) alt.animate([{ opacity: 1 }, { opacity: 0 }], { duration: OUT, easing: "linear", fill: "forwards" });
 
       setTimeout(function () {
         // The words the stylesheet wrote on load rise on their own; these
@@ -206,13 +204,6 @@
         title.style.setProperty("--at", "0ms");
         write(slide.name);
         if (link) link.setAttribute("href", slide.href);
-        if (alt) {
-          alt.textContent = slide.alt;
-          alt.getAnimations().forEach(function (a) {
-            a.cancel();
-          });
-          alt.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 700, delay: 180, easing: EASE, fill: "backwards" });
-        }
       }, OUT + old.length * 30);
     }
 
@@ -257,6 +248,22 @@
     schedule();
   })();
 
+  /* ---------------------------------------------------------- to start */
+
+  /* The last thing on every page: a way back to where it begins, the top
+     of the page upright and the start of the track sideways. Without the
+     script it is a link to the top, which is where the page begins. */
+  Array.prototype.forEach.call(document.querySelectorAll("[data-to-start]"), function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      var behavior = reduced.matches ? "auto" : "smooth";
+      if (sideways()) track.scrollTo({ left: 0, behavior: behavior });
+      else window.scrollTo({ top: 0, behavior: behavior });
+      var mark = document.querySelector(".bar__logo");
+      if (mark) mark.focus({ preventScroll: true });
+    });
+  });
+
   /* ----------------------------------------------------- finding a stone */
 
   var form = document.querySelector("[data-filters]");
@@ -271,8 +278,6 @@
   var groups = Array.prototype.slice.call(document.querySelectorAll("[data-group]"));
   var empty = document.querySelector("[data-empty]");
   var stones = Array.prototype.slice.call(document.querySelectorAll(".stone"));
-  var toggle = form.querySelector("[data-facets-toggle]");
-  var activeCount = form.querySelector("[data-active]");
 
   var ROWS = ["type", "origin", "colour"];
 
@@ -388,10 +393,6 @@
       if (button.closest("[data-empty]")) return;
       button.hidden = !active;
     });
-    if (activeCount) {
-      activeCount.hidden = made === 0;
-      activeCount.textContent = made ? " (" + num(made) + ")" : "";
-    }
     if (back) back.querySelector("[data-back-count]").textContent = count(shown);
 
     remember(query ? input.value.trim() : "", state);
@@ -504,15 +505,6 @@
       input.focus();
     });
   });
-
-  // The phone's fold over the three rows of choices.
-  if (toggle) {
-    toggle.addEventListener("click", function () {
-      var open = toggle.getAttribute("aria-expanded") !== "true";
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
-      form.classList.toggle("is-open", open);
-    });
-  }
 
   setUpWayBack();
   recall();

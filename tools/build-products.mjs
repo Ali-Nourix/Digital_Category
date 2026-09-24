@@ -54,12 +54,12 @@ const T = {
     views: { flow: "نمای عمودی", wide: "نمای افقی" },
     viewLabels: { flow: "دیدن در نمای عمودی", wide: "دیدن در نمای افقی" },
     skip: "رفتن به سنگ‌ها",
+    toStart: "بازگشت به ابتدا",
     search: "نام سنگ",
     searchHint: "فارسی یا لاتین",
     type: "نوع",
     origin: "مبدا",
     colour: "رنگ",
-    filterRows: "نوع، مبدا و رنگ",
     clear: "پاک کردن فیلترها",
     none: "سنگی با این نام یا این فیلترها پیدا نشد.",
     stones: (n) => `${num("fa", n)} سنگ`,
@@ -106,12 +106,12 @@ const T = {
     views: { flow: "Upright", wide: "Sideways" },
     viewLabels: { flow: "Read in the upright view", wide: "Read in the sideways view" },
     skip: "Skip to the stones",
+    toStart: "Back to the start",
     search: "Stone name",
     searchHint: "Latin or Persian",
     type: "Type",
     origin: "Origin",
     colour: "Colour",
-    filterRows: "Type, origin, colour",
     clear: "Clear filters",
     none: "No stone matches that name or those filters.",
     stones: (n) => `${n} ${n === 1 ? "stone" : "stones"}`,
@@ -338,6 +338,10 @@ ${t.tels.map((n, i) => `            <a class="foot__tel" href="${TEL_HREFS[i]}" 
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--${mode === "wide" ? (lang === "fa" ? "to-right" : "to-left") : "to-top"}" aria-hidden="true"></span>${t.toStart}
+      </a>
     </div>
   </footer>`;
 }
@@ -358,10 +362,13 @@ function lightbox(lang) {
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="${l.counter}"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="${l.prev}">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="${l.next}">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="${l.counter}"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="${l.prev}">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="${l.next}">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>`;
@@ -394,17 +401,19 @@ const WIDE_FEATURE_SIZES = `${SPREAD} calc(52vh + 2rem), calc(100vw - 2.5rem)`;
 function tile(page, p, { eager = false, feature = false } = {}) {
   const { lang } = page;
   const t = T[lang];
-  const other = lang === "fa" ? "en" : "fa";
   const photo = feature ? p.photos.find((ph) => ph.kind === "quarry") || lead(p) : lead(p);
   const meta = [t.types[typeOf(p)], p.origin?.[lang]].filter(Boolean).map(plain);
 
+  // Where the stone is from, on the brand's tag in the corner of its
+  // photograph. The quarry is a domestic one.
+  const from = `<span class="stone__tag">${t.origins[originOf(p)]}</span>`;
   const picture = photo
     ? `<span class="stone__photo"><img src="${middle(page.prefix, photo)}"
                srcset="${srcset(page.prefix, photo)}"
                sizes="${page.mode === "wide" ? (feature ? WIDE_FEATURE_SIZES : WIDE_TILE_SIZES) : feature ? FEATURE_SIZES : TILE_SIZES}"
                width="${photo.width}" height="${photo.height}"
-               alt="" ${eager ? 'loading="eager"' : 'loading="lazy"'} decoding="async"></span>`
-    : `<span class="stone__none"><span class="bk-shape bk-shape--07" aria-hidden="true"></span></span>`;
+               alt="" ${eager ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${from}</span>`
+    : `<span class="stone__none"><span class="bk-shape bk-shape--07" aria-hidden="true"></span>${from}</span>`;
 
   return `        <li class="stone${feature ? " stone--feature" : ""}"
             data-type="${typeOf(p)}" data-origin="${originOf(p)}" data-colours="${esc(p.colours.join(" "))}"
@@ -415,7 +424,6 @@ function tile(page, p, { eager = false, feature = false } = {}) {
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">${esc(plain(p.name[lang]))}</span>
-              <span class="stone__alt" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</span>
               <span class="stone__meta">${esc(meta.join(lang === "fa" ? "، " : ", "))}</span>
             </span>
           </a>
@@ -449,13 +457,11 @@ const bandSizes = (mode) => (mode === "wide" ? "(min-width: 60rem) and (min-heig
 function hero(page) {
   if (!BAND.length) return "";
   const { lang, mode } = page;
-  const other = lang === "fa" ? "en" : "fa";
   const links = site(page);
   const slides = BAND.map((p) => ({
     srcset: srcset(page.prefix, p.surface),
     src: largest(page.prefix, p.surface),
     name: plain(p.name[lang]),
-    alt: plain(p.name[other]),
     href: links.product(p.slug),
   }));
   const first = BAND[0].surface;
@@ -465,21 +471,10 @@ function hero(page) {
           <img class="hero__img hero__img--first" src="${largest(page.prefix, first)}" srcset="${srcset(page.prefix, first)}" sizes="${bandSizes(mode)}"
                width="${first.width}" height="${first.height}" alt="" fetchpriority="high" decoding="async">
         </div>
+        <a class="hero__name" href="${slides[0].href}" data-hero-link>
+          <span class="hero__title" data-hero-title>${words(slides[0].name)}</span>
+        </a>
       </div>`;
-}
-
-/** The name under the band: the stone it is showing, and a way to it. */
-function heroCaption(page) {
-  if (!BAND.length) return "";
-  const { lang } = page;
-  const other = lang === "fa" ? "en" : "fa";
-  const p = BAND[0];
-  return `        <p class="shell hero__caption">
-          <a class="hero__name" href="${site(page).product(p.slug)}" data-hero-link>
-            <span class="hero__title" data-hero-title>${words(plain(p.name[lang]))}</span>
-            <span class="hero__alt" lang="${other}" dir="${T[other].dir}" data-hero-alt>${esc(plain(p.name[other]))}</span>
-          </a>
-        </p>`;
 }
 
 function listing(mode, lang) {
@@ -524,8 +519,6 @@ ${bar(page, { otherLang: links.listing(mode, t.other), otherView: links.listing(
 ${hero(page)}
 
       <div class="intro__body">
-${heroCaption(page)}
-
         <div class="shell intro__inner">
           <h1 class="intro__title">${words(t.heading)}</h1>
         </div>
@@ -541,10 +534,6 @@ ${heroCaption(page)}
             </div>
             <span class="u-visually-hidden" id="q-hint">${t.searchHint}</span>
           </div>
-
-          <button class="chip filters__toggle" type="button" aria-expanded="false" aria-controls="facets" data-facets-toggle>
-            ${t.filterRows}<span class="filters__active" data-active hidden></span>
-          </button>
 
           <div class="facets" id="facets" data-facets>
             <fieldset class="facet reveal" style="--i:1">
@@ -644,7 +633,6 @@ function product(mode, lang, p) {
   const base = `${baseOf(mode, lang)}product/${p.slug}/`;
   const page = { mode, lang, prefix: upTo(base) };
   const t = T[lang];
-  const other = lang === "fa" ? "en" : "fa";
   const name = plain(p.name[lang]);
   const kind = typeOf(p);
   const links = site(page);
@@ -745,7 +733,6 @@ ${gallery}
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="${links.listing()}">${t.back}</a>
           <h1 class="card__name headline">${words(name)}</h1>
-          <p class="card__alt reveal" style="--i:1" lang="${other}" dir="${T[other].dir}">${esc(plain(p.name[other]))}</p>
 
           <h2 class="u-visually-hidden">${t.specs}</h2>
           <dl class="specs reveal" style="--i:2">
