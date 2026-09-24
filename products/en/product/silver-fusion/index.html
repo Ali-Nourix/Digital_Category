@@ -57,7 +57,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../en/">All stones</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>Silver</span></span> <span class="word" style="--w:1"><span>Fusion</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="fa" dir="rtl">سیلور فیوژن</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs reveal" style="--i:2">
@@ -99,11 +98,10 @@
                srcset="../../../media/bubble-gray/01-bubble-gray-p-480.webp 480w, ../../../media/bubble-gray/01-bubble-gray-p-800.webp 800w, ../../../media/bubble-gray/01-bubble-gray-p-969.webp 969w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="969" height="691"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Bubble Gray</span>
-              <span class="stone__alt" lang="fa" dir="rtl">بابل گری</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -117,11 +115,10 @@
                srcset="../../../media/kojin/01-nehbandan-480.webp 480w, ../../../media/kojin/01-nehbandan-800.webp 800w, ../../../media/kojin/01-nehbandan-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Kojin</span>
-              <span class="stone__alt" lang="fa" dir="rtl">کوجین</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -135,11 +132,10 @@
                srcset="../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-480.webp 480w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-800.webp 800w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-1200.webp 1200w, ../../../media/meteorus/01-chatgpt-image-dec-23-2025-10-44-38-am-1492.webp 1492w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1492" height="859"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Meteorus</span>
-              <span class="stone__alt" lang="fa" dir="rtl">متئوروس</span>
               <span class="stone__meta">Granite, Brazil</span>
             </span>
           </a>
@@ -153,11 +149,10 @@
                srcset="../../../media/midnight-gray/01-midnight-gray-m-480.webp 480w, ../../../media/midnight-gray/01-midnight-gray-m-800.webp 800w, ../../../media/midnight-gray/01-midnight-gray-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Domestic</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Midnight Gray</span>
-              <span class="stone__alt" lang="fa" dir="rtl">میدنایت گری</span>
               <span class="stone__meta">Granite, Iran</span>
             </span>
           </a>
@@ -197,6 +192,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-top" aria-hidden="true"></span>Back to the start
+      </a>
     </div>
   </footer>
 
@@ -214,10 +213,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% of %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% of %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

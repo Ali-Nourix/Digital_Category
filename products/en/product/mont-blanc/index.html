@@ -57,7 +57,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../en/">All stones</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>Mont</span></span> <span class="word" style="--w:1"><span>Blanc</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="fa" dir="rtl">مون بلان</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs reveal" style="--i:2">
@@ -108,11 +107,10 @@
                srcset="../../../media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed-480.webp 480w, ../../../media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed-800.webp 800w, ../../../media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed-1200.webp 1200w, ../../../media/dolce-vita/01-4037-004-68a56914930db-1755670804-compressed-1600.webp 1600w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1729" height="997"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Dolce Vita</span>
-              <span class="stone__alt" lang="fa" dir="rtl">دولچه ویتا</span>
               <span class="stone__meta">Quartzite, Brazil</span>
             </span>
           </a>
@@ -126,11 +124,10 @@
                srcset="../../../media/lumix-wow/01-lumix-wow-m-480.webp 480w, ../../../media/lumix-wow/01-lumix-wow-m-800.webp 800w, ../../../media/lumix-wow/01-lumix-wow-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Lumix Wow</span>
-              <span class="stone__alt" lang="fa" dir="rtl">لومیکس واو</span>
               <span class="stone__meta">Quartzite, Brazil</span>
             </span>
           </a>
@@ -144,11 +141,10 @@
                srcset="../../../media/alaska-white/01-alaska-m-480.webp 480w, ../../../media/alaska-white/01-alaska-m-800.webp 800w, ../../../media/alaska-white/01-alaska-m-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Alaska White</span>
-              <span class="stone__alt" lang="fa" dir="rtl">آلاسکا وایت</span>
               <span class="stone__meta">Granite, India</span>
             </span>
           </a>
@@ -162,11 +158,10 @@
                srcset="../../../media/andromeda/01-andromeda-m-11zon-480.webp 480w, ../../../media/andromeda/01-andromeda-m-11zon-800.webp 800w, ../../../media/andromeda/01-andromeda-m-11zon-1052.webp 1052w"
                sizes="(min-width: 90rem) 18rem, (min-width: 64rem) 23vw, (min-width: 40rem) 31vw, 47vw"
                width="1052" height="646"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Andromeda</span>
-              <span class="stone__alt" lang="fa" dir="rtl">آندرومدا</span>
               <span class="stone__meta">Granite, Sri-Lanka</span>
             </span>
           </a>
@@ -206,6 +201,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-top" aria-hidden="true"></span>Back to the start
+      </a>
     </div>
   </footer>
 
@@ -223,10 +222,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% of %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% of %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

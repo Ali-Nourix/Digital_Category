@@ -12,6 +12,9 @@
    between two sizes, and it is what lets the zoom keep the point under the
    pointer still.
 
+   Under the picture, a stone's other photographs as a strip of small ones,
+   the current one framed, any of them a click away.
+
    Built on <dialog>.showModal(), which brings the focus trap, the inert
    background and Escape with it. If this file never loads, every photograph
    is still an ordinary <img> in the page.
@@ -45,6 +48,35 @@
   var request = 0;
 
   view.draggable = false;
+
+  /* The strip: one button a photograph, each showing the smallest copy the
+     page already lists for it, in the order of the page. Only where there is
+     more than one to choose between. */
+  var strip = dialog.querySelector("[data-lb-thumbs]");
+  var thumbs = [];
+
+  if (strip && figures.length > 1) {
+    figures.forEach(function (figure, i) {
+      var img = figure.querySelector("img");
+      var thumb = document.createElement("button");
+      thumb.type = "button";
+      thumb.className = "lb__thumb";
+      thumb.setAttribute("data-lb-go", i);
+      thumb.setAttribute("aria-label", (img && img.alt) || String(i + 1));
+      var small = document.createElement("img");
+      var set = img && img.getAttribute("srcset");
+      small.src = set ? set.split(",")[0].trim().split(/\s+/)[0] : (img ? img.getAttribute("src") : "");
+      small.alt = "";
+      small.loading = "lazy";
+      small.decoding = "async";
+      small.draggable = false;
+      thumb.appendChild(small);
+      strip.appendChild(thumb);
+      thumbs.push(thumb);
+    });
+    strip.hidden = false;
+    dialog.classList.add("has-thumbs");
+  }
 
   /* ------------------------------------------------------------ transform */
 
@@ -149,6 +181,12 @@
     counter.textContent = template.replace(/%/g, function () {
       return localise(n++ === 0 ? index + 1 : figures.length);
     });
+
+    thumbs.forEach(function (thumb, t) {
+      if (t === index) thumb.setAttribute("aria-current", "true");
+      else thumb.removeAttribute("aria-current");
+    });
+    if (thumbs[index]) thumbs[index].scrollIntoView({ block: "nearest", inline: "nearest" });
 
     reset();
   }
@@ -276,6 +314,10 @@
     if (button && button.hasAttribute("data-lb-close")) { dialog.close(); return; }
     if (button && button.hasAttribute("data-lb-step")) {
       show(index + Number(button.getAttribute("data-lb-step")));
+      return;
+    }
+    if (button && button.hasAttribute("data-lb-go")) {
+      show(Number(button.getAttribute("data-lb-go")));
       return;
     }
 

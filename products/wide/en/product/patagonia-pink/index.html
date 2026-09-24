@@ -58,7 +58,6 @@
         <div class="card">
           <a class="card__back reveal" style="--i:0" href="../../../../wide/en/">All stones</a>
           <h1 class="card__name headline"><span class="word" style="--w:0"><span>Patagonia</span></span> <span class="word" style="--w:1"><span>Pink</span></span></h1>
-          <p class="card__alt reveal" style="--i:1" lang="fa" dir="rtl">پاتاگونیا پینک</p>
 
           <h2 class="u-visually-hidden">Specification</h2>
           <dl class="specs reveal" style="--i:2">
@@ -100,11 +99,10 @@
                srcset="../../../../media/cristallo-rosa/01-crystal-rose-p-1024x755-480.webp 480w, ../../../../media/cristallo-rosa/01-crystal-rose-p-1024x755-800.webp 800w, ../../../../media/cristallo-rosa/01-crystal-rose-p-1024x755-921.webp 921w"
                sizes="(min-width: 60rem) and (min-height: 38rem) 26vh, calc(50vw - 2.5rem)"
                width="921" height="657"
-               alt="" loading="lazy" decoding="async"></span>
+               alt="" loading="lazy" decoding="async"><span class="stone__tag">Imported</span></span>
             </span>
             <span class="stone__text reveal" style="--i:1">
               <span class="stone__name">Cristallo Rosa</span>
-              <span class="stone__alt" lang="fa" dir="rtl">کریستالو رزا</span>
               <span class="stone__meta">Quartzite, Brazil</span>
             </span>
           </a>
@@ -142,6 +140,10 @@
           </a>
         </div>
       </div>
+
+      <a class="to-start" href="#top" data-to-start>
+        <span class="icon icon--to-left" aria-hidden="true"></span>Back to the start
+      </a>
     </div>
   </footer>
   </main>
@@ -160,10 +162,13 @@
     </div>
 
     <div class="lb__bar lb__bar--bottom">
-      <p class="lb__counter" data-template="% of %"></p>
-      <div class="lb__tools">
-        <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
-        <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+      <div class="lb__thumbs" data-lb-thumbs hidden></div>
+      <div class="lb__foot">
+        <p class="lb__counter" data-template="% of %"></p>
+        <div class="lb__tools">
+          <button class="lb__btn" type="button" data-lb-step="-1" aria-label="Previous photograph">&#8249;</button>
+          <button class="lb__btn" type="button" data-lb-step="1" aria-label="Next photograph">&#8250;</button>
+        </div>
       </div>
     </div>
   </dialog>

@@ -21,6 +21,16 @@ The bar on every page switches between the two readings and the two
 languages, and its "Catalogue" link goes to the digital catalogue in the
 same reading and language. Under it runs the catalogue's reading line.
 
+Every button is cut to the brand's tag, the notch off the top of its
+trailing edge (the same form as the catalogue's green tags), and so are the
+tag on each stone saying whether it is domestic or imported, the name of
+the stone the band is showing, and the way back to the start at the foot of
+every page. A stone's name is given in the page's language only; the search
+still finds it by its name in either. The filters are always open. Running
+text is led at about 1.3 times its size, and on a phone it stands a tenth of
+the screen in from either edge. The photograph viewer shows a stone's other
+photographs as a strip under the picture.
+
 The motion is the digital catalogue's, with its figures: see the Motion
 section of `assets/css/products.css` and the reveal in `products.js`. The
 catalogue's drift (a full bleed photograph moving against the scroll) is
