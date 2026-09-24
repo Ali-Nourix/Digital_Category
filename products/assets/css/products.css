@@ -58,6 +58,14 @@
   --dur-reveal: 900ms;
   --dur-word: 720ms;
   --step-delay: 70ms;
+
+  /* The lean of a photograph under the pointer. Not the reveal's curve:
+     that one covers most of its distance in the first tenth of its time,
+     which reads as placing when a thing arrives and as a jump when a
+     picture is only being looked at. This one starts slowly and settles
+     slowly, over twice the time. */
+  --ease-lean: cubic-bezier(0.33, 0, 0.2, 1);
+  --dur-lean: 1600ms;
 }
 
 @media (min-width: 60rem) {
@@ -738,13 +746,16 @@ html:not(.has-lightbox) .lb-open {
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  /* A transform, where the settle as the photograph is uncovered is `scale`:
+     two properties, so each keeps its own curve. The rule that uncovers a
+     plate outweighs this one and lists the transform again for that reason. */
   .has-lightbox .zoomable img {
-    transition: transform 700ms var(--ease-out), filter 700ms var(--ease-out);
+    transition: transform var(--dur-lean) var(--ease-lean), filter var(--dur-lean) var(--ease-lean);
   }
 
   .has-lightbox .zoomable:has(.lb-open:hover) img,
   .has-lightbox .zoomable:has(.lb-open:focus-visible) img {
-    transform: scale(1.03);
+    transform: scale(1.025);
   }
 }
 
@@ -1043,16 +1054,18 @@ html[dir] .hero__img {
   object-fit: cover;
 }
 
-/* The name of the stone the band is showing, on the brand's tag in the
-   corner of the picture where the line ends, as the catalogue sets its
-   green tags: the notch off the top of the trailing edge. A link to the
-   stone. */
+/* The name of the stone the band is showing, on the brand's tag, the notch
+   off the top of the trailing edge as the catalogue cuts its green tags. In
+   the corner the line starts from, held off the foot and the side by one
+   measure, so it sits on the picture as a label rather than against the
+   frame. A link to the stone. */
 .hero__name {
   --notch: 0.9rem;
+  --inset: clamp(1rem, 3vw, 2rem);
 
   position: absolute;
-  inset-block-end: 0;
-  inset-inline-end: 0;
+  inset-block-end: var(--inset);
+  inset-inline-start: var(--inset);
   z-index: 1;
   display: inline-flex;
   align-items: center;
@@ -1541,15 +1554,17 @@ html[dir="rtl"] .stone__frame::before {
   );
 }
 
-/* Where the stone is from, on the brand's tag at the foot of its
-   photograph, in the corner where the line ends. It is part of the
-   picture, so it is uncovered with it. */
+/* Where the stone is from, on the brand's tag at the head of its
+   photograph, in the corner the line starts from. Held off both edges by
+   the same measure, so it sits on the picture rather than against its
+   frame. The other top corner is the frame's own notch, and the tag stays
+   clear of it. It is part of the picture, so it is uncovered with it. */
 .stone__tag {
   --notch: 0.5rem;
 
   position: absolute;
-  inset-block-end: 0;
-  inset-inline-end: 0;
+  inset-block-start: clamp(0.5rem, 1.6vw, 0.875rem);
+  inset-inline-start: clamp(0.5rem, 1.6vw, 0.875rem);
   z-index: 1;
   padding: 0.3rem 0.7rem 0.35rem;
   background-color: var(--print-green);
@@ -1609,12 +1624,14 @@ html[dir] .stone__photo img {
   block-size: 100%;
   object-fit: cover;
   clip-path: none;
-  transition: scale 900ms var(--ease-out);
+  transition: scale 900ms var(--ease-out), transform var(--dur-lean) var(--ease-lean);
 }
 
+/* The lean is a transform and the settle is `scale`, so a photograph can
+   do both at once, each on its own curve. */
 @media (hover: hover) {
   .stone__link:hover .stone__photo img {
-    scale: 1.045;
+    transform: scale(1.035);
   }
 
   .stone__link:hover .stone__name {
@@ -2119,7 +2136,8 @@ html[lang="en"] .about__heading {
      shape and one runs smoothly into the other. `scale` rather than a
      transform, so the settle and the lean under the pointer add up. */
   .js .plate.place img {
-    transition: scale 1200ms var(--ease-out), clip-path 1000ms var(--ease-out);
+    transition: scale 1200ms var(--ease-out), clip-path 1000ms var(--ease-out),
+                transform var(--dur-lean) var(--ease-lean);
   }
 
   .js .plate.place:not(.cut) img {
@@ -2151,7 +2169,7 @@ html[lang="en"] .about__heading {
   }
 
   .js .stone__frame.place .stone__photo img {
-    transition: scale 1200ms var(--ease-out);
+    transition: scale 1200ms var(--ease-out), transform var(--dur-lean) var(--ease-lean);
   }
 
   .js .stone__frame.place.is-out .stone__photo {
