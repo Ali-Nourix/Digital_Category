@@ -246,7 +246,7 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T23:22:06",
-      "modified": "2024-04-20T11:51:26"
+      "modified": "2025-07-23T18:03:14"
     },
     "en": {
       "published": "2023-12-12T23:22:06",
@@ -254,6 +254,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "fa",
@@ -289,8 +294,8 @@
   "missing_textures": [],
   "notes": [
     "The product page spells the name \"Patagonia Orginal\" (URL /product/patagonia-orginal/); the site's project listing spells it \"Patagonia Original\", which is used as the English name here.",
-    "The Persian site showed different origins over time: آنگولا, برزیل; the most recent archived value is used.",
-    "The English site showed different origins over time: Angola, Brazil; the most recent archived value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "The Persian site showed different origins over time in the archive: آنگولا, برزیل; the live site (2026-09-24) shows \"برزیل\", which is used.",
+    "The English site showed different origins over time in the archive: Angola, Brazil; the live site (2026-09-24) shows \"Brazil\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "مرمریت",
       "کشور مبدا": "برزیل",
+      "رنگ": [
+        "سبز"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Marble",
       "Origin": "Brazil",
+      "Colour": [
+        "Green"
+      ],
       "Category": "Imported"
     }
   },
@@ -79,7 +85,7 @@
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
       "specs.نوع (the Persian page showed the English word \"Marble\")",
-      "specs.کشور مبدا (the Persian page showed the English word \"Brazil\")"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -97,15 +103,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-01T10:27:29",
+      "modified": "2026-09-21T13:36:48"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-01T10:29:38",
+      "modified": "2025-09-01T10:29:38"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -124,6 +135,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

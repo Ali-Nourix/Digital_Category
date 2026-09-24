@@ -16,7 +16,7 @@
   "specs": {
     "fa": {
       "نوع": "گرانیت",
-      "کشور مبدا": "آنگولا",
+      "کشور مبدا": "برزیل",
       "دسته‌بندی": "وارداتی"
     },
     "en": {
@@ -128,7 +128,7 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T23:12:38",
-      "modified": "2024-04-20T10:51:57"
+      "modified": "2025-07-23T14:38:04"
     },
     "en": {
       "published": "2023-12-12T23:12:38",
@@ -136,6 +136,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -159,7 +164,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Origin differs between the sites: Persian site \"آنگولا\", English site \"Brazil\" (latest archived values). Each language keeps its own site's value.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

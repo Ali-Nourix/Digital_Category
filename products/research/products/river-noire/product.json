@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "هند",
+      "رنگ": [
+        "مشکی"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "India",
+      "Colour": [
+        "Black"
+      ],
       "Category": "Imported"
     }
   },
@@ -35,8 +41,41 @@
   },
   "images": [
     {
+      "file": "images/06-4643-004-2048x1249.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4643-004-2048x1249.jpg",
+      "archived_url": null,
+      "alt": "River Noire – main product image (slab surface)",
+      "alt_fa": "ریور نوآر – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "4643-004",
+      "width": 2048,
+      "height": 1249,
+      "format": "JPEG",
+      "resolution": "resized-2048x1249",
+      "bytes": 517457,
+      "sha1": "44ae23747bd5929886edc7d59086c33df7b29d72",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/river-noir/",
+        "og:image of https://fa.behkooshan.ir/product/river-noir/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/4643-004-2048x1249.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:51:02Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/4643-004-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/4643-004.jpg",
+        "width": 5905,
+        "height": 3601,
+        "bytes": 9280699,
+        "sha1": "20f24e8e1c56e686dc9ce7a0651c032e756c59a9",
+        "format": "JPEG"
+      }
+    },
+    {
       "file": "images/01-4643-005-2048x1227.jpg",
-      "kind": "listing",
+      "kind": "main",
       "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/4643-005-2048x1227.jpg",
       "archived_url": "https://web.archive.org/web/20260227042843id_/https://es55asecvav.exactdn.com/wp-content/uploads/4643-005-2048x1227.jpg?strip=all",
       "alt": "River Noire – product listing image",
@@ -52,11 +91,19 @@
         "product card on https://behkooshan.ir/product-category/domestic/",
         "product card on https://behkooshan.ir/product/new-golden-silver/",
         "project card on https://behkooshan.ir/_project/"
-      ]
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/4643-005.jpg",
+        "width": 5865,
+        "height": 3513,
+        "bytes": 9133549,
+        "sha1": "4a870817333bc3072a3bbdfe843ae0921342a61f",
+        "format": "JPEG"
+      }
     },
     {
       "file": "images/02-4643-004-scaled.jpg",
-      "kind": "listing",
+      "kind": "superseded",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4643-004-scaled.jpg",
       "archived_url": "https://web.archive.org/web/20260219200140id_/https://fa.behkooshan.ir/wp-content/uploads/4643-004-scaled.jpg",
       "alt": "River Noire – product listing image",
@@ -70,7 +117,9 @@
       "sha1": "d831d98d543104127da7ce9a99bbdffedff78d41",
       "seen_on": [
         "product card on https://fa.behkooshan.ir/product/labradorite/"
-      ]
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/06-4643-004-2048x1249.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
     },
     {
       "file": "images/03-48-scaled.jpg",
@@ -187,7 +236,39 @@
       }
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=a8f64ff0f159f99ef90728911be36551103138ff",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=a8f64ff0f159f99ef90728911be36551103138ff&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:14Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "4643-004-scaled.jpg",
+      "width": 1771,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 462112,
+      "sha1": "d831d98d543104127da7ce9a99bbdffedff78d41",
+      "alt": "River Noire – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/02-4643-004-scaled.jpg",
+      "note": "identical to the product image file listed in images[]"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=2a1bd30d5ddf812d22c897fad2ef32bcd95d3aa8",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=2a1bd30d5ddf812d22c897fad2ef32bcd95d3aa8&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:04:12Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "4643-005-scaled.jpg",
+      "width": 1804,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 382632,
+      "sha1": "5264d4c582d873c2ca4eb55d546789845ed91255",
+      "alt": "River Noire – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-4643-005-scaled.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -196,7 +277,8 @@
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
       "specs.نوع (the Persian page showed the English word \"Granite\")",
-      "specs.کشور مبدا (the Persian page showed the English word \"India\")"
+      "specs.کشور مبدا (the Persian page showed the English word \"India\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -214,15 +296,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-31T09:44:28",
+      "modified": "2025-09-21T12:47:42"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-21T12:20:29",
+      "modified": "2025-11-19T15:44:02"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -239,8 +326,6 @@
   "missing_textures": [],
   "notes": [
     "Persian URL /product/river-noir/ (post 6710) and English URL /product/river-noire/ (post 6606) are the same product \"River Noire\".",
-    "No archived page states the category; \"imported\" is inferred from the origin (India).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

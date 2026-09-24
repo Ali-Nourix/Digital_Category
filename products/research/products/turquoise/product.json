@@ -246,7 +246,7 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -265,14 +265,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-08-01T15:46:32",
-      "modified": "2024-04-22T08:48:03"
+      "modified": "2025-07-28T11:57:55"
     },
     "en": {
       "published": "2023-08-01T15:46:32",
-      "modified": "2023-12-12T13:28:56"
+      "modified": "2025-07-28T11:58:05"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -392,7 +397,7 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "The English site's hidden WooCommerce stone-type attribute says \"quartzite\", but the page displays \"Granite\"; the displayed value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "The English site's hidden WooCommerce stone-type attribute says \"quartzite\", but the page displays \"Granite\"; the displayed value is used (live site, 2026-09-24)."
   ]
 }

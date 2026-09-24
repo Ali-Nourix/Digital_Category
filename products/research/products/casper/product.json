@@ -364,7 +364,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=b4010f429f6e5e3393a3dc816346a9b739480c66",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=b4010f429f6e5e3393a3dc816346a9b739480c66&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=b4010f429f6e5e3393a3dc816346a9b739480c66"
+      ],
+      "original_filename": "Casper.jpg",
+      "width": 1376,
+      "height": 880,
+      "format": "JPEG",
+      "bytes": 206075,
+      "sha1": "ba62961d8229aed7534711487746d84374637a44",
+      "alt": "Casper – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Casper.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -390,14 +409,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-03-03T22:15:52",
-      "modified": "2024-04-20T10:37:40"
+      "modified": "2025-07-28T10:58:04"
     },
     "en": {
       "published": "2023-03-03T22:15:52",
-      "modified": "2023-12-12T12:38:02"
+      "modified": "2025-07-28T11:03:31"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -458,18 +482,8 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "b4010f429f6e5e3393a3dc816346a9b739480c66",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

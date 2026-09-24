@@ -142,6 +142,12 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": false,
+    "en": false
+  },
+  "merged_into": "black-tempest",
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -167,6 +173,7 @@
   "notes": [
     "Colour attribute differs between the sites: Persian site ['grey'], English site ['blue']; the Persian site's terms are used.",
     "The English site's hidden WooCommerce stone-type attribute says \"marble\", but the page displays \"Quartzite\"; the displayed value is used.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Live check 2026-09-24: the site renamed this product \"Black Tempest\": post 4276 is now /product/black-tempest/ on both language sites, with the same photographs (black-fantasy.jpg, black-fantasy2.jpg) and texture link. It is continued in products/black-tempest/. This folder was not deleted by the live sync; remove it (and media/black-fantasy/) so the stone is not listed twice."
   ]
 }

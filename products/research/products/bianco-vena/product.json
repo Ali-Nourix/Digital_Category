@@ -1,0 +1,141 @@
+{
+  "slug": "bianco-vena",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بیانکو ونا",
+    "en": "Bianco Vena"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "یونان",
+      "رنگ": [
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Greece",
+      "Colour": [
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/bianco-vena/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/bianco-vena/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Bianco-Vena.webp",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bianco-Vena.webp",
+      "archived_url": null,
+      "alt": "Bianco Vena – main product image (slab surface)",
+      "alt_fa": "بیانکو ونا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Bianco Vena",
+      "width": 1052,
+      "height": 646,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 60780,
+      "sha1": "e96e15d4c4410dd01131f580681cfd1dba005166",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/bianco-vena/",
+        "og:image of https://fa.behkooshan.ir/product/bianco-vena/",
+        "product page https://behkooshan.ir/product/bianco-vena/",
+        "og:image of https://behkooshan.ir/product/bianco-vena/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Bianco-Vena.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:52Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Bianco-Vena.webp",
+        "https://behkooshan.ir/wp-content/uploads/Bianco-Vena.webp"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Marble\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Bianco Vena",
+    "en": "Bianco Vena"
+  },
+  "site_post_ids": {
+    "fa": [
+      "7030"
+    ],
+    "en": [
+      "6836"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-09-21T12:45:26",
+      "modified": "2026-09-21T12:45:26"
+    },
+    "en": {
+      "published": "2026-09-21T12:42:37",
+      "modified": "2026-09-21T12:45:30"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "4c2ba59c13ac8ba7292df6df5baadcf465e97edf",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    },
+    {
+      "jet_download": "04e8b0ef13feb0258be3b311e15bb02ff791a35d",
+      "languages": [
+        "en"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    }
+  ],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 7030 (https://fa.behkooshan.ir/product/bianco-vena/), published 2026-09-21; English site post 6836 (https://behkooshan.ir/product/bianco-vena/), published 2026-09-21. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Texture download linked on the live product page could not be fetched (2026-09-24); see missing_textures."
+  ]
+}

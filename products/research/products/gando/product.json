@@ -196,7 +196,39 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=f751198aa6d9138ccd3d82114b1050540b844648",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=f751198aa6d9138ccd3d82114b1050540b844648&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Gando-1-scaled-1.jpg",
+      "width": 1920,
+      "height": 866,
+      "format": "JPEG",
+      "bytes": 238224,
+      "sha1": "0ff7704919ccf60fea84a63c7873274e4d7dc524",
+      "alt": "Gando – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Gando-1-scaled-1.jpg"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=741bf43acf845c3c131b97afa5a1a592974c08c4",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=741bf43acf845c3c131b97afa5a1a592974c08c4&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:05:59Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Gando-1-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 98968,
+      "sha1": "1e917d0df55e5990f835f49c5a6d3d9d6a2e60a2",
+      "alt": "Gando – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Gando-1-m.jpg",
+      "note": "the same picture as the product image file listed in images[] (identical pixels; the downloaded texture file differs only in metadata, re-saved by the site's image optimiser)"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -204,32 +236,38 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
   "site_names": {
-    "fa": null,
+    "fa": "Gando",
     "en": "Gando"
   },
   "site_post_ids": {
+    "fa": [
+      "5949"
+    ],
     "en": [
       "5730"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-07-23T14:54:15",
+      "modified": "2025-07-23T14:54:16"
     },
     "en": {
       "published": "2025-05-07T13:58:00",
-      "modified": "2025-05-07T14:50:43"
+      "modified": "2025-07-21T15:30:41"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -253,18 +291,8 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "741bf43acf845c3c131b97afa5a1a592974c08c4",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

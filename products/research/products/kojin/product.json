@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "ایران",
+      "رنگ": [
+        "کرم"
+      ],
       "دسته‌بندی": "داخلی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "Iran",
+      "Colour": [
+        "Cream"
+      ],
       "Category": "Domestic"
     }
   },
@@ -84,14 +90,35 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=da70db7b7a3a3d1fa219f408b6e8d5bc6b328954",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=da70db7b7a3a3d1fa219f408b6e8d5bc6b328954&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:53Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8f83fa74a350d4091df1c64e49fc3bbdcfd33484"
+      ],
+      "original_filename": "nehbandan.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 174730,
+      "sha1": "92043accd34b8b9c6120a4c5d20ddee1a8314efb",
+      "alt": "Kojin – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-nehbandan.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
   },
   "translated_fields": {
     "fa": [
-      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -110,8 +137,8 @@
   },
   "site_dates": {
     "fa": {
-      "published": "2023-08-01T14:59:11",
-      "modified": "2024-04-20T10:44:29"
+      "published": "2025-07-23T17:43:56",
+      "modified": "2025-07-23T17:43:57"
     },
     "en": {
       "published": "2023-08-01T14:59:11",
@@ -119,6 +146,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -136,19 +168,10 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "8f83fa74a350d4091df1c64e49fc3bbdcfd33484",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
     "The site renamed this stone: the English site titles post 3922 (URL /product/nehbandan/) \"Kojin\", while the Persian site listed it as \"Nehbandan\" and in 2026 re-published it as a new post \"Kojin\" (/product/kojin/) using the same photo (nehbandan1.jpg re-uploaded as nehbandan1-1.jpg, identical picture). Merged into one product.",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/kojin/; https://fa.behkooshan.ir/product/nehbandan/ is no longer on the site."
   ]
 }

@@ -87,7 +87,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7005f6b9d5dc29c555822f5d9f2f0225cde474d7",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=7005f6b9d5dc29c555822f5d9f2f0225cde474d7&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:49Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7005f6b9d5dc29c555822f5d9f2f0225cde474d7"
+      ],
+      "original_filename": "Serpentine.jpg",
+      "width": 1637,
+      "height": 886,
+      "format": "JPEG",
+      "bytes": 314402,
+      "sha1": "977f5b420f0abbd6392bf534d030f65aefabca41",
+      "alt": "Serpentine – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Serpentine.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -95,7 +114,7 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -122,6 +141,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -171,18 +195,8 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "7005f6b9d5dc29c555822f5d9f2f0225cde474d7",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

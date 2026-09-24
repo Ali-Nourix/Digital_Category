@@ -1,0 +1,179 @@
+{
+  "slug": "calacatta-viola",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کالاکاتا ویولا",
+    "en": "Calacatta Viola"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "ایتالیا",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Italy",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/calacatta-viola/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/calacatta-viola/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Calacatta-Viola.webp",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Calacatta-Viola.webp",
+      "archived_url": null,
+      "alt": "Calacatta Viola – main product image (slab surface)",
+      "alt_fa": "کالاکاتا ویولا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Calacatta Viola",
+      "width": 1052,
+      "height": 646,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 89098,
+      "sha1": "3c581567bd4bbab8e34c3b36f4d42daa0c79f43b",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/calacatta-viola/",
+        "og:image of https://fa.behkooshan.ir/product/calacatta-viola/",
+        "product page https://behkooshan.ir/product/calacatta-viola/",
+        "og:image of https://behkooshan.ir/product/calacatta-viola/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Calacatta-Viola.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:58Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Calacatta-Viola.webp",
+        "https://behkooshan.ir/wp-content/uploads/Calacatta-Viola.webp"
+      ]
+    },
+    {
+      "file": "images/02-Calacatta-Viola-1.webp",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Calacatta-Viola-1.webp",
+      "archived_url": null,
+      "alt": "Calacatta Viola – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کالاکاتا ویولا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 640,
+      "height": 1080,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 84022,
+      "sha1": "1cf0d3224bdfabc6952a60117b58af45f91b9916",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/calacatta-viola/",
+        "project page https://fa.behkooshan.ir/projects/calacatta-viola/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/calacatta-viola/",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Calacatta-Viola-1.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T16:55:00Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Calacatta-Viola-1.webp",
+        "https://behkooshan.ir/wp-content/uploads/Calacatta-Viola-1.webp"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Marble\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Calacatta Viola",
+    "en": "Calacatta Viola"
+  },
+  "site_post_ids": {
+    "fa": [
+      "7027"
+    ],
+    "en": [
+      "6833"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-09-21T12:35:09",
+      "modified": "2026-09-21T13:36:42"
+    },
+    "en": {
+      "published": "2026-09-21T12:34:16",
+      "modified": "2026-09-21T12:47:36"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/calacatta-viola/",
+      "title": "Calacatta Viola"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/calacatta-viola/",
+      "title": "Calacatta Viola"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "3256f8dfc343c2488111434399ed578e296cb4d7",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    },
+    {
+      "jet_download": "8bfe09df0779d653ac1759b373b971fef486c4e4",
+      "languages": [
+        "en"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    }
+  ],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 7027 (https://fa.behkooshan.ir/product/calacatta-viola/), published 2026-09-21; English site post 6833 (https://behkooshan.ir/product/calacatta-viola/), published 2026-09-21. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Texture download linked on the live product page could not be fetched (2026-09-24); see missing_textures."
+  ]
+}

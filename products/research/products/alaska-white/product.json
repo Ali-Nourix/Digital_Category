@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "هند",
+      "رنگ": [
+        "کرم"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "India",
+      "Colour": [
+        "Cream"
+      ],
       "Category": "Imported"
     }
   },
@@ -104,6 +110,21 @@
       "alt": "Alaska White – texture (full slab surface, \"Texture Download\" file)",
       "file": "images/01-Alaska-m.jpg",
       "note": "identical to the product image file listed in images[]"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=39d8be37122c7adb79ebee0a5830d801e9a239aa",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=39d8be37122c7adb79ebee0a5830d801e9a239aa&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:05:44Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Alaska-scaled.jpg",
+      "width": 1889,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 281848,
+      "sha1": "461b906ac257e92ecfcc194863fb9e7c03665878",
+      "alt": "Alaska White – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Alaska-scaled.jpg"
     }
   ],
   "translated": {
@@ -112,7 +133,8 @@
   },
   "translated_fields": {
     "fa": [
-      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -130,15 +152,20 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": "2025-07-23T13:56:10+03:30"
+      "published": "2025-07-23T13:54:43",
+      "modified": "2025-07-23T13:56:10"
     },
     "en": {
       "published": "2025-05-07T14:38:02",
-      "modified": "2025-05-07T14:45:02"
+      "modified": "2025-08-15T18:04:36"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -190,17 +217,8 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "39d8be37122c7adb79ebee0a5830d801e9a239aa",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

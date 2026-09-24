@@ -17,11 +17,19 @@
     "fa": {
       "نوع": "کوارتزیت",
       "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم",
+        "سفید"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Quartzite",
       "Origin": "Brazil",
+      "Colour": [
+        "Cream",
+        "White"
+      ],
       "Category": "Imported"
     }
   },
@@ -29,12 +37,40 @@
     "fa": [
       "https://fa.behkooshan.ir/product/cristallo-rosa/"
     ],
-    "en": []
+    "en": [
+      "https://behkooshan.ir/product/cristallo-rosa/"
+    ]
   },
   "images": [
     {
+      "file": "images/02-Crystal-Rose-m.webp",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-m.webp",
+      "archived_url": null,
+      "alt": "Cristallo Rosa – main product image (slab surface)",
+      "alt_fa": "کریستالو رزا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Crystal Rose-m",
+      "width": 1052,
+      "height": 646,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 88216,
+      "sha1": "4be27b0623b459438a0f71f8ab01f2727f1c0225",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/cristallo-rosa/",
+        "product page https://behkooshan.ir/product/cristallo-rosa/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Crystal-Rose-m.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:50Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-m.webp",
+        "https://behkooshan.ir/wp-content/uploads/Crystal-Rose-m.webp"
+      ]
+    },
+    {
       "file": "images/01-Crystal-Rose-p-1024x755.webp",
-      "kind": "listing",
+      "kind": "superseded",
       "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p-1024x755.webp",
       "archived_url": "https://web.archive.org/web/20260219015230id_/https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p-1024x755.webp",
       "alt": "Cristallo Rosa – product listing image",
@@ -48,44 +84,77 @@
       "sha1": "fbae552a21e283e97beaf31261f10662465f031f",
       "seen_on": [
         "product card on https://fa.behkooshan.ir/product/tropical-storm/"
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/03-Crystal-Rose-p.webp, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/03-Crystal-Rose-p.webp",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p.webp",
+      "archived_url": null,
+      "alt": "Cristallo Rosa – product listing image",
+      "alt_fa": "کریستالو رزا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 101522,
+      "sha1": "0a5c8509fa5591574d06878a901b748781ce3462",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/cristallo-rosa/",
+        "og:image of https://behkooshan.ir/product/cristallo-rosa/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Crystal-Rose-p.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:52Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Crystal-Rose-p.webp",
+        "https://behkooshan.ir/wp-content/uploads/Crystal-Rose-p.webp"
       ]
     }
   ],
   "textures": [],
   "translated": {
     "fa": true,
-    "en": true
+    "en": false
   },
   "translated_fields": {
     "fa": [
-      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
-    "en": [
-      "none of the English site's pages for this product were archived; English name taken from the Latin name on the Persian site",
-      "specs.Type (translated from the Persian site)",
-      "specs.Origin (translated from the Persian site)"
-    ]
+    "en": []
   },
   "site_names": {
     "fa": "Cristallo Rosa",
-    "en": null
+    "en": "Cristallo Rosa"
   },
   "site_post_ids": {
     "fa": [
       "6493"
+    ],
+    "en": [
+      "5966"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-11T11:05:01",
+      "modified": "2025-08-13T14:33:13"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-11T11:04:04",
+      "modified": "2025-08-13T14:33:26"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -93,11 +162,25 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [],
+  "missing_textures": [
+    {
+      "jet_download": "e9baa222d52fa9f00581f2596e2d3873e99b589e",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    },
+    {
+      "jet_download": "e40eb27ca4e075c2e7420062c6f09dec25f4df57",
+      "languages": [
+        "en"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    }
+  ],
   "notes": [
-    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: the English site now lists this product (https://behkooshan.ir/product/cristallo-rosa/, post 5966, published 2025-08-11).",
+    "Texture download linked on the live product page could not be fetched (2026-09-24); see missing_textures."
   ]
 }

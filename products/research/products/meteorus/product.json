@@ -188,7 +188,27 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ac9d2dfb849685fc07dc69495e2788015e5f60f4",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=ac9d2dfb849685fc07dc69495e2788015e5f60f4&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:28Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=db292ce9ce311cc4c65b75a261733043272f89ce"
+      ],
+      "original_filename": "ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+      "width": 1492,
+      "height": 859,
+      "format": "JPEG",
+      "bytes": 702767,
+      "sha1": "e005539dbca574333846d5251d3b8e3a4a85ca25",
+      "alt": "Meteorus – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -198,7 +218,7 @@
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
       "specs.نوع (the Persian page showed the English word \"Granite\")",
       "specs.کشور مبدا (the Persian page showed the English word \"Brazil\")",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -220,11 +240,16 @@
       "modified": "2025-12-25T11:04:31"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-12-23T11:01:50",
+      "modified": "2025-12-25T12:18:27"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -248,19 +273,10 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "ac9d2dfb849685fc07dc69495e2788015e5f60f4",
-      "languages": [
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
     "The 3 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
-    "The site's main and listing image for Meteorus is the file \"ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg\"; the file name suggests it was generated or edited with an AI image tool, so check it against a real slab photo before using it in the new catalogue."
+    "The site's main and listing image for Meteorus is the file \"ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg\"; the file name suggests it was generated or edited with an AI image tool, so check it against a real slab photo before using it in the new catalogue.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

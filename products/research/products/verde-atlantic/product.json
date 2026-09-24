@@ -1,0 +1,141 @@
+{
+  "slug": "verde-atlantic",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "ورده آتلانتیک",
+    "en": "Verde Atlantic"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/verde-atlantic/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/verde-atlantic/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Verde-Atlantic.webp",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Atlantic.webp",
+      "archived_url": null,
+      "alt": "Verde Atlantic – main product image (slab surface)",
+      "alt_fa": "ورده آتلانتیک – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Verde Atlantic",
+      "width": 1052,
+      "height": 646,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 97764,
+      "sha1": "7f8cdb795b307128fe3a0f7077f1a72bef3d2ddc",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/verde-atlantic/",
+        "og:image of https://fa.behkooshan.ir/product/verde-atlantic/",
+        "product page https://behkooshan.ir/product/verde-atlantic/",
+        "og:image of https://behkooshan.ir/product/verde-atlantic/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Atlantic.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:25Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Atlantic.webp",
+        "https://behkooshan.ir/wp-content/uploads/Verde-Atlantic.webp"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Verde Atlantic",
+    "en": "Verde Atlantic"
+  },
+  "site_post_ids": {
+    "fa": [
+      "7042"
+    ],
+    "en": [
+      "6848"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-09-21T13:28:59",
+      "modified": "2026-09-21T13:35:49"
+    },
+    "en": {
+      "published": "2026-09-21T13:28:38",
+      "modified": "2026-09-21T13:28:39"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "077e9ec434c47488c57b4413781ea543d0ef8f94",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    },
+    {
+      "jet_download": "37acffd0591bc02662472eb303d6692ee5fcb36f",
+      "languages": [
+        "en"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    }
+  ],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 7042 (https://fa.behkooshan.ir/product/verde-atlantic/), published 2026-09-21; English site post 6848 (https://behkooshan.ir/product/verde-atlantic/), published 2026-09-21. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Texture download linked on the live product page could not be fetched (2026-09-24); see missing_textures."
+  ]
+}

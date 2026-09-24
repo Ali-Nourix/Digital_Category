@@ -17,11 +17,17 @@
     "fa": {
       "نوع": "متفرقه",
       "کشور مبدا": "ایران",
+      "رنگ": [
+        "کرم"
+      ],
       "دسته‌بندی": "داخلی"
     },
     "en": {
       "Type": "Miscellaneous",
       "Origin": "Iran",
+      "Colour": [
+        "Cream"
+      ],
       "Category": "Domestic"
     }
   },
@@ -29,9 +35,37 @@
     "fa": [
       "https://fa.behkooshan.ir/product/mozzarella/"
     ],
-    "en": []
+    "en": [
+      "https://behkooshan.ir/product/mozzarella/"
+    ]
   },
   "images": [
+    {
+      "file": "images/02-Mozzarella-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Mozzarella-m.jpg",
+      "archived_url": null,
+      "alt": "Mozzarella – main product image (slab surface)",
+      "alt_fa": "موتزارلا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Mozzarella-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 103340,
+      "sha1": "03d2f7098513bdf43d8a95364184a9e38e04887a",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/mozzarella/",
+        "product page https://behkooshan.ir/product/mozzarella/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Mozzarella-m.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:58Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Mozzarella-m.jpg",
+        "https://behkooshan.ir/wp-content/uploads/Mozzarella-m.jpg"
+      ]
+    },
     {
       "file": "images/01-Mozzarella-p.jpg",
       "kind": "listing",
@@ -52,41 +86,66 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=0beeeacb78f419959e99c8470fd95d570d300738",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=0beeeacb78f419959e99c8470fd95d570d300738&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:16:04Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=43ec4ba436b3c2a7a7949fbf4ef8ba93130b22f2"
+      ],
+      "original_filename": "Mozzarella-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 103340,
+      "sha1": "03d2f7098513bdf43d8a95364184a9e38e04887a",
+      "alt": "Mozzarella – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/02-Mozzarella-m.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
-    "en": true
+    "en": false
   },
   "translated_fields": {
     "fa": [
-      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
-    "en": [
-      "none of the English site's pages for this product were archived; English name taken from the Latin name on the Persian site",
-      "specs.Type (translated from the Persian site)",
-      "specs.Origin (translated from the Persian site)"
-    ]
+    "en": []
   },
   "site_names": {
     "fa": "Mozzarella",
-    "en": null
+    "en": "Mozzarella"
   },
   "site_post_ids": {
     "fa": [
       "6481"
+    ],
+    "en": [
+      "5958"
     ]
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-11T09:23:42",
+      "modified": "2025-08-11T10:54:24"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-08-11T10:33:06",
+      "modified": "2025-08-11T10:37:45"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -96,9 +155,7 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "No archived page states the category; \"domestic\" is inferred from the origin (Iran).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the English site (behkooshan.ir); English specs are translated from the Persian site.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: the English site now lists this product (https://behkooshan.ir/product/mozzarella/, post 5958, published 2025-08-11)."
   ]
 }

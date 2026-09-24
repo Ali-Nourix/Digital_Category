@@ -347,14 +347,19 @@
   "site_dates": {
     "fa": {
       "published": "2023-12-12T13:20:35",
-      "modified": "2024-04-20T10:47:12"
+      "modified": "2025-08-17T16:15:11"
     },
     "en": {
       "published": "2023-12-12T13:20:35",
-      "modified": "2023-12-12T13:20:36"
+      "modified": "2025-08-17T16:28:10"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [
     {
       "lang": "en",
@@ -389,6 +394,6 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

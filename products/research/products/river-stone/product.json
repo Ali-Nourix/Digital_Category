@@ -17,11 +17,19 @@
     "fa": {
       "نوع": "گرانیت",
       "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی",
+        "طوسی"
+      ],
       "دسته‌بندی": "وارداتی"
     },
     "en": {
       "Type": "Granite",
       "Origin": "Brazil",
+      "Colour": [
+        "Black",
+        "Grey"
+      ],
       "Category": "Imported"
     }
   },
@@ -34,7 +42,7 @@
   "images": [
     {
       "file": "images/01-River-Stone.jpg",
-      "kind": "listing",
+      "kind": "main",
       "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/River-Stone.jpg",
       "archived_url": "https://web.archive.org/web/20260225211022/https://es55asecvav.exactdn.com/wp-content/uploads/River-Stone.jpg?strip=all",
       "alt": "River Stone – product listing image",
@@ -51,7 +59,24 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=bb566360e56f400e50c468f25abd13df68e3587e",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=bb566360e56f400e50c468f25abd13df68e3587e&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:04:19Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "River-Stone.jpg",
+      "width": 1920,
+      "height": 1189,
+      "format": "JPEG",
+      "bytes": 103156,
+      "sha1": "e63f7eabbe0382661f6488515fdb8378fabb5559",
+      "alt": "River Stone – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-River-Stone.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -60,7 +85,8 @@
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
       "specs.نوع (translated from the English site)",
-      "specs.کشور مبدا (translated from the English site)"
+      "specs.کشور مبدا (translated from the English site)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -79,11 +105,16 @@
       "modified": null
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2025-09-01T11:14:57",
+      "modified": "2025-09-01T11:15:25"
     }
   },
   "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": false,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -93,9 +124,7 @@
   "missing_images": [],
   "missing_textures": [],
   "notes": [
-    "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on the English site), so description is null.",
+    "The Persian site does not list this product (live check 2026-09-24); Persian specs are translated from the English site."
   ]
 }

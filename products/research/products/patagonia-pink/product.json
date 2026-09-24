@@ -90,7 +90,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=586a8ad4d5374c2c6fdc9776d7c4fcdf8a8b327c",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=586a8ad4d5374c2c6fdc9776d7c4fcdf8a8b327c&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:16:20Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=aa7f4626deb64d4b17682d1d4375fc98a556994e"
+      ],
+      "original_filename": "Patagonia-Pink-scaled-1.jpg",
+      "width": 1669,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 174176,
+      "sha1": "c87db11bb587a9f92e3fc10badbcbfdde7ed147b",
+      "alt": "Patagonia Pink – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Patagonia-Pink-scaled-1.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -98,7 +117,7 @@
   "translated_fields": {
     "fa": [
       "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
-      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
     ],
     "en": []
   },
@@ -116,8 +135,8 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2025-07-23T18:06:30",
+      "modified": "2025-07-23T18:06:34"
     },
     "en": {
       "published": "2025-05-07T13:47:04",
@@ -125,6 +144,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -137,18 +161,9 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "aa7f4626deb64d4b17682d1d4375fc98a556994e",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
-    "The English site's listing image for this product is stored as \"Absolute-Black-p-1.jpg\"; despite the file name it is the Patagonia Pink picture (identical to the Persian site's Patagonia-Pink-p.jpg, checked by image comparison). The larger copy was kept."
+    "The English site's listing image for this product is stored as \"Absolute-Black-p-1.jpg\"; despite the file name it is the Patagonia Pink picture (identical to the Persian site's Patagonia-Pink-p.jpg, checked by image comparison). The larger copy was kept.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

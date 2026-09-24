@@ -85,7 +85,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=6aaa14c5015ea3c1d1cf433ac4d7e63683bb78bd",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=6aaa14c5015ea3c1d1cf433ac4d7e63683bb78bd&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:16:43Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=6aaa14c5015ea3c1d1cf433ac4d7e63683bb78bd"
+      ],
+      "original_filename": "Delicate.jpg",
+      "width": 1325,
+      "height": 904,
+      "format": "JPEG",
+      "bytes": 572496,
+      "sha1": "c6174c4bc62c1ece2db0ab74a5406f98115675c2",
+      "alt": "Delicate – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Delicate.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -119,6 +138,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -154,18 +178,9 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "6aaa14c5015ea3c1d1cf433ac4d7e63683bb78bd",
-      "languages": [
-        "en",
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "The live WooCommerce Store API (2026-09-24) carries a custom attribute \"Dimension: 256 mm * 700 mm\" for this product on both language sites; the product page does not display it, so it is not added to specs."
   ]
 }

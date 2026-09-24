@@ -82,7 +82,27 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7f9b8e49da1e09a638580e9df235b70da50577fa",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=7f9b8e49da1e09a638580e9df235b70da50577fa&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7f9b8e49da1e09a638580e9df235b70da50577fa"
+      ],
+      "original_filename": "mercury-black.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 13774,
+      "sha1": "02c8bbaa076858957b1885a0303260b2a5422bbc",
+      "alt": "Mercury Black – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-mercury-black.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -111,11 +131,16 @@
       "modified": "2024-04-20T10:44:08"
     },
     "en": {
-      "published": null,
-      "modified": null
+      "published": "2023-08-01T14:57:42",
+      "modified": "2023-09-27T09:52:31"
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -128,17 +153,8 @@
   },
   "legacy": null,
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "7f9b8e49da1e09a638580e9df235b70da50577fa",
-      "languages": [
-        "fa"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

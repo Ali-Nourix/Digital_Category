@@ -36,7 +36,7 @@
   "images": [
     {
       "file": "images/01-Elegant-Green-m-1024x629.jpg",
-      "kind": "main",
+      "kind": "superseded",
       "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Green-m-1024x629.jpg",
       "archived_url": "https://web.archive.org/web/20250622205408id_/https://behkooshan.ir/wp-content/uploads/Elegant-Green-m-1024x629.jpg",
       "alt": "Elegant Green – main product image (slab surface)",
@@ -50,6 +50,34 @@
       "sha1": "a74ec0b6634455f0b4286cc6ea8759da23b7a41e",
       "seen_on": [
         "product page https://behkooshan.ir/product/elegant-green/"
+      ],
+      "former_kind": "main",
+      "former_note": "Same picture as images/03-Elegant-Green-m.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/03-Elegant-Green-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Green-m.jpg",
+      "archived_url": null,
+      "alt": "Elegant Green – main product image (slab surface)",
+      "alt_fa": "الگانت گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Elegant Green-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 37348,
+      "sha1": "188ae4dd3d4da8108b4f495313af89fae81332d2",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/elegant-green/",
+        "product page https://behkooshan.ir/product/elegant-green/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Green-m.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:34Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Green-m.jpg",
+        "https://behkooshan.ir/wp-content/uploads/Elegant-Green-m.jpg"
       ]
     },
     {
@@ -82,7 +110,26 @@
       ]
     }
   ],
-  "textures": [],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=91c9041981b1bd932b305cf32352a8276e74df6c",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=91c9041981b1bd932b305cf32352a8276e74df6c&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:31Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=91c9041981b1bd932b305cf32352a8276e74df6c"
+      ],
+      "original_filename": "Elegant-Green.jpg",
+      "width": 1520,
+      "height": 907,
+      "format": "JPEG",
+      "bytes": 187454,
+      "sha1": "6a6e22abd5ae9c4655b10b6013578f01d90790de",
+      "alt": "Elegant Green – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Elegant-Green.jpg"
+    }
+  ],
   "translated": {
     "fa": true,
     "en": false
@@ -107,8 +154,8 @@
   },
   "site_dates": {
     "fa": {
-      "published": null,
-      "modified": null
+      "published": "2023-08-01T14:54:35",
+      "modified": "2024-04-20T10:41:39"
     },
     "en": {
       "published": "2023-08-01T14:54:35",
@@ -116,6 +163,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
   "projects": [],
   "archived_pages": {
     "fa": [],
@@ -168,17 +220,8 @@
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
   "missing_images": [],
-  "missing_textures": [
-    {
-      "jet_download": "91c9041981b1bd932b305cf32352a8276e74df6c",
-      "languages": [
-        "en"
-      ],
-      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file"
-    }
-  ],
+  "missing_textures": [],
   "notes": [
-    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
   ]
 }

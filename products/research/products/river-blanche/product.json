@@ -129,6 +129,11 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": false,
+    "en": false
+  },
   "projects": [],
   "archived_pages": {
     "fa": [
@@ -164,6 +169,7 @@
   ],
   "notes": [
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "Texture download file(s) linked on the product page were not archived; see missing_textures."
+    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
+    "Live check 2026-09-24: this product is no longer on either language site (https://fa.behkooshan.ir/product/river-blanche/, https://behkooshan.ir/product/river-blanche/ are gone); kept from the archive."
   ]
 }
