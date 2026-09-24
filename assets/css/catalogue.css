@@ -56,6 +56,14 @@
   --dur-reveal: 900ms;
   --dur-word: 720ms;
   --step-delay: 70ms;
+
+  /* The lean of a photograph under the pointer. Not the reveal's curve:
+     that one covers most of its distance in the first tenth of its time,
+     which reads as placing when a thing arrives and as a jump when a
+     picture is only being looked at. This one starts slowly and settles
+     slowly, over twice the time. */
+  --ease-lean: cubic-bezier(0.33, 0, 0.2, 1);
+  --dur-lean: 1600ms;
 }
 
 @media (min-width: 60rem) {
@@ -1759,13 +1767,16 @@ html:not(.has-lightbox) .lb-open {
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  /* `scale`, not a transform: the transform is the photograph's settle as
+     it is uncovered, and the rule that uncovers it has the weight to decide
+     how a transform moves. A property of its own keeps the two curves apart. */
   .has-lightbox .zoomable img {
-    transition: transform 700ms var(--ease-out), filter 700ms var(--ease-out);
+    transition: scale var(--dur-lean) var(--ease-lean), filter var(--dur-lean) var(--ease-lean);
   }
 
   .has-lightbox .zoomable:has(.lb-open:hover) img,
   .has-lightbox .zoomable:has(.lb-open:focus-visible) img {
-    transform: scale(1.03);
+    scale: 1.025;
   }
 }
 
@@ -1973,7 +1984,8 @@ html:not(.has-lightbox) .lb-open {
      logical keyword, so the closed state is mirrored for rtl. */
   .js .place img {
     transform: none;
-    transition: transform 1200ms var(--ease-out), clip-path 1000ms var(--ease-out);
+    transition: transform 1200ms var(--ease-out), clip-path 1000ms var(--ease-out),
+                scale var(--dur-lean) var(--ease-lean);
   }
 
   /* The open state is a rectangle for a plain photograph and the brand's

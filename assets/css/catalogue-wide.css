@@ -146,6 +146,14 @@
     block-size: auto;
   }
 
+  /* Except before the two stones, which lead with their photographs. The
+     edge of a photograph is already where one panel stops and the next
+     begins; a rule beside it only stands in the white between them, a
+     second edge a few millimetres from the first. */
+  .sec:not(.sec--plate, .sec--divider, .sec--cover) + .sec.sec--stone::before {
+    content: none;
+  }
+
   /* A photograph panel is the photograph, whatever the screen: the frame is
      the panel and the crop is what the picture gives up to fill it. */
   .plate {
