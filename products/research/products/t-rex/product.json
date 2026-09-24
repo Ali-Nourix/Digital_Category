@@ -108,8 +108,8 @@
     {
       "file": "images/04-53-scaled.jpg",
       "kind": "project",
-      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
-      "archived_url": "https://web.archive.org/web/20260226084205id_/https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/53-scaled.jpg",
+      "archived_url": null,
       "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
       "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
       "site_alt": null,
@@ -117,15 +117,221 @@
       "height": 1080,
       "format": "JPEG",
       "resolution": "wp-scaled",
-      "bytes": 183605,
-      "sha1": "b17e56f65e6699861cb9fbdaafc4794c3790823c",
+      "bytes": 230265,
+      "sha1": "e09fcb3620dbab47dad8199ca8731b34866d8cd8",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/",
         "project card on https://fa.behkooshan.ir/projects/",
         "project page https://behkooshan.ir/_project/t-rex/",
         "project page https://fa.behkooshan.ir/projects/t-rex/"
       ],
-      "project_page": "https://behkooshan.ir/_project/t-rex/"
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "53",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/53-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/53-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/53-scaled.jpg"
+      ],
+      "replaces": {
+        "file": "images/04-53-scaled.jpg",
+        "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
+        "archived_url": "https://web.archive.org/web/20260226084205id_/https://es55asecvav.exactdn.com/wp-content/uploads/53-scaled.jpg",
+        "width": 1440,
+        "height": 1080,
+        "resolution": "wp-scaled",
+        "bytes": 183605,
+        "sha1": "b17e56f65e6699861cb9fbdaafc4794c3790823c"
+      },
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/53.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4900807,
+        "sha1": "fda4017d3a5130e80aac24553ef2b80d54d5f205",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-45-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/45-scaled.jpg",
+      "archived_url": null,
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 391045,
+      "sha1": "22745f4b8e3e887a5b8ef04272e32836cade7935",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "45",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/45-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:03Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/45-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/45-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/45.jpg",
+        "width": 4000,
+        "height": 2250,
+        "bytes": 7145190,
+        "sha1": "ba163ac15b40f544fb6c0fc512b1423c037f4485",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-46-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/46-scaled.jpg",
+      "archived_url": null,
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 315943,
+      "sha1": "1dc3161bfeb5f5340705ad91587670291c6aa3a9",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "46",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/46-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:05Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/46-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/46-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/46.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 5568059,
+        "sha1": "43953f67892264330bd4c29e3b2b7d8372caeef3",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-47-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/47-scaled.jpg",
+      "archived_url": null,
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 171675,
+      "sha1": "22fdabce0d54884e3b05bfd5b75006869f4f6d27",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "47",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/47-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/47-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/47-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/47.jpg",
+        "width": 2250,
+        "height": 3000,
+        "bytes": 5170970,
+        "sha1": "dddef713003e4a45d96aba483e763cbf66abe18d",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/08-51-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/51-scaled.jpg",
+      "archived_url": null,
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 233308,
+      "sha1": "9ad81632b4ce44468dc28671f33e1205c7b793c7",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "51",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/51-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/51-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/51-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/51.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4815546,
+        "sha1": "059fc9b60a7ccfe100374cc3c844dfeeba79d9b3",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/09-52-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/52-scaled.jpg",
+      "archived_url": null,
+      "alt": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 319084,
+      "sha1": "2f27db9b51e120bcc3eda24a4d79ab5319629ea2",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/t-rex/",
+        "project page https://fa.behkooshan.ir/projects/t-rex/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/t-rex/",
+      "site_title": "52",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/52-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:07Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/52-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/52-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/52.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 5757577,
+        "sha1": "0d0232b4e83e10d9356b663bd528ab82a754e893",
+        "format": "JPEG"
+      }
     }
   ],
   "textures": [
@@ -183,12 +389,12 @@
     {
       "lang": "en",
       "url": "https://behkooshan.ir/_project/t-rex/",
-      "title": null
+      "title": "T.Rex"
     },
     {
       "lang": "fa",
       "url": "https://fa.behkooshan.ir/projects/t-rex/",
-      "title": null
+      "title": "T.Rex"
     }
   ],
   "archived_pages": {
@@ -210,59 +416,13 @@
     ]
   },
   "legacy": null,
-  "missing_images": [
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/45-scaled.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/t-rex/",
-        "project page https://behkooshan.ir/_project/t-rex/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/46-scaled.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/t-rex/",
-        "project page https://behkooshan.ir/_project/t-rex/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/47-scaled.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/t-rex/",
-        "project page https://behkooshan.ir/_project/t-rex/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/51-scaled.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/t-rex/",
-        "project page https://behkooshan.ir/_project/t-rex/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://fa.behkooshan.ir/wp-content/uploads/52-scaled.jpg",
-      "kind": "project",
-      "seen_in": [
-        "project page https://fa.behkooshan.ir/projects/t-rex/",
-        "project page https://behkooshan.ir/_project/t-rex/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    }
-  ],
+  "missing_images": [],
   "missing_textures": [],
   "notes": [
     "The site has two posts with the same name \"T.Rex\" (granite, Iran): /product/t-rex/ (post 5376, 2023, photo T-Rex-*) and /product/t-rex-2/ (Persian post 6777 / English post 6613, 2025, photo 3878X1-001). Both were listed in the Feb-2026 Persian sitemap. Merged here into one product with all photos; split again if they are different lots.",
     "The Persian site showed different origins over time: Iran, ایران; the most recent archived value is used.",
     "The Persian site showed different stone types over time: Granite, گرانیت; the most recent archived value is used.",
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "5 image(s) referenced by the site were not archived and are missing; see missing_images."
+    "The 5 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty."
   ]
 }

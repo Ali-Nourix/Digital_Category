@@ -96,6 +96,187 @@
         "product card on https://fa.behkooshan.ir/products/page/3/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-3.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/3.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 160908,
+      "sha1": "c52cb1597c80f7e023953cd103159a19af4c1bcd",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "3",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/3.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:39:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/3.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/3.jpg"
+      ]
+    },
+    {
+      "file": "images/04-707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75144,
+      "sha1": "7623b085aa3a8a096d3491f3c821a1a2922955c5",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "707caca5-dc52-43b8-a8cb-f28b9fdd8542",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Black-Diamond-2-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 226222,
+      "sha1": "b2ed83c31ac2623dd860548d24d75d0f2d483c19",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/",
+        "project card on https://behkooshan.ir/_project/page/3/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond (2)",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond-2-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:18Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-2.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4577990,
+        "sha1": "776278e465b6e7c11b40419b1f7c9d084632de41",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-Black-Diamond-1-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 195428,
+      "sha1": "a6aa3102c60c696961b3e73fa06f7724fe9b984f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond-1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:18Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-1.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4396970,
+        "sha1": "46498a84a22dbc28424029c736573936f1a15fa2",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-Black-Diamond.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 92310,
+      "sha1": "63e48256cfdb95231b5b71444a59338a370f9650",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:19Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg"
+      ]
+    },
+    {
+      "file": "images/08-2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/2.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 130337,
+      "sha1": "e7cf4b0c02029e38aced6d9950967a97ab6faa7b",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/black-diamond/",
+      "site_title": "2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:49Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24"
     }
   ],
   "textures": [
@@ -146,7 +327,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/black-diamond/",
+      "title": "Black Diamond"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/black-diamond/",
+      "title": "Black Diamond"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

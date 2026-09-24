@@ -134,7 +134,12 @@
     {
       "lang": "en",
       "url": "https://behkooshan.ir/_project/verde-karzai/",
-      "title": null
+      "title": "Verde Fantastic"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/verde-karzai/",
+      "title": "Verde Karzai"
     }
   ],
   "archived_pages": {
@@ -178,60 +183,11 @@
     ],
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
-  "missing_images": [
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Karzai-project.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Karzai-project1.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Karzai-project2.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Karzai-project3.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Karzai-project4.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/Verde-Fantastic.jpeg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/verde-karzai/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    }
-  ],
+  "missing_images": [],
   "missing_textures": [],
   "notes": [
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "6 image(s) referenced by the site were not archived and are missing; see missing_images.",
-    "The English project page linked to this product (/_project/verde-karzai/) is titled \"Verde Fantastic\" and its photos (Verde-Karzai-project*.jpeg) were not archived; see also products/verde-fantastic/."
+    "The 6 project photos that were listed as missing (Verde-Karzai-project*.jpeg and Verde-Fantastic.jpeg) were retrieved from the live site on 2026-09-24 and are attached to products/verde-fantastic/, not here; see the next note and PROJECTS.md.",
+    "Project pages: the English page /_project/verde-karzai/ is titled \"Verde Fantastic\" and the Persian page /projects/verde-karzai/ is titled \"Verde Karzai\". Both, and the Persian page /projects/verde-fantastic/, show the same five photos (Verde-Karzai-project*.jpeg). They are attached to Verde Fantastic because two of the three pages name Verde Fantastic and the stone in the photos (green with thin white veins) looks like the Verde Fantastic slab, not this product's slab (dark blue-green with golden veins). Uncertain: confirm with the owner."
   ]
 }

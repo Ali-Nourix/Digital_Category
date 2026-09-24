@@ -89,6 +89,64 @@
         "product card on https://fa.behkooshan.ir/product/volga-blue/",
         "product sitemap"
       ]
+    },
+    {
+      "file": "images/03-Verde-Imperial-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Imperial-project.jpg",
+      "archived_url": null,
+      "alt": "Verde Imperial – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده ایمپریال – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 720,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 53115,
+      "sha1": "348aa8e90fedf9e29b70917828e641bf78ab57ae",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-imperial/",
+        "project page https://fa.behkooshan.ir/projects/verde-imperial/",
+        "project card on https://behkooshan.ir/_project/page/4/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-imperial/",
+      "site_title": "Verde Imperial-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Imperial-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:05Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Imperial-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Imperial-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Verde-Imperial-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Verde-Imperial-project1.jpg",
+      "archived_url": null,
+      "alt": "Verde Imperial – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ورده ایمپریال – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 938,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 88853,
+      "sha1": "b7f382783916906d467e3001db79f2bffb596e8f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/verde-imperial/",
+        "project page https://fa.behkooshan.ir/projects/verde-imperial/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/verde-imperial/",
+      "site_title": "Verde Imperial-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Verde-Imperial-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:49:05Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Verde-Imperial-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Verde-Imperial-project1.jpg"
+      ]
     }
   ],
   "textures": [],
@@ -126,7 +184,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/verde-imperial/",
+      "title": "Verde Imperial"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/verde-imperial/",
+      "title": "Verde Imperial"
+    }
+  ],
   "archived_pages": {
     "fa": [
       {

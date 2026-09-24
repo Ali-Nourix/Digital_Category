@@ -75,9 +75,40 @@
       "sha1": "1504ba7d7ff2d57312a6e88cbc1c60e6f4fa9c5e",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/page/2/",
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/bellatrix/",
+        "project page https://fa.behkooshan.ir/projects/bellatrix/",
+        "project card on https://behkooshan.ir/_project/page/3/"
       ],
       "project_page": "https://behkooshan.ir/_project/bellatrix/"
+    },
+    {
+      "file": "images/03-Bellatrix-project1.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg",
+      "archived_url": null,
+      "alt": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1364,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75537,
+      "sha1": "c1b796b5be88caa7985aba0d9d8534f9e4ccb277",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/bellatrix/",
+        "project page https://fa.behkooshan.ir/projects/bellatrix/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/bellatrix/",
+      "site_title": "Bellatrix-project1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Bellatrix-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg"
+      ]
     }
   ],
   "textures": [],

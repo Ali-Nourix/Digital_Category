@@ -112,8 +112,8 @@
     {
       "file": "images/04-Belvedere-1-scaled.jpg",
       "kind": "project",
-      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg",
-      "archived_url": "https://web.archive.org/web/20260226234138id_/https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg?strip=all",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Belvedere-1-scaled.jpg",
+      "archived_url": null,
       "alt": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)",
       "alt_fa": "بلودره – تصویر بخش پروژه‌های سایت",
       "site_alt": null,
@@ -121,13 +121,77 @@
       "height": 1080,
       "format": "JPEG",
       "resolution": "wp-scaled",
-      "bytes": 144194,
-      "sha1": "96c1a7d923f833c6f5f79dcc903be98a3e398f92",
+      "bytes": 144560,
+      "sha1": "c853e7ef1bec9859c2c6bca0b02e5269ad52c5f3",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/page/2/",
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/belvedere/",
+        "project page https://fa.behkooshan.ir/projects/belvedere/"
       ],
-      "project_page": "https://behkooshan.ir/_project/belvedere/"
+      "project_page": "https://behkooshan.ir/_project/belvedere/",
+      "site_title": "Belvedere",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Belvedere-1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:13Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Belvedere-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-2-scaled.jpg"
+      ],
+      "replaces": {
+        "file": "images/04-Belvedere-1-scaled.jpg",
+        "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg",
+        "archived_url": "https://web.archive.org/web/20260226234138id_/https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg?strip=all",
+        "width": 1440,
+        "height": 1080,
+        "resolution": "wp-scaled",
+        "bytes": 144194,
+        "sha1": "96c1a7d923f833c6f5f79dcc903be98a3e398f92"
+      },
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Belvedere-1.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4051163,
+        "sha1": "d1469251c8ff65dc80c9c1ee2529d69b2d43442a",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-Belvedere-02-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg",
+      "archived_url": null,
+      "alt": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلودره – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 190719,
+      "sha1": "3f76c70e18d19eba1c233204b1a94f1d858225bb",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/belvedere/",
+        "project page https://fa.behkooshan.ir/projects/belvedere/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/belvedere/",
+      "site_title": "Belvedere 02",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Belvedere-02-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:15Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Belvedere-02.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4047349,
+        "sha1": "f968749fecc29bf68044ae69689f59a03ede34b8",
+        "format": "JPEG"
+      }
     }
   ],
   "textures": [

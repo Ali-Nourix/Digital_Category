@@ -51,6 +51,139 @@
       "seen_on": [
         "product card on https://behkooshan.ir/product/patagonia-black/"
       ]
+    },
+    {
+      "file": "images/02-Elegant-Brown-pr.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr.webp",
+      "archived_url": null,
+      "alt": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 1708,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 260688,
+      "sha1": "7dbae24e847100dbc981779c26239f351709d457",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/elegant-brown/",
+        "project page https://fa.behkooshan.ir/projects/elegant-brown/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/elegant-brown/",
+      "site_title": "Elegant Brown-pr",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Brown-pr.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:46Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Brown-pr.webp"
+      ]
+    },
+    {
+      "file": "images/03-Elegant-Brown-pr1.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr1.webp",
+      "archived_url": null,
+      "alt": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 1708,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 196544,
+      "sha1": "76125bc46c4bef03ebc1036e86c552cbf9a47b35",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/elegant-brown/",
+        "project page https://fa.behkooshan.ir/projects/elegant-brown/",
+        "project card on https://behkooshan.ir/_project/page/3/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/elegant-brown/",
+      "site_title": "Elegant Brown-pr1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Brown-pr1.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:46Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr1.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Brown-pr1.webp"
+      ]
+    },
+    {
+      "file": "images/04-Elegant-Brown-pr2.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp",
+      "archived_url": null,
+      "alt": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1708,
+      "height": 2560,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 195258,
+      "sha1": "36d869f7feb3d318f34ac1cbc21feaa52414794f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/elegant-brown/",
+        "project page https://fa.behkooshan.ir/projects/elegant-brown/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/elegant-brown/",
+      "site_title": "Elegant Brown-pr2",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Brown-pr2.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:51Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp"
+      ],
+      "also_shown_for": [
+        {
+          "stone": "naica-quartzite",
+          "pages": [
+            "https://fa.behkooshan.ir/projects/naica-quartzite/"
+          ],
+          "site_files": [
+            "https://fa.behkooshan.ir/wp-content/uploads/PR_1816-HDR-scaled.jpg"
+          ]
+        }
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/PR_1816-HDR.jpg",
+        "width": 5269,
+        "height": 7899,
+        "bytes": 2390374,
+        "sha1": "fcbf598d293cfd6cd3bd5cf1185ec1e19f0f13dc",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-Elegant-Brown-pr3.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr3.webp",
+      "archived_url": null,
+      "alt": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 1707,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 149162,
+      "sha1": "e0779798c719779c94691334734d1b7060964d25",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/elegant-brown/",
+        "project page https://fa.behkooshan.ir/projects/elegant-brown/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/elegant-brown/",
+      "site_title": "Elegant Brown-pr3",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Brown-pr3.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:58Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr3.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Brown-pr3.webp"
+      ]
     }
   ],
   "textures": [],
@@ -86,7 +219,18 @@
     }
   },
   "listed_in_feb_2026_persian_sitemap": true,
-  "projects": [],
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/elegant-brown/",
+      "title": "Elegant Brown"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/elegant-brown/",
+      "title": "Elegant Brown"
+    }
+  ],
   "archived_pages": {
     "fa": [],
     "en": []
@@ -99,6 +243,7 @@
     "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
     "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived).",
+    "One project photo is shown both on this stone's project page (as Elegant-Brown-pr2.webp, 1708x2560, the file stored here) and on the Persian project page of Naica Quartzite (/projects/naica-quartzite/, as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload). It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner."
   ]
 }

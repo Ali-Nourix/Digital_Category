@@ -69,7 +69,9 @@
       "sha1": "e60159dd41c64ea05ed4719d2a4f8056ad394abc",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/page/2/",
-        "project card on https://fa.behkooshan.ir/projects/page/2/"
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/jeriba-blue/",
+        "project page https://fa.behkooshan.ir/projects/jeiba-blue/"
       ],
       "project_page": "https://behkooshan.ir/_project/jeriba-blue/"
     },
@@ -92,6 +94,70 @@
         "project card on https://fa.behkooshan.ir/projects/page/2/"
       ],
       "project_page": "https://behkooshan.ir/_project/jeriba-blue/"
+    },
+    {
+      "file": "images/04-Jeriba-Blue-pr.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Jeriba-Blue-pr.jpg",
+      "archived_url": null,
+      "alt": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 922,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87282,
+      "sha1": "031c059d5e128ff1aa01b2bea64bba116294f84e",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/jeriba-blue/",
+        "project page https://fa.behkooshan.ir/projects/jeiba-blue/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/jeriba-blue/",
+      "site_title": "Jeriba Blue-pr",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Jeriba-Blue-pr.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:42:58Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Jeriba-Blue-pr.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Jeriba-Blue-pr.jpg"
+      ]
+    },
+    {
+      "file": "images/05-39-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/39-final-scaled.jpg",
+      "archived_url": null,
+      "alt": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 151208,
+      "sha1": "8ef504d1c31a4a7882c56d09c2ce8e3b9682098d",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/jeriba-blue/",
+        "project page https://fa.behkooshan.ir/projects/jeiba-blue/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/jeriba-blue/",
+      "site_title": "39 final",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/39-final-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:57Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/39-final-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/39-final-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/39-final.jpg",
+        "width": 2250,
+        "height": 3000,
+        "bytes": 4855200,
+        "sha1": "4412b512b3dde8cf58eddca09b17abbf7b926764",
+        "format": "JPEG"
+      }
     }
   ],
   "textures": [],
@@ -150,6 +216,7 @@
     "No archived page states the category; \"imported\" is inferred from the origin (Brazil).",
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
     "No archived copy of this product on the Persian site (fa.behkooshan.ir); Persian specs are translated from the English site. The product is listed in the Persian sitemap of Feb 2026.",
-    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived)."
+    "No \"Texture Download\" link was found on the archived product pages (or the pages were not archived).",
+    "images/03-2338-038-2048x1141.jpg has kind \"project\" but is the Jeriba Blue project's featured (card) image, a close-up of the slab, not an installation photo; the live gallery of /_project/jeriba-blue/ does not contain it."
   ]
 }

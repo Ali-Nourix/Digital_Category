@@ -105,9 +105,95 @@
       "sha1": "51558d00c517da4fe7018f73e32617145f04b5cd",
       "seen_on": [
         "project card on https://behkooshan.ir/_project/",
-        "project card on https://fa.behkooshan.ir/projects/"
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/gando/",
+        "project page https://fa.behkooshan.ir/projects/gando/"
       ],
       "project_page": "https://behkooshan.ir/_project/gando/"
+    },
+    {
+      "file": "images/04-Gando-01.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Gando-01.jpg",
+      "archived_url": null,
+      "alt": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "گاندو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 614,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 84360,
+      "sha1": "9ca6fffaf38ff891cf7a752410abe1feda056324",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/gando/",
+        "project page https://fa.behkooshan.ir/projects/gando/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/gando/",
+      "site_title": "Gando 01",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Gando-01.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:56Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Gando-01.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Gando-01.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Gando-02.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Gando-02.jpg",
+      "archived_url": null,
+      "alt": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "گاندو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 563,
+      "height": 1000,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 31362,
+      "sha1": "a7ee0a2760ba4f6b9188903e3afbb57619722d47",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/gando/",
+        "project page https://fa.behkooshan.ir/projects/gando/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/gando/",
+      "site_title": "Gando 02",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Gando-02.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:57Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Gando-02.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Gando-02.jpg"
+      ]
+    },
+    {
+      "file": "images/06-Gando-04.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Gando-04.jpg",
+      "archived_url": null,
+      "alt": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "گاندو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 563,
+      "height": 1000,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 51852,
+      "sha1": "b12a7834f4c3f6b7067ea369cc4ff6b6bf8f6794",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/gando/",
+        "project page https://fa.behkooshan.ir/projects/gando/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/gando/",
+      "site_title": "Gando 04",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Gando-04.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:47:21Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Gando-04.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Gando-04.jpg"
+      ]
     }
   ],
   "textures": [],

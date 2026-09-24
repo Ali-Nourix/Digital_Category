@@ -109,7 +109,92 @@
         "project page https://behkooshan.ir/_project/infinity-gold/",
         "project page https://fa.behkooshan.ir/projects/infinity-gold/"
       ],
-      "project_page": "https://behkooshan.ir/_project/infinity-gold/"
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "42",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/42-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/42-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/42.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3804721,
+        "sha1": "bbc03a0306bc5e658304c00377807f867a012076",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-43-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/43-scaled.jpg",
+      "archived_url": null,
+      "alt": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 175839,
+      "sha1": "b1e11ccdd0119fd45576bf72419466d85696f146",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/infinity-gold/",
+        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "43",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/43-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:00Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/43-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/43-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/43.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3677956,
+        "sha1": "d76c2b33fc4d80098a0cdee7e73e6135a104acc3",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-44-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/44-scaled.jpg",
+      "archived_url": null,
+      "alt": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 202152,
+      "sha1": "4f2e6e00cc70c75145e541b431db87e26749fb9e",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/infinity-gold/",
+        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "44",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/44-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:02Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/44-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/44-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/44.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4057458,
+        "sha1": "653e3580d493bc435e42d1ac2507613678921f73",
+        "format": "JPEG"
+      }
     }
   ],
   "textures": [],
@@ -151,12 +236,12 @@
     {
       "lang": "en",
       "url": "https://behkooshan.ir/_project/infinity-gold/",
-      "title": null
+      "title": "Infinity Gold"
     },
     {
       "lang": "fa",
       "url": "https://fa.behkooshan.ir/projects/infinity-gold/",
-      "title": null
+      "title": "Infinity Gold"
     }
   ],
   "archived_pages": {
@@ -206,26 +291,7 @@
     ],
     "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
   },
-  "missing_images": [
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/43-scaled.jpg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/infinity-gold/",
-        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    },
-    {
-      "url": "https://es55asecvav.exactdn.com/wp-content/uploads/44-scaled.jpg?strip=all",
-      "kind": "project",
-      "seen_in": [
-        "project page https://behkooshan.ir/_project/infinity-gold/",
-        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
-      ],
-      "reason": "not archived by the Wayback Machine"
-    }
-  ],
+  "missing_images": [],
   "missing_textures": [
     {
       "jet_download": "e227f1fbd8584e7e789e26b712960de58d0ce963",
@@ -238,7 +304,7 @@
   ],
   "notes": [
     "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
-    "2 image(s) referenced by the site were not archived and are missing; see missing_images.",
+    "The 2 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
     "Texture download file(s) linked on the product page were not archived; see missing_textures."
   ]
 }
