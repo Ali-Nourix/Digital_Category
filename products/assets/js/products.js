@@ -6,9 +6,11 @@
 
      warm      ask for each photograph a few screens before the reader
                reaches it
-     reveal    titles set themselves word by word and photographs are
-               uncovered from the leading edge as they reach the screen
-     band      the surfaces at the head of the listing, one after another
+     reveal    the catalogue's: blocks rise, titles set themselves word by
+               word and photographs are uncovered from the leading edge as
+               they reach the screen, and again on the way back
+     band      the surfaces at the head of the listing, one after another,
+               with the name of each under it
      search    by any name the stone has gone by, in either script, however
                it is typed: Arabic or Persian letter forms, with or without
                the half space, with or without the gaps between words
@@ -59,45 +61,87 @@
 
   /* ------------------------------------------------------------ reveal */
 
+  /* The catalogue's own (catalogue.js in that branch), move for move. What
+     the reader cannot see yet is hidden, then each piece is brought in as
+     the scroll reaches it and taken back out when it leaves, so the way
+     back plays too, unless the stylesheet says the page is being read as a
+     deck of cards, where what has arrived stays. .reveal fades a block up,
+     .headline writes a title one word at a time, .place uncovers a
+     photograph, .divider wipes a group's green in.
+
+     A stone the filters have taken out of the grid is left in whatever
+     state it was in, so it comes back as it went rather than closed. */
   (function reveal() {
     if (!("IntersectionObserver" in window) || reduced.matches) return;
-    var targets = Array.prototype.slice.call(document.querySelectorAll(".headline, .stone__frame, .plate"));
+    var targets = Array.prototype.slice.call(document.querySelectorAll(".reveal, .headline, .place, .divider"));
     if (!targets.length) return;
 
-    // Only what the reader cannot see yet is hidden, so nothing on the
-    // first screen flashes out and back.
+    // Only hide what the reader cannot see yet. Hiding everything and then
+    // letting the observer undo it one frame later is what makes a page
+    // flash on load.
     var along = sideways();
+    var fold = (along ? window.innerWidth : window.innerHeight) * 0.94;
     targets.forEach(function (el) {
       var box = el.getBoundingClientRect();
       var ahead = along ? Math.max(box.left, window.innerWidth - box.right) : box.top;
-      var fold = (along ? window.innerWidth : window.innerHeight) * 0.94;
       if (ahead > fold) el.classList.add("is-out");
     });
 
-    // Once laid down a photograph stays: a grid being browsed back and forth
-    // is not a document being read in both directions.
+    // Whether any part of a block is on screen. A paragraph poured from the
+    // foot of one column to the head of the next is one element in two
+    // pieces, and the observer only watches the first.
+    function onScreen(el) {
+      var pieces = el.getClientRects();
+      for (var i = 0; i < pieces.length; i += 1) {
+        var r = pieces[i];
+        if (r.right > 0 && r.left < window.innerWidth && r.bottom > 0 && r.top < window.innerHeight) return true;
+      }
+      return false;
+    }
+
+    // Whether a block that has arrived goes back out when it leaves. The
+    // stylesheet decides, because it is the one that knows what the page is
+    // being read as: on a phone's deck of cards a photograph opens once and
+    // stays open, since a card being dragged away is still being looked at.
+    function returns() {
+      return getComputedStyle(root).getPropertyValue("--reveal-returns").trim() !== "0";
+    }
+
     var observer = new IntersectionObserver(
       function (entries) {
+        var back = returns();
         entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.remove("is-out");
-          observer.unobserve(entry.target);
+          var el = entry.target;
+          if (el.closest("[hidden]")) return;
+          var gone = !entry.isIntersecting && !onScreen(el);
+          if (gone && !back) return;
+          el.classList.toggle("is-out", gone);
         });
       },
+      // The trailing edge is pulled in a little so a block starts arriving
+      // just before it would otherwise be flush with the window edge.
       { rootMargin: along ? "0px -6% 0px -6%" : "0px 0px -6% 0px" }
     );
+
     targets.forEach(function (el) {
-      if (el.classList.contains("is-out")) observer.observe(el);
+      observer.observe(el);
     });
   })();
 
   /* -------------------------------------------------------------- band */
 
   /* The band's surfaces, each laid over the last from the leading edge every
-     few seconds. The next is fetched and decoded before its turn, so the
-     wipe never uncovers a picture still arriving; the band waits while it is
-     off the screen or the tab is hidden, and holds its first surface for a
-     reader who has asked for less motion. */
+     few seconds, with the catalogue's figures: uncovered in a second,
+     settled out of its overscale in a little more. The name under it goes
+     out as the new surface starts across, and the new name is written word
+     by word while it is still arriving. The next surface is fetched and
+     decoded before its turn, so the wipe never uncovers a picture still
+     loading; the band waits while it is off the screen or the tab is
+     hidden, and holds its first surface for a reader who has asked for less
+     motion. The way it moves is written here, with the Web Animations API,
+     rather than as classes in the stylesheet: two classes on one image
+     racing each other for the same property, in two directions, is how the
+     Persian band came to cut instead of wipe. */
   (function band() {
     var hero = document.querySelector("[data-hero]");
     if (!hero || reduced.matches) return;
@@ -108,15 +152,69 @@
     } catch (e) {
       return;
     }
-    if (!slides.length) return;
+    if (slides.length < 2 || !frame.animate) return;
 
-    var HOLD = 4200;
+    var HOLD = 4800;
+    var LAY = 1000;
+    var SETTLE = 1200;
+    var OUT = 260;
+    var EASE = "cubic-bezier(0.16, 1, 0.3, 1)";
+    var AWAY = "cubic-bezier(0.7, 0, 0.84, 0)";
+
     var sizes = hero.getAttribute("data-sizes");
-    var first = frame.querySelector(".hero__img");
-    slides.unshift({ srcset: first.getAttribute("srcset"), src: first.getAttribute("src") });
+    var rtl = getComputedStyle(root).direction === "rtl";
+    var closed = rtl ? "inset(0 0 0 100%)" : "inset(0 100% 0 0)";
+    var link = document.querySelector("[data-hero-link]");
+    var title = document.querySelector("[data-hero-title]");
+    var alt = document.querySelector("[data-hero-alt]");
+
     var index = 0;
     var timer = null;
     var visible = true;
+
+    /** A name as the catalogue writes a title: a masked span a word. */
+    function write(text) {
+      title.textContent = "";
+      text.split(/\s+/).forEach(function (word, i) {
+        if (i) title.appendChild(document.createTextNode(" "));
+        var mask = document.createElement("span");
+        mask.className = "word";
+        mask.style.setProperty("--w", i);
+        var inner = document.createElement("span");
+        inner.textContent = word;
+        mask.appendChild(inner);
+        title.appendChild(mask);
+      });
+    }
+
+    function rename(slide) {
+      if (!title) return;
+      var old = Array.prototype.slice.call(title.querySelectorAll(".word > span"));
+      old.forEach(function (span, i) {
+        span.animate([{ transform: "translateY(0)" }, { transform: "translateY(-110%)" }], {
+          duration: OUT,
+          delay: i * 30,
+          easing: AWAY,
+          fill: "forwards",
+        });
+      });
+      if (alt) alt.animate([{ opacity: 1 }, { opacity: 0 }], { duration: OUT, easing: "linear", fill: "forwards" });
+
+      setTimeout(function () {
+        // The words the stylesheet wrote on load rise on their own; these
+        // rise at once, since the surface they name is already arriving.
+        title.style.setProperty("--at", "0ms");
+        write(slide.name);
+        if (link) link.setAttribute("href", slide.href);
+        if (alt) {
+          alt.textContent = slide.alt;
+          alt.getAnimations().forEach(function (a) {
+            a.cancel();
+          });
+          alt.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 700, delay: 180, easing: EASE, fill: "backwards" });
+        }
+      }, OUT + old.length * 30);
+    }
 
     function next() {
       timer = null;
@@ -124,7 +222,7 @@
       index = (index + 1) % slides.length;
       var slide = slides[index];
       var img = document.createElement("img");
-      img.className = "hero__img is-entering";
+      img.className = "hero__img";
       img.alt = "";
       img.decoding = "async";
       img.sizes = sizes;
@@ -133,19 +231,15 @@
       var ready = img.decode ? img.decode() : Promise.resolve();
       ready.catch(function () {}).then(function () {
         frame.appendChild(img);
-        // Two frames: one to lay it down closed, one to open it.
-        requestAnimationFrame(function () {
-          requestAnimationFrame(function () {
-            img.classList.add("is-in");
-          });
-        });
+        img.animate([{ clipPath: closed }, { clipPath: "inset(0 0 0 0)" }], { duration: LAY, easing: EASE });
+        img.animate([{ transform: "scale(1.07)" }, { transform: "none" }], { duration: SETTLE, easing: EASE });
+        rename(slide);
         setTimeout(function () {
           Array.prototype.slice.call(frame.querySelectorAll(".hero__img")).forEach(function (old) {
             if (old !== img) old.remove();
           });
-          img.classList.remove("is-entering", "is-in");
           schedule();
-        }, 1500);
+        }, SETTLE + 100);
       });
     }
 

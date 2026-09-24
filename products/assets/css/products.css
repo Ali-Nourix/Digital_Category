@@ -51,7 +51,13 @@
      corner anywhere and neither does the brand. */
   --radius: 0;
 
+  /* Motion, the catalogue's figures. The reveal is slow enough to read as
+     placing rather than as a flicker; the steps between the parts of one
+     block are short enough that the block still arrives as one. */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-reveal: 900ms;
+  --dur-word: 720ms;
+  --step-delay: 70ms;
 }
 
 @media (min-width: 60rem) {
@@ -275,6 +281,40 @@ html[lang="fa"] .bar__logo .bk-logo {
   display: flex;
   align-items: center;
   gap: var(--space-2);
+}
+
+/* The reading line, the catalogue's: how far down the page the reader is,
+   along the hairline under the bar. Pure CSS where the browser has a scroll
+   timeline; where it does not, there is simply no line, which costs the
+   page nothing. Sideways it follows the track (products-wide.css). */
+.progress {
+  position: absolute;
+  inset-block-end: calc(var(--hairline) * -1);
+  inset-inline-start: 0;
+  block-size: 2px;
+  inline-size: 100%;
+  background-color: var(--print-green);
+  transform-origin: left center;
+  transform: scaleX(0);
+}
+
+html[dir="rtl"] .progress {
+  transform-origin: right center;
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .progress {
+      animation: progress linear both;
+      animation-timeline: scroll(root block);
+    }
+  }
+}
+
+@keyframes progress {
+  to {
+    transform: scaleX(1);
+  }
 }
 
 /* A phone's bar carries a mark and three controls, and at the sizes the rest
@@ -808,46 +848,93 @@ html[lang="en"] .card__name {
    ========================================================================== */
 
 /* --- Intro ----------------------------------------------------------------
-   A band of the stones themselves across the head of the page, one surface
-   after another, and the page's title under it. The grid is the page; this
-   only says what it is. */
+   The stones themselves across the head of the page from one edge of the
+   window to the other, one surface after another, as the catalogue gives
+   the whole width to each of its plates; the name of the stone showing
+   under it, as a caption stands under a plate; then the page's title and
+   the filters. The grid is the page; this only says what it is. */
 
-.intro__inner {
-  padding-block: clamp(1.25rem, 3vw, 2.25rem) clamp(1.5rem, 3vw, 2.25rem);
-}
-
-/* The band. Each surface is uncovered over the one before from the leading
-   edge, the move the catalogue lays every photograph onto its page with,
-   and the frame is cut at the trailing corner as every framed photograph
-   is. Purely a picture: it is hidden from assistive technology, and the
-   stones it shows are all in the grid under it. */
+/* The band. A full bleed photograph, so it is not cut: the notch belongs to
+   a framed picture, and one running off both edges of the window has no
+   frame to cut, as the catalogue's plates have none. Tall enough to be a
+   picture rather than a strip, short enough that the title and the search
+   are still on the first screen. The next surface is laid over the last
+   from the leading edge (see Motion); the ground under them is the bone of
+   an empty frame, for the moment before the first arrives. */
 .hero {
-  --cut: clamp(1.25rem, 3vw, 2.25rem);
-
   position: relative;
-  block-size: clamp(11rem, 30vw, 24rem);
-  margin-block-end: clamp(1.5rem, 3.5vw, 2.5rem);
+  block-size: clamp(15rem, 52svh, 34rem);
+  background-color: var(--bone-soft);
 }
 
 .hero__frame {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background-color: var(--bone-soft);
-  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
 }
 
-html[dir="rtl"] .hero__frame {
-  clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--cut));
-}
-
-.hero__img {
+html[dir] .hero__img {
   position: absolute;
-  inset-block-start: 0;
-  inset-inline: 0;
+  inset: 0;
   inline-size: 100%;
   block-size: 100%;
+  max-inline-size: none;
   object-fit: cover;
+}
+
+/* The caption: the stone's name in the page's face, the other name after
+   it in its own and quieter, on the line under the band where the reading
+   starts. A link to the stone, the height of a finger. */
+.hero__caption {
+  padding-block-start: var(--space-2);
+}
+
+.hero__name {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: var(--space-3);
+  min-block-size: 2.75rem;
+  padding-block: var(--space-2);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.hero__title {
+  font-size: var(--step-0);
+  line-height: 1.35;
+  transition: color var(--dur-fast) linear;
+}
+
+html[lang="fa"] .hero__title {
+  font-weight: 700;
+}
+
+html[lang="en"] .hero__title {
+  font-weight: 600;
+}
+
+.hero__alt {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  line-height: 1.45;
+}
+
+.hero__alt[lang="en"] {
+  font-family: var(--font-en);
+}
+
+.hero__alt[lang="fa"] {
+  font-family: var(--font-fa);
+}
+
+.hero__name:hover .hero__title,
+.hero__name:focus-visible .hero__title {
+  color: var(--print-green);
+}
+
+.intro__inner {
+  padding-block: clamp(0.75rem, 2vw, 1.5rem) clamp(1.5rem, 3vw, 2.25rem);
 }
 
 .intro__title {
@@ -962,10 +1049,6 @@ html[lang="fa"] .filters__label {
 
   .filters:not(.is-open) .facets {
     display: none;
-  }
-
-  .intro {
-    padding-block: var(--space-8) var(--space-5);
   }
 }
 
@@ -1274,9 +1357,14 @@ html[lang="en"] .group__count {
 
 .stone__link {
   display: grid;
-  gap: var(--space-1);
   color: inherit;
   text-decoration: none;
+}
+
+.stone__text {
+  display: grid;
+  gap: var(--space-1);
+  min-inline-size: 0;
 }
 
 .stone__frame {
@@ -1292,8 +1380,8 @@ html[lang="en"] .group__count {
 
 /* The photograph sits in an inner frame one hairline inside the cut one,
    and it is the inner frame that carries the notch, so the photograph can
-   move inside it (the drift, the settle as it is uncovered, the lean under
-   the pointer) without the stroke along the diagonal moving with it. The
+   move inside it (the settle as it is uncovered, the lean under the
+   pointer) without the stroke along the diagonal moving with it. The
    frame's own ground shows through for the moment before the file arrives. */
 .stone__photo {
   position: absolute;
@@ -1742,28 +1830,53 @@ html[lang="en"] .about__heading {
 
 /* ==========================================================================
    Motion
-   The catalogue's moves, each with the same job it has there.
+   The catalogue's own moves (assets/css/catalogue.css in that branch), each
+   with the job it has there:
 
-     words    a title sets itself one word at a time
+     reveal   a block arrives as the scroll reaches it, and arrives again on
+              the way back, because the grid is browsed in both directions
+     words    a title sets itself one word at a time, so the eye lands on the
+              heading before what is under it
      place    a photograph is uncovered from its leading edge and settles out
-              of a slight overscale, the way a plate is laid onto a page: the
-              stones as they reach the screen, and each surface of the band
-              over the one before it
-     drift    a photograph moves against the scroll, which turns it from a
-              picture into a window, where the browser can drive it from the
-              scroll itself
+              of a slight overscale, the way a plate is laid onto a page
+     divider  a group's green comes in from the edge it is printed against,
+              sideways, where a group opens on a panel of green
+
+   and two made of the same moves:
+
+     band     the listing sets itself on load as the catalogue's cover does,
+              and every few seconds the band lays the next surface over the
+              last and writes its name under it
      arrive   a stone that comes back into the grid when a filter changes
               fades up where it lands
 
-   Every base state is the finished one: the script adds `is-out` to hide,
-   never the reverse, so a page without it is complete.
+   The first four are IntersectionObserver plus a class, as there, and every
+   base state is the finished one: the script adds `is-out` to hide, never
+   the reverse, so a page without it is a complete page.
    ========================================================================== */
 
 @media (prefers-reduced-motion: no-preference) {
+  .js .reveal.is-out {
+    opacity: 0;
+    transform: translateY(var(--reveal-shift, 1.5rem));
+  }
+
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: opacity var(--dur-reveal) var(--ease-out),
+                transform var(--dur-reveal) var(--ease-out);
+    transition-delay: calc(var(--i, 0) * var(--step-delay));
+  }
+
+  /* Words of a title. The span is the moving part; the mask around it is
+     what makes the word appear to be written rather than faded in. */
   .js .word {
     display: inline-block;
     overflow: hidden;
     vertical-align: bottom;
+    /* Persian descenders sit low and the Latin face has a deep j; the pad
+       keeps both off the mask edge. */
     padding-block-end: 0.14em;
     margin-block-end: -0.14em;
   }
@@ -1771,65 +1884,99 @@ html[lang="en"] .about__heading {
   .js .word > span {
     display: inline-block;
     transform: none;
-    transition: transform 720ms var(--ease-out);
+    transition: transform var(--dur-word) var(--ease-out);
     transition-delay: calc(var(--w, 0) * 55ms);
   }
 
-  .js .is-out .word > span {
+  .js .is-out .word > span,
+  .js .word.is-out > span {
     transform: translateY(110%);
   }
 
-  /* A stone's photograph, uncovered from the leading edge. The closed state
-     is the open notch with every point pulled to that edge, so the two are
-     the same shape and one runs into the other. */
-  .js .stone__photo {
-    transition: clip-path 1000ms var(--ease-out);
+  /* A photograph on a stone's own page, uncovered from the leading edge.
+     Sideways it runs to the trim and is a rectangle, and opens as a
+     rectangle; upright it is framed, and its closed state is the open notch
+     with every point pulled to the leading edge, so the two are the same
+     shape and one runs smoothly into the other. `scale` rather than a
+     transform, so the settle and the lean under the pointer add up. */
+  .js .plate.place img {
+    transition: scale 1200ms var(--ease-out), clip-path 1000ms var(--ease-out);
   }
 
-  .js .stone__photo img {
-    transition: scale 1200ms var(--ease-out);
+  .js .plate.place:not(.cut) img {
+    clip-path: inset(0 0 0 0);
   }
 
-  .js .is-out .stone__photo {
-    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
-  }
-
-  html.js[dir="rtl"] .is-out .stone__photo {
-    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
-  }
-
-  .js .is-out .stone__photo img {
+  .js .plate.place.is-out img {
     scale: 1.07;
-  }
-
-  /* A photograph on a stone's own page, the same way. */
-  .js .plate img {
-    transition: clip-path 1000ms var(--ease-out), scale 1200ms var(--ease-out);
-  }
-
-  .js .plate.is-out img {
-    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
-    scale: 1.07;
-  }
-
-  html.js[dir="rtl"] .plate.is-out img {
-    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
-  }
-
-  /* The band: the next surface laid over the last. */
-  .hero__img.is-entering {
     clip-path: inset(0 100% 0 0);
-    scale: 1.07;
   }
 
-  html[dir="rtl"] .hero__img.is-entering {
+  html.js[dir="rtl"] .plate.place.is-out img {
     clip-path: inset(0 0 0 100%);
   }
 
-  .hero__img.is-entering.is-in {
-    clip-path: inset(0 0 0 0);
-    scale: 1;
-    transition: clip-path 1100ms var(--ease-out), scale 1400ms var(--ease-out);
+  .js .plate.place.cut.is-out img {
+    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
+  }
+
+  html.js[dir="rtl"] .plate.place.cut.is-out img {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
+  }
+
+  /* A stone's cell, the same way: the inner frame carries the notch, so it
+     is the inner frame that is uncovered, and the photograph in it that
+     settles. */
+  .js .stone__frame.place .stone__photo {
+    transition: clip-path 1000ms var(--ease-out);
+  }
+
+  .js .stone__frame.place .stone__photo img {
+    transition: scale 1200ms var(--ease-out);
+  }
+
+  .js .stone__frame.place.is-out .stone__photo {
+    clip-path: polygon(0 0, 0 0, 0 calc(var(--cut) - var(--hairline)), 0 100%, 0 100%);
+  }
+
+  html.js[dir="rtl"] .stone__frame.place.is-out .stone__photo {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% calc(var(--cut) - var(--hairline)));
+  }
+
+  .js .stone__frame.place.is-out .stone__photo img {
+    scale: 1.07;
+  }
+
+  /* The listing sets itself on load, as the catalogue's cover does, and by
+     keyframes, as the cover's are, so that the opening of the page never
+     waits on a script: the first surface is laid onto the band, then its
+     name and the page's title are written, one word after another. Every
+     later surface is laid down, and its name written, by the script, with
+     the same figures. */
+  .js .hero__img--first {
+    animation: band-open 1000ms var(--ease-out) both, band-settle 1200ms var(--ease-out) both;
+  }
+
+  html.js[dir="rtl"] .hero__img--first {
+    animation-name: band-open-rtl, band-settle;
+  }
+
+  .js .hero__title .word > span,
+  .js .intro__title .word > span {
+    animation: word-rise var(--dur-word) var(--ease-out) both;
+    animation-delay: calc(var(--at, 0ms) + var(--w, 0) * 55ms);
+  }
+
+  .js .hero__title {
+    --at: 380ms;
+  }
+
+  .js .intro__title {
+    --at: 520ms;
+  }
+
+  .js .hero__alt {
+    animation: fade-in 700ms var(--ease-out) 560ms both;
   }
 
   .stone.is-arriving {
@@ -1837,34 +1984,49 @@ html[lang="en"] .about__heading {
   }
 }
 
+@keyframes band-open {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes band-open-rtl {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes band-settle {
+  from {
+    scale: 1.07;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes word-rise {
+  from {
+    transform: translateY(110%);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
 @keyframes stone-in {
   from {
     opacity: 0;
     transform: translateY(0.5rem);
-  }
-}
-
-/* Drift. Only where the browser can drive an animation from the scroll;
-   everywhere else the photograph is already in place and framed. The
-   photograph is made taller than its frame by the distance it travels. */
-@supports (animation-timeline: view()) {
-  @media (prefers-reduced-motion: no-preference) {
-    html[dir] .stone__photo img,
-    .hero__img {
-      block-size: 116%;
-      animation: drift linear both;
-      animation-timeline: view();
-      animation-range: cover 0% cover 100%;
-    }
-  }
-}
-
-@keyframes drift {
-  from {
-    translate: 0 -13.8%;
-  }
-  to {
-    translate: 0 0;
   }
 }
 
