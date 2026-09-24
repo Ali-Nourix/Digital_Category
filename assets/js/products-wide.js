@@ -11,9 +11,13 @@
      2. Page Up, Page Down, Home and End move along the track
      3. the quarry's writing is poured down columns, and how many columns it
         needs is measured here, since CSS cannot say how long a text is
+     4. the first screen says which way the reading goes, and a press on
+        it moves on a screen
 
    On a phone the track is a deck of cards, and the wheel and the keys turn
-   a card at a time instead of gliding.
+   a card at a time instead of gliding. There the band over the first card
+   also sets the deck's horizon, which the green of each group's opener
+   stops on.
 
    Loaded only by the pages in wide/. Deleting it leaves the upright pages
    untouched.
@@ -438,8 +442,27 @@
     cards = [];
   }
 
+  /* The horizon: one line across the deck that the band over the first card
+     and the green of each group's opener both stop on, so that swiping from
+     the one to the other the two edges run on as one line instead of
+     stepping, as the catalogue's do (fitHorizon in its catalogue-wide.js).
+     The band is what the title and the filters leave of the first card, so
+     the line is read off the band. It is kept under the 5:12 of the print's
+     section openers, the catalogue's ceiling: on a tall screen the band
+     would otherwise run on past it, and the green with it. */
+  var HORIZON_MOST = 5 / 12;
+
+  function fitHorizon(deck) {
+    root.style.removeProperty("--horizon");
+    var hero = track.querySelector(".hero");
+    if (!deck || !hero) return;
+    var most = track.clientHeight * HORIZON_MOST;
+    root.style.setProperty("--horizon", Math.floor(Math.min(hero.getBoundingClientRect().height, most)) + "px");
+  }
+
   function fit() {
     fitAbout();
+    fitHorizon(onDeck());
     markCards();
   }
 
@@ -468,4 +491,44 @@
     },
     { passive: true }
   );
+
+  /* ------------------------------------------------------------- the way on */
+
+  /* The first screen's word on which way the reading goes. Shown while the
+     reader is on the first screen, which is within a little of a screen of
+     the start, and not before the band and the title have arrived, so it
+     is not one more thing moving while they do. A press moves on a screen,
+     as Page Down does. */
+  var hint = document.querySelector("[data-hint]");
+  if (hint) {
+    var ready = false;
+    var looking = null;
+
+    var place = function () {
+      looking = null;
+      var home = Math.abs(track.scrollLeft) < track.clientWidth * 0.4;
+      hint.classList.toggle("is-shown", ready && sideways() && home);
+    };
+
+    var look = function () {
+      if (looking === null) looking = requestAnimationFrame(place);
+    };
+
+    hint.hidden = false;
+    track.addEventListener("scroll", look, { passive: true });
+    window.addEventListener("resize", look, { passive: true });
+    setTimeout(function () {
+      ready = true;
+      place();
+    }, 1400);
+
+    hint.addEventListener("click", function () {
+      if (onDeck()) {
+        turn(1);
+        return;
+      }
+      shortest = SLOWEST;
+      travel(track.clientWidth * PAGE);
+    });
+  }
 })();

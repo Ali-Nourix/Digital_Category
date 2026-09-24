@@ -70,6 +70,22 @@
      "fa": "ابسولوت بلک – تصویر بخش پروژه‌های سایت",
      "en": "Absolute Black – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/absolute-black/03-1698176110",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1801,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ابسولوت بلک – تصویر بخش پروژه‌های سایت",
+     "en": "Absolute Black – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": {
@@ -375,6 +391,22 @@
      "fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
      "en": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/bellatrix/03-bellatrix-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1364
+    ],
+    "width": 1364,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+     "en": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -438,6 +470,22 @@
    },
    {
     "base": "media/belvedere/02-belvedere-1-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلودره – تصویر بخش پروژه‌های سایت",
+     "en": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/belvedere/03-belvedere-02-scaled",
     "widths": [
      480,
      800,
@@ -606,6 +654,98 @@
     "alt": {
      "fa": "بلک دایموند – تصویر اصلی محصول (سطح اسلب)",
      "en": "Black Diamond – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/black-diamond/02-3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-diamond/03-707caca5-dc52-43b8-a8cb-f28b9fdd8542",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-diamond/04-black-diamond-2-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-diamond/05-black-diamond-1-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-diamond/06-black-diamond",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-diamond/07-2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+     "en": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -844,6 +984,38 @@
      "fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
      "en": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/black-horse/03-black-horse-1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+     "en": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-horse/04-black-horse-3-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+     "en": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -879,7 +1051,98 @@
   ],
   "colour_source": "name",
   "description": null,
-  "photos": [],
+  "photos": [
+   {
+    "base": "media/black-tempest/01-black-tempest-project",
+    "widths": [
+     480,
+     764
+    ],
+    "width": 764,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-tempest/02-black-tempest-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1358,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-tempest/03-black-tempest-project2",
+    "widths": [
+     480,
+     800,
+     873
+    ],
+    "width": 873,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-tempest/04-black-tempest-project3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1358,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-tempest/05-black-tempest-project4",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-tempest/06-black-tempest-bathroom-2-scaled",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+     "en": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   }
+  ],
   "surface": null,
   "textures": []
  },
@@ -946,6 +1209,157 @@
     "alt": {
      "fa": "بلک زبرا – تصویر اصلی محصول (سطح اسلب)",
      "en": "Black Zebra – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/black-zebra/02-black-zebra-p1",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/03-black-zebra-p2",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/04-black-zebra-p3",
+    "widths": [
+     480,
+     800,
+     922
+    ],
+    "width": 922,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/05-black-zebra-p6",
+    "widths": [
+     480,
+     607
+    ],
+    "width": 607,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/06-1",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 810,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/07-2",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/08-black-zebra-02",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1618,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/09-black-zebra-04",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1618,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/10-black-zebra",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1618,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/black-zebra/11-blak-zebra-03",
+    "widths": [
+     480,
+     721
+    ],
+    "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "بلک زبرا – تصویر بخش پروژه‌های سایت",
+     "en": "Black Zebra – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -1224,6 +1638,154 @@
      "fa": "کاسپر – تصویر اصلی محصول (سطح اسلب)",
      "en": "Casper – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/casper/02-casper-project",
+    "widths": [
+     480,
+     800,
+     864
+    ],
+    "width": 864,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/03-casper-project1",
+    "widths": [
+     480,
+     718
+    ],
+    "width": 718,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/04-casper-project2",
+    "widths": [
+     480,
+     718
+    ],
+    "width": 718,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/05-1-1",
+    "widths": [
+     480,
+     800,
+     1115
+    ],
+    "width": 1115,
+    "height": 743,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/06-2",
+    "widths": [
+     480,
+     800,
+     1115
+    ],
+    "width": 1115,
+    "height": 743,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/07-3-1",
+    "widths": [
+     480,
+     800,
+     1115
+    ],
+    "width": 1115,
+    "height": 743,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/08-4",
+    "widths": [
+     480,
+     800,
+     1115
+    ],
+    "width": 1115,
+    "height": 743,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/09-20260103-145713528-ios",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/10-20260103-145736128-ios",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/casper/11-20260103-145754929-ios",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاسپر – تصویر بخش پروژه‌های سایت",
+     "en": "Casper – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -1477,6 +2039,50 @@
     "alt": {
      "fa": "کاپر دیون – تصویر اصلی محصول (سطح اسلب)",
      "en": "Copper-Dune"
+    }
+   },
+   {
+    "base": "media/copper-dune/02-copper-dune-project",
+    "widths": [
+     480,
+     775
+    ],
+    "width": 775,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+     "en": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/copper-dune/03-copper-dune-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+     "en": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/copper-dune/04-copper-dune-project2",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+     "en": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -2011,6 +2617,70 @@
      "fa": "الگانت براون – تصویر فهرست محصولات",
      "en": "Elegant Brown – product listing image"
     }
+   },
+   {
+    "base": "media/elegant-brown/02-elegant-brown-pr",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1708,
+    "kind": "project",
+    "alt": {
+     "fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+     "en": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/elegant-brown/03-elegant-brown-pr1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1708,
+    "kind": "project",
+    "alt": {
+     "fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+     "en": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/elegant-brown/04-elegant-brown-pr2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1708,
+    "height": 2560,
+    "kind": "project",
+    "alt": {
+     "fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+     "en": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/elegant-brown/05-elegant-brown-pr3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1707,
+    "kind": "project",
+    "alt": {
+     "fa": "الگانت براون – تصویر بخش پروژه‌های سایت",
+     "en": "Elegant Brown – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -2141,6 +2811,37 @@
      "fa": "امرالد کوارتزیت – تصویر اصلی محصول (سطح اسلب)",
      "en": "Emerald Quartzite – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/emerald-quartzite/02-emerald-quartzite-project",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 960,
+    "kind": "project",
+    "alt": {
+     "fa": "امرالد کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Emerald Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/emerald-quartzite/03-emerald-quartzite-project1",
+    "widths": [
+     480,
+     800,
+     960
+    ],
+    "width": 960,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "امرالد کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Emerald Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -2218,8 +2919,72 @@
      1200,
      1600
     ],
-    "width": 1920,
-    "height": 1282,
+    "width": 2560,
+    "height": 1709,
+    "kind": "project",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+     "en": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/evolution-green/03-modernkitchendesign-1-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1709,
+    "height": 2560,
+    "kind": "project",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+     "en": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/evolution-green/04-modernkitchendesign-6-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 2238,
+    "kind": "project",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+     "en": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/evolution-green/05-modernkitchendesign-8-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1709,
+    "height": 2560,
+    "kind": "project",
+    "alt": {
+     "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+     "en": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/evolution-green/06-northgolestan-project-8-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1708,
     "kind": "project",
     "alt": {
      "fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
@@ -2368,6 +3133,48 @@
    },
    {
     "base": "media/gando/02-gando-03",
+    "widths": [
+     480,
+     563
+    ],
+    "width": 563,
+    "height": 1000,
+    "kind": "project",
+    "alt": {
+     "fa": "گاندو – تصویر بخش پروژه‌های سایت",
+     "en": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/gando/03-gando-01",
+    "widths": [
+     480,
+     614
+    ],
+    "width": 614,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "گاندو – تصویر بخش پروژه‌های سایت",
+     "en": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/gando/04-gando-02",
+    "widths": [
+     480,
+     563
+    ],
+    "width": 563,
+    "height": 1000,
+    "kind": "project",
+    "alt": {
+     "fa": "گاندو – تصویر بخش پروژه‌های سایت",
+     "en": "Gando – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/gando/05-gando-04",
     "widths": [
      480,
      563
@@ -2596,6 +3403,38 @@
      "fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
      "en": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/infinity-gold/03-43-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+     "en": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/infinity-gold/04-44-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+     "en": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -2668,6 +3507,20 @@
      721
     ],
     "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "جاکاراندا – تصویر بخش پروژه‌های سایت",
+     "en": "Jacaranda – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/jacaranda/03-1-2",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
     "height": 1080,
     "kind": "project",
     "alt": {
@@ -2844,6 +3697,36 @@
     ],
     "width": 2048,
     "height": 1141,
+    "kind": "project",
+    "alt": {
+     "fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+     "en": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/jeriba-blue/04-jeriba-blue-pr",
+    "widths": [
+     480,
+     800,
+     922
+    ],
+    "width": 922,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
+     "en": "Jeriba Blue – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/jeriba-blue/05-39-final-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
     "kind": "project",
     "alt": {
      "fa": "جریبا بلو – تصویر بخش پروژه‌های سایت",
@@ -3184,6 +4067,54 @@
      "fa": "لابرادوریت لموریان – تصویر اصلی محصول (سطح اسلب)",
      "en": "labradorite"
     }
+   },
+   {
+    "base": "media/lemurian-labradorite/02-lemurian-labradorite-project",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+     "en": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/lemurian-labradorite/03-lemurian-labradorite-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+     "en": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/lemurian-labradorite/04-lemurian-labradorite-project2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+     "en": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -3249,6 +4180,21 @@
     "alt": {
      "fa": "لومیکس واو – تصویر اصلی محصول (سطح اسلب)",
      "en": "Lumix Wow – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/lumix-wow/02-lumix",
+    "widths": [
+     480,
+     800,
+     1024
+    ],
+    "width": 1024,
+    "height": 1536,
+    "kind": "project",
+    "alt": {
+     "fa": "لومیکس واو – تصویر بخش پروژه‌های سایت",
+     "en": "Lumix Wow – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -3380,6 +4326,68 @@
      "fa": "مالیبو رد – تصویر اصلی محصول (سطح اسلب)",
      "en": "Malibu Red – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/malibu-red/02-malibu-red-project",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 720,
+    "kind": "project",
+    "alt": {
+     "fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+     "en": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/malibu-red/03-malibu-red-project1",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 720,
+    "kind": "project",
+    "alt": {
+     "fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+     "en": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/malibu-red/04-malibu-red-02",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 854,
+    "kind": "project",
+    "alt": {
+     "fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+     "en": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/malibu-red/05-malibu-red-05",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 854,
+    "kind": "project",
+    "alt": {
+     "fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+     "en": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -3506,6 +4514,53 @@
    },
    {
     "base": "media/meteorus/02-67",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "متئوروس – تصویر بخش پروژه‌های سایت",
+     "en": "Meteorus – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/meteorus/03-60-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "متئوروس – تصویر بخش پروژه‌های سایت",
+     "en": "Meteorus – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/meteorus/04-61-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "متئوروس – تصویر بخش پروژه‌های سایت",
+     "en": "Meteorus – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/meteorus/05-72",
     "widths": [
      480,
      800,
@@ -3851,6 +4906,158 @@
     "alt": {
      "fa": "نایکا کوارتزیت – تصویر اصلی محصول (سطح اسلب)",
      "en": "Naica Quartzite – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/02-naica-quartzite-project",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1440,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/03-naica-quartzite-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1440,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/04-naica-quartzite-project2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1440,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/05-img-1579",
+    "widths": [
+     480,
+     694
+    ],
+    "width": 694,
+    "height": 731,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/06-img-1580",
+    "widths": [
+     480,
+     717
+    ],
+    "width": 717,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/07-img-1581",
+    "widths": [
+     480,
+     584
+    ],
+    "width": 584,
+    "height": 867,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/08-15-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/09-16-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/10-pr-1506-hdr-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1619,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/naica-quartzite/11-elegant-brown-pr2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1708,
+    "height": 2560,
+    "kind": "project",
+    "alt": {
+     "fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+     "en": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -4245,6 +5452,111 @@
      "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
      "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/negresco/03-36-final-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/04-38-final-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/05-37-final-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/06-ba89e198-f5f9-46ed-8629-2821c0eb7269",
+    "widths": [
+     480,
+     607
+    ],
+    "width": 607,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/07-whatsapp-image-2025-09-04-at-14-39-09-1",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/08-negresco-02",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 720,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/negresco/09-negresco",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+     "en": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -4441,6 +5753,70 @@
      "fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
      "en": "New Patagonia – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/new-patagonia/02-new-patagonia-pr",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+     "en": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/new-patagonia/03-new-patagonia-pr1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+     "en": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/new-patagonia/04-new-patagonia-pr2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+     "en": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/new-patagonia/05-new-patagonia-pr3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+     "en": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -4510,6 +5886,132 @@
      1440
     ],
     "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/03-54-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/04-56-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/05-57-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/06-58-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/07-65-scaled",
+    "widths": [
+     480,
+     772
+    ],
+    "width": 772,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/08-68-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/09-69-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "نیسا – تصویر بخش پروژه‌های سایت",
+     "en": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/nysa/10-71-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
     "height": 1080,
     "kind": "project",
     "alt": {
@@ -4736,6 +6238,21 @@
      "fa": "پاتاگونیا بلک – تصویر بخش پروژه‌های سایت",
      "en": "Patagonia Black – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/patagonia-black/03-patagonia-black1",
+    "widths": [
+     480,
+     800,
+     897
+    ],
+    "width": 897,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "پاتاگونیا بلک – تصویر بخش پروژه‌های سایت",
+     "en": "Patagonia Black – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -4879,8 +6396,40 @@
      1200,
      1600
     ],
-    "width": 1920,
-    "height": 1280,
+    "width": 2560,
+    "height": 1707,
+    "kind": "project",
+    "alt": {
+     "fa": "پاتاگونیا اورجینال – تصویر بخش پروژه‌های سایت",
+     "en": "Patagonia Original – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/patagonia-original/03-img-3035-hdr-2-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1707,
+    "kind": "project",
+    "alt": {
+     "fa": "پاتاگونیا اورجینال – تصویر بخش پروژه‌های سایت",
+     "en": "Patagonia Original – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/patagonia-original/04-img-3040-hdr-2-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1707,
     "kind": "project",
     "alt": {
      "fa": "پاتاگونیا اورجینال – تصویر بخش پروژه‌های سایت",
@@ -5180,6 +6729,51 @@
      "fa": "پلاتینیوم – تصویر اصلی محصول (سطح اسلب)",
      "en": "platinium"
     }
+   },
+   {
+    "base": "media/platinum/02-platinum-project",
+    "widths": [
+     480,
+     800,
+     1130
+    ],
+    "width": 1130,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+     "en": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/platinum/03-platinum-project1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1437,
+    "kind": "project",
+    "alt": {
+     "fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+     "en": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/platinum/04-platinum-project2",
+    "widths": [
+     480,
+     721
+    ],
+    "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پلاتینیوم – تصویر بخش پروژه‌های سایت",
+     "en": "Platinum – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -5245,6 +6839,178 @@
     "alt": {
      "fa": "پرپل رین – تصویر اصلی محصول (سطح اسلب)",
      "en": "Purple Rain – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/purple-rain/02-purple-rain-pr",
+    "widths": [
+     480,
+     800,
+     1199
+    ],
+    "width": 1199,
+    "height": 1600,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/03-purple-rain-pr1",
+    "widths": [
+     480,
+     647
+    ],
+    "width": 647,
+    "height": 828,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/04-purple-rain-pr2",
+    "widths": [
+     480,
+     800,
+     809
+    ],
+    "width": 809,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/05-purple-rain-pr3",
+    "widths": [
+     480,
+     800,
+     1199
+    ],
+    "width": 1199,
+    "height": 1600,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/06-purple-rain-pr4",
+    "widths": [
+     480,
+     800,
+     1199
+    ],
+    "width": 1199,
+    "height": 1600,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/07-purple-rain",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/08-purple-rain-01",
+    "widths": [
+     476
+    ],
+    "width": 476,
+    "height": 845,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/09-purple-rain-02",
+    "widths": [
+     480,
+     563
+    ],
+    "width": 563,
+    "height": 1000,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/10-purple-rain-03",
+    "widths": [
+     480,
+     563
+    ],
+    "width": 563,
+    "height": 1000,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/11-1eeb97a9-e598-48e9-9c75-2ca5898ac4eb",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/12-34bba4e5-74cf-45c5-b4f8-12e08c703464",
+    "widths": [
+     480,
+     720
+    ],
+    "width": 720,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/purple-rain/13-bb0ba710-f9c0-4fe9-946c-faea4c2daf39",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "پرپل رین – تصویر بخش پروژه‌های سایت",
+     "en": "Purple Rain – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -5516,6 +7282,37 @@
      "fa": "ریور نوآر – تصویر بخش پروژه‌های سایت",
      "en": "River Noire – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/river-noire/03-49-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ریور نوآر – تصویر بخش پروژه‌های سایت",
+     "en": "River Noire – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/river-noire/04-50-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ریور نوآر – تصویر بخش پروژه‌های سایت",
+     "en": "River Noire – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -5699,6 +7496,131 @@
     "alt": {
      "fa": "سندد وایت – تصویر اصلی محصول (سطح اسلب)",
      "en": "Sanded White – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/sanded-white/02-sanded-white-p3",
+    "widths": [
+     480,
+     800,
+     983
+    ],
+    "width": 983,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/03-sanded-white-p4",
+    "widths": [
+     480,
+     800,
+     983
+    ],
+    "width": 983,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/04-sanded-white-pr",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/05-sanded-white-pr1",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/06-606216c2-be8d-44b7-91ae-860c0e2ca909",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/07-c7173c40-bd0b-4d99-aca6-b774520a9f51",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 2560,
+    "height": 1440,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/08-dea54320-6448-4d62-a5a7-d0ad8f3d80a3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/sanded-white/09-f8bef301-3e67-4717-a2a2-af367ba994c5",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "سندد وایت – تصویر بخش پروژه‌های سایت",
+     "en": "Sanded White – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -6055,6 +7977,85 @@
      "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
      "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/t-rex/03-45-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1920,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/t-rex/04-46-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/t-rex/05-47-scaled",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/t-rex/06-51-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/t-rex/07-52-scaled",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "تی رکس – تصویر بخش پروژه‌های سایت",
+     "en": "T.Rex – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -6204,6 +8205,21 @@
      "fa": "تیتانیوم ام‌سی – تصویر بخش پروژه‌های سایت",
      "en": "Titanium MC – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/titanium-mc/03-titanium-mc",
+    "widths": [
+     480,
+     800,
+     922
+    ],
+    "width": 922,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "تیتانیوم ام‌سی – تصویر بخش پروژه‌های سایت",
+     "en": "Titanium MC – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -6269,6 +8285,51 @@
     "alt": {
      "fa": "تروپیکال استورم – تصویر اصلی محصول (سطح اسلب)",
      "en": "Tropical Storm – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/tropical-storm/02-tropical-storm-project",
+    "widths": [
+     480,
+     800,
+     1024
+    ],
+    "width": 1024,
+    "height": 683,
+    "kind": "project",
+    "alt": {
+     "fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+     "en": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/tropical-storm/03-tropical-storm-project1",
+    "widths": [
+     480,
+     800,
+     819
+    ],
+    "width": 819,
+    "height": 1024,
+    "kind": "project",
+    "alt": {
+     "fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+     "en": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/tropical-storm/04-tropical-storm-project2",
+    "widths": [
+     480,
+     800,
+     819
+    ],
+    "width": 819,
+    "height": 1024,
+    "kind": "project",
+    "alt": {
+     "fa": "تروپیکال استورم – تصویر بخش پروژه‌های سایت",
+     "en": "Tropical Storm – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],
@@ -6350,6 +8411,69 @@
      "fa": "آبی فیروزه‌ای – تصویر اصلی محصول (سطح اسلب)",
      "en": "Turquoise – main product image (slab surface)"
     }
+   },
+   {
+    "base": "media/turquoise/02-turquoise-01",
+    "widths": [
+     480,
+     800,
+     1024
+    ],
+    "width": 1024,
+    "height": 1024,
+    "kind": "project",
+    "alt": {
+     "fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+     "en": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/turquoise/03-turquoise-pr2",
+    "widths": [
+     480,
+     800,
+     1200,
+     1600
+    ],
+    "width": 1639,
+    "height": 1229,
+    "kind": "project",
+    "alt": {
+     "fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+     "en": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/turquoise/04-turquoise-pr3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 1085,
+    "kind": "project",
+    "alt": {
+     "fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+     "en": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/turquoise/05-turquoise-pr4",
+    "widths": [
+     480,
+     800,
+     1200,
+     1440
+    ],
+    "width": 1440,
+    "height": 961,
+    "kind": "project",
+    "alt": {
+     "fa": "آبی فیروزه‌ای – تصویر بخش پروژه‌های سایت",
+     "en": "Turquoise – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -6420,6 +8544,51 @@
    },
    {
     "base": "media/venetian-granite/02-65fa37d6-0f1c-44d4-86da-5ad830c4cff3",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
+     "en": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/venetian-granite/03-0a2b00f0-b8a6-4db7-b9bf-f764b426947e",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
+     "en": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/venetian-granite/04-3da1f1b3-ef0e-4837-bfab-c665e5cc5920",
+    "widths": [
+     480,
+     800,
+     810
+    ],
+    "width": 810,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "گرانیت ونیشن – تصویر بخش پروژه‌های سایت",
+     "en": "Venetian Granite – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/venetian-granite/05-5d947982-19cb-4c9a-a2ab-e868d47da9d3",
     "widths": [
      480,
      800,
@@ -6517,6 +8686,82 @@
      "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
      "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
+   },
+   {
+    "base": "media/verde-fantastic/03-verde-karzai-project",
+    "widths": [
+     480,
+     800,
+     960
+    ],
+    "width": 960,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/verde-fantastic/04-verde-karzai-project2",
+    "widths": [
+     480,
+     800,
+     960
+    ],
+    "width": 960,
+    "height": 1280,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/verde-fantastic/05-verde-karzai-project3",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 960,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/verde-fantastic/06-verde-karzai-project4",
+    "widths": [
+     480,
+     800,
+     1200,
+     1280
+    ],
+    "width": 1280,
+    "height": 960,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/verde-fantastic/07-verde-fantastic",
+    "widths": [
+     480,
+     721
+    ],
+    "width": 721,
+    "height": 1080,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده فانتاستیک – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Fantastic – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
    }
   ],
   "surface": null,
@@ -6590,6 +8835,36 @@
     "alt": {
      "fa": "ورده ایمپریال – تصویر اصلی محصول (سطح اسلب)",
      "en": "Verde Imperial – main product image (slab surface)"
+    }
+   },
+   {
+    "base": "media/verde-imperial/02-verde-imperial-project",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 720,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده ایمپریال – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Imperial – project gallery image (installation photo or slab shown in the site's Projects section)"
+    }
+   },
+   {
+    "base": "media/verde-imperial/03-verde-imperial-project1",
+    "widths": [
+     480,
+     800,
+     1080
+    ],
+    "width": 1080,
+    "height": 938,
+    "kind": "project",
+    "alt": {
+     "fa": "ورده ایمپریال – تصویر بخش پروژه‌های سایت",
+     "en": "Verde Imperial – project gallery image (installation photo or slab shown in the site's Projects section)"
     }
    }
   ],

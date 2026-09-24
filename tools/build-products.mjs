@@ -55,6 +55,7 @@ const T = {
     viewLabels: { flow: "دیدن در نمای عمودی", wide: "دیدن در نمای افقی" },
     skip: "رفتن به سنگ‌ها",
     toStart: "بازگشت به ابتدا",
+    hint: { touch: "برای ادامه ورق بزنید", wheel: "برای ادامه اسکرول کنید" },
     search: "نام سنگ",
     searchHint: "فارسی یا لاتین",
     type: "نوع",
@@ -107,6 +108,7 @@ const T = {
     viewLabels: { flow: "Read in the upright view", wide: "Read in the sideways view" },
     skip: "Skip to the stones",
     toStart: "Back to the start",
+    hint: { touch: "Swipe to continue", wheel: "Scroll to continue" },
     search: "Stone name",
     searchHint: "Latin or Persian",
     type: "Type",
@@ -374,11 +376,24 @@ function lightbox(lang) {
   </dialog>`;
 }
 
+/** Sideways, the first screen's word on which way the reading goes: the
+    arrow points the way the track runs, the words are for a hand or for a
+    wheel (products-wide.css picks one), and a press moves on a screen.
+    Hidden until products-wide.js shows it, since that is what makes both
+    the wheel and the press do what it says. */
+function hint(page) {
+  const t = T[page.lang];
+  return `  <button class="chip hint" type="button" data-hint hidden>
+    <span class="hint__touch">${t.hint.touch}</span><span class="hint__wheel">${t.hint.wheel}</span>
+    <span class="icon icon--${page.lang === "fa" ? "to-left" : "to-right"}" aria-hidden="true"></span>
+  </button>`;
+}
+
 /** The page's closing: the footer, which sideways is the last panel of the
     track and so has to be inside it, then the scripts. */
 function close(page, { scripts, extra = "" }) {
   const wide = page.mode === "wide";
-  return `${wide ? `${foot(page)}\n  </main>\n` : `  </main>\n\n${foot(page)}\n`}
+  return `${wide ? `${foot(page)}\n  </main>\n\n${hint(page)}\n` : `  </main>\n\n${foot(page)}\n`}
 ${extra}
 ${scripts.map((s) => `  <script src="${page.prefix}assets/js/${s}" defer></script>`).join("\n")}
 </body>
