@@ -79,6 +79,13 @@ product research it is built from lives on that branch too, under
 reading and language (`/products/`, `/products/en/`, `/products/wide/`,
 `/products/wide/en/`), and its own bar has a chip back.
 
+Every chip in the bar is cut to the brand's tag, the notch off the top of
+its trailing edge, as the green tags are; the footer ends with a way back to
+the start in the same form (the top upright, the start of the track
+sideways). Running text is led at about 1.3 times its size, and on a phone
+it stands a tenth of the screen in from either edge, upright and on the
+sideways deck.
+
 On a phone the bar's contents chip is a list icon, its word kept for screen
 readers only: with the products chip there are four controls, and in English
 four words and the mark are wider than a phone's bar at any padding. The

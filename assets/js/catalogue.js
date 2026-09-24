@@ -234,8 +234,32 @@
     if (sideways && track) watch({ root: track, rootMargin: "0px 300% 0px 300%" });
   }
 
+  /* ------------------------------------------------------------- to start */
+
+  /* The last thing in the catalogue: a way back to where it begins, the top
+     of the page upright and the start of the track sideways. Without the
+     script it is a link to the cover, which is where it begins. */
+  function setUpToStart() {
+    var track = document.getElementById("doc");
+    Array.prototype.forEach.call(document.querySelectorAll("[data-to-start]"), function (link) {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        var behavior = reduced.matches ? "auto" : "smooth";
+        if (sideways && track && track.scrollWidth > track.clientWidth + 1) {
+          track.scrollTo({ left: 0, behavior: behavior });
+        } else {
+          window.scrollTo({ top: 0, behavior: behavior });
+        }
+        var mark = document.querySelector(".bar__logo");
+        if (mark) mark.focus({ preventScroll: true });
+        history.replaceState(null, "", location.pathname + location.search);
+      });
+    });
+  }
+
   setUpReveal();
   setUpPosition();
   setUpContents();
   setUpWarm();
+  setUpToStart();
 })();

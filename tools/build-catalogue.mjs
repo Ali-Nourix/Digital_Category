@@ -624,6 +624,10 @@ ${data.site.social
   .join("\n")}
         </div>
       </div>
+
+      <a class="to-start" href="#cover" data-to-start>
+        <span class="icon icon--${wide ? (lang === "fa" ? "to-right" : "to-left") : "to-top"}" aria-hidden="true"></span>${esc(site.toStart)}
+      </a>
     </div>
   </footer>
 ${wide ? "\n  </main>\n" : ""}

@@ -192,6 +192,9 @@ html[dir="rtl"] .cut img {
 }
 
 .icon--list { --icon: url("../icons/list.svg"); }
+.icon--to-top { --icon: url("../icons/arrow-up.svg"); }
+.icon--to-right { --icon: url("../icons/arrow-right.svg"); }
+.icon--to-left { --icon: url("../icons/arrow-left.svg"); }
 
 .u-visually-hidden {
   position: absolute;
@@ -403,7 +406,21 @@ html[lang="fa"] .bar__logo .bk-logo {
    platforms ask of a touch target and nearly twice the 24px WCAG 2.5.8
    does, and the border measures 3.5:1 on paper so the boundary itself is
    visible at low contrast sensitivity. */
+/* A control takes the brand's tag: a notch off the top of the trailing
+   edge, the corner the catalogue's green tags and every framed photograph
+   are cut at, so a button and a picture are cut the same way round.
+   clip-path has no logical keywords, so rtl mirrors it.
+
+   The outline is the control's own ground showing round a fill one stroke
+   in, so it runs along the diagonal as well as the four straight edges: a
+   border would be clipped away at the notch, and so would an outline,
+   which is why the focus ring here is the stroke itself, drawn thicker. */
 .chip {
+  --notch: 0.75rem;
+  --stroke: var(--hairline);
+
+  position: relative;
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -411,8 +428,8 @@ html[lang="fa"] .bar__logo .bk-logo {
   min-block-size: 2.75rem;
   min-inline-size: 2.75rem;
   padding-inline: var(--space-4);
-  border: var(--hairline) solid var(--rule-strong);
-  background: none;
+  border: 0;
+  background-color: var(--rule-strong);
   color: var(--print-green);
   font: inherit;
   font-size: var(--step--1);
@@ -422,9 +439,39 @@ html[lang="fa"] .bar__logo .bk-logo {
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
+  clip-path: polygon(0 0, calc(100% - var(--notch)) 0, 100% var(--notch), 100% 100%, 0 100%);
   transition: background-color var(--dur-fast) linear,
-              color var(--dur-fast) linear,
-              border-color var(--dur-fast) linear;
+              color var(--dur-fast) linear;
+}
+
+html[dir="rtl"] .chip {
+  clip-path: polygon(var(--notch) 0, 100% 0, 100% 100%, 0 100%, 0 var(--notch));
+}
+
+.chip::before {
+  content: "";
+  position: absolute;
+  inset: var(--stroke);
+  z-index: -1;
+  background-color: var(--paper);
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--notch) + var(--stroke)) 0,
+    100% calc(var(--notch) - var(--stroke)),
+    100% 100%,
+    0 100%
+  );
+  transition: background-color var(--dur-fast) linear;
+}
+
+html[dir="rtl"] .chip::before {
+  clip-path: polygon(
+    calc(var(--notch) - var(--stroke)) 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(var(--notch) - var(--stroke))
+  );
 }
 
 html[lang="en"] .chip {
@@ -434,8 +481,18 @@ html[lang="en"] .chip {
 
 .chip:hover {
   background-color: var(--print-green);
-  border-color: var(--print-green);
   color: var(--paper);
+}
+
+.chip:hover::before {
+  background-color: var(--print-green);
+}
+
+.chip:focus-visible {
+  --stroke: 2px;
+
+  outline: none;
+  background-color: var(--print-green);
 }
 
 .chip:active {
@@ -540,7 +597,7 @@ html[dir="rtl"] .progress {
   padding-block: var(--space-2);
   color: var(--ink-muted);
   font-size: var(--step-1);
-  line-height: 1.4;
+  line-height: 1.3;
   text-decoration: none;
   transition: color var(--dur-fast) linear;
 }
@@ -621,7 +678,7 @@ html[lang="en"] .contents__list a[aria-current] {
 
 html[lang="fa"] .title {
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 html[lang="en"] .title {
@@ -640,7 +697,7 @@ html[lang="fa"] .subtitle {
 }
 
 .heading {
-  margin-block-start: var(--space-8);
+  margin-block-start: var(--space-6);
   color: var(--print-green);
   font-size: var(--step-2);
 }
@@ -658,7 +715,7 @@ html[lang="en"] .heading {
 }
 
 .prose p + p {
-  margin-block-start: var(--space-4);
+  margin-block-start: var(--space-3);
 }
 
 /* Running text is justified, in both languages and in every reading of the
@@ -715,16 +772,16 @@ html[lang="en"] .slabs__uses-intro {
 
 .lede {
   font-size: var(--step-1);
-  line-height: 1.6;
+  line-height: 1.3;
 }
 
 html[lang="fa"] .lede {
-  line-height: 1.85;
+  line-height: 1.35;
 }
 
 /* The bullet is a small green square, which is the mark the print uses. */
 .list {
-  margin-block-start: var(--space-5);
+  margin-block-start: var(--space-4);
   padding: 0;
   list-style: none;
   max-inline-size: var(--measure);
@@ -736,14 +793,15 @@ html[lang="fa"] .lede {
 }
 
 .list li + li {
-  margin-block-start: var(--space-3);
+  margin-block-start: var(--space-2);
 }
 
+/* Centred on the first line, whatever the leading. */
 .list li::before {
   content: "";
   position: absolute;
   inset-inline-start: 0;
-  inset-block-start: 0.62em;
+  inset-block-start: calc(0.5lh - 0.2em);
   inline-size: 0.4em;
   block-size: 0.4em;
   background-color: var(--print-green);
@@ -762,11 +820,25 @@ html[lang="fa"] .lede {
   }
 
   .list li + li {
-    margin-block-start: var(--space-2);
+    margin-block-start: var(--space-1);
   }
 
   html[lang="fa"] .list li {
-    line-height: 1.7;
+    line-height: 1.35;
+  }
+}
+
+
+/* On a phone the writing stands a tenth of the screen in from either edge,
+   as the owner set it: at the page's frame alone the type ran to within a
+   finger of the glass. The sections of photographs keep the frame, and the
+   bleed is written again beside it so a photograph that runs off the edge
+   still runs off it. The sideways deck does the same with its own frame
+   (catalogue-wide.css). */
+@media (max-width: 40rem) {
+  html:not([data-axis="inline"]) .sec:not(.sec--plate, .sec--divider, .sec--cover) {
+    --frame: max(var(--gutter), 10vw);
+    --bleed: calc(var(--frame) + max(0px, (100vw - var(--shell)) / 2));
   }
 }
 
@@ -856,7 +928,7 @@ html[dir="rtl"] .cover__rule {
 
 html[lang="fa"] .divider__title {
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.25;
 }
 
 html[lang="en"] .divider__title {
@@ -1166,11 +1238,11 @@ html[lang="en"] .tag {
    own leading its four short lines stood apart from each other as four
    separate things. */
 html[lang="fa"] .people__lede {
-  line-height: 1.6;
+  line-height: 1.35;
 }
 
 html[lang="en"] .people__lede {
-  line-height: 1.45;
+  line-height: 1.3;
 }
 
 .people__list {
@@ -1313,12 +1385,12 @@ html[lang="en"] .benefit__title {
   margin: var(--space-4) 0;
   color: var(--print-green);
   font-size: var(--step-2);
-  line-height: 1.45;
+  line-height: 1.3;
 }
 
 html[lang="fa"] .pull {
   font-weight: 700;
-  line-height: 1.75;
+  line-height: 1.35;
 }
 
 html[lang="en"] .pull {
@@ -1517,12 +1589,12 @@ html[lang="en"] .foot__title {
 .foot__address {
   max-inline-size: 34ch;
   font-size: var(--step--1);
-  line-height: 1.7;
+  line-height: 1.35;
   color: var(--on-inverse-muted);
 }
 
 html[lang="fa"] .foot__address {
-  line-height: 1.9;
+  line-height: 1.35;
 }
 
 /* The numbers are what a reader comes to the footer for, so they are set
@@ -1594,6 +1666,56 @@ html[lang="en"] .foot__tel {
 
 .foot__site {
   font-size: var(--step--1);
+}
+
+/* The way back to where the catalogue begins, the last thing in it: the
+   brand's tag in paper on the footer's green, the notch off the top of its
+   trailing edge, with the arrow pointing the way the page will go. */
+.to-start {
+  --notch: 0.9rem;
+
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  align-self: flex-end;
+  min-block-size: 3rem;
+  padding: var(--space-3) var(--space-6);
+  background-color: var(--paper);
+  font-size: var(--step-0);
+  line-height: 1.3;
+  text-decoration: none;
+  clip-path: polygon(0 0, calc(100% - var(--notch)) 0, 100% var(--notch), 100% 100%, 0 100%);
+  transition: background-color var(--dur-fast) linear;
+}
+
+html[dir="rtl"] .to-start {
+  clip-path: polygon(var(--notch) 0, 100% 0, 100% 100%, 0 100%, 0 var(--notch));
+}
+
+.foot .to-start {
+  color: var(--print-green);
+}
+
+html[lang="fa"] .to-start {
+  font-weight: 700;
+}
+
+html[lang="en"] .to-start {
+  font-weight: 600;
+}
+
+.to-start .icon {
+  inline-size: 1.25rem;
+}
+
+.to-start:hover {
+  background-color: var(--bone-soft);
+}
+
+/* Inside the tag, since the notch would cut an outline outside it away. */
+.foot .to-start:focus-visible {
+  outline: 2px solid var(--print-green);
+  outline-offset: -5px;
 }
 
 /* On its own rather than inside a sentence, so WCAG 2.5.8 applies: the

@@ -553,7 +553,7 @@
      first part's depth. */
   html[lang="fa"] .sec--slabs .prose p,
   html[lang="fa"] .sec--slabs .list {
-    line-height: clamp(1.7, 1.2 + 0.055vh, 1.85);
+    line-height: 1.35;
   }
 
   .slabs {
@@ -753,6 +753,11 @@
     align-items: flex-start;
     justify-content: center;
     gap: clamp(2rem, 4vh, 3rem);
+  }
+
+  /* Down the column with the rest, at the edge the reading starts from. */
+  .to-start {
+    align-self: flex-start;
   }
 
   /* --- Panels on a smaller window -----------------------------------------
@@ -1091,6 +1096,11 @@
       /* A card is a phone screen, so the air around the type is a phone's
          worth rather than a spread's. */
       --panel-pad: clamp(1.25rem, 3vh, 2rem);
+
+      /* The writing stands a tenth of the card in from either edge, as the
+         owner set it, rather than the frame the photographs keep: at the
+         frame alone the type ran to within a finger of the glass. */
+      --text-frame: max(var(--frame), 10vw);
       --panel-gap: clamp(0.75rem, 3.5vw, 1.25rem);
 
       /* The type scale, redrawn for a card. The page's steps are set for a
@@ -1111,7 +1121,7 @@
     html[lang="fa"] .doc .prose p,
     html[lang="fa"] .doc .list li,
     html[lang="fa"] .doc .lede {
-      line-height: 1.8;
+      line-height: 1.35;
     }
 
     /* A title and the heading under it are one unit. The page sets a
@@ -1121,7 +1131,7 @@
     }
 
     html[lang="fa"] .doc .title {
-      line-height: 1.45;
+      line-height: 1.3;
     }
 
     .doc .heading {
@@ -1147,11 +1157,11 @@
     }
 
     .doc .list li + li {
-      margin-block-start: var(--space-2);
+      margin-block-start: var(--space-1);
     }
 
     html[lang="fa"] .doc .list li {
-      line-height: 1.7;
+      line-height: 1.35;
     }
 
     .doc .prose + .list,
@@ -1161,12 +1171,12 @@
 
     .doc .list + .prose,
     .doc .list + .pull {
-      margin-block-start: var(--space-6);
+      margin-block-start: var(--space-5);
     }
 
     .doc .columns__block + .columns__block,
     .doc .slabs__side > .slabs__col {
-      margin-block-start: var(--space-12);
+      margin-block-start: var(--space-8);
     }
 
     /* The section opener's title comes down with the rest, and the green
@@ -1290,7 +1300,7 @@
     }
 
     .divider__face {
-      padding: clamp(1.75rem, 4.5vh, 3rem) var(--frame) 0;
+      padding: clamp(1.75rem, 4.5vh, 3rem) var(--text-frame) 0;
       align-content: start;
       justify-items: start;
       max-inline-size: none;
@@ -1347,7 +1357,7 @@
     .feature--lead .feature__text {
       display: block;
       padding-block: 0;
-      padding-inline: var(--frame);
+      padding-inline: var(--text-frame);
     }
 
     .feature__inner,
@@ -1419,7 +1429,7 @@
     }
 
     .columns__block {
-      padding-inline: var(--frame);
+      padding-inline: var(--text-frame);
     }
 
     .columns__block .title,
@@ -1528,7 +1538,7 @@
        its words. */
     html[lang="fa"] .doc .sec--people .tag,
     html[lang="fa"] .doc .person__name {
-      line-height: 1.45;
+      line-height: 1.3;
     }
 
     html[lang="en"] .doc .sec--people .tag,
@@ -1537,7 +1547,7 @@
     }
 
     .sec--people > .shell > * {
-      padding-inline: var(--frame);
+      padding-inline: var(--text-frame);
     }
 
     /* The generation's head, the banner and the lede, opens the card its two
@@ -1554,11 +1564,11 @@
     }
 
     html[lang="fa"] .doc .people__lede {
-      line-height: max(1.5, calc(1.6 - var(--fit) * 0.1));
+      line-height: max(1.3, calc(1.35 - var(--fit) * 0.05));
     }
 
     html[lang="en"] .doc .people__lede {
-      line-height: max(1.35, calc(1.45 - var(--fit) * 0.1));
+      line-height: max(1.25, calc(1.3 - var(--fit) * 0.05));
     }
 
     .people__head .people__lede p + p {
@@ -1691,11 +1701,11 @@
     }
 
     html[lang="fa"] .doc .person__bio p {
-      line-height: max(1.55, calc(1.75 - var(--fit) * 0.15));
+      line-height: max(1.3, calc(1.35 - var(--fit) * 0.05));
     }
 
     html[lang="en"] .doc .person__bio p {
-      line-height: max(1.4, calc(1.55 - var(--fit) * 0.1));
+      line-height: max(1.25, calc(1.3 - var(--fit) * 0.05));
     }
 
     .person .list li {
@@ -1731,7 +1741,7 @@
 
     .slabs__col {
       display: block;
-      padding-inline: var(--frame);
+      padding-inline: var(--text-frame);
     }
 
     /* A grid's gaps do not survive a block, so they come back as margins. */
