@@ -20,6 +20,22 @@
    upright one and none of this applies.
    ========================================================================== */
 
+/* The word on which way the track runs has no track to speak of below the
+   gate; the track block below brings it back. */
+.hint {
+  display: none;
+}
+
+@keyframes hint-on {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0.3rem 0; }
+}
+
+@keyframes hint-on-rtl {
+  0%, 100% { translate: 0 0; }
+  50% { translate: -0.3rem 0; }
+}
+
 @media (min-width: 20rem) and (min-height: 34rem) {
   /* --- The track -------------------------------------------------------- */
 
@@ -29,14 +45,17 @@
     overflow: hidden;
   }
 
+  /* The side margin of a panel of words, and so half the room between two
+     of them: two panels of type standing side by side read as columns of
+     one spread, not as two pages with a margin each. On the root, because
+     the way on stands outside the track and lines up with it. */
+  html {
+    --panel-gutter: clamp(1.5rem, 3vw, 3rem);
+  }
+
   .track {
     --panel-h: calc(100dvh - var(--bar-h));
     --panel-pad: clamp(1.25rem, 3.5vh, 2.5rem);
-
-    /* The side margin of a panel of words, and so half the room between two
-       of them: two panels of type standing side by side read as columns of
-       one spread, not as two pages with a margin each. */
-    --panel-gutter: clamp(1.5rem, 3vw, 3rem);
 
     /* Positioned, so that whatever inside it is placed absolutely (the
        visually hidden headings among them) is placed and clipped within it
@@ -404,6 +423,80 @@
     align-self: flex-start;
   }
 
+  /* --- The way on ---------------------------------------------------------
+     The first screen's word on which way the reading goes, in the corner it
+     goes towards: the arrow points along the track, and a press moves on a
+     screen, as the page keys do. The brand's outline tag, which reads on
+     the white of a card, on a photograph and on the green at the edge of
+     the first spread alike. products-wide.js shows it while the reader is
+     on the first screen, however they came back to it, and takes it away
+     as soon as they are on their way.
+
+     A hand or a wheel is told what to do with it: a screen that can hover
+     with a fine pointer has a wheel under it, anything else a finger. */
+  .hint {
+    position: fixed;
+    inset-block-end: max(var(--space-4), env(safe-area-inset-bottom));
+    inset-inline-end: var(--frame);
+    z-index: 20;
+    display: inline-flex;
+    gap: var(--space-3);
+    opacity: 0;
+    visibility: hidden;
+    translate: 0 0.75rem;
+    transition: opacity 500ms var(--ease-out),
+                translate 800ms var(--ease-out),
+                visibility 0s linear 800ms,
+                background-color var(--dur-fast) linear,
+                color var(--dur-fast) linear;
+  }
+
+  .hint[hidden] {
+    display: none;
+  }
+
+  .hint.is-shown {
+    opacity: 1;
+    visibility: visible;
+    translate: 0 0;
+    transition-delay: 0s;
+  }
+
+  .hint__wheel {
+    display: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .hint__wheel {
+      display: inline;
+    }
+
+    .hint__touch {
+      display: none;
+    }
+  }
+
+  .hint .icon {
+    inline-size: 1.125rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hint.is-shown .icon {
+      animation: hint-on 1800ms ease-in-out infinite;
+    }
+
+    html[dir="rtl"] .hint.is-shown .icon {
+      animation-name: hint-on-rtl;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hint {
+      translate: none;
+      transition: opacity 200ms linear, visibility 0s linear 200ms;
+    }
+  }
+
   /* --- Motion -------------------------------------------------------------
      The same moves as upright, and as in the catalogue two of them have an
      axis, which is the axis the track runs on: a block arrives from the
@@ -464,16 +557,25 @@
   /* The words take the room they need to lay the filters out in as few
      rows as they fit in, and the band takes the rest of the nine tenths:
      on a laptop's shorter window the band gives up some of its width
-     rather than the filters their last row. */
-  .intro {
+     rather than the filters their last row. On the root, so that the way on,
+     which stands outside the track, can line up with the words. */
+  html {
     --intro-words: min(36rem, max(30rem, 34vw));
+    --hero-w: min(calc(90vw - var(--intro-words)), calc((100dvh - var(--bar-h)) * 1.35));
   }
 
   .hero {
     flex: none;
-    inline-size: min(calc(90vw - var(--intro-words)), calc(var(--panel-h) * 1.35));
+    inline-size: var(--hero-w);
     block-size: 100%;
     min-block-size: 0;
+  }
+
+  /* The way on, at the foot of the words and flush with the edge their
+     filters end at, rather than half across the green that shows past
+     them. */
+  html:has(.intro) .hint {
+    inset-inline-end: calc(100vw - var(--hero-w) - var(--intro-words) + var(--panel-gutter));
   }
 
   .intro__body {
@@ -551,18 +653,25 @@
       scroll-snap-align: start;
     }
 
-    /* The band takes what the title and the filters leave of the card, and
-       gives it back when the filters are opened. */
+    /* The band takes what the title and the filters leave of the card, up
+       to the deck's horizon, which is read off it (`fitHorizon` in
+       products-wide.js) and only ever holds it down on a screen tall enough
+       to take it past the catalogue's 5:12. */
     .hero {
       min-block-size: clamp(7rem, 20vh, 11rem);
+      max-block-size: var(--horizon, none);
     }
 
     /* The opener: the green field to the horizon of the card and the title
-       under it, the catalogue's divider card. */
+       under it, the catalogue's divider card. The green stops on the line
+       the band over the first card stops on, so a swipe from one to the
+       other runs a single edge across the two; the title hangs the same
+       distance under it as the page's title hangs under the band. Without
+       the script, the 5:12 of the print. */
     .group__title {
       display: grid;
       grid-template-columns: minmax(0, 1fr);
-      grid-template-rows: minmax(0, 5fr) auto minmax(0, 7fr);
+      grid-template-rows: var(--horizon, minmax(0, 5fr)) auto minmax(0, 7fr);
       align-content: stretch;
       align-items: stretch;
       gap: 0;
@@ -582,8 +691,9 @@
       margin-inline: var(--frame);
     }
 
+    /* The intro's own padding over its title (`.intro__inner` above). */
     .group__name {
-      margin-block-start: clamp(1.75rem, 4.5vh, 3rem);
+      margin-block-start: var(--space-3);
     }
 
     .group__count {
