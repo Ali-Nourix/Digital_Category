@@ -26,11 +26,13 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-/* A stone the research knows only by name (no photograph, no type, no
-   origin) is left out until it has something to show. Black Tempest is the
-   one: its page was never archived. It stays in the research. */
+/* A stone is listed once the research knows where it is from, because
+   every tile says so on its tag and a guess there would be a claim the
+   site never made. Black Tempest is the one left out: its page was never
+   archived, and the photographs of it in use that the live site has since
+   given say nothing of its type or origin. It stays in the research. */
 const products = JSON.parse(readFileSync(join(ROOT, "data/products.json"), "utf8"))
-  .filter((p) => p.photos.length || p.category);
+  .filter((p) => p.category);
 
 /* Where the digital catalogue lives, relative to this site's root. The two
    are published side by side, the catalogue at the top and this one in its
