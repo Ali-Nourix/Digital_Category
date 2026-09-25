@@ -1,0 +1,340 @@
+{
+  "slug": "malibu-red",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "مالیبو رد",
+    "en": "Malibu Red"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/malibu-red/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/malibu-red/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Malibu-Red-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-m.jpg",
+      "archived_url": "https://web.archive.org/web/20260220054322id_/https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-m.jpg",
+      "alt": "Malibu Red – main product image (slab surface)",
+      "alt_fa": "مالیبو رد – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Malibu Red-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 48015,
+      "sha1": "1c5a924205f0ef3f6cdcdada872fdb2b2b7743a6",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/malibu-red/",
+        "product page https://fa.behkooshan.ir/product/malibu-red/"
+      ]
+    },
+    {
+      "file": "images/02-Malibu-Red-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625085846id_/https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-p.jpg",
+      "alt": "Malibu Red – product listing image",
+      "alt_fa": "مالیبو رد – تصویر فهرست محصولات",
+      "site_alt": "Malibu Red",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 58646,
+      "sha1": "085eba26a922c6397ab58a3e774164445df2842c",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/malibu-red/",
+        "og:image of https://fa.behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/absolute-black/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/new-patagonia/",
+        "product card on https://behkooshan.ir/product/patagonia-pink/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/product/infinity-gold/",
+        "product card on https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-green/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-Malibu-Red-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-project.jpg",
+      "archived_url": null,
+      "alt": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 720,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 71959,
+      "sha1": "1324ac143fa0e6c93d490f4ef2c3813bec71a6b4",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/malibu-red/",
+        "project page https://fa.behkooshan.ir/projects/malibu-red/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/malibu-red/",
+      "site_title": "Malibu Red-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Malibu-Red-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:28Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Malibu-Red-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Malibu-Red-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-project1.jpg",
+      "archived_url": null,
+      "alt": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 720,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 52686,
+      "sha1": "5d6fd4d30f163d0a4ac83c03aa41fd41b77ed7d4",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/malibu-red/",
+        "project page https://fa.behkooshan.ir/projects/malibu-red/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/malibu-red/",
+      "site_title": "Malibu Red-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Malibu-Red-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:28Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Malibu-Red-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Malibu-Red-02.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-02.jpeg",
+      "archived_url": null,
+      "alt": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1280,
+      "height": 854,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 122763,
+      "sha1": "3f8ee51a9d7eb49f81851341acd3ce4adec2c60d",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/malibu-red/",
+        "project page https://fa.behkooshan.ir/projects/malibu-red/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/malibu-red/",
+      "site_title": "Malibu Red 02",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Malibu-Red-02.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:26Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Malibu-Red-02.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-02.jpeg"
+      ]
+    },
+    {
+      "file": "images/06-Malibu-Red-05.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-05.jpeg",
+      "archived_url": null,
+      "alt": "Malibu Red – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "مالیبو رد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1280,
+      "height": 854,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 108748,
+      "sha1": "a4abc6697b51efe4f4239ee14c4d608a7b9e92c5",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/malibu-red/",
+        "project page https://fa.behkooshan.ir/projects/malibu-red/",
+        "project card on https://behkooshan.ir/_project/page/4/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/malibu-red/",
+      "site_title": "Malibu Red 05",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Malibu-Red-05.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:27Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Malibu-Red-05.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Malibu-Red-05.jpeg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bb2888a8f66233d3a176ebdd17727f96bdc93fb9",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=bb2888a8f66233d3a176ebdd17727f96bdc93fb9&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:59Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=bb2888a8f66233d3a176ebdd17727f96bdc93fb9"
+      ],
+      "original_filename": "Malibu-Red.jpg",
+      "width": 1370,
+      "height": 877,
+      "format": "JPEG",
+      "bytes": 237212,
+      "sha1": "dc6f7c4acbdc90e40c18641cc6b53733a6e51d56",
+      "alt": "Malibu Red – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Malibu-Red.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Malibu Red",
+    "en": "Malibu Red"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3910"
+    ],
+    "en": [
+      "3910"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:57:07",
+      "modified": "2025-07-27T12:20:27"
+    },
+    "en": {
+      "published": "2023-08-01T14:57:07",
+      "modified": "2025-07-27T20:38:56"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/malibu-red/",
+      "title": "Malibu Red"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/malibu-red/",
+      "title": "Malibu Red"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260220015441",
+        "archived": "https://web.archive.org/web/20260220015441/https://fa.behkooshan.ir/product/malibu-red/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622202624",
+        "archived": "https://web.archive.org/web/20250622202624/https://behkooshan.ir/product/malibu-red/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "مالیبورد",
+      "ملبو",
+      "اسلب گرانیت مالیبو رد"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "مالیبورد",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+        "archived": "https://web.archive.org/web/20230131094941/https://www.behkooshan.ir/bk_product/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ملبو",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%D9%84%D8%A8%D9%88/",
+        "archived": "https://web.archive.org/web/20230131100716/https://www.behkooshan.ir/bk_product/%D9%85%D9%84%D8%A8%D9%88/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت مالیبو رد",
+        "url": "http://www.behkooshan.ir/Page/65/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88-%D8%B1%D8%AF",
+        "archived": "https://web.archive.org/web/20201204050928/http://www.behkooshan.ir/Page/65/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88-%D8%B1%D8%AF",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2018 (behkooshan.ir WordPress portfolio)",
+        "name_fa": "مالیبورد",
+        "url": "http://behkooshan.ir:80/project/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+        "archived": "https://web.archive.org/web/20190727145745/http://behkooshan.ir:80/project/%D9%85%D8%A7%D9%84%DB%8C%D8%A8%D9%88%D8%B1%D8%AF/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

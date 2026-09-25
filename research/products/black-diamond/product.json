@@ -1,0 +1,377 @@
+{
+  "slug": "black-diamond",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک دایموند",
+    "en": "Black Diamond"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-diamond/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-diamond/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Black-Diamond-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624233005id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-m_11zon.jpg",
+      "alt": "Black Diamond – main product image (slab surface)",
+      "alt_fa": "بلک دایموند – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Black Diamond-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 50657,
+      "sha1": "b8672e045808303b9a80f827425dff5fc2bfd582",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/black-diamond/",
+        "product page https://fa.behkooshan.ir/product/black-diamond/"
+      ]
+    },
+    {
+      "file": "images/02-Black-Diamond-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250703144109id_/https://behkooshan.ir/wp-content/uploads/Black-Diamond-p_11zon.jpg",
+      "alt": "Black Diamond – product listing image",
+      "alt_fa": "بلک دایموند – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 59879,
+      "sha1": "8ad2057d7909134a1158e17d3787f88abb2db1ed",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/black-diamond/",
+        "og:image of https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/magma-gold/",
+        "product card on https://behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://behkooshan.ir/product/silver-fusion/",
+        "product card on https://behkooshan.ir/product/verde-karzai/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/native-black/",
+        "product card on https://fa.behkooshan.ir/product/new-patagonia/",
+        "product card on https://fa.behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-3.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/3.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 160908,
+      "sha1": "c52cb1597c80f7e023953cd103159a19af4c1bcd",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "3",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/3.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:39:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/3.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/3.jpg"
+      ]
+    },
+    {
+      "file": "images/04-707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75144,
+      "sha1": "7623b085aa3a8a096d3491f3c821a1a2922955c5",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "707caca5-dc52-43b8-a8cb-f28b9fdd8542",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/707caca5-dc52-43b8-a8cb-f28b9fdd8542.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Black-Diamond-2-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 226222,
+      "sha1": "b2ed83c31ac2623dd860548d24d75d0f2d483c19",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/",
+        "project card on https://behkooshan.ir/_project/page/3/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond (2)",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond-2-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:18Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-2-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-2.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4577990,
+        "sha1": "776278e465b6e7c11b40419b1f7c9d084632de41",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-Black-Diamond-1-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 195428,
+      "sha1": "a6aa3102c60c696961b3e73fa06f7724fe9b984f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond-1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:18Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond-1-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond-1.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4396970,
+        "sha1": "46498a84a22dbc28424029c736573936f1a15fa2",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-Black-Diamond.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 92310,
+      "sha1": "63e48256cfdb95231b5b71444a59338a370f9650",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-diamond/",
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-diamond/",
+      "site_title": "Black Diamond",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Black-Diamond.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:19Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Diamond.jpeg"
+      ]
+    },
+    {
+      "file": "images/08-2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/2.jpg",
+      "archived_url": null,
+      "alt": "Black Diamond – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک دایموند – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 130337,
+      "sha1": "e7cf4b0c02029e38aced6d9950967a97ab6faa7b",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/black-diamond/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/black-diamond/",
+      "site_title": "2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:49Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bd80fe90acbfec7fae861919d1075bddfeb893fa",
+      "archived_url": "https://web.archive.org/web/20250704091424id_/https://fa.behkooshan.ir/?jet_download=bd80fe90acbfec7fae861919d1075bddfeb893fa",
+      "original_filename": "Black-Diamond.jpg",
+      "width": 1370,
+      "height": 784,
+      "format": "JPEG",
+      "bytes": 182419,
+      "sha1": "d5f3c6a816380de23a6a0d49155ecc7e9b8b2cfd",
+      "alt": "Black Diamond – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Black-Diamond.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Diamond",
+    "en": "Black Diamond"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4272"
+    ],
+    "en": [
+      "4272"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:18:53",
+      "modified": "2025-08-17T16:17:02"
+    },
+    "en": {
+      "published": "2023-08-11T13:18:53",
+      "modified": "2023-12-12T23:04:59"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/black-diamond/",
+      "title": "Black Diamond"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/black-diamond/",
+      "title": "Black Diamond"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704091135",
+        "archived": "https://web.archive.org/web/20250704091135/https://fa.behkooshan.ir/product/black-diamond/"
+      },
+      {
+        "captured": "20250624223126",
+        "archived": "https://web.archive.org/web/20250624223126/https://fa.behkooshan.ir/product/black-diamond/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619033858",
+        "archived": "https://web.archive.org/web/20250619033858/https://behkooshan.ir/product/black-diamond/"
+      },
+      {
+        "captured": "20250619023323",
+        "archived": "https://web.archive.org/web/20250619023323/https://behkooshan.ir/product/black-diamond/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Colour attribute differs between the sites (live site, 2026-09-24): Persian site ['black'], English site ['cream']; the Persian site's terms are used.",
+    "The English site's hidden WooCommerce stone-type attribute says \"quartzite\", but the page displays \"Granite\"; the displayed value is used (live site, 2026-09-24)."
+  ]
+}

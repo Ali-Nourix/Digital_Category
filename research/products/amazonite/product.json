@@ -1,0 +1,177 @@
+{
+  "slug": "amazonite",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "آمازونیت",
+    "en": "Amazonite"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ماداگاسکار",
+      "رنگ": [
+        "آبی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Madagascar",
+      "Colour": [
+        "Blue"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/amazonite/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/amazonite/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Amazonite-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Amazonite-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624084155id_/https://fa.behkooshan.ir/wp-content/uploads/Amazonite-m_11zon.jpg",
+      "alt": "Amazonite – main product image (slab surface)",
+      "alt_fa": "آمازونیت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Amazonite-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 82234,
+      "sha1": "a9fb8a7455b749ce2e923df6b450f8147382c07e",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/amazonite/",
+        "product page https://fa.behkooshan.ir/product/amazonite/"
+      ]
+    },
+    {
+      "file": "images/02-Amazonite-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Amazonite-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619023200id_/https://fa.behkooshan.ir/wp-content/uploads/Amazonite-p_11zon.jpg",
+      "alt": "Amazonite – product listing image",
+      "alt_fa": "آمازونیت – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 99162,
+      "sha1": "29e2aa8f21d261c7067e2c21ee7a1d4f8c60543c",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/amazonite/",
+        "og:image of https://fa.behkooshan.ir/product/amazonite/",
+        "product card on https://behkooshan.ir/product/dalmata/",
+        "product card on https://behkooshan.ir/product/new-golden-silver/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/colonial/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/delicate/",
+        "product card on https://fa.behkooshan.ir/product/jet-black/",
+        "product card on https://fa.behkooshan.ir/product/malibu-red/",
+        "product card on https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/silver-fusion/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=814dbaa2e371a994bfd18b80f12d9598335993f3",
+      "archived_url": "https://web.archive.org/web/20250704084134id_/https://fa.behkooshan.ir/?jet_download=814dbaa2e371a994bfd18b80f12d9598335993f3",
+      "original_filename": "Amazonite.jpg",
+      "width": 1103,
+      "height": 910,
+      "format": "JPEG",
+      "bytes": 393186,
+      "sha1": "1cc6e0ff765762415d8e35cb42c1c72c5336f884",
+      "alt": "Amazonite – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Amazonite.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Amazonite",
+    "en": "Amazonite"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5404"
+    ],
+    "en": [
+      "5404"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T22:58:47",
+      "modified": "2025-07-23T14:11:55"
+    },
+    "en": {
+      "published": "2023-12-12T22:58:47",
+      "modified": "2025-07-22T17:29:11"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704081359",
+        "archived": "https://web.archive.org/web/20250704081359/https://fa.behkooshan.ir/product/amazonite/"
+      },
+      {
+        "captured": "20250624081448",
+        "archived": "https://web.archive.org/web/20250624081448/https://fa.behkooshan.ir/product/amazonite/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619020104",
+        "archived": "https://web.archive.org/web/20250619020104/https://behkooshan.ir/product/amazonite/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The Persian site showed different origins over time in the archive: آنگولا, ماداگاسکار; the live site (2026-09-24) shows \"ماداگاسکار\", which is used.",
+    "The English site showed different origins over time in the archive: Brazil, Madagascar; the live site (2026-09-24) shows \"Madagascar\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

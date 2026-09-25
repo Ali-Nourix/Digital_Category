@@ -1,0 +1,182 @@
+{
+  "slug": "andromeda",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "آندرومدا",
+    "en": "Andromeda"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "سریلانکا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Sri-Lanka",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/andromeda/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/andromeda/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Andromeda-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Andromeda-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624174216id_/https://fa.behkooshan.ir/wp-content/uploads/Andromeda-m_11zon.jpg",
+      "alt": "Andromeda – main product image (slab surface)",
+      "alt_fa": "آندرومدا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Andromeda-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75833,
+      "sha1": "2f71c609b32b427a44d6a08efb27e7ae3b9fd353",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/andromeda/",
+        "product page https://fa.behkooshan.ir/product/andromeda/"
+      ]
+    },
+    {
+      "file": "images/02-Andromeda-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Andromeda-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619032722id_/https://behkooshan.ir/wp-content/uploads/Andromeda-p_11zon.jpg",
+      "alt": "Andromeda – product listing image",
+      "alt_fa": "آندرومدا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 90505,
+      "sha1": "2a4e86e827e628a1a8606a0b43a39a1f3d4da2d2",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/andromeda/",
+        "og:image of https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/jacaranda/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=baf5ed8ac47862f41f553508d2f3e7c928e4589c",
+      "archived_url": "https://web.archive.org/web/20250704110808id_/https://fa.behkooshan.ir/?jet_download=baf5ed8ac47862f41f553508d2f3e7c928e4589c",
+      "original_filename": "Andromeda.jpg",
+      "width": 1365,
+      "height": 877,
+      "format": "JPEG",
+      "bytes": 303622,
+      "sha1": "1fd344ed81ad0ff773533c288c0dc290a996d91d",
+      "alt": "Andromeda – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Andromeda.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Andromeda",
+    "en": "Andromeda"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5409"
+    ],
+    "en": [
+      "5409"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T22:59:57",
+      "modified": "2025-07-23T14:13:15"
+    },
+    "en": {
+      "published": "2023-12-12T22:59:57",
+      "modified": "2025-05-07T13:30:04"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704092634",
+        "archived": "https://web.archive.org/web/20250704092634/https://fa.behkooshan.ir/product/andromeda/"
+      },
+      {
+        "captured": "20250624173927",
+        "archived": "https://web.archive.org/web/20250624173927/https://fa.behkooshan.ir/product/andromeda/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619013836",
+        "archived": "https://web.archive.org/web/20250619013836/https://behkooshan.ir/product/andromeda/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "آندومدا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "آندومدا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D9%85%D8%AF%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131092337/https://www.behkooshan.ir/bk_product/%D8%A2%D9%86%D8%AF%D9%88%D9%85%D8%AF%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The Persian site showed different origins over time in the archive: آنگولا, سریلانکا; the live site (2026-09-24) shows \"سریلانکا\", which is used.",
+    "The English site showed different origins over time in the archive: Angola, Sri-Lanka; the live site (2026-09-24) shows \"Sri-Lanka\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

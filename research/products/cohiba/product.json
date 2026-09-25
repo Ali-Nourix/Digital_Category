@@ -1,0 +1,161 @@
+{
+  "slug": "cohiba",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کوهیبا",
+    "en": "Cohiba"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/cohiba/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/cohiba/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Cohiba-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Cohiba-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619004452id_/https://behkooshan.ir/wp-content/uploads/Cohiba-m.jpg",
+      "alt": "Cohiba – main product image (slab surface)",
+      "alt_fa": "کوهیبا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Cohiba-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 76363,
+      "sha1": "1fcae6d4de0722216eb488ab7ada5065be1084eb",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/cohiba/"
+      ]
+    },
+    {
+      "file": "images/02-Cohiba-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Cohiba-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619015500id_/https://behkooshan.ir/wp-content/uploads/Cohiba-p.jpg",
+      "alt": "Cohiba – product listing image",
+      "alt_fa": "کوهیبا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 93119,
+      "sha1": "62a919aa1f272aa92d5d7102acda0dc97f6d0026",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=fd5d43ffe1e904f781ff971a9ac7136b5b9f8ae9",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=fd5d43ffe1e904f781ff971a9ac7136b5b9f8ae9&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:24Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7b420d145f1e064eb00bb3403c6a5e241d3f7d92"
+      ],
+      "original_filename": "Cohiba-scaled-1.jpg",
+      "width": 1598,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 175807,
+      "sha1": "24aebbb39fef2f6a6ad73912e27e81dbdb457200",
+      "alt": "Cohiba – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Cohiba-scaled-1.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Cohiba",
+    "en": "Cohiba"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5937"
+    ],
+    "en": [
+      "5727"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T14:28:21",
+      "modified": "2025-07-23T14:28:23"
+    },
+    "en": {
+      "published": "2025-05-07T13:54:02",
+      "modified": "2025-05-07T15:13:14"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250619001334",
+        "archived": "https://web.archive.org/web/20250619001334/https://behkooshan.ir/product/cohiba/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

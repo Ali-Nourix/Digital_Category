@@ -1,0 +1,169 @@
+{
+  "slug": "new-galaxy",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نیو گلکسی",
+    "en": "New Galaxy"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/new-galaxy/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/new-galaxy/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-new_galaxy.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/new_galaxy.jpg",
+      "archived_url": "https://web.archive.org/web/20250704013127id_/https://behkooshan.ir/wp-content/uploads/new_galaxy.jpg",
+      "alt": "new_galaxy",
+      "alt_fa": "نیو گلکسی – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "new_galaxy",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 81968,
+      "sha1": "df346d6161cc6232a919e9361169bc0b1ae90f4c",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/new-galaxy/",
+        "product page https://fa.behkooshan.ir/product/new-galaxy/"
+      ]
+    },
+    {
+      "file": "images/02-new_galaxy-1.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/new_galaxy-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250619030954id_/https://behkooshan.ir/wp-content/uploads/new_galaxy-1.jpg",
+      "alt": "New Galaxy – product listing image",
+      "alt_fa": "نیو گلکسی – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 92017,
+      "sha1": "17536caa9191e94e40724398a00b876d8b3817ed",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/new-galaxy/",
+        "og:image of https://fa.behkooshan.ir/product/new-galaxy/",
+        "product card on https://behkooshan.ir/product/amazonite/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/product/amazonite/",
+        "product card on https://fa.behkooshan.ir/product/jacaranda/",
+        "product card on https://fa.behkooshan.ir/product/t-rex/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=9b20fb21804e3ca45ec52c1ea71e23669750107e",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=9b20fb21804e3ca45ec52c1ea71e23669750107e&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:20:53Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=9b20fb21804e3ca45ec52c1ea71e23669750107e"
+      ],
+      "original_filename": "new_galaxy.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 81968,
+      "sha1": "df346d6161cc6232a919e9361169bc0b1ae90f4c",
+      "alt": "New Galaxy – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-new_galaxy.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "New Galaxy",
+    "en": "New Galaxy"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4795"
+    ],
+    "en": [
+      "4795"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:52:04",
+      "modified": "2024-04-20T11:48:07"
+    },
+    "en": {
+      "published": "2023-09-05T09:52:04",
+      "modified": "2023-09-26T17:35:17"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625085248",
+        "archived": "https://web.archive.org/web/20250625085248/https://fa.behkooshan.ir/product/new-galaxy/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622193519",
+        "archived": "https://web.archive.org/web/20250622193519/https://behkooshan.ir/product/new-galaxy/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

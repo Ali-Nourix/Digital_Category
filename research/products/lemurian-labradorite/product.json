@@ -1,0 +1,289 @@
+{
+  "slug": "lemurian-labradorite",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "لابرادوریت لموریان",
+    "en": "Lemurian Labradorite"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ماداگاسکار",
+      "رنگ": [
+        "مشکی",
+        "آبی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Madagascar",
+      "Colour": [
+        "Black",
+        "Blue"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/labradorite/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/labradorite/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-labradorite-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/labradorite-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250625104512id_/https://fa.behkooshan.ir/wp-content/uploads/labradorite-1.jpg",
+      "alt": "labradorite",
+      "alt_fa": "لابرادوریت لموریان – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "labradorite",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 142181,
+      "sha1": "939eaab4b31540752de95c3042b261d8a2929a0c",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/labradorite/"
+      ]
+    },
+    {
+      "file": "images/02-Lemurian-Labradorite.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite.jpg",
+      "archived_url": "https://web.archive.org/web/20250627105132id_/https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite.jpg",
+      "alt": "Lemurian Labradorite – product listing image",
+      "alt_fa": "لابرادوریت لموریان – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 147291,
+      "sha1": "92fffdd3f6db08734fa903282e3590336f81eca1",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/malibu-red/",
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product/nehbandan/",
+        "product card on https://behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/emerald-green/",
+        "product card on https://fa.behkooshan.ir/product/turquoise/",
+        "product card on https://fa.behkooshan.ir/product/verde-fantastic/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-Lemurian-Labradorite-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project.jpg",
+      "archived_url": null,
+      "alt": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 133187,
+      "sha1": "7ed353fc21af3c4efdca221e2f3b86626431d930",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/lemurian-labradorite/",
+        "project page https://fa.behkooshan.ir/projects/lemurian-labradorite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/lemurian-labradorite/",
+      "site_title": "Lemurian Labradorite-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Lemurian-Labradorite-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:25Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Lemurian-Labradorite-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project1.jpg",
+      "archived_url": null,
+      "alt": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 133947,
+      "sha1": "e8146f37d1d0159741a2918f7f9cb5c3052e865f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/lemurian-labradorite/",
+        "project page https://fa.behkooshan.ir/projects/lemurian-labradorite/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/lemurian-labradorite/",
+      "site_title": "Lemurian Labradorite-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Lemurian-Labradorite-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:24Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Lemurian-Labradorite-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project2.jpg",
+      "archived_url": null,
+      "alt": "Lemurian Labradorite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "لابرادوریت لموریان – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 138568,
+      "sha1": "9a3c13ce5fb50ab1b1cf80e61aff6d7ebc28e859",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/lemurian-labradorite/",
+        "project page https://fa.behkooshan.ir/projects/lemurian-labradorite/",
+        "project card on https://behkooshan.ir/_project/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/lemurian-labradorite/",
+      "site_title": "Lemurian Labradorite-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Lemurian-Labradorite-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:25Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Lemurian-Labradorite-project2.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=769d7c66b9ce71cf30455e9ab4fc79dcadd7b5cf",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=769d7c66b9ce71cf30455e9ab4fc79dcadd7b5cf&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:20:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=769d7c66b9ce71cf30455e9ab4fc79dcadd7b5cf"
+      ],
+      "original_filename": "labradorite.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 168191,
+      "sha1": "8090767512e38399e672ecd53b5277126a4df640",
+      "alt": "Lemurian Labradorite – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-labradorite.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Lemurian Labradorite",
+    "en": "Lemurian Labradorite"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4785"
+    ],
+    "en": [
+      "4785"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:38:28",
+      "modified": "2025-07-27T12:29:07"
+    },
+    "en": {
+      "published": "2023-09-05T09:38:28",
+      "modified": "2025-08-17T15:47:32"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/lemurian-labradorite/",
+      "title": "Lemurian Labradorite"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/lemurian-labradorite/",
+      "title": "Lemurian Labradorite"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260219190424",
+        "archived": "https://web.archive.org/web/20260219190424/https://fa.behkooshan.ir/product/labradorite/"
+      },
+      {
+        "captured": "20250625090812",
+        "archived": "https://web.archive.org/web/20250625090812/https://fa.behkooshan.ir/product/labradorite/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "لابرادوریته لموریان"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "لابرادوریته لموریان",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+        "archived": "https://web.archive.org/web/20230131110347/https://www.behkooshan.ir/bk_product/%D9%84%D8%A7%D8%A8%D8%B1%D8%A7%D8%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%B1%DB%8C%D8%A7%D9%86/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

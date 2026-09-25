@@ -1,0 +1,262 @@
+{
+  "slug": "copper-dune",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کاپر دیون",
+    "en": "Copper Dune"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/elegant-brown/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/elegant-brown/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Copper-Dune-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623221240id_/https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-1.jpg",
+      "alt": "Copper-Dune",
+      "alt_fa": "کاپر دیون – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Copper-Dune",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 43727,
+      "sha1": "cf4faee1548f0c384fa3880006f1a6dd798ea825",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/elegant-brown/"
+      ]
+    },
+    {
+      "file": "images/02-Copper-Dune.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune.jpg",
+      "archived_url": "https://web.archive.org/web/20250626141810id_/https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune.jpg",
+      "alt": "Copper Dune – product listing image",
+      "alt_fa": "کاپر دیون – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 45598,
+      "sha1": "6dc30a59e0b9a72fed52bbf26f5d6c172371e1e6",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/elegant-brown/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/dover-blue/",
+        "product card on https://fa.behkooshan.ir/product/sanded-white/",
+        "product card on https://fa.behkooshan.ir/product/spectrolite-blue/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-Copper-Dune-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 775,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87971,
+      "sha1": "1208adaf07184e247c7e4e500c81f0257995d718",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:30Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Copper-Dune-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1280,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 122583,
+      "sha1": "bd58a187e687f477942b2c1dcf833131c1279daa",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/",
+        "project card on https://behkooshan.ir/_project/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:30Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Copper-Dune-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg",
+      "archived_url": null,
+      "alt": "Copper Dune – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "کاپر دیون – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80974,
+      "sha1": "7d7d4e442582ffd1240187b8f16f21312e3b87c2",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/copper-dune/",
+        "project page https://fa.behkooshan.ir/projects/copper-dune/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/copper-dune/",
+      "site_title": "Copper Dune-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Copper-Dune-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:31Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Copper-Dune-project2.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ee56ee9a999424b135c06b9cb5685748edddca30",
+      "archived_url": "https://web.archive.org/web/20250625230147id_/https://fa.behkooshan.ir/?jet_download=ee56ee9a999424b135c06b9cb5685748edddca30",
+      "original_filename": "Copper-Dune-1.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 43727,
+      "sha1": "cf4faee1548f0c384fa3880006f1a6dd798ea825",
+      "alt": "Copper Dune – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Copper-Dune-1.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Copper Dune",
+    "en": "Copper Dune"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4749"
+    ],
+    "en": [
+      "4749"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T08:12:50",
+      "modified": "2025-07-27T12:27:30"
+    },
+    "en": {
+      "published": "2023-09-05T08:12:50",
+      "modified": "2025-07-27T20:34:58"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/copper-dune/",
+      "title": "Copper Dune"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/copper-dune/",
+      "title": "Copper Dune"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625214333",
+        "archived": "https://web.archive.org/web/20250625214333/https://fa.behkooshan.ir/product/elegant-brown/"
+      },
+      {
+        "captured": "20250623213808",
+        "archived": "https://web.archive.org/web/20250623213808/https://fa.behkooshan.ir/product/elegant-brown/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Published under the URL /product/elegant-brown/ (post 4749) but titled \"Copper Dune\" on both language sites; the English site later published a separate product \"Elegant Brown\" (/product/elegant-brown-2/), see products/elegant-brown/.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "The English site's hidden WooCommerce stone-type attribute says \"granite\", but the page displays \"Quartzite\"; the displayed value is used (live site, 2026-09-24)."
+  ]
+}

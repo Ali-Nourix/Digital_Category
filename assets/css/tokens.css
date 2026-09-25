@@ -1,0 +1,194 @@
+/* ==========================================================================
+   Behkooshan design tokens
+   Every value the catalogue is allowed to use lives here. Components read
+   tokens, never raw hex. Changing the brand means changing this file.
+
+   Source of truth: the Behkooshan Design Guide. Values below are taken from
+   it literally. Where the guide is silent the gap is marked in a comment.
+   ========================================================================== */
+
+:root {
+  /* --- Palette ---------------------------------------------------------
+     Two brand colours. Everything else is ink, paper and one hairline. */
+  --green: #14754d;      /* the brand. Buttons, shapes, bands              */
+  --green-deep: #0f5a3b; /* hover and pressed states, and accent as text   */
+  --green-tint: #e9f0ec; /* a quiet green ground for a full width band     */
+  --bone: #d3d3c9;       /* second brand colour. The page ground           */
+  --bone-soft: #e6e6de;  /* panel ground and placeholder stripe            */
+  --ink: #101412;        /* all body copy and headings on light            */
+  --ink-muted: #4a544e;  /* secondary copy, captions, spec labels          */
+  --paper: #ffffff;      /* raised panels, and type on green               */
+
+  /* The shape SVGs were exported with #005038 in them. The guide's palette
+     does not carry that colour, so the files are normalised to currentColor
+     and tinted green or bone at use. Do not reintroduce it as a UI colour. */
+
+  /* --- Semantic surface and text ----------------------------------------
+     The page ground is the green tint, a near white with just enough of the
+     brand in it to read as Behkooshan rather than as a generic white page.
+     Header, footer and feature bands invert to full green, which is how
+     every printed piece in the stationery is built. Bone moves to a second
+     surface role: a deeper tint for panels that need to stand apart from
+     the page, such as the sample data notice. */
+  --bg: var(--green-tint);
+  --bg-raised: var(--paper);
+  --bg-sunken: var(--bone-soft);
+  --bg-band: var(--bone);
+  --bg-inverse: var(--green-deep);
+
+  --text: var(--ink);
+  --text-muted: var(--ink-muted);
+
+  /* The deeper green carries the interface. It is the one green that clears
+     AA as text on both page surfaces, and white on it reaches 8.25:1 rather
+     than 5.70:1, so buttons and bands hold their type more comfortably. The
+     brighter green is kept for hover, where a lift reads as a response, and
+     for the shapes, which are meant to sit quietly against a green ground.
+
+     --accent is the accent as a FILL: button grounds, rules, focus rings.
+     --link is the accent as TEXT, on either surface: 7.13:1 on the tint
+     page, 5.47:1 on bone. */
+  --accent: var(--green-deep);
+  --accent-hover: var(--green);
+  --link: var(--green-deep);
+  --on-accent: var(--paper);
+
+  /* Type and rules on a green ground. */
+  --on-inverse: var(--paper);              /* 5.35:1 on green */
+  --on-inverse-muted: rgb(255 255 255 / 0.88); /* 4.81:1 on green */
+  --rule-inverse: rgb(255 255 255 / 0.24);
+
+  --rule: rgb(16 20 18 / 0.18);
+
+  /* The hairline that separates content is deliberately faint, at 1.47:1. A
+     form control's border is not decoration though: WCAG 1.4.11 asks a control
+     boundary to clear 3:1 against its surroundings, or the field is invisible
+     to anyone with low contrast sensitivity. This one measures 3.50:1 on the
+     white panel and 3.38:1 on the page tint. Do not reuse it for rules. */
+  --rule-strong: rgb(16 20 18 / 0.5);
+
+  --focus: var(--green-deep);
+
+  /* Placeholder stripe, from the guide's component sheet. It reads as a
+     light panel against the bone ground, so an empty slot still looks like
+     a frame waiting to be filled. */
+  --placeholder-stripe: repeating-linear-gradient(
+    135deg,
+    var(--bone-soft) 0 14px,
+    var(--paper) 14px 28px
+  );
+
+  /* --- Type ------------------------------------------------------------
+     Persian pages lead with Rokh, which also carries Latin glyphs.
+     English pages lead with TT Firs Neue and fall back to Rokh for any
+     Persian run, because TT Firs Neue has no Arabic coverage at all. */
+  --font-fa: "Rokh", "TT Firs Neue", system-ui, sans-serif;
+  --font-en: "TT Firs Neue", "Rokh", system-ui, sans-serif;
+
+  /* Minor third (1.2) fluid scale, 320px to 1400px viewport. */
+  --step--2: clamp(0.6875rem, 0.67rem + 0.09vw, 0.75rem);
+  --step--1: clamp(0.8125rem, 0.79rem + 0.13vw, 0.875rem);
+  --step-0: clamp(1rem, 0.98rem + 0.1vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.14rem + 0.3vw, 1.375rem);
+  --step-2: clamp(1.44rem, 1.35rem + 0.44vw, 1.6875rem);
+  --step-3: clamp(1.728rem, 1.58rem + 0.74vw, 2.125rem);
+  --step-4: clamp(2.074rem, 1.84rem + 1.17vw, 2.6875rem);
+  --step-5: clamp(2.5rem, 2.11rem + 1.95vw, 3.25rem);
+
+  /* Body leading close to 1.3 times the size in both scripts, as the owner
+     set it: Rokh's short ascenders and descenders keep lines from touching
+     even that close, and it holds a paragraph together as one block. A hair
+     more for Persian, for the dots above and below. */
+  --leading-display: 1.2;
+  --leading-body-fa: 1.35;
+  --leading-body-en: 1.3;
+  --tracking-display: -0.035em;
+  --tracking-label: 0.16em;
+  --measure: 62ch;
+
+  /* --- Space. 4px base. ------------------------------------------------ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  --section-gap: clamp(3rem, 7vw, 5.5rem);
+
+  /* --- Shape -----------------------------------------------------------
+     Everything is square: the radius token is zero. The stationery also
+     carries an angled corner on the letterhead and folder, but the guide
+     does not document it for screen, so nothing on the site uses it. */
+  --radius: 0;
+  --hairline: 1px;
+  --border-strong: 2px;
+
+  /* --- Layout ----------------------------------------------------------
+     Below this point the values are the first design's, not the brand's.
+     Replace them freely; see the branch README. */
+  --shell: 77.5rem;         /* 1240px, matching the guide's own container */
+  --gutter: clamp(20px, 5vw, 72px);
+  --header-h: 4.5rem;       /* 72px, inside the guide's 80px cap */
+  --control-h: 3rem;        /* 48px minimum for any interactive target */
+
+  /* --- Motion ----------------------------------------------------------
+     Small and quiet: state feedback on anything you can touch, and a reveal
+     that carries a block up into place as it enters. Nothing loops, nothing
+     moves on its own.
+
+     These are the first design's durations, not rules from the guide, and
+     the stylesheet that collapsed them under prefers-reduced-motion is not
+     on this branch. Whatever replaces it owes the page that media query. */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+  --dur-slow: 620ms;
+  --reveal-shift: 1.25rem;
+
+  /* --- Layer scale. Use these names, never a bare z-index. ------------- */
+  --z-base: 0;
+  --z-sticky: 100;
+  --z-overlay: 200;
+
+  /* Light only, on purpose. `color-scheme: light dark` would also let the
+     browser flip its own chrome (scrollbars, form controls) to dark
+     whenever the visitor's system prefers it, which is the same switch
+     this file used to make automatically below. */
+  color-scheme: light;
+}
+
+/* --- Dark mode ---------------------------------------------------------
+   Not switched on automatically. The design guide specifies no dark
+   palette, and an earlier version of this file inverted the whole site
+   whenever a visitor's system preferred dark, which produced a near black
+   page nobody had approved. These values stay defined and reachable by
+   hand, for whenever a dark palette is actually signed off, but nothing
+   in this stylesheet triggers them on its own any more.
+
+   To preview it: <html data-theme="dark">. */
+:root[data-theme="dark"] {
+  --bg: #0b100e;
+  --bg-raised: #141a17;
+  --bg-sunken: #141a17;
+  --bg-band: #12251c;
+  --bg-inverse: var(--green-deep);
+  --text: var(--bone);
+  --text-muted: #9aa49e;
+  --accent: #3fb083;
+  --accent-hover: #5cc79b;
+  --link: #3fb083;
+  --on-accent: #0b100e;
+  --rule: rgb(211 211 201 / 0.2);
+  --focus: #3fb083;
+  --placeholder-stripe: repeating-linear-gradient(
+    135deg,
+    #1a211d 0 14px,
+    #141a17 14px 28px
+  );
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "dedalus",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ددالوس",
+    "en": "Dedalus"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Brazil",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dedalus/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dedalus/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Dedalus.jpg",
+      "kind": "main",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Dedalus.jpg",
+      "archived_url": "https://web.archive.org/web/20260225092953id_/https://es55asecvav.exactdn.com/wp-content/uploads/Dedalus.jpg?strip=all",
+      "alt": "Dedalus – main product image (slab surface)",
+      "alt_fa": "ددالوس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Dedalus",
+      "width": 1733,
+      "height": 903,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 384750,
+      "sha1": "b68effe10c552a2b8101a426180b55e0aab90814",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://behkooshan.ir/product/platinum/",
+        "product card on https://fa.behkooshan.ir/",
+        "product page https://fa.behkooshan.ir/product/dedalus/"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=218653ac7e7cc11851108b395214314d6aaecf95",
+      "archived_url": "https://web.archive.org/web/20260220121000id_/https://fa.behkooshan.ir/?jet_download=218653ac7e7cc11851108b395214314d6aaecf95",
+      "original_filename": "Dedalus.jpg",
+      "width": 1733,
+      "height": 903,
+      "format": "JPEG",
+      "bytes": 385464,
+      "sha1": "5264d02e2aee59f557cc27a1e05c53557665fe2a",
+      "alt": "Dedalus – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Dedalus.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Marble\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Dedalus",
+    "en": "Dedalus"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6713"
+    ],
+    "en": [
+      "6496"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-09-01T10:27:29",
+      "modified": "2026-09-21T13:36:48"
+    },
+    "en": {
+      "published": "2025-09-01T10:29:38",
+      "modified": "2025-09-01T10:29:38"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260227122147",
+        "archived": "https://web.archive.org/web/20260227122147/https://fa.behkooshan.ir/product/dedalus/"
+      },
+      {
+        "captured": "20260219190434",
+        "archived": "https://web.archive.org/web/20260219190434/https://fa.behkooshan.ir/product/dedalus/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

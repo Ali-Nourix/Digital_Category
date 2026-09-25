@@ -1,0 +1,230 @@
+{
+  "slug": "bellatrix",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلاتریکس",
+    "en": "Bellatrix"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/bellatrix/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/bellatrix/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Bellatrix.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050621id_/https://fa.behkooshan.ir/wp-content/uploads/Bellatrix.jpg",
+      "alt": "Bellatrix – main product image (slab surface)",
+      "alt_fa": "بلاتریکس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Bellatrix",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 129498,
+      "sha1": "bb5871a7bfc0431416ddaa2156bd0dc0f375edb5",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/bellatrix/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product page https://fa.behkooshan.ir/product/bellatrix/",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/02-Bellatrix-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project.jpg",
+      "archived_url": "https://web.archive.org/web/20260227072819id_/https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project.jpg",
+      "alt": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1640,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 94240,
+      "sha1": "1504ba7d7ff2d57312a6e88cbc1c60e6f4fa9c5e",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/bellatrix/",
+        "project page https://fa.behkooshan.ir/projects/bellatrix/",
+        "project card on https://behkooshan.ir/_project/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/bellatrix/"
+    },
+    {
+      "file": "images/03-Bellatrix-project1.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg",
+      "archived_url": null,
+      "alt": "Bellatrix – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلاتریکس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1364,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75537,
+      "sha1": "c1b796b5be88caa7985aba0d9d8534f9e4ccb277",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/bellatrix/",
+        "project page https://fa.behkooshan.ir/projects/bellatrix/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/bellatrix/",
+      "site_title": "Bellatrix-project1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Bellatrix-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Bellatrix-project1.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=098c84f40ccdfdef9f6f1e8868dfe528d89b201e",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=098c84f40ccdfdef9f6f1e8868dfe528d89b201e&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:20Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8a0cb97e468794f6cfddcc87fec18e958f20f361"
+      ],
+      "original_filename": "Bellatrix.jpg",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "bytes": 129498,
+      "sha1": "bb5871a7bfc0431416ddaa2156bd0dc0f375edb5",
+      "alt": "Bellatrix – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Bellatrix.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Bellatrix",
+    "en": "Bellatrix"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6672"
+    ],
+    "en": [
+      "6335"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-08-26T17:29:49",
+      "modified": "2025-08-26T17:29:49"
+    },
+    "en": {
+      "published": "2025-08-17T11:22:55",
+      "modified": "2025-08-26T17:25:39"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/bellatrix/",
+      "title": "Bellatrix"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/bellatrix/",
+      "title": "Bellatrix"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260224213116",
+        "archived": "https://web.archive.org/web/20260224213116/https://fa.behkooshan.ir/product/bellatrix/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "بیلاترکس",
+      "بلاتریکس لیتر"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بیلاترکس",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+        "archived": "https://web.archive.org/web/20230131094813/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D8%A7%D8%AA%D8%B1%DA%A9%D8%B3/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بلاتریکس لیتر",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+        "archived": "https://web.archive.org/web/20230131093647/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%84%DB%8C%D8%AA%D8%B1/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

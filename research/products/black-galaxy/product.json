@@ -1,0 +1,186 @@
+{
+  "slug": "black-galaxy",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک گلکسی",
+    "en": "Black Galaxy"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-galaxy/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-galaxy/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Black-Galaxy-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Galaxy-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619044912id_/https://behkooshan.ir/wp-content/uploads/Black-Galaxy-m_11zon.jpg",
+      "alt": "Black Galaxy – main product image (slab surface)",
+      "alt_fa": "بلک گلکسی – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Black Galaxy-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 24823,
+      "sha1": "d62dd940f1195ce21bff14a081750d8a54f9404c",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/black-galaxy/",
+        "product page https://fa.behkooshan.ir/product/black-galaxy/"
+      ]
+    },
+    {
+      "file": "images/02-Black-Galaxy-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Galaxy-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625074501id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Galaxy-p_11zon.jpg",
+      "alt": "Black Galaxy – product listing image",
+      "alt_fa": "بلک گلکسی – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 32653,
+      "sha1": "6b769f78142de1f08dab6269bb68bc9c2dc41ef2",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/black-galaxy/",
+        "og:image of https://fa.behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/delicate/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/elegant-green/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product card on https://fa.behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://fa.behkooshan.ir/product/platinium/",
+        "product card on https://fa.behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/serpentine/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=6a60d7465ac9e80c4626b65f1e144ce6f14b13bd",
+      "archived_url": "https://web.archive.org/web/20250625074727id_/https://fa.behkooshan.ir/?jet_download=6a60d7465ac9e80c4626b65f1e144ce6f14b13bd",
+      "original_filename": "Black-Galaxy.jpg",
+      "width": 1500,
+      "height": 907,
+      "format": "JPEG",
+      "bytes": 156408,
+      "sha1": "53684a7199a1307baeac0a4da74522f45b9de602",
+      "alt": "Black Galaxy – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Black-Galaxy.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Galaxy",
+    "en": "Black Galaxy"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5429"
+    ],
+    "en": [
+      "5429"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:06:16",
+      "modified": "2025-07-23T17:08:38"
+    },
+    "en": {
+      "published": "2023-12-12T23:06:16",
+      "modified": "2025-05-07T13:29:03"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625070654",
+        "archived": "https://web.archive.org/web/20250625070654/https://fa.behkooshan.ir/product/black-galaxy/"
+      },
+      {
+        "captured": "20250623223020",
+        "archived": "https://web.archive.org/web/20250623223020/https://fa.behkooshan.ir/product/black-galaxy/"
+      },
+      {
+        "captured": "20250619005318",
+        "archived": "https://web.archive.org/web/20250619005318/https://fa.behkooshan.ir/product/black-galaxy/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622182654",
+        "archived": "https://web.archive.org/web/20250622182654/https://behkooshan.ir/product/black-galaxy/"
+      },
+      {
+        "captured": "20250619042317",
+        "archived": "https://web.archive.org/web/20250619042317/https://behkooshan.ir/product/black-galaxy/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The Persian site showed different origins over time in the archive: آنگولا, هند; the live site (2026-09-24) shows \"هند\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

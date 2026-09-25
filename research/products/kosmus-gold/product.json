@@ -1,0 +1,173 @@
+{
+  "slug": "kosmus-gold",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کاسموس گلد",
+    "en": "Kosmus Gold"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/kosmus-gold/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/kosmus-gold/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Kosmus-Gold-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619052413id_/https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-m.jpg",
+      "alt": "Kosmus Gold – main product image (slab surface)",
+      "alt_fa": "کاسموس گلد – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Kosmus-Gold-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 267286,
+      "sha1": "b15b01f56a5cabab72f705e6fe9bdf3105a252d5",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/kosmus-gold/"
+      ]
+    },
+    {
+      "file": "images/02-Kosmus-Gold-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619000311id_/https://behkooshan.ir/wp-content/uploads/Kosmus-Gold-p.jpg",
+      "alt": "Kosmus Gold – product listing image",
+      "alt_fa": "کاسموس گلد – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 326946,
+      "sha1": "e7362c0b3247354df596a54652466b45b23c9506",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/kosmus-gold/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=3fdf5ddfad7288ae6ab919ef8cd99be94018826e",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=3fdf5ddfad7288ae6ab919ef8cd99be94018826e&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:46Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Kosmus-Gold-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 267286,
+      "sha1": "b15b01f56a5cabab72f705e6fe9bdf3105a252d5",
+      "alt": "Kosmus Gold – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Kosmus-Gold-m.jpg",
+      "note": "identical to the product image file listed in images[]"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=e49db242696668881085f4732d9b2ca38d0f585c",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=e49db242696668881085f4732d9b2ca38d0f585c&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:05:30Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "3447_1-001-scaled.jpg",
+      "width": 1889,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 614653,
+      "sha1": "575ad7c53b47ab0e1193896c3a333f5cc5522e37",
+      "alt": "Kosmus Gold – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-3447_1-001-scaled.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Kosmus Gold",
+    "en": "Kosmus Gold"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5968"
+    ],
+    "en": [
+      "5753"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T17:46:59",
+      "modified": "2025-07-23T17:47:00"
+    },
+    "en": {
+      "published": "2025-05-07T14:57:42",
+      "modified": "2025-05-07T15:08:13"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250618232519",
+        "archived": "https://web.archive.org/web/20250618232519/https://behkooshan.ir/product/kosmus-gold/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

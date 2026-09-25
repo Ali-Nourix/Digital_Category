@@ -1,0 +1,365 @@
+{
+  "slug": "new-patagonia",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نیو پاتاگونیا",
+    "en": "New Patagonia"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/new-patagonia/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/new-patagonia/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-New-Patagonia-m_11zon.jpg",
+      "kind": "former",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625082215id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-m_11zon.jpg",
+      "alt": "New Patagonia – main product image (slab surface)",
+      "alt_fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "New Patagonia-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 86384,
+      "sha1": "2841ab77774a12fd7d22bac0feca643a5c2515fd",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/new-patagonia/",
+        "product page https://fa.behkooshan.ir/product/new-patagonia/"
+      ],
+      "former_kind": "main",
+      "former_note": "No longer shown on the live site (checked 2026-09-24); the site now shows images/08-New-Patagonia-1.jpg instead."
+    },
+    {
+      "file": "images/08-New-Patagonia-1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1.jpg",
+      "archived_url": null,
+      "alt": "New Patagonia – main product image (slab surface)",
+      "alt_fa": "نیو پاتاگونیا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "New-Patagonia-1",
+      "width": 1920,
+      "height": 1077,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 218916,
+      "sha1": "fd98e3ecc2827b8b9da4c962e6cc1c0837f1aeb3",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/new-patagonia/",
+        "og:image of https://fa.behkooshan.ir/product/new-patagonia/",
+        "product page https://behkooshan.ir/product/new-patagonia/",
+        "og:image of https://behkooshan.ir/product/new-patagonia/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/New-Patagonia-1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:29Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1.jpg",
+        "https://behkooshan.ir/wp-content/uploads/New-Patagonia-1.jpg"
+      ]
+    },
+    {
+      "file": "images/02-New-Patagonia-1-1536x862.jpg",
+      "kind": "superseded",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1-1536x862.jpg",
+      "archived_url": "https://web.archive.org/web/20260220030028id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-1-1536x862.jpg",
+      "alt": "New Patagonia – product listing image",
+      "alt_fa": "نیو پاتاگونیا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1536,
+      "height": 862,
+      "format": "JPEG",
+      "resolution": "resized-1536x862",
+      "bytes": 218623,
+      "sha1": "4d1a0662be9e667172af5c935d2340f4fe536501",
+      "seen_on": [
+        "product card on https://fa.behkooshan.ir/product/casper-line/"
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/08-New-Patagonia-1.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/03-New-Patagonia-p_11zon.jpg",
+      "kind": "former",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623224826id_/https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-p_11zon.jpg",
+      "alt": "New Patagonia – product listing image",
+      "alt_fa": "نیو پاتاگونیا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 101866,
+      "sha1": "4c8eb0539bc4aecb8045b14773207fc69d4b0805",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/new-patagonia/",
+        "og:image of https://fa.behkooshan.ir/product/new-patagonia/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/absolute-black/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/river-blanche/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/mercury-black/",
+        "product sitemap"
+      ],
+      "former_kind": "listing",
+      "former_note": "No longer shown on the live site (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/04-New-Patagonia-pr.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr.jpg",
+      "archived_url": null,
+      "alt": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 117894,
+      "sha1": "e40190bf9b6e369298dc95632fd1ae83528a1d71",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/new-patagonia/",
+        "project page https://fa.behkooshan.ir/projects/new-patagonia/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/new-patagonia/",
+      "site_title": "New Patagonia-pr",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/New-Patagonia-pr.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-pr.jpg"
+      ]
+    },
+    {
+      "file": "images/05-New-Patagonia-pr1.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr1.jpg",
+      "archived_url": null,
+      "alt": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 84686,
+      "sha1": "0620c35155f127be7e08c26cca22afbc284b1854",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/new-patagonia/",
+        "project page https://fa.behkooshan.ir/projects/new-patagonia/",
+        "project card on https://behkooshan.ir/_project/page/3/",
+        "project card on https://fa.behkooshan.ir/projects/page/3/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/new-patagonia/",
+      "site_title": "New Patagonia-pr1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/New-Patagonia-pr1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-pr1.jpg"
+      ]
+    },
+    {
+      "file": "images/06-New-Patagonia-pr2.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr2.jpg",
+      "archived_url": null,
+      "alt": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87094,
+      "sha1": "eb91b5a7fc926339e784b5034e3cac8d6d464816",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/new-patagonia/",
+        "project page https://fa.behkooshan.ir/projects/new-patagonia/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/new-patagonia/",
+      "site_title": "New Patagonia-pr2",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/New-Patagonia-pr2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-pr2.jpg"
+      ]
+    },
+    {
+      "file": "images/07-New-Patagonia-pr3.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr3.jpg",
+      "archived_url": null,
+      "alt": "New Patagonia – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیو پاتاگونیا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1639,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 77376,
+      "sha1": "88d52a425b3b955e2d8e7bbfbae6e4ac97f7c4f6",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/new-patagonia/",
+        "project page https://fa.behkooshan.ir/projects/new-patagonia/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/new-patagonia/",
+      "site_title": "New Patagonia-pr3",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/New-Patagonia-pr3.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:38Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/New-Patagonia-pr3.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/New-Patagonia-pr3-1.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=f68217446a892fdb78e67f74c8392f14bfbbb68e",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=f68217446a892fdb78e67f74c8392f14bfbbb68e&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:33Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=b2cec35fc5ee07b50e84fefef7345f600b73be20"
+      ],
+      "original_filename": "New-Patagonia-1.jpg",
+      "width": 1920,
+      "height": 1077,
+      "format": "JPEG",
+      "bytes": 218916,
+      "sha1": "fd98e3ecc2827b8b9da4c962e6cc1c0837f1aeb3",
+      "alt": "New Patagonia – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/08-New-Patagonia-1.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "New Patagonia",
+    "en": "New Patagonia"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5466"
+    ],
+    "en": [
+      "5466"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:18:45",
+      "modified": "2025-08-17T00:50:37"
+    },
+    "en": {
+      "published": "2023-12-12T23:18:45",
+      "modified": "2025-08-16T11:14:32"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/new-patagonia/",
+      "title": "New Patagonia"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/new-patagonia/",
+      "title": "New Patagonia"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625074250",
+        "archived": "https://web.archive.org/web/20250625074250/https://fa.behkooshan.ir/product/new-patagonia/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619003241",
+        "archived": "https://web.archive.org/web/20250619003241/https://behkooshan.ir/product/new-patagonia/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "cfafd884980fcbfc1aef5e0951a92cbfd9d51f17",
+      "languages": [
+        "en",
+        "fa"
+      ],
+      "reason": "the product page links this texture download, but the Wayback Machine did not archive the file",
+      "live_check": "no longer linked on the live site (2026-09-24); the product page now links another texture download, which is held in textures[]"
+    }
+  ],
+  "notes": [
+    "Texture download file(s) linked on the product page were not archived; see missing_textures.",
+    "The Persian site showed different origins over time in the archive: آنگولا, هند; the live site (2026-09-24) shows \"هند\", which is used.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

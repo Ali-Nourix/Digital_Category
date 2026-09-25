@@ -1,0 +1,169 @@
+{
+  "slug": "explosion-blue",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "اکسپلوژن بلو",
+    "en": "Explosion Blue"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/explosion-blue/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/explosion-blue/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Explosion-Blue-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Explosion-Blue-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623222606id_/https://fa.behkooshan.ir/wp-content/uploads/Explosion-Blue-m_11zon.jpg",
+      "alt": "Explosion Blue – main product image (slab surface)",
+      "alt_fa": "اکسپلوژن بلو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Explosion Blue-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 87573,
+      "sha1": "f634f0069d0b9f412cfdce6eda55e008dae4db8b",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/explosion-blue/",
+        "product page https://fa.behkooshan.ir/product/explosion-blue/"
+      ]
+    },
+    {
+      "file": "images/02-Explosion-Blue-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Explosion-Blue-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619030553id_/https://fa.behkooshan.ir/wp-content/uploads/Explosion-Blue-p_11zon.jpg",
+      "alt": "Explosion Blue – product listing image",
+      "alt_fa": "اکسپلوژن بلو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 104026,
+      "sha1": "c80fca4b36ad073ec0c0d18061d097ae4801e51a",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/explosion-blue/",
+        "og:image of https://fa.behkooshan.ir/product/explosion-blue/",
+        "product card on https://behkooshan.ir/product/casper/",
+        "product card on https://behkooshan.ir/product/new-patagonia/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/bronze-antique/",
+        "product card on https://fa.behkooshan.ir/product/casper/",
+        "product card on https://fa.behkooshan.ir/product/jasmin/",
+        "product card on https://fa.behkooshan.ir/product/naica-quartzite/",
+        "product card on https://fa.behkooshan.ir/product/verde-karzai/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=c3a3a9d1ea1d2e9d172d29121d1c504035a50f85",
+      "archived_url": "https://web.archive.org/web/20250704141132id_/https://fa.behkooshan.ir/?jet_download=c3a3a9d1ea1d2e9d172d29121d1c504035a50f85",
+      "original_filename": "Explosion-Blue.jpg",
+      "width": 1418,
+      "height": 874,
+      "format": "JPEG",
+      "bytes": 350216,
+      "sha1": "dde35d27fd8d511119782e54fb62e360e5498096",
+      "alt": "Explosion Blue – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Explosion-Blue.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Explosion Blue",
+    "en": "Explosion Blue"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5443"
+    ],
+    "en": [
+      "5443"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:12:38",
+      "modified": "2025-07-23T14:38:04"
+    },
+    "en": {
+      "published": "2023-12-12T23:12:38",
+      "modified": "2025-05-07T13:28:43"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625180249",
+        "archived": "https://web.archive.org/web/20250625180249/https://fa.behkooshan.ir/product/explosion-blue/"
+      },
+      {
+        "captured": "20250623221918",
+        "archived": "https://web.archive.org/web/20250623221918/https://fa.behkooshan.ir/product/explosion-blue/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622193014",
+        "archived": "https://web.archive.org/web/20250622193014/https://behkooshan.ir/product/explosion-blue/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

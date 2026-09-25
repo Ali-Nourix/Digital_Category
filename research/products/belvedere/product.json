@@ -1,0 +1,334 @@
+{
+  "slug": "belvedere",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلودره",
+    "en": "Belvedere"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/belvedere/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/belvedere/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-belvedere-m_11zon.jpg",
+      "kind": "former",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/belvedere-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624085300id_/https://fa.behkooshan.ir/wp-content/uploads/belvedere-m_11zon.jpg",
+      "alt": "Belvedere – main product image (slab surface)",
+      "alt_fa": "بلودره – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "belvedere-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 63327,
+      "sha1": "d9e7b501231e85e89ec039b3b94f8d2b560e0bc2",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/belvedere/",
+        "product page https://fa.behkooshan.ir/product/belvedere/"
+      ],
+      "former_kind": "main",
+      "former_note": "No longer shown on the live site (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/02-3776_-025-2048x1019.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/3776_-025-2048x1019.jpg",
+      "archived_url": "https://web.archive.org/web/20260225115944id_/https://fa.behkooshan.ir/wp-content/uploads/3776_-025-2048x1019.jpg",
+      "alt": "Belvedere – product listing image",
+      "alt_fa": "بلودره – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 2048,
+      "height": 1019,
+      "format": "JPEG",
+      "resolution": "resized-2048x1019",
+      "bytes": 230291,
+      "sha1": "c6e130228671980d6bd37d58ac542e48e274e5a1",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/3776_-025.jpg",
+        "width": 6737,
+        "height": 3353,
+        "bytes": 7698608,
+        "sha1": "4c54c489133bf8886bcf2c565de40aceb3f7590a",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/03-belvedere-p_11zon.jpg",
+      "kind": "former",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/belvedere-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619041020id_/https://fa.behkooshan.ir/wp-content/uploads/belvedere-p_11zon.jpg",
+      "alt": "Belvedere – product listing image",
+      "alt_fa": "بلودره – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 75316,
+      "sha1": "d1103e34d315f0ad3d633bb79c86ff6e4cedf88d",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/belvedere/",
+        "og:image of https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-beat/",
+        "product card on https://behkooshan.ir/product/gando/",
+        "product card on https://behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://fa.behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ],
+      "former_kind": "listing",
+      "former_note": "No longer shown on the live site (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/04-Belvedere-1-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Belvedere-1-scaled.jpg",
+      "archived_url": null,
+      "alt": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلودره – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 144560,
+      "sha1": "c853e7ef1bec9859c2c6bca0b02e5269ad52c5f3",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/belvedere/",
+        "project page https://fa.behkooshan.ir/projects/belvedere/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/belvedere/",
+      "site_title": "Belvedere",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Belvedere-1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:13Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Belvedere-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-2-scaled.jpg"
+      ],
+      "replaces": {
+        "file": "images/04-Belvedere-1-scaled.jpg",
+        "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg",
+        "archived_url": "https://web.archive.org/web/20260226234138id_/https://es55asecvav.exactdn.com/wp-content/uploads/Belvedere-1-scaled.jpg?strip=all",
+        "width": 1440,
+        "height": 1080,
+        "resolution": "wp-scaled",
+        "bytes": 144194,
+        "sha1": "96c1a7d923f833c6f5f79dcc903be98a3e398f92"
+      },
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Belvedere-1.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4051163,
+        "sha1": "d1469251c8ff65dc80c9c1ee2529d69b2d43442a",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-Belvedere-02-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg",
+      "archived_url": null,
+      "alt": "Belvedere – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلودره – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 190719,
+      "sha1": "3f76c70e18d19eba1c233204b1a94f1d858225bb",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/belvedere/",
+        "project page https://fa.behkooshan.ir/projects/belvedere/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/belvedere/",
+      "site_title": "Belvedere 02",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Belvedere-02-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:15Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Belvedere-02-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Belvedere-02.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4047349,
+        "sha1": "f968749fecc29bf68044ae69689f59a03ede34b8",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=e7dc7248aaea8f275988dc6751656950a531abf1",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=e7dc7248aaea8f275988dc6751656950a531abf1&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:20:17Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=e95157100b6293ec0d8d6907143bb7ba23c3d871"
+      ],
+      "original_filename": "3776_-025-scaled.jpg",
+      "width": 1920,
+      "height": 956,
+      "format": "JPEG",
+      "bytes": 262159,
+      "sha1": "a5f344772eaff45101da0624f11dde8fc857035d",
+      "alt": "Belvedere – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/02-3776_-025-scaled.jpg"
+    },
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=55224e65fbede3c8f3cc2ab8986542fac51645f5",
+      "archived_url": "https://web.archive.org/web/20250704082956id_/https://fa.behkooshan.ir/?jet_download=55224e65fbede3c8f3cc2ab8986542fac51645f5",
+      "original_filename": "belvedere.jpg",
+      "width": 1543,
+      "height": 862,
+      "format": "JPEG",
+      "bytes": 248737,
+      "sha1": "bd8785df9129a0c52103d1025e0e18f7c38edd28",
+      "alt": "Belvedere – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-belvedere.jpg",
+      "former_note": "No longer the live site's texture download (checked 2026-09-24)."
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Belvedere",
+    "en": "Belvedere"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5415"
+    ],
+    "en": [
+      "5415"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:01:15",
+      "modified": "2025-09-01T11:39:20"
+    },
+    "en": {
+      "published": "2023-12-12T23:01:15",
+      "modified": "2025-09-01T11:41:52"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/belvedere/",
+      "title": "Belvedere"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/belvedere/",
+      "title": "Belvedere"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704080119",
+        "archived": "https://web.archive.org/web/20250704080119/https://fa.behkooshan.ir/product/belvedere/"
+      },
+      {
+        "captured": "20250624074456",
+        "archived": "https://web.archive.org/web/20250624074456/https://fa.behkooshan.ir/product/belvedere/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619030903",
+        "archived": "https://web.archive.org/web/20250619030903/https://behkooshan.ir/product/belvedere/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "بیلویدیری"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بیلویدیری",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D9%88%DB%8C%D8%AF%DB%8C%D8%B1%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131100100/https://www.behkooshan.ir/bk_product/%D8%A8%DB%8C%D9%84%D9%88%DB%8C%D8%AF%DB%8C%D8%B1%DB%8C/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

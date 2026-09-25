@@ -1,0 +1,177 @@
+{
+  "slug": "kojin",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "کوجین",
+    "en": "Kojin"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/kojin/",
+      "https://fa.behkooshan.ir/product/nehbandan/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/nehbandan/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-nehbandan.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/nehbandan.jpg",
+      "archived_url": "https://web.archive.org/web/20250704180343id_/https://fa.behkooshan.ir/wp-content/uploads/nehbandan.jpg",
+      "alt": "nehbandan",
+      "alt_fa": "کوجین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "nehbandan",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 174730,
+      "sha1": "92043accd34b8b9c6120a4c5d20ddee1a8314efb",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/nehbandan/",
+        "product page https://fa.behkooshan.ir/product/nehbandan/"
+      ]
+    },
+    {
+      "file": "images/02-nehbandan1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/nehbandan1.jpg",
+      "archived_url": "https://web.archive.org/web/20250623230301id_/https://fa.behkooshan.ir/wp-content/uploads/nehbandan1.jpg",
+      "alt": "Kojin – product listing image",
+      "alt_fa": "کوجین – تصویر فهرست محصولات",
+      "site_alt": "Kojin",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 163702,
+      "sha1": "2a82443dfbcb5d9660703add163ddaaadfb5a651",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/nehbandan/",
+        "og:image of https://fa.behkooshan.ir/product/nehbandan/",
+        "product card on https://behkooshan.ir/product/purple-rain/",
+        "product card on https://behkooshan.ir/product/serpentine/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product card on https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://fa.behkooshan.ir/product/patagonia/",
+        "product card on https://fa.behkooshan.ir/product/serpentine/",
+        "product card on https://fa.behkooshan.ir/product/t-rex/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=da70db7b7a3a3d1fa219f408b6e8d5bc6b328954",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=da70db7b7a3a3d1fa219f408b6e8d5bc6b328954&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:53Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8f83fa74a350d4091df1c64e49fc3bbdcfd33484"
+      ],
+      "original_filename": "nehbandan.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 174730,
+      "sha1": "92043accd34b8b9c6120a4c5d20ddee1a8314efb",
+      "alt": "Kojin – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-nehbandan.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Kojin",
+    "en": "Kojin"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3922",
+      "5964"
+    ],
+    "en": [
+      "3922"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T17:43:56",
+      "modified": "2025-07-23T17:43:57"
+    },
+    "en": {
+      "published": "2023-08-01T14:59:11",
+      "modified": "2025-05-07T13:37:05"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250626010547",
+        "archived": "https://web.archive.org/web/20250626010547/https://fa.behkooshan.ir/product/nehbandan/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260226143851",
+        "archived": "https://web.archive.org/web/20260226143851/https://behkooshan.ir/product/nehbandan/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The site renamed this stone: the English site titles post 3922 (URL /product/nehbandan/) \"Kojin\", while the Persian site listed it as \"Nehbandan\" and in 2026 re-published it as a new post \"Kojin\" (/product/kojin/) using the same photo (nehbandan1.jpg re-uploaded as nehbandan1-1.jpg, identical picture). Merged into one product.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/kojin/; https://fa.behkooshan.ir/product/nehbandan/ is no longer on the site."
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "slug": "negresco",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نگرسکو",
+    "en": "Negresco"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/negresco/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/negresco/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Negresco-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Negresco-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250627065659id_/https://behkooshan.ir/wp-content/uploads/Negresco-m.jpg",
+      "alt": "Negresco – main product image (slab surface)",
+      "alt_fa": "نگرسکو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Negresco-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 137348,
+      "sha1": "3368695ecad84a43693c975c9eda36aa2a2aa550",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/negresco/",
+        "product page https://fa.behkooshan.ir/product/negresco/"
+      ]
+    },
+    {
+      "file": "images/02-Negresco-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Negresco-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623233309id_/https://fa.behkooshan.ir/wp-content/uploads/Negresco-p.jpg",
+      "alt": "Negresco – product listing image",
+      "alt_fa": "نگرسکو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 176638,
+      "sha1": "ff6e53392e662d11431ed71142cbcda2589d63a3",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/negresco/",
+        "og:image of https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://behkooshan.ir/product/black-beat/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/taj-mahal/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/dark-golden-lightning/",
+        "product card on https://fa.behkooshan.ir/product/patagonia/",
+        "product card on https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-35-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/35-final-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226120056id_/https://fa.behkooshan.ir/wp-content/uploads/35-final-scaled.jpg",
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 110707,
+      "sha1": "d035bc10fa69d04eba8f73b05743ed171299c76f",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "35 final",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/35-final-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/35-final-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/35-final.jpg",
+        "width": 2250,
+        "height": 3000,
+        "bytes": 3477079,
+        "sha1": "f4fe90b3017d9fd080e51627388f652b1b65775c",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-36-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/36-final-scaled.jpg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 208109,
+      "sha1": "4a1d18a4eb52e96a5e59360941cbaa0632a8bbdd",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "36 final",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/36-final-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:52Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/36-final-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/36-final-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/36-final.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3435125,
+        "sha1": "0c5306b3aaf443feeaf9dcd8406216b0bcfd061a",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-38-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/38-final-scaled.jpg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 205477,
+      "sha1": "fa8471984b49cf098b247f255a9a9d8ec6dafc86",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "38 final",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/38-final-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:55Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/38-final-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/38-final-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/38-final.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4052271,
+        "sha1": "241c16e9f801111e5121c3a4f0dc5cd95b7c556c",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-37-final-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/37-final-scaled.jpg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 224424,
+      "sha1": "66a267e715fcb4f3f7417ba73014a4a1b1620891",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "37 final",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/37-final-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:54Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/37-final-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/37-final-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/37-final.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4242130,
+        "sha1": "4a3375a1fb83a12d808a2ac221e3616e7c71a926",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-ba89e198-f5f9-46ed-8629-2821c0eb7269.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/ba89e198-f5f9-46ed-8629-2821c0eb7269.jpg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 607,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80249,
+      "sha1": "f9540f8f14998d2eb50ffc6427917554ed92e411",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "ba89e198-f5f9-46ed-8629-2821c0eb7269",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/ba89e198-f5f9-46ed-8629-2821c0eb7269.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/ba89e198-f5f9-46ed-8629-2821c0eb7269.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/ba89e198-f5f9-46ed-8629-2821c0eb7269.jpg"
+      ]
+    },
+    {
+      "file": "images/08-WhatsApp-Image-2025-09-04-at-14.39.09-1.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/WhatsApp-Image-2025-09-04-at-14.39.09-1.jpeg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 98773,
+      "sha1": "c48151bbc4a42adcedfbd5286a94b43ad6a959a0",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "WhatsApp Image 2025-09-04 at 14.39.09 (1)",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/WhatsApp-Image-2025-09-04-at-14.39.09-1.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/WhatsApp-Image-2025-09-04-at-14.39.09-1.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/WhatsApp-Image-2025-09-04-at-14.39.09-1.jpeg"
+      ]
+    },
+    {
+      "file": "images/09-Negresco-02.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Negresco-02.jpeg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 720,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 71998,
+      "sha1": "0b9d8ea6f16ecf10a2de17b554173919119f92ce",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "Negresco 02",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Negresco-02.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Negresco-02.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Negresco-02.jpeg"
+      ]
+    },
+    {
+      "file": "images/10-Negresco.jpeg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Negresco.jpeg",
+      "archived_url": null,
+      "alt": "Negresco – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نگرسکو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 83707,
+      "sha1": "f9986d0b5ea928326f75a311fcdd31d939b6035f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/negresco/",
+        "project page https://fa.behkooshan.ir/projects/negresco/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/negresco/",
+      "site_title": "Negresco",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Negresco.jpeg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Negresco.jpeg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Negresco.jpeg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=b47f4b932c5a9d381fc09be01bad1b872634e812",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=b47f4b932c5a9d381fc09be01bad1b872634e812&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=b47f4b932c5a9d381fc09be01bad1b872634e812"
+      ],
+      "original_filename": "Negresco-m.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 137348,
+      "sha1": "3368695ecad84a43693c975c9eda36aa2a2aa550",
+      "alt": "Negresco – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Negresco-m.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Negresco",
+    "en": "Negresco"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5461"
+    ],
+    "en": [
+      "5461"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:17:42",
+      "modified": "2025-07-23T17:55:03"
+    },
+    "en": {
+      "published": "2023-12-12T23:17:42",
+      "modified": "2025-05-07T13:24:55"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/negresco/",
+      "title": "Negresco"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/negresco/",
+      "title": "Negresco"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625084835",
+        "archived": "https://web.archive.org/web/20250625084835/https://fa.behkooshan.ir/product/negresco/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250627052729",
+        "archived": "https://web.archive.org/web/20250627052729/https://behkooshan.ir/product/negresco/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

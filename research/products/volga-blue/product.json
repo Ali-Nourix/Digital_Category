@@ -1,0 +1,245 @@
+{
+  "slug": "volga-blue",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ولگا بلو",
+    "en": "Volga Blue"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "اکراین",
+      "رنگ": [
+        "مشکی",
+        "آبی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Ukraine",
+      "Colour": [
+        "Black",
+        "Blue"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/volga-blue/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/volga-blue/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-volga_blue1.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/volga_blue1.jpg",
+      "archived_url": "https://web.archive.org/web/20250619025127id_/https://fa.behkooshan.ir/wp-content/uploads/volga_blue1.jpg",
+      "alt": "volga_blue1",
+      "alt_fa": "ولگا بلو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "volga_blue1",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 187785,
+      "sha1": "7ce45763312af13687ed8b722e0553bf3e44072c",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/volga-blue/",
+        "product page https://fa.behkooshan.ir/product/volga-blue/"
+      ]
+    },
+    {
+      "file": "images/02-volga_blue3_tzLE2qZ6YWLcdLJeeEKr.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/volga_blue3_tzLE2qZ6YWLcdLJeeEKr.jpg",
+      "archived_url": "https://web.archive.org/web/20250622163043id_/https://behkooshan.ir/wp-content/uploads/volga_blue3_tzLE2qZ6YWLcdLJeeEKr.jpg",
+      "alt": "Volga Blue – product listing image",
+      "alt_fa": "ولگا بلو – تصویر فهرست محصولات",
+      "site_alt": "Volga Blue",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 186303,
+      "sha1": "b34e7d3fc2470239d67a8549843823951e813a11",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/volga-blue/",
+        "og:image of https://fa.behkooshan.ir/product/volga-blue/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/new-golden-silver/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/titanium-mc/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/dark-golden-lightning/",
+        "product card on https://fa.behkooshan.ir/product/jacaranda/",
+        "product card on https://fa.behkooshan.ir/product/new-lumix-wow/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-Volga-Blue.jpeg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Volga-Blue.jpeg",
+      "archived_url": "https://web.archive.org/web/20260224221952id_/https://fa.behkooshan.ir/wp-content/uploads/Volga-Blue.jpeg",
+      "alt": "Volga Blue – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "ولگا بلو – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 721,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 91476,
+      "sha1": "be1815c7fdd2f93cdf93b1cfd7f290238a077986",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/volga-blue/",
+        "project page https://fa.behkooshan.ir/projects/volga-blue/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/volga-blue/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7480af38e5dab1ada9a00c86add04c301c82944f",
+      "archived_url": "https://web.archive.org/web/20250625160635id_/https://fa.behkooshan.ir/?jet_download=7480af38e5dab1ada9a00c86add04c301c82944f",
+      "original_filename": "volga_blue1.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 187785,
+      "sha1": "7ce45763312af13687ed8b722e0553bf3e44072c",
+      "alt": "Volga Blue – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-volga_blue1.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Volga Blue",
+    "en": "Volga Blue"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4846"
+    ],
+    "en": [
+      "4846"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T11:21:36",
+      "modified": "2024-04-22T08:57:57"
+    },
+    "en": {
+      "published": "2023-09-05T11:21:36",
+      "modified": "2023-09-26T16:23:58"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/volga-blue/",
+      "title": "Volga Blue"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/volga-blue/",
+      "title": "Volga Blue"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625144233",
+        "archived": "https://web.archive.org/web/20250625144233/https://fa.behkooshan.ir/product/volga-blue/"
+      },
+      {
+        "captured": "20250623235244",
+        "archived": "https://web.archive.org/web/20250623235244/https://fa.behkooshan.ir/product/volga-blue/"
+      },
+      {
+        "captured": "20250619011558",
+        "archived": "https://web.archive.org/web/20250619011558/https://fa.behkooshan.ir/product/volga-blue/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260226171826",
+        "archived": "https://web.archive.org/web/20260226171826/https://behkooshan.ir/product/volga-blue/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "ولگا بلو",
+      "ولگا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ولگا بلو",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7-%D8%A8%D9%84%D9%88/",
+        "archived": "https://web.archive.org/web/20230131102936/https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7-%D8%A8%D9%84%D9%88/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ولگا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131111417/https://www.behkooshan.ir/bk_product/%D9%88%D9%84%DA%AF%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Colour attribute differs between the sites (live site, 2026-09-24): Persian site ['black', 'blue'], English site ['black']; the Persian site's terms are used."
+  ]
+}

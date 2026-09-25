@@ -1,0 +1,172 @@
+{
+  "slug": "taj-mahal",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "تاج محل",
+    "en": "Taj Mahal"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Angola",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/taj-mahal/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/taj-mahal/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Taj-Mahal-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Taj-Mahal-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250625085408id_/https://fa.behkooshan.ir/wp-content/uploads/Taj-Mahal-m_11zon.jpg",
+      "alt": "Taj Mahal – main product image (slab surface)",
+      "alt_fa": "تاج محل – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Taj Mahal-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 33176,
+      "sha1": "4a413392623cbdf9d7fb9935e0f0d953af6c43c7",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/taj-mahal/",
+        "product page https://fa.behkooshan.ir/product/taj-mahal/"
+      ]
+    },
+    {
+      "file": "images/02-Taj-Mahal-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Taj-Mahal-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624172015id_/https://fa.behkooshan.ir/wp-content/uploads/Taj-Mahal-p_11zon.jpg",
+      "alt": "Taj Mahal – product listing image",
+      "alt_fa": "تاج محل – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 39790,
+      "sha1": "626211aec657c5082237d9368759aa13757b4495",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/taj-mahal/",
+        "og:image of https://fa.behkooshan.ir/product/taj-mahal/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/product/serpentine/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://behkooshan.ir/product/volga-blue/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/black-diamond/",
+        "product card on https://fa.behkooshan.ir/product/new-lumix-wow/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-green/",
+        "product card on https://fa.behkooshan.ir/product/python/",
+        "product card on https://fa.behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/product/sanded-white/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:01Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=0d474e49fac801a7463896b879fc1bb38cf30ca2"
+      ],
+      "original_filename": "Taj-Mahal.jpg",
+      "width": 1419,
+      "height": 898,
+      "format": "JPEG",
+      "bytes": 158557,
+      "sha1": "7568ce031a2e5756a57ddc8b0115a5804d36d84e",
+      "alt": "Taj Mahal – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Taj-Mahal.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Taj Mahal",
+    "en": "Taj Mahal"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5487"
+    ],
+    "en": [
+      "5487"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:24:06",
+      "modified": "2024-04-20T11:51:46"
+    },
+    "en": {
+      "published": "2023-12-12T23:24:06",
+      "modified": "2023-12-12T23:24:08"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625082727",
+        "archived": "https://web.archive.org/web/20250625082727/https://fa.behkooshan.ir/product/taj-mahal/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250623023903",
+        "archived": "https://web.archive.org/web/20250623023903/https://behkooshan.ir/product/taj-mahal/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

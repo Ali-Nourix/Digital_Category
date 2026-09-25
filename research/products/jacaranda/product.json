@@ -1,0 +1,271 @@
+{
+  "slug": "jacaranda",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "جاکاراندا",
+    "en": "Jacaranda"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/jacaranda/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/jacaranda/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Jacaranda-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Jacaranda-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623234242id_/https://fa.behkooshan.ir/wp-content/uploads/Jacaranda-m_11zon.jpg",
+      "alt": "Jacaranda – main product image (slab surface)",
+      "alt_fa": "جاکاراندا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Jacaranda-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 84256,
+      "sha1": "3e372990274a9c3467f31e07208d9aa2b19dd1d7",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/jacaranda/",
+        "product page https://fa.behkooshan.ir/product/jacaranda/"
+      ]
+    },
+    {
+      "file": "images/02-Jacaranda-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Jacaranda-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250619044426id_/https://behkooshan.ir/wp-content/uploads/Jacaranda-p_11zon.jpg",
+      "alt": "Jacaranda – product listing image",
+      "alt_fa": "جاکاراندا – تصویر فهرست محصولات",
+      "site_alt": "Jacaranda",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 100261,
+      "sha1": "f437cfe4ae3b2c8a31c5cd3b306424ef32142fa8",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/jacaranda/",
+        "og:image of https://fa.behkooshan.ir/product/jacaranda/",
+        "product card on https://behkooshan.ir/product/jacaranda/",
+        "product card on https://behkooshan.ir/product/negresco/",
+        "product card on https://behkooshan.ir/product/patagonia-black/",
+        "product card on https://behkooshan.ir/product/patagonia-green/",
+        "product card on https://behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/product/verde-fantastic/",
+        "product card on https://fa.behkooshan.ir/product/amazonite/",
+        "product card on https://fa.behkooshan.ir/product/bellatrix/",
+        "product card on https://fa.behkooshan.ir/product/black-galaxy/",
+        "product card on https://fa.behkooshan.ir/product/sanded-white/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-2-1-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/2-1-scaled.jpg",
+      "archived_url": null,
+      "alt": "Jacaranda – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "جاکاراندا – تصویر بخش پروژه‌های سایت",
+      "site_alt": "2",
+      "width": 721,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 80807,
+      "sha1": "069704c14574d1c6f6ae410a04ee6ea042931f0c",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project page https://behkooshan.ir/_project/jacaranda/",
+        "project page https://fa.behkooshan.ir/projects/jacaranda/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/jacaranda/",
+      "site_title": "2",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/2-1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:39:29Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/2-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/2-2.jpg"
+      ],
+      "replaces": {
+        "file": "images/03-2-1-scaled.jpg",
+        "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/2-1-scaled.jpg",
+        "archived_url": "https://web.archive.org/web/20260225071616id_/https://es55asecvav.exactdn.com/wp-content/uploads/2-1-scaled.jpg?strip=all",
+        "width": 721,
+        "height": 1080,
+        "resolution": "wp-scaled",
+        "bytes": 80592,
+        "sha1": "5f192f876218ed0aa8259a211b584c19bb215692"
+      },
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/2-1.jpg",
+        "width": 5300,
+        "height": 7946,
+        "bytes": null,
+        "sha1": null,
+        "format": "JPEG",
+        "note": "larger than 15,728,209 bytes; the proxy cut it off, size read from the JPEG header"
+      }
+    },
+    {
+      "file": "images/04-1-2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/1-2.jpg",
+      "archived_url": null,
+      "alt": "Jacaranda – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "جاکاراندا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 106678,
+      "sha1": "c7d1155ac0b5aa4a7d4d68f3dab2315abbbdcbd4",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/jacaranda/",
+        "project page https://fa.behkooshan.ir/projects/jacaranda/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/jacaranda/",
+      "site_title": "1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/1-2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/1-2-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/1-2.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/1-2.jpg",
+        "width": 4672,
+        "height": 7008,
+        "bytes": null,
+        "sha1": null,
+        "format": "JPEG",
+        "note": "larger than 15,728,209 bytes; the proxy cut it off, size read from the JPEG header"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=f6890dc0b2b8a2d2e4894a6971eb2c57d9767351",
+      "archived_url": "https://web.archive.org/web/20250625084119id_/https://fa.behkooshan.ir/?jet_download=f6890dc0b2b8a2d2e4894a6971eb2c57d9767351",
+      "original_filename": "Jacaranda.jpg",
+      "width": 1411,
+      "height": 853,
+      "format": "JPEG",
+      "bytes": 373962,
+      "sha1": "5f8596238921d99cf33e539445cc175d250e18b8",
+      "alt": "Jacaranda – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Jacaranda.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Jacaranda",
+    "en": "Jacaranda"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4775"
+    ],
+    "en": [
+      "4775"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:12:33",
+      "modified": "2024-04-20T10:52:14"
+    },
+    "en": {
+      "published": "2023-09-05T09:12:33",
+      "modified": "2023-12-12T23:13:58"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/jacaranda/",
+      "title": "Jacaranda"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/jacaranda/",
+      "title": "Jacaranda"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625083216",
+        "archived": "https://web.archive.org/web/20250625083216/https://fa.behkooshan.ir/product/jacaranda/"
+      },
+      {
+        "captured": "20250623233446",
+        "archived": "https://web.archive.org/web/20250623233446/https://fa.behkooshan.ir/product/jacaranda/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260225232515",
+        "archived": "https://web.archive.org/web/20260225232515/https://behkooshan.ir/product/jacaranda/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The 2 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

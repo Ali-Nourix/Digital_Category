@@ -1,0 +1,145 @@
+{
+  "slug": "belissimo-verde",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "بلیسیمو ورده",
+    "en": "Belissimo Verde"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/belissimo-verde/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/belissimo-verde/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Belissimo-Verde.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Belissimo-Verde.jpg",
+      "archived_url": null,
+      "alt": "Belissimo Verde – main product image (slab surface)",
+      "alt_fa": "بلیسیمو ورده – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Belissimo Verde",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 102561,
+      "sha1": "2180c875573e83b7014c23412c28aa74a2d54476",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/belissimo-verde/",
+        "og:image of https://fa.behkooshan.ir/product/belissimo-verde/",
+        "product page https://behkooshan.ir/product/belissimo-verde/",
+        "og:image of https://behkooshan.ir/product/belissimo-verde/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Belissimo-Verde.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Belissimo-Verde.jpg",
+        "https://behkooshan.ir/wp-content/uploads/Belissimo-Verde.jpg"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=0cac8979b896658889920fa2aea61b70ea3c35bf",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=0cac8979b896658889920fa2aea61b70ea3c35bf&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:39Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=136ad7a49d706b542be4879e396fc5bc4fc951a8"
+      ],
+      "original_filename": "Belissimo-Verde.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 102561,
+      "sha1": "2180c875573e83b7014c23412c28aa74a2d54476",
+      "alt": "Belissimo Verde – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Belissimo-Verde.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Belissimo Verde",
+    "en": "Belissimo Verde"
+  },
+  "site_post_ids": {
+    "fa": [
+      "7039"
+    ],
+    "en": [
+      "6845"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-09-21T13:22:41",
+      "modified": "2026-09-21T13:22:41"
+    },
+    "en": {
+      "published": "2026-09-21T13:22:38",
+      "modified": "2026-09-21T13:22:39"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 7039 (https://fa.behkooshan.ir/product/belissimo-verde/), published 2026-09-21; English site post 6845 (https://behkooshan.ir/product/belissimo-verde/), published 2026-09-21. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

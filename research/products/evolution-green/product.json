@@ -1,0 +1,448 @@
+{
+  "slug": "evolution-green",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "اوولوشن گرین",
+    "en": "Evolution Green"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/evolution-green/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/evolution-green/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Evolution-Green-m-1024x629.jpg",
+      "kind": "superseded",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m-1024x629.jpg",
+      "archived_url": "https://web.archive.org/web/20260225021440id_/https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m-1024x629.jpg",
+      "alt": "Evolution Green – main product image (slab surface)",
+      "alt_fa": "اوولوشن گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Evolution Green-m",
+      "width": 1024,
+      "height": 629,
+      "format": "JPEG",
+      "resolution": "resized-1024x629",
+      "bytes": 109040,
+      "sha1": "7f65e5f09073bd54e90ad5d726630cffca8d15ea",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/evolution-green/"
+      ],
+      "former_kind": "main",
+      "former_note": "Same picture as images/08-Evolution-Green-m.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/08-Evolution-Green-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – main product image (slab surface)",
+      "alt_fa": "اوولوشن گرین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Evolution Green-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 54805,
+      "sha1": "6803889a353e6a1773681955b9c17cc31aa43bda",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/evolution-green/",
+        "product page https://behkooshan.ir/product/evolution-green/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Evolution-Green-m.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-m.jpg",
+        "https://behkooshan.ir/wp-content/uploads/Evolution-Green-m.jpg"
+      ]
+    },
+    {
+      "file": "images/02-Evolution-Green-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625090041id_/https://fa.behkooshan.ir/wp-content/uploads/Evolution-Green-p.jpg",
+      "alt": "Evolution Green – product listing image",
+      "alt_fa": "اوولوشن گرین – تصویر فهرست محصولات",
+      "site_alt": "Evolution Green",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 68014,
+      "sha1": "dbc8b34a703c2056e31a219e8e2b5b3066b1f4f2",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/dalmata/",
+        "product card on https://behkooshan.ir/product/new-galaxy/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/black-zebra/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-Northgolestan_project_9-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_9-scaled.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 1709,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 411020,
+      "sha1": "c8b4bf441d48737105ca87e53658d5774a1360ac",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/evolution-green/",
+        "project page https://fa.behkooshan.ir/projects/evolution-green/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/",
+      "site_title": "Northgolestan_project_9",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Northgolestan_project_9-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:50Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_9-scaled.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Northgolestan_project_9-scaled.jpg"
+      ],
+      "replaces": {
+        "file": "images/03-Northgolestan_project_9-scaled.jpg",
+        "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Northgolestan_project_9-scaled.webp",
+        "archived_url": "https://web.archive.org/web/20260226234125id_/https://es55asecvav.exactdn.com/wp-content/uploads/Northgolestan_project_9-scaled.webp?strip=all",
+        "width": 1920,
+        "height": 1282,
+        "resolution": "wp-scaled",
+        "bytes": 178456,
+        "sha1": "ffeb5fe5f68dd957028726ecbb9a0d871355fe25"
+      },
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_9.jpg",
+        "width": 6720,
+        "height": 4485,
+        "bytes": 2385921,
+        "sha1": "1122cecc50c29d9efd077b765c647f5b0006ebdf",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-Modernkitchendesign_1-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_1-scaled.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1709,
+      "height": 2560,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 450398,
+      "sha1": "580a3777ef072b757cb090dc103ba798d145f67f",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/evolution-green/",
+        "project page https://fa.behkooshan.ir/projects/evolution-green/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/",
+      "site_title": "Modernkitchendesign_1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Modernkitchendesign_1-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:12Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_1-scaled.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Modernkitchendesign_1-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_1.jpg",
+        "width": 4485,
+        "height": 6720,
+        "bytes": 2691886,
+        "sha1": "954e304b614528980c01658d04f212ff3abc93e1",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-Modernkitchendesign_6-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_6-scaled.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 2238,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 520965,
+      "sha1": "c52b5094df072b20895e736b3c9ed2808c9cba94",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/evolution-green/",
+        "project page https://fa.behkooshan.ir/projects/evolution-green/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/",
+      "site_title": "Modernkitchendesign_6",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Modernkitchendesign_6-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:17Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_6-scaled.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Modernkitchendesign_6-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_6.jpg",
+        "width": 5533,
+        "height": 4837,
+        "bytes": 2271436,
+        "sha1": "dd7bb75230eb53d8c2de5091589c6ea21faeb0ae",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-Modernkitchendesign_8-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_8-scaled.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1709,
+      "height": 2560,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 420797,
+      "sha1": "383d7b0f7d44cabe6cee75682eba8a52f1a95e2b",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/evolution-green/",
+        "project page https://fa.behkooshan.ir/projects/evolution-green/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/",
+      "site_title": "Modernkitchendesign_8",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Modernkitchendesign_8-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:26Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_8-scaled.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Modernkitchendesign_8-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Modernkitchendesign_8.jpg",
+        "width": 3989,
+        "height": 5976,
+        "bytes": 1917419,
+        "sha1": "2e81d4a6c1e2f65a6ef98de0d0a36025b1bd87e1",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-Northgolestan_project_8-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_8-scaled.jpg",
+      "archived_url": null,
+      "alt": "Evolution Green – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اوولوشن گرین – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 2560,
+      "height": 1708,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 408704,
+      "sha1": "43296972ea7f13cc537edc7177a16bdd512535ba",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/evolution-green/",
+        "project page https://fa.behkooshan.ir/projects/evolution-green/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/evolution-green/",
+      "site_title": "Northgolestan_project_8",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Northgolestan_project_8-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:43:42Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_8-scaled.webp",
+        "https://fa.behkooshan.ir/wp-content/uploads/Northgolestan_project_8-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Northgolestan_project_8.jpg",
+        "width": 6720,
+        "height": 4484,
+        "bytes": 2143493,
+        "sha1": "fc4cea2401fe06c539f2f1ec2af27f68b567e045",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=9d6ecc94622f749788bbf6a62190b2b235a2b753",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=9d6ecc94622f749788bbf6a62190b2b235a2b753&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:38Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=9d6ecc94622f749788bbf6a62190b2b235a2b753"
+      ],
+      "original_filename": "Evolution-Green.jpg",
+      "width": 1687,
+      "height": 889,
+      "format": "JPEG",
+      "bytes": 305834,
+      "sha1": "eccc0b75d319a136bf6cb1dd6436293ea9afbf34",
+      "alt": "Evolution Green – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Evolution-Green.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Evolution Green",
+    "en": "Evolution Green"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3901"
+    ],
+    "en": [
+      "3901"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:55:12",
+      "modified": "2024-04-22T08:52:48"
+    },
+    "en": {
+      "published": "2023-08-01T14:55:12",
+      "modified": "2023-12-12T12:57:09"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/evolution-green/",
+      "title": "Evolution Green"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/evolution-green/",
+      "title": "Evolution Green"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260225021302",
+        "archived": "https://web.archive.org/web/20260225021302/https://fa.behkooshan.ir/product/evolution-green/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "اولیون",
+      "دانه اناری",
+      "اسلب گرانیت دانه اناری"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "اولیون",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+        "archived": "https://web.archive.org/web/20230131092150/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "اولیون",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+        "archived": "https://web.archive.org/web/20230131111137/https://www.behkooshan.ir/bk_product/%D8%A7%D9%88%D9%84%DB%8C%D9%88%D9%86-2/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "دانه اناری",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131095518/https://www.behkooshan.ir/bk_product/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C/",
+        "match_basis": "image file name on the old page matches this product"
+      },
+      {
+        "site_version": "2019-2021 (www.behkooshan.ir custom CMS)",
+        "name_fa": "اسلب گرانیت دانه اناری",
+        "url": "http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+        "archived": "https://web.archive.org/web/20201204045303/http://www.behkooshan.ir/Page/103/%D8%A7%D8%B3%D9%84%D8%A8-%DA%AF%D8%B1%D8%A7%D9%86%DB%8C%D8%AA-%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%A7%D8%B1%DB%8C",
+        "match_basis": "same Persian name as the matched 2021-2023 page"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

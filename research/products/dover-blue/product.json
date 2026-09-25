@@ -1,0 +1,171 @@
+{
+  "slug": "dover-blue",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "دوور بلو",
+    "en": "Dover Blue"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "آنگولا",
+      "رنگ": [
+        "آبی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Angola",
+      "Colour": [
+        "Blue"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dover-blue/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dover-blue/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Dover-Blue_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Dover-Blue_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20260220052605id_/https://fa.behkooshan.ir/wp-content/uploads/Dover-Blue_11zon.jpg",
+      "alt": "Dover Blue – main product image (slab surface)",
+      "alt_fa": "دوور بلو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Dover-Blue_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57218,
+      "sha1": "b674f607ebde8619c9f17cfba143b58ccf2f9c10",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/dover-blue/",
+        "product page https://fa.behkooshan.ir/product/dover-blue/"
+      ]
+    },
+    {
+      "file": "images/02-Dover-Blue-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Dover-Blue-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20260225002236id_/https://fa.behkooshan.ir/wp-content/uploads/Dover-Blue-p_11zon.jpg",
+      "alt": "Dover Blue – product listing image",
+      "alt_fa": "دوور بلو – تصویر فهرست محصولات",
+      "site_alt": "Dover Blue",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 72475,
+      "sha1": "e5b8e43d1bbaae1d8fe8581e590b6157752abaf0",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/dover-blue/",
+        "og:image of https://fa.behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/domestic/",
+        "product card on https://behkooshan.ir/domestic/page/2/",
+        "product card on https://behkooshan.ir/imported/",
+        "product card on https://behkooshan.ir/imported/page/2/",
+        "product card on https://behkooshan.ir/product/amazonite/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/patagonia-black/",
+        "product card on https://fa.behkooshan.ir/product/via-lattea/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=37b966f5ddeed201f57771809b493d293a5d1d7f",
+      "archived_url": "https://web.archive.org/web/20250622182444id_/https://behkooshan.ir/?jet_download=37b966f5ddeed201f57771809b493d293a5d1d7f",
+      "original_filename": "Dover-Blue-scaled.jpg",
+      "width": 2560,
+      "height": 1441,
+      "format": "JPEG",
+      "bytes": 647643,
+      "sha1": "3f7c3d71e550cdb17c24d6af8e783302582edaf8",
+      "alt": "Dover Blue – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Dover-Blue-scaled.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Dover Blue",
+    "en": "Dover Blue"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5942"
+    ],
+    "en": [
+      "5592"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-07-23T14:34:11",
+      "modified": "2025-07-23T14:34:12"
+    },
+    "en": {
+      "published": "2024-03-06T23:38:53",
+      "modified": "2024-03-07T21:35:43"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260220021425",
+        "archived": "https://web.archive.org/web/20260220021425/https://fa.behkooshan.ir/product/dover-blue/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622180549",
+        "archived": "https://web.archive.org/web/20250622180549/https://behkooshan.ir/product/dover-blue/"
+      },
+      {
+        "captured": "20250619002037",
+        "archived": "https://web.archive.org/web/20250619002037/https://behkooshan.ir/product/dover-blue/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Category differs between the sites (live site, 2026-09-24: Persian site: domestic, English site: imported); \"imported\" is used because the origin is Angola."
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "slug": "black-horse",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک هورس",
+    "en": "Black Horse"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-horse/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-horse/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Black-Horse-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250628155348id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-m_11zon.jpg",
+      "alt": "Black Horse – main product image (slab surface)",
+      "alt_fa": "بلک هورس – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Black Horse-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 82931,
+      "sha1": "453ecc7399bd3c028a099ee42ae3808c8361fe11",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/black-horse/"
+      ]
+    },
+    {
+      "file": "images/02-Black-Horse-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623230353id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-p_11zon.jpg",
+      "alt": "Black Horse – product listing image",
+      "alt_fa": "بلک هورس – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 96105,
+      "sha1": "95333475bb96dcbdb6ee98831053dde0720b5bc0",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/midnight-gray/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product card on https://behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/product/explosion-blue/",
+        "product card on https://fa.behkooshan.ir/product/naica-quartzite/",
+        "product card on https://fa.behkooshan.ir/product/new-patagonia/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/"
+      ]
+    },
+    {
+      "file": "images/03-Black-Horse-2-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-2-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226032029id_/https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-2-scaled.jpg",
+      "alt": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 176548,
+      "sha1": "d202b6f72454659a9898f111de27b7f8a6de2740",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/page/2/",
+        "project card on https://fa.behkooshan.ir/projects/page/2/",
+        "project page https://behkooshan.ir/_project/black-horse/",
+        "project page https://fa.behkooshan.ir/projects/black-horse/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-horse/",
+      "site_title": "Black Horse (2)",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Horse-2-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-2-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Horse-2.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3517735,
+        "sha1": "7efb0e6f02e70ac116a4c65742a06cd07dded252",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-Black-Horse-1.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Horse-1.jpg",
+      "archived_url": null,
+      "alt": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 111210,
+      "sha1": "f366a165dd17f35ad9b4d2403ea6c43c3471a85e",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-horse/",
+        "project page https://fa.behkooshan.ir/projects/black-horse/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-horse/",
+      "site_title": "Black-Horse-1",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Black-Horse-1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:19Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Horse-1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Black-Horse-3-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-3-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Horse – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک هورس – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 229633,
+      "sha1": "8f0765efba05bce40b0e96b9283e1d6834159fdf",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-horse/",
+        "project page https://fa.behkooshan.ir/projects/black-horse/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-horse/",
+      "site_title": "Black Horse",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Horse-3-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:21Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Horse-3-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Horse-3-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Horse-3.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4554491,
+        "sha1": "973d7907bd4603b21901af5561089e5b3cfb74d6",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7b80c7f673da76a1d89f24dd750285f9b485ad5d",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=7b80c7f673da76a1d89f24dd750285f9b485ad5d&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:43Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7b80c7f673da76a1d89f24dd750285f9b485ad5d"
+      ],
+      "original_filename": "Black-Horse.jpg",
+      "width": 1466,
+      "height": 901,
+      "format": "JPEG",
+      "bytes": 332541,
+      "sha1": "b4a369d9448ca916cfa85e9c8accdeb7504bd07a",
+      "alt": "Black Horse – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Black-Horse.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Horse",
+    "en": "Black Horse"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4280"
+    ],
+    "en": [
+      "4280"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:22:46",
+      "modified": "2024-04-20T10:33:58"
+    },
+    "en": {
+      "published": "2023-08-11T13:22:46",
+      "modified": "2023-12-12T23:08:02"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/black-horse/",
+      "title": "Black Horse"
+    },
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/black-horse/",
+      "title": "Black Horse"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250628152407",
+        "archived": "https://web.archive.org/web/20250628152407/https://fa.behkooshan.ir/product/black-horse/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "بلک هورس اکسترا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "بلک هورس اکسترا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D9%87%D9%88%D8%B1%D8%B3-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131094409/https://www.behkooshan.ir/bk_product/%D8%A8%D9%84%DA%A9-%D9%87%D9%88%D8%B1%D8%B3-%D8%A7%DA%A9%D8%B3%D8%AA%D8%B1%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

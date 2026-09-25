@@ -1,0 +1,377 @@
+{
+  "slug": "black-tempest",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک تمپست",
+    "en": "Black Tempest"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-tempest/",
+      "https://fa.behkooshan.ir/product/black-fantasy/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-tempest/",
+      "https://behkooshan.ir/product/black-fantasy/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/07-black-fantasy.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – main product image (slab surface)",
+      "alt_fa": "بلک تمپست – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "black fantasy",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/black-tempest/",
+        "product page https://behkooshan.ir/product/black-tempest/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/black-fantasy.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:39Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+        "https://behkooshan.ir/wp-content/uploads/black-fantasy.jpg"
+      ]
+    },
+    {
+      "file": "images/08-black-fantasy2.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – product listing image",
+      "alt_fa": "بلک تمپست – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80676,
+      "sha1": "f7855cc2d946d63ef1850a38dfa5951c1a2d2496",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/black-tempest/",
+        "og:image of https://behkooshan.ir/product/black-tempest/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/black-fantasy2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+        "https://behkooshan.ir/wp-content/uploads/black-fantasy2.jpg"
+      ]
+    },
+    {
+      "file": "images/01-Black-Tempest-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 764,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 140783,
+      "sha1": "b70a3ed2107c3d2eee29e5d061dd38bb24961fb8",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/",
+        "project page https://fa.behkooshan.ir/projects/black-tempest/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:21Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project.jpg"
+      ]
+    },
+    {
+      "file": "images/02-Black-Tempest-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project1.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1358,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 178341,
+      "sha1": "282b3101860a4188d273e369a450f4732d34a053",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/",
+        "project page https://fa.behkooshan.ir/projects/black-tempest/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:22Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/03-Black-Tempest-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project2.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 873,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 163271,
+      "sha1": "482bf1532f9d2d96e1f9ddd46a35177511c097f0",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/",
+        "project page https://fa.behkooshan.ir/projects/black-tempest/",
+        "project card on https://behkooshan.ir/_project/page/4/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:22Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project2.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Black-Tempest-project3.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project3.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1358,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 211453,
+      "sha1": "44f263edaf5317b790f5141d0aec4aff717f413a",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/",
+        "project page https://fa.behkooshan.ir/projects/black-tempest/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest-project3",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-project3.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:22Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-project3.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project3.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Black-Tempest-project4.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project4.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 720,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 121923,
+      "sha1": "d19e107941d918330df311d1d6af4e9b53163ae7",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/",
+        "project page https://fa.behkooshan.ir/projects/black-tempest/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest-project4",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-project4.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:23Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-project4.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Black-Tempest-project4.jpg"
+      ]
+    },
+    {
+      "file": "images/06-Black-Tempest-bathroom-2-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Black-Tempest-bathroom-2-scaled.jpg",
+      "archived_url": null,
+      "alt": "Black Tempest – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "بلک تمپست – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1080,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 116046,
+      "sha1": "5606d079273e453509604691a470b2bc8950a80a",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/black-tempest/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/black-tempest/",
+      "site_title": "Black Tempest bathroom (2)",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Black-Tempest-bathroom-2-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:23Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Black-Tempest-bathroom-2-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Black-Tempest-bathroom-2.jpg",
+        "width": 3000,
+        "height": 3000,
+        "bytes": 4974797,
+        "sha1": "121ca1669e82d9bbdcc6d890157aff732e645115",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447"
+      ],
+      "original_filename": "black-fantasy.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "alt": "Black Tempest – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/07-black-fantasy.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Tempest",
+    "en": "Black Tempest"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4276"
+    ],
+    "en": [
+      "4276"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:20:34",
+      "modified": "2025-07-28T11:34:09"
+    },
+    "en": {
+      "published": "2023-08-11T13:20:34",
+      "modified": "2025-08-11T10:48:18"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/black-tempest/",
+      "title": "Black Tempest"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/black-tempest/",
+      "title": "Black Tempest"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704075942",
+        "archived": "https://web.archive.org/web/20250704075942/https://fa.behkooshan.ir/product/black-fantasy/"
+      },
+      {
+        "captured": "20250624070628",
+        "archived": "https://web.archive.org/web/20250624070628/https://fa.behkooshan.ir/product/black-fantasy/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619015422",
+        "archived": "https://web.archive.org/web/20250619015422/https://behkooshan.ir/product/black-fantasy/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Only the URL /product/black-tempest/ is known from the Wayback Machine (Persian sitemap of Feb 2026 and project sitemap /projects/black-tempest/); neither page was archived, so no specs exist. The live project pages /_project/black-tempest/ and /projects/black-tempest/ (checked 2026-09-24) are titled \"Black Tempest\", which confirms the name, and supply the project photos in images.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Colour attribute differs between the sites (live site, 2026-09-24): Persian site ['grey'], English site ['blue']; the Persian site's terms are used.",
+    "Live check 2026-09-24: the Persian site now titles this product \"Black Tempest\" (was \"Black Fantasy\").",
+    "Live check 2026-09-24: on the Persian site the product is at https://fa.behkooshan.ir/product/black-tempest/; https://fa.behkooshan.ir/product/black-fantasy/ is no longer on the site.",
+    "Live check 2026-09-24: the English site now titles this product \"Black Tempest\" (was \"Black Fantasy\").",
+    "Live check 2026-09-24: on the English site the product is at https://behkooshan.ir/product/black-tempest/; https://behkooshan.ir/product/black-fantasy/ is no longer on the site.",
+    "Live check 2026-09-24: post 4276, archived as \"Black Fantasy\" (/product/black-fantasy/, see products/black-fantasy/), was renamed \"Black Tempest\" and moved to /product/black-tempest/ on both language sites (Persian modified 2025-07-28, English 2025-08-11) with the same photographs and texture link. The two research folders are the same product; this one continues it."
+  ]
+}

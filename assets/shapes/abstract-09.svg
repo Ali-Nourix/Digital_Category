@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180.25 143.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="cls-1" points="101.52 114.9 0 142.1 0 32.2 81 57.54 101.52 114.9"/>
+      <polygon class="cls-1" points="66.11 15.93 0 25.16 0 0 60.41 0 66.11 15.93"/>
+      <polygon class="cls-1" points="180.25 0 180.25 88.58 81 57.54 66.11 15.93 180.25 0"/>
+      <polygon class="cls-1" points="101.52 114.9 180.25 93.8 180.25 143.96 111.91 143.96 101.52 114.9"/>
+    </g>
+  </g>
+</svg>

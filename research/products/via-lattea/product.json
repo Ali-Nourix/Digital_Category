@@ -1,0 +1,185 @@
+{
+  "slug": "via-lattea",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "ویا لاتئا",
+    "en": "Via Lattea"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/via-lattea/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/via-lattea/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Via-Lattea-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Via-Lattea-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250704091058id_/https://fa.behkooshan.ir/wp-content/uploads/Via-Lattea-m_11zon.jpg",
+      "alt": "Via Lattea – main product image (slab surface)",
+      "alt_fa": "ویا لاتئا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Via Lattea-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 65095,
+      "sha1": "7973dfcd7615027301ed89a8d96f1abf80470af3",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/via-lattea/"
+      ]
+    },
+    {
+      "file": "images/02-Via-Lattea-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Via-Lattea-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250624073750id_/https://fa.behkooshan.ir/wp-content/uploads/Via-Lattea-p_11zon.jpg",
+      "alt": "Via Lattea – product listing image",
+      "alt_fa": "ویا لاتئا – تصویر فهرست محصولات",
+      "site_alt": "Via Lattea",
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80973,
+      "sha1": "757283b015751f839ae898c0ebf5a59bf9be5691",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/via-lattea/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://fa.behkooshan.ir/product/nehbandan/",
+        "product card on https://fa.behkooshan.ir/product/taj-mahal/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=85d49f59f5859ff983f88b6eb6b84e1a999a4dc6",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=85d49f59f5859ff983f88b6eb6b84e1a999a4dc6&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:21:23Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=85d49f59f5859ff983f88b6eb6b84e1a999a4dc6"
+      ],
+      "original_filename": "Via-Lattea.jpg",
+      "width": 1327,
+      "height": 898,
+      "format": "JPEG",
+      "bytes": 273409,
+      "sha1": "703f03ed367a55bf37aeb9b52698dcc677e3211f",
+      "alt": "Via Lattea – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Via-Lattea.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Via Lattea",
+    "en": "Via Lattea"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4841"
+    ],
+    "en": [
+      "4841"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T11:16:54",
+      "modified": "2024-04-20T11:53:19"
+    },
+    "en": {
+      "published": "2023-09-05T11:16:54",
+      "modified": "2023-12-12T23:25:40"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260220014445",
+        "archived": "https://web.archive.org/web/20260220014445/https://fa.behkooshan.ir/product/via-lattea/"
+      },
+      {
+        "captured": "20250704083624",
+        "archived": "https://web.archive.org/web/20250704083624/https://fa.behkooshan.ir/product/via-lattea/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": {
+    "names_fa": [
+      "ویا"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ویا",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131103014/https://www.behkooshan.ir/bk_product/%D9%88%DB%8C%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

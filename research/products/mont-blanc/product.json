@@ -1,0 +1,170 @@
+{
+  "slug": "mont-blanc",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "مون بلان",
+    "en": "Mont Blanc"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/mont-blanc/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/mont-blanc/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Mont-Blanc.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Mont-Blanc.jpg",
+      "archived_url": "https://web.archive.org/web/20250625101150id_/https://fa.behkooshan.ir/wp-content/uploads/Mont-Blanc.jpg",
+      "alt": "Mont Blanc – main product image (slab surface)",
+      "alt_fa": "مون بلان – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Mont Blanc",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57137,
+      "sha1": "dea8ffa93a31ac31d7c95d125fa766dd73138828",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/mont-blanc/"
+      ]
+    },
+    {
+      "file": "images/02-Mont-Blanc-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Mont-Blanc-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250624001542id_/https://fa.behkooshan.ir/wp-content/uploads/Mont-Blanc-p.jpg",
+      "alt": "Mont Blanc – product listing image",
+      "alt_fa": "مون بلان – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 69881,
+      "sha1": "ba03a2bf11cf0b58b98940af819346a3cd1c7485",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://behkooshan.ir/product/alaska-white/",
+        "product card on https://behkooshan.ir/product/elegant-green/",
+        "product card on https://behkooshan.ir/product/gando/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/space-gray/",
+        "product card on https://behkooshan.ir/product/titanium-mc/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/absolute-black/",
+        "product card on https://fa.behkooshan.ir/product/labradorite/",
+        "product card on https://fa.behkooshan.ir/product/taj-mahal/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=e1b015868b569aa9fa5944daeb65104c22ccd831",
+      "archived_url": "https://web.archive.org/web/20260226223655id_/https://fa.behkooshan.ir/?jet_download=e1b015868b569aa9fa5944daeb65104c22ccd831",
+      "original_filename": "Mont-Blanc.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 57137,
+      "sha1": "dea8ffa93a31ac31d7c95d125fa766dd73138828",
+      "alt": "Mont Blanc – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Mont-Blanc.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Mont Blanc",
+    "en": "Mont Blanc"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5511"
+    ],
+    "en": [
+      "5511"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2024-01-01T15:29:28",
+      "modified": "2024-04-20T11:48:37"
+    },
+    "en": {
+      "published": "2024-01-01T15:29:28",
+      "modified": "2024-01-01T15:29:31"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260218204411",
+        "archived": "https://web.archive.org/web/20260218204411/https://fa.behkooshan.ir/product/mont-blanc/"
+      },
+      {
+        "captured": "20250625074143",
+        "archived": "https://web.archive.org/web/20250625074143/https://fa.behkooshan.ir/product/mont-blanc/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "slug": "infinity-gold",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "اینفینیتی گلد",
+    "en": "Infinity Gold"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/infinity-gold/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/infinity-gold/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Infinity-Gold-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Infinity-Gold-m.jpg",
+      "archived_url": "https://web.archive.org/web/20260219201758id_/https://fa.behkooshan.ir/wp-content/uploads/Infinity-Gold-m.jpg",
+      "alt": "Infinity Gold – main product image (slab surface)",
+      "alt_fa": "اینفینیتی گلد – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Infinity Gold-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 99054,
+      "sha1": "fcbbee48d52befbfb381ec5e68ca680eaae48bbd",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/infinity-gold/",
+        "product page https://fa.behkooshan.ir/product/infinity-gold/"
+      ]
+    },
+    {
+      "file": "images/02-Infinity-Gold-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Infinity-Gold-p.jpg",
+      "archived_url": "https://web.archive.org/web/20260224234942id_/https://fa.behkooshan.ir/wp-content/uploads/Infinity-Gold-p.jpg",
+      "alt": "Infinity Gold – product listing image",
+      "alt_fa": "اینفینیتی گلد – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 119650,
+      "sha1": "3c30070f84f9eb1f90ff2a8ea666f30e5496b0ad",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/infinity-gold/",
+        "og:image of https://fa.behkooshan.ir/product/infinity-gold/",
+        "product card on https://behkooshan.ir/product/kosmus-gold/",
+        "product card on https://behkooshan.ir/product/patagonia-pink/",
+        "product card on https://behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/product/serpentine/",
+        "product card on https://behkooshan.ir/product/silver-fusion/",
+        "product card on https://behkooshan.ir/product/verde-karzai/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product sitemap",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ]
+    },
+    {
+      "file": "images/03-42-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/42-scaled.jpg",
+      "archived_url": "https://web.archive.org/web/20260226121009id_/https://fa.behkooshan.ir/wp-content/uploads/42-scaled.jpg",
+      "alt": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+      "site_alt": "42",
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 176703,
+      "sha1": "6fa8c8fe6c01d1419c83516961b9e7c62713f5fc",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/infinity-gold/",
+        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "42",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/42-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/42-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/42.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3804721,
+        "sha1": "bbc03a0306bc5e658304c00377807f867a012076",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-43-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/43-scaled.jpg",
+      "archived_url": null,
+      "alt": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 175839,
+      "sha1": "b1e11ccdd0119fd45576bf72419466d85696f146",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/infinity-gold/",
+        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "43",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/43-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:00Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/43-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/43-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/43.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3677956,
+        "sha1": "d76c2b33fc4d80098a0cdee7e73e6135a104acc3",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-44-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/44-scaled.jpg",
+      "archived_url": null,
+      "alt": "Infinity Gold – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "اینفینیتی گلد – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 202152,
+      "sha1": "4f2e6e00cc70c75145e541b431db87e26749fb9e",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/infinity-gold/",
+        "project page https://fa.behkooshan.ir/projects/infinity-gold/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/infinity-gold/",
+      "site_title": "44",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/44-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:46:02Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/44-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/44-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/44.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4057458,
+        "sha1": "653e3580d493bc435e42d1ac2507613678921f73",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=e227f1fbd8584e7e789e26b712960de58d0ce963",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=e227f1fbd8584e7e789e26b712960de58d0ce963&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:21:09Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=e227f1fbd8584e7e789e26b712960de58d0ce963"
+      ],
+      "original_filename": "Infinity-Gold.jpg",
+      "width": 1368,
+      "height": 877,
+      "format": "JPEG",
+      "bytes": 410661,
+      "sha1": "53dcf993f8569d7750a04da6e3ebdbd854955157",
+      "alt": "Infinity Gold – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Infinity-Gold.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Infinity Gold",
+    "en": "Infinity Gold"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5324"
+    ],
+    "en": [
+      "5324"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T13:01:48",
+      "modified": "2024-04-20T10:41:26"
+    },
+    "en": {
+      "published": "2023-12-12T13:01:48",
+      "modified": "2023-12-12T13:05:26"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/infinity-gold/",
+      "title": "Infinity Gold"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/infinity-gold/",
+      "title": "Infinity Gold"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20260219193053",
+        "archived": "https://web.archive.org/web/20260219193053/https://fa.behkooshan.ir/product/infinity-gold/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622185311",
+        "archived": "https://web.archive.org/web/20250622185311/https://behkooshan.ir/product/infinity-gold/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "اینفینیتی",
+      "ینیتفینیتی"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "اینفینیتی",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%A7%DB%8C%D9%86%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131092840/https://www.behkooshan.ir/bk_product/%D8%A7%DB%8C%D9%86%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "ینیتفینیتی",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%DB%8C%D9%86%DB%8C%D8%AA%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131093731/https://www.behkooshan.ir/bk_product/%DB%8C%D9%86%DB%8C%D8%AA%D9%81%DB%8C%D9%86%DB%8C%D8%AA%DB%8C/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The 2 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

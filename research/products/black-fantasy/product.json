@@ -1,0 +1,179 @@
+{
+  "slug": "black-fantasy",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "بلک فانتزی",
+    "en": "Black Fantasy"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/black-fantasy/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/black-fantasy/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-black-fantasy.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+      "archived_url": "https://web.archive.org/web/20250619020609id_/https://behkooshan.ir/wp-content/uploads/black-fantasy.jpg",
+      "alt": "Black Fantasy – main product image (slab surface)",
+      "alt_fa": "بلک فانتزی – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "black fantasy",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/black-fantasy/",
+        "product page https://fa.behkooshan.ir/product/black-fantasy/"
+      ]
+    },
+    {
+      "file": "images/02-black-fantasy2.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+      "archived_url": "https://web.archive.org/web/20250619013704id_/https://behkooshan.ir/wp-content/uploads/black-fantasy2.jpg",
+      "alt": "Black Fantasy – product listing image",
+      "alt_fa": "بلک فانتزی – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80676,
+      "sha1": "f7855cc2d946d63ef1850a38dfa5951c1a2d2496",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/black-fantasy/",
+        "og:image of https://fa.behkooshan.ir/product/black-fantasy/",
+        "product card on https://behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://behkooshan.ir/product/infinity-gold/",
+        "product card on https://behkooshan.ir/products/",
+        "product card on https://behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/jasmin/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/new-patagonia/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-orginal/",
+        "product card on https://fa.behkooshan.ir/products/",
+        "product card on https://fa.behkooshan.ir/products/page/2/",
+        "product card on https://fa.behkooshan.ir/products/page/3/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447",
+      "archived_url": "https://web.archive.org/web/20250704081204id_/https://fa.behkooshan.ir/?jet_download=8629d2593c3f7fbc20a5b8d18ffe2e8da3db5447",
+      "original_filename": "black-fantasy.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 57282,
+      "sha1": "f69182a53de461a1ff9b10abae8b3f4da6b335f9",
+      "alt": "Black Fantasy – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-black-fantasy.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink; the Persian labels were not archived and are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Black Fantasy",
+    "en": "Black Fantasy"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4276"
+    ],
+    "en": [
+      "4276"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:20:34",
+      "modified": "2024-04-22T08:43:45"
+    },
+    "en": {
+      "published": "2023-08-11T13:20:34",
+      "modified": "2023-09-26T18:55:22"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": false,
+    "en": false
+  },
+  "merged_into": "black-tempest",
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704075942",
+        "archived": "https://web.archive.org/web/20250704075942/https://fa.behkooshan.ir/product/black-fantasy/"
+      },
+      {
+        "captured": "20250624070628",
+        "archived": "https://web.archive.org/web/20250624070628/https://fa.behkooshan.ir/product/black-fantasy/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619015422",
+        "archived": "https://web.archive.org/web/20250619015422/https://behkooshan.ir/product/black-fantasy/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Colour attribute differs between the sites: Persian site ['grey'], English site ['blue']; the Persian site's terms are used.",
+    "The English site's hidden WooCommerce stone-type attribute says \"marble\", but the page displays \"Quartzite\"; the displayed value is used.",
+    "Description: the site has no product-specific description text (the WooCommerce description field holds the placeholder \"توضیح محصول ...\" and the short description is one generic quartzite paragraph shared by all products), so description is null.",
+    "Live check 2026-09-24: the site renamed this product \"Black Tempest\": post 4276 is now /product/black-tempest/ on both language sites, with the same photographs (black-fantasy.jpg, black-fantasy2.jpg) and texture link. It is continued in products/black-tempest/. This folder was not deleted by the live sync; remove it (and media/black-fantasy/) so the stone is not listed twice."
+  ]
+}

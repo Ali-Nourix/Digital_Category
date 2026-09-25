@@ -1,0 +1,858 @@
+/* ==========================================================================
+   Behkooshan products, read sideways
+
+   The same pages and the same words as the upright reading; the page runs
+   along the inline axis instead of down it, as the digital catalogue's
+   sideways reading does, so the Persian catalogue travels right to left
+   and the English one left to right. Loaded only by the pages in wide/.
+
+   Three blocks, in this order:
+
+     1. the track, the same on every screen the gate lets in
+     2. the spread, on a window wider than it is tall: the band of stones
+        the height of the window with the title and the filters beside it,
+        then the stones in two rows along the track, each group opened by
+        a green panel; a stone's photographs each a panel of its own, run
+        to the trim, as the catalogue's plates are
+     3. the deck, on a phone held upright: a card to the screen, swiped
+
+   Below the gate (a phone on its side, a very small window) the page is the
+   upright one and none of this applies.
+   ========================================================================== */
+
+/* The word on which way the track runs has no track to speak of below the
+   gate; the track block below brings it back. */
+.hint {
+  display: none;
+}
+
+@keyframes hint-on {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0.3rem 0; }
+}
+
+@keyframes hint-on-rtl {
+  0%, 100% { translate: 0 0; }
+  50% { translate: -0.3rem 0; }
+}
+
+@media (min-width: 20rem) and (min-height: 34rem) {
+  /* --- The track -------------------------------------------------------- */
+
+  html,
+  body {
+    block-size: 100%;
+    overflow: hidden;
+  }
+
+  /* The side margin of a panel of words, and so half the room between two
+     of them: two panels of type standing side by side read as columns of
+     one spread, not as two pages with a margin each. On the root, because
+     the way on stands outside the track and lines up with it. */
+  html {
+    --panel-gutter: clamp(1.5rem, 3vw, 3rem);
+  }
+
+  .track {
+    --panel-h: calc(100dvh - var(--bar-h));
+    --panel-pad: clamp(1.25rem, 3.5vh, 2.5rem);
+
+    /* Positioned, so that whatever inside it is placed absolutely (the
+       visually hidden headings among them) is placed and clipped within it
+       instead of pushing the page out past the window. */
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    block-size: var(--panel-h);
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule-strong) transparent;
+  }
+
+  .track > * {
+    flex: 0 0 auto;
+    block-size: 100%;
+    min-inline-size: 0;
+  }
+
+  .track > template {
+    display: none;
+  }
+
+  /* A panel carries its own frame; the shell's page width means nothing on
+     a track. */
+  .track .shell {
+    max-inline-size: none;
+    margin-inline: 0;
+  }
+
+  /* The reading line follows the track rather than the document, which is
+     no longer the thing that scrolls, as the catalogue's does sideways. */
+  @supports (animation-timeline: scroll()) and (timeline-scope: --page) {
+    html {
+      timeline-scope: --page;
+    }
+
+    .track {
+      scroll-timeline: --page inline;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .progress {
+        animation-timeline: --page;
+      }
+    }
+  }
+
+  /* --- The first panel: the band, its name, the title, the filters ------- */
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100vw;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .hero {
+    flex: 1 1 auto;
+    block-size: auto;
+    min-block-size: 9rem;
+  }
+
+  .intro__body {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    min-block-size: 0;
+  }
+
+  .intro__inner {
+    padding-block: var(--space-3) var(--space-4);
+  }
+
+  html.js .filters {
+    border-block-end: 0;
+  }
+
+  .filters__inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: none;
+    padding-block: var(--space-5) var(--panel-pad);
+  }
+
+  .filters__search,
+  .facets,
+  .filters__status {
+    grid-area: auto;
+  }
+
+  .filters__status {
+    justify-content: flex-start;
+    min-block-size: 0;
+  }
+
+  /* --- A group ----------------------------------------------------------
+     Opened by a panel of green with its title on it, the catalogue's
+     section opener, and then its stones in two rows along the track. The
+     green is a layer of its own under the title, so that it can be wiped in
+     as the catalogue wipes in the green of its openers (see Motion). */
+
+  .group {
+    padding-block-start: 0;
+  }
+
+  .group[hidden] {
+    display: none;
+  }
+
+  .group__inner {
+    display: flex;
+    block-size: 100%;
+    padding-inline: 0;
+  }
+
+  .group__title {
+    position: relative;
+    isolation: isolate;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: var(--space-3);
+    margin: 0;
+    padding: calc(var(--panel-pad) + var(--space-8)) var(--frame) var(--panel-pad);
+    color: var(--paper);
+    font-size: var(--step-3);
+    line-height: 1.25;
+  }
+
+  .group__title::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: var(--print-green);
+  }
+
+  html[lang="fa"] .group__title {
+    line-height: 1.3;
+  }
+
+  .group__count {
+    color: var(--on-inverse-muted);
+  }
+
+  /* Two rows of stones, as many columns as there are stones. A stone's
+     width is taken from the height the track gives its row, so the slab
+     keeps its four to five whatever the window's height. */
+  .stones {
+    --row-gap: clamp(1rem, 2.4vh, 1.5rem);
+    --text: 3.7rem;
+    --row: calc((var(--panel-h) - 2 * var(--panel-pad) - var(--row-gap)) / 2);
+    --tile-w: calc((var(--row) - var(--text)) * 0.8);
+
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, var(--row));
+    grid-auto-columns: var(--tile-w);
+    gap: var(--row-gap) var(--gap);
+    align-content: center;
+    padding: var(--panel-pad) var(--frame);
+    container-type: normal;
+  }
+
+  /* On the listing the way back to the filters sits over the foot of the
+     window, which sideways is the foot of the second row; the rows stop
+     short of it rather than run under it. */
+  .page--list .stones {
+    --dock: calc(3rem + 2 * var(--space-4));
+    --row: calc((var(--panel-h) - var(--panel-pad) - max(var(--panel-pad), var(--dock)) - var(--row-gap)) / 2);
+
+    padding-block-end: max(var(--panel-pad), var(--dock));
+  }
+
+  .stone__frame {
+    aspect-ratio: auto;
+    block-size: calc(var(--row) - var(--text));
+  }
+
+  /* The quarry, four cells: two rows by two columns. */
+  .stone--feature {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .stone--feature .stone__frame {
+    block-size: calc(2 * var(--row) + var(--row-gap) - var(--text));
+  }
+
+  .stone__name,
+  .stone__meta {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* --- Nothing found ----------------------------------------------------- */
+
+  .empty {
+    align-content: center;
+    inline-size: min(100vw, 34rem);
+    padding-inline: var(--frame);
+  }
+
+  .empty[hidden] {
+    display: none;
+  }
+
+  /* --- One stone ----------------------------------------------------------
+     The slab, its card, the rest of its photographs, then the quarry's
+     writing and the stones of its colour. Every photograph is a panel of
+     its own the height of the track, from under the bar to the foot of the
+     window, and run to the trim: no frame and so no notch, and no gap
+     between one and the next, as the catalogue's plates stand. Each is as
+     wide as it is drawn at that height, up to most of a window, past which
+     it gives up the edges of the picture to the frame. */
+
+  .stone-page,
+  .stone-page__inner {
+    display: flex;
+    gap: 0;
+    block-size: 100%;
+    padding: 0;
+  }
+
+  .plates {
+    display: contents;
+  }
+
+  .plate,
+  .plate--lead,
+  .plate:last-child:nth-child(even) {
+    order: 3;
+    flex: none;
+    block-size: 100%;
+    inline-size: auto;
+    max-inline-size: 88vw;
+    aspect-ratio: var(--ratio, 4 / 3);
+    margin: 0;
+    background-color: var(--print-green);
+  }
+
+  .plate--lead {
+    order: 1;
+  }
+
+  .plate--none {
+    aspect-ratio: 4 / 3;
+    background-color: var(--bone-soft);
+  }
+
+  .card {
+    order: 2;
+    position: static;
+    flex: none;
+    inline-size: min(100vw, 30rem);
+    block-size: 100%;
+    overflow-y: auto;
+    align-content: center;
+    padding: var(--panel-pad) var(--panel-gutter);
+  }
+
+  .about,
+  .related {
+    position: relative;
+    padding-block: 0;
+  }
+
+  .about__inner,
+  .related__inner {
+    block-size: 100%;
+    padding: var(--panel-pad) var(--panel-gutter);
+  }
+
+  /* The page turn between two panels of words, which the upright page
+     draws as a rule across: a hairline down, inset from the top and the
+     foot, as the catalogue draws it sideways. Only between two panels of
+     words; beside a photograph the edge of the picture is the turn. */
+  .about + .related::before,
+  .stone-page:not(:has(.plate:nth-child(2))) + .about::before,
+  .stone-page:not(:has(.plate:nth-child(2))) + .related::before {
+    content: "";
+    position: absolute;
+    inset-block: var(--panel-pad);
+    inset-inline-start: 0;
+    inline-size: var(--hairline);
+    background-color: var(--rule);
+  }
+
+  /* The quarry's writing, poured down columns along the track. The script
+     widens the panel until the last column is in it. */
+  .about__inner {
+    display: flex;
+    flex-direction: column;
+    inline-size: var(--about-w, min(100vw, 44rem));
+  }
+
+  .about__text {
+    flex: 1 1 auto;
+    min-block-size: 0;
+    max-inline-size: none;
+    column-width: 22rem;
+    column-gap: clamp(2rem, 3vw, 3rem);
+    column-fill: auto;
+  }
+
+  .about__heading {
+    break-after: avoid;
+  }
+
+  .related__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stones--row {
+    flex: 1 1 auto;
+    padding: 0;
+    --row: calc((var(--panel-h) - 2 * var(--panel-pad) - 4rem - var(--row-gap)) / 2);
+  }
+
+  /* --- The footer: the last panel ---------------------------------------- */
+
+  .foot {
+    flex: 0 0 auto;
+    display: grid;
+    align-content: center;
+    inline-size: min(100vw, 40rem);
+    block-size: 100%;
+    margin-block-start: 0;
+    /* Not pulled back over the panel before it, as the catalogue's is. The
+       catalogue's footer follows a photograph run to the trim, and the angle
+       cuts into the picture; here it follows a grid of stones, and the same
+       overlap brought the angle to within a finger of the last of them. So
+       the angle leans into the footer's own width, and the panel before it
+       keeps its whole margin. */
+    margin-inline-start: 0;
+    padding-block: 0;
+    clip-path: polygon(var(--cut) 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  html[dir="rtl"] .foot {
+    clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% 100%, 0 100%);
+  }
+
+  .foot > .shell {
+    inline-size: 100%;
+    padding-inline-start: calc(var(--frame) + var(--cut));
+  }
+
+  .foot__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: clamp(2rem, 4vh, 3rem);
+  }
+
+  /* Down the column with the rest, at the edge the reading starts from. */
+  .to-start {
+    align-self: flex-start;
+  }
+
+  /* --- The way on ---------------------------------------------------------
+     The first screen's word on which way the reading goes, in the corner it
+     goes towards: the arrow points along the track, and a press moves on a
+     screen, as the page keys do. The brand's outline tag, which reads on
+     the white of a card, on a photograph and on the green at the edge of
+     the first spread alike. products-wide.js shows it while the reader is
+     on the first screen, however they came back to it, and takes it away
+     as soon as they are on their way.
+
+     A hand or a wheel is told what to do with it: a screen that can hover
+     with a fine pointer has a wheel under it, anything else a finger. */
+  .hint {
+    position: fixed;
+    inset-block-end: max(var(--space-4), env(safe-area-inset-bottom));
+    inset-inline-end: var(--frame);
+    z-index: 20;
+    display: inline-flex;
+    gap: var(--space-3);
+    opacity: 0;
+    visibility: hidden;
+    translate: 0 0.75rem;
+    transition: opacity 500ms var(--ease-out),
+                translate 800ms var(--ease-out),
+                visibility 0s linear 800ms,
+                background-color var(--dur-fast) linear,
+                color var(--dur-fast) linear;
+  }
+
+  .hint[hidden] {
+    display: none;
+  }
+
+  .hint.is-shown {
+    opacity: 1;
+    visibility: visible;
+    translate: 0 0;
+    transition-delay: 0s;
+  }
+
+  .hint__wheel {
+    display: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .hint__wheel {
+      display: inline;
+    }
+
+    .hint__touch {
+      display: none;
+    }
+  }
+
+  .hint .icon {
+    inline-size: 1.125rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hint.is-shown .icon {
+      animation: hint-on 1800ms ease-in-out infinite;
+    }
+
+    html[dir="rtl"] .hint.is-shown .icon {
+      animation-name: hint-on-rtl;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hint {
+      translate: none;
+      transition: opacity 200ms linear, visibility 0s linear 200ms;
+    }
+  }
+
+  /* --- Motion -------------------------------------------------------------
+     The same moves as upright, and as in the catalogue two of them have an
+     axis, which is the axis the track runs on: a block arrives from the
+     trailing edge of the window, the one the reading is travelling towards,
+     and a group's green is wiped in from the edge the reading comes from.
+     The rtl rules are `html.js[dir="rtl"]` because the class is on <html>
+     itself: written `html[dir="rtl"] .js` they look for it on a descendant,
+     never find it, and leave the Persian document moving the Latin way. */
+
+  @media (prefers-reduced-motion: no-preference) {
+    .js .reveal.is-out {
+      transform: translateX(var(--reveal-shift, 1.5rem));
+    }
+
+    html.js[dir="rtl"] .reveal.is-out {
+      transform: translateX(calc(var(--reveal-shift, 1.5rem) * -1));
+    }
+
+    .js .divider::before {
+      clip-path: inset(0 0 0 0);
+      transition: clip-path 1100ms var(--ease-out);
+    }
+
+    .js .divider.is-out::before {
+      clip-path: inset(0 100% 0 0);
+    }
+
+    html.js[dir="rtl"] .divider.is-out::before {
+      clip-path: inset(0 0 0 100%);
+    }
+  }
+}
+
+
+/* ==========================================================================
+   The spread
+   No snap, as on the catalogue's: the wheel's glide sets the track a few
+   pixels at a time, and a snap would take each of them back.
+   ========================================================================== */
+
+@media (min-width: 60rem) and (min-height: 38rem) {
+  /* The first window is a spread: the band the height of the track and
+     flush to the edge the reading starts from, and beside it, set from the
+     top where the reading starts, the page's title and the filters; the
+     name of the stone the band is showing is on its tag in the corner of
+     the picture, where the picture meets them. The two together are nine
+     tenths of the
+     window, so the edge of the first group's green shows past them and says
+     the page goes on sideways: a tenth, because a sliver narrower than the
+     margin the reveal keeps at the trailing edge would be met before its
+     green had been laid down, and read as a white strip. */
+  .intro {
+    flex-direction: row;
+    inline-size: auto;
+    overflow: visible;
+  }
+
+  /* The words take the room they need to lay the filters out in as few
+     rows as they fit in, and the band takes the rest of the nine tenths:
+     on a laptop's shorter window the band gives up some of its width
+     rather than the filters their last row. On the root, so that the way on,
+     which stands outside the track, can line up with the words. */
+  html {
+    --intro-words: min(36rem, max(30rem, 34vw));
+    --hero-w: min(calc(90vw - var(--intro-words)), calc((100dvh - var(--bar-h)) * 1.35));
+  }
+
+  .hero {
+    flex: none;
+    inline-size: var(--hero-w);
+    block-size: 100%;
+    min-block-size: 0;
+  }
+
+  /* The way on, at the foot of the words and flush with the edge their
+     filters end at, rather than half across the green that shows past
+     them. */
+  html:has(.intro) .hint {
+    inset-inline-end: calc(100vw - var(--hero-w) - var(--intro-words) + var(--panel-gutter));
+  }
+
+  .intro__body {
+    inline-size: var(--intro-words);
+    block-size: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding-block: var(--panel-pad);
+  }
+
+  .facet {
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+  }
+
+  .intro__inner,
+  .filters__inner {
+    padding-inline: var(--panel-gutter);
+  }
+
+  .intro__inner {
+    padding-block: 0 var(--space-5);
+  }
+
+  .filters__inner {
+    padding-block-end: var(--space-5);
+  }
+
+  .group__title {
+    inline-size: clamp(16rem, 22vw, 22rem);
+  }
+}
+
+/* A laptop's window: the same spread with the air between the parts of
+   the words drawn in, never the words themselves, so the filters still fit
+   the column rather than run below the window. */
+@media (min-width: 60rem) and (min-height: 38rem) and (max-height: 50rem) {
+  .intro__inner {
+    padding-block-end: var(--space-3);
+  }
+
+  .filters__inner {
+    padding-block: var(--space-4);
+    row-gap: var(--space-4);
+  }
+
+  .facets {
+    gap: var(--space-2);
+  }
+}
+
+
+/* ==========================================================================
+   The deck
+   A phone held upright: a card to the screen, and every swipe comes to
+   rest on one. The first card is the band across its head, the name of
+   the stone it shows, the title and the filters; a group opens on a card
+   of its own, green above and its title under, as the catalogue's section
+   openers do; then two columns of two stones to a card, a photograph to a
+   card on a stone's page.
+   ========================================================================== */
+
+@media (min-width: 20rem) and (min-height: 34rem) {
+  @media (max-width: 59.9375rem), (max-height: 37.9375rem) {
+    .track {
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .intro {
+      inline-size: 100vw;
+      scroll-snap-align: start;
+    }
+
+    /* The band takes what the title and the filters leave of the card, up
+       to the deck's horizon, which is read off it (`fitHorizon` in
+       products-wide.js) and only ever holds it down on a screen tall enough
+       to take it past the catalogue's 5:12. */
+    .hero {
+      min-block-size: clamp(7rem, 20vh, 11rem);
+      max-block-size: var(--horizon, none);
+    }
+
+    /* The opener: the green field to the horizon of the card and the title
+       under it, the catalogue's divider card. The green stops on the line
+       the band over the first card stops on, so a swipe from one to the
+       other runs a single edge across the two; the title hangs the same
+       distance under it as the page's title hangs under the band. Without
+       the script, the 5:12 of the print. */
+    .group__title {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: var(--horizon, minmax(0, 5fr)) auto minmax(0, 7fr);
+      align-content: stretch;
+      align-items: stretch;
+      gap: 0;
+      inline-size: 100vw;
+      padding: 0;
+      color: var(--print-green);
+      scroll-snap-align: start;
+    }
+
+    .group__title::before {
+      position: static;
+      z-index: auto;
+    }
+
+    .group__name,
+    .group__count {
+      margin-inline: var(--frame);
+    }
+
+    /* The intro's own padding over its title (`.intro__inner` above). */
+    .group__name {
+      margin-block-start: var(--space-3);
+    }
+
+    .group__count {
+      align-self: start;
+      margin-block-start: var(--space-3);
+      color: var(--ink-muted);
+    }
+
+    /* Two columns of two to a card. The gap between the columns is the
+       frame twice over, so that two columns and their gaps come to exactly
+       a window: every card then starts where the one before it ended and
+       none shows a sliver of the next at its edge. */
+    .stones {
+      --tile-w: calc(50vw - 2 * var(--frame));
+
+      column-gap: calc(2 * var(--frame));
+      padding-inline: var(--frame);
+    }
+
+    .stone {
+      scroll-snap-align: start;
+      scroll-margin-inline-start: var(--frame);
+    }
+
+    /* The script marks the stone each card begins with, once the filters
+       have said which are showing; until it has, every column is a stop. */
+    .deck-cards .stone:not([data-card]) {
+      scroll-snap-align: none;
+    }
+
+    .stone--feature {
+      grid-column: span 2;
+    }
+
+    .empty {
+      inline-size: 100vw;
+    }
+
+    /* A stone's page: each photograph a card, the card of words a card. */
+    .plate,
+    .plate--lead,
+    .plate:last-child:nth-child(even) {
+      order: 1;
+      inline-size: 100vw;
+      max-inline-size: none;
+      block-size: 100%;
+      aspect-ratio: auto;
+      scroll-snap-align: start;
+    }
+
+    .plate:not(.plate--lead) {
+      order: 3;
+    }
+
+    /* The writing stands a tenth of the card in from either edge, as in the
+       catalogue's deck; the photographs and the stones keep the frame. */
+    .track {
+      --text-frame: max(var(--frame), 10vw);
+    }
+
+    .card {
+      inline-size: 100vw;
+      align-content: start;
+      padding-inline: var(--text-frame);
+      scroll-snap-align: start;
+    }
+
+    .about__inner {
+      padding-inline: var(--text-frame);
+    }
+
+    .related__inner {
+      padding-inline: var(--frame);
+    }
+
+    /* Each card of words stands alone on the screen, so it has no turn to
+       draw against the one before it. */
+    .about + .related::before,
+    .stone-page:not(:has(.plate:nth-child(2))) + .about::before,
+    .stone-page:not(:has(.plate:nth-child(2))) + .related::before {
+      content: none;
+    }
+
+    .about__inner {
+      position: relative;
+      inline-size: var(--about-w, 100vw);
+      scroll-snap-align: start;
+    }
+
+    /* A stop where each card of the writing after the first begins, placed
+       by the script: the columns past the first are not elements and cannot
+       be snapped to. */
+    .deck-stop {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: calc(var(--at) * 100vw);
+      inline-size: 1px;
+      block-size: 1px;
+      scroll-snap-align: start;
+      pointer-events: none;
+    }
+
+    .about__text {
+      column-width: calc(100vw - 2 * var(--text-frame));
+      column-gap: calc(2 * var(--text-frame));
+    }
+
+    .related__inner {
+      inline-size: 100vw;
+      scroll-snap-align: start;
+    }
+
+    .stones--row {
+      padding-inline: 0;
+    }
+
+    .foot {
+      inline-size: 100vw;
+      margin-inline-start: 0;
+      clip-path: none;
+      scroll-snap-align: start;
+    }
+
+    .foot > .shell {
+      padding-inline-start: var(--frame);
+    }
+
+    /* Every card is a stop. Without it a hard flick carries the track past
+       two or three cards and it comes to rest wherever the flick runs out,
+       which on a stone's page is a photograph the reader meant to look at
+       gone by; with it a swipe turns one card, however hard, as the
+       catalogue's deck does. */
+    .intro,
+    .group__title,
+    .stone,
+    .empty,
+    .plate,
+    .card,
+    .about__inner,
+    .deck-stop,
+    .related__inner,
+    .foot {
+      scroll-snap-stop: always;
+    }
+
+    /* --- Motion -------------------------------------------------------------
+       On a card the stones are laid down and their words written every time
+       a card comes in, in either direction, as they are down the page and
+       along a spread: a grid of stones is browsed back and forth, and a
+       stone met again is met as it was the first time. The one thing that
+       changes is the green of a group's opener, which is a band across the
+       top of the card here, so it comes down from the top, as it does on a
+       page, rather than in from the side, as it does on a spread. `html.js
+       [dir]` rather than `.js`: the class is on <html> itself, and the
+       attribute outweighs the rtl variant of the spread's rule. */
+    @media (prefers-reduced-motion: no-preference) {
+      html.js[dir] .divider.is-out::before {
+        clip-path: inset(0 0 100% 0);
+      }
+    }
+  }
+}

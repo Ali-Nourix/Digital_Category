@@ -1,0 +1,142 @@
+{
+  "slug": "pumpkin-viola",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "پامپکین ویولا",
+    "en": "Pumpkin Viola"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "مرمریت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Marble",
+      "Origin": "Iran",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/pumpkin-viola/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/pumpkin-viola/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Pumpkin-Viola.webp",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Pumpkin-Viola.webp",
+      "archived_url": null,
+      "alt": "Pumpkin Viola – main product image (slab surface)",
+      "alt_fa": "پامپکین ویولا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Pumpkin Viola",
+      "width": 1052,
+      "height": 646,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 142360,
+      "sha1": "8ca925241c4897dc33cec126983e9fb42eca6d19",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/pumpkin-viola/",
+        "og:image of https://fa.behkooshan.ir/product/pumpkin-viola/",
+        "product page https://behkooshan.ir/product/pumpkin-viola/",
+        "og:image of https://behkooshan.ir/product/pumpkin-viola/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Pumpkin-Viola.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:13:47Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/Pumpkin-Viola.webp",
+        "https://behkooshan.ir/wp-content/uploads/Pumpkin-Viola.webp"
+      ]
+    }
+  ],
+  "textures": [],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Marble\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Pumpkin Viola",
+    "en": "Pumpkin Viola"
+  },
+  "site_post_ids": {
+    "fa": [
+      "7033"
+    ],
+    "en": [
+      "6839"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-09-21T13:05:44",
+      "modified": "2026-09-21T13:05:44"
+    },
+    "en": {
+      "published": "2026-09-21T13:04:51",
+      "modified": "2026-09-21T13:04:52"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": false,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [
+    {
+      "jet_download": "6e6afb35edda0f233ca4f2f32d855b7bcca51301",
+      "languages": [
+        "fa"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    },
+    {
+      "jet_download": "977eb3fb5a4d8da04477ad9f6ec261f5d3347d38",
+      "languages": [
+        "en"
+      ],
+      "reason": "the live product page links this texture download (2026-09-24), but the Google Translate proxy used to reach the site would not relay the file (it answered with a redirect to the origin, which is unreachable from the collection environment)"
+    }
+  ],
+  "notes": [
+    "Added from the live site (2026-09-24): Persian site post 7033 (https://fa.behkooshan.ir/product/pumpkin-viola/), published 2026-09-21; English site post 6839 (https://behkooshan.ir/product/pumpkin-viola/), published 2026-09-21. Published after the last Wayback captures, so there is no archived copy; everything here is from the live pages and APIs.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Texture download linked on the live product page could not be fetched (2026-09-24); see missing_textures."
+  ]
+}

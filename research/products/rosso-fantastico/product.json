@@ -1,0 +1,204 @@
+{
+  "slug": "rosso-fantastico",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "روسو فانتاستیکو",
+    "en": "Rosso Fantastic"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/rosso-fantastico/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/rosso-fantastico/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Rosso-Fantastic-m.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Rosso-Fantastic-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250623215747id_/https://fa.behkooshan.ir/wp-content/uploads/Rosso-Fantastic-m.jpg",
+      "alt": "Rosso Fantastic – main product image (slab surface)",
+      "alt_fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Rosso Fantastic-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 40537,
+      "sha1": "91502ae11223509cffb012e88d872c932e1c0021",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/rosso-fantastico/",
+        "product page https://fa.behkooshan.ir/product/rosso-fantastico/"
+      ]
+    },
+    {
+      "file": "images/03-Rosso-Fantastic.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic.jpg",
+      "archived_url": null,
+      "alt": "Rosso Fantastic – main product image (slab surface)",
+      "alt_fa": "روسو فانتاستیکو – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Rosso Fantastic",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 80602,
+      "sha1": "5e9fc869fe837999ff9fad426f684d84928cdd74",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/rosso-fantastico/",
+        "og:image of https://behkooshan.ir/product/rosso-fantastico/"
+      ],
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Rosso-Fantastic.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:37Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic.jpg"
+      ]
+    },
+    {
+      "file": "images/02-Rosso-Fantastic-p.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250619023747id_/https://behkooshan.ir/wp-content/uploads/Rosso-Fantastic-p.jpg",
+      "alt": "Rosso Fantastic – product listing image",
+      "alt_fa": "روسو فانتاستیکو – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 49498,
+      "sha1": "135f5df5852e14944181f699ecd7e104700b38f2",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/rosso-fantastico/",
+        "og:image of https://fa.behkooshan.ir/product/rosso-fantastico/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/green-shadow/",
+        "product card on https://behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/delicate/",
+        "product card on https://fa.behkooshan.ir/product/verde-imperial/",
+        "product card on https://fa.behkooshan.ir/product/verde-karzai/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=fe4dd0053ced3eae13b1e13a82d2e68bd237829a",
+      "archived_url": "https://web.archive.org/web/20250626054338id_/https://fa.behkooshan.ir/?jet_download=fe4dd0053ced3eae13b1e13a82d2e68bd237829a",
+      "original_filename": "Rosso-Fantastic.jpg",
+      "width": 1562,
+      "height": 874,
+      "format": "JPEG",
+      "bytes": 225891,
+      "sha1": "9a080cfa994e67a805ea66dc19db68c660821238",
+      "alt": "Rosso Fantastic – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Rosso-Fantastic.jpg"
+    },
+    {
+      "source_url": "https://behkooshan.ir/?jet_download=bd97681b067c261d648d26220c0a457c5ea27ebe",
+      "archived_url": null,
+      "retrieved_url": "https://behkooshan-ir.translate.goog/?jet_download=bd97681b067c261d648d26220c0a457c5ea27ebe&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "original_filename": "Rosso-Fantastic.jpg",
+      "width": 1920,
+      "height": 1229,
+      "format": "JPEG",
+      "bytes": 80602,
+      "sha1": "5e9fc869fe837999ff9fad426f684d84928cdd74",
+      "alt": "Rosso Fantastic – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/03-Rosso-Fantastic.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Rosso Fantastico",
+    "en": "Rosso Fantastic"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3934"
+    ],
+    "en": [
+      "3934"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T15:01:19",
+      "modified": "2024-04-20T10:47:08"
+    },
+    "en": {
+      "published": "2023-08-01T15:01:19",
+      "modified": "2025-09-28T16:31:32"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250626053153",
+        "archived": "https://web.archive.org/web/20250626053153/https://fa.behkooshan.ir/product/rosso-fantastico/"
+      },
+      {
+        "captured": "20250623213825",
+        "archived": "https://web.archive.org/web/20250623213825/https://fa.behkooshan.ir/product/rosso-fantastico/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619002344",
+        "archived": "https://web.archive.org/web/20250619002344/https://behkooshan.ir/product/rosso-fantastico/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

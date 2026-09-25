@@ -1,0 +1,191 @@
+{
+  "slug": "midnight-gray",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "میدنایت گری",
+    "en": "Midnight Gray"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/midnight-gray/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/midnight-gray/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Midnight-Gray-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Midnight-Gray-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250619035702id_/https://behkooshan.ir/wp-content/uploads/Midnight-Gray-m.jpg",
+      "alt": "Midnight Gray – main product image (slab surface)",
+      "alt_fa": "میدنایت گری – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Midnight Gray-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 84254,
+      "sha1": "6edce3efeb6cbc6f81eb9f68e973f6f63f7e7fa1",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/midnight-gray/"
+      ]
+    },
+    {
+      "file": "images/02-Midnight-Gray-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Midnight-Gray-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250624063543id_/https://fa.behkooshan.ir/wp-content/uploads/Midnight-Gray-p.jpg",
+      "alt": "Midnight Gray – product listing image",
+      "alt_fa": "میدنایت گری – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 103457,
+      "sha1": "a892a567a610cebca930032ddeef3cf81333eea1",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/midnight-gray/",
+        "product card on https://behkooshan.ir/product/amazonite/",
+        "product card on https://behkooshan.ir/product/black-diamond/",
+        "product card on https://behkooshan.ir/product/delicate/",
+        "product card on https://behkooshan.ir/product/midnight-gray/",
+        "product card on https://behkooshan.ir/product/nehbandan/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/product/belvedere/",
+        "product card on https://fa.behkooshan.ir/product/dedalus/",
+        "product card on https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://fa.behkooshan.ir/product/platinium/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=7a952f1a3607a91f9645d70e47061c3200fe611c",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=7a952f1a3607a91f9645d70e47061c3200fe611c&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:18:13Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=7a952f1a3607a91f9645d70e47061c3200fe611c"
+      ],
+      "original_filename": "Midnight-Gray.jpg",
+      "width": 1672,
+      "height": 856,
+      "format": "JPEG",
+      "bytes": 426131,
+      "sha1": "4fe5a4bde89528ca8bb29e6b805a129bcdd17e98",
+      "alt": "Midnight Gray – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Midnight-Gray.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Midnight Gray",
+    "en": "Midnight Gray"
+  },
+  "site_post_ids": {
+    "en": [
+      "3916"
+    ],
+    "fa": [
+      "3916"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:58:13",
+      "modified": "2024-04-20T10:44:14"
+    },
+    "en": {
+      "published": "2023-08-01T14:58:13",
+      "modified": "2023-12-12T13:11:36"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20250619024549",
+        "archived": "https://web.archive.org/web/20250619024549/https://behkooshan.ir/product/midnight-gray/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "مید نایت گری",
+      "مید نایت گری 1"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "مید نایت گری",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C/",
+        "archived": "https://web.archive.org/web/20230131102816/https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "مید نایت گری 1",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C-1/",
+        "archived": "https://web.archive.org/web/20230131110848/https://www.behkooshan.ir/bk_product/%D9%85%DB%8C%D8%AF-%D9%86%D8%A7%DB%8C%D8%AA-%DA%AF%D8%B1%DB%8C-1/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

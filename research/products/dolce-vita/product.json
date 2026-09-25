@@ -1,0 +1,176 @@
+{
+  "slug": "dolce-vita",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "دولچه ویتا",
+    "en": "Dolce Vita"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "کوارتزیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم",
+        "سفید"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream",
+        "White"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/dolce-vita/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/dolce-vita/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/02-4037-004-1-2048x1185.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/4037-004-1-2048x1185.jpg",
+      "archived_url": null,
+      "alt": "Dolce Vita – main product image (slab surface)",
+      "alt_fa": "دولچه ویتا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "4037-004",
+      "width": 2048,
+      "height": 1185,
+      "format": "JPEG",
+      "resolution": "resized-2048x1185",
+      "bytes": 148191,
+      "sha1": "670e811ff85e838381434f7d5fd9451815e6dac0",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/dolce-vita/",
+        "og:image of https://fa.behkooshan.ir/product/dolce-vita/",
+        "product page https://behkooshan.ir/product/dolce-vita/",
+        "og:image of https://behkooshan.ir/product/dolce-vita/"
+      ],
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/4037-004-1-2048x1185.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:50:36Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/4037-004-1-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg",
+        "https://behkooshan.ir/wp-content/uploads/4037-004-1-scaled.jpg",
+        "https://behkooshan.ir/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/4037-004-1.jpg",
+        "width": 6473,
+        "height": 3745,
+        "bytes": 4279123,
+        "sha1": "97e23b2ebae233cd2f0a460958366fdf6ef6be9c",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/01-4037-004_68a56914930db_1755670804_compressed.jpg",
+      "kind": "superseded",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg",
+      "archived_url": "https://web.archive.org/web/20260225210951id_/https://es55asecvav.exactdn.com/wp-content/uploads/4037-004_68a56914930db_1755670804_compressed.jpg",
+      "alt": "Dolce Vita – product listing image",
+      "alt_fa": "دولچه ویتا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1729,
+      "height": 997,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 83617,
+      "sha1": "cf798ab88c592c5294a496746a32d72701f0700d",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/"
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/02-4037-004-1-2048x1185.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=37e73546da768ef5338cbb073b7538dcf5461f68",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=37e73546da768ef5338cbb073b7538dcf5461f68&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:15:43Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=8a53250a0e34ebb60331cf3faf57c2b92bdc69a6"
+      ],
+      "original_filename": "4037-004-1-scaled.jpg",
+      "width": 1867,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 178074,
+      "sha1": "b42c20afa52279c6c736aff4b5b5d6d160341526",
+      "alt": "Dolce Vita – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-4037-004-1-scaled.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Quartzite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Brazil\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Dolce Vita",
+    "en": "Dolce Vita"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6633"
+    ],
+    "en": [
+      "6398"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-08-20T10:03:34",
+      "modified": "2025-09-01T11:28:00"
+    },
+    "en": {
+      "published": "2025-08-20T10:03:35",
+      "modified": "2025-09-01T11:30:11"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "slug": "naica-quartzite",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "نایکا کوارتزیت",
+    "en": "Naica Quartzite"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "آنگولا",
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Quartzite",
+      "Origin": "Brazil",
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/naica-quartzite/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/naica-quartzite/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Naica-Quartzite-m_11zon.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-m_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250626201305id_/https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-m_11zon.jpg",
+      "alt": "Naica Quartzite – main product image (slab surface)",
+      "alt_fa": "نایکا کوارتزیت – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Naica Quartzite-m_11zon",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 44043,
+      "sha1": "266ad61597dc3f1c9105e97be9402407e410a249",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/naica-quartzite/",
+        "product page https://fa.behkooshan.ir/product/naica-quartzite/"
+      ]
+    },
+    {
+      "file": "images/02-Naica-Quartzite-p_11zon.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-p_11zon.jpg",
+      "archived_url": "https://web.archive.org/web/20250623223744id_/https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-p_11zon.jpg",
+      "alt": "Naica Quartzite – product listing image",
+      "alt_fa": "نایکا کوارتزیت – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 52687,
+      "sha1": "01107084014768ed3a7f8fb05d11f6d63ce0b7e5",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/naica-quartzite/",
+        "og:image of https://fa.behkooshan.ir/product/naica-quartzite/",
+        "product card on https://behkooshan.ir/product/magma-gold/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://behkooshan.ir/product/t-rex/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/",
+        "product card on https://fa.behkooshan.ir/product-category/domestic/page/2/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/",
+        "product card on https://fa.behkooshan.ir/product-category/imported/page/2/",
+        "product card on https://fa.behkooshan.ir/product/alaska-white/",
+        "product card on https://fa.behkooshan.ir/product/lumix-wow/",
+        "product card on https://fa.behkooshan.ir/product/picasso/",
+        "product card on https://fa.behkooshan.ir/product/space-gray/",
+        "product card on https://fa.behkooshan.ir/product/zebra/",
+        "product sitemap"
+      ]
+    },
+    {
+      "file": "images/03-Naica-Quartzite-project.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1440,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 124687,
+      "sha1": "fed66938b56abf8dcda572ffc50ee9f5987b8468",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/",
+        "project card on https://behkooshan.ir/_project/page/4/",
+        "project card on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "Naica Quartzite-project",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Naica-Quartzite-project.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:38Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Naica-Quartzite-project.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project.jpg"
+      ]
+    },
+    {
+      "file": "images/04-Naica-Quartzite-project1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project1.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1440,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 122856,
+      "sha1": "b19f1a3ba0b938f052967d44c703ba6c7f8c5d32",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "Naica Quartzite-project1",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Naica-Quartzite-project1.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:38Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Naica-Quartzite-project1.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project1.jpg"
+      ]
+    },
+    {
+      "file": "images/05-Naica-Quartzite-project2.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project2.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1440,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 150270,
+      "sha1": "e3dc4512cacec6f5bd4760719f91eddc083002f6",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/",
+        "project card of the \"Tropical Storm\" project on https://fa.behkooshan.ir/projects/page/4/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "Naica Quartzite-project2",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/Naica-Quartzite-project2.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:38Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/Naica-Quartzite-project2.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/Naica-Quartzite-project2.jpg"
+      ]
+    },
+    {
+      "file": "images/06-IMG_1579.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1579.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 694,
+      "height": 731,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 39646,
+      "sha1": "dfd5be2b32be909e8c4260ef5133a846e0a3abb8",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "IMG_1579",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/IMG_1579.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:47:21Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/IMG_1579-1.jpg",
+        "https://behkooshan.ir/wp-content/uploads/IMG_1579.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/IMG_1579.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/IMG_1579-1.jpg"
+      ]
+    },
+    {
+      "file": "images/07-IMG_1580.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1580.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 717,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 112811,
+      "sha1": "4cf7d6b29b059aa2b6aac7fa1752cc905cb95786",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "IMG_1580",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/IMG_1580.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:11Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/IMG_1580-1.jpg",
+        "https://behkooshan.ir/wp-content/uploads/IMG_1580.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/IMG_1580.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/IMG_1580-1.jpg"
+      ]
+    },
+    {
+      "file": "images/08-IMG_1581.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/IMG_1581.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 584,
+      "height": 867,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 44652,
+      "sha1": "ff806fbaaae60cd83153c9b588c2782e6499d70c",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/naica-quartzite/",
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/naica-quartzite/",
+      "site_title": "IMG_1581",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/IMG_1581.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:12Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/IMG_1581.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/IMG_1581.jpg"
+      ]
+    },
+    {
+      "file": "images/09-15-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/15-scaled.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 90082,
+      "sha1": "d9d60d316bd3bac392cbf8d488bc2bde53af93ca",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/naica-quartzite/",
+      "site_title": "15",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/15-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:43Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/15-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/15.jpg",
+        "width": 2250,
+        "height": 3000,
+        "bytes": 3392284,
+        "sha1": "9f9f1e3ec58a3524b8302bc74516073e07771c15",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/10-16-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/16-scaled.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 810,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 94665,
+      "sha1": "cbd7b354f0ae130485a93446e677d1478f0476ff",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/naica-quartzite/",
+      "site_title": "16",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/16-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:45:46Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/16-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/16.jpg",
+        "width": 2250,
+        "height": 3000,
+        "bytes": 3657026,
+        "sha1": "b7f3262bdeeb26a511d47e403754792d2b7f47be",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/11-PR_1506-HDR-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/PR_1506-HDR-scaled.jpg",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1619,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 157005,
+      "sha1": "3c9eb08bde0802ab70ba7179a690d11d04067b9b",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/naica-quartzite/",
+      "site_title": "_PR_1506-HDR",
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/wp-content/uploads/PR_1506-HDR-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:48:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/PR_1506-HDR-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/PR_1506-HDR.jpg",
+        "width": 7920,
+        "height": 5283,
+        "bytes": 1716837,
+        "sha1": "51b4b74ed81ed28d6335f11bd779bf3611b79053",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/12-Elegant-Brown-pr2.webp",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp",
+      "archived_url": null,
+      "alt": "Naica Quartzite – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نایکا کوارتزیت – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1708,
+      "height": 2560,
+      "format": "WEBP",
+      "resolution": "original",
+      "bytes": 195258,
+      "sha1": "36d869f7feb3d318f34ac1cbc21feaa52414794f",
+      "seen_on": [
+        "project page https://fa.behkooshan.ir/projects/naica-quartzite/"
+      ],
+      "project_page": "https://fa.behkooshan.ir/projects/naica-quartzite/",
+      "site_title": "_PR_1816-HDR",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/Elegant-Brown-pr2.webp?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:51Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/PR_1816-HDR-scaled.jpg"
+      ],
+      "also_shown_for": [
+        {
+          "stone": "elegant-brown",
+          "pages": [
+            "https://behkooshan.ir/_project/elegant-brown/",
+            "https://fa.behkooshan.ir/projects/elegant-brown/"
+          ],
+          "site_files": [
+            "https://behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp",
+            "https://fa.behkooshan.ir/wp-content/uploads/Elegant-Brown-pr2.webp"
+          ]
+        }
+      ],
+      "original_upload": {
+        "url": "https://fa.behkooshan.ir/wp-content/uploads/PR_1816-HDR.jpg",
+        "width": 5269,
+        "height": 7899,
+        "bytes": 2390374,
+        "sha1": "fcbf598d293cfd6cd3bd5cf1185ec1e19f0f13dc",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:48Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=bab91698befa95e40fcd040c459db7682cd8a680"
+      ],
+      "original_filename": "Naica-Quartzite.jpg",
+      "width": 1435,
+      "height": 898,
+      "format": "JPEG",
+      "bytes": 200397,
+      "sha1": "aab1425e94b4d8c7167938aed2d17b4e79bfdcc6",
+      "alt": "Naica Quartzite – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Naica-Quartzite.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Naica Quartzite",
+    "en": "Naica Quartzite"
+  },
+  "site_post_ids": {
+    "fa": [
+      "5456"
+    ],
+    "en": [
+      "5456"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-12-12T23:16:38",
+      "modified": "2025-07-27T12:30:43"
+    },
+    "en": {
+      "published": "2023-12-12T23:16:38",
+      "modified": "2025-07-27T20:30:28"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/naica-quartzite/",
+      "title": "Naica Quartzite"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/naica-quartzite/",
+      "title": "Naica Quartzite"
+    }
+  ],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250625074044",
+        "archived": "https://web.archive.org/web/20250625074044/https://fa.behkooshan.ir/product/naica-quartzite/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619003244",
+        "archived": "https://web.archive.org/web/20250619003244/https://behkooshan.ir/product/naica-quartzite/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "نایس کوارتزیت"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "نایس کوارتزیت",
+        "category_path_fa": [
+          "اسلب",
+          "کوارتزایت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%86%D8%A7%DB%8C%D8%B3-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+        "archived": "https://web.archive.org/web/20230131092239/https://www.behkooshan.ir/bk_product/%D9%86%D8%A7%DB%8C%D8%B3-%DA%A9%D9%88%D8%A7%D8%B1%D8%AA%D8%B2%DB%8C%D8%AA/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "One project photo is shown both on this stone's Persian project page (as PR_1816-HDR-scaled.jpg; original PR_1816-HDR.jpg, 5269x7899, recorded in original_upload) and on the project pages of Elegant Brown (/_project/elegant-brown/ and /projects/elegant-brown/, as Elegant-Brown-pr2.webp). The copy stored here is the larger one, Elegant-Brown-pr2.webp (1708x2560), hence the file name 12-Elegant-Brown-pr2.webp. It is attached to both products; the photo alone does not show clearly which stone it is. Uncertain: confirm with the owner.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Stone type differs between the sites (live site, 2026-09-24): Persian site \"گرانیت\", English site \"Quartzite\". Each language keeps its own site's value.",
+    "Origin differs between the sites (live site, 2026-09-24): Persian site \"آنگولا\", English site \"Brazil\". Each language keeps its own site's value."
+  ]
+}

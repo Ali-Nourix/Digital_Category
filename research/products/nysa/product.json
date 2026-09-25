@@ -1,0 +1,503 @@
+{
+  "slug": "nysa",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "نیسا",
+    "en": "Nysa"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/nysa/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/nysa/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/11-49031-001-2048x839.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/49031-001-2048x839.jpg",
+      "archived_url": null,
+      "alt": "Nysa – main product image (slab surface)",
+      "alt_fa": "نیسا – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "49031-001",
+      "width": 2048,
+      "height": 839,
+      "format": "JPEG",
+      "resolution": "resized-2048x839",
+      "bytes": 217156,
+      "sha1": "0bcefa5c3a3e674bc17ec7c07e4d499fecde940e",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/nysa/",
+        "og:image of https://fa.behkooshan.ir/product/nysa/",
+        "product page https://behkooshan.ir/product/nysa/",
+        "og:image of https://behkooshan.ir/product/nysa/"
+      ],
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/49031-001-2048x839.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:50:49Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://fa.behkooshan.ir/wp-content/uploads/49031-001.jpg",
+        "https://behkooshan.ir/wp-content/uploads/49031-001-scaled.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/49031-001.jpg",
+        "width": 4633,
+        "height": 1897,
+        "bytes": 3198236,
+        "sha1": "5c805817a3b2acb480ac9827dccac75a628a14cb",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/01-49031-001.jpg",
+      "kind": "superseded",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/49031-001.jpg",
+      "archived_url": "https://web.archive.org/web/20260225050439id_/https://fa.behkooshan.ir/wp-content/uploads/49031-001.jpg",
+      "alt": "Nysa – product listing image",
+      "alt_fa": "نیسا – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1920,
+      "height": 786,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 214355,
+      "sha1": "7fe7100ff53c9487cc5aca66d6693c7aafb15bc1",
+      "seen_on": [
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ],
+      "former_kind": "listing",
+      "former_note": "Same picture as images/11-49031-001-2048x839.jpg, the live site's original at a larger size (checked 2026-09-24); kept, not shown."
+    },
+    {
+      "file": "images/02-62.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/62.jpg",
+      "archived_url": "https://web.archive.org/web/20260226162752id_/https://fa.behkooshan.ir/wp-content/uploads/62.jpg",
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 239146,
+      "sha1": "3e4740e7f69ccd452321fd396a1b9bc81ec0d9f4",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "62",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/62-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/62.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/62.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 3707244,
+        "sha1": "e6e0d79918f09aff09490bc44c4746f5cd56ce6f",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/03-54-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/54-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 237603,
+      "sha1": "144f314ad3133919feeff8e1cdcab7b54d8df4b7",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "54",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/54-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:38:24Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/54-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/54.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/54.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4574198,
+        "sha1": "d20e2716a1a2279e9769c2476070f44d6c9f79ba",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/04-56-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/56-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 220288,
+      "sha1": "11e25f5af347253c668df08c2cd7a06304186e8c",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "56",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/56-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:40:35Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/56-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/56.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/56.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4283809,
+        "sha1": "bd410c3df55bfdf64e980c9d7be13cbcf157f854",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/05-57-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/57-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 297989,
+      "sha1": "a6e8d648f620ef81ab938464878dacb6794493b2",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "57",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/57-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:25Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/57-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/57.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/57.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4570764,
+        "sha1": "287b964b1fce3399bc60c35392214f84715f9509",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/06-58-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/58-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 232967,
+      "sha1": "99280f854d57f7539445fccb9c9b43789fdf33c4",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "58",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/58-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:40:41Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/58-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/58.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/58.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4174510,
+        "sha1": "c17a9f4101b4108330b9f5bc9b560262a62d40dd",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/07-65-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/65-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 772,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 86026,
+      "sha1": "878adecc0584e4c4095ddd593093e7e40c1111d7",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "65",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/65-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:40:55Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/65-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/65.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/65.jpg",
+        "width": 2143,
+        "height": 3000,
+        "bytes": 3681159,
+        "sha1": "bc728e31fb6a195467e4ceafd6a6a79b4cc8e121",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/08-68-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/68-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 269141,
+      "sha1": "bd688280470a5e8900e4beca5b892de6116f6535",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "68",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/68-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:01Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/68-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/68.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/68.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4749138,
+        "sha1": "31b2f4adcc9cad83ee07550adf53740983a522e3",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/09-69-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/69-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1440,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 211254,
+      "sha1": "ad27263eddbe83fe22a0fca296400c77e7b9dc1a",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "69",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/69-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:03Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/69-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/69.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/69.jpg",
+        "width": 3000,
+        "height": 2250,
+        "bytes": 4818232,
+        "sha1": "908f740cb9214d82761c78f70153cdd7a311d317",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/10-71-scaled.jpg",
+      "kind": "project",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/71-scaled.jpg",
+      "archived_url": null,
+      "alt": "Nysa – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "نیسا – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "resolution": "wp-scaled",
+      "bytes": 403812,
+      "sha1": "e351ce13522be07bb615b9c97474e2a04e66192d",
+      "seen_on": [
+        "project page https://behkooshan.ir/_project/nysa/",
+        "project page https://fa.behkooshan.ir/projects/nysa/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/nysa/",
+      "site_title": "71",
+      "retrieved_url": "https://behkooshan-ir.translate.goog/wp-content/uploads/71-scaled.jpg?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T14:41:06Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "site_files": [
+        "https://behkooshan.ir/wp-content/uploads/71-scaled.jpg",
+        "https://fa.behkooshan.ir/wp-content/uploads/71.jpg"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/71.jpg",
+        "width": 4000,
+        "height": 2250,
+        "bytes": 8366427,
+        "sha1": "6b961545ec672bff93ee34f25193c5fc40b6c135",
+        "format": "JPEG"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=bf607ab63f6487c4fff9d85416ca18b580d6ceaa",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=bf607ab63f6487c4fff9d85416ca18b580d6ceaa&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:20Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=cdfbaebf75c607946d2df0d97577abd7ae8724e4"
+      ],
+      "original_filename": "49031-001.jpg",
+      "width": 1920,
+      "height": 786,
+      "format": "JPEG",
+      "bytes": 214355,
+      "sha1": "7fe7100ff53c9487cc5aca66d6693c7aafb15bc1",
+      "alt": "Nysa – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-49031-001.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"Iran\")"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Nysa",
+    "en": "Nysa"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6881"
+    ],
+    "en": [
+      "6733"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2026-01-26T14:40:19",
+      "modified": "2026-01-26T14:41:09"
+    },
+    "en": {
+      "published": "2026-01-26T14:47:20",
+      "modified": "2026-01-26T14:47:21"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/nysa/",
+      "title": "Nysa"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/nysa/",
+      "title": "Nysa"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "The 8 project photo(s) that the Wayback Machine had not archived were retrieved from the live site on 2026-09-24 (see PROJECTS.md); missing_images is now empty.",
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

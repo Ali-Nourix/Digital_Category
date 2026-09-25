@@ -1,0 +1,172 @@
+{
+  "slug": "silver-fusion",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "سیلور فیوژن",
+    "en": "Silver Fusion"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "طوسی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Grey"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/silver-fusion/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/silver-fusion/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-silver_fusion.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/silver_fusion.jpg",
+      "archived_url": "https://web.archive.org/web/20250628200008/https://fa.behkooshan.ir/wp-content/uploads/silver_fusion.jpg",
+      "alt": "silver_fusion",
+      "alt_fa": "سیلور فیوژن – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "silver_fusion",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 116041,
+      "sha1": "e8fb0e323dde6f12a0b4b3c8f793a0a1aeabd431",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/silver-fusion/",
+        "product page https://fa.behkooshan.ir/product/silver-fusion/"
+      ]
+    },
+    {
+      "file": "images/02-silver_fusion2_XD.jpg",
+      "kind": "listing",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/silver_fusion2_XD.jpg",
+      "archived_url": "https://web.archive.org/web/20250703145226/https://behkooshan.ir/wp-content/uploads/silver_fusion2_XD.jpg",
+      "alt": "Silver Fusion – product listing image",
+      "alt_fa": "سیلور فیوژن – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 110821,
+      "sha1": "0e786e5e39277cf38583a714d81b78b5c9433211",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/silver-fusion/",
+        "og:image of https://fa.behkooshan.ir/product/silver-fusion/",
+        "product card on https://behkooshan.ir/product/emerald-green/",
+        "product card on https://behkooshan.ir/product/patagonia-green/",
+        "product card on https://behkooshan.ir/product/t-rex/",
+        "product card on https://fa.behkooshan.ir/product/bronze-antique/",
+        "product card on https://fa.behkooshan.ir/product/casper-line/",
+        "product card on https://fa.behkooshan.ir/product/evolution-green/",
+        "product card on https://fa.behkooshan.ir/product/kosmus-a/",
+        "product card on https://fa.behkooshan.ir/product/patagonia-troumaline/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=152403071df148e604d6968352a9a4fb06f27867",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=152403071df148e604d6968352a9a4fb06f27867&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:21:46Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=152403071df148e604d6968352a9a4fb06f27867"
+      ],
+      "original_filename": "silver_fusion.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 116041,
+      "sha1": "e8fb0e323dde6f12a0b4b3c8f793a0a1aeabd431",
+      "alt": "Silver Fusion – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-silver_fusion.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Silver Fusion",
+    "en": "Silver Fusion"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4826"
+    ],
+    "en": [
+      "4826"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T10:24:31",
+      "modified": "2024-04-20T11:51:00"
+    },
+    "en": {
+      "published": "2023-09-05T10:24:31",
+      "modified": "2023-09-26T17:01:56"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250628193350",
+        "archived": "https://web.archive.org/web/20250628193350/https://fa.behkooshan.ir/product/silver-fusion/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250619000344",
+        "archived": "https://web.archive.org/web/20250619000344/https://behkooshan.ir/product/silver-fusion/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

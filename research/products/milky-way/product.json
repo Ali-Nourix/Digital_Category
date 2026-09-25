@@ -1,0 +1,185 @@
+{
+  "slug": "milky-way",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "میلکی وی",
+    "en": "Milky Way"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "هند",
+      "رنگ": [
+        "مشکی"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "India",
+      "Colour": [
+        "Black"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/milky-way/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/milky-way/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Milky-Way-2048x1267.jpg",
+      "kind": "main",
+      "source_url": "https://es55asecvav.exactdn.com/wp-content/uploads/Milky-Way-2048x1267.jpg",
+      "archived_url": "https://web.archive.org/web/20260226134037id_/https://es55asecvav.exactdn.com/wp-content/uploads/Milky-Way-2048x1267.jpg?strip=all",
+      "alt": "Milky Way – main product image (slab surface)",
+      "alt_fa": "میلکی وی – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Milky Way",
+      "width": 2048,
+      "height": 1267,
+      "format": "JPEG",
+      "resolution": "resized-2048x1267",
+      "bytes": 459259,
+      "sha1": "8dd6d232d99c70feee993b9f036c7aaf54dbe4e8",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product-category/domestic/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product page https://behkooshan.ir/product/milky-way/",
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/"
+      ],
+      "original_upload": {
+        "url": "https://behkooshan.ir/wp-content/uploads/Milky-Way.jpg",
+        "width": 6065,
+        "height": 3753,
+        "bytes": 11509658,
+        "sha1": "2decb4a3a7ad7b8862673e710b20afcf6adf322d",
+        "format": "JPEG"
+      }
+    },
+    {
+      "file": "images/02-Milky-Way-1.jpg",
+      "kind": "project",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Milky-Way-1.jpg",
+      "archived_url": "https://web.archive.org/web/20260226010535id_/https://fa.behkooshan.ir/wp-content/uploads/Milky-Way-1.jpg",
+      "alt": "Milky Way – project gallery image (installation photo or slab shown in the site's Projects section)",
+      "alt_fa": "میلکی وی – تصویر بخش پروژه‌های سایت",
+      "site_alt": null,
+      "width": 1536,
+      "height": 1024,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 344757,
+      "sha1": "77a2e8da3b4352b65d9cdcb44e7873745eb1d9db",
+      "seen_on": [
+        "project card on https://behkooshan.ir/_project/",
+        "project card on https://fa.behkooshan.ir/projects/",
+        "project page https://behkooshan.ir/_project/milky-way/",
+        "project page https://fa.behkooshan.ir/projects/milky-way/"
+      ],
+      "project_page": "https://behkooshan.ir/_project/milky-way/"
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=ae9e919d7f7fd693904e25ee6f55236e35b7f184",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=ae9e919d7f7fd693904e25ee6f55236e35b7f184&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:14:33Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=5e9111bced37b1696e2a167f1de918d9a7e6f00f"
+      ],
+      "original_filename": "Milky-Way.jpg",
+      "width": 1745,
+      "height": 1080,
+      "format": "JPEG",
+      "bytes": 425301,
+      "sha1": "45bc309393a3cea8cb14a732b9c12d1cb42796bd",
+      "alt": "Milky Way – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Milky-Way.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.نوع (the Persian page showed the English word \"Granite\")",
+      "specs.کشور مبدا (the Persian page showed the English word \"India\")",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Milky Way",
+    "en": "Milky Way"
+  },
+  "site_post_ids": {
+    "fa": [
+      "6841"
+    ],
+    "en": [
+      "6678"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2025-11-19T15:42:04",
+      "modified": "2025-11-19T15:42:04"
+    },
+    "en": {
+      "published": "2025-11-19T15:44:37",
+      "modified": "2025-11-19T16:45:23"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [
+    {
+      "lang": "en",
+      "url": "https://behkooshan.ir/_project/milky-way/",
+      "title": "Milky Way"
+    },
+    {
+      "lang": "fa",
+      "url": "https://fa.behkooshan.ir/projects/milky-way/",
+      "title": "Milky Way"
+    }
+  ],
+  "archived_pages": {
+    "fa": [],
+    "en": [
+      {
+        "captured": "20260226180113",
+        "archived": "https://web.archive.org/web/20260226180113/https://behkooshan.ir/product/milky-way/"
+      }
+    ]
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "python",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "پایتون",
+    "en": "Python"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/python/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/python/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Python-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Python-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250627063321id_/https://behkooshan.ir/wp-content/uploads/Python-m.jpg",
+      "alt": "Python – main product image (slab surface)",
+      "alt_fa": "پایتون – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Python-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 35878,
+      "sha1": "3936b112019bc5a76c32c7939ba92bd3ee8c0228",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/python/",
+        "product page https://fa.behkooshan.ir/product/python/"
+      ]
+    },
+    {
+      "file": "images/02-Python-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Python-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250623222445id_/https://fa.behkooshan.ir/wp-content/uploads/Python-p.jpg",
+      "alt": "Python – product listing image",
+      "alt_fa": "پایتون – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 45399,
+      "sha1": "f59a5a83b752f1f7060db482b93954511f63b616",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/python/",
+        "og:image of https://fa.behkooshan.ir/product/python/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/purple-rain/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/dover-blue/",
+        "product card on https://fa.behkooshan.ir/product/elegant-brown/",
+        "product card on https://fa.behkooshan.ir/product/mont-blanc/",
+        "product card on https://fa.behkooshan.ir/product/nehbandan/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=186241ff9ca2c897287d60f27f47bedd3bb0bad9",
+      "archived_url": "https://web.archive.org/web/20250704175215id_/https://fa.behkooshan.ir/?jet_download=186241ff9ca2c897287d60f27f47bedd3bb0bad9",
+      "original_filename": "Python.jpg",
+      "width": 1232,
+      "height": 874,
+      "format": "JPEG",
+      "bytes": 210068,
+      "sha1": "722f6c0d5d4ad28acee5f42435afd3dc1c1d2175",
+      "alt": "Python – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Python.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Python",
+    "en": "Python"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3928"
+    ],
+    "en": [
+      "3928"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T15:00:18",
+      "modified": "2024-04-20T10:44:44"
+    },
+    "en": {
+      "published": "2023-08-01T15:00:18",
+      "modified": "2023-12-12T13:17:04"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704173251",
+        "archived": "https://web.archive.org/web/20250704173251/https://fa.behkooshan.ir/product/python/"
+      },
+      {
+        "captured": "20250623214112",
+        "archived": "https://web.archive.org/web/20250623214112/https://fa.behkooshan.ir/product/python/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20260218205411",
+        "archived": "https://web.archive.org/web/20260218205411/https://behkooshan.ir/product/python/"
+      },
+      {
+        "captured": "20250627075044",
+        "archived": "https://web.archive.org/web/20250627075044/https://behkooshan.ir/product/python/"
+      },
+      {
+        "captured": "20250627034638",
+        "archived": "https://web.archive.org/web/20250627034638/https://behkooshan.ir/product/python/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "پایتون",
+      "پیتون بلک"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پایتون",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/",
+        "archived": "https://web.archive.org/web/20230131102856/https://www.behkooshan.ir/bk_product/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پیتون بلک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9/",
+        "archived": "https://web.archive.org/web/20230131095727/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "پیتون بلک",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9-2/",
+        "archived": "https://web.archive.org/web/20230131095313/https://www.behkooshan.ir/bk_product/%D9%BE%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%84%DA%A9-2/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

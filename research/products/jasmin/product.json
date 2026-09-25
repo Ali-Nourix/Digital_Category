@@ -1,0 +1,216 @@
+{
+  "slug": "jasmin",
+  "category": "domestic",
+  "category_label": {
+    "fa": "داخلی",
+    "en": "Domestic"
+  },
+  "name": {
+    "fa": "جاسمین",
+    "en": "Jasmine"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "ایران",
+      "رنگ": [
+        "سبز"
+      ],
+      "دسته‌بندی": "داخلی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Iran",
+      "Colour": [
+        "Green"
+      ],
+      "Category": "Domestic"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/jasmin/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/jasmin/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Jasmin-m.jpg",
+      "kind": "main",
+      "source_url": "https://behkooshan.ir/wp-content/uploads/Jasmin-m.jpg",
+      "archived_url": "https://web.archive.org/web/20250622212939id_/https://behkooshan.ir/wp-content/uploads/Jasmin-m.jpg",
+      "alt": "Jasmine – main product image (slab surface)",
+      "alt_fa": "جاسمین – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Jasmin-m",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 86198,
+      "sha1": "ee65b8693accb0b2c361aa9ba4cd4e2b330336c3",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/jasmin/",
+        "product page https://fa.behkooshan.ir/product/jasmin/"
+      ]
+    },
+    {
+      "file": "images/02-Jasmin-p.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Jasmin-p.jpg",
+      "archived_url": "https://web.archive.org/web/20250625195929id_/https://fa.behkooshan.ir/wp-content/uploads/Jasmin-p.jpg",
+      "alt": "Jasmine – product listing image",
+      "alt_fa": "جاسمین – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 106624,
+      "sha1": "cbd9cbd8ea02b8ef3fce06a7429e45db99e1269f",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/jasmin/",
+        "og:image of https://fa.behkooshan.ir/product/jasmin/",
+        "product card on https://behkooshan.ir/product/black-fantasy/",
+        "product card on https://behkooshan.ir/product/patagonia-green/",
+        "product card on https://behkooshan.ir/product/sanded-white/",
+        "product card on https://behkooshan.ir/product/zebra/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/black-beat/",
+        "product card on https://fa.behkooshan.ir/product/jet-black/",
+        "product card on https://fa.behkooshan.ir/product/titanium-mc/",
+        "product card on https://fa.behkooshan.ir/product/tropical-storm/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=c52eeea673ab1455e0c839d34fe00db083a19ea3",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=c52eeea673ab1455e0c839d34fe00db083a19ea3&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:17:45Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=c52eeea673ab1455e0c839d34fe00db083a19ea3"
+      ],
+      "original_filename": "Jasmin.jpg",
+      "width": 1393,
+      "height": 895,
+      "format": "JPEG",
+      "bytes": 451406,
+      "sha1": "58555aa90c896c18d3cad9868a60e32cc0c8e97e",
+      "alt": "Jasmine – texture (full slab surface, \"Texture Download\" file)",
+      "file": "textures/01-Jasmin.jpg"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Jasmine",
+    "en": "Jasmine"
+  },
+  "site_post_ids": {
+    "fa": [
+      "3904"
+    ],
+    "en": [
+      "3904"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-01T14:55:45",
+      "modified": "2025-08-10T10:26:13"
+    },
+    "en": {
+      "published": "2023-08-01T14:55:45",
+      "modified": "2025-08-10T10:32:43"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704082903",
+        "archived": "https://web.archive.org/web/20250704082903/https://fa.behkooshan.ir/product/jasmin/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250622194832",
+        "archived": "https://web.archive.org/web/20250622194832/https://behkooshan.ir/product/jasmin/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "جاسمین",
+      "جاسمین گرین"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "جاسمین",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها",
+          "داخلی",
+          "ایران گرانیت"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86/",
+        "archived": "https://web.archive.org/web/20230131102459/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "جاسمین گرین",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86/",
+        "archived": "https://web.archive.org/web/20230131092926/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "جاسمین گرین",
+        "category_path_fa": [
+          "اسلب",
+          "کوارتزایت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86-2/",
+        "archived": "https://web.archive.org/web/20230131095645/https://www.behkooshan.ir/bk_product/%D8%AC%D8%A7%D8%B3%D9%85%DB%8C%D9%86-%DA%AF%D8%B1%DB%8C%D9%86-2/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null.",
+    "Live check 2026-09-24: the English site now titles this product \"Jasmine\" (was \"Jasmin\")."
+  ]
+}

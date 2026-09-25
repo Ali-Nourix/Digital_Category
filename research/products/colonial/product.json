@@ -1,0 +1,165 @@
+{
+  "slug": "colonial",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "کلونیال",
+    "en": "Colonial"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "سریلانکا",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Sri-Lanka",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/colonial/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/colonial/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Colonial.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Colonial.jpg",
+      "archived_url": "https://web.archive.org/web/20250704110524id_/https://fa.behkooshan.ir/wp-content/uploads/Colonial.jpg",
+      "alt": "Colonial – main product image (slab surface)",
+      "alt_fa": "کلونیال – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Colonial",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 119697,
+      "sha1": "cfa56653fdec1556fb046f4264f1d7ba6465fa1b",
+      "seen_on": [
+        "product page https://fa.behkooshan.ir/product/colonial/"
+      ]
+    },
+    {
+      "file": "images/02-Colonial1.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Colonial1.jpg",
+      "archived_url": "https://web.archive.org/web/20250626074122id_/https://fa.behkooshan.ir/wp-content/uploads/Colonial1.jpg",
+      "alt": "Colonial – product listing image",
+      "alt_fa": "کلونیال – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 146850,
+      "sha1": "77cd98e9810231c279e959cae6174c227abdcea4",
+      "seen_on": [
+        "og:image of https://fa.behkooshan.ir/product/colonial/",
+        "product card on https://behkooshan.ir/product/bronze-antique/",
+        "product card on https://behkooshan.ir/product/casper/",
+        "product card on https://behkooshan.ir/product/milky-way/",
+        "product card on https://behkooshan.ir/product/platinium/",
+        "product card on https://fa.behkooshan.ir/product/andromeda/",
+        "product card on https://fa.behkooshan.ir/product/black-horse/",
+        "product card on https://fa.behkooshan.ir/product/dalmata/",
+        "product card on https://fa.behkooshan.ir/product/platinium/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=b065d8cabf71d8069ee10ab38d820fb9e6555bf5",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=b065d8cabf71d8069ee10ab38d820fb9e6555bf5&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:19:20Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=b065d8cabf71d8069ee10ab38d820fb9e6555bf5"
+      ],
+      "original_filename": "Colonial.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 119697,
+      "sha1": "cfa56653fdec1556fb046f4264f1d7ba6465fa1b",
+      "alt": "Colonial – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Colonial.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Colonial",
+    "en": "Colonial"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4268"
+    ],
+    "en": [
+      "4268"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-08-11T13:17:05",
+      "modified": "2024-04-20T10:37:35"
+    },
+    "en": {
+      "published": "2023-08-11T13:17:05",
+      "modified": "2023-09-26T18:34:21"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250704100428",
+        "archived": "https://web.archive.org/web/20250704100428/https://fa.behkooshan.ir/product/colonial/"
+      }
+    ],
+    "en": []
+  },
+  "legacy": null,
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}

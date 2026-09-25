@@ -1,0 +1,209 @@
+{
+  "slug": "magma-gold",
+  "category": "imported",
+  "category_label": {
+    "fa": "وارداتی",
+    "en": "Imported"
+  },
+  "name": {
+    "fa": "مگما گلد",
+    "en": "Magma Gold"
+  },
+  "description": {
+    "fa": null,
+    "en": null
+  },
+  "specs": {
+    "fa": {
+      "نوع": "گرانیت",
+      "کشور مبدا": "برزیل",
+      "رنگ": [
+        "کرم"
+      ],
+      "دسته‌بندی": "وارداتی"
+    },
+    "en": {
+      "Type": "Granite",
+      "Origin": "Brazil",
+      "Colour": [
+        "Cream"
+      ],
+      "Category": "Imported"
+    }
+  },
+  "urls": {
+    "fa": [
+      "https://fa.behkooshan.ir/product/magma-gold/"
+    ],
+    "en": [
+      "https://behkooshan.ir/product/magma-gold/"
+    ]
+  },
+  "images": [
+    {
+      "file": "images/01-Magma_Goldb.jpg",
+      "kind": "main",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Magma_Goldb.jpg",
+      "archived_url": "https://web.archive.org/web/20250706003627id_/https://fa.behkooshan.ir/wp-content/uploads/Magma_Goldb.jpg",
+      "alt": "Magma_Goldb",
+      "alt_fa": "مگما گلد – تصویر اصلی محصول (سطح اسلب)",
+      "site_alt": "Magma_Goldb",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 233783,
+      "sha1": "c890f8cf9dc0083ba3751f6aa0ed18d48a4c1771",
+      "seen_on": [
+        "product page https://behkooshan.ir/product/magma-gold/",
+        "product page https://fa.behkooshan.ir/product/magma-gold/"
+      ]
+    },
+    {
+      "file": "images/02-Magma_Gold.jpg",
+      "kind": "listing",
+      "source_url": "https://fa.behkooshan.ir/wp-content/uploads/Magma_Gold.jpg",
+      "archived_url": "https://web.archive.org/web/20250624001953id_/https://fa.behkooshan.ir/wp-content/uploads/Magma_Gold.jpg",
+      "alt": "Magma Gold – product listing image",
+      "alt_fa": "مگما گلد – تصویر فهرست محصولات",
+      "site_alt": null,
+      "width": 1077,
+      "height": 794,
+      "format": "JPEG",
+      "resolution": "original",
+      "bytes": 217903,
+      "sha1": "35ce6839e7137ffd9af080dfdb510d7d4c77cbdd",
+      "seen_on": [
+        "og:image of https://behkooshan.ir/product/magma-gold/",
+        "og:image of https://fa.behkooshan.ir/product/magma-gold/",
+        "product card on https://behkooshan.ir/",
+        "product card on https://behkooshan.ir/product/black-diamond/",
+        "product card on https://behkooshan.ir/product/black-galaxy/",
+        "product card on https://behkooshan.ir/product/cohiba/",
+        "product card on https://behkooshan.ir/product/dover-blue/",
+        "product card on https://behkooshan.ir/product/elegant-green/",
+        "product card on https://behkooshan.ir/product/jasmin/",
+        "product card on https://behkooshan.ir/product/titanium-mc/",
+        "product card on https://behkooshan.ir/product/tropical-storm/",
+        "product card on https://fa.behkooshan.ir/",
+        "product card on https://fa.behkooshan.ir/product/blanco-potiguar/",
+        "product card on https://fa.behkooshan.ir/product/infinity-gold/",
+        "product card on https://fa.behkooshan.ir/product/mercury-black/",
+        "product card on https://fa.behkooshan.ir/product/negresco/",
+        "product card on https://fa.behkooshan.ir/product/silver-fusion/",
+        "product sitemap"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source_url": "https://fa.behkooshan.ir/?jet_download=852192fa9c417e360f4b32814b9231785e922131",
+      "archived_url": null,
+      "retrieved_url": "https://fa-behkooshan-ir.translate.goog/?jet_download=852192fa9c417e360f4b32814b9231785e922131&_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en",
+      "retrieved_at": "2026-09-24T15:20:45Z",
+      "retrieved_via": "live site through Google Translate's website proxy (translate.goog), 2026-09-24",
+      "also_linked_from": [
+        "https://behkooshan.ir/?jet_download=852192fa9c417e360f4b32814b9231785e922131"
+      ],
+      "original_filename": "Magma_Goldb.jpg",
+      "width": 1052,
+      "height": 646,
+      "format": "JPEG",
+      "bytes": 233783,
+      "sha1": "c890f8cf9dc0083ba3751f6aa0ed18d48a4c1771",
+      "alt": "Magma Gold – texture (full slab surface, \"Texture Download\" file)",
+      "file": "images/01-Magma_Goldb.jpg",
+      "note": "identical to the product image file listed in images[]"
+    }
+  ],
+  "translated": {
+    "fa": true,
+    "en": false
+  },
+  "translated_fields": {
+    "fa": [
+      "name (the site shows only the Latin trade name, also on its Persian pages; Persian-script name written by me)",
+      "specs.رنگ (the site stores colours as the WooCommerce attribute terms black/blue/cream/green/grey/white/pink, in English on both language sites; the Persian labels are my translation)"
+    ],
+    "en": []
+  },
+  "site_names": {
+    "fa": "Magma Gold",
+    "en": "Magma Gold"
+  },
+  "site_post_ids": {
+    "fa": [
+      "4790"
+    ],
+    "en": [
+      "4790"
+    ]
+  },
+  "site_dates": {
+    "fa": {
+      "published": "2023-09-05T09:46:56",
+      "modified": "2024-04-20T11:46:43"
+    },
+    "en": {
+      "published": "2023-09-05T09:46:56",
+      "modified": "2023-09-26T17:39:45"
+    }
+  },
+  "listed_in_feb_2026_persian_sitemap": true,
+  "listed_on_live_site": {
+    "checked": "2026-09-24",
+    "fa": true,
+    "en": true
+  },
+  "projects": [],
+  "archived_pages": {
+    "fa": [
+      {
+        "captured": "20250627074317",
+        "archived": "https://web.archive.org/web/20250627074317/https://fa.behkooshan.ir/product/magma-gold/"
+      }
+    ],
+    "en": [
+      {
+        "captured": "20250618232609",
+        "archived": "https://web.archive.org/web/20250618232609/https://behkooshan.ir/product/magma-gold/"
+      }
+    ]
+  },
+  "legacy": {
+    "names_fa": [
+      "مگما گلد",
+      "مگما"
+    ],
+    "pages": [
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "مگما گلد",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7-%DA%AF%D9%84%D8%AF/",
+        "archived": "https://web.archive.org/web/20230131094855/https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7-%DA%AF%D9%84%D8%AF/",
+        "match_basis": "same trade name"
+      },
+      {
+        "site_version": "2021-2023 (www.behkooshan.ir, WordPress \"bk_product\")",
+        "name_fa": "مگما",
+        "category_path_fa": [
+          "اسلب",
+          "گرانیت ها"
+        ],
+        "url": "https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7/",
+        "archived": "https://web.archive.org/web/20230131111618/https://www.behkooshan.ir/bk_product/%D9%85%DA%AF%D9%85%D8%A7/",
+        "match_basis": "same trade name"
+      }
+    ],
+    "note": "Persian names used for this stone on older versions of the company website. They are kept verbatim (including the site's own spellings); the 2021-2023 pages only carried a generic feature/application template shared by all products (see products/_legacy/legacy-catalogue.json)."
+  },
+  "missing_images": [],
+  "missing_textures": [],
+  "notes": [
+    "Description: the live site (2026-09-24) has no description text for this product (the WooCommerce description and short description are empty on both language sites), so description is null."
+  ]
+}
