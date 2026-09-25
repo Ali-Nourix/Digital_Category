@@ -31,6 +31,7 @@ What it decides, and why:
 """
 
 import json
+import shutil
 from pathlib import Path
 
 import numpy as np
@@ -222,8 +223,20 @@ def main():
 
         textures = []
         for t in p["textures"]:
+            # Where the site's texture download is the product photograph
+            # itself, the research keeps the file once, under images/, which is
+            # not published. The copy people download goes out with the
+            # photographs instead, byte for byte.
+            file = f"research/products/{slug}/{t['file']}"
+            if t["file"].startswith("images/"):
+                source = folder / t["file"]
+                copy = MEDIA / slug / f"texture-{source.name}"
+                if not copy.exists() or copy.stat().st_size != source.stat().st_size:
+                    copy.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copyfile(source, copy)
+                file = str(copy.relative_to(ROOT))
             textures.append({
-                "file": f"research/products/{slug}/{t['file']}",
+                "file": file,
                 "width": t.get("width"),
                 "height": t.get("height"),
                 "bytes": t.get("bytes"),
@@ -281,8 +294,7 @@ def main():
             if by_colour[c] and len(band) < 12:
                 band.append(by_colour[c].pop(0))
     for n, r in enumerate(band):
-        research = RESEARCH / r["slug"] / r["textures"][0]["file"].split(f"research/products/{r['slug']}/", 1)[1]
-        surface = derive(r["slug"], research, 99, "surface")
+        surface = derive(r["slug"], ROOT / r["textures"][0]["file"], 99, "surface")
         surface["widths"] = [w for w in surface["widths"] if w >= 1200] or surface["widths"][-1:]
         r["surface"] = dict(surface, order=n)
     for f in MEDIA.glob("*/99-surface-*.webp"):
@@ -297,7 +309,8 @@ def main():
     for r in records:
         for ph in r["photos"] + ([r["surface"]] if r["surface"] else []):
             wanted.update(ROOT / f"{ph['base']}-{w}.webp" for w in ph["widths"])
-    for f in MEDIA.glob("*/*.webp"):
+        wanted.update(ROOT / t["file"] for t in r["textures"] if t["file"].startswith("media/"))
+    for f in MEDIA.glob("*/*"):
         if f not in wanted:
             f.unlink()
     for d in MEDIA.iterdir():

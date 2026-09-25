@@ -175,7 +175,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/alaska-white/images/01-Alaska-m.jpg",
+    "file": "media/alaska-white/texture-01-Alaska-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 132444,
@@ -394,7 +394,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/belissimo-verde/images/01-Belissimo-Verde.jpg",
+    "file": "media/belissimo-verde/texture-01-Belissimo-Verde.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 102561,
@@ -505,7 +505,7 @@
   },
   "textures": [
    {
-    "file": "research/products/bellatrix/images/01-Bellatrix.jpg",
+    "file": "media/bellatrix/texture-01-Bellatrix.jpg",
     "width": 1920,
     "height": 1229,
     "bytes": 129498,
@@ -1257,7 +1257,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/black-tempest/images/07-black-fantasy.jpg",
+    "file": "media/black-tempest/texture-07-black-fantasy.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 57282,
@@ -1557,7 +1557,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/blanco-potiguar/images/01-Blanco-Potiguar.jpg",
+    "file": "media/blanco-potiguar/texture-01-Blanco-Potiguar.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 177843,
@@ -1631,7 +1631,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/bronze-antique/images/01-bronze-antique.jpg",
+    "file": "media/bronze-antique/texture-01-bronze-antique.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 108312,
@@ -2281,7 +2281,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/colonial/images/01-Colonial.jpg",
+    "file": "media/colonial/texture-01-Colonial.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 119697,
@@ -2397,7 +2397,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/copper-dune/images/01-Copper-Dune-1.jpg",
+    "file": "media/copper-dune/texture-01-Copper-Dune-1.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 43727,
@@ -3063,7 +3063,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/elegant-brown/images/01-Elegant-Brown-1.jpg",
+    "file": "media/elegant-brown/texture-01-Elegant-Brown-1.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 38417,
@@ -3616,7 +3616,7 @@
     "format": "JPEG"
    },
    {
-    "file": "research/products/gando/images/01-Gando-1-m.jpg",
+    "file": "media/gando/texture-01-Gando-1-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 98968,
@@ -3692,7 +3692,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/grand-antique/images/01-Grand-Antique.jpg",
+    "file": "media/grand-antique/texture-01-Grand-Antique.jpg",
     "width": 1920,
     "height": 1229,
     "bytes": 196329,
@@ -3767,7 +3767,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/green-shadow/images/01-Green-Shadow-m.jpg",
+    "file": "media/green-shadow/texture-01-Green-Shadow-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 116121,
@@ -4218,7 +4218,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/jeriba-blue/images/01-030618-001_68a56ffa74e19_1755672570_compressed.jpg",
+    "file": "media/jeriba-blue/texture-01-030618-001_68a56ffa74e19_1755672570_compressed.jpg",
     "width": 1920,
     "height": 1211,
     "bytes": 150416,
@@ -4358,7 +4358,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/kojin/images/01-nehbandan.jpg",
+    "file": "media/kojin/texture-01-nehbandan.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 174730,
@@ -4505,7 +4505,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/kosmus-gold/images/01-Kosmus-Gold-m.jpg",
+    "file": "media/kosmus-gold/texture-01-Kosmus-Gold-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 267286,
@@ -4810,7 +4810,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/magma-gold/images/01-Magma_Goldb.jpg",
+    "file": "media/magma-gold/texture-01-Magma_Goldb.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 233783,
@@ -5009,7 +5009,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/mercury-black/images/01-mercury-black.jpg",
+    "file": "media/mercury-black/texture-01-mercury-black.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 13774,
@@ -5144,7 +5144,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/meteorus/images/01-ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
+    "file": "media/meteorus/texture-01-ChatGPT-Image-Dec-23-2025-10_44_38-AM.jpg",
     "width": 1492,
     "height": 859,
     "bytes": 702767,
@@ -5375,7 +5375,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/mont-blanc/images/01-Mont-Blanc.jpg",
+    "file": "media/mont-blanc/texture-01-Mont-Blanc.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 57137,
@@ -5447,7 +5447,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/mozzarella/images/02-Mozzarella-m.jpg",
+    "file": "media/mozzarella/texture-02-Mozzarella-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 103340,
@@ -5750,7 +5750,7 @@
   },
   "textures": [
    {
-    "file": "research/products/namibia-white/images/01-Namibia.jpg",
+    "file": "media/namibia-white/texture-01-Namibia.jpg",
     "width": 1880,
     "height": 1080,
     "bytes": 111847,
@@ -6264,7 +6264,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/negresco/images/01-Negresco-m.jpg",
+    "file": "media/negresco/texture-01-Negresco-m.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 137348,
@@ -6336,7 +6336,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/new-galaxy/images/01-new_galaxy.jpg",
+    "file": "media/new-galaxy/texture-01-new_galaxy.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 81968,
@@ -6547,7 +6547,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/new-patagonia/images/08-New-Patagonia-1.jpg",
+    "file": "media/new-patagonia/texture-08-New-Patagonia-1.jpg",
     "width": 1920,
     "height": 1077,
     "bytes": 218916,
@@ -6756,7 +6756,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/nysa/images/01-49031-001.jpg",
+    "file": "media/nysa/texture-01-49031-001.jpg",
     "width": 1920,
     "height": 786,
     "bytes": 214355,
@@ -8123,7 +8123,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/river-noire/images/02-4643-004-scaled.jpg",
+    "file": "media/river-noire/texture-02-4643-004-scaled.jpg",
     "width": 1771,
     "height": 1080,
     "bytes": 462112,
@@ -8206,7 +8206,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/river-stone/images/01-River-Stone.jpg",
+    "file": "media/river-stone/texture-01-River-Stone.jpg",
     "width": 1920,
     "height": 1189,
     "bytes": 103156,
@@ -8295,7 +8295,7 @@
     "format": "JPEG"
    },
    {
-    "file": "research/products/rosso-fantastico/images/03-Rosso-Fantastic.jpg",
+    "file": "media/rosso-fantastico/texture-03-Rosso-Fantastic.jpg",
     "width": 1920,
     "height": 1229,
     "bytes": 80602,
@@ -8368,7 +8368,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/rosso-levanto/images/01-Rosso-Levanto.jpg",
+    "file": "media/rosso-levanto/texture-01-Rosso-Levanto.jpg",
     "width": 1920,
     "height": 1016,
     "bytes": 296344,
@@ -8707,7 +8707,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/silver-fusion/images/01-silver_fusion.jpg",
+    "file": "media/silver-fusion/texture-01-silver_fusion.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 116041,
@@ -8849,7 +8849,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/spectrolite-blue/images/01-spectrolite_blue.jpg",
+    "file": "media/spectrolite-blue/texture-01-spectrolite_blue.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 161937,
@@ -9211,7 +9211,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/titanium-mc/images/01-titanium_mc-1.jpg",
+    "file": "media/titanium-mc/texture-01-titanium_mc-1.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 141092,
@@ -9600,7 +9600,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/venetian-granite/images/01-4615-007.jpg",
+    "file": "media/venetian-granite/texture-01-4615-007.jpg",
     "width": 1738,
     "height": 1080,
     "bytes": 760352,
@@ -9937,7 +9937,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/verde-imperial/images/01-verde-imperial.jpg",
+    "file": "media/verde-imperial/texture-01-verde-imperial.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 104132,
@@ -10172,7 +10172,7 @@
   "surface": null,
   "textures": [
    {
-    "file": "research/products/volga-blue/images/01-volga_blue1.jpg",
+    "file": "media/volga-blue/texture-01-volga_blue1.jpg",
     "width": 1052,
     "height": 646,
     "bytes": 187785,

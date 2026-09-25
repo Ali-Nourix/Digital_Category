@@ -37,7 +37,7 @@
   var ORIGIN = location.origin;
   var HOST = location.hostname;
   var STAMP = new Date().toISOString().slice(0, 10);
-  var FILE_EXT = /\.(jpe?g|png|webp|gif|svg|avif|bmp|tiff?|pdf|zip|rar|mp4|webm|mov|dwg|dxf|psd|ai|eps)$/i;
+  var FILE_EXT = /\.(jpe?g|png|webp|gif|svg|avif|bmp|tiff?|pdf|zip|rar|mp4|webm|mov|dwg|dxf|psd|ai|eps|css|js|woff2?|ttf|otf|eot)$/i;
 
   /* ----------------------------------------------------------- the panel */
 
@@ -332,7 +332,9 @@
         });
       });
     });
-    doc.querySelectorAll('meta[property="og:image"],meta[name="twitter:image"],link[rel~="icon"],link[rel="preload"][as="image"]').forEach(function (el) {
+    // The stylesheets, scripts and fonts the page loads, so the zip holds the
+    // page as it looks and not only its words and pictures.
+    doc.querySelectorAll('meta[property="og:image"],meta[name="twitter:image"],link[rel~="icon"],link[rel="preload"],link[rel~="stylesheet"]').forEach(function (el) {
       addFile(absolute(el.getAttribute("content") || el.getAttribute("href"), pageUrl), pageUrl);
     });
     // Anything else that looks like a file: inline styles, Elementor's JSON
@@ -498,9 +500,15 @@
       });
     }
 
+    // In rounds: a stylesheet names fonts and background pictures of its own,
+    // which are only known once it has been read, and are fetched next round.
     show("دانلود عکس‌ها و فایل‌ها…");
-    var files = Array.from(fileUrls.keys());
-    stats.filesAll = files.length;
+    var fetched = new Set();
+    for (var round = 0; round < 4 && !stopped; round += 1) {
+    var files = Array.from(fileUrls.keys()).filter(function (u) { return !fetched.has(u); });
+    if (!files.length) break;
+    files.forEach(function (u) { fetched.add(u); });
+    stats.filesAll = fileUrls.size;
     await pool(files, async function (url) {
       try {
         var res = await get(url);
@@ -515,6 +523,12 @@
           var named = disposition.match(/filename\*?=(?:UTF-8'')?"?([^";]+)"?/i);
           var ext = type.indexOf("jpeg") !== -1 ? ".jpg" : type.indexOf("png") !== -1 ? ".png" : type.indexOf("webp") !== -1 ? ".webp" : type.indexOf("pdf") !== -1 ? ".pdf" : type.indexOf("zip") !== -1 ? ".zip" : "";
           var bytes = new Uint8Array(await res.arrayBuffer());
+          if (type.indexOf("css") !== -1 || /\.css$/i.test(new URL(url).pathname)) {
+            var css = new TextDecoder().decode(bytes);
+            Array.from(css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)).forEach(function (m) {
+              if (!/^data:/i.test(m[1])) addFile(absolute(m[1], url), url);
+            });
+          }
           var file = named
             ? pathFor("files", ORIGIN + "/downloads/" + encodeURIComponent(decodeURIComponent(named[1])), ext)
             : pathFor("files", url, ext);
@@ -530,6 +544,7 @@
       stats.filesDone += 1;
       show();
     });
+    }
   } catch (e) {
     errors.push("stopped by an error: " + (e && e.stack || e));
   }
